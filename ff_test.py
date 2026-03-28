@@ -173,8 +173,8 @@ print("Labeling playoff rounds...")
 # ── PLAYOFF BRACKET LABELING ─────────────────────────────────────────────────
 print("Labeling playoff rounds...")
 
-# Get seeds from standings (already in order)
-seeded_teams = [row[0] for row in standings_rows]
+# Get seeds from regular-season record (wins desc, points_for desc as tiebreaker)
+seeded_teams = [row[0] for row in sorted(standings_rows, key=lambda r: (-int(r[2]), -float(r[5])))]
 playoff_teams = set(seeded_teams[:6])
 top_two = set(seeded_teams[:2])
 
@@ -331,8 +331,6 @@ for row in draft_rows:
 ws3 = wb.create_sheet("Matchups")
 ws3.append(["Week", "Team 1", "Score 1", "Team 2", "Score 2", "Playoff", "Round"])
 
-ws7.append(["Week", "Team 1", "Score 1", "Team 2", "Score 2", "Round"])
-ws7.append([row[0], row[1], row[2], row[3], row[4], row[6]])
 for row in matchup_rows:
     ws3.append(row)
 
