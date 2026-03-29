@@ -2,3 +2,9 @@ private.json
 token.json
 *.xlsx
 venv/
+.claude/
+settings_raw.json
+probe_settings.py
+probe_player_stats.json
+__pycache__/
+*.pyc
