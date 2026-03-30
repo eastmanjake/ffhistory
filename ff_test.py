@@ -41,6 +41,17 @@ TOKEN_URL = "https://api.login.yahoo.com/oauth2/get_token"
 BASE = "https://fantasysports.yahooapis.com/fantasy/v2"
 LEAGUE_KEY = f"{GAME_ID}.l.{LEAGUE_ID}"
 
+# Manual owner overrides: team_key -> real name (for missing/hidden Yahoo accounts)
+# Format: "game.l.league.t.N": "Name"  — use "?" suffix for guesses, "Unknown" if not known
+OWNER_OVERRIDES = {
+    "257.l.163099.t.5":  "Jacob S.",    # postseason champs (Yahoo: Jake)
+    "257.l.163099.t.6":  "Jacob E.",    # Goatse III (Yahoo: Jake)
+    "257.l.163099.t.2":  "Andre?",       # Jennys New Lover (hidden, guess)
+    "257.l.163099.t.3":  "Sean K.",     # 16-0 (hidden)
+    "257.l.163099.t.4":  "Richie?",     # old dirty bastard (hidden, guess)
+    "257.l.163099.t.8":  "Unknown",     # Taint Lickers (hidden)
+}
+
 def get_token():
     oauth = OAuth2Session(CONSUMER_KEY, redirect_uri=REDIRECT_URI)
     authorization_url, state = oauth.authorization_url(AUTHORIZATION_BASE_URL)
@@ -68,11 +79,18 @@ def get_session():
     return OAuth2Session(CONSUMER_KEY, token=token)
 
 def yahoo_get(session, url):
-    response = session.get(url, headers={"Accept": "application/json"})
-    if response.status_code == 401:
+    from oauthlib.oauth2.rfc6749.errors import TokenExpiredError
+    try:
+        response = session.get(url, headers={"Accept": "application/json"})
+    except TokenExpiredError:
         print("Token expired, re-authenticating...")
         token = get_token()
-        session = OAuth2Session(CONSUMER_KEY, token=token)
+        session.__dict__.update(OAuth2Session(CONSUMER_KEY, token=token).__dict__)
+        response = session.get(url, headers={"Accept": "application/json"})
+    if response.status_code == 401:
+        print("Token expired (401), re-authenticating...")
+        token = get_token()
+        session.__dict__.update(OAuth2Session(CONSUMER_KEY, token=token).__dict__)
         response = session.get(url, headers={"Accept": "application/json"})
     return response.json()
 
@@ -85,25 +103,29 @@ teams_raw = data["fantasy_content"]["league"][1]["standings"][0]["teams"]
 team_count = teams_raw["count"]
 
 standings_rows = []
+team_key_to_manager = {}
 for i in range(team_count):
     t = teams_raw[str(i)]["team"]
     info = t[0]
     standings = t[2]["team_standings"]
     name = next((x["name"] for x in info if isinstance(x, dict) and "name" in x), "")
+    team_key = next((x["team_key"] for x in info if isinstance(x, dict) and "team_key" in x), "")
     manager = ""
     for x in info:
         if isinstance(x, dict) and "managers" in x:
             manager = x["managers"][0]["manager"].get("nickname", "")
+    owner = OWNER_OVERRIDES.get(team_key) or manager or "Unknown"
+    team_key_to_manager[team_key] = owner
     outcomes = standings["outcome_totals"]
     standings_rows.append([
-        name, manager,
+        name, owner,
         outcomes["wins"], outcomes["losses"], outcomes["ties"],
         standings["points_for"], standings["points_against"],
         standings["rank"]
     ])
 
 print("\n=== STANDINGS ===")
-print(f"{'Rank':>4}  {'Team':<28} {'Manager':<18} {'W':>3} {'L':>3} {'T':>3} {'PF':>8} {'PA':>8}")
+print(f"{'Rank':>4}  {'Team':<28} {'Owner':<18} {'W':>3} {'L':>3} {'T':>3} {'PF':>8} {'PA':>8}")
 print("-" * 80)
 for r in sorted(standings_rows, key=lambda x: int(x[7])):
     print(f"{r[7]:>4}  {r[0]:<28} {r[1]:<18} {r[2]:>3} {r[3]:>3} {r[4]:>3} {float(r[5]):>8.2f} {float(r[6]):>8.2f}")
@@ -122,6 +144,13 @@ for i in range(team_count):
     name = next((x["name"] for x in info if isinstance(x, dict) and "name" in x), "")
     team_key = next((x["team_key"] for x in info if isinstance(x, dict) and "team_key" in x), "")
     team_key_to_name[team_key] = name
+
+print("\n=== OWNER MAPPING ===")
+print(f"  {'Team Key':<22} {'Team Name':<28} {'Owner (Yahoo → used)'}")
+print("  " + "-" * 72)
+for tk, owner in team_key_to_manager.items():
+    tname = team_key_to_name.get(tk, tk)
+    print(f"  {tk:<22} {tname:<28} {owner}")
 
 # Collect all pick data and player keys
 raw_picks = []
@@ -349,19 +378,21 @@ for team_key in team_keys:
                     pteam = x["editorial_team_abbr"]
                 if isinstance(x, dict) and "status" in x:
                     pstatus = x["status"]
-            roster_rows.append([SEASON_YEAR, team_name, pname, pposition, pteam, pstatus])
+            owner = team_key_to_manager.get(team_key, "Unknown")
+            roster_rows.append([SEASON_YEAR, team_name, owner, pname, pposition, pteam, pstatus])
         print(f"  {team_name}: {p_count} players")
         time.sleep(0.5)
     except Exception as e:
         print(f"  Error fetching roster for {team_name}: {e}")
 
 print(f"\n=== END OF SEASON ROSTERS (first 20 of {len(roster_rows)}) ===")
-print(f"{'Fantasy Team':<28} {'Player':<25} {'Pos':<6} {'NFL Team':<10} {'Status'}")
-print("-" * 80)
+print(f"{'Fantasy Team':<28} {'Owner':<18} {'Player':<25} {'Pos':<6} {'NFL Team':<10} {'Status'}")
+print("-" * 96)
 for r in roster_rows[:20]:
-    print(f"{r[1]:<28} {r[2]:<25} {r[3]:<6} {r[4]:<10} {r[5]}")
+    print(f"{r[1]:<28} {r[2]:<18} {r[3]:<25} {r[4]:<6} {r[5]:<10} {r[6]}")
 if len(roster_rows) > 20:
     print(f"  ... and {len(roster_rows) - 20} more roster spots")
+
 
 print("\n=== LEAGUE SCORING SETTINGS ===")
 print(f"{'Stat':<35} {'Pts':>6}")
@@ -373,7 +404,7 @@ for r in settings_rows:
 # Fetch roster (for slot) and player points (from Yahoo) in two calls per team/week,
 # joined by player_key.
 
-LINEUP_HEADERS = ["Week", "Fantasy Team", "Slot", "Player", "Pos", "NFL Team", "Fantasy Pts"]
+LINEUP_HEADERS = ["Week", "Fantasy Team", "Owner", "Slot", "Player", "Pos", "NFL Team", "Fantasy Pts"]
 
 print("\nFetching weekly lineups + Yahoo fantasy points...")
 player_week_rows = []
@@ -418,9 +449,10 @@ for week in range(1, NUM_WEEKS + 1):
                 pts_by_key[pk] = sb.get("player_points", {}).get("total", "")
             time.sleep(0.2)
 
+            owner = team_key_to_manager.get(team_key, "Unknown")
             for pk, slot, pname, ppos, pteam in players_this_week:
                 pts = pts_by_key.get(pk, "")
-                player_week_rows.append([week, team_name, slot, pname, ppos, pteam, pts])
+                player_week_rows.append([week, team_name, owner, slot, pname, ppos, pteam, pts])
 
         except Exception as e:
             print(f"    Error {team_name} week {week}: {e}")
@@ -429,11 +461,13 @@ print(f"  {len(player_week_rows)} player-week records fetched.")
 
 # Console preview: week 1, first team
 preview_team = next((r[1] for r in player_week_rows if r[0] == 1), "")
-print(f"\n=== WEEKLY LINEUPS + POINTS PREVIEW (Week 1 — {preview_team}) ===")
+preview_owner = next((r[2] for r in player_week_rows if r[0] == 1 and r[1] == preview_team), "")
+print(f"\n=== WEEKLY LINEUPS + POINTS PREVIEW (Week 1 — {preview_team} / {preview_owner}) ===")
 print(f"{'Slot':<6} {'Player':<25} {'Pos':<5} {'NFL':<5} {'Pts':>7}")
 print("-" * 52)
 for r in [x for x in player_week_rows if x[0] == 1 and x[1] == preview_team]:
-    print(f"{r[2]:<6} {r[3]:<25} {r[4]:<5} {r[5]:<5} {str(r[6]):>7}")
+    # r = [week, team_name, owner, slot, player, pos, nfl_team, pts]
+    print(f"{r[3]:<6} {r[4]:<25} {r[5]:<5} {r[6]:<5} {str(r[7]):>7}")
 
 # ── EXPORT TO EXCEL (pass --export to enable) ─────────────────────────────────
 if EXPORT:
@@ -442,7 +476,7 @@ if EXPORT:
 
     ws = wb.active
     ws.title = "Standings"
-    ws.append(["Team", "Manager", "Wins", "Losses", "Ties", "Points For", "Points Against", "Rank"])
+    ws.append(["Team", "Owner", "Wins", "Losses", "Ties", "Points For", "Points Against", "Rank"])
     for row in standings_rows:
         ws.append(row)
 
@@ -462,7 +496,7 @@ if EXPORT:
         ws5.append(row)
 
     ws6 = wb.create_sheet("End of Season Rosters")
-    ws6.append(["Season", "Fantasy Team", "Player", "Position", "NFL Team", "Status"])
+    ws6.append(["Season", "Fantasy Team", "Owner", "Player", "Position", "NFL Team", "Status"])
     for row in roster_rows:
         ws6.append(row)
 
