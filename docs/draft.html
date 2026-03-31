@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Draft History — The League</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">🏈 The League</a>
+    <a href="index.html">Home</a>
+    <a href="season.html">Seasons</a>
+    <a href="alltime.html">All-Time</a>
+    <a href="h2h.html">Head-to-Head</a>
+    <a href="draft.html" class="active">Draft</a>
+  </div>
+</nav>
+
+<main>
+  <div class="page-header">
+    <h1>Draft History</h1>
+  </div>
+
+  <div class="controls">
+    <label for="year-select">Season</label>
+    <select id="year-select"></select>
+  </div>
+
+  <div id="content"><p class="loading">Loading…</p></div>
+</main>
+
+<script src="js/utils.js"></script>
+<script>
+const yearSelect = document.getElementById('year-select');
+for (const y of [...SEASONS].reverse()) {
+  yearSelect.appendChild(new Option(y, y));
+}
+const params = new URLSearchParams(location.search);
+if (params.has('year') && SEASONS.includes(parseInt(params.get('year')))) {
+  yearSelect.value = params.get('year');
+}
+
+yearSelect.addEventListener('change', () => {
+  const url = new URL(location.href);
+  url.searchParams.set('year', yearSelect.value);
+  history.replaceState({}, '', url);
+  loadYear(parseInt(yearSelect.value));
+});
+
+async function loadYear(year) {
+  const content = document.getElementById('content');
+  content.innerHTML = '<p class="loading">Loading…</p>';
+
+  const [picks, standings] = await Promise.all([
+    loadFile(year, 'draft.json'),
+    loadFile(year, 'standings.json'),
+  ]);
+
+  // Determine draft slots from round 1 (pick order = draft position)
+  const round1 = picks.filter(p => p.round === 1).sort((a, b) => a.pick - b.pick);
+  const draftOrder = round1.map(p => p.team); // index 0 = pick #1 overall
+
+  const numRounds = Math.max(...picks.map(p => p.round));
+  const numTeams  = draftOrder.length;
+
+  // Build grid: grid[round][slot] = pick
+  const grid = {};
+  for (const p of picks) {
+    const pickInRound = ((p.pick - 1) % numTeams); // 0-indexed
+    // Snake: even rounds (0-indexed) go right→left
+    const roundIdx = p.round - 1;
+    const slot = (roundIdx % 2 === 0) ? pickInRound : (numTeams - 1 - pickInRound);
+    if (!grid[p.round]) grid[p.round] = {};
+    grid[p.round][slot] = p;
+  }
+
+  // Team owner map
+  const teamOwner = buildTeamOwnerMap(standings);
+
+  // Build table HTML
+  const teamHeaders = draftOrder.map(t =>
+    `<th style="min-width:100px;max-width:130px">${t}<br><span style="font-weight:400;text-transform:none;font-size:10px;color:var(--muted)">${teamOwner[t] || ''}</span></th>`
+  ).join('');
+
+  const posClass = pos => {
+    const base = (pos || '').split('/')[0].toUpperCase();
+    return `pos-${base}`;
+  };
+
+  let rowsHtml = '';
+  for (let r = 1; r <= numRounds; r++) {
+    let cells = `<td class="round-cell">Rd ${r}</td>`;
+    for (let slot = 0; slot < numTeams; slot++) {
+      const pick = grid[r]?.[slot];
+      if (pick) {
+        cells += `<td><div class="draft-pick">
+          <div class="player">${pick.player}</div>
+          <div class="pos ${posClass(pick.position)}">${pick.position}</div>
+        </div></td>`;
+      } else {
+        cells += `<td style="color:var(--border)">—</td>`;
+      }
+    }
+    rowsHtml += `<tr>${cells}</tr>`;
+  }
+
+  content.innerHTML = `
+    <section>
+      <h2>${year} Draft Board &mdash; ${picks.length} picks, ${numRounds} rounds</h2>
+    </section>
+    <div class="draft-wrap">
+      <table class="draft-table">
+        <thead>
+          <tr>
+            <th style="min-width:48px">Round</th>
+            ${teamHeaders}
+          </tr>
+        </thead>
+        <tbody>${rowsHtml}</tbody>
+      </table>
+    </div>
+
+    <section style="margin-top:32px">
+      <h2>Pick-by-Pick List</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr>
+            <th class="num">Rd</th>
+            <th class="num">Pick</th>
+            <th>Team</th>
+            <th>Owner</th>
+            <th>Player</th>
+            <th>Position</th>
+          </tr></thead>
+          <tbody>
+            ${picks.sort((a,b) => a.pick - b.pick).map(p => `
+              <tr>
+                <td class="num">${p.round}</td>
+                <td class="num">${p.pick}</td>
+                <td>${p.team}</td>
+                <td>${teamOwner[p.team] || ''}</td>
+                <td>${p.player}</td>
+                <td><span class="pos ${posClass(p.position)}">${p.position}</span></td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  `;
+}
+
+loadYear(parseInt(yearSelect.value));
+</script>
+</body>
+</html>

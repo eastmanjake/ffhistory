@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Head-to-Head — The League</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">🏈 The League</a>
+    <a href="index.html">Home</a>
+    <a href="season.html">Seasons</a>
+    <a href="alltime.html">All-Time</a>
+    <a href="h2h.html" class="active">Head-to-Head</a>
+    <a href="draft.html">Draft</a>
+  </div>
+</nav>
+
+<main>
+  <div class="page-header">
+    <h1>Head-to-Head</h1>
+  </div>
+
+  <div class="controls">
+    <label>Owner 1</label>
+    <select id="owner1-select"><option>Loading…</option></select>
+    <label>vs.</label>
+    <select id="owner2-select"><option>Loading…</option></select>
+  </div>
+
+  <div id="content"><p class="loading">Loading…</p></div>
+</main>
+
+<script src="js/utils.js"></script>
+<script>
+let allMatchups = null;
+let ownerList   = null;
+
+async function init() {
+  [allMatchups, ownerList] = await Promise.all([
+    getAllMatchupsWithOwners(),
+    getOwnerList(),
+  ]);
+
+  const sel1 = document.getElementById('owner1-select');
+  const sel2 = document.getElementById('owner2-select');
+  sel1.innerHTML = '';
+  sel2.innerHTML = '';
+  ownerList.forEach(o => {
+    sel1.appendChild(new Option(o, o));
+    sel2.appendChild(new Option(o, o));
+  });
+
+  // Default: Jake vs Andre (two of the most active)
+  sel1.value = ownerList.includes('Jake')  ? 'Jake'  : ownerList[0];
+  sel2.value = ownerList.includes('Andre') ? 'Andre' : ownerList[1];
+
+  // Honor URL params
+  const params = new URLSearchParams(location.search);
+  if (params.has('o1') && ownerList.includes(params.get('o1'))) sel1.value = params.get('o1');
+  if (params.has('o2') && ownerList.includes(params.get('o2'))) sel2.value = params.get('o2');
+
+  sel1.addEventListener('change', render);
+  sel2.addEventListener('change', render);
+  render();
+}
+
+function render() {
+  const o1 = document.getElementById('owner1-select').value;
+  const o2 = document.getElementById('owner2-select').value;
+
+  const url = new URL(location.href);
+  url.searchParams.set('o1', o1);
+  url.searchParams.set('o2', o2);
+  history.replaceState({}, '', url);
+
+  const content = document.getElementById('content');
+
+  if (o1 === o2) {
+    content.innerHTML = '<p class="empty">Select two different owners.</p>';
+    return;
+  }
+
+  // Filter matchups where both owners played
+  const games = allMatchups.filter(m =>
+    (m.owner1 === o1 && m.owner2 === o2) ||
+    (m.owner1 === o2 && m.owner2 === o1)
+  ).sort((a, b) => a.year - b.year || a.week - b.week);
+
+  if (games.length === 0) {
+    content.innerHTML = `<p class="empty">${o1} and ${o2} have never played each other.</p>`;
+    return;
+  }
+
+  // Compute record from o1's perspective
+  let w1 = 0, w2 = 0, ties = 0;
+  let pf1 = 0, pf2 = 0;
+  games.forEach(g => {
+    const s1 = g.owner1 === o1 ? g.score1 : g.score2;
+    const s2 = g.owner1 === o1 ? g.score2 : g.score1;
+    pf1 += s1; pf2 += s2;
+    if (s1 > s2) w1++;
+    else if (s2 > s1) w2++;
+    else ties++;
+  });
+
+  const total = games.length;
+  const pct1 = total ? w1 / total : 0;
+  const pct2 = total ? w2 / total : 0;
+  const avg1 = total ? pf1 / total : 0;
+  const avg2 = total ? pf2 / total : 0;
+
+  // Game log rows
+  const gameRows = games.map(g => {
+    const myScore  = g.owner1 === o1 ? g.score1 : g.score2;
+    const oppScore = g.owner1 === o1 ? g.score2 : g.score1;
+    const myTeam   = g.owner1 === o1 ? g.team1  : g.team2;
+    const oppTeam  = g.owner1 === o1 ? g.team2  : g.team1;
+    const won = myScore > oppScore;
+    const tied = myScore === oppScore;
+    const result = tied ? '<span class="badge badge-gray">T</span>'
+                       : won ? '<span class="badge badge-green">W</span>'
+                              : '<span class="badge badge-red">L</span>';
+    const round = g.round ? `<span class="badge badge-blue">${g.round}</span>` : '';
+    return `<tr>
+      <td><a href="season.html?year=${g.year}">${g.year}</a></td>
+      <td class="num">Wk ${g.week}</td>
+      <td>${result}</td>
+      <td style="color:var(--muted);font-size:12px">${myTeam}</td>
+      <td class="num" style="${won?'font-weight:600':'color:var(--muted)'}">${myScore.toFixed(2)}</td>
+      <td style="color:var(--border);text-align:center">—</td>
+      <td style="color:var(--muted);font-size:12px">${oppTeam}</td>
+      <td class="num" style="${!won&&!tied?'font-weight:600':'color:var(--muted)'}">${oppScore.toFixed(2)}</td>
+      <td>${round}</td>
+    </tr>`;
+  }).join('');
+
+  content.innerHTML = `
+    <div class="h2h-record">
+      <div class="h2h-owner">
+        <div class="name">${o1}</div>
+        <div class="wins">${w1}</div>
+        <div class="winpct">${pctStr(pct1)} win rate</div>
+        <div style="color:var(--muted);font-size:12px;margin-top:4px">${avg1.toFixed(1)} avg pts</div>
+      </div>
+      <div class="h2h-vs">${ties > 0 ? `${ties} tie${ties > 1 ? 's' : ''}` : 'vs'}</div>
+      <div class="h2h-owner">
+        <div class="name">${o2}</div>
+        <div class="wins">${w2}</div>
+        <div class="winpct">${pctStr(pct2)} win rate</div>
+        <div style="color:var(--muted);font-size:12px;margin-top:4px">${avg2.toFixed(1)} avg pts</div>
+      </div>
+    </div>
+
+    <section>
+      <h2>${total} Games Played</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr>
+            <th>Year</th>
+            <th class="num">Week</th>
+            <th>Result</th>
+            <th>${o1} Team</th>
+            <th class="num">Score</th>
+            <th></th>
+            <th>${o2} Team</th>
+            <th class="num">Score</th>
+            <th></th>
+          </tr></thead>
+          <tbody>${gameRows}</tbody>
+        </table>
+      </div>
+    </section>
+  `;
+}
+
+init().catch(console.error);
+</script>
+</body>
+</html>

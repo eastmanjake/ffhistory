@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The League — Fantasy Football History</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">🏈 The League</a>
+    <a href="index.html" class="active">Home</a>
+    <a href="season.html">Seasons</a>
+    <a href="alltime.html">All-Time</a>
+    <a href="h2h.html">Head-to-Head</a>
+    <a href="draft.html">Draft</a>
+  </div>
+</nav>
+
+<main>
+  <div class="hero">
+    <h1>The League</h1>
+    <p class="subtitle">Fantasy Football History &bull; 2011&ndash;2025</p>
+    <div class="stats-row">
+      <div class="stat">
+        <div class="stat-value">15</div>
+        <div class="stat-label">Seasons</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="stat-owners">—</div>
+        <div class="stat-label">Owners</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="stat-games">—</div>
+        <div class="stat-label">Games Played</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="stat-most-champ">—</div>
+        <div class="stat-label">Most Championships</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="two-col">
+    <section>
+      <h2>Hall of Champions</h2>
+      <div class="table-wrap">
+        <table id="champ-table">
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Champion</th>
+              <th>Owner</th>
+              <th class="num">Score</th>
+              <th>Runner-Up</th>
+              <th class="num">Score</th>
+            </tr>
+          </thead>
+          <tbody><tr><td colspan="6" class="loading">Loading…</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Championship Count</h2>
+      <div class="table-wrap">
+        <table id="rings-table">
+          <thead>
+            <tr>
+              <th>Owner</th>
+              <th>Rings</th>
+              <th>Years</th>
+            </tr>
+          </thead>
+          <tbody><tr><td colspan="3" class="loading">Loading…</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+</main>
+
+<script src="js/utils.js"></script>
+<script>
+async function init() {
+  const [champions, allStandings] = await Promise.all([
+    getChampions(),
+    loadAllSeasons('standings.json'),
+  ]);
+
+  // ── Hall of Champions (newest first) ──────────────────────────
+  const champTbody = document.querySelector('#champ-table tbody');
+  champTbody.innerHTML = '';
+  [...champions].reverse().forEach(c => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td><a href="season.html?year=${c.year}">${c.year}</a></td>
+      <td><strong>${c.team}</strong></td>
+      <td>${c.owner}</td>
+      <td class="num">${fmt2(c.score)}</td>
+      <td style="color:var(--muted)">${c.opponent}</td>
+      <td class="num">${fmt2(c.oppScore)}</td>
+    `;
+    champTbody.appendChild(tr);
+  });
+
+  // ── Rings leaderboard ──────────────────────────────────────────
+  const ringCounts = {}, ringYears = {};
+  champions.forEach(c => {
+    ringCounts[c.owner] = (ringCounts[c.owner] || 0) + 1;
+    (ringYears[c.owner] = ringYears[c.owner] || []).push(c.year);
+  });
+  const ringsData = Object.entries(ringCounts).sort((a, b) => b[1] - a[1]);
+
+  const ringsTbody = document.querySelector('#rings-table tbody');
+  ringsTbody.innerHTML = '';
+  ringsData.forEach(([owner, count]) => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td>${owner}</td>
+      <td>${'🏆'.repeat(count)}</td>
+      <td style="color:var(--muted);font-size:12px">${ringYears[owner].join(', ')}</td>
+    `;
+    ringsTbody.appendChild(tr);
+  });
+
+  // ── Hero stats ─────────────────────────────────────────────────
+  const allOwners = new Set();
+  let totalGames = 0;
+  for (const standings of Object.values(allStandings)) {
+    if (!standings) continue;
+    for (const t of standings) {
+      allOwners.add(normOwner(t.owner));
+      totalGames += (parseInt(t.wins) || 0) + (parseInt(t.losses) || 0);
+    }
+  }
+  totalGames /= 2; // each game counted twice
+
+  const maxRings = ringsData[0][1];
+  const topOwners = ringsData.filter(([,c]) => c === maxRings).map(([o]) => o);
+
+  document.getElementById('stat-owners').textContent = allOwners.size;
+  document.getElementById('stat-games').textContent = Math.round(totalGames);
+  document.getElementById('stat-most-champ').textContent =
+    `${topOwners.join('/')} (${maxRings})`;
+}
+
+init().catch(console.error);
+</script>
+</body>
+</html>

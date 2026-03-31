@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All-Time Records — The League</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">🏈 The League</a>
+    <a href="index.html">Home</a>
+    <a href="season.html">Seasons</a>
+    <a href="alltime.html" class="active">All-Time</a>
+    <a href="h2h.html">Head-to-Head</a>
+    <a href="draft.html">Draft</a>
+  </div>
+</nav>
+
+<main>
+  <div class="page-header">
+    <h1>All-Time Records</h1>
+    <p>Click any column header to sort</p>
+  </div>
+
+  <section>
+    <h2>Owner Stats</h2>
+    <div class="table-wrap">
+      <table id="stats-table">
+        <thead>
+          <tr>
+            <th class="sortable">Owner</th>
+            <th class="sortable num">Seasons</th>
+            <th class="sortable num">W</th>
+            <th class="sortable num">L</th>
+            <th class="sortable num">Win%</th>
+            <th class="sortable num">PF/Season</th>
+            <th class="sortable num">Total PF</th>
+            <th class="sortable num">Championships</th>
+          </tr>
+        </thead>
+        <tbody><tr><td colspan="8" class="loading">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Season-by-Season Records</h2>
+    <p style="color:var(--muted);font-size:12px;margin-bottom:12px">
+      <span style="background:rgba(212,160,23,0.18);color:var(--gold);padding:1px 6px;border-radius:3px">W-L</span> = Champion &nbsp;
+      <span style="background:rgba(63,185,80,0.08);color:var(--green);padding:1px 6px;border-radius:3px">W-L</span> = Playoff appearance &nbsp;
+      <span style="color:var(--muted)">W-L</span> = Regular finish &nbsp;
+      <span style="color:var(--border)">—</span> = Did not play
+    </p>
+    <div class="season-grid-wrap">
+      <table class="season-grid" id="grid-table">
+        <thead></thead>
+        <tbody><tr><td class="loading" colspan="17">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<script src="js/utils.js"></script>
+<script>
+async function init() {
+  const [ownerStats, allStandings, allMatchups, champions] = await Promise.all([
+    getOwnerStats(),
+    loadAllSeasons('standings.json'),
+    loadAllSeasons('matchups.json'),
+    getChampions(),
+  ]);
+
+  // ── Owner stats table ──────────────────────────────────────────
+  const champSet = new Set(champions.map(c => c.owner));
+  const tbody = document.querySelector('#stats-table tbody');
+  tbody.innerHTML = '';
+
+  ownerStats.forEach(s => {
+    const tr = document.createElement('tr');
+    if (s.championships > 0) tr.classList.add('is-champ');
+    tr.innerHTML = `
+      <td>${s.championships > 0 ? '🏆 ' : ''}${s.owner}</td>
+      <td class="num" data-val="${s.seasons}">${s.seasons}</td>
+      <td class="num" data-val="${s.wins}">${s.wins}</td>
+      <td class="num" data-val="${s.losses}">${s.losses}</td>
+      <td class="num" data-val="${s.winPct}">${pctStr(s.winPct)}</td>
+      <td class="num" data-val="${s.avgPF}">${s.avgPF.toFixed(1)}</td>
+      <td class="num" data-val="${s.pf}">${s.pf.toFixed(0)}</td>
+      <td class="num" data-val="${s.championships}">${s.championships > 0 ? '🏆 '.repeat(s.championships).trim() : '—'}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+
+  makeSortableTable(document.getElementById('stats-table'));
+
+  // ── Season grid ────────────────────────────────────────────────
+  // Build per-season data: {year: {team: {wins, losses, isChamp, isPlayoff}}}
+  const champByYear = {};
+  champions.forEach(c => { champByYear[c.year] = c.team; });
+
+  // Determine playoff teams per year (teams that appeared in any playoff matchup)
+  const playoffTeamsByYear = {};
+  for (const year of SEASONS) {
+    const matchups = allMatchups[year] || [];
+    const playoffTeams = new Set(
+      matchups.filter(m => m.playoff).flatMap(m => [m.team1, m.team2])
+    );
+    playoffTeamsByYear[year] = playoffTeams;
+  }
+
+  // Build owner→year→record map
+  const ownerYearRecord = {}; // {owner: {year: {w, l, isChamp, isPlayoff}}}
+  for (const year of SEASONS) {
+    const standings = allStandings[year] || [];
+    for (const t of standings) {
+      const owner = normOwner(t.owner);
+      if (!ownerYearRecord[owner]) ownerYearRecord[owner] = {};
+      ownerYearRecord[owner][year] = {
+        w: parseInt(t.wins) || 0,
+        l: parseInt(t.losses) || 0,
+        isChamp: t.team === champByYear[year],
+        isPlayoff: playoffTeamsByYear[year]?.has(t.team) || false,
+      };
+    }
+  }
+
+  // Sort owners same as stats table (by championships desc, wins desc)
+  const sortedOwners = ownerStats.map(s => s.owner);
+
+  // Build grid header
+  const gridHead = document.querySelector('#grid-table thead');
+  const headerRow = document.createElement('tr');
+  headerRow.innerHTML = `<th style="text-align:left;min-width:90px">Owner</th>` +
+    SEASONS.map(y => `<th style="min-width:52px"><a href="season.html?year=${y}" style="color:var(--muted)">${y}</a></th>`).join('');
+  gridHead.appendChild(headerRow);
+
+  // Build grid body
+  const gridBody = document.querySelector('#grid-table tbody');
+  gridBody.innerHTML = '';
+  sortedOwners.forEach(owner => {
+    const tr = document.createElement('tr');
+    let cells = `<td class="owner-cell">${owner}</td>`;
+    for (const year of SEASONS) {
+      const rec = ownerYearRecord[owner]?.[year];
+      if (!rec) {
+        cells += `<td class="empty-cell">—</td>`;
+      } else {
+        const cls = rec.isChamp ? 'champ-cell' : rec.isPlayoff ? 'playoff-cell' : '';
+        cells += `<td class="${cls}" title="${year}: ${rec.w}W ${rec.l}L">${rec.w}-${rec.l}</td>`;
+      }
+    }
+    tr.innerHTML = cells;
+    gridBody.appendChild(tr);
+  });
+}
+
+init().catch(console.error);
+</script>
+</body>
+</html>

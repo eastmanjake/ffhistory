@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Season Browser — The League</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">🏈 The League</a>
+    <a href="index.html">Home</a>
+    <a href="season.html" class="active">Seasons</a>
+    <a href="alltime.html">All-Time</a>
+    <a href="h2h.html">Head-to-Head</a>
+    <a href="draft.html">Draft</a>
+  </div>
+</nav>
+
+<main>
+  <div class="page-header">
+    <h1 id="page-title">Season Browser</h1>
+  </div>
+
+  <div class="controls">
+    <label for="year-select">Season</label>
+    <select id="year-select"></select>
+  </div>
+
+  <div id="content"><p class="loading">Loading…</p></div>
+</main>
+
+<script src="js/utils.js"></script>
+<script>
+const yearSelect = document.getElementById('year-select');
+
+// Populate year dropdown (newest first)
+for (const y of [...SEASONS].reverse()) {
+  const opt = document.createElement('option');
+  opt.value = y;
+  opt.textContent = y;
+  yearSelect.appendChild(opt);
+}
+
+// Honor ?year= param
+const params = new URLSearchParams(location.search);
+if (params.has('year') && SEASONS.includes(parseInt(params.get('year')))) {
+  yearSelect.value = params.get('year');
+}
+
+yearSelect.addEventListener('change', () => {
+  const url = new URL(location.href);
+  url.searchParams.set('year', yearSelect.value);
+  history.replaceState({}, '', url);
+  loadYear(parseInt(yearSelect.value));
+});
+
+async function loadYear(year) {
+  document.getElementById('page-title').textContent = `${year} Season`;
+  const content = document.getElementById('content');
+  content.innerHTML = '<p class="loading">Loading…</p>';
+
+  const [standings, matchups] = await Promise.all([
+    loadFile(year, 'standings.json'),
+    loadFile(year, 'matchups.json'),
+  ]);
+
+  const teamOwner = buildTeamOwnerMap(standings);
+
+  // Determine champion from matchups
+  const champGame = matchups.find(m => m.round === 'Championship');
+  let champTeam = null;
+  if (champGame) {
+    const s1 = parseFloat(champGame.score1), s2 = parseFloat(champGame.score2);
+    champTeam = s1 > s2 ? champGame.team1 : champGame.team2;
+  }
+
+  // Regular season matchups (for week range)
+  const regularMatchups = matchups.filter(m => !m.playoff);
+  const playoffMatchups  = matchups.filter(m => m.playoff);
+
+  // Group matchups by week
+  const byWeek = {};
+  for (const m of matchups) {
+    (byWeek[m.week] = byWeek[m.week] || []).push(m);
+  }
+  const allWeeks = Object.keys(byWeek).map(Number).sort((a, b) => a - b);
+  const regWeeks     = allWeeks.filter(w => !byWeek[w][0].playoff);
+  const playoffWeeks = allWeeks.filter(w => byWeek[w][0].playoff);
+
+  // ── Standings ────────────────────────────────────────────────
+  const sortedStandings = [...standings].sort((a, b) => parseInt(a.rank) - parseInt(b.rank));
+
+  const standingRows = sortedStandings.map(t => {
+    const isChamp = t.team === champTeam;
+    return `<tr class="${isChamp ? 'is-champ' : ''}">
+      <td class="num">${t.rank}</td>
+      <td>${isChamp ? '🏆 ' : ''}${t.team}</td>
+      <td>${t.owner}</td>
+      <td class="num">${t.wins}</td>
+      <td class="num">${t.losses}</td>
+      <td class="num">${t.ties > 0 ? t.ties : ''}</td>
+      <td class="num">${parseFloat(t.points_for).toFixed(2)}</td>
+      <td class="num">${parseFloat(t.points_against).toFixed(2)}</td>
+    </tr>`;
+  }).join('');
+
+  // ── Playoff results ──────────────────────────────────────────
+  const roundOrder = ['Championship', '3rd Place', 'Semifinal', 'Quarterfinal', 'Consolation'];
+  const playoffRows = playoffMatchups
+    .filter(m => m.round)
+    .sort((a, b) => {
+      const ai = roundOrder.indexOf(a.round), bi = roundOrder.indexOf(b.round);
+      return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
+    })
+    .map(m => {
+      const s1 = parseFloat(m.score1), s2 = parseFloat(m.score2);
+      const w = s1 > s2 ? 1 : 2;
+      return `<tr>
+        <td><span class="badge badge-gold">${m.round}</span></td>
+        <td style="${w===1?'font-weight:600':'color:var(--muted)'}">${m.team1}</td>
+        <td class="num" style="${w===1?'font-weight:600':'color:var(--muted)'}">${s1.toFixed(2)}</td>
+        <td style="color:var(--muted);text-align:center">vs</td>
+        <td style="${w===2?'font-weight:600':'color:var(--muted)'}">${m.team2}</td>
+        <td class="num" style="${w===2?'font-weight:600':'color:var(--muted)'}">${s2.toFixed(2)}</td>
+      </tr>`;
+    }).join('');
+
+  // ── Weekly matchups ──────────────────────────────────────────
+  const weekRows = allWeeks.map(week => {
+    const games = byWeek[week];
+    const isPlayoff = games[0].playoff;
+    const header = `<tr>
+      <td colspan="6" style="background:var(--surface2);color:var(--muted);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;padding:6px 12px">
+        Week ${week}${isPlayoff ? ' — Playoffs' : ''}
+      </td>
+    </tr>`;
+    const gameRows = games.map(m => {
+      const s1 = parseFloat(m.score1), s2 = parseFloat(m.score2);
+      const w = s1 > s2 ? 1 : 2;
+      return `<tr>
+        <td style="${w===1?'font-weight:600':'color:var(--muted)'}">${m.team1}</td>
+        <td class="num" style="${w===1?'font-weight:600':'color:var(--muted)'}">${s1.toFixed(2)}</td>
+        <td style="color:var(--border);text-align:center">—</td>
+        <td style="${w===2?'font-weight:600':'color:var(--muted)'}">${m.team2}</td>
+        <td class="num" style="${w===2?'font-weight:600':'color:var(--muted)'}">${s2.toFixed(2)}</td>
+        <td style="text-align:right">${m.round ? `<span class="badge badge-blue">${m.round}</span>` : ''}</td>
+      </tr>`;
+    }).join('');
+    return header + gameRows;
+  }).join('');
+
+  content.innerHTML = `
+    <section>
+      <h2>Final Standings</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr>
+            <th class="num">Rank</th>
+            <th>Team</th>
+            <th>Owner</th>
+            <th class="num">W</th>
+            <th class="num">L</th>
+            <th class="num">T</th>
+            <th class="num">PF</th>
+            <th class="num">PA</th>
+          </tr></thead>
+          <tbody>${standingRows}</tbody>
+        </table>
+      </div>
+    </section>
+
+    ${playoffRows ? `
+    <section>
+      <h2>Playoff Results</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr>
+            <th>Round</th><th>Team</th><th class="num">Score</th>
+            <th></th><th>Team</th><th class="num">Score</th>
+          </tr></thead>
+          <tbody>${playoffRows}</tbody>
+        </table>
+      </div>
+    </section>` : ''}
+
+    <section>
+      <h2>All Matchups</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr>
+            <th>Team</th><th class="num">Score</th>
+            <th></th>
+            <th>Team</th><th class="num">Score</th>
+            <th></th>
+          </tr></thead>
+          <tbody>${weekRows}</tbody>
+        </table>
+      </div>
+    </section>
+  `;
+}
+
+loadYear(parseInt(yearSelect.value));
+</script>
+</body>
+</html>
