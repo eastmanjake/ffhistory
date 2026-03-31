@@ -1,0 +1,686 @@
+[
+  {
+    "week": 1,
+    "team1": "The Commish",
+    "score1": "126.91",
+    "team2": "Stat Corrections",
+    "score2": "132.61",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "Goatse V",
+    "score1": "122.60",
+    "team2": "The Brown Bears",
+    "score2": "180.78",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "Donald Drunk",
+    "score1": "123.17",
+    "team2": "Flint City Tropics",
+    "score2": "94.80",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "She Wants Moreno'l",
+    "score1": "78.82",
+    "team2": "Kenny kil",
+    "score2": "102.92",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "Raaaaaaaandy",
+    "score1": "104.48",
+    "team2": "New York Asshole",
+    "score2": "131.73",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "The Commish",
+    "score1": "142.25",
+    "team2": "Goatse V",
+    "score2": "146.92",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Stat Corrections",
+    "score1": "89.51",
+    "team2": "New York Asshole",
+    "score2": "123.73",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Donald Drunk",
+    "score1": "132.29",
+    "team2": "The Brown Bears",
+    "score2": "60.78",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "She Wants Moreno'l",
+    "score1": "119.30",
+    "team2": "Flint City Tropics",
+    "score2": "103.26",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Raaaaaaaandy",
+    "score1": "97.28",
+    "team2": "Kenny kil",
+    "score2": "69.95",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "The Commish",
+    "score1": "89.29",
+    "team2": "Donald Drunk",
+    "score2": "115.99",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Stat Corrections",
+    "score1": "125.14",
+    "team2": "Goatse V",
+    "score2": "114.19",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "She Wants Moreno'l",
+    "score1": "97.96",
+    "team2": "The Brown Bears",
+    "score2": "85.10",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Raaaaaaaandy",
+    "score1": "88.43",
+    "team2": "Flint City Tropics",
+    "score2": "104.22",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Kenny kil",
+    "score1": "48.95",
+    "team2": "New York Asshole",
+    "score2": "122.11",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "The Commish",
+    "score1": "103.38",
+    "team2": "She Wants Moreno'l",
+    "score2": "114.99",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Stat Corrections",
+    "score1": "134.89",
+    "team2": "Donald Drunk",
+    "score2": "98.98",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Goatse V",
+    "score1": "125.87",
+    "team2": "New York Asshole",
+    "score2": "137.33",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Raaaaaaaandy",
+    "score1": "129.17",
+    "team2": "The Brown Bears",
+    "score2": "142.48",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Kenny kil",
+    "score1": "125.19",
+    "team2": "Flint City Tropics",
+    "score2": "102.24",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "The Commish",
+    "score1": "164.37",
+    "team2": "Raaaaaaaandy",
+    "score2": "109.22",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Stat Corrections",
+    "score1": "124.16",
+    "team2": "She Wants Moreno'l",
+    "score2": "131.36",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Goatse V",
+    "score1": "105.85",
+    "team2": "Donald Drunk",
+    "score2": "94.68",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Kenny kil",
+    "score1": "58.43",
+    "team2": "The Brown Bears",
+    "score2": "115.88",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Flint City Tropics",
+    "score1": "146.89",
+    "team2": "New York Asshole",
+    "score2": "108.61",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "The Commish",
+    "score1": "128.34",
+    "team2": "Kenny kil",
+    "score2": "77.96",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Stat Corrections",
+    "score1": "85.04",
+    "team2": "Raaaaaaaandy",
+    "score2": "100.74",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Goatse V",
+    "score1": "96.08",
+    "team2": "She Wants Moreno'l",
+    "score2": "81.95",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Donald Drunk",
+    "score1": "102.48",
+    "team2": "New York Asshole",
+    "score2": "106.45",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Flint City Tropics",
+    "score1": "73.43",
+    "team2": "The Brown Bears",
+    "score2": "73.93",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "The Commish",
+    "score1": "61.92",
+    "team2": "Flint City Tropics",
+    "score2": "90.75",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Stat Corrections",
+    "score1": "91.12",
+    "team2": "Kenny kil",
+    "score2": "61.62",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Goatse V",
+    "score1": "112.90",
+    "team2": "Raaaaaaaandy",
+    "score2": "91.58",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Donald Drunk",
+    "score1": "122.47",
+    "team2": "She Wants Moreno'l",
+    "score2": "147.00",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "The Brown Bears",
+    "score1": "103.26",
+    "team2": "New York Asshole",
+    "score2": "94.59",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "The Commish",
+    "score1": "109.88",
+    "team2": "The Brown Bears",
+    "score2": "140.16",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Stat Corrections",
+    "score1": "92.44",
+    "team2": "Flint City Tropics",
+    "score2": "119.84",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Goatse V",
+    "score1": "97.15",
+    "team2": "Kenny kil",
+    "score2": "49.89",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Donald Drunk",
+    "score1": "114.27",
+    "team2": "Raaaaaaaandy",
+    "score2": "112.28",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "She Wants Moreno'l",
+    "score1": "132.90",
+    "team2": "New York Asshole",
+    "score2": "75.91",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "The Commish",
+    "score1": "111.79",
+    "team2": "New York Asshole",
+    "score2": "124.83",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Stat Corrections",
+    "score1": "93.96",
+    "team2": "The Brown Bears",
+    "score2": "120.67",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Goatse V",
+    "score1": "137.63",
+    "team2": "Flint City Tropics",
+    "score2": "86.66",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Donald Drunk",
+    "score1": "115.64",
+    "team2": "Kenny kil",
+    "score2": "108.33",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "She Wants Moreno'l",
+    "score1": "132.28",
+    "team2": "Raaaaaaaandy",
+    "score2": "121.28",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "The Commish",
+    "score1": "131.64",
+    "team2": "Stat Corrections",
+    "score2": "82.56",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "Goatse V",
+    "score1": "107.48",
+    "team2": "The Brown Bears",
+    "score2": "103.69",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "Donald Drunk",
+    "score1": "134.32",
+    "team2": "Flint City Tropics",
+    "score2": "79.32",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "She Wants Moreno'l",
+    "score1": "114.47",
+    "team2": "Kenny kil",
+    "score2": "76.50",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "Raaaaaaaandy",
+    "score1": "97.43",
+    "team2": "New York Asshole",
+    "score2": "94.90",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "The Commish",
+    "score1": "123.51",
+    "team2": "Goatse V",
+    "score2": "135.05",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Stat Corrections",
+    "score1": "104.66",
+    "team2": "New York Asshole",
+    "score2": "81.62",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Donald Drunk",
+    "score1": "94.02",
+    "team2": "The Brown Bears",
+    "score2": "83.75",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "She Wants Moreno'l",
+    "score1": "122.88",
+    "team2": "Flint City Tropics",
+    "score2": "122.76",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Raaaaaaaandy",
+    "score1": "112.60",
+    "team2": "Kenny kil",
+    "score2": "69.79",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "The Commish",
+    "score1": "121.77",
+    "team2": "Donald Drunk",
+    "score2": "72.57",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Stat Corrections",
+    "score1": "93.78",
+    "team2": "Goatse V",
+    "score2": "86.91",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "She Wants Moreno'l",
+    "score1": "88.18",
+    "team2": "The Brown Bears",
+    "score2": "108.90",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Raaaaaaaandy",
+    "score1": "110.92",
+    "team2": "Flint City Tropics",
+    "score2": "118.26",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Kenny kil",
+    "score1": "96.12",
+    "team2": "New York Asshole",
+    "score2": "75.80",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "The Commish",
+    "score1": "122.63",
+    "team2": "She Wants Moreno'l",
+    "score2": "147.05",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Stat Corrections",
+    "score1": "128.99",
+    "team2": "Donald Drunk",
+    "score2": "119.68",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Goatse V",
+    "score1": "88.05",
+    "team2": "New York Asshole",
+    "score2": "111.47",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Raaaaaaaandy",
+    "score1": "79.18",
+    "team2": "The Brown Bears",
+    "score2": "131.40",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Kenny kil",
+    "score1": "95.59",
+    "team2": "Flint City Tropics",
+    "score2": "111.22",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 14,
+    "team1": "Stat Corrections",
+    "score1": "103.64",
+    "team2": "Goatse V",
+    "score2": "102.56",
+    "playoff": true,
+    "round": "Quarterfinal"
+  },
+  {
+    "week": 14,
+    "team1": "Donald Drunk",
+    "score1": "109.66",
+    "team2": "New York Asshole",
+    "score2": "102.23",
+    "playoff": true,
+    "round": "Quarterfinal"
+  },
+  {
+    "week": 15,
+    "team1": "The Commish",
+    "score1": "178.30",
+    "team2": "Raaaaaaaandy",
+    "score2": "117.82",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 15,
+    "team1": "Stat Corrections",
+    "score1": "113.55",
+    "team2": "The Brown Bears",
+    "score2": "144.30",
+    "playoff": true,
+    "round": "Semifinal"
+  },
+  {
+    "week": 15,
+    "team1": "Goatse V",
+    "score1": "84.89",
+    "team2": "New York Asshole",
+    "score2": "123.06",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 15,
+    "team1": "Donald Drunk",
+    "score1": "124.82",
+    "team2": "She Wants Moreno'l",
+    "score2": "95.65",
+    "playoff": true,
+    "round": "Semifinal"
+  },
+  {
+    "week": 15,
+    "team1": "Kenny kil",
+    "score1": "80.46",
+    "team2": "Flint City Tropics",
+    "score2": "109.12",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 16,
+    "team1": "The Commish",
+    "score1": "104.70",
+    "team2": "Flint City Tropics",
+    "score2": "86.04",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 16,
+    "team1": "Stat Corrections",
+    "score1": "79.23",
+    "team2": "She Wants Moreno'l",
+    "score2": "103.38",
+    "playoff": true,
+    "round": "3rd Place"
+  },
+  {
+    "week": 16,
+    "team1": "Donald Drunk",
+    "score1": "100.65",
+    "team2": "The Brown Bears",
+    "score2": "86.88",
+    "playoff": true,
+    "round": "Championship"
+  },
+  {
+    "week": 16,
+    "team1": "Raaaaaaaandy",
+    "score1": "110.29",
+    "team2": "Kenny kil",
+    "score2": "56.23",
+    "playoff": true,
+    "round": "Consolation"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "wins": "8",
+    "losses": "5",
+    "ties": 0,
+    "points_for": "1545.80",
+    "points_against": 1491.94,
+    "rank": 1
+  },
+  {
+    "team": "The Brown Bears",
+    "owner": "John",
+    "wins": "11",
+    "losses": "2",
+    "ties": 0,
+    "points_for": "1642.64",
+    "points_against": 1292.03,
+    "rank": 2
+  },
+  {
+    "team": "Goatse",
+    "owner": "Jake",
+    "wins": "6",
+    "losses": "7",
+    "ties": 0,
+    "points_for": "1375.77",
+    "points_against": 1438.1000000000001,
+    "rank": 3
+  },
+  {
+    "team": "Kenny kil",
+    "owner": "Ken",
+    "wins": "7",
+    "losses": "6",
+    "ties": 0,
+    "points_for": "1450.65",
+    "points_against": 1337.5000000000002,
+    "rank": 4
+  },
+  {
+    "team": "Joe Stop Haden on Me",
+    "owner": "Sean",
+    "wins": "7",
+    "losses": "6",
+    "ties": 0,
+    "points_for": "1315.19",
+    "points_against": 1313.8200000000002,
+    "rank": 5
+  },
+  {
+    "team": "natalie",
+    "owner": "Jake",
+    "wins": "8",
+    "losses": "5",
+    "ties": 0,
+    "points_for": "1350.25",
+    "points_against": 1368.37,
+    "rank": 6
+  },
+  {
+    "team": "Stat Corrections",
+    "owner": "Brett",
+    "wins": "6",
+    "losses": "7",
+    "ties": 0,
+    "points_for": "1375.62",
+    "points_against": 1371.5700000000002,
+    "rank": 7
+  },
+  {
+    "team": "The Commish",
+    "owner": "Andrew",
+    "wins": "5",
+    "losses": "8",
+    "ties": 0,
+    "points_for": "1296.00",
+    "points_against": 1410.1800000000003,
+    "rank": 8
+  },
+  {
+    "team": "Donald Drunk",
+    "owner": "Drew",
+    "wins": "4",
+    "losses": "9",
+    "ties": 0,
+    "points_for": "1287.69",
+    "points_against": 1482.24,
+    "rank": 9
+  },
+  {
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "wins": "3",
+    "losses": "10",
+    "ties": 0,
+    "points_for": "1255.98",
+    "points_against": 1389.8400000000001,
+    "rank": 10
+  }
+]

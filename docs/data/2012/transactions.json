@@ -1,0 +1,4328 @@
+[
+  {
+    "type": "Add",
+    "date": "2012-12-20",
+    "player": "Dennis Pitta",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-20",
+    "player": "Panthers",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-20",
+    "player": "Chargers",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-20",
+    "player": "Vikings",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-13",
+    "player": "Bilal Powell",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-13",
+    "player": "Beanie Wells",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-13",
+    "player": "Denarius Moore",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-13",
+    "player": "Dwayne Bowe",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-13",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-13",
+    "player": "Browns",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-12",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-12",
+    "player": "Marcedes Lewis",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-12",
+    "player": "Josh Gordon",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-12",
+    "player": "Dallas Clark",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-05",
+    "player": "Ben Roethlisberger",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-05",
+    "player": "Andre Roberts",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-05",
+    "player": "Montell Owens",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-05",
+    "player": "Philip Rivers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-05",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-05",
+    "player": "Cowboys",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-05",
+    "player": "Dallas Clark",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-05",
+    "player": "Rashad Jennings",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-05",
+    "player": "T.Y. Hilton",
+    "from": "FA/Waiver",
+    "to": "Kenny kil"
+  },
+  {
+    "type": "Add",
+    "date": "2012-12-05",
+    "player": "Denarius Moore",
+    "from": "Kenny kil",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-29",
+    "player": "Carson Palmer",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-29",
+    "player": "Chad Henne",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-28",
+    "player": "Phil Dawson",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-28",
+    "player": "Shaun Suisham",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-28",
+    "player": "Justin Blackmon",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-28",
+    "player": "Daryl Richardson",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-28",
+    "player": "Chad Henne",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-28",
+    "player": "Kendall Hunter",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-28",
+    "player": "Knowshon Moreno",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-28",
+    "player": "Ronnie Hillman",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-28",
+    "player": "Pierre Garcon",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-28",
+    "player": "Cecil Shorts",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-28",
+    "player": "Martellus Bennett",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-28",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-28",
+    "player": "Panthers",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-28",
+    "player": "Bryce Brown",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-28",
+    "player": "Vick Ballard",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-28",
+    "player": "Isaac Redman",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-28",
+    "player": "Willis McGahee",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-23",
+    "player": "Titus Young",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-22",
+    "player": "Brandon LaFell",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-22",
+    "player": "Dan Bailey",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-22",
+    "player": "Colin Kaepernick",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-22",
+    "player": "Andre Brown",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-21",
+    "player": "Marcedes Lewis",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-21",
+    "player": "Brent Celek",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-21",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-21",
+    "player": "Chargers",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-21",
+    "player": "Beanie Wells",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-21",
+    "player": "Ronnie Brown",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-21",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-21",
+    "player": "Buccaneers",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-21",
+    "player": "Danario Alexander",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-21",
+    "player": "Ronnie Hillman",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-21",
+    "player": "Daniel Thomas",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-21",
+    "player": "Matt Schaub",
+    "from": "FA/Waiver",
+    "to": "Kenny kil"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-21",
+    "player": "Kevin Smith",
+    "from": "Kenny kil",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-21",
+    "player": "Greg Olsen",
+    "from": "FA/Waiver",
+    "to": "natalie"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-21",
+    "player": "Jared Cook",
+    "from": "natalie",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-20",
+    "player": "Anthony Fasano",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-18",
+    "player": "Chargers",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-18",
+    "player": "Vikings",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-18",
+    "player": "Ronnie Brown",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-18",
+    "player": "Josh Gordon",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-16",
+    "player": "Felix Jones",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-16",
+    "player": "Ben Roethlisberger",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "Dan Bailey",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "Alex Smith",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "Anthony Fasano",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "Panthers",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "Buccaneers",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "Dolphins",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "Andre Brown",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "Taiwan Jones",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "Matt Prater",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "Blair Walsh",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "Giants",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "Marcel Reece",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "Matt Schaub",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "David Akers",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "Sidney Rice",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-14",
+    "player": "Martellus Bennett",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-13",
+    "player": "Felix Jones",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-11",
+    "player": "Ryan Succop",
+    "from": "FA/Waiver",
+    "to": "natalie"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-11",
+    "player": "Steelers",
+    "from": "natalie",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-08",
+    "player": "Felix Jones",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-08",
+    "player": "Lions",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-08",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-08",
+    "player": "Chargers",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-07",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-07",
+    "player": "Buccaneers",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-07",
+    "player": "Philip Rivers",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-07",
+    "player": "Chris Givens",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-07",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-07",
+    "player": "Commanders",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-07",
+    "player": "Buccaneers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-07",
+    "player": "Cardinals",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-07",
+    "player": "Taiwan Jones",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-07",
+    "player": "Alex Green",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-02",
+    "player": "Isaac Redman",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-02",
+    "player": "Jonathan Dwyer",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-02",
+    "player": "Brandon Myers",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-11-02",
+    "player": "Kyle Rudolph",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Shayne Graham",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Scott Chandler",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Daryl Richardson",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Vincent Brown",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Vikings",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Josh Freeman",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Philip Rivers",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Daniel Thomas",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Andre Brown",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Kendall Hunter",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Justin Tucker",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Greg Zuerlein",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Titus Young",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Danny Amendola",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Jermichael Finley",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Matt Bryant",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Greg Olsen",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Kenny kil"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-31",
+    "player": "Kevin Kolb",
+    "from": "Kenny kil",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-30",
+    "player": "LaRod Stephens-Howling",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-30",
+    "player": "Alex Henery",
+    "from": "Kenny kil",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-24",
+    "player": "Andre Roberts",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-24",
+    "player": "Felix Jones",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-24",
+    "player": "Chris Givens",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-24",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-24",
+    "player": "Fred Davis",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-24",
+    "player": "Chargers",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-24",
+    "player": "Raiders",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-24",
+    "player": "Shaun Suisham",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-24",
+    "player": "Justin Tucker",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-24",
+    "player": "Danny Woodhead",
+    "from": "FA/Waiver",
+    "to": "natalie"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-24",
+    "player": "Ryan Fitzpatrick",
+    "from": "natalie",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-24",
+    "player": "LaRod Stephens-Howling",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-24",
+    "player": "Sidney Rice",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-24",
+    "player": "Brent Celek",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-24",
+    "player": "Brian Hartline",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-24",
+    "player": "Rashad Jennings",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-24",
+    "player": "William Powell",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-24",
+    "player": "Pierre Garcon",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-20",
+    "player": "Martellus Bennett",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-20",
+    "player": "Brent Celek",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-20",
+    "player": "Jonathan Dwyer",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-20",
+    "player": "Ravens",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-18",
+    "player": "Robbie Gould",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-18",
+    "player": "Matt Bryant",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-18",
+    "player": "Sidney Rice",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-18",
+    "player": "Eagles",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-18",
+    "player": "Giants",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-17",
+    "player": "William Powell",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-17",
+    "player": "Martellus Bennett",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-17",
+    "player": "Alex Green",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-17",
+    "player": "Christian Ponder",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-17",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-17",
+    "player": "Rams",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-17",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-17",
+    "player": "Peyton Hillis",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-17",
+    "player": "Felix Jones",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-17",
+    "player": "Andre Roberts",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-17",
+    "player": "Ryan Fitzpatrick",
+    "from": "FA/Waiver",
+    "to": "natalie"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-17",
+    "player": "Titus Young",
+    "from": "natalie",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-17",
+    "player": "Greg Olsen",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-17",
+    "player": "Davone Bess",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-12",
+    "player": "Josh Gordon",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-12",
+    "player": "Alex Green",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-11",
+    "player": "Alex Smith",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-11",
+    "player": "Cedric Benson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-11",
+    "player": "Jason Hanson",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-11",
+    "player": "Darrius Heyward-Bey",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-10",
+    "player": "Vick Ballard",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-10",
+    "player": "Kendall Hunter",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-10",
+    "player": "Christian Ponder",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-10",
+    "player": "Robbie Gould",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-10",
+    "player": "Kendall Hunter",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-10",
+    "player": "Brandon Bolden",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-10",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-10",
+    "player": "Bengals",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-10",
+    "player": "Alex Green",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-10",
+    "player": "Jackie Battle",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-10",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-10",
+    "player": "Vikings",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-09",
+    "player": "Jeremy Kerley",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-06",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-06",
+    "player": "Greg Olsen",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-05",
+    "player": "Vincent Brown",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-05",
+    "player": "Danny Amendola",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-04",
+    "player": "Alex Henery",
+    "from": "FA/Waiver",
+    "to": "Kenny kil"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-04",
+    "player": "Nate Burleson",
+    "from": "Kenny kil",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-04",
+    "player": "Scott Chandler",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-04",
+    "player": "Justin Blackmon",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-04",
+    "player": "Kevin Kolb",
+    "from": "FA/Waiver",
+    "to": "Kenny kil"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-04",
+    "player": "Jake Locker",
+    "from": "Kenny kil",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-04",
+    "player": "Jeremy Kerley",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-04",
+    "player": "Ben Tate",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "James Jones",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Santana Moss",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Blair Walsh",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Jason Hanson",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Darrius Heyward-Bey",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Santonio Holmes",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Dennis Pitta",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Sidney Rice",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Greg Zuerlein",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Rob Bironas",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Andre Roberts",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Tashard Choice",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Brandon Bolden",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Giants",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Jackie Battle",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Andrew Hawkins",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Falcons",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Brian Hartline",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-10-03",
+    "player": "Ryan Williams",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-29",
+    "player": "Lawrence Tynes",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-29",
+    "player": "Dan Bailey",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-28",
+    "player": "Andrew Hawkins",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-28",
+    "player": "Darrius Heyward-Bey",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-26",
+    "player": "Broncos",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-26",
+    "player": "Bengals",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-26",
+    "player": "Nate Burleson",
+    "from": "FA/Waiver",
+    "to": "Kenny kil"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-26",
+    "player": "Greg Little",
+    "from": "Kenny kil",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-26",
+    "player": "Giants",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-26",
+    "player": "Lions",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-26",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-26",
+    "player": "Cowboys",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-26",
+    "player": "Tashard Choice",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-26",
+    "player": "Randy Moss",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-26",
+    "player": "Mikel Leshoure",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-26",
+    "player": "Stephen Hill",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-26",
+    "player": "Heath Miller",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-26",
+    "player": "Jay Cutler",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-26",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-26",
+    "player": "Mark Ingram II",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-21",
+    "player": "Rashard Mendenhall",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-21",
+    "player": "Beanie Wells",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-20",
+    "player": "Matt Bryant",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-20",
+    "player": "Alex Henery",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-19",
+    "player": "Ben Tate",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-19",
+    "player": "Felix Jones",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-19",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-19",
+    "player": "Giants",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-19",
+    "player": "Dennis Pitta",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-19",
+    "player": "Jacob Tamme",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-19",
+    "player": "Martellus Bennett",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-19",
+    "player": "Robert Meachem",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-19",
+    "player": "Justin Tucker",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-19",
+    "player": "Matt Prater",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-19",
+    "player": "Andre Brown",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-19",
+    "player": "Dexter McCluster",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-19",
+    "player": "Brent Celek",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-19",
+    "player": "Dustin Keller",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-19",
+    "player": "Danny Amendola",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-19",
+    "player": "Jonathan Dwyer",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-16",
+    "player": "Jonathan Dwyer",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-16",
+    "player": "Andrew Hawkins",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-14",
+    "player": "Dexter McCluster",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-14",
+    "player": "Evan Royster",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-14",
+    "player": "Stephen Hill",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-14",
+    "player": "Aldrick Robinson",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-14",
+    "player": "Andrew Hawkins",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-14",
+    "player": "Jon Baldwin",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-13",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-13",
+    "player": "Brent Celek",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-13",
+    "player": "Aldrick Robinson",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-13",
+    "player": "Isaac Redman",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-12",
+    "player": "Jon Baldwin",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-12",
+    "player": "Roy Helu",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-12",
+    "player": "Santana Moss",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-12",
+    "player": "LeGarrette Blount",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-12",
+    "player": "Dan Bailey",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-12",
+    "player": "John Kasay",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-12",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-12",
+    "player": "Lions",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-12",
+    "player": "Alfred Morris",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-12",
+    "player": "Rashad Jennings",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-08",
+    "player": "Robbie Gould",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Add",
+    "date": "2012-09-08",
+    "player": "Bengals",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-20",
+    "player": "Dennis Pitta",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-20",
+    "player": "Panthers",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-20",
+    "player": "Chargers",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-20",
+    "player": "Vikings",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-13",
+    "player": "Bilal Powell",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-13",
+    "player": "Beanie Wells",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-13",
+    "player": "Denarius Moore",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-13",
+    "player": "Dwayne Bowe",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-13",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-13",
+    "player": "Browns",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-12",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-12",
+    "player": "Marcedes Lewis",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-12",
+    "player": "Josh Gordon",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-12",
+    "player": "Dallas Clark",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-05",
+    "player": "Ben Roethlisberger",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-05",
+    "player": "Andre Roberts",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-05",
+    "player": "Montell Owens",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-05",
+    "player": "Philip Rivers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-05",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-05",
+    "player": "Cowboys",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-05",
+    "player": "Dallas Clark",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-05",
+    "player": "Rashad Jennings",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-05",
+    "player": "T.Y. Hilton",
+    "from": "FA/Waiver",
+    "to": "Kenny kil"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-12-05",
+    "player": "Denarius Moore",
+    "from": "Kenny kil",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-29",
+    "player": "Carson Palmer",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-29",
+    "player": "Chad Henne",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-28",
+    "player": "Phil Dawson",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-28",
+    "player": "Shaun Suisham",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-28",
+    "player": "Justin Blackmon",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-28",
+    "player": "Daryl Richardson",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-28",
+    "player": "Chad Henne",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-28",
+    "player": "Kendall Hunter",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-28",
+    "player": "Knowshon Moreno",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-28",
+    "player": "Ronnie Hillman",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-28",
+    "player": "Pierre Garcon",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-28",
+    "player": "Cecil Shorts",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-28",
+    "player": "Martellus Bennett",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-28",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-28",
+    "player": "Panthers",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-28",
+    "player": "Bryce Brown",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-28",
+    "player": "Vick Ballard",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-28",
+    "player": "Isaac Redman",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-28",
+    "player": "Willis McGahee",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-23",
+    "player": "Titus Young",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-22",
+    "player": "Brandon LaFell",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-22",
+    "player": "Dan Bailey",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-22",
+    "player": "Colin Kaepernick",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-22",
+    "player": "Andre Brown",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-21",
+    "player": "Marcedes Lewis",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-21",
+    "player": "Brent Celek",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-21",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-21",
+    "player": "Chargers",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-21",
+    "player": "Beanie Wells",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-21",
+    "player": "Ronnie Brown",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-21",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-21",
+    "player": "Buccaneers",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-21",
+    "player": "Danario Alexander",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-21",
+    "player": "Ronnie Hillman",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-21",
+    "player": "Daniel Thomas",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-21",
+    "player": "Matt Schaub",
+    "from": "FA/Waiver",
+    "to": "Kenny kil"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-21",
+    "player": "Kevin Smith",
+    "from": "Kenny kil",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-21",
+    "player": "Greg Olsen",
+    "from": "FA/Waiver",
+    "to": "natalie"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-21",
+    "player": "Jared Cook",
+    "from": "natalie",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-20",
+    "player": "Anthony Fasano",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-18",
+    "player": "Chargers",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-18",
+    "player": "Vikings",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-18",
+    "player": "Ronnie Brown",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-18",
+    "player": "Josh Gordon",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-16",
+    "player": "Felix Jones",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-16",
+    "player": "Ben Roethlisberger",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "Dan Bailey",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "Alex Smith",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "Anthony Fasano",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "Panthers",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "Buccaneers",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "Dolphins",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "Andre Brown",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "Taiwan Jones",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "Matt Prater",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "Blair Walsh",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "Giants",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "Marcel Reece",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "Matt Schaub",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "David Akers",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "Sidney Rice",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-14",
+    "player": "Martellus Bennett",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-13",
+    "player": "Felix Jones",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-11",
+    "player": "Ryan Succop",
+    "from": "FA/Waiver",
+    "to": "natalie"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-11",
+    "player": "Steelers",
+    "from": "natalie",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-08",
+    "player": "Felix Jones",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-08",
+    "player": "Lions",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-08",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-08",
+    "player": "Chargers",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-07",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-07",
+    "player": "Buccaneers",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-07",
+    "player": "Philip Rivers",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-07",
+    "player": "Chris Givens",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-07",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-07",
+    "player": "Commanders",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-07",
+    "player": "Buccaneers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-07",
+    "player": "Cardinals",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-07",
+    "player": "Taiwan Jones",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-07",
+    "player": "Alex Green",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-02",
+    "player": "Isaac Redman",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-02",
+    "player": "Jonathan Dwyer",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-02",
+    "player": "Brandon Myers",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-11-02",
+    "player": "Kyle Rudolph",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Shayne Graham",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Scott Chandler",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Daryl Richardson",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Vincent Brown",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Vikings",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Josh Freeman",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Philip Rivers",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Daniel Thomas",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Andre Brown",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Kendall Hunter",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Justin Tucker",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Greg Zuerlein",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Titus Young",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Danny Amendola",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Jermichael Finley",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Matt Bryant",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Greg Olsen",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Kenny kil"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-31",
+    "player": "Kevin Kolb",
+    "from": "Kenny kil",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-30",
+    "player": "LaRod Stephens-Howling",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-30",
+    "player": "Alex Henery",
+    "from": "Kenny kil",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-24",
+    "player": "Andre Roberts",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-24",
+    "player": "Felix Jones",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-24",
+    "player": "Chris Givens",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-24",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-24",
+    "player": "Fred Davis",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-24",
+    "player": "Chargers",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-24",
+    "player": "Raiders",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-24",
+    "player": "Shaun Suisham",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-24",
+    "player": "Justin Tucker",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-24",
+    "player": "Danny Woodhead",
+    "from": "FA/Waiver",
+    "to": "natalie"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-24",
+    "player": "Ryan Fitzpatrick",
+    "from": "natalie",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-24",
+    "player": "LaRod Stephens-Howling",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-24",
+    "player": "Sidney Rice",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-24",
+    "player": "Brent Celek",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-24",
+    "player": "Brian Hartline",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-24",
+    "player": "Rashad Jennings",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-24",
+    "player": "William Powell",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-24",
+    "player": "Pierre Garcon",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-20",
+    "player": "Martellus Bennett",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-20",
+    "player": "Brent Celek",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-20",
+    "player": "Jonathan Dwyer",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-20",
+    "player": "Ravens",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-18",
+    "player": "Robbie Gould",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-18",
+    "player": "Matt Bryant",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-18",
+    "player": "Sidney Rice",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-18",
+    "player": "Eagles",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-18",
+    "player": "Giants",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-17",
+    "player": "William Powell",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-17",
+    "player": "Martellus Bennett",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-17",
+    "player": "Alex Green",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-17",
+    "player": "Christian Ponder",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-17",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-17",
+    "player": "Rams",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-17",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-17",
+    "player": "Peyton Hillis",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-17",
+    "player": "Felix Jones",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-17",
+    "player": "Andre Roberts",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-17",
+    "player": "Ryan Fitzpatrick",
+    "from": "FA/Waiver",
+    "to": "natalie"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-17",
+    "player": "Titus Young",
+    "from": "natalie",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-17",
+    "player": "Greg Olsen",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-17",
+    "player": "Davone Bess",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-12",
+    "player": "Josh Gordon",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-12",
+    "player": "Alex Green",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-11",
+    "player": "Alex Smith",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-11",
+    "player": "Cedric Benson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-11",
+    "player": "Jason Hanson",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-11",
+    "player": "Darrius Heyward-Bey",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-10",
+    "player": "Vick Ballard",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-10",
+    "player": "Kendall Hunter",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-10",
+    "player": "Christian Ponder",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-10",
+    "player": "Robbie Gould",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-10",
+    "player": "Kendall Hunter",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-10",
+    "player": "Brandon Bolden",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-10",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-10",
+    "player": "Bengals",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-10",
+    "player": "Alex Green",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-10",
+    "player": "Jackie Battle",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-10",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-10",
+    "player": "Vikings",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-09",
+    "player": "Jeremy Kerley",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-06",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-06",
+    "player": "Greg Olsen",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-05",
+    "player": "Vincent Brown",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-05",
+    "player": "Danny Amendola",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-04",
+    "player": "Alex Henery",
+    "from": "FA/Waiver",
+    "to": "Kenny kil"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-04",
+    "player": "Nate Burleson",
+    "from": "Kenny kil",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-04",
+    "player": "Scott Chandler",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-04",
+    "player": "Justin Blackmon",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-04",
+    "player": "Kevin Kolb",
+    "from": "FA/Waiver",
+    "to": "Kenny kil"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-04",
+    "player": "Jake Locker",
+    "from": "Kenny kil",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-04",
+    "player": "Jeremy Kerley",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-04",
+    "player": "Ben Tate",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "James Jones",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Santana Moss",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Blair Walsh",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Jason Hanson",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Darrius Heyward-Bey",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Santonio Holmes",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Dennis Pitta",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Sidney Rice",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Greg Zuerlein",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Rob Bironas",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Andre Roberts",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Tashard Choice",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Brandon Bolden",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Giants",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Jackie Battle",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Andrew Hawkins",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Falcons",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Brian Hartline",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-10-03",
+    "player": "Ryan Williams",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-29",
+    "player": "Lawrence Tynes",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-29",
+    "player": "Dan Bailey",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-28",
+    "player": "Andrew Hawkins",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-28",
+    "player": "Darrius Heyward-Bey",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-26",
+    "player": "Broncos",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-26",
+    "player": "Bengals",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-26",
+    "player": "Nate Burleson",
+    "from": "FA/Waiver",
+    "to": "Kenny kil"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-26",
+    "player": "Greg Little",
+    "from": "Kenny kil",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-26",
+    "player": "Giants",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-26",
+    "player": "Lions",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-26",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-26",
+    "player": "Cowboys",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-26",
+    "player": "Tashard Choice",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-26",
+    "player": "Randy Moss",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-26",
+    "player": "Mikel Leshoure",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-26",
+    "player": "Stephen Hill",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-26",
+    "player": "Heath Miller",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-26",
+    "player": "Jay Cutler",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-26",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-26",
+    "player": "Mark Ingram II",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-21",
+    "player": "Rashard Mendenhall",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-21",
+    "player": "Beanie Wells",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-20",
+    "player": "Matt Bryant",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-20",
+    "player": "Alex Henery",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-19",
+    "player": "Ben Tate",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-19",
+    "player": "Felix Jones",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-19",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-19",
+    "player": "Giants",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-19",
+    "player": "Dennis Pitta",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-19",
+    "player": "Jacob Tamme",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-19",
+    "player": "Martellus Bennett",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-19",
+    "player": "Robert Meachem",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-19",
+    "player": "Justin Tucker",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-19",
+    "player": "Matt Prater",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-19",
+    "player": "Andre Brown",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-19",
+    "player": "Dexter McCluster",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-19",
+    "player": "Brent Celek",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-19",
+    "player": "Dustin Keller",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-19",
+    "player": "Danny Amendola",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-19",
+    "player": "Jonathan Dwyer",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-16",
+    "player": "Jonathan Dwyer",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-16",
+    "player": "Andrew Hawkins",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-14",
+    "player": "Dexter McCluster",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-14",
+    "player": "Evan Royster",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-14",
+    "player": "Stephen Hill",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-14",
+    "player": "Aldrick Robinson",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-14",
+    "player": "Andrew Hawkins",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-14",
+    "player": "Jon Baldwin",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-13",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-13",
+    "player": "Brent Celek",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-13",
+    "player": "Aldrick Robinson",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-13",
+    "player": "Isaac Redman",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-12",
+    "player": "Jon Baldwin",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-12",
+    "player": "Roy Helu",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-12",
+    "player": "Santana Moss",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-12",
+    "player": "LeGarrette Blount",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-12",
+    "player": "Dan Bailey",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-12",
+    "player": "John Kasay",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-12",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-12",
+    "player": "Lions",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-12",
+    "player": "Alfred Morris",
+    "from": "FA/Waiver",
+    "to": "Goatse"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-12",
+    "player": "Rashad Jennings",
+    "from": "Goatse",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-08",
+    "player": "Robbie Gould",
+    "from": "FA/Waiver",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Drop",
+    "date": "2012-09-08",
+    "player": "Bengals",
+    "from": "Joe Stop Haden on Me",
+    "to": "Dropped"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-11-29",
+    "player": "Beanie Wells",
+    "from": "Flint City Tropics",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-11-29",
+    "player": "Nate Washington",
+    "from": "The Brown Bears",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-11-28",
+    "player": "C.J. Spiller",
+    "from": "Joe Stop Haden on Me",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-11-28",
+    "player": "Kenny Britt",
+    "from": "Joe Stop Haden on Me",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-11-28",
+    "player": "Darren Sproles",
+    "from": "Joe Stop Haden on Me",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-11-28",
+    "player": "Calvin Johnson",
+    "from": "Stat Corrections",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-11-20",
+    "player": "Aaron Hernandez",
+    "from": "Joe Stop Haden on Me",
+    "to": "The Commish"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-11-20",
+    "player": "Daryl Richardson",
+    "from": "Joe Stop Haden on Me",
+    "to": "The Commish"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-11-20",
+    "player": "Reggie Bush",
+    "from": "The Commish",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-11-15",
+    "player": "Greg Jennings",
+    "from": "Flint City Tropics",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-11-15",
+    "player": "Broncos",
+    "from": "The Brown Bears",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-11-13",
+    "player": "Rashad Jennings",
+    "from": "Joe Stop Haden on Me",
+    "to": "Goatse"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-11-13",
+    "player": "Titus Young",
+    "from": "Joe Stop Haden on Me",
+    "to": "Goatse"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-11-13",
+    "player": "Vikings",
+    "from": "Joe Stop Haden on Me",
+    "to": "Goatse"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-11-13",
+    "player": "Darren Sproles",
+    "from": "Goatse",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-11-13",
+    "player": "Texans",
+    "from": "Goatse",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-30",
+    "player": "Vick Ballard",
+    "from": "Joe Stop Haden on Me",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-30",
+    "player": "Mike Wallace",
+    "from": "Joe Stop Haden on Me",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-30",
+    "player": "C.J. Spiller",
+    "from": "Flint City Tropics",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-30",
+    "player": "James Jones",
+    "from": "The Commish",
+    "to": "Kenny kil"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-30",
+    "player": "Denarius Moore",
+    "from": "The Commish",
+    "to": "Kenny kil"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-30",
+    "player": "Percy Harvin",
+    "from": "Kenny kil",
+    "to": "The Commish"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-24",
+    "player": "Andre Johnson",
+    "from": "Flint City Tropics",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-24",
+    "player": "Adrian Peterson",
+    "from": "Flint City Tropics",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-24",
+    "player": "Marques Colston",
+    "from": "The Brown Bears",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-24",
+    "player": "Ryan Mathews",
+    "from": "The Brown Bears",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-24",
+    "player": "Eric Decker",
+    "from": "The Brown Bears",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-16",
+    "player": "Hakeem Nicks",
+    "from": "The Commish",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-16",
+    "player": "Rashard Mendenhall",
+    "from": "The Commish",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-16",
+    "player": "James Jones",
+    "from": "Stat Corrections",
+    "to": "The Commish"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-16",
+    "player": "Frank Gore",
+    "from": "Stat Corrections",
+    "to": "The Commish"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-11",
+    "player": "Dwayne Bowe",
+    "from": "Joe Stop Haden on Me",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-11",
+    "player": "Ryan Mathews",
+    "from": "Joe Stop Haden on Me",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-11",
+    "player": "Mikel Leshoure",
+    "from": "Joe Stop Haden on Me",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-11",
+    "player": "Mike Wallace",
+    "from": "The Brown Bears",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-11",
+    "player": "Maurice Jones-Drew",
+    "from": "The Brown Bears",
+    "to": "Joe Stop Haden on Me"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-07",
+    "player": "Vincent Jackson",
+    "from": "Flint City Tropics",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Trade",
+    "date": "2012-10-07",
+    "player": "Greg Jennings",
+    "from": "Stat Corrections",
+    "to": "Flint City Tropics"
+  }
+]

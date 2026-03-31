@@ -1,0 +1,1406 @@
+[
+  {
+    "season": 2025,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Bo Nix",
+    "position": "QB",
+    "nfl_team": "DEN",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Puka Nacua",
+    "position": "WR",
+    "nfl_team": "LA",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Chris Olave",
+    "position": "WR",
+    "nfl_team": "NO",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Bijan Robinson",
+    "position": "RB",
+    "nfl_team": "ATL",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Travis Etienne Jr.",
+    "position": "RB",
+    "nfl_team": "JAX",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Hunter Henry",
+    "position": "TE",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Mike Evans",
+    "position": "WR",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Breece Hall",
+    "position": "RB",
+    "nfl_team": "NYJ",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Terry McLaurin",
+    "position": "WR",
+    "nfl_team": "WAS",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Stefon Diggs",
+    "position": "WR",
+    "nfl_team": "NE",
+    "status": "NA"
+  },
+  {
+    "season": 2025,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Marvin Harrison Jr.",
+    "position": "WR",
+    "nfl_team": "ARI",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Tony Pollard",
+    "position": "RB",
+    "nfl_team": "TEN",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Cameron Dicker",
+    "position": "K",
+    "nfl_team": "LAC",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Seahawks",
+    "position": "DEF",
+    "nfl_team": "Sea",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Saints",
+    "position": "DEF",
+    "nfl_team": "NO",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Travis Hunter",
+    "position": "WR",
+    "nfl_team": "JAX",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Trevor Lawrence",
+    "position": "QB",
+    "nfl_team": "JAX",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "A.J. Brown",
+    "position": "WR",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Tetairoa McMillan",
+    "position": "WR",
+    "nfl_team": "CAR",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "James Cook III",
+    "position": "RB",
+    "nfl_team": "BUF",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Christian McCaffrey",
+    "position": "RB",
+    "nfl_team": "SF",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Kyle Pitts Sr.",
+    "position": "TE",
+    "nfl_team": "ATL",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Ladd McConkey",
+    "position": "WR",
+    "nfl_team": "LAC",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Jacoby Brissett",
+    "position": "QB",
+    "nfl_team": "ARI",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Michael Pittman Jr.",
+    "position": "WR",
+    "nfl_team": "IND",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "David Montgomery",
+    "position": "RB",
+    "nfl_team": "DET",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Mason Taylor",
+    "position": "TE",
+    "nfl_team": "NYJ",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "DK Metcalf",
+    "position": "WR",
+    "nfl_team": "PIT",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Brian Robinson Jr.",
+    "position": "RB",
+    "nfl_team": "SF",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Jake Bates",
+    "position": "K",
+    "nfl_team": "DET",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Lions",
+    "position": "DEF",
+    "nfl_team": "Det",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Goatse XVI",
+    "owner": "Jake",
+    "player": "Justin Herbert",
+    "position": "QB",
+    "nfl_team": "LAC",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Goatse XVI",
+    "owner": "Jake",
+    "player": "Nico Collins",
+    "position": "WR",
+    "nfl_team": "HOU",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Goatse XVI",
+    "owner": "Jake",
+    "player": "Brian Thomas Jr.",
+    "position": "WR",
+    "nfl_team": "JAX",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Goatse XVI",
+    "owner": "Jake",
+    "player": "RJ Harvey",
+    "position": "RB",
+    "nfl_team": "DEN",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Goatse XVI",
+    "owner": "Jake",
+    "player": "Michael Carter",
+    "position": "RB",
+    "nfl_team": "ARI",
+    "status": "NA"
+  },
+  {
+    "season": 2025,
+    "team": "Goatse XVI",
+    "owner": "Jake",
+    "player": "Tyler Warren",
+    "position": "TE",
+    "nfl_team": "IND",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Goatse XVI",
+    "owner": "Jake",
+    "player": "Amon-Ra St. Brown",
+    "position": "WR",
+    "nfl_team": "DET",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Goatse XVI",
+    "owner": "Jake",
+    "player": "George Kittle",
+    "position": "TE",
+    "nfl_team": "SF",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Goatse XVI",
+    "owner": "Jake",
+    "player": "Woody Marks",
+    "position": "RB",
+    "nfl_team": "HOU",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Goatse XVI",
+    "owner": "Jake",
+    "player": "Rashee Rice",
+    "position": "WR",
+    "nfl_team": "KC",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Goatse XVI",
+    "owner": "Jake",
+    "player": "Blake Corum",
+    "position": "RB",
+    "nfl_team": "LA",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Goatse XVI",
+    "owner": "Jake",
+    "player": "Jawhar Jordan",
+    "position": "RB",
+    "nfl_team": "HOU",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Goatse XVI",
+    "owner": "Jake",
+    "player": "Jayden Reed",
+    "position": "WR",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Goatse XVI",
+    "owner": "Jake",
+    "player": "Eddy Pineiro",
+    "position": "K",
+    "nfl_team": "SF",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Goatse XVI",
+    "owner": "Jake",
+    "player": "Chiefs",
+    "position": "DEF",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Goatse XVI",
+    "owner": "Jake",
+    "player": "J.K. Dobbins",
+    "position": "RB",
+    "nfl_team": "DEN",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Matthew Stafford",
+    "position": "QB",
+    "nfl_team": "LA",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Jameson Williams",
+    "position": "WR",
+    "nfl_team": "DET",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Xavier Worthy",
+    "position": "WR",
+    "nfl_team": "KC",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Jonathan Taylor",
+    "position": "RB",
+    "nfl_team": "IND",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Tyrone Tracy Jr.",
+    "position": "RB",
+    "nfl_team": "NYG",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Juwan Johnson",
+    "position": "TE",
+    "nfl_team": "NO",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Ashton Jeanty",
+    "position": "RB",
+    "nfl_team": "LV",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Jordan Addison",
+    "position": "WR",
+    "nfl_team": "MIN",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Jalen Hurts",
+    "position": "QB",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Quinshon Judkins",
+    "position": "RB",
+    "nfl_team": "CLE",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Romeo Doubs",
+    "position": "WR",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Isiah Pacheco",
+    "position": "RB",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Jason Myers",
+    "position": "K",
+    "nfl_team": "SEA",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Buccaneers",
+    "position": "DEF",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Texans",
+    "position": "DEF",
+    "nfl_team": "Hou",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Malik Nabers",
+    "position": "WR",
+    "nfl_team": "NYG",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Brock Purdy",
+    "position": "QB",
+    "nfl_team": "SF",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Jaxon Smith-Njigba",
+    "position": "WR",
+    "nfl_team": "SEA",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Wan'Dale Robinson",
+    "position": "WR",
+    "nfl_team": "NYG",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Jahmyr Gibbs",
+    "position": "RB",
+    "nfl_team": "DET",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Rico Dowdle",
+    "position": "RB",
+    "nfl_team": "CAR",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Brock Bowers",
+    "position": "TE",
+    "nfl_team": "LV",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Aaron Jones Sr.",
+    "position": "RB",
+    "nfl_team": "MIN",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Jared Goff",
+    "position": "QB",
+    "nfl_team": "DET",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Kenneth Gainwell",
+    "position": "RB",
+    "nfl_team": "PIT",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Darnell Mooney",
+    "position": "WR",
+    "nfl_team": "ATL",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Quentin Johnston",
+    "position": "WR",
+    "nfl_team": "LAC",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Tyler Allgeier",
+    "position": "RB",
+    "nfl_team": "ATL",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Jaylen Wright",
+    "position": "RB",
+    "nfl_team": "MIA",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Jake Elliott",
+    "position": "K",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Jaguars",
+    "position": "DEF",
+    "nfl_team": "Jax",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Cam Skattebo",
+    "position": "RB",
+    "nfl_team": "NYG",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Josh Allen",
+    "position": "QB",
+    "nfl_team": "BUF",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "George Pickens",
+    "position": "WR",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Chris Godwin Jr.",
+    "position": "WR",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Derrick Henry",
+    "position": "RB",
+    "nfl_team": "BAL",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Kyren Williams",
+    "position": "RB",
+    "nfl_team": "LA",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Travis Kelce",
+    "position": "TE",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Khalil Shakir",
+    "position": "WR",
+    "nfl_team": "BUF",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Darius Slayton",
+    "position": "WR",
+    "nfl_team": "NYG",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Tee Higgins",
+    "position": "WR",
+    "nfl_team": "CIN",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "DJ Moore",
+    "position": "WR",
+    "nfl_team": "CHI",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Rhamondre Stevenson",
+    "position": "RB",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Jayden Higgins",
+    "position": "WR",
+    "nfl_team": "HOU",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Chase McLaughlin",
+    "position": "K",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Eagles",
+    "position": "DEF",
+    "nfl_team": "Phi",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Patriots",
+    "position": "DEF",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Drake Maye",
+    "position": "QB",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "CeeDee Lamb",
+    "position": "WR",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Courtland Sutton",
+    "position": "WR",
+    "nfl_team": "DEN",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Javonte Williams",
+    "position": "RB",
+    "nfl_team": "DAL",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Chase Brown",
+    "position": "RB",
+    "nfl_team": "CIN",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Trey McBride",
+    "position": "TE",
+    "nfl_team": "ARI",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "DeVonta Smith",
+    "position": "WR",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Emeka Egbuka",
+    "position": "WR",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Lamar Jackson",
+    "position": "QB",
+    "nfl_team": "BAL",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Christian Watson",
+    "position": "WR",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Tank Bigsby",
+    "position": "RB",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Devin Neal",
+    "position": "RB",
+    "nfl_team": "NO",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Cam Little",
+    "position": "K",
+    "nfl_team": "JAX",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Broncos",
+    "position": "DEF",
+    "nfl_team": "Den",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "49ers",
+    "position": "DEF",
+    "nfl_team": "SF",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Trey Benson",
+    "position": "RB",
+    "nfl_team": "ARI",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Dak Prescott",
+    "position": "QB",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Jaylen Waddle",
+    "position": "WR",
+    "nfl_team": "MIA",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Zay Flowers",
+    "position": "WR",
+    "nfl_team": "BAL",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "De'Von Achane",
+    "position": "RB",
+    "nfl_team": "MIA",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Jaylen Warren",
+    "position": "RB",
+    "nfl_team": "PIT",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Dallas Goedert",
+    "position": "TE",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Saquon Barkley",
+    "position": "RB",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Kenneth Walker III",
+    "position": "RB",
+    "nfl_team": "SEA",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Davante Adams",
+    "position": "WR",
+    "nfl_team": "LA",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Baker Mayfield",
+    "position": "QB",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Alec Pierce",
+    "position": "WR",
+    "nfl_team": "IND",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Jerry Jeudy",
+    "position": "WR",
+    "nfl_team": "CLE",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Dontayvion Wicks",
+    "position": "WR",
+    "nfl_team": "GB",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Ka'imi Fairbairn",
+    "position": "K",
+    "nfl_team": "HOU",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Steelers",
+    "position": "DEF",
+    "nfl_team": "Pit",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Joe Burrow",
+    "position": "QB",
+    "nfl_team": "CIN",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Ja'Marr Chase",
+    "position": "WR",
+    "nfl_team": "CIN",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Michael Wilson",
+    "position": "WR",
+    "nfl_team": "ARI",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Josh Jacobs",
+    "position": "RB",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "TreVeyon Henderson",
+    "position": "RB",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Theo Johnson",
+    "position": "TE",
+    "nfl_team": "NYG",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "D'Andre Swift",
+    "position": "RB",
+    "nfl_team": "CHI",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Deebo Samuel",
+    "position": "WR",
+    "nfl_team": "WAS",
+    "status": "NA"
+  },
+  {
+    "season": 2025,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Rome Odunze",
+    "position": "WR",
+    "nfl_team": "CHI",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Emanuel Wilson",
+    "position": "RB",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Kyle Monangai",
+    "position": "RB",
+    "nfl_team": "CHI",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Zach Charbonnet",
+    "position": "RB",
+    "nfl_team": "SEA",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Garrett Wilson",
+    "position": "WR",
+    "nfl_team": "NYJ",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Brandon Aubrey",
+    "position": "K",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Rams",
+    "position": "DEF",
+    "nfl_team": "LAR",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Patrick Mahomes",
+    "position": "QB",
+    "nfl_team": "KC",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Caleb Williams",
+    "position": "QB",
+    "nfl_team": "CHI",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Justin Jefferson",
+    "position": "WR",
+    "nfl_team": "MIN",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Jakobi Meyers",
+    "position": "WR",
+    "nfl_team": "JAX",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Kareem Hunt",
+    "position": "RB",
+    "nfl_team": "KC",
+    "status": "NA"
+  },
+  {
+    "season": 2025,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Bucky Irving",
+    "position": "RB",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Mark Andrews",
+    "position": "TE",
+    "nfl_team": "BAL",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Omarion Hampton",
+    "position": "RB",
+    "nfl_team": "LAC",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Kimani Vidal",
+    "position": "RB",
+    "nfl_team": "LAC",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Jaxson Dart",
+    "position": "QB",
+    "nfl_team": "NYG",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Jauan Jennings",
+    "position": "WR",
+    "nfl_team": "SF",
+    "status": "NA"
+  },
+  {
+    "season": 2025,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Jake Ferguson",
+    "position": "TE",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Drake London",
+    "position": "WR",
+    "nfl_team": "ATL",
+    "status": ""
+  },
+  {
+    "season": 2025,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Harold Fannin Jr.",
+    "position": "TE",
+    "nfl_team": "CLE",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Colston Loveland",
+    "position": "TE",
+    "nfl_team": "CHI",
+    "status": "Q"
+  },
+  {
+    "season": 2025,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Jacory Croskey-Merritt",
+    "position": "RB",
+    "nfl_team": "WAS",
+    "status": ""
+  }
+]

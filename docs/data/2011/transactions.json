@@ -1,0 +1,4076 @@
+[
+  {
+    "type": "Add",
+    "date": "2011-12-22",
+    "player": "David Akers",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-12-22",
+    "player": "Robbie Gould",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-12-14",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-12-14",
+    "player": "Seahawks",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-12-14",
+    "player": "Felix Jones",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-12-14",
+    "player": "Denarius Moore",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-12-14",
+    "player": "Ryan Grant",
+    "from": "FA/Waiver",
+    "to": "postseason champs"
+  },
+  {
+    "type": "Add",
+    "date": "2011-12-14",
+    "player": "Lance Moore",
+    "from": "postseason champs",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-12-09",
+    "player": "Matt Forte",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-12-09",
+    "player": "Maurice Morris",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-12-07",
+    "player": "Dustin Keller",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Add",
+    "date": "2011-12-07",
+    "player": "Fred Davis",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-12-07",
+    "player": "Seahawks",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-12-07",
+    "player": "Dolphins",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-12-07",
+    "player": "Marion Barber",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-12-07",
+    "player": "Matt Forte",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-12-01",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-12-01",
+    "player": "Raiders",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-30",
+    "player": "Carson Palmer",
+    "from": "FA/Waiver",
+    "to": "Taint Lickers"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-30",
+    "player": "LaDainian Tomlinson",
+    "from": "Taint Lickers",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-30",
+    "player": "Santana Moss",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-30",
+    "player": "Jahvid Best",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-30",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-30",
+    "player": "Cardinals",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-30",
+    "player": "Broncos",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-30",
+    "player": "Bengals",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-30",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-30",
+    "player": "Rams",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-26",
+    "player": "Maurice Morris",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-26",
+    "player": "Daniel Thomas",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-26",
+    "player": "Andy Dalton",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-26",
+    "player": "Jay Cutler",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-24",
+    "player": "Laurent Robinson",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-24",
+    "player": "Jackie Battle",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-24",
+    "player": "Michael Crabtree",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-24",
+    "player": "Fred Jackson",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-24",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-24",
+    "player": "Jaguars",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-24",
+    "player": "C.J. Spiller",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-24",
+    "player": "Kendall Hunter",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-23",
+    "player": "Matt Bryant",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-23",
+    "player": "David Akers",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-23",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-23",
+    "player": "Eagles",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-23",
+    "player": "Toby Gerhart",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-23",
+    "player": "Felix Jones",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-23",
+    "player": "Kevin Smith",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-23",
+    "player": "Carson Palmer",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-23",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-23",
+    "player": "Chiefs",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-23",
+    "player": "Torrey Smith",
+    "from": "FA/Waiver",
+    "to": "postseason champs"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-23",
+    "player": "Kevin Walter",
+    "from": "postseason champs",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-20",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Jennys New Lover"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-20",
+    "player": "Dan Bailey",
+    "from": "Jennys New Lover",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-19",
+    "player": "Jackie Battle",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-19",
+    "player": "Dallas Clark",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-18",
+    "player": "Joe McKnight",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-18",
+    "player": "Knowshon Moreno",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-17",
+    "player": "Carson Palmer",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-17",
+    "player": "Damian Williams",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-17",
+    "player": "Damian Williams",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-17",
+    "player": "Jackie Battle",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-17",
+    "player": "James Jones",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-17",
+    "player": "Joseph Addai",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-16",
+    "player": "Stephen Gostkowski",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-16",
+    "player": "Billy Cundiff",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-16",
+    "player": "Kendall Hunter",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-16",
+    "player": "Marion Barber",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-12",
+    "player": "Denarius Moore",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-12",
+    "player": "Torrey Smith",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-10",
+    "player": "Alex Smith",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-10",
+    "player": "Shaun Suisham",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-10",
+    "player": "Joseph Addai",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-10",
+    "player": "Ryan Torain",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Marion Barber",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Javon Ringer",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Roy Helu",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Chris Ogbonnaya",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Robbie Gould",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Mike Nugent",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Billy Cundiff",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Stephen Gostkowski",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Torrey Smith",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Michael Crabtree",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Jaguars",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Bengals",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Ben Tate",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Darrius Heyward-Bey",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Saints",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Brent Celek",
+    "from": "FA/Waiver",
+    "to": "Taint Lickers"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Montario Hardesty",
+    "from": "Taint Lickers",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Marshawn Lynch",
+    "from": "FA/Waiver",
+    "to": "jordens a halfrican"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-09",
+    "player": "Santana Moss",
+    "from": "jordens a halfrican",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-04",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-04",
+    "player": "Brent Celek",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-03",
+    "player": "Michael Bush",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-03",
+    "player": "Marshawn Lynch",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-03",
+    "player": "Malcom Floyd",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-03",
+    "player": "Andy Dalton",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-02",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-02",
+    "player": "Jaguars",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-02",
+    "player": "Stephen Gostkowski",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-02",
+    "player": "Billy Cundiff",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-02",
+    "player": "Chris Ogbonnaya",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-02",
+    "player": "Delone Carter",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-02",
+    "player": "Brent Celek",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-02",
+    "player": "Browns",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-02",
+    "player": "Jaguars",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-02",
+    "player": "Nate Burleson",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-02",
+    "player": "Javon Ringer",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-02",
+    "player": "Bernard Scott",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-02",
+    "player": "Michael Crabtree",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-02",
+    "player": "Greg Little",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-02",
+    "player": "Shaun Suisham",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Add",
+    "date": "2011-11-02",
+    "player": "Mike Thomas",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-30",
+    "player": "Brandon Jacobs",
+    "from": "FA/Waiver",
+    "to": "Taint Lickers"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-30",
+    "player": "Ryan Grant",
+    "from": "Taint Lickers",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-30",
+    "player": "Andy Dalton",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-30",
+    "player": "Tashard Choice",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-29",
+    "player": "Chad Johnson",
+    "from": "FA/Waiver",
+    "to": "jordens a halfrican"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-29",
+    "player": "Michael Bush",
+    "from": "jordens a halfrican",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-27",
+    "player": "Bernard Scott",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-27",
+    "player": "Joseph Addai",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-27",
+    "player": "Antonio Brown",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-27",
+    "player": "Doug Baldwin",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-27",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-27",
+    "player": "Broncos",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-27",
+    "player": "Mike Nugent",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-27",
+    "player": "Robbie Gould",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-26",
+    "player": "Ryan Torain",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-26",
+    "player": "Malcom Floyd",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-26",
+    "player": "David Akers",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-26",
+    "player": "Matt Bryant",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-26",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "Taint Lickers"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-26",
+    "player": "Chris Cooley",
+    "from": "Taint Lickers",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-26",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-26",
+    "player": "Cowboys",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-26",
+    "player": "Delone Carter",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-26",
+    "player": "Earnest Graham",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-26",
+    "player": "Plaxico Burress",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-26",
+    "player": "David Nelson",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-26",
+    "player": "DeMarco Murray",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-26",
+    "player": "Marcedes Lewis",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-23",
+    "player": "Montario Hardesty",
+    "from": "FA/Waiver",
+    "to": "Taint Lickers"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-23",
+    "player": "Falcons",
+    "from": "Taint Lickers",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-23",
+    "player": "Rob Bironas",
+    "from": "FA/Waiver",
+    "to": "old dirty bastard"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-23",
+    "player": "Stephen Gostkowski",
+    "from": "old dirty bastard",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-23",
+    "player": "Stephen Gostkowski",
+    "from": "FA/Waiver",
+    "to": "old dirty bastard"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-23",
+    "player": "Austin Collie",
+    "from": "old dirty bastard",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-23",
+    "player": "Dan Bailey",
+    "from": "FA/Waiver",
+    "to": "Jennys New Lover"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-23",
+    "player": "Tim Hightower",
+    "from": "Jennys New Lover",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-23",
+    "player": "Texans",
+    "from": "FA/Waiver",
+    "to": "Jennys New Lover"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-23",
+    "player": "Patriots",
+    "from": "Jennys New Lover",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-22",
+    "player": "Greg Little",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-22",
+    "player": "Kevin Kolb",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-21",
+    "player": "Tashard Choice",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-21",
+    "player": "Danny Woodhead",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-20",
+    "player": "Jackie Battle",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-20",
+    "player": "Demaryius Thomas",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-20",
+    "player": "Doug Baldwin",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-20",
+    "player": "Jermaine Gresham",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-20",
+    "player": "Broncos",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-20",
+    "player": "Bengals",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-19",
+    "player": "Billy Cundiff",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-19",
+    "player": "Stephen Gostkowski",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-19",
+    "player": "Demaryius Thomas",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-19",
+    "player": "Ryan Torain",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-19",
+    "player": "Jay Cutler",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-19",
+    "player": "Sam Bradford",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-19",
+    "player": "Fred Davis",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-19",
+    "player": "Dustin Keller",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-19",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-19",
+    "player": "Bills",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-19",
+    "player": "LaDainian Tomlinson",
+    "from": "FA/Waiver",
+    "to": "Taint Lickers"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-19",
+    "player": "Johnny Knox",
+    "from": "Taint Lickers",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-16",
+    "player": "Pierre Thomas",
+    "from": "FA/Waiver",
+    "to": "Jennys New Lover"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-16",
+    "player": "LaDainian Tomlinson",
+    "from": "Jennys New Lover",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-16",
+    "player": "LaDainian Tomlinson",
+    "from": "FA/Waiver",
+    "to": "Jennys New Lover"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-16",
+    "player": "Hines Ward",
+    "from": "Jennys New Lover",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-16",
+    "player": "Mark Ingram II",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-16",
+    "player": "Brandon Jacobs",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-14",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-14",
+    "player": "Eagles",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-14",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-14",
+    "player": "Jackie Battle",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-14",
+    "player": "Jonathan Stewart",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-14",
+    "player": "Braylon Edwards",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-12",
+    "player": "Earnest Graham",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-12",
+    "player": "Jonathan Stewart",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-12",
+    "player": "Darrius Heyward-Bey",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-12",
+    "player": "Titans",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-12",
+    "player": "Jackie Battle",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-12",
+    "player": "Isaac Redman",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-12",
+    "player": "Victor Cruz",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-12",
+    "player": "Antonio Brown",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-12",
+    "player": "Tim Tebow",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-12",
+    "player": "Plaxico Burress",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-12",
+    "player": "Pierre Garcon",
+    "from": "FA/Waiver",
+    "to": "Jennys New Lover"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-12",
+    "player": "LaDainian Tomlinson",
+    "from": "Jennys New Lover",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-08",
+    "player": "Jason Hanson",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-08",
+    "player": "David Akers",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-06",
+    "player": "Kevin Walter",
+    "from": "FA/Waiver",
+    "to": "postseason champs"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-06",
+    "player": "Mark Ingram II",
+    "from": "postseason champs",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-05",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-05",
+    "player": "Cowboys",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-05",
+    "player": "Antonio Brown",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-05",
+    "player": "Montario Hardesty",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-05",
+    "player": "Jermaine Gresham",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-05",
+    "player": "Fred Davis",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-05",
+    "player": "Matt Hasselbeck",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-05",
+    "player": "Jay Cutler",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-05",
+    "player": "Montario Hardesty",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-05",
+    "player": "Dexter McCluster",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-05",
+    "player": "Ryan Torain",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-05",
+    "player": "Thomas Jones",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-05",
+    "player": "Isaac Redman",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-05",
+    "player": "Ben Tate",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-02",
+    "player": "Deion Branch",
+    "from": "FA/Waiver",
+    "to": "Taint Lickers"
+  },
+  {
+    "type": "Add",
+    "date": "2011-10-02",
+    "player": "Davone Bess",
+    "from": "Taint Lickers",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-30",
+    "player": "David Nelson",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-30",
+    "player": "Roy Helu",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-29",
+    "player": "Brandon Jacobs",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-29",
+    "player": "Peyton Manning",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-28",
+    "player": "Jay Cutler",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-28",
+    "player": "Kenny Britt",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-28",
+    "player": "Darren Sproles",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-28",
+    "player": "Mike Williams",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-28",
+    "player": "Nate Washington",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-28",
+    "player": "Cadillac Williams",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-28",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-28",
+    "player": "Broncos",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-28",
+    "player": "Mark Ingram II",
+    "from": "FA/Waiver",
+    "to": "postseason champs"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-28",
+    "player": "Pierre Thomas",
+    "from": "postseason champs",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-25",
+    "player": "Fred Davis",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-25",
+    "player": "Mark Ingram II",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-25",
+    "player": "Vernon Davis",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-25",
+    "player": "Zach Miller",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-25",
+    "player": "Marshawn Lynch",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-25",
+    "player": "Jamaal Charles",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-21",
+    "player": "Nate Burleson",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-21",
+    "player": "Vernon Davis",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-21",
+    "player": "Dexter McCluster",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-21",
+    "player": "Marshawn Lynch",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-21",
+    "player": "Roy Helu",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-21",
+    "player": "Chad Johnson",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-21",
+    "player": "Dustin Keller",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-21",
+    "player": "Darren Sproles",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-21",
+    "player": "Thomas Jones",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-21",
+    "player": "Jacoby Ford",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-21",
+    "player": "Eric Decker",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-21",
+    "player": "Pierre Garcon",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-21",
+    "player": "Davone Bess",
+    "from": "FA/Waiver",
+    "to": "Taint Lickers"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-21",
+    "player": "Brandon Jacobs",
+    "from": "Taint Lickers",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-21",
+    "player": "Robert Meachem",
+    "from": "FA/Waiver",
+    "to": "old dirty bastard"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-21",
+    "player": "Danny Amendola",
+    "from": "old dirty bastard",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-17",
+    "player": "Danny Woodhead",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-17",
+    "player": "Lee Evans",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-17",
+    "player": "Jonathan Stewart",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-17",
+    "player": "Mike Sims-Walker",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-15",
+    "player": "John Kasay",
+    "from": "FA/Waiver",
+    "to": "postseason champs"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-15",
+    "player": "Nate Kaeding",
+    "from": "postseason champs",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-15",
+    "player": "Robbie Gould",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-15",
+    "player": "Adam Vinatieri",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-14",
+    "player": "David Akers",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-14",
+    "player": "Rob Bironas",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-14",
+    "player": "Rob Gronkowski",
+    "from": "FA/Waiver",
+    "to": "Jennys New Lover"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-14",
+    "player": "Deion Branch",
+    "from": "Jennys New Lover",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-14",
+    "player": "Broncos",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-14",
+    "player": "Chiefs",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-14",
+    "player": "Cadillac Williams",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-14",
+    "player": "Michael Crabtree",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-14",
+    "player": "Cam Newton",
+    "from": "FA/Waiver",
+    "to": "Jennys New Lover"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-14",
+    "player": "Jonathan Stewart",
+    "from": "Jennys New Lover",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-09",
+    "player": "Darren Sproles",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-09",
+    "player": "Derrick Ward",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-09",
+    "player": "Jordy Nelson",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-09",
+    "player": "Davone Bess",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-08",
+    "player": "Adam Vinatieri",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-08",
+    "player": "Garrett Hartley",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-02",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Add",
+    "date": "2011-09-02",
+    "player": "Saints",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-08-31",
+    "player": "Ben Tate",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Add",
+    "date": "2011-08-31",
+    "player": "Jay Cutler",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2011-08-31",
+    "player": "Derrick Ward",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Add",
+    "date": "2011-08-31",
+    "player": "Roy Helu",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-12-22",
+    "player": "David Akers",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-12-22",
+    "player": "Robbie Gould",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-12-14",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-12-14",
+    "player": "Seahawks",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-12-14",
+    "player": "Felix Jones",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-12-14",
+    "player": "Denarius Moore",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-12-14",
+    "player": "Ryan Grant",
+    "from": "FA/Waiver",
+    "to": "postseason champs"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-12-14",
+    "player": "Lance Moore",
+    "from": "postseason champs",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-12-09",
+    "player": "Matt Forte",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-12-09",
+    "player": "Maurice Morris",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-12-07",
+    "player": "Dustin Keller",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-12-07",
+    "player": "Fred Davis",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-12-07",
+    "player": "Seahawks",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-12-07",
+    "player": "Dolphins",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-12-07",
+    "player": "Marion Barber",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-12-07",
+    "player": "Matt Forte",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-12-01",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-12-01",
+    "player": "Raiders",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-30",
+    "player": "Carson Palmer",
+    "from": "FA/Waiver",
+    "to": "Taint Lickers"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-30",
+    "player": "LaDainian Tomlinson",
+    "from": "Taint Lickers",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-30",
+    "player": "Santana Moss",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-30",
+    "player": "Jahvid Best",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-30",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-30",
+    "player": "Cardinals",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-30",
+    "player": "Broncos",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-30",
+    "player": "Bengals",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-30",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-30",
+    "player": "Rams",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-26",
+    "player": "Maurice Morris",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-26",
+    "player": "Daniel Thomas",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-26",
+    "player": "Andy Dalton",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-26",
+    "player": "Jay Cutler",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-24",
+    "player": "Laurent Robinson",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-24",
+    "player": "Jackie Battle",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-24",
+    "player": "Michael Crabtree",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-24",
+    "player": "Fred Jackson",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-24",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-24",
+    "player": "Jaguars",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-24",
+    "player": "C.J. Spiller",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-24",
+    "player": "Kendall Hunter",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-23",
+    "player": "Matt Bryant",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-23",
+    "player": "David Akers",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-23",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-23",
+    "player": "Eagles",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-23",
+    "player": "Toby Gerhart",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-23",
+    "player": "Felix Jones",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-23",
+    "player": "Kevin Smith",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-23",
+    "player": "Carson Palmer",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-23",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-23",
+    "player": "Chiefs",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-23",
+    "player": "Torrey Smith",
+    "from": "FA/Waiver",
+    "to": "postseason champs"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-23",
+    "player": "Kevin Walter",
+    "from": "postseason champs",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-20",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Jennys New Lover"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-20",
+    "player": "Dan Bailey",
+    "from": "Jennys New Lover",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-19",
+    "player": "Jackie Battle",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-19",
+    "player": "Dallas Clark",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-18",
+    "player": "Joe McKnight",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-18",
+    "player": "Knowshon Moreno",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-17",
+    "player": "Carson Palmer",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-17",
+    "player": "Damian Williams",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-17",
+    "player": "Damian Williams",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-17",
+    "player": "Jackie Battle",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-17",
+    "player": "James Jones",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-17",
+    "player": "Joseph Addai",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-16",
+    "player": "Stephen Gostkowski",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-16",
+    "player": "Billy Cundiff",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-16",
+    "player": "Kendall Hunter",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-16",
+    "player": "Marion Barber",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-12",
+    "player": "Denarius Moore",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-12",
+    "player": "Torrey Smith",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-10",
+    "player": "Alex Smith",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-10",
+    "player": "Shaun Suisham",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-10",
+    "player": "Joseph Addai",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-10",
+    "player": "Ryan Torain",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Marion Barber",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Javon Ringer",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Roy Helu",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Chris Ogbonnaya",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Robbie Gould",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Mike Nugent",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Billy Cundiff",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Stephen Gostkowski",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Torrey Smith",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Michael Crabtree",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Jaguars",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Bengals",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Ben Tate",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Darrius Heyward-Bey",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Saints",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Brent Celek",
+    "from": "FA/Waiver",
+    "to": "Taint Lickers"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Montario Hardesty",
+    "from": "Taint Lickers",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Marshawn Lynch",
+    "from": "FA/Waiver",
+    "to": "jordens a halfrican"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-09",
+    "player": "Santana Moss",
+    "from": "jordens a halfrican",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-04",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-04",
+    "player": "Brent Celek",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-03",
+    "player": "Michael Bush",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-03",
+    "player": "Marshawn Lynch",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-03",
+    "player": "Malcom Floyd",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-03",
+    "player": "Andy Dalton",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-02",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-02",
+    "player": "Jaguars",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-02",
+    "player": "Stephen Gostkowski",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-02",
+    "player": "Billy Cundiff",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-02",
+    "player": "Chris Ogbonnaya",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-02",
+    "player": "Delone Carter",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-02",
+    "player": "Brent Celek",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-02",
+    "player": "Browns",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-02",
+    "player": "Jaguars",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-02",
+    "player": "Nate Burleson",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-02",
+    "player": "Javon Ringer",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-02",
+    "player": "Bernard Scott",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-02",
+    "player": "Michael Crabtree",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-02",
+    "player": "Greg Little",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-02",
+    "player": "Shaun Suisham",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-11-02",
+    "player": "Mike Thomas",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-30",
+    "player": "Brandon Jacobs",
+    "from": "FA/Waiver",
+    "to": "Taint Lickers"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-30",
+    "player": "Ryan Grant",
+    "from": "Taint Lickers",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-30",
+    "player": "Andy Dalton",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-30",
+    "player": "Tashard Choice",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-29",
+    "player": "Chad Johnson",
+    "from": "FA/Waiver",
+    "to": "jordens a halfrican"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-29",
+    "player": "Michael Bush",
+    "from": "jordens a halfrican",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-27",
+    "player": "Bernard Scott",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-27",
+    "player": "Joseph Addai",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-27",
+    "player": "Antonio Brown",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-27",
+    "player": "Doug Baldwin",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-27",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-27",
+    "player": "Broncos",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-27",
+    "player": "Mike Nugent",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-27",
+    "player": "Robbie Gould",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-26",
+    "player": "Ryan Torain",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-26",
+    "player": "Malcom Floyd",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-26",
+    "player": "David Akers",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-26",
+    "player": "Matt Bryant",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-26",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "Taint Lickers"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-26",
+    "player": "Chris Cooley",
+    "from": "Taint Lickers",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-26",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-26",
+    "player": "Cowboys",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-26",
+    "player": "Delone Carter",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-26",
+    "player": "Earnest Graham",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-26",
+    "player": "Plaxico Burress",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-26",
+    "player": "David Nelson",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-26",
+    "player": "DeMarco Murray",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-26",
+    "player": "Marcedes Lewis",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-23",
+    "player": "Montario Hardesty",
+    "from": "FA/Waiver",
+    "to": "Taint Lickers"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-23",
+    "player": "Falcons",
+    "from": "Taint Lickers",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-23",
+    "player": "Rob Bironas",
+    "from": "FA/Waiver",
+    "to": "old dirty bastard"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-23",
+    "player": "Stephen Gostkowski",
+    "from": "old dirty bastard",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-23",
+    "player": "Stephen Gostkowski",
+    "from": "FA/Waiver",
+    "to": "old dirty bastard"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-23",
+    "player": "Austin Collie",
+    "from": "old dirty bastard",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-23",
+    "player": "Dan Bailey",
+    "from": "FA/Waiver",
+    "to": "Jennys New Lover"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-23",
+    "player": "Tim Hightower",
+    "from": "Jennys New Lover",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-23",
+    "player": "Texans",
+    "from": "FA/Waiver",
+    "to": "Jennys New Lover"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-23",
+    "player": "Patriots",
+    "from": "Jennys New Lover",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-22",
+    "player": "Greg Little",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-22",
+    "player": "Kevin Kolb",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-21",
+    "player": "Tashard Choice",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-21",
+    "player": "Danny Woodhead",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-20",
+    "player": "Jackie Battle",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-20",
+    "player": "Demaryius Thomas",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-20",
+    "player": "Doug Baldwin",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-20",
+    "player": "Jermaine Gresham",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-20",
+    "player": "Broncos",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-20",
+    "player": "Bengals",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-19",
+    "player": "Billy Cundiff",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-19",
+    "player": "Stephen Gostkowski",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-19",
+    "player": "Demaryius Thomas",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-19",
+    "player": "Ryan Torain",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-19",
+    "player": "Jay Cutler",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-19",
+    "player": "Sam Bradford",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-19",
+    "player": "Fred Davis",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-19",
+    "player": "Dustin Keller",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-19",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-19",
+    "player": "Bills",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-19",
+    "player": "LaDainian Tomlinson",
+    "from": "FA/Waiver",
+    "to": "Taint Lickers"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-19",
+    "player": "Johnny Knox",
+    "from": "Taint Lickers",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-16",
+    "player": "Pierre Thomas",
+    "from": "FA/Waiver",
+    "to": "Jennys New Lover"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-16",
+    "player": "LaDainian Tomlinson",
+    "from": "Jennys New Lover",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-16",
+    "player": "LaDainian Tomlinson",
+    "from": "FA/Waiver",
+    "to": "Jennys New Lover"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-16",
+    "player": "Hines Ward",
+    "from": "Jennys New Lover",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-16",
+    "player": "Mark Ingram II",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-16",
+    "player": "Brandon Jacobs",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-14",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-14",
+    "player": "Eagles",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-14",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-14",
+    "player": "Jackie Battle",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-14",
+    "player": "Jonathan Stewart",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-14",
+    "player": "Braylon Edwards",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-12",
+    "player": "Earnest Graham",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-12",
+    "player": "Jonathan Stewart",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-12",
+    "player": "Darrius Heyward-Bey",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-12",
+    "player": "Titans",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-12",
+    "player": "Jackie Battle",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-12",
+    "player": "Isaac Redman",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-12",
+    "player": "Victor Cruz",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-12",
+    "player": "Antonio Brown",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-12",
+    "player": "Tim Tebow",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-12",
+    "player": "Plaxico Burress",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-12",
+    "player": "Pierre Garcon",
+    "from": "FA/Waiver",
+    "to": "Jennys New Lover"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-12",
+    "player": "LaDainian Tomlinson",
+    "from": "Jennys New Lover",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-08",
+    "player": "Jason Hanson",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-08",
+    "player": "David Akers",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-06",
+    "player": "Kevin Walter",
+    "from": "FA/Waiver",
+    "to": "postseason champs"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-06",
+    "player": "Mark Ingram II",
+    "from": "postseason champs",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-05",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-05",
+    "player": "Cowboys",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-05",
+    "player": "Antonio Brown",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-05",
+    "player": "Montario Hardesty",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-05",
+    "player": "Jermaine Gresham",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-05",
+    "player": "Fred Davis",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-05",
+    "player": "Matt Hasselbeck",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-05",
+    "player": "Jay Cutler",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-05",
+    "player": "Montario Hardesty",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-05",
+    "player": "Dexter McCluster",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-05",
+    "player": "Ryan Torain",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-05",
+    "player": "Thomas Jones",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-05",
+    "player": "Isaac Redman",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-05",
+    "player": "Ben Tate",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-02",
+    "player": "Deion Branch",
+    "from": "FA/Waiver",
+    "to": "Taint Lickers"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-10-02",
+    "player": "Davone Bess",
+    "from": "Taint Lickers",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-30",
+    "player": "David Nelson",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-30",
+    "player": "Roy Helu",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-29",
+    "player": "Brandon Jacobs",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-29",
+    "player": "Peyton Manning",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-28",
+    "player": "Jay Cutler",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-28",
+    "player": "Kenny Britt",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-28",
+    "player": "Darren Sproles",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-28",
+    "player": "Mike Williams",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-28",
+    "player": "Nate Washington",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-28",
+    "player": "Cadillac Williams",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-28",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-28",
+    "player": "Broncos",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-28",
+    "player": "Mark Ingram II",
+    "from": "FA/Waiver",
+    "to": "postseason champs"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-28",
+    "player": "Pierre Thomas",
+    "from": "postseason champs",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-25",
+    "player": "Fred Davis",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-25",
+    "player": "Mark Ingram II",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-25",
+    "player": "Vernon Davis",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-25",
+    "player": "Zach Miller",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-25",
+    "player": "Marshawn Lynch",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-25",
+    "player": "Jamaal Charles",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-21",
+    "player": "Nate Burleson",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-21",
+    "player": "Vernon Davis",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-21",
+    "player": "Dexter McCluster",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-21",
+    "player": "Marshawn Lynch",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-21",
+    "player": "Roy Helu",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-21",
+    "player": "Chad Johnson",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-21",
+    "player": "Dustin Keller",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-21",
+    "player": "Darren Sproles",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-21",
+    "player": "Thomas Jones",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-21",
+    "player": "Jacoby Ford",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-21",
+    "player": "Eric Decker",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-21",
+    "player": "Pierre Garcon",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-21",
+    "player": "Davone Bess",
+    "from": "FA/Waiver",
+    "to": "Taint Lickers"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-21",
+    "player": "Brandon Jacobs",
+    "from": "Taint Lickers",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-21",
+    "player": "Robert Meachem",
+    "from": "FA/Waiver",
+    "to": "old dirty bastard"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-21",
+    "player": "Danny Amendola",
+    "from": "old dirty bastard",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-17",
+    "player": "Danny Woodhead",
+    "from": "FA/Waiver",
+    "to": "The Milf Tonyas"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-17",
+    "player": "Lee Evans",
+    "from": "The Milf Tonyas",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-17",
+    "player": "Jonathan Stewart",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-17",
+    "player": "Mike Sims-Walker",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-15",
+    "player": "John Kasay",
+    "from": "FA/Waiver",
+    "to": "postseason champs"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-15",
+    "player": "Nate Kaeding",
+    "from": "postseason champs",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-15",
+    "player": "Robbie Gould",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-15",
+    "player": "Adam Vinatieri",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-14",
+    "player": "David Akers",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-14",
+    "player": "Rob Bironas",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-14",
+    "player": "Rob Gronkowski",
+    "from": "FA/Waiver",
+    "to": "Jennys New Lover"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-14",
+    "player": "Deion Branch",
+    "from": "Jennys New Lover",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-14",
+    "player": "Broncos",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-14",
+    "player": "Chiefs",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-14",
+    "player": "Cadillac Williams",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-14",
+    "player": "Michael Crabtree",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-14",
+    "player": "Cam Newton",
+    "from": "FA/Waiver",
+    "to": "Jennys New Lover"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-14",
+    "player": "Jonathan Stewart",
+    "from": "Jennys New Lover",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-09",
+    "player": "Darren Sproles",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-09",
+    "player": "Derrick Ward",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-09",
+    "player": "Jordy Nelson",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-09",
+    "player": "Davone Bess",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-08",
+    "player": "Adam Vinatieri",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-08",
+    "player": "Garrett Hartley",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-02",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "2012 Favorite"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-09-02",
+    "player": "Saints",
+    "from": "2012 Favorite",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-08-31",
+    "player": "Ben Tate",
+    "from": "FA/Waiver",
+    "to": "16-0"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-08-31",
+    "player": "Jay Cutler",
+    "from": "16-0",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-08-31",
+    "player": "Derrick Ward",
+    "from": "FA/Waiver",
+    "to": "Goatse III"
+  },
+  {
+    "type": "Drop",
+    "date": "2011-08-31",
+    "player": "Roy Helu",
+    "from": "Goatse III",
+    "to": "Dropped"
+  },
+  {
+    "type": "Trade",
+    "date": "2011-11-07",
+    "player": "Maurice Jones-Drew",
+    "from": "The Commish",
+    "to": "old dirty bastard"
+  },
+  {
+    "type": "Trade",
+    "date": "2011-11-07",
+    "player": "Eric Decker",
+    "from": "The Commish",
+    "to": "old dirty bastard"
+  },
+  {
+    "type": "Trade",
+    "date": "2011-11-07",
+    "player": "Aaron Rodgers",
+    "from": "The Commish",
+    "to": "old dirty bastard"
+  },
+  {
+    "type": "Trade",
+    "date": "2011-11-07",
+    "player": "Philip Rivers",
+    "from": "old dirty bastard",
+    "to": "The Commish"
+  },
+  {
+    "type": "Trade",
+    "date": "2011-11-07",
+    "player": "Dwayne Bowe",
+    "from": "old dirty bastard",
+    "to": "The Commish"
+  },
+  {
+    "type": "Trade",
+    "date": "2011-11-07",
+    "player": "Ahmad Bradshaw",
+    "from": "old dirty bastard",
+    "to": "The Commish"
+  },
+  {
+    "type": "Trade",
+    "date": "2011-10-22",
+    "player": "Matt Hasselbeck",
+    "from": "16-0",
+    "to": "The Commish"
+  },
+  {
+    "type": "Trade",
+    "date": "2011-10-22",
+    "player": "Victor Cruz",
+    "from": "16-0",
+    "to": "The Commish"
+  },
+  {
+    "type": "Trade",
+    "date": "2011-10-22",
+    "player": "Mike Williams",
+    "from": "The Commish",
+    "to": "16-0"
+  },
+  {
+    "type": "Trade",
+    "date": "2011-10-22",
+    "player": "Kevin Kolb",
+    "from": "The Commish",
+    "to": "16-0"
+  }
+]

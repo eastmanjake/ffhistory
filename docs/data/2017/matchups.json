@@ -1,0 +1,686 @@
+[
+  {
+    "week": 1,
+    "team1": "The Commish",
+    "score1": "79.64",
+    "team2": "Bad Rivers Tribe",
+    "score2": "76.75",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "Flint City Tropics",
+    "score1": "96.18",
+    "team2": "Los Angeles Knights",
+    "score2": "81.42",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "Goatse IX",
+    "score1": "105.89",
+    "team2": "The Brown Bears",
+    "score2": "97.77",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "The juice is loose",
+    "score1": "65.18",
+    "team2": "SHARKEISHA NO",
+    "score2": "100.64",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "Raaaaaaaandy",
+    "score1": "90.48",
+    "team2": "Silver Dodge Ram",
+    "score2": "68.04",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "The Commish",
+    "score1": "130.19",
+    "team2": "Flint City Tropics",
+    "score2": "107.55",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Bad Rivers Tribe",
+    "score1": "60.36",
+    "team2": "Silver Dodge Ram",
+    "score2": "100.65",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Goatse IX",
+    "score1": "90.47",
+    "team2": "Los Angeles Knights",
+    "score2": "93.17",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "The juice is loose",
+    "score1": "104.38",
+    "team2": "The Brown Bears",
+    "score2": "100.16",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Raaaaaaaandy",
+    "score1": "75.58",
+    "team2": "SHARKEISHA NO",
+    "score2": "85.73",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "The Commish",
+    "score1": "111.75",
+    "team2": "Goatse IX",
+    "score2": "98.17",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Bad Rivers Tribe",
+    "score1": "113.15",
+    "team2": "Flint City Tropics",
+    "score2": "84.18",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "The juice is loose",
+    "score1": "90.92",
+    "team2": "Los Angeles Knights",
+    "score2": "69.86",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Raaaaaaaandy",
+    "score1": "88.96",
+    "team2": "The Brown Bears",
+    "score2": "125.39",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "SHARKEISHA NO",
+    "score1": "75.96",
+    "team2": "Silver Dodge Ram",
+    "score2": "91.15",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "The Commish",
+    "score1": "120.42",
+    "team2": "The juice is loose",
+    "score2": "115.33",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Bad Rivers Tribe",
+    "score1": "113.05",
+    "team2": "Goatse IX",
+    "score2": "88.41",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Flint City Tropics",
+    "score1": "120.38",
+    "team2": "Silver Dodge Ram",
+    "score2": "86.44",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Raaaaaaaandy",
+    "score1": "71.51",
+    "team2": "Los Angeles Knights",
+    "score2": "87.75",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "SHARKEISHA NO",
+    "score1": "66.58",
+    "team2": "The Brown Bears",
+    "score2": "95.43",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "The Commish",
+    "score1": "90.36",
+    "team2": "Raaaaaaaandy",
+    "score2": "76.76",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Bad Rivers Tribe",
+    "score1": "87.40",
+    "team2": "The juice is loose",
+    "score2": "92.32",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Flint City Tropics",
+    "score1": "130.04",
+    "team2": "Goatse IX",
+    "score2": "90.84",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "SHARKEISHA NO",
+    "score1": "92.12",
+    "team2": "Los Angeles Knights",
+    "score2": "45.87",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "The Brown Bears",
+    "score1": "112.66",
+    "team2": "Silver Dodge Ram",
+    "score2": "70.03",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "The Commish",
+    "score1": "70.99",
+    "team2": "SHARKEISHA NO",
+    "score2": "88.62",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Bad Rivers Tribe",
+    "score1": "100.80",
+    "team2": "Raaaaaaaandy",
+    "score2": "120.98",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Flint City Tropics",
+    "score1": "123.32",
+    "team2": "The juice is loose",
+    "score2": "106.03",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Goatse IX",
+    "score1": "96.92",
+    "team2": "Silver Dodge Ram",
+    "score2": "88.14",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "The Brown Bears",
+    "score1": "129.65",
+    "team2": "Los Angeles Knights",
+    "score2": "93.06",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "The Commish",
+    "score1": "87.19",
+    "team2": "The Brown Bears",
+    "score2": "105.66",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Bad Rivers Tribe",
+    "score1": "109.82",
+    "team2": "SHARKEISHA NO",
+    "score2": "104.47",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Flint City Tropics",
+    "score1": "94.51",
+    "team2": "Raaaaaaaandy",
+    "score2": "79.56",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Goatse IX",
+    "score1": "95.62",
+    "team2": "The juice is loose",
+    "score2": "90.41",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Los Angeles Knights",
+    "score1": "111.09",
+    "team2": "Silver Dodge Ram",
+    "score2": "94.67",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "The Commish",
+    "score1": "126.19",
+    "team2": "Los Angeles Knights",
+    "score2": "94.56",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Bad Rivers Tribe",
+    "score1": "74.87",
+    "team2": "The Brown Bears",
+    "score2": "108.03",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Flint City Tropics",
+    "score1": "83.52",
+    "team2": "SHARKEISHA NO",
+    "score2": "101.96",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Goatse IX",
+    "score1": "67.26",
+    "team2": "Raaaaaaaandy",
+    "score2": "113.73",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "The juice is loose",
+    "score1": "120.67",
+    "team2": "Silver Dodge Ram",
+    "score2": "91.83",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "The Commish",
+    "score1": "87.15",
+    "team2": "Silver Dodge Ram",
+    "score2": "106.17",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Bad Rivers Tribe",
+    "score1": "73.53",
+    "team2": "Los Angeles Knights",
+    "score2": "87.28",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Flint City Tropics",
+    "score1": "128.01",
+    "team2": "The Brown Bears",
+    "score2": "50.18",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Goatse IX",
+    "score1": "103.57",
+    "team2": "SHARKEISHA NO",
+    "score2": "106.67",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "The juice is loose",
+    "score1": "114.30",
+    "team2": "Raaaaaaaandy",
+    "score2": "78.54",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "The Commish",
+    "score1": "61.34",
+    "team2": "Bad Rivers Tribe",
+    "score2": "117.23",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "Flint City Tropics",
+    "score1": "58.99",
+    "team2": "Los Angeles Knights",
+    "score2": "124.32",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "Goatse IX",
+    "score1": "76.01",
+    "team2": "The Brown Bears",
+    "score2": "96.58",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "The juice is loose",
+    "score1": "107.64",
+    "team2": "SHARKEISHA NO",
+    "score2": "110.60",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "Raaaaaaaandy",
+    "score1": "91.76",
+    "team2": "Silver Dodge Ram",
+    "score2": "89.01",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "The Commish",
+    "score1": "108.82",
+    "team2": "Flint City Tropics",
+    "score2": "88.15",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Bad Rivers Tribe",
+    "score1": "102.43",
+    "team2": "Silver Dodge Ram",
+    "score2": "99.10",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Goatse IX",
+    "score1": "92.60",
+    "team2": "Los Angeles Knights",
+    "score2": "112.57",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "The juice is loose",
+    "score1": "86.10",
+    "team2": "The Brown Bears",
+    "score2": "77.86",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Raaaaaaaandy",
+    "score1": "73.76",
+    "team2": "SHARKEISHA NO",
+    "score2": "86.65",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "The Commish",
+    "score1": "133.48",
+    "team2": "Goatse IX",
+    "score2": "64.89",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Bad Rivers Tribe",
+    "score1": "103.63",
+    "team2": "Flint City Tropics",
+    "score2": "110.21",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "The juice is loose",
+    "score1": "95.58",
+    "team2": "Los Angeles Knights",
+    "score2": "131.52",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Raaaaaaaandy",
+    "score1": "96.64",
+    "team2": "The Brown Bears",
+    "score2": "71.07",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "SHARKEISHA NO",
+    "score1": "77.43",
+    "team2": "Silver Dodge Ram",
+    "score2": "124.56",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "The Commish",
+    "score1": "81.62",
+    "team2": "The juice is loose",
+    "score2": "137.67",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Bad Rivers Tribe",
+    "score1": "100.09",
+    "team2": "Goatse IX",
+    "score2": "45.75",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Flint City Tropics",
+    "score1": "100.16",
+    "team2": "Silver Dodge Ram",
+    "score2": "61.10",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Raaaaaaaandy",
+    "score1": "125.75",
+    "team2": "Los Angeles Knights",
+    "score2": "97.73",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "SHARKEISHA NO",
+    "score1": "96.15",
+    "team2": "The Brown Bears",
+    "score2": "96.55",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 14,
+    "team1": "The juice is loose",
+    "score1": "129.37",
+    "team2": "SHARKEISHA NO",
+    "score2": "100.59",
+    "playoff": true,
+    "round": "Quarterfinal"
+  },
+  {
+    "week": 14,
+    "team1": "The Brown Bears",
+    "score1": "62.44",
+    "team2": "Los Angeles Knights",
+    "score2": "84.34",
+    "playoff": true,
+    "round": "Quarterfinal"
+  },
+  {
+    "week": 15,
+    "team1": "The Commish",
+    "score1": "118.49",
+    "team2": "Los Angeles Knights",
+    "score2": "77.43",
+    "playoff": true,
+    "round": "Semifinal"
+  },
+  {
+    "week": 15,
+    "team1": "Bad Rivers Tribe",
+    "score1": "89.09",
+    "team2": "Goatse IX",
+    "score2": "107.45",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 15,
+    "team1": "Flint City Tropics",
+    "score1": "101.28",
+    "team2": "The juice is loose",
+    "score2": "106.82",
+    "playoff": true,
+    "round": "Semifinal"
+  },
+  {
+    "week": 15,
+    "team1": "Raaaaaaaandy",
+    "score1": "117.44",
+    "team2": "Silver Dodge Ram",
+    "score2": "73.24",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 15,
+    "team1": "SHARKEISHA NO",
+    "score1": "105.48",
+    "team2": "The Brown Bears",
+    "score2": "114.61",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 16,
+    "team1": "The Commish",
+    "score1": "104.08",
+    "team2": "The juice is loose",
+    "score2": "106.96",
+    "playoff": true,
+    "round": "Championship"
+  },
+  {
+    "week": 16,
+    "team1": "Bad Rivers Tribe",
+    "score1": "79.26",
+    "team2": "Silver Dodge Ram",
+    "score2": "88.05",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 16,
+    "team1": "Flint City Tropics",
+    "score1": "95.70",
+    "team2": "Los Angeles Knights",
+    "score2": "74.17",
+    "playoff": true,
+    "round": "3rd Place"
+  },
+  {
+    "week": 16,
+    "team1": "Goatse IX",
+    "score1": "98.55",
+    "team2": "Raaaaaaaandy",
+    "score2": "91.03",
+    "playoff": true,
+    "round": "Consolation"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "wins": "6",
+    "losses": "7",
+    "ties": 0,
+    "points_for": "1393.97",
+    "points_against": 1446.22,
+    "rank": 1
+  },
+  {
+    "team": "#FireBoesch",
+    "owner": "Paul",
+    "wins": "7",
+    "losses": "6",
+    "ties": 0,
+    "points_for": "1482.40",
+    "points_against": 1401.49,
+    "rank": 2
+  },
+  {
+    "team": "Philly Philly",
+    "owner": "Ramsey",
+    "wins": "10",
+    "losses": "3",
+    "ties": 0,
+    "points_for": "1554.23",
+    "points_against": 1407.89,
+    "rank": 3
+  },
+  {
+    "team": "Goatse X",
+    "owner": "Jake",
+    "wins": "11",
+    "losses": "2",
+    "ties": 0,
+    "points_for": "1669.94",
+    "points_against": 1367.1999999999998,
+    "rank": 4
+  },
+  {
+    "team": "Gus the Bus",
+    "owner": "patrick",
+    "wins": "7",
+    "losses": "6",
+    "ties": 0,
+    "points_for": "1293.82",
+    "points_against": 1327.08,
+    "rank": 5
+  },
+  {
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "wins": "6",
+    "losses": "7",
+    "ties": 0,
+    "points_for": "1323.07",
+    "points_against": 1359.3299999999997,
+    "rank": 6
+  },
+  {
+    "team": "The Brown Bears",
+    "owner": "John",
+    "wins": "4",
+    "losses": "9",
+    "ties": 0,
+    "points_for": "1350.92",
+    "points_against": 1384.41,
+    "rank": 7
+  },
+  {
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "wins": "4",
+    "losses": "9",
+    "ties": 0,
+    "points_for": "1275.91",
+    "points_against": 1444.3999999999999,
+    "rank": 8
+  },
+  {
+    "team": "The Commish",
+    "owner": "Andrew",
+    "wins": "4",
+    "losses": "9",
+    "ties": 0,
+    "points_for": "1283.04",
+    "points_against": 1438.8300000000002,
+    "rank": 9
+  },
+  {
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "wins": "6",
+    "losses": "7",
+    "ties": 0,
+    "points_for": "1318.67",
+    "points_against": 1369.12,
+    "rank": 10
+  }
+]

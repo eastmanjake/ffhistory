@@ -1,0 +1,1406 @@
+[
+  {
+    "season": 2021,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Trey Lance",
+    "position": "QB",
+    "nfl_team": "SF",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Justin Jefferson",
+    "position": "WR",
+    "nfl_team": "MIN",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "A.J. Brown",
+    "position": "WR",
+    "nfl_team": "TEN",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Joe Mixon",
+    "position": "RB",
+    "nfl_team": "CIN",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Nick Chubb",
+    "position": "RB",
+    "nfl_team": "CLE",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Kyle Pitts Sr.",
+    "position": "TE",
+    "nfl_team": "ATL",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Sony Michel",
+    "position": "RB",
+    "nfl_team": "LA",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Tyler Huntley",
+    "position": "QB",
+    "nfl_team": "BAL",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Lamar Jackson",
+    "position": "QB",
+    "nfl_team": "BAL",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Michael Carter",
+    "position": "RB",
+    "nfl_team": "NYJ",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Samaje Perine",
+    "position": "RB",
+    "nfl_team": "CIN",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Devin Singletary",
+    "position": "RB",
+    "nfl_team": "BUF",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Marquez Valdes-Scantling",
+    "position": "WR",
+    "nfl_team": "GB",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Jake Elliott",
+    "position": "K",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Bears",
+    "position": "DEF",
+    "nfl_team": "Chi",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Chris Godwin Jr.",
+    "position": "WR",
+    "nfl_team": "TB",
+    "status": "Q"
+  },
+  {
+    "season": 2021,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Aaron Rodgers",
+    "position": "QB",
+    "nfl_team": "GB",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "CeeDee Lamb",
+    "position": "WR",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Davante Adams",
+    "position": "WR",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Ezekiel Elliott",
+    "position": "RB",
+    "nfl_team": "DAL",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Javonte Williams",
+    "position": "RB",
+    "nfl_team": "DEN",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Dallas Goedert",
+    "position": "TE",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Deebo Samuel",
+    "position": "WR",
+    "nfl_team": "SF",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "James Conner",
+    "position": "RB",
+    "nfl_team": "ARI",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Elijah Mitchell",
+    "position": "RB",
+    "nfl_team": "SF",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Van Jefferson",
+    "position": "WR",
+    "nfl_team": "LA",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Russell Wilson",
+    "position": "QB",
+    "nfl_team": "SEA",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Dare Ogunbowale",
+    "position": "RB",
+    "nfl_team": "JAX",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Greg Zuerlein",
+    "position": "K",
+    "nfl_team": "DAL",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "49ers",
+    "position": "DEF",
+    "nfl_team": "SF",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Seahawks",
+    "position": "DEF",
+    "nfl_team": "Sea",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Leonard Fournette",
+    "position": "RB",
+    "nfl_team": "TB",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Jalen Hurts",
+    "position": "QB",
+    "nfl_team": "PHI",
+    "status": "Q"
+  },
+  {
+    "season": 2021,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Tyler Lockett",
+    "position": "WR",
+    "nfl_team": "SEA",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Amon-Ra St. Brown",
+    "position": "WR",
+    "nfl_team": "DET",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Jonathan Taylor",
+    "position": "RB",
+    "nfl_team": "IND",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "David Montgomery",
+    "position": "RB",
+    "nfl_team": "CHI",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Dalton Schultz",
+    "position": "TE",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Austin Ekeler",
+    "position": "RB",
+    "nfl_team": "LAC",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Allen Lazard",
+    "position": "WR",
+    "nfl_team": "GB",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Hunter Renfrow",
+    "position": "WR",
+    "nfl_team": "LV",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Tony Pollard",
+    "position": "RB",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Myles Gaskin",
+    "position": "RB",
+    "nfl_team": "MIA",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Boston Scott",
+    "position": "RB",
+    "nfl_team": "PHI",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Taysom Hill",
+    "position": "QB",
+    "nfl_team": "NO",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Michael Badgley",
+    "position": "K",
+    "nfl_team": "IND",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Eagles",
+    "position": "DEF",
+    "nfl_team": "Phi",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Goatse XIII",
+    "owner": "Jake",
+    "player": "Tom Brady",
+    "position": "QB",
+    "nfl_team": "TB",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Goatse XIII",
+    "owner": "Jake",
+    "player": "Jaylen Waddle",
+    "position": "WR",
+    "nfl_team": "MIA",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Goatse XIII",
+    "owner": "Jake",
+    "player": "Amari Cooper",
+    "position": "WR",
+    "nfl_team": "DAL",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Goatse XIII",
+    "owner": "Jake",
+    "player": "Dalvin Cook",
+    "position": "RB",
+    "nfl_team": "MIN",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Goatse XIII",
+    "owner": "Jake",
+    "player": "D'Andre Swift",
+    "position": "RB",
+    "nfl_team": "DET",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Goatse XIII",
+    "owner": "Jake",
+    "player": "Travis Kelce",
+    "position": "TE",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Goatse XIII",
+    "owner": "Jake",
+    "player": "Melvin Gordon III",
+    "position": "RB",
+    "nfl_team": "DEN",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Goatse XIII",
+    "owner": "Jake",
+    "player": "Jamaal Williams",
+    "position": "RB",
+    "nfl_team": "DET",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Goatse XIII",
+    "owner": "Jake",
+    "player": "Alexander Mattison",
+    "position": "RB",
+    "nfl_team": "MIN",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Goatse XIII",
+    "owner": "Jake",
+    "player": "DJ Moore",
+    "position": "WR",
+    "nfl_team": "CAR",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Goatse XIII",
+    "owner": "Jake",
+    "player": "D'Ernest Johnson",
+    "position": "RB",
+    "nfl_team": "CLE",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Goatse XIII",
+    "owner": "Jake",
+    "player": "Khalil Herbert",
+    "position": "RB",
+    "nfl_team": "CHI",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Goatse XIII",
+    "owner": "Jake",
+    "player": "Miles Sanders",
+    "position": "RB",
+    "nfl_team": "PHI",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Goatse XIII",
+    "owner": "Jake",
+    "player": "Tyler Bass",
+    "position": "K",
+    "nfl_team": "BUF",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Goatse XIII",
+    "owner": "Jake",
+    "player": "Saints",
+    "position": "DEF",
+    "nfl_team": "NO",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Goatse XIII",
+    "owner": "Jake",
+    "player": "Dustin Hopkins",
+    "position": "K",
+    "nfl_team": "LAC",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Dak Prescott",
+    "position": "QB",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Ja'Marr Chase",
+    "position": "WR",
+    "nfl_team": "CIN",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Antonio Brown",
+    "position": "WR",
+    "nfl_team": "TB",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Najee Harris",
+    "position": "RB",
+    "nfl_team": "PIT",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Saquon Barkley",
+    "position": "RB",
+    "nfl_team": "NYG",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Mike Gesicki",
+    "position": "TE",
+    "nfl_team": "MIA",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Josh Jacobs",
+    "position": "RB",
+    "nfl_team": "LV",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Mike Williams",
+    "position": "WR",
+    "nfl_team": "LAC",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Terry McLaurin",
+    "position": "WR",
+    "nfl_team": "WAS",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Adam Thielen",
+    "position": "WR",
+    "nfl_team": "MIN",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Darrel Williams",
+    "position": "RB",
+    "nfl_team": "KC",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Cam Akers",
+    "position": "RB",
+    "nfl_team": "LA",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Justin Tucker",
+    "position": "K",
+    "nfl_team": "BAL",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Patriots",
+    "position": "DEF",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Piggy",
+    "owner": "patrick",
+    "player": "Buccaneers",
+    "position": "DEF",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Justin Herbert",
+    "position": "QB",
+    "nfl_team": "LAC",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Chase Claypool",
+    "position": "WR",
+    "nfl_team": "PIT",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Hollywood Brown",
+    "position": "WR",
+    "nfl_team": "BAL",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Alvin Kamara",
+    "position": "RB",
+    "nfl_team": "NO",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Clyde Edwards-Helaire",
+    "position": "RB",
+    "nfl_team": "KC",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Mark Andrews",
+    "position": "TE",
+    "nfl_team": "BAL",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Rob Gronkowski",
+    "position": "TE",
+    "nfl_team": "TB",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Latavius Murray",
+    "position": "RB",
+    "nfl_team": "BAL",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "D'Onta Foreman",
+    "position": "RB",
+    "nfl_team": "TEN",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Damien Harris",
+    "position": "RB",
+    "nfl_team": "NE",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Courtland Sutton",
+    "position": "WR",
+    "nfl_team": "DEN",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Michael Gallup",
+    "position": "WR",
+    "nfl_team": "DAL",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Matt Gay",
+    "position": "K",
+    "nfl_team": "LA",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Rams",
+    "position": "DEF",
+    "nfl_team": "LAR",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Go Birds",
+    "owner": "Ramsey",
+    "player": "Colts",
+    "position": "DEF",
+    "nfl_team": "Ind",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Matthew Stafford",
+    "position": "QB",
+    "nfl_team": "LA",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "DK Metcalf",
+    "position": "WR",
+    "nfl_team": "SEA",
+    "status": "Q"
+  },
+  {
+    "season": 2021,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Keenan Allen",
+    "position": "WR",
+    "nfl_team": "LAC",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Cordarrelle Patterson",
+    "position": "WR,RB",
+    "nfl_team": "ATL",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Chuba Hubbard",
+    "position": "RB",
+    "nfl_team": "CAR",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Noah Fant",
+    "position": "TE",
+    "nfl_team": "DEN",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Tee Higgins",
+    "position": "WR",
+    "nfl_team": "CIN",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Zach Ertz",
+    "position": "TE",
+    "nfl_team": "ARI",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Michael Pittman Jr.",
+    "position": "WR",
+    "nfl_team": "IND",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Russell Gage Jr.",
+    "position": "WR",
+    "nfl_team": "ATL",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "A.J. Green",
+    "position": "WR",
+    "nfl_team": "ARI",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Odell Beckham Jr.",
+    "position": "WR",
+    "nfl_team": "LA",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Daniel Carlson",
+    "position": "K",
+    "nfl_team": "LV",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Cowboys",
+    "position": "DEF",
+    "nfl_team": "Dal",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Bills",
+    "position": "DEF",
+    "nfl_team": "Buf",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "GodDamJets",
+    "owner": "Paul",
+    "player": "Christian McCaffrey",
+    "position": "RB",
+    "nfl_team": "CAR",
+    "status": "Q"
+  },
+  {
+    "season": 2021,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Josh Allen",
+    "position": "QB",
+    "nfl_team": "BUF",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Diontae Johnson",
+    "position": "WR",
+    "nfl_team": "PIT",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Christian Kirk",
+    "position": "WR",
+    "nfl_team": "ARI",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Devonta Freeman",
+    "position": "RB",
+    "nfl_team": "BAL",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Ronald Jones",
+    "position": "RB",
+    "nfl_team": "TB",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Dawson Knox",
+    "position": "TE",
+    "nfl_team": "BUF",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Rashaad Penny",
+    "position": "RB",
+    "nfl_team": "SEA",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Darnell Mooney",
+    "position": "WR",
+    "nfl_team": "CHI",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "DeAndre Hopkins",
+    "position": "WR",
+    "nfl_team": "ARI",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Dontrell Hilliard",
+    "position": "RB",
+    "nfl_team": "TEN",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Darren Waller",
+    "position": "TE",
+    "nfl_team": "LV",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Kendrick Bourne",
+    "position": "WR",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Jalen Guyton",
+    "position": "WR",
+    "nfl_team": "LAC",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Younghoe Koo",
+    "position": "K",
+    "nfl_team": "ATL",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Chiefs",
+    "position": "DEF",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Derrick Henry",
+    "position": "RB",
+    "nfl_team": "TEN",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Patrick Mahomes",
+    "position": "QB",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Jerry Jeudy",
+    "position": "WR",
+    "nfl_team": "DEN",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Marvin Jones Jr.",
+    "position": "WR",
+    "nfl_team": "JAX",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "James Robinson",
+    "position": "RB",
+    "nfl_team": "JAX",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Aaron Jones Sr.",
+    "position": "RB",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "George Kittle",
+    "position": "TE",
+    "nfl_team": "SF",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Cooper Kupp",
+    "position": "WR",
+    "nfl_team": "LA",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "DeVonta Smith",
+    "position": "WR",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Mark Ingram II",
+    "position": "RB",
+    "nfl_team": "NO",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Joe Burrow",
+    "position": "QB",
+    "nfl_team": "CIN",
+    "status": "Q"
+  },
+  {
+    "season": 2021,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "A.J. Dillon",
+    "position": "RB",
+    "nfl_team": "GB",
+    "status": "Q"
+  },
+  {
+    "season": 2021,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Chris Carson",
+    "position": "RB",
+    "nfl_team": "SEA",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Harrison Butker",
+    "position": "K",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Panthers",
+    "position": "DEF",
+    "nfl_team": "Car",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "J.K. Dobbins",
+    "position": "RB",
+    "nfl_team": "BAL",
+    "status": "Q"
+  },
+  {
+    "season": 2021,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Kyler Murray",
+    "position": "QB",
+    "nfl_team": "ARI",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Stefon Diggs",
+    "position": "WR",
+    "nfl_team": "BUF",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Tyreek Hill",
+    "position": "WR",
+    "nfl_team": "KC",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Antonio Gibson",
+    "position": "RB",
+    "nfl_team": "WAS",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Kareem Hunt",
+    "position": "RB",
+    "nfl_team": "CLE",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Pat Freiermuth",
+    "position": "TE",
+    "nfl_team": "PIT",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Jeff Wilson Jr.",
+    "position": "RB",
+    "nfl_team": "SF",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Darrell Henderson Jr.",
+    "position": "RB",
+    "nfl_team": "LA",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Brandon Aiyuk",
+    "position": "WR",
+    "nfl_team": "SF",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Brandin Cooks",
+    "position": "WR",
+    "nfl_team": "HOU",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Rhamondre Stevenson",
+    "position": "RB",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "J.D. McKissic",
+    "position": "RB",
+    "nfl_team": "WAS",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Graham Gano",
+    "position": "K",
+    "nfl_team": "NYG",
+    "status": "NA"
+  },
+  {
+    "season": 2021,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Nick Folk",
+    "position": "K",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Packers",
+    "position": "DEF",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2021,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Chase Edmonds",
+    "position": "RB",
+    "nfl_team": "ARI",
+    "status": "NA"
+  }
+]

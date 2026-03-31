@@ -1,0 +1,102 @@
+[
+  {
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "wins": "9",
+    "losses": "4",
+    "ties": 0,
+    "points_for": "1509.67",
+    "points_against": 1295.3799999999999,
+    "rank": 1
+  },
+  {
+    "team": "Dicks Out 4 Harambe",
+    "owner": "Ramsey",
+    "wins": "6",
+    "losses": "7",
+    "ties": 0,
+    "points_for": "1345.94",
+    "points_against": 1317.2399999999998,
+    "rank": 2
+  },
+  {
+    "team": "Charlotte Banshees",
+    "owner": "Paul",
+    "wins": "6",
+    "losses": "7",
+    "ties": 0,
+    "points_for": "1306.51",
+    "points_against": 1190.25,
+    "rank": 3
+  },
+  {
+    "team": "Goatse VIII",
+    "owner": "Jake",
+    "wins": "12",
+    "losses": "1",
+    "ties": 0,
+    "points_for": "1425.08",
+    "points_against": 1208.8999999999999,
+    "rank": 4
+  },
+  {
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "wins": "7",
+    "losses": "6",
+    "ties": 0,
+    "points_for": "1308.42",
+    "points_against": 1266.1200000000001,
+    "rank": 5
+  },
+  {
+    "team": "Gruden's Grinders",
+    "owner": "Andre",
+    "wins": "8",
+    "losses": "5",
+    "ties": 0,
+    "points_for": "1334.75",
+    "points_against": 1255.57,
+    "rank": 6
+  },
+  {
+    "team": "The Brown Bears",
+    "owner": "John",
+    "wins": "4",
+    "losses": "9",
+    "ties": 0,
+    "points_for": "1128.84",
+    "points_against": 1428.1799999999998,
+    "rank": 7
+  },
+  {
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "wins": "6",
+    "losses": "7",
+    "ties": 0,
+    "points_for": "1226.69",
+    "points_against": 1304.47,
+    "rank": 8
+  },
+  {
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "wins": "2",
+    "losses": "11",
+    "ties": 0,
+    "points_for": "1184.01",
+    "points_against": 1416.76,
+    "rank": 9
+  },
+  {
+    "team": "The Commish",
+    "owner": "Andrew",
+    "wins": "5",
+    "losses": "8",
+    "ties": 0,
+    "points_for": "1234.88",
+    "points_against": 1321.92,
+    "rank": 10
+  }
+]

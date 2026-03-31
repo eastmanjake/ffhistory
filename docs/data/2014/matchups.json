@@ -1,0 +1,686 @@
+[
+  {
+    "week": 1,
+    "team1": "The Commish",
+    "score1": "97.43",
+    "team2": "Goatse VI",
+    "score2": "118.16",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "Flint City Tropics",
+    "score1": "111.52",
+    "team2": "The Brown Bears",
+    "score2": "131.28",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "KOU KILL EM",
+    "score1": "128.86",
+    "team2": "LeagueSafe = Scam",
+    "score2": "117.59",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "TuneSquad",
+    "score1": "80.46",
+    "team2": "Raaaaaaaandy",
+    "score2": "107.94",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "SHARKEISHA NO",
+    "score1": "84.32",
+    "team2": "My Ball Zach Ertz",
+    "score2": "112.50",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "The Commish",
+    "score1": "119.49",
+    "team2": "Flint City Tropics",
+    "score2": "121.19",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Goatse VI",
+    "score1": "109.79",
+    "team2": "My Ball Zach Ertz",
+    "score2": "76.08",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "KOU KILL EM",
+    "score1": "129.24",
+    "team2": "The Brown Bears",
+    "score2": "96.69",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "TuneSquad",
+    "score1": "88.23",
+    "team2": "LeagueSafe = Scam",
+    "score2": "71.02",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "SHARKEISHA NO",
+    "score1": "117.08",
+    "team2": "Raaaaaaaandy",
+    "score2": "118.32",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "The Commish",
+    "score1": "112.65",
+    "team2": "KOU KILL EM",
+    "score2": "85.23",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Goatse VI",
+    "score1": "96.20",
+    "team2": "Flint City Tropics",
+    "score2": "97.09",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "TuneSquad",
+    "score1": "132.92",
+    "team2": "The Brown Bears",
+    "score2": "107.70",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "SHARKEISHA NO",
+    "score1": "91.27",
+    "team2": "LeagueSafe = Scam",
+    "score2": "75.74",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Raaaaaaaandy",
+    "score1": "97.60",
+    "team2": "My Ball Zach Ertz",
+    "score2": "82.75",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "The Commish",
+    "score1": "89.25",
+    "team2": "TuneSquad",
+    "score2": "78.33",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Goatse VI",
+    "score1": "126.07",
+    "team2": "KOU KILL EM",
+    "score2": "105.98",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Flint City Tropics",
+    "score1": "85.02",
+    "team2": "My Ball Zach Ertz",
+    "score2": "93.72",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "SHARKEISHA NO",
+    "score1": "141.75",
+    "team2": "The Brown Bears",
+    "score2": "102.78",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Raaaaaaaandy",
+    "score1": "122.92",
+    "team2": "LeagueSafe = Scam",
+    "score2": "106.58",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "The Commish",
+    "score1": "118.83",
+    "team2": "SHARKEISHA NO",
+    "score2": "97.49",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Goatse VI",
+    "score1": "111.42",
+    "team2": "TuneSquad",
+    "score2": "95.61",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Flint City Tropics",
+    "score1": "92.64",
+    "team2": "KOU KILL EM",
+    "score2": "101.04",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Raaaaaaaandy",
+    "score1": "127.49",
+    "team2": "The Brown Bears",
+    "score2": "103.90",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "LeagueSafe = Scam",
+    "score1": "116.62",
+    "team2": "My Ball Zach Ertz",
+    "score2": "94.13",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "The Commish",
+    "score1": "85.97",
+    "team2": "Raaaaaaaandy",
+    "score2": "129.07",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Goatse VI",
+    "score1": "108.34",
+    "team2": "SHARKEISHA NO",
+    "score2": "116.24",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Flint City Tropics",
+    "score1": "82.59",
+    "team2": "TuneSquad",
+    "score2": "101.13",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "KOU KILL EM",
+    "score1": "116.46",
+    "team2": "My Ball Zach Ertz",
+    "score2": "104.00",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "LeagueSafe = Scam",
+    "score1": "103.32",
+    "team2": "The Brown Bears",
+    "score2": "149.91",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "The Commish",
+    "score1": "92.52",
+    "team2": "LeagueSafe = Scam",
+    "score2": "99.45",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Goatse VI",
+    "score1": "105.12",
+    "team2": "Raaaaaaaandy",
+    "score2": "91.17",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Flint City Tropics",
+    "score1": "120.72",
+    "team2": "SHARKEISHA NO",
+    "score2": "87.49",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "KOU KILL EM",
+    "score1": "88.55",
+    "team2": "TuneSquad",
+    "score2": "105.37",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "The Brown Bears",
+    "score1": "102.70",
+    "team2": "My Ball Zach Ertz",
+    "score2": "72.96",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "The Commish",
+    "score1": "149.39",
+    "team2": "The Brown Bears",
+    "score2": "79.34",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Goatse VI",
+    "score1": "172.38",
+    "team2": "LeagueSafe = Scam",
+    "score2": "127.83",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Flint City Tropics",
+    "score1": "103.57",
+    "team2": "Raaaaaaaandy",
+    "score2": "126.86",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "KOU KILL EM",
+    "score1": "120.02",
+    "team2": "SHARKEISHA NO",
+    "score2": "122.29",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "TuneSquad",
+    "score1": "116.94",
+    "team2": "My Ball Zach Ertz",
+    "score2": "103.35",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "The Commish",
+    "score1": "136.51",
+    "team2": "My Ball Zach Ertz",
+    "score2": "89.81",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Goatse VI",
+    "score1": "145.36",
+    "team2": "The Brown Bears",
+    "score2": "99.69",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Flint City Tropics",
+    "score1": "107.05",
+    "team2": "LeagueSafe = Scam",
+    "score2": "58.02",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "KOU KILL EM",
+    "score1": "107.71",
+    "team2": "Raaaaaaaandy",
+    "score2": "150.78",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "TuneSquad",
+    "score1": "111.27",
+    "team2": "SHARKEISHA NO",
+    "score2": "90.07",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "The Commish",
+    "score1": "129.35",
+    "team2": "Goatse VI",
+    "score2": "101.53",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "Flint City Tropics",
+    "score1": "94.97",
+    "team2": "The Brown Bears",
+    "score2": "100.64",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "KOU KILL EM",
+    "score1": "126.78",
+    "team2": "LeagueSafe = Scam",
+    "score2": "114.80",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "TuneSquad",
+    "score1": "106.25",
+    "team2": "Raaaaaaaandy",
+    "score2": "137.70",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "SHARKEISHA NO",
+    "score1": "101.88",
+    "team2": "My Ball Zach Ertz",
+    "score2": "105.38",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "The Commish",
+    "score1": "134.44",
+    "team2": "Flint City Tropics",
+    "score2": "78.47",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Goatse VI",
+    "score1": "109.50",
+    "team2": "My Ball Zach Ertz",
+    "score2": "60.02",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "KOU KILL EM",
+    "score1": "122.52",
+    "team2": "The Brown Bears",
+    "score2": "127.43",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "TuneSquad",
+    "score1": "93.81",
+    "team2": "LeagueSafe = Scam",
+    "score2": "76.97",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "SHARKEISHA NO",
+    "score1": "98.83",
+    "team2": "Raaaaaaaandy",
+    "score2": "115.62",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "The Commish",
+    "score1": "110.61",
+    "team2": "KOU KILL EM",
+    "score2": "120.64",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Goatse VI",
+    "score1": "99.20",
+    "team2": "Flint City Tropics",
+    "score2": "156.97",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "TuneSquad",
+    "score1": "86.33",
+    "team2": "The Brown Bears",
+    "score2": "114.35",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "SHARKEISHA NO",
+    "score1": "107.15",
+    "team2": "LeagueSafe = Scam",
+    "score2": "105.21",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Raaaaaaaandy",
+    "score1": "121.14",
+    "team2": "My Ball Zach Ertz",
+    "score2": "67.42",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "The Commish",
+    "score1": "99.07",
+    "team2": "TuneSquad",
+    "score2": "100.71",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Goatse VI",
+    "score1": "83.33",
+    "team2": "KOU KILL EM",
+    "score2": "108.69",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Flint City Tropics",
+    "score1": "130.20",
+    "team2": "My Ball Zach Ertz",
+    "score2": "119.20",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "SHARKEISHA NO",
+    "score1": "114.25",
+    "team2": "The Brown Bears",
+    "score2": "106.91",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Raaaaaaaandy",
+    "score1": "109.45",
+    "team2": "LeagueSafe = Scam",
+    "score2": "188.45",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 14,
+    "team1": "The Commish",
+    "score1": "102.18",
+    "team2": "KOU KILL EM",
+    "score2": "140.77",
+    "playoff": true,
+    "round": "Quarterfinal"
+  },
+  {
+    "week": 14,
+    "team1": "TuneSquad",
+    "score1": "82.32",
+    "team2": "The Brown Bears",
+    "score2": "104.95",
+    "playoff": true,
+    "round": "Quarterfinal"
+  },
+  {
+    "week": 15,
+    "team1": "The Commish",
+    "score1": "72.95",
+    "team2": "TuneSquad",
+    "score2": "36.32",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 15,
+    "team1": "Goatse VI",
+    "score1": "98.41",
+    "team2": "The Brown Bears",
+    "score2": "143.75",
+    "playoff": true,
+    "round": "Semifinal"
+  },
+  {
+    "week": 15,
+    "team1": "Flint City Tropics",
+    "score1": "92.20",
+    "team2": "My Ball Zach Ertz",
+    "score2": "73.98",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 15,
+    "team1": "KOU KILL EM",
+    "score1": "131.67",
+    "team2": "Raaaaaaaandy",
+    "score2": "113.29",
+    "playoff": true,
+    "round": "Semifinal"
+  },
+  {
+    "week": 15,
+    "team1": "SHARKEISHA NO",
+    "score1": "101.18",
+    "team2": "LeagueSafe = Scam",
+    "score2": "79.47",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 16,
+    "team1": "Goatse VI",
+    "score1": "131.70",
+    "team2": "Raaaaaaaandy",
+    "score2": "131.84",
+    "playoff": true,
+    "round": "3rd Place"
+  },
+  {
+    "week": 16,
+    "team1": "Flint City Tropics",
+    "score1": "103.60",
+    "team2": "SHARKEISHA NO",
+    "score2": "101.38",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 16,
+    "team1": "KOU KILL EM",
+    "score1": "130.96",
+    "team2": "The Brown Bears",
+    "score2": "93.42",
+    "playoff": true,
+    "round": "Championship"
+  },
+  {
+    "week": 16,
+    "team1": "LeagueSafe = Scam",
+    "score1": "80.57",
+    "team2": "My Ball Zach Ertz",
+    "score2": "75.11",
+    "playoff": true,
+    "round": "Consolation"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "stat": "Passing Yards",
+    "points": 0.04
+  },
+  {
+    "stat": "Passing Touchdowns",
+    "points": 4.0
+  },
+  {
+    "stat": "Interceptions",
+    "points": -1.0
+  },
+  {
+    "stat": "Rushing Yards",
+    "points": 0.1
+  },
+  {
+    "stat": "Rushing Touchdowns",
+    "points": 6.0
+  },
+  {
+    "stat": "Receptions",
+    "points": 0.25
+  },
+  {
+    "stat": "Receiving Yards",
+    "points": 0.1
+  },
+  {
+    "stat": "Receiving Touchdowns",
+    "points": 6.0
+  },
+  {
+    "stat": "Return Touchdowns",
+    "points": 6.0
+  },
+  {
+    "stat": "2-Point Conversions",
+    "points": 2.0
+  },
+  {
+    "stat": "Fumbles Lost",
+    "points": -2.0
+  },
+  {
+    "stat": "Field Goals 0-19 Yards",
+    "points": 1.0
+  },
+  {
+    "stat": "Field Goals 20-29 Yards",
+    "points": 1.0
+  },
+  {
+    "stat": "Field Goals 30-39 Yards",
+    "points": 2.5
+  },
+  {
+    "stat": "Field Goals 40-49 Yards",
+    "points": 3.5
+  },
+  {
+    "stat": "Field Goals 50+ Yards",
+    "points": 4.0
+  },
+  {
+    "stat": "Point After Attempt Made",
+    "points": 0.5
+  },
+  {
+    "stat": "Sack",
+    "points": 1.0
+  },
+  {
+    "stat": "Interception",
+    "points": 2.0
+  },
+  {
+    "stat": "Fumble Recovery",
+    "points": 2.0
+  },
+  {
+    "stat": "Touchdown",
+    "points": 4.0
+  },
+  {
+    "stat": "Safety",
+    "points": 2.0
+  },
+  {
+    "stat": "Kickoff and Punt Return Touchdowns",
+    "points": 4.0
+  },
+  {
+    "stat": "Points Allowed 0 points",
+    "points": 8.0
+  },
+  {
+    "stat": "Points Allowed 1-6 points",
+    "points": 6.0
+  },
+  {
+    "stat": "Points Allowed 7-13 points",
+    "points": 4.0
+  },
+  {
+    "stat": "Points Allowed 14-20 points",
+    "points": 2.0
+  },
+  {
+    "stat": "Points Allowed 21-27 points",
+    "points": 0.0
+  },
+  {
+    "stat": "Points Allowed 28-34 points",
+    "points": -2.0
+  },
+  {
+    "stat": "Points Allowed 35+ points",
+    "points": -4.0
+  }
+]

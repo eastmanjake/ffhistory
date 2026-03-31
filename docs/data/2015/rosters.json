@@ -1,0 +1,1370 @@
+[
+  {
+    "season": 2015,
+    "team": "Washington Sentinels",
+    "owner": "Paul",
+    "player": "Teddy Bridgewater",
+    "position": "QB",
+    "nfl_team": "MIN",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Washington Sentinels",
+    "owner": "Paul",
+    "player": "Eric Decker",
+    "position": "WR",
+    "nfl_team": "NYJ",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Washington Sentinels",
+    "owner": "Paul",
+    "player": "Julio Jones",
+    "position": "WR",
+    "nfl_team": "ATL",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Washington Sentinels",
+    "owner": "Paul",
+    "player": "Adrian Peterson",
+    "position": "RB",
+    "nfl_team": "MIN",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Washington Sentinels",
+    "owner": "Paul",
+    "player": "Matt Forte",
+    "position": "RB",
+    "nfl_team": "CHI",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Washington Sentinels",
+    "owner": "Paul",
+    "player": "Travis Kelce",
+    "position": "TE",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Washington Sentinels",
+    "owner": "Paul",
+    "player": "David Johnson",
+    "position": "RB",
+    "nfl_team": "ARZ",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Washington Sentinels",
+    "owner": "Paul",
+    "player": "Ryan Fitzpatrick",
+    "position": "QB",
+    "nfl_team": "NYJ",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Washington Sentinels",
+    "owner": "Paul",
+    "player": "Tyrod Taylor",
+    "position": "QB",
+    "nfl_team": "BUF",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Washington Sentinels",
+    "owner": "Paul",
+    "player": "Shaun Draughn",
+    "position": "RB",
+    "nfl_team": "SF",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Washington Sentinels",
+    "owner": "Paul",
+    "player": "Alfred Blue",
+    "position": "RB",
+    "nfl_team": "HST",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Washington Sentinels",
+    "owner": "Paul",
+    "player": "James Jones",
+    "position": "WR",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Washington Sentinels",
+    "owner": "Paul",
+    "player": "Blair Walsh",
+    "position": "K",
+    "nfl_team": "MIN",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Washington Sentinels",
+    "owner": "Paul",
+    "player": "Texans",
+    "position": "DEF",
+    "nfl_team": "Hou",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Washington Sentinels",
+    "owner": "Paul",
+    "player": "Bengals",
+    "position": "DEF",
+    "nfl_team": "Cin",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Carson Palmer",
+    "position": "QB",
+    "nfl_team": "ARZ",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Brandon Marshall",
+    "position": "WR",
+    "nfl_team": "NYJ",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Mike Evans",
+    "position": "WR",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Devonta Freeman",
+    "position": "RB",
+    "nfl_team": "ATL",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Frank Gore",
+    "position": "RB",
+    "nfl_team": "IND",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Zach Ertz",
+    "position": "TE",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Golden Tate",
+    "position": "WR",
+    "nfl_team": "DET",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "C.J. Anderson",
+    "position": "RB",
+    "nfl_team": "DEN",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Randall Cobb",
+    "position": "WR",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Giovani Bernard",
+    "position": "RB",
+    "nfl_team": "CIN",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Philip Rivers",
+    "position": "QB",
+    "nfl_team": "SD",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Ted Ginn Jr.",
+    "position": "WR",
+    "nfl_team": "CAR",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "DeSean Jackson",
+    "position": "WR",
+    "nfl_team": "WAS",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Mason Crosby",
+    "position": "K",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Steelers",
+    "position": "DEF",
+    "nfl_team": "Pit",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Drew Brees",
+    "position": "QB",
+    "nfl_team": "NO",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Jeremy Maclin",
+    "position": "WR",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Willie Snead IV",
+    "position": "WR",
+    "nfl_team": "NO",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Chris Ivory",
+    "position": "RB",
+    "nfl_team": "NYJ",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Tim Hightower",
+    "position": "RB",
+    "nfl_team": "NO",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Rob Gronkowski",
+    "position": "TE",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Spencer Ware",
+    "position": "RB",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Odell Beckham Jr.",
+    "position": "WR",
+    "nfl_team": "NYG",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Bryce Brown",
+    "position": "RB",
+    "nfl_team": "SEA",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Michael Crabtree",
+    "position": "WR",
+    "nfl_team": "OAK",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Ronnie Hillman",
+    "position": "RB",
+    "nfl_team": "DEN",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "James Starks",
+    "position": "RB",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Fozzy Whittaker",
+    "position": "RB",
+    "nfl_team": "CAR",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Josh Brown",
+    "position": "K",
+    "nfl_team": "NYG",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Jets",
+    "position": "DEF",
+    "nfl_team": "NYJ",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Le'Veon Bell",
+    "position": "RB",
+    "nfl_team": "PIT",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Goatse 7",
+    "owner": "Jake",
+    "player": "Cam Newton",
+    "position": "QB",
+    "nfl_team": "CAR",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Goatse 7",
+    "owner": "Jake",
+    "player": "Antonio Brown",
+    "position": "WR",
+    "nfl_team": "PIT",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Goatse 7",
+    "owner": "Jake",
+    "player": "Allen Hurns",
+    "position": "WR",
+    "nfl_team": "JAX",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Goatse 7",
+    "owner": "Jake",
+    "player": "Darren McFadden",
+    "position": "RB",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Goatse 7",
+    "owner": "Jake",
+    "player": "Denard Robinson",
+    "position": "RB",
+    "nfl_team": "JAX",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Goatse 7",
+    "owner": "Jake",
+    "player": "Antonio Gates",
+    "position": "TE",
+    "nfl_team": "SD",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Goatse 7",
+    "owner": "Jake",
+    "player": "Amari Cooper",
+    "position": "WR",
+    "nfl_team": "OAK",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Goatse 7",
+    "owner": "Jake",
+    "player": "Alshon Jeffery",
+    "position": "WR",
+    "nfl_team": "CHI",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Goatse 7",
+    "owner": "Jake",
+    "player": "T.J. Yeldon",
+    "position": "RB",
+    "nfl_team": "JAX",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Goatse 7",
+    "owner": "Jake",
+    "player": "Jeremy Hill",
+    "position": "RB",
+    "nfl_team": "CIN",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Goatse 7",
+    "owner": "Jake",
+    "player": "Russell Wilson",
+    "position": "QB",
+    "nfl_team": "SEA",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Goatse 7",
+    "owner": "Jake",
+    "player": "Tyler Lockett",
+    "position": "WR",
+    "nfl_team": "SEA",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Goatse 7",
+    "owner": "Jake",
+    "player": "Jonathan Stewart",
+    "position": "RB",
+    "nfl_team": "CAR",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Goatse 7",
+    "owner": "Jake",
+    "player": "Stephen Gostkowski",
+    "position": "K",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Goatse 7",
+    "owner": "Jake",
+    "player": "Panthers",
+    "position": "DEF",
+    "nfl_team": "Car",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Tom Brady",
+    "position": "QB",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Michael Floyd",
+    "position": "WR",
+    "nfl_team": "ARZ",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Dez Bryant",
+    "position": "WR",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "DeAngelo Williams",
+    "position": "RB",
+    "nfl_team": "PIT",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Darren Sproles",
+    "position": "RB",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Richard Rodgers",
+    "position": "TE",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Brandin Cooks",
+    "position": "WR",
+    "nfl_team": "NO",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Emmanuel Sanders",
+    "position": "WR",
+    "nfl_team": "DEN",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Ryan Mathews",
+    "position": "RB",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "DeMarco Murray",
+    "position": "RB",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Brandon LaFell",
+    "position": "WR",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Julian Edelman",
+    "position": "WR",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Fred Jackson",
+    "position": "RB",
+    "nfl_team": "SEA",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Chandler Catanzaro",
+    "position": "K",
+    "nfl_team": "ARZ",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Chiefs",
+    "position": "DEF",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Ben's Nice Team",
+    "owner": "Ben",
+    "player": "Kirk Cousins",
+    "position": "QB",
+    "nfl_team": "WAS",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Ben's Nice Team",
+    "owner": "Ben",
+    "player": "A.J. Green",
+    "position": "WR",
+    "nfl_team": "CIN",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Ben's Nice Team",
+    "owner": "Ben",
+    "player": "Allen Robinson",
+    "position": "WR",
+    "nfl_team": "JAX",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Ben's Nice Team",
+    "owner": "Ben",
+    "player": "Javorius Allen",
+    "position": "RB",
+    "nfl_team": "BLT",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Ben's Nice Team",
+    "owner": "Ben",
+    "player": "Charcandrick West",
+    "position": "RB",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Ben's Nice Team",
+    "owner": "Ben",
+    "player": "Greg Olsen",
+    "position": "TE",
+    "nfl_team": "CAR",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Ben's Nice Team",
+    "owner": "Ben",
+    "player": "Gary Barnidge",
+    "position": "TE",
+    "nfl_team": "CLV",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Ben's Nice Team",
+    "owner": "Ben",
+    "player": "C.J. Spiller",
+    "position": "RB",
+    "nfl_team": "NO",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Ben's Nice Team",
+    "owner": "Ben",
+    "player": "Scott Chandler",
+    "position": "TE",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Ben's Nice Team",
+    "owner": "Ben",
+    "player": "Tevin Coleman",
+    "position": "RB",
+    "nfl_team": "ATL",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Ben's Nice Team",
+    "owner": "Ben",
+    "player": "Antonio Andrews",
+    "position": "RB",
+    "nfl_team": "TEN",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Ben's Nice Team",
+    "owner": "Ben",
+    "player": "Stefon Diggs",
+    "position": "WR",
+    "nfl_team": "MIN",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Ben's Nice Team",
+    "owner": "Ben",
+    "player": "Dan Herron",
+    "position": "RB",
+    "nfl_team": "IND",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Ben's Nice Team",
+    "owner": "Ben",
+    "player": "Mike Nugent",
+    "position": "K",
+    "nfl_team": "CIN",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Ben's Nice Team",
+    "owner": "Ben",
+    "player": "Rams",
+    "position": "DEF",
+    "nfl_team": "LAR",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Sam Bradford",
+    "position": "QB",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Demaryius Thomas",
+    "position": "WR",
+    "nfl_team": "DEN",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Martavis Bryant",
+    "position": "WR",
+    "nfl_team": "PIT",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Todd Gurley",
+    "position": "RB",
+    "nfl_team": "SL",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Lamar Miller",
+    "position": "RB",
+    "nfl_team": "MIA",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Austin Seferian-Jenkins",
+    "position": "TE",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Doug Martin",
+    "position": "RB",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Tyler Eifert",
+    "position": "TE",
+    "nfl_team": "CIN",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Eli Manning",
+    "position": "QB",
+    "nfl_team": "NYG",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "John Brown",
+    "position": "WR",
+    "nfl_team": "ARZ",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Ryan Tannehill",
+    "position": "QB",
+    "nfl_team": "MIA",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Davante Adams",
+    "position": "WR",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Jeremy Langford",
+    "position": "RB",
+    "nfl_team": "CHI",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Connor Barth",
+    "position": "K",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Cardinals",
+    "position": "DEF",
+    "nfl_team": "Ari",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Jamaal Charles",
+    "position": "RB",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Matthew Stafford",
+    "position": "QB",
+    "nfl_team": "DET",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Sammy Watkins",
+    "position": "WR",
+    "nfl_team": "BUF",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Jordan Matthews",
+    "position": "WR",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Latavius Murray",
+    "position": "RB",
+    "nfl_team": "OAK",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Eddie Lacy",
+    "position": "RB",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Delanie Walker",
+    "position": "TE",
+    "nfl_team": "TEN",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Kamar Aiken",
+    "position": "WR",
+    "nfl_team": "BLT",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Steve Johnson",
+    "position": "WR",
+    "nfl_team": "SD",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Brian Hoyer",
+    "position": "QB",
+    "nfl_team": "HST",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Chris Johnson",
+    "position": "RB",
+    "nfl_team": "ARZ",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "James White",
+    "position": "RB",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Vincent Jackson",
+    "position": "WR",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Andrew Luck",
+    "position": "QB",
+    "nfl_team": "IND",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Stephen Hauschka",
+    "position": "K",
+    "nfl_team": "SEA",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Packers",
+    "position": "DEF",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Ben Roethlisberger",
+    "position": "QB",
+    "nfl_team": "PIT",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Jarvis Landry",
+    "position": "WR",
+    "nfl_team": "MIA",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Larry Fitzgerald",
+    "position": "WR",
+    "nfl_team": "ARZ",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Karlos Williams",
+    "position": "RB",
+    "nfl_team": "BUF",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Cameron Artis-Payne",
+    "position": "RB",
+    "nfl_team": "CAR",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Jordan Reed",
+    "position": "TE",
+    "nfl_team": "WAS",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Doug Baldwin",
+    "position": "WR",
+    "nfl_team": "SEA",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Duke Johnson",
+    "position": "RB",
+    "nfl_team": "CLV",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "LeSean McCoy",
+    "position": "RB",
+    "nfl_team": "BUF",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Marshawn Lynch",
+    "position": "RB",
+    "nfl_team": "SEA",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "T.Y. Hilton",
+    "position": "WR",
+    "nfl_team": "IND",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Blake Bortles",
+    "position": "QB",
+    "nfl_team": "JAX",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Graham Gano",
+    "position": "K",
+    "nfl_team": "CAR",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Broncos",
+    "position": "DEF",
+    "nfl_team": "Den",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Seahawks",
+    "position": "DEF",
+    "nfl_team": "Sea",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Aaron Rodgers",
+    "position": "QB",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "DeAndre Hopkins",
+    "position": "WR",
+    "nfl_team": "HST",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Calvin Johnson",
+    "position": "WR",
+    "nfl_team": "DET",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Danny Woodhead",
+    "position": "RB",
+    "nfl_team": "SD",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Rashad Jennings",
+    "position": "RB",
+    "nfl_team": "NYG",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Julius Thomas",
+    "position": "TE",
+    "nfl_team": "JAX",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Tavon Austin",
+    "position": "WR",
+    "nfl_team": "SL",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Danny Amendola",
+    "position": "WR",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Kendall Wright",
+    "position": "WR",
+    "nfl_team": "TEN",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Martellus Bennett",
+    "position": "TE",
+    "nfl_team": "CHI",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Melvin Gordon III",
+    "position": "RB",
+    "nfl_team": "SD",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Pierre Garcon",
+    "position": "WR",
+    "nfl_team": "WAS",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Jameis Winston",
+    "position": "QB",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Dan Bailey",
+    "position": "K",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2015,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Bills",
+    "position": "DEF",
+    "nfl_team": "Buf",
+    "status": ""
+  }
+]

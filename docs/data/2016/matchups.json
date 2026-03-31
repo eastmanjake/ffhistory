@@ -1,0 +1,686 @@
+[
+  {
+    "week": 1,
+    "team1": "The Commish",
+    "score1": "95.70",
+    "team2": "Bad Rivers Tribe",
+    "score2": "92.57",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "Dicks Out 4 Harambe",
+    "score1": "107.90",
+    "team2": "The Brown Bears",
+    "score2": "98.87",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "Gruden's Grinders",
+    "score1": "104.01",
+    "team2": "SHARKEISHA NO",
+    "score2": "90.15",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "Goatse VIII",
+    "score1": "148.00",
+    "team2": "Raaaaaaaandy",
+    "score2": "107.06",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "Jive Turkey",
+    "score1": "112.99",
+    "team2": "Charlotte Banshees",
+    "score2": "112.38",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "The Commish",
+    "score1": "84.31",
+    "team2": "Dicks Out 4 Harambe",
+    "score2": "104.33",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Bad Rivers Tribe",
+    "score1": "82.12",
+    "team2": "Charlotte Banshees",
+    "score2": "83.12",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Gruden's Grinders",
+    "score1": "87.27",
+    "team2": "The Brown Bears",
+    "score2": "75.71",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Goatse VIII",
+    "score1": "105.95",
+    "team2": "SHARKEISHA NO",
+    "score2": "84.16",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Jive Turkey",
+    "score1": "150.06",
+    "team2": "Raaaaaaaandy",
+    "score2": "77.27",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "The Commish",
+    "score1": "105.28",
+    "team2": "Gruden's Grinders",
+    "score2": "106.88",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Bad Rivers Tribe",
+    "score1": "105.74",
+    "team2": "Dicks Out 4 Harambe",
+    "score2": "84.79",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Goatse VIII",
+    "score1": "115.55",
+    "team2": "The Brown Bears",
+    "score2": "110.42",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Jive Turkey",
+    "score1": "96.08",
+    "team2": "SHARKEISHA NO",
+    "score2": "140.91",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Raaaaaaaandy",
+    "score1": "84.20",
+    "team2": "Charlotte Banshees",
+    "score2": "134.20",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "The Commish",
+    "score1": "83.25",
+    "team2": "Goatse VIII",
+    "score2": "104.17",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Bad Rivers Tribe",
+    "score1": "74.08",
+    "team2": "Gruden's Grinders",
+    "score2": "106.25",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Dicks Out 4 Harambe",
+    "score1": "77.96",
+    "team2": "Charlotte Banshees",
+    "score2": "134.54",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Jive Turkey",
+    "score1": "142.74",
+    "team2": "The Brown Bears",
+    "score2": "68.55",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Raaaaaaaandy",
+    "score1": "84.42",
+    "team2": "SHARKEISHA NO",
+    "score2": "83.18",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "The Commish",
+    "score1": "140.90",
+    "team2": "Jive Turkey",
+    "score2": "102.81",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Bad Rivers Tribe",
+    "score1": "100.16",
+    "team2": "Goatse VIII",
+    "score2": "115.45",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Dicks Out 4 Harambe",
+    "score1": "130.68",
+    "team2": "Gruden's Grinders",
+    "score2": "89.56",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Raaaaaaaandy",
+    "score1": "74.66",
+    "team2": "The Brown Bears",
+    "score2": "82.08",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "SHARKEISHA NO",
+    "score1": "90.79",
+    "team2": "Charlotte Banshees",
+    "score2": "82.01",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "The Commish",
+    "score1": "77.96",
+    "team2": "Raaaaaaaandy",
+    "score2": "129.96",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Bad Rivers Tribe",
+    "score1": "76.90",
+    "team2": "Jive Turkey",
+    "score2": "95.37",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Dicks Out 4 Harambe",
+    "score1": "104.58",
+    "team2": "Goatse VIII",
+    "score2": "81.74",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Gruden's Grinders",
+    "score1": "108.68",
+    "team2": "Charlotte Banshees",
+    "score2": "84.70",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "SHARKEISHA NO",
+    "score1": "82.99",
+    "team2": "The Brown Bears",
+    "score2": "116.70",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "The Commish",
+    "score1": "92.40",
+    "team2": "SHARKEISHA NO",
+    "score2": "77.43",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Bad Rivers Tribe",
+    "score1": "64.37",
+    "team2": "Raaaaaaaandy",
+    "score2": "103.44",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Dicks Out 4 Harambe",
+    "score1": "96.32",
+    "team2": "Jive Turkey",
+    "score2": "104.39",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Gruden's Grinders",
+    "score1": "131.03",
+    "team2": "Goatse VIII",
+    "score2": "135.47",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "The Brown Bears",
+    "score1": "58.30",
+    "team2": "Charlotte Banshees",
+    "score2": "100.44",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "The Commish",
+    "score1": "130.22",
+    "team2": "The Brown Bears",
+    "score2": "68.22",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Bad Rivers Tribe",
+    "score1": "124.00",
+    "team2": "SHARKEISHA NO",
+    "score2": "116.15",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Dicks Out 4 Harambe",
+    "score1": "80.30",
+    "team2": "Raaaaaaaandy",
+    "score2": "116.94",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Gruden's Grinders",
+    "score1": "88.83",
+    "team2": "Jive Turkey",
+    "score2": "132.42",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Goatse VIII",
+    "score1": "87.92",
+    "team2": "Charlotte Banshees",
+    "score2": "79.55",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "The Commish",
+    "score1": "93.51",
+    "team2": "Charlotte Banshees",
+    "score2": "142.38",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Bad Rivers Tribe",
+    "score1": "128.67",
+    "team2": "The Brown Bears",
+    "score2": "96.63",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Dicks Out 4 Harambe",
+    "score1": "127.84",
+    "team2": "SHARKEISHA NO",
+    "score2": "63.01",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Gruden's Grinders",
+    "score1": "103.85",
+    "team2": "Raaaaaaaandy",
+    "score2": "70.88",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Goatse VIII",
+    "score1": "127.76",
+    "team2": "Jive Turkey",
+    "score2": "84.70",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "The Commish",
+    "score1": "80.42",
+    "team2": "Bad Rivers Tribe",
+    "score2": "127.87",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "Dicks Out 4 Harambe",
+    "score1": "100.45",
+    "team2": "The Brown Bears",
+    "score2": "101.21",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "Gruden's Grinders",
+    "score1": "134.09",
+    "team2": "SHARKEISHA NO",
+    "score2": "86.94",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "Goatse VIII",
+    "score1": "100.78",
+    "team2": "Raaaaaaaandy",
+    "score2": "97.59",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "Jive Turkey",
+    "score1": "115.04",
+    "team2": "Charlotte Banshees",
+    "score2": "76.00",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "The Commish",
+    "score1": "117.33",
+    "team2": "Dicks Out 4 Harambe",
+    "score2": "95.33",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Bad Rivers Tribe",
+    "score1": "98.20",
+    "team2": "Charlotte Banshees",
+    "score2": "85.08",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Gruden's Grinders",
+    "score1": "96.33",
+    "team2": "The Brown Bears",
+    "score2": "97.98",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Goatse VIII",
+    "score1": "85.05",
+    "team2": "SHARKEISHA NO",
+    "score2": "77.75",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Jive Turkey",
+    "score1": "91.37",
+    "team2": "Raaaaaaaandy",
+    "score2": "113.24",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "The Commish",
+    "score1": "63.29",
+    "team2": "Gruden's Grinders",
+    "score2": "82.69",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Bad Rivers Tribe",
+    "score1": "125.75",
+    "team2": "Dicks Out 4 Harambe",
+    "score2": "108.44",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Goatse VIII",
+    "score1": "129.96",
+    "team2": "The Brown Bears",
+    "score2": "78.34",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Jive Turkey",
+    "score1": "150.70",
+    "team2": "SHARKEISHA NO",
+    "score2": "100.49",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Raaaaaaaandy",
+    "score1": "53.52",
+    "team2": "Charlotte Banshees",
+    "score2": "98.26",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "The Commish",
+    "score1": "70.31",
+    "team2": "Goatse VIII",
+    "score2": "87.28",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Bad Rivers Tribe",
+    "score1": "107.99",
+    "team2": "Gruden's Grinders",
+    "score2": "95.28",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Dicks Out 4 Harambe",
+    "score1": "127.02",
+    "team2": "Charlotte Banshees",
+    "score2": "93.85",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Jive Turkey",
+    "score1": "131.00",
+    "team2": "The Brown Bears",
+    "score2": "75.83",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Raaaaaaaandy",
+    "score1": "113.51",
+    "team2": "SHARKEISHA NO",
+    "score2": "90.06",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 14,
+    "team1": "Bad Rivers Tribe",
+    "score1": "69.48",
+    "team2": "Dicks Out 4 Harambe",
+    "score2": "88.49",
+    "playoff": true,
+    "round": "Quarterfinal"
+  },
+  {
+    "week": 14,
+    "team1": "Gruden's Grinders",
+    "score1": "68.75",
+    "team2": "Charlotte Banshees",
+    "score2": "100.11",
+    "playoff": true,
+    "round": "Quarterfinal"
+  },
+  {
+    "week": 15,
+    "team1": "The Commish",
+    "score1": "55.04",
+    "team2": "The Brown Bears",
+    "score2": "81.61",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 15,
+    "team1": "Bad Rivers Tribe",
+    "score1": "113.56",
+    "team2": "Gruden's Grinders",
+    "score2": "84.80",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 15,
+    "team1": "Dicks Out 4 Harambe",
+    "score1": "80.75",
+    "team2": "Goatse VIII",
+    "score2": "76.24",
+    "playoff": true,
+    "round": "Semifinal"
+  },
+  {
+    "week": 15,
+    "team1": "Jive Turkey",
+    "score1": "104.74",
+    "team2": "Charlotte Banshees",
+    "score2": "73.54",
+    "playoff": true,
+    "round": "Semifinal"
+  },
+  {
+    "week": 15,
+    "team1": "Raaaaaaaandy",
+    "score1": "112.48",
+    "team2": "SHARKEISHA NO",
+    "score2": "107.52",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 16,
+    "team1": "The Commish",
+    "score1": "87.61",
+    "team2": "SHARKEISHA NO",
+    "score2": "97.76",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 16,
+    "team1": "Dicks Out 4 Harambe",
+    "score1": "92.37",
+    "team2": "Jive Turkey",
+    "score2": "124.48",
+    "playoff": true,
+    "round": "Championship"
+  },
+  {
+    "week": 16,
+    "team1": "Goatse VIII",
+    "score1": "100.53",
+    "team2": "Charlotte Banshees",
+    "score2": "133.53",
+    "playoff": true,
+    "round": "3rd Place"
+  },
+  {
+    "week": 16,
+    "team1": "Raaaaaaaandy",
+    "score1": "81.88",
+    "team2": "The Brown Bears",
+    "score2": "97.30",
+    "playoff": true,
+    "round": "Consolation"
+  }
+]

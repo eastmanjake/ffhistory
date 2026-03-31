@@ -1,0 +1,686 @@
+[
+  {
+    "week": 1,
+    "team1": "The Commish",
+    "score1": "104.48",
+    "team2": "Jennys New Lover",
+    "score2": "112.10",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "16-0",
+    "score1": "128.93",
+    "team2": "jordens a halfrican",
+    "score2": "101.31",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "old dirty bastard",
+    "score1": "71.00",
+    "team2": "Taint Lickers",
+    "score2": "118.23",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "postseason champs",
+    "score1": "110.30",
+    "team2": "2012 Favorite",
+    "score2": "128.28",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "Goatse III",
+    "score1": "80.61",
+    "team2": "The Milf Tonyas",
+    "score2": "83.20",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "The Commish",
+    "score1": "109.92",
+    "team2": "16-0",
+    "score2": "122.85",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Jennys New Lover",
+    "score1": "130.30",
+    "team2": "The Milf Tonyas",
+    "score2": "67.53",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "old dirty bastard",
+    "score1": "104.62",
+    "team2": "jordens a halfrican",
+    "score2": "121.20",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "postseason champs",
+    "score1": "122.62",
+    "team2": "Taint Lickers",
+    "score2": "119.93",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Goatse III",
+    "score1": "145.65",
+    "team2": "2012 Favorite",
+    "score2": "129.12",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "The Commish",
+    "score1": "81.63",
+    "team2": "old dirty bastard",
+    "score2": "113.79",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Jennys New Lover",
+    "score1": "121.22",
+    "team2": "16-0",
+    "score2": "66.60",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "postseason champs",
+    "score1": "117.82",
+    "team2": "jordens a halfrican",
+    "score2": "120.35",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Goatse III",
+    "score1": "105.30",
+    "team2": "Taint Lickers",
+    "score2": "105.99",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "2012 Favorite",
+    "score1": "127.63",
+    "team2": "The Milf Tonyas",
+    "score2": "90.01",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "The Commish",
+    "score1": "124.62",
+    "team2": "postseason champs",
+    "score2": "137.00",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Jennys New Lover",
+    "score1": "103.51",
+    "team2": "old dirty bastard",
+    "score2": "97.56",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "16-0",
+    "score1": "121.88",
+    "team2": "The Milf Tonyas",
+    "score2": "86.36",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Goatse III",
+    "score1": "105.64",
+    "team2": "jordens a halfrican",
+    "score2": "128.14",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "2012 Favorite",
+    "score1": "113.74",
+    "team2": "Taint Lickers",
+    "score2": "107.74",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "The Commish",
+    "score1": "73.19",
+    "team2": "Goatse III",
+    "score2": "97.01",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Jennys New Lover",
+    "score1": "114.31",
+    "team2": "postseason champs",
+    "score2": "105.76",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "16-0",
+    "score1": "134.68",
+    "team2": "old dirty bastard",
+    "score2": "110.90",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "2012 Favorite",
+    "score1": "99.69",
+    "team2": "jordens a halfrican",
+    "score2": "79.33",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Taint Lickers",
+    "score1": "133.60",
+    "team2": "The Milf Tonyas",
+    "score2": "51.39",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "The Commish",
+    "score1": "99.84",
+    "team2": "2012 Favorite",
+    "score2": "81.56",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Jennys New Lover",
+    "score1": "84.63",
+    "team2": "Goatse III",
+    "score2": "104.82",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "16-0",
+    "score1": "121.13",
+    "team2": "postseason champs",
+    "score2": "95.37",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "old dirty bastard",
+    "score1": "94.60",
+    "team2": "The Milf Tonyas",
+    "score2": "98.49",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Taint Lickers",
+    "score1": "111.13",
+    "team2": "jordens a halfrican",
+    "score2": "76.27",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "The Commish",
+    "score1": "69.50",
+    "team2": "Taint Lickers",
+    "score2": "80.38",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Jennys New Lover",
+    "score1": "114.54",
+    "team2": "2012 Favorite",
+    "score2": "121.34",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "16-0",
+    "score1": "119.94",
+    "team2": "Goatse III",
+    "score2": "105.20",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "old dirty bastard",
+    "score1": "61.91",
+    "team2": "postseason champs",
+    "score2": "90.02",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "jordens a halfrican",
+    "score1": "115.97",
+    "team2": "The Milf Tonyas",
+    "score2": "86.52",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "The Commish",
+    "score1": "121.96",
+    "team2": "jordens a halfrican",
+    "score2": "78.61",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Jennys New Lover",
+    "score1": "110.35",
+    "team2": "Taint Lickers",
+    "score2": "72.61",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "16-0",
+    "score1": "129.68",
+    "team2": "2012 Favorite",
+    "score2": "87.97",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "old dirty bastard",
+    "score1": "41.76",
+    "team2": "Goatse III",
+    "score2": "145.96",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "postseason champs",
+    "score1": "95.30",
+    "team2": "The Milf Tonyas",
+    "score2": "80.72",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "The Commish",
+    "score1": "127.23",
+    "team2": "The Milf Tonyas",
+    "score2": "105.25",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Jennys New Lover",
+    "score1": "111.51",
+    "team2": "jordens a halfrican",
+    "score2": "88.35",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "16-0",
+    "score1": "93.81",
+    "team2": "Taint Lickers",
+    "score2": "85.87",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "old dirty bastard",
+    "score1": "95.60",
+    "team2": "2012 Favorite",
+    "score2": "98.78",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "postseason champs",
+    "score1": "94.25",
+    "team2": "Goatse III",
+    "score2": "77.32",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "The Commish",
+    "score1": "120.45",
+    "team2": "Jennys New Lover",
+    "score2": "139.28",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "16-0",
+    "score1": "114.16",
+    "team2": "jordens a halfrican",
+    "score2": "98.29",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "old dirty bastard",
+    "score1": "82.96",
+    "team2": "Taint Lickers",
+    "score2": "59.67",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "postseason champs",
+    "score1": "103.49",
+    "team2": "2012 Favorite",
+    "score2": "104.51",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "Goatse III",
+    "score1": "75.03",
+    "team2": "The Milf Tonyas",
+    "score2": "105.24",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "The Commish",
+    "score1": "129.36",
+    "team2": "16-0",
+    "score2": "101.63",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Jennys New Lover",
+    "score1": "111.40",
+    "team2": "The Milf Tonyas",
+    "score2": "102.23",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "old dirty bastard",
+    "score1": "55.20",
+    "team2": "jordens a halfrican",
+    "score2": "83.74",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "postseason champs",
+    "score1": "103.75",
+    "team2": "Taint Lickers",
+    "score2": "47.00",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Goatse III",
+    "score1": "90.63",
+    "team2": "2012 Favorite",
+    "score2": "88.66",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "The Commish",
+    "score1": "115.28",
+    "team2": "old dirty bastard",
+    "score2": "72.67",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Jennys New Lover",
+    "score1": "145.82",
+    "team2": "16-0",
+    "score2": "93.09",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "postseason champs",
+    "score1": "93.89",
+    "team2": "jordens a halfrican",
+    "score2": "136.48",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Goatse III",
+    "score1": "111.17",
+    "team2": "Taint Lickers",
+    "score2": "97.79",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "2012 Favorite",
+    "score1": "119.39",
+    "team2": "The Milf Tonyas",
+    "score2": "111.70",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "The Commish",
+    "score1": "143.76",
+    "team2": "postseason champs",
+    "score2": "105.52",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Jennys New Lover",
+    "score1": "174.01",
+    "team2": "old dirty bastard",
+    "score2": "113.06",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "16-0",
+    "score1": "92.61",
+    "team2": "The Milf Tonyas",
+    "score2": "56.40",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Goatse III",
+    "score1": "136.88",
+    "team2": "jordens a halfrican",
+    "score2": "108.83",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "2012 Favorite",
+    "score1": "89.16",
+    "team2": "Taint Lickers",
+    "score2": "73.12",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 14,
+    "team1": "The Commish",
+    "score1": "139.19",
+    "team2": "Goatse III",
+    "score2": "117.73",
+    "playoff": true,
+    "round": "Quarterfinal"
+  },
+  {
+    "week": 14,
+    "team1": "postseason champs",
+    "score1": "127.93",
+    "team2": "2012 Favorite",
+    "score2": "105.98",
+    "playoff": true,
+    "round": "Quarterfinal"
+  },
+  {
+    "week": 15,
+    "team1": "The Commish",
+    "score1": "104.15",
+    "team2": "Jennys New Lover",
+    "score2": "98.46",
+    "playoff": true,
+    "round": "Semifinal"
+  },
+  {
+    "week": 15,
+    "team1": "16-0",
+    "score1": "91.16",
+    "team2": "postseason champs",
+    "score2": "94.64",
+    "playoff": true,
+    "round": "Semifinal"
+  },
+  {
+    "week": 15,
+    "team1": "old dirty bastard",
+    "score1": "117.50",
+    "team2": "jordens a halfrican",
+    "score2": "93.91",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 15,
+    "team1": "Goatse III",
+    "score1": "113.63",
+    "team2": "2012 Favorite",
+    "score2": "168.75",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 15,
+    "team1": "Taint Lickers",
+    "score1": "83.41",
+    "team2": "The Milf Tonyas",
+    "score2": "90.55",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 16,
+    "team1": "The Commish",
+    "score1": "158.77",
+    "team2": "postseason champs",
+    "score2": "94.97",
+    "playoff": true,
+    "round": "Championship"
+  },
+  {
+    "week": 16,
+    "team1": "Jennys New Lover",
+    "score1": "93.19",
+    "team2": "16-0",
+    "score2": "54.75",
+    "playoff": true,
+    "round": "3rd Place"
+  },
+  {
+    "week": 16,
+    "team1": "old dirty bastard",
+    "score1": "112.86",
+    "team2": "The Milf Tonyas",
+    "score2": "56.32",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 16,
+    "team1": "Taint Lickers",
+    "score1": "106.67",
+    "team2": "jordens a halfrican",
+    "score2": "132.52",
+    "playoff": true,
+    "round": "Consolation"
+  }
+]

@@ -1,0 +1,6869 @@
+[
+  {
+    "type": "Add",
+    "date": "2013-12-22",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-22",
+    "player": "Bills",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-20",
+    "player": "Phil Dawson",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-20",
+    "player": "Stephen Hauschka",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-18",
+    "player": "Dennis Johnson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-18",
+    "player": "Donald Brown",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-18",
+    "player": "Cordarrelle Patterson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-18",
+    "player": "James Starks",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-18",
+    "player": "Edwin Baker",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-18",
+    "player": "Zach Ertz",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-18",
+    "player": "DeAngelo Williams",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-18",
+    "player": "Chris Ogbonnaya",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-13",
+    "player": "Chris Ogbonnaya",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-13",
+    "player": "Daniel Thomas",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-12",
+    "player": "Jordan Todman",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-12",
+    "player": "Josh McCown",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-12",
+    "player": "Rod Streater",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-12",
+    "player": "Marcel Reece",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-12",
+    "player": "Delanie Walker",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-12",
+    "player": "Martellus Bennett",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-11",
+    "player": "James Starks",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-11",
+    "player": "Andre Ellington",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-11",
+    "player": "Josh McCown",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-11",
+    "player": "Santonio Holmes",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-11",
+    "player": "Daniel Thomas",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-11",
+    "player": "Nate Burleson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-11",
+    "player": "Brian Hartline",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-11",
+    "player": "Steve Johnson",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-11",
+    "player": "Marcel Reece",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-11",
+    "player": "Rueben Randle",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-11",
+    "player": "Dennis Pitta",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-11",
+    "player": "Rob Gronkowski",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-11",
+    "player": "Da'Rick Rogers",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-11",
+    "player": "Doug Baldwin",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-11",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-11",
+    "player": "Lamar Miller",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-11",
+    "player": "Toby Gerhart",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-11",
+    "player": "Browns",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-09",
+    "player": "Martellus Bennett",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-09",
+    "player": "Darren McFadden",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-05",
+    "player": "Jay Cutler",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-05",
+    "player": "Carson Palmer",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-04",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-04",
+    "player": "Cowboys",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-04",
+    "player": "Adam Vinatieri",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-04",
+    "player": "Nick Folk",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-04",
+    "player": "Julian Edelman",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-04",
+    "player": "Jonathan Stewart",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-04",
+    "player": "Zach Ertz",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-04",
+    "player": "Martellus Bennett",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-04",
+    "player": "Doug Baldwin",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-04",
+    "player": "Golden Tate",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-01",
+    "player": "Jacob Tamme",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-01",
+    "player": "Julian Edelman",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-01",
+    "player": "Jonathan Stewart",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-01",
+    "player": "Aaron Dobson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-01",
+    "player": "Tavon Austin",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2013-12-01",
+    "player": "Eddie Royal",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-30",
+    "player": "Steve Johnson",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-30",
+    "player": "DeAngelo Williams",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-30",
+    "player": "Coby Fleener",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-30",
+    "player": "Jerricho Cotchery",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-29",
+    "player": "Carson Palmer",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-29",
+    "player": "Bernard Pierce",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Martellus Bennett",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "John Carlson",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Montee Ball",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Doug Baldwin",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Justin Tucker",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Adam Vinatieri",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Nate Burleson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Case Keenum",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Texans",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Eddie Royal",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Colts",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Rams",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Julian Edelman",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Denarius Moore",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Benny Cunningham Jr.",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Steve Johnson",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Lamar Miller",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-27",
+    "player": "Chris Ivory",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-25",
+    "player": "Doug Baldwin",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-25",
+    "player": "Brian Leonard",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-25",
+    "player": "Eli Manning",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-24",
+    "player": "John Carlson",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-24",
+    "player": "Martellus Bennett",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-24",
+    "player": "Tony Romo",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-24",
+    "player": "Roy Helu",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-23",
+    "player": "Rueben Randle",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-23",
+    "player": "Miles Austin",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-21",
+    "player": "Brandon LaFell",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-21",
+    "player": "Tony Romo",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-21",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-21",
+    "player": "Lamar Miller",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Garrett Hartley",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Jay Feely",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Jets",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Miles Austin",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Eddie Royal",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Andy Dalton",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Adam Vinatieri",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Nick Novak",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Donald Brown",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Lions",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Kendall Hunter",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Garrett Graham",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Shaun Suisham",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Jerricho Cotchery",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Charles Clay",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Bobby Rainey",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-20",
+    "player": "Peyton Hillis",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-17",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-17",
+    "player": "Shonn Greene",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-17",
+    "player": "Santonio Holmes",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-17",
+    "player": "Marvin Jones Jr.",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-16",
+    "player": "Jets",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-16",
+    "player": "Ravens",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-16",
+    "player": "Scott Chandler",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-16",
+    "player": "Mario Manningham",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-14",
+    "player": "Jay Feely",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-14",
+    "player": "Alex Henery",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-14",
+    "player": "Alex Henery",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-14",
+    "player": "Dan Carpenter",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-14",
+    "player": "Brian Leonard",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-14",
+    "player": "Tavon Austin",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-14",
+    "player": "Nick Novak",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-14",
+    "player": "Garrett Hartley",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-14",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-14",
+    "player": "Cowboys",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-14",
+    "player": "Emmanuel Sanders",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-14",
+    "player": "Justin Tucker",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-13",
+    "player": "Case Keenum",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-13",
+    "player": "Titans",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-13",
+    "player": "Shaun Suisham",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-13",
+    "player": "Mike James",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-13",
+    "player": "Ryan Succop",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-13",
+    "player": "Adam Vinatieri",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-13",
+    "player": "Jarrett Boykin",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-13",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-13",
+    "player": "Phil Dawson",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-13",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-13",
+    "player": "Dolphins",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-13",
+    "player": "Greg Olsen",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-13",
+    "player": "Brian Hartline",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-13",
+    "player": "Tavon Austin",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-13",
+    "player": "Rueben Randle",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-13",
+    "player": "Mike Tolbert",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-13",
+    "player": "Bernard Pierce",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-13",
+    "player": "Arian Foster",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-10",
+    "player": "Mario Manningham",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-10",
+    "player": "Darrius Heyward-Bey",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-10",
+    "player": "Ben Tate",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-10",
+    "player": "Greg Olsen",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-09",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-09",
+    "player": "Coby Fleener",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-08",
+    "player": "Shonn Greene",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-08",
+    "player": "Doug Martin",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-07",
+    "player": "Ben Roethlisberger",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-07",
+    "player": "Ben Tate",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-07",
+    "player": "Justin Tucker",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-07",
+    "player": "DeAndre Hopkins",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-07",
+    "player": "Mike Tolbert",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-07",
+    "player": "Kyle Rudolph",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Dan Carpenter",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Alex Henery",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Michael Crabtree",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "David Wilson",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Riley Cooper",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Jarrett Boykin",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Doug Martin",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Terrelle Pryor Sr.",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Chris Ivory",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Nick Novak",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Saints",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Jeremy Kerley",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Michael Floyd",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Julian Edelman",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Nick Foles",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Greg Jennings",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Aaron Dobson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Heath Miller",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Mike James",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Colts",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Phil Dawson",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Ravens",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Rashad Jennings",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-06",
+    "player": "Bilal Powell",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-03",
+    "player": "DeAndre Hopkins",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-03",
+    "player": "Justin Blackmon",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-03",
+    "player": "Ben Tate",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-03",
+    "player": "Michael Floyd",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-02",
+    "player": "Greg Jennings",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-02",
+    "player": "Montee Ball",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-02",
+    "player": "Rueben Randle",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-02",
+    "player": "Jacquizz Rodgers",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-02",
+    "player": "DeAngelo Williams",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-11-02",
+    "player": "Benjamin Watson",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-31",
+    "player": "Marvin Jones Jr.",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-31",
+    "player": "Doug Martin",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-31",
+    "player": "Greg Olsen",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-31",
+    "player": "Mike James",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Steelers",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Shane Vereen",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "DeAndre Hopkins",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Terrelle Pryor Sr.",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Chris Ivory",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Nick Novak",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Rueben Randle",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Kendall Hunter",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Charles Clay",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Jets",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Andy Dalton",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Michael Vick",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Adam Vinatieri",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Phil Dawson",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Montee Ball",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Greg Jennings",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Doug Martin",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-30",
+    "player": "DeAngelo Williams",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-28",
+    "player": "Kendall Wright",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-28",
+    "player": "Greg Olsen",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-27",
+    "player": "BenJarvus Green-Ellis",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-27",
+    "player": "Joseph Randle",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-26",
+    "player": "Garrett Hartley",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-26",
+    "player": "Tony Romo",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-26",
+    "player": "Kenbrell Thompkins",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-26",
+    "player": "Joseph Randle",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-26",
+    "player": "Ben Tate",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-26",
+    "player": "Chris Ogbonnaya",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-25",
+    "player": "Peyton Hillis",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-24",
+    "player": "Justin Tucker",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-24",
+    "player": "Golden Tate",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-24",
+    "player": "Brandon Gibson",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-24",
+    "player": "Brandon Gibson",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-24",
+    "player": "BenJarvus Green-Ellis",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-24",
+    "player": "Benjamin Watson",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-24",
+    "player": "Doug Martin",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-24",
+    "player": "Nick Folk",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-24",
+    "player": "Blair Walsh",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-24",
+    "player": "Michael Floyd",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-24",
+    "player": "Daryl Richardson",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-24",
+    "player": "Brian Hartline",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-24",
+    "player": "Chris Givens",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Jeremy Kerley",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Stephen Hill",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Andre Brown",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Tony Romo",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Dolphins",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Colts",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Nick Foles",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Scott Chandler",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Terrance Williams",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Reggie Wayne",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Jets",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Alex Smith",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Jordan Reed",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Joseph Randle",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Chargers",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Ravens",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Chris Ivory",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Darrius Heyward-Bey",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Garrett Hartley",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Jacquizz Rodgers",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Nate Washington",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Mike James",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-23",
+    "player": "Jay Cutler",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-19",
+    "player": "Kenbrell Thompkins",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-19",
+    "player": "Golden Tate",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-18",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-18",
+    "player": "Rams",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-18",
+    "player": "Bernard Pierce",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-17",
+    "player": "Chris Ogbonnaya",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-17",
+    "player": "Willis McGahee",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-17",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-17",
+    "player": "Garrett Graham",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Mason Crosby",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Ryan Succop",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Bengals",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "BenJarvus Green-Ellis",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Randall Cobb",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Chargers",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Lions",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Colts",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Jarrett Boykin",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Charles Clay",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Scott Chandler",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Kenbrell Thompkins",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Matt Schaub",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Joseph Randle",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Tyler Eifert",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Keenan Allen",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-16",
+    "player": "Miles Austin",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-13",
+    "player": "Nate Washington",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-13",
+    "player": "Rashad Jennings",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-13",
+    "player": "Miles Austin",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-13",
+    "player": "Terrelle Pryor Sr.",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-11",
+    "player": "Tyler Eifert",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-11",
+    "player": "Panthers",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-10",
+    "player": "Stephen Hill",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-10",
+    "player": "Julio Jones",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-10",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-10",
+    "player": "Browns",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Harry Douglas",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Ravens",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Zac Stacy",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Saints",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Ryan Succop",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Caleb Sturgis",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Matt Schaub",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Rams",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Terrelle Pryor Sr.",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Sam Bradford",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Nate Washington",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Rueben Randle",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Andre Ellington",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Mike Williams",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Garrett Graham",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Owen Daniels",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Coby Fleener",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Emmanuel Sanders",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Golden Tate",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Nick Novak",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Nick Foles",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "LeGarrette Blount",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Stephen Hauschka",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Matt Bryant",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Austin Collie",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "Tony Romo",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-09",
+    "player": "E.J. Manuel",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-06",
+    "player": "Nick Novak",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-06",
+    "player": "Tavon Austin",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-04",
+    "player": "LeGarrette Blount",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-04",
+    "player": "Bengals",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-04",
+    "player": "Nate Washington",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-04",
+    "player": "Ahmad Bradshaw",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-03",
+    "player": "Austin Collie",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-03",
+    "player": "Brian Hartline",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-03",
+    "player": "Santonio Holmes",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Percy Harvin",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Kenny Britt",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Donnie Avery",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Rashad Jennings",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Brandon Myers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Sam Bradford",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Andy Dalton",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Colts",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Titans",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Tony Romo",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Kenny Britt",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Sidney Rice",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Danny Woodhead",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "BenJarvus Green-Ellis",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Vikings",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Greg Jennings",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Miles Austin",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Alshon Jeffery",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Fred Davis",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Kenbrell Thompkins",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-10-02",
+    "player": "Mark Ingram II",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-28",
+    "player": "Brian Hartline",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-28",
+    "player": "Jets",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-26",
+    "player": "Donnie Avery",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-26",
+    "player": "Michael Floyd",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Justin Tucker",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Greg Zuerlein",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Denarius Moore",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "James Starks",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Sidney Rice",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Brandon Bolden",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Brandon Bolden",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Montee Ball",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Bills",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Tony Romo",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Greg Jennings",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Giants",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Ahmad Bradshaw",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Vincent Brown",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Santonio Holmes",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Charles Clay",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Heath Miller",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Lance Moore",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Pierre Thomas",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Bryce Brown",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Garrett Hartley",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Eli Manning",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Jordan Cameron",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Leonard Hankerson",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-25",
+    "player": "Cecil Shorts",
+    "from": "FA/Waiver",
+    "to": "Kenny kil"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-24",
+    "player": "Golden Tate",
+    "from": "Kenny kil",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-24",
+    "player": "Malcom Floyd",
+    "from": "Kenny kil",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-22",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-22",
+    "player": "Brian Hartline",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-21",
+    "player": "Bilal Powell",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-21",
+    "player": "Ahmad Bradshaw",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-21",
+    "player": "Le'Veon Bell",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-21",
+    "player": "Jordan Cameron",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-20",
+    "player": "Jets",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-20",
+    "player": "Tyler Eifert",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-19",
+    "player": "Caleb Sturgis",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-19",
+    "player": "Garrett Hartley",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-19",
+    "player": "Garrett Hartley",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-19",
+    "player": "Robbie Gould",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "Willis McGahee",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "Le'Veon Bell",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "Kenbrell Thompkins",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "Philip Rivers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "Tony Romo",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "Steelers",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "Tyler Eifert",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "Cecil Shorts",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "Sidney Rice",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "James Starks",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "Brandon Jacobs",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "Alex Henery",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "Justin Tucker",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "Knowshon Moreno",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "Kellen Winslow",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-18",
+    "player": "Eddie Royal",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-13",
+    "player": "Michael Floyd",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-13",
+    "player": "Darrius Heyward-Bey",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-12",
+    "player": "Brandon Jacobs",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-12",
+    "player": "Michael Floyd",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-11",
+    "player": "Leonard Hankerson",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-11",
+    "player": "Scott Chandler",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-11",
+    "player": "Joique Bell",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-11",
+    "player": "Shane Vereen",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-11",
+    "player": "Kellen Winslow",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-11",
+    "player": "Zach Sudfeld",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-11",
+    "player": "Brian Hartline",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-11",
+    "player": "Buccaneers",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-11",
+    "player": "Fred Jackson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-11",
+    "player": "Isaac Redman",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-11",
+    "player": "Julian Edelman",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-11",
+    "player": "Jacoby Jones",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-11",
+    "player": "Jordan Cameron",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-11",
+    "player": "Kenny Britt",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-05",
+    "player": "Buccaneers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-05",
+    "player": "Chris Ivory",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-05",
+    "player": "Shane Vereen",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-05",
+    "player": "Josh Freeman",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2013-09-04",
+    "player": "Andre Brown",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-22",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-22",
+    "player": "Bills",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-20",
+    "player": "Phil Dawson",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-20",
+    "player": "Stephen Hauschka",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-18",
+    "player": "Dennis Johnson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-18",
+    "player": "Donald Brown",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-18",
+    "player": "Cordarrelle Patterson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-18",
+    "player": "James Starks",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-18",
+    "player": "Edwin Baker",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-18",
+    "player": "Zach Ertz",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-18",
+    "player": "DeAngelo Williams",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-18",
+    "player": "Chris Ogbonnaya",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-13",
+    "player": "Chris Ogbonnaya",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-13",
+    "player": "Daniel Thomas",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-12",
+    "player": "Jordan Todman",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-12",
+    "player": "Josh McCown",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-12",
+    "player": "Rod Streater",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-12",
+    "player": "Marcel Reece",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-12",
+    "player": "Delanie Walker",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-12",
+    "player": "Martellus Bennett",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-11",
+    "player": "James Starks",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-11",
+    "player": "Andre Ellington",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-11",
+    "player": "Josh McCown",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-11",
+    "player": "Santonio Holmes",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-11",
+    "player": "Daniel Thomas",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-11",
+    "player": "Nate Burleson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-11",
+    "player": "Brian Hartline",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-11",
+    "player": "Steve Johnson",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-11",
+    "player": "Marcel Reece",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-11",
+    "player": "Rueben Randle",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-11",
+    "player": "Dennis Pitta",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-11",
+    "player": "Rob Gronkowski",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-11",
+    "player": "Da'Rick Rogers",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-11",
+    "player": "Doug Baldwin",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-11",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-11",
+    "player": "Lamar Miller",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-11",
+    "player": "Toby Gerhart",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-11",
+    "player": "Browns",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-09",
+    "player": "Martellus Bennett",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-09",
+    "player": "Darren McFadden",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-05",
+    "player": "Jay Cutler",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-05",
+    "player": "Carson Palmer",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-04",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-04",
+    "player": "Cowboys",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-04",
+    "player": "Adam Vinatieri",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-04",
+    "player": "Nick Folk",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-04",
+    "player": "Julian Edelman",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-04",
+    "player": "Jonathan Stewart",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-04",
+    "player": "Zach Ertz",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-04",
+    "player": "Martellus Bennett",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-04",
+    "player": "Doug Baldwin",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-04",
+    "player": "Golden Tate",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-01",
+    "player": "Jacob Tamme",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-01",
+    "player": "Julian Edelman",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-01",
+    "player": "Jonathan Stewart",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-01",
+    "player": "Aaron Dobson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-01",
+    "player": "Tavon Austin",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-12-01",
+    "player": "Eddie Royal",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-30",
+    "player": "Steve Johnson",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-30",
+    "player": "DeAngelo Williams",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-30",
+    "player": "Coby Fleener",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-30",
+    "player": "Jerricho Cotchery",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-29",
+    "player": "Carson Palmer",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-29",
+    "player": "Bernard Pierce",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Martellus Bennett",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "John Carlson",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Montee Ball",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Doug Baldwin",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Justin Tucker",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Adam Vinatieri",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Nate Burleson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Case Keenum",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Texans",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Eddie Royal",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Colts",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Rams",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Julian Edelman",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Denarius Moore",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Benny Cunningham Jr.",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Steve Johnson",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Lamar Miller",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-27",
+    "player": "Chris Ivory",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-25",
+    "player": "Doug Baldwin",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-25",
+    "player": "Brian Leonard",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-25",
+    "player": "Eli Manning",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-24",
+    "player": "John Carlson",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-24",
+    "player": "Martellus Bennett",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-24",
+    "player": "Tony Romo",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-24",
+    "player": "Roy Helu",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-23",
+    "player": "Rueben Randle",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-23",
+    "player": "Miles Austin",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-21",
+    "player": "Brandon LaFell",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-21",
+    "player": "Tony Romo",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-21",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-21",
+    "player": "Lamar Miller",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Garrett Hartley",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Jay Feely",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Jets",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Miles Austin",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Eddie Royal",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Andy Dalton",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Adam Vinatieri",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Nick Novak",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Donald Brown",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Lions",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Kendall Hunter",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Garrett Graham",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Shaun Suisham",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Jerricho Cotchery",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Charles Clay",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Bobby Rainey",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-20",
+    "player": "Peyton Hillis",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-17",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-17",
+    "player": "Shonn Greene",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-17",
+    "player": "Santonio Holmes",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-17",
+    "player": "Marvin Jones Jr.",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-16",
+    "player": "Jets",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-16",
+    "player": "Ravens",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-16",
+    "player": "Scott Chandler",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-16",
+    "player": "Mario Manningham",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-14",
+    "player": "Jay Feely",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-14",
+    "player": "Alex Henery",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-14",
+    "player": "Alex Henery",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-14",
+    "player": "Dan Carpenter",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-14",
+    "player": "Brian Leonard",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-14",
+    "player": "Tavon Austin",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-14",
+    "player": "Nick Novak",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-14",
+    "player": "Garrett Hartley",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-14",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-14",
+    "player": "Cowboys",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-14",
+    "player": "Emmanuel Sanders",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-14",
+    "player": "Justin Tucker",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-13",
+    "player": "Case Keenum",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-13",
+    "player": "Titans",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-13",
+    "player": "Shaun Suisham",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-13",
+    "player": "Mike James",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-13",
+    "player": "Ryan Succop",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-13",
+    "player": "Adam Vinatieri",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-13",
+    "player": "Jarrett Boykin",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-13",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-13",
+    "player": "Phil Dawson",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-13",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-13",
+    "player": "Dolphins",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-13",
+    "player": "Greg Olsen",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-13",
+    "player": "Brian Hartline",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-13",
+    "player": "Tavon Austin",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-13",
+    "player": "Rueben Randle",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-13",
+    "player": "Mike Tolbert",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-13",
+    "player": "Bernard Pierce",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-13",
+    "player": "Arian Foster",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-10",
+    "player": "Mario Manningham",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-10",
+    "player": "Darrius Heyward-Bey",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-10",
+    "player": "Ben Tate",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-10",
+    "player": "Greg Olsen",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-09",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-09",
+    "player": "Coby Fleener",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-08",
+    "player": "Shonn Greene",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-08",
+    "player": "Doug Martin",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-07",
+    "player": "Ben Roethlisberger",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-07",
+    "player": "Ben Tate",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-07",
+    "player": "Justin Tucker",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-07",
+    "player": "DeAndre Hopkins",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-07",
+    "player": "Mike Tolbert",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-07",
+    "player": "Kyle Rudolph",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Dan Carpenter",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Alex Henery",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Michael Crabtree",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "David Wilson",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Riley Cooper",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Jarrett Boykin",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Doug Martin",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Terrelle Pryor Sr.",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Chris Ivory",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Nick Novak",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Saints",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Jeremy Kerley",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Michael Floyd",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Julian Edelman",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Nick Foles",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Greg Jennings",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Aaron Dobson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Heath Miller",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Mike James",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Colts",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Phil Dawson",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Ravens",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Rashad Jennings",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-06",
+    "player": "Bilal Powell",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-03",
+    "player": "DeAndre Hopkins",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-03",
+    "player": "Justin Blackmon",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-03",
+    "player": "Ben Tate",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-03",
+    "player": "Michael Floyd",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-02",
+    "player": "Greg Jennings",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-02",
+    "player": "Montee Ball",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-02",
+    "player": "Rueben Randle",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-02",
+    "player": "Jacquizz Rodgers",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-02",
+    "player": "DeAngelo Williams",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-11-02",
+    "player": "Benjamin Watson",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-31",
+    "player": "Marvin Jones Jr.",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-31",
+    "player": "Doug Martin",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-31",
+    "player": "Greg Olsen",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-31",
+    "player": "Mike James",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Steelers",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Shane Vereen",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "DeAndre Hopkins",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Terrelle Pryor Sr.",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Chris Ivory",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Nick Novak",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Rueben Randle",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Kendall Hunter",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Charles Clay",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Jets",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Andy Dalton",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Michael Vick",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Adam Vinatieri",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Phil Dawson",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Montee Ball",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Greg Jennings",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Doug Martin",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-30",
+    "player": "DeAngelo Williams",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-28",
+    "player": "Kendall Wright",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-28",
+    "player": "Greg Olsen",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-27",
+    "player": "BenJarvus Green-Ellis",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-27",
+    "player": "Joseph Randle",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-26",
+    "player": "Garrett Hartley",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-26",
+    "player": "Tony Romo",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-26",
+    "player": "Kenbrell Thompkins",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-26",
+    "player": "Joseph Randle",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-26",
+    "player": "Ben Tate",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-26",
+    "player": "Chris Ogbonnaya",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-25",
+    "player": "Peyton Hillis",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-24",
+    "player": "Justin Tucker",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-24",
+    "player": "Golden Tate",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-24",
+    "player": "Brandon Gibson",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-24",
+    "player": "Brandon Gibson",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-24",
+    "player": "BenJarvus Green-Ellis",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-24",
+    "player": "Benjamin Watson",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-24",
+    "player": "Doug Martin",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-24",
+    "player": "Nick Folk",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-24",
+    "player": "Blair Walsh",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-24",
+    "player": "Michael Floyd",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-24",
+    "player": "Daryl Richardson",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-24",
+    "player": "Brian Hartline",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-24",
+    "player": "Chris Givens",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Jeremy Kerley",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Stephen Hill",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Andre Brown",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Tony Romo",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Dolphins",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Colts",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Nick Foles",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Scott Chandler",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Terrance Williams",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Reggie Wayne",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Jets",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Alex Smith",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Jordan Reed",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Joseph Randle",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Chargers",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Ravens",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Chris Ivory",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Darrius Heyward-Bey",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Garrett Hartley",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Jacquizz Rodgers",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Nate Washington",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Mike James",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-23",
+    "player": "Jay Cutler",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-19",
+    "player": "Kenbrell Thompkins",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-19",
+    "player": "Golden Tate",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-18",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-18",
+    "player": "Rams",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-18",
+    "player": "Bernard Pierce",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-17",
+    "player": "Chris Ogbonnaya",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-17",
+    "player": "Willis McGahee",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-17",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-17",
+    "player": "Garrett Graham",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Mason Crosby",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Ryan Succop",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Bengals",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "BenJarvus Green-Ellis",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Randall Cobb",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Chargers",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Lions",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Colts",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Jarrett Boykin",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Charles Clay",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Scott Chandler",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Kenbrell Thompkins",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Matt Schaub",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Joseph Randle",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Tyler Eifert",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Keenan Allen",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-16",
+    "player": "Miles Austin",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-13",
+    "player": "Nate Washington",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-13",
+    "player": "Rashad Jennings",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-13",
+    "player": "Miles Austin",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-13",
+    "player": "Terrelle Pryor Sr.",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-11",
+    "player": "Tyler Eifert",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-11",
+    "player": "Panthers",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-10",
+    "player": "Stephen Hill",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-10",
+    "player": "Julio Jones",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-10",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-10",
+    "player": "Browns",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Harry Douglas",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Ravens",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Zac Stacy",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Saints",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Ryan Succop",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Caleb Sturgis",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Matt Schaub",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Rams",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Terrelle Pryor Sr.",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Sam Bradford",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Nate Washington",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Rueben Randle",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Andre Ellington",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Mike Williams",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Garrett Graham",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Owen Daniels",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Coby Fleener",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Emmanuel Sanders",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Golden Tate",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Nick Novak",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Nick Foles",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "LeGarrette Blount",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Stephen Hauschka",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Matt Bryant",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Austin Collie",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "Tony Romo",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-09",
+    "player": "E.J. Manuel",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-06",
+    "player": "Nick Novak",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-06",
+    "player": "Tavon Austin",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-04",
+    "player": "LeGarrette Blount",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-04",
+    "player": "Bengals",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-04",
+    "player": "Nate Washington",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-04",
+    "player": "Ahmad Bradshaw",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-03",
+    "player": "Austin Collie",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-03",
+    "player": "Brian Hartline",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-03",
+    "player": "Santonio Holmes",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Percy Harvin",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Kenny Britt",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Donnie Avery",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Rashad Jennings",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Brandon Myers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Sam Bradford",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Andy Dalton",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Colts",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Titans",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Tony Romo",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Kenny Britt",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Sidney Rice",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Danny Woodhead",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "BenJarvus Green-Ellis",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Vikings",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Greg Jennings",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Miles Austin",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Alshon Jeffery",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Fred Davis",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Kenbrell Thompkins",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-10-02",
+    "player": "Mark Ingram II",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-28",
+    "player": "Brian Hartline",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-28",
+    "player": "Jets",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-26",
+    "player": "Donnie Avery",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-26",
+    "player": "Michael Floyd",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Justin Tucker",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Greg Zuerlein",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Denarius Moore",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "James Starks",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Sidney Rice",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Brandon Bolden",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Brandon Bolden",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Montee Ball",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Bills",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Tony Romo",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Greg Jennings",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Giants",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Ahmad Bradshaw",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Vincent Brown",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Santonio Holmes",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Charles Clay",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Heath Miller",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Lance Moore",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Pierre Thomas",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Bryce Brown",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Garrett Hartley",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Eli Manning",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Jordan Cameron",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Leonard Hankerson",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-25",
+    "player": "Cecil Shorts",
+    "from": "FA/Waiver",
+    "to": "Kenny kil"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-24",
+    "player": "Golden Tate",
+    "from": "Kenny kil",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-24",
+    "player": "Malcom Floyd",
+    "from": "Kenny kil",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-22",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-22",
+    "player": "Brian Hartline",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-21",
+    "player": "Bilal Powell",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-21",
+    "player": "Ahmad Bradshaw",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-21",
+    "player": "Le'Veon Bell",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-21",
+    "player": "Jordan Cameron",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-20",
+    "player": "Jets",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-20",
+    "player": "Tyler Eifert",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-19",
+    "player": "Caleb Sturgis",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-19",
+    "player": "Garrett Hartley",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-19",
+    "player": "Garrett Hartley",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-19",
+    "player": "Robbie Gould",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "Willis McGahee",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "Le'Veon Bell",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "Kenbrell Thompkins",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "Philip Rivers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "Tony Romo",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "Steelers",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "Tyler Eifert",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "Cecil Shorts",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "Sidney Rice",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "James Starks",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "Brandon Jacobs",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "Alex Henery",
+    "from": "FA/Waiver",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "Justin Tucker",
+    "from": "Goatse V",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "Knowshon Moreno",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "Kellen Winslow",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-18",
+    "player": "Eddie Royal",
+    "from": "FA/Waiver",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-13",
+    "player": "Michael Floyd",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-13",
+    "player": "Darrius Heyward-Bey",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-12",
+    "player": "Brandon Jacobs",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-12",
+    "player": "Michael Floyd",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-11",
+    "player": "Leonard Hankerson",
+    "from": "FA/Waiver",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-11",
+    "player": "Scott Chandler",
+    "from": "New York Asshole",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-11",
+    "player": "Joique Bell",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-11",
+    "player": "Shane Vereen",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-11",
+    "player": "Kellen Winslow",
+    "from": "FA/Waiver",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-11",
+    "player": "Zach Sudfeld",
+    "from": "She Wants Moreno'l",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-11",
+    "player": "Brian Hartline",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-11",
+    "player": "Buccaneers",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-11",
+    "player": "Fred Jackson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-11",
+    "player": "Isaac Redman",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-11",
+    "player": "Julian Edelman",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-11",
+    "player": "Jacoby Jones",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-11",
+    "player": "Jordan Cameron",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-11",
+    "player": "Kenny Britt",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-05",
+    "player": "Buccaneers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-05",
+    "player": "Chris Ivory",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-05",
+    "player": "Shane Vereen",
+    "from": "FA/Waiver",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-05",
+    "player": "Josh Freeman",
+    "from": "Stat Corrections",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2013-09-04",
+    "player": "Andre Brown",
+    "from": "Donald Drunk",
+    "to": "Dropped"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-11-13",
+    "player": "Knowshon Moreno",
+    "from": "She Wants Moreno'l",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-11-13",
+    "player": "Jordan Reed",
+    "from": "She Wants Moreno'l",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-11-13",
+    "player": "Nick Foles",
+    "from": "She Wants Moreno'l",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-11-13",
+    "player": "A.J. Green",
+    "from": "Donald Drunk",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-11-13",
+    "player": "Matthew Stafford",
+    "from": "Donald Drunk",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-11-10",
+    "player": "T.Y. Hilton",
+    "from": "The Commish",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-11-10",
+    "player": "Chris Johnson",
+    "from": "She Wants Moreno'l",
+    "to": "The Commish"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-11-02",
+    "player": "Maurice Jones-Drew",
+    "from": "Raaaaaaaandy",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-11-02",
+    "player": "Danny Amendola",
+    "from": "Raaaaaaaandy",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-11-02",
+    "player": "Marques Colston",
+    "from": "New York Asshole",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-30",
+    "player": "Heath Miller",
+    "from": "Flint City Tropics",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-30",
+    "player": "Harry Douglas",
+    "from": "The Brown Bears",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-29",
+    "player": "Victor Cruz",
+    "from": "Goatse V",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-29",
+    "player": "Giovani Bernard",
+    "from": "Goatse V",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-29",
+    "player": "Frank Gore",
+    "from": "New York Asshole",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-29",
+    "player": "James Jones",
+    "from": "New York Asshole",
+    "to": "Goatse V"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-26",
+    "player": "Hakeem Nicks",
+    "from": "She Wants Moreno'l",
+    "to": "Stat Corrections"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-26",
+    "player": "C.J. Spiller",
+    "from": "Stat Corrections",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-26",
+    "player": "DeMarco Murray",
+    "from": "The Brown Bears",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-26",
+    "player": "Keenan Allen",
+    "from": "The Brown Bears",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-26",
+    "player": "Arian Foster",
+    "from": "New York Asshole",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-26",
+    "player": "Heath Miller",
+    "from": "The Brown Bears",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-26",
+    "player": "Harry Douglas",
+    "from": "Flint City Tropics",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-18",
+    "player": "Larry Fitzgerald",
+    "from": "The Brown Bears",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-18",
+    "player": "Bilal Powell",
+    "from": "The Brown Bears",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-18",
+    "player": "Denarius Moore",
+    "from": "The Brown Bears",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-18",
+    "player": "Ray Rice",
+    "from": "Flint City Tropics",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-18",
+    "player": "Vernon Davis",
+    "from": "Flint City Tropics",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-10",
+    "player": "Willis McGahee",
+    "from": "She Wants Moreno'l",
+    "to": "New York Asshole"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-10",
+    "player": "Greg Jennings",
+    "from": "New York Asshole",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-06",
+    "player": "Rashad Jennings",
+    "from": "The Brown Bears",
+    "to": "Donald Drunk"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-06",
+    "player": "Mike Williams",
+    "from": "Donald Drunk",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-03",
+    "player": "Antonio Gates",
+    "from": "She Wants Moreno'l",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-03",
+    "player": "Bernard Pierce",
+    "from": "She Wants Moreno'l",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-10-03",
+    "player": "Stevan Ridley",
+    "from": "Flint City Tropics",
+    "to": "She Wants Moreno'l"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-09-20",
+    "player": "Mike Wallace",
+    "from": "Flint City Tropics",
+    "to": "Kenny kil"
+  },
+  {
+    "type": "Trade",
+    "date": "2013-09-20",
+    "player": "Ray Rice",
+    "from": "Kenny kil",
+    "to": "Flint City Tropics"
+  }
+]

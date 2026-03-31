@@ -1,0 +1,1379 @@
+[
+  {
+    "season": 2019,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Jameis Winston",
+    "position": "QB",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Michael Thomas",
+    "position": "WR",
+    "nfl_team": "NO",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Keenan Allen",
+    "position": "WR",
+    "nfl_team": "LAC",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Melvin Gordon III",
+    "position": "RB",
+    "nfl_team": "LAC",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Miles Sanders",
+    "position": "RB",
+    "nfl_team": "PHI",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Darren Waller",
+    "position": "TE",
+    "nfl_team": "OAK",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "DeVante Parker",
+    "position": "WR",
+    "nfl_team": "MIA",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Derrick Henry",
+    "position": "RB",
+    "nfl_team": "TEN",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Breshad Perriman",
+    "position": "WR",
+    "nfl_team": "TB",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "James White",
+    "position": "RB",
+    "nfl_team": "NE",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Ameer Abdullah",
+    "position": "RB",
+    "nfl_team": "MIN",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Dion Lewis",
+    "position": "RB",
+    "nfl_team": "TEN",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Wil Lutz",
+    "position": "K",
+    "nfl_team": "NO",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Ravens",
+    "position": "DEF",
+    "nfl_team": "Bal",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Colts",
+    "position": "DEF",
+    "nfl_team": "Ind",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Mike Evans",
+    "position": "WR",
+    "nfl_team": "TB",
+    "status": "Q"
+  },
+  {
+    "season": 2019,
+    "team": "DarnoldMonos",
+    "owner": "Paul",
+    "player": "Ryan Tannehill",
+    "position": "QB",
+    "nfl_team": "TEN",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "DarnoldMonos",
+    "owner": "Paul",
+    "player": "Allen Robinson",
+    "position": "WR",
+    "nfl_team": "CHI",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "DarnoldMonos",
+    "owner": "Paul",
+    "player": "Darius Slayton",
+    "position": "WR",
+    "nfl_team": "NYG",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "DarnoldMonos",
+    "owner": "Paul",
+    "player": "Christian McCaffrey",
+    "position": "RB",
+    "nfl_team": "CAR",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "DarnoldMonos",
+    "owner": "Paul",
+    "player": "Joe Mixon",
+    "position": "RB",
+    "nfl_team": "CIN",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "DarnoldMonos",
+    "owner": "Paul",
+    "player": "O.J. Howard",
+    "position": "TE",
+    "nfl_team": "TB",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "DarnoldMonos",
+    "owner": "Paul",
+    "player": "Raheem Mostert",
+    "position": "RB",
+    "nfl_team": "SF",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "DarnoldMonos",
+    "owner": "Paul",
+    "player": "Adrian Peterson",
+    "position": "RB",
+    "nfl_team": "WAS",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "DarnoldMonos",
+    "owner": "Paul",
+    "player": "Dalvin Cook",
+    "position": "RB",
+    "nfl_team": "MIN",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "DarnoldMonos",
+    "owner": "Paul",
+    "player": "Curtis Samuel",
+    "position": "WR",
+    "nfl_team": "CAR",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "DarnoldMonos",
+    "owner": "Paul",
+    "player": "DeAndre Washington",
+    "position": "RB",
+    "nfl_team": "OAK",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "DarnoldMonos",
+    "owner": "Paul",
+    "player": "Chris Conley",
+    "position": "WR",
+    "nfl_team": "JAX",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "DarnoldMonos",
+    "owner": "Paul",
+    "player": "Alexander Mattison",
+    "position": "RB",
+    "nfl_team": "MIN",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "DarnoldMonos",
+    "owner": "Paul",
+    "player": "Jason Myers",
+    "position": "K",
+    "nfl_team": "SEA",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "DarnoldMonos",
+    "owner": "Paul",
+    "player": "Giants",
+    "position": "DEF",
+    "nfl_team": "NYG",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Philly Philly",
+    "owner": "Ramsey",
+    "player": "Deshaun Watson",
+    "position": "QB",
+    "nfl_team": "HOU",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Philly Philly",
+    "owner": "Ramsey",
+    "player": "Stefon Diggs",
+    "position": "WR",
+    "nfl_team": "MIN",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Philly Philly",
+    "owner": "Ramsey",
+    "player": "A.J. Brown",
+    "position": "WR",
+    "nfl_team": "TEN",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Philly Philly",
+    "owner": "Ramsey",
+    "player": "Todd Gurley",
+    "position": "RB",
+    "nfl_team": "LA",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Philly Philly",
+    "owner": "Ramsey",
+    "player": "Alvin Kamara",
+    "position": "RB",
+    "nfl_team": "NO",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Philly Philly",
+    "owner": "Ramsey",
+    "player": "Jack Doyle",
+    "position": "TE",
+    "nfl_team": "IND",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Philly Philly",
+    "owner": "Ramsey",
+    "player": "Austin Ekeler",
+    "position": "RB",
+    "nfl_team": "LAC",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Philly Philly",
+    "owner": "Ramsey",
+    "player": "Robert Woods",
+    "position": "WR",
+    "nfl_team": "LA",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Philly Philly",
+    "owner": "Ramsey",
+    "player": "Deebo Samuel",
+    "position": "WR",
+    "nfl_team": "SF",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Philly Philly",
+    "owner": "Ramsey",
+    "player": "Christian Kirk",
+    "position": "WR",
+    "nfl_team": "ARI",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Philly Philly",
+    "owner": "Ramsey",
+    "player": "Mike Williams",
+    "position": "WR",
+    "nfl_team": "LAC",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Philly Philly",
+    "owner": "Ramsey",
+    "player": "Philip Rivers",
+    "position": "QB",
+    "nfl_team": "LAC",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Philly Philly",
+    "owner": "Ramsey",
+    "player": "Jake Elliott",
+    "position": "K",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Philly Philly",
+    "owner": "Ramsey",
+    "player": "Falcons",
+    "position": "DEF",
+    "nfl_team": "Atl",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Philly Philly",
+    "owner": "Ramsey",
+    "player": "Bills",
+    "position": "DEF",
+    "nfl_team": "Buf",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Matt Ryan",
+    "position": "QB",
+    "nfl_team": "ATL",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Davante Adams",
+    "position": "WR",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "DJ Moore",
+    "position": "WR",
+    "nfl_team": "CAR",
+    "status": "Q"
+  },
+  {
+    "season": 2019,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Mark Ingram II",
+    "position": "RB",
+    "nfl_team": "BAL",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Leonard Fournette",
+    "position": "RB",
+    "nfl_team": "JAX",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Austin Hooper",
+    "position": "TE",
+    "nfl_team": "ATL",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Tyreek Hill",
+    "position": "WR",
+    "nfl_team": "KC",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Kyler Murray",
+    "position": "QB",
+    "nfl_team": "ARI",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Jarvis Landry",
+    "position": "WR",
+    "nfl_team": "CLE",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Dallas Goedert",
+    "position": "TE",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Phillip Lindsay",
+    "position": "RB",
+    "nfl_team": "DEN",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Sterling Shepard",
+    "position": "WR",
+    "nfl_team": "NYG",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Ka'imi Fairbairn",
+    "position": "K",
+    "nfl_team": "HOU",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Broncos",
+    "position": "DEF",
+    "nfl_team": "Den",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Seahawks",
+    "position": "DEF",
+    "nfl_team": "Sea",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Kirk Cousins",
+    "position": "QB",
+    "nfl_team": "MIN",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Chris Godwin Jr.",
+    "position": "WR",
+    "nfl_team": "TB",
+    "status": "Q"
+  },
+  {
+    "season": 2019,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Kenny Golladay",
+    "position": "WR",
+    "nfl_team": "DET",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Ezekiel Elliott",
+    "position": "RB",
+    "nfl_team": "DAL",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Aaron Jones Sr.",
+    "position": "RB",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Zach Ertz",
+    "position": "TE",
+    "nfl_team": "PHI",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "James Conner",
+    "position": "RB",
+    "nfl_team": "PIT",
+    "status": "Q"
+  },
+  {
+    "season": 2019,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Mark Andrews",
+    "position": "TE",
+    "nfl_team": "BAL",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Alshon Jeffery",
+    "position": "WR",
+    "nfl_team": "PHI",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Kareem Hunt",
+    "position": "RB",
+    "nfl_team": "CLE",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Ryan Fitzpatrick",
+    "position": "QB",
+    "nfl_team": "MIA",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Terry McLaurin",
+    "position": "WR",
+    "nfl_team": "WAS",
+    "status": "Q"
+  },
+  {
+    "season": 2019,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Hollywood Brown",
+    "position": "WR",
+    "nfl_team": "BAL",
+    "status": "Q"
+  },
+  {
+    "season": 2019,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Harrison Butker",
+    "position": "K",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "49ers",
+    "position": "DEF",
+    "nfl_team": "SF",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Derrius Guice",
+    "position": "RB",
+    "nfl_team": "WAS",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Lamar Jackson",
+    "position": "QB",
+    "nfl_team": "BAL",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Courtland Sutton",
+    "position": "WR",
+    "nfl_team": "DEN",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Julio Jones",
+    "position": "WR",
+    "nfl_team": "ATL",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Devin Singletary",
+    "position": "RB",
+    "nfl_team": "BUF",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "David Johnson",
+    "position": "RB",
+    "nfl_team": "ARI",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Jared Cook",
+    "position": "TE",
+    "nfl_team": "NO",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Marlon Mack",
+    "position": "RB",
+    "nfl_team": "IND",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Josh Jacobs",
+    "position": "RB",
+    "nfl_team": "OAK",
+    "status": "Q"
+  },
+  {
+    "season": 2019,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Carson Wentz",
+    "position": "QB",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "DK Metcalf",
+    "position": "WR",
+    "nfl_team": "SEA",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Tyler Boyd",
+    "position": "WR",
+    "nfl_team": "CIN",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Matt Breida",
+    "position": "RB",
+    "nfl_team": "SF",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Greg Zuerlein",
+    "position": "K",
+    "nfl_team": "LA",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Eagles",
+    "position": "DEF",
+    "nfl_team": "Phi",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Browns",
+    "position": "DEF",
+    "nfl_team": "Cle",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "3li",
+    "owner": "patrick",
+    "player": "Russell Wilson",
+    "position": "QB",
+    "nfl_team": "SEA",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "3li",
+    "owner": "patrick",
+    "player": "Golden Tate",
+    "position": "WR",
+    "nfl_team": "NYG",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "3li",
+    "owner": "patrick",
+    "player": "Adam Thielen",
+    "position": "WR",
+    "nfl_team": "MIN",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "3li",
+    "owner": "patrick",
+    "player": "Saquon Barkley",
+    "position": "RB",
+    "nfl_team": "NYG",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "3li",
+    "owner": "patrick",
+    "player": "Kenyan Drake",
+    "position": "RB",
+    "nfl_team": "ARI",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "3li",
+    "owner": "patrick",
+    "player": "George Kittle",
+    "position": "TE",
+    "nfl_team": "SF",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "3li",
+    "owner": "patrick",
+    "player": "Sony Michel",
+    "position": "RB",
+    "nfl_team": "NE",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "3li",
+    "owner": "patrick",
+    "player": "Drew Brees",
+    "position": "QB",
+    "nfl_team": "NO",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "3li",
+    "owner": "patrick",
+    "player": "Jamison Crowder",
+    "position": "WR",
+    "nfl_team": "NYJ",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "3li",
+    "owner": "patrick",
+    "player": "Tevin Coleman",
+    "position": "RB",
+    "nfl_team": "SF",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "3li",
+    "owner": "patrick",
+    "player": "Tyrell Williams",
+    "position": "WR",
+    "nfl_team": "OAK",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "3li",
+    "owner": "patrick",
+    "player": "Carlos Hyde",
+    "position": "RB",
+    "nfl_team": "HOU",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "3li",
+    "owner": "patrick",
+    "player": "Gus Edwards",
+    "position": "RB",
+    "nfl_team": "BAL",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "3li",
+    "owner": "patrick",
+    "player": "Matt Gay",
+    "position": "K",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "3li",
+    "owner": "patrick",
+    "player": "Steelers",
+    "position": "DEF",
+    "nfl_team": "Pit",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Aaron Rodgers",
+    "position": "QB",
+    "nfl_team": "GB",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "DeAndre Hopkins",
+    "position": "WR",
+    "nfl_team": "HOU",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Tyler Lockett",
+    "position": "WR",
+    "nfl_team": "SEA",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Chris Carson",
+    "position": "RB",
+    "nfl_team": "SEA",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Devonta Freeman",
+    "position": "RB",
+    "nfl_team": "ATL",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Hunter Henry",
+    "position": "TE",
+    "nfl_team": "LAC",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Michael Gallup",
+    "position": "WR",
+    "nfl_team": "DAL",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Jamaal Williams",
+    "position": "RB",
+    "nfl_team": "GB",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Royce Freeman",
+    "position": "RB",
+    "nfl_team": "DEN",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "JuJu Smith-Schuster",
+    "position": "WR",
+    "nfl_team": "PIT",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Sammy Watkins",
+    "position": "WR",
+    "nfl_team": "KC",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Matt Prater",
+    "position": "K",
+    "nfl_team": "DET",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Packers",
+    "position": "DEF",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Jets",
+    "position": "DEF",
+    "nfl_team": "NYJ",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Texans",
+    "position": "DEF",
+    "nfl_team": "Hou",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Goatse XI",
+    "owner": "Jake",
+    "player": "Patrick Mahomes",
+    "position": "QB",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Goatse XI",
+    "owner": "Jake",
+    "player": "Cooper Kupp",
+    "position": "WR",
+    "nfl_team": "LA",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Goatse XI",
+    "owner": "Jake",
+    "player": "DJ Chark",
+    "position": "WR",
+    "nfl_team": "JAX",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Goatse XI",
+    "owner": "Jake",
+    "player": "Le'Veon Bell",
+    "position": "RB",
+    "nfl_team": "NYJ",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Goatse XI",
+    "owner": "Jake",
+    "player": "Latavius Murray",
+    "position": "RB",
+    "nfl_team": "NO",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Goatse XI",
+    "owner": "Jake",
+    "player": "Travis Kelce",
+    "position": "TE",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Goatse XI",
+    "owner": "Jake",
+    "player": "Julian Edelman",
+    "position": "WR",
+    "nfl_team": "NE",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Goatse XI",
+    "owner": "Jake",
+    "player": "Darren Fells",
+    "position": "TE",
+    "nfl_team": "HOU",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Goatse XI",
+    "owner": "Jake",
+    "player": "Baker Mayfield",
+    "position": "QB",
+    "nfl_team": "CLE",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Goatse XI",
+    "owner": "Jake",
+    "player": "Frank Gore",
+    "position": "RB",
+    "nfl_team": "BUF",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Goatse XI",
+    "owner": "Jake",
+    "player": "John Brown",
+    "position": "WR",
+    "nfl_team": "BUF",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Goatse XI",
+    "owner": "Jake",
+    "player": "Calvin Ridley",
+    "position": "WR",
+    "nfl_team": "ATL",
+    "status": "Q"
+  },
+  {
+    "season": 2019,
+    "team": "Goatse XI",
+    "owner": "Jake",
+    "player": "LeSean McCoy",
+    "position": "RB",
+    "nfl_team": "KC",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Goatse XI",
+    "owner": "Jake",
+    "player": "Justin Tucker",
+    "position": "K",
+    "nfl_team": "BAL",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "Goatse XI",
+    "owner": "Jake",
+    "player": "Patriots",
+    "position": "DEF",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "Goatse XI",
+    "owner": "Jake",
+    "player": "Kerryon Johnson",
+    "position": "RB",
+    "nfl_team": "DET",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Dak Prescott",
+    "position": "QB",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Amari Cooper",
+    "position": "WR",
+    "nfl_team": "DAL",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Emmanuel Sanders",
+    "position": "WR",
+    "nfl_team": "SF",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Nick Chubb",
+    "position": "RB",
+    "nfl_team": "CLE",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Mike Boone",
+    "position": "RB",
+    "nfl_team": "MIN",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Jacob Hollister",
+    "position": "TE",
+    "nfl_team": "SEA",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Anthony Miller",
+    "position": "WR",
+    "nfl_team": "CHI",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Odell Beckham Jr.",
+    "position": "WR",
+    "nfl_team": "CLE",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "David Montgomery",
+    "position": "RB",
+    "nfl_team": "CHI",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Robbie Chosen",
+    "position": "WR",
+    "nfl_team": "NYJ",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Damien Williams",
+    "position": "RB",
+    "nfl_team": "KC",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Dustin Hopkins",
+    "position": "K",
+    "nfl_team": "WAS",
+    "status": "NA"
+  },
+  {
+    "season": 2019,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Cowboys",
+    "position": "DEF",
+    "nfl_team": "Dal",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Chargers",
+    "position": "DEF",
+    "nfl_team": "LAC",
+    "status": ""
+  },
+  {
+    "season": 2019,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Saints",
+    "position": "DEF",
+    "nfl_team": "NO",
+    "status": ""
+  }
+]

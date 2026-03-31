@@ -1,0 +1,102 @@
+[
+  {
+    "team": "The juice is loose",
+    "owner": "patrick",
+    "wins": "7",
+    "losses": "6",
+    "ties": 0,
+    "points_for": "1326.53",
+    "points_against": 1269.3899999999999,
+    "rank": 1
+  },
+  {
+    "team": "The Commish",
+    "owner": "Andrew",
+    "wins": "8",
+    "losses": "5",
+    "ties": 0,
+    "points_for": "1289.14",
+    "points_against": 1277.5100000000002,
+    "rank": 2
+  },
+  {
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "wins": "8",
+    "losses": "5",
+    "ties": 0,
+    "points_for": "1325.20",
+    "points_against": 1237.6399999999999,
+    "rank": 3
+  },
+  {
+    "team": "Los Angeles Knights",
+    "owner": "Paul",
+    "wins": "7",
+    "losses": "6",
+    "ties": 0,
+    "points_for": "1230.20",
+    "points_against": 1238.16,
+    "rank": 4
+  },
+  {
+    "team": "The Brown Bears",
+    "owner": "John",
+    "wins": "8",
+    "losses": "5",
+    "ties": 0,
+    "points_for": "1266.99",
+    "points_against": 1173.8700000000001,
+    "rank": 5
+  },
+  {
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "wins": "8",
+    "losses": "5",
+    "ties": 0,
+    "points_for": "1193.58",
+    "points_against": 1143.62,
+    "rank": 6
+  },
+  {
+    "team": "Goatse IX",
+    "owner": "Jake",
+    "wins": "3",
+    "losses": "10",
+    "ties": 0,
+    "points_for": "1116.40",
+    "points_against": 1387.4499999999998,
+    "rank": 7
+  },
+  {
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "wins": "6",
+    "losses": "7",
+    "ties": 0,
+    "points_for": "1184.01",
+    "points_against": 1178.6,
+    "rank": 8
+  },
+  {
+    "team": "Silver Dodge Ram",
+    "owner": "Ramsey",
+    "wins": "4",
+    "losses": "9",
+    "ties": 0,
+    "points_for": "1170.89",
+    "points_against": 1247.45,
+    "rank": 9
+  },
+  {
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "wins": "6",
+    "losses": "7",
+    "ties": 0,
+    "points_for": "1233.11",
+    "points_against": 1182.36,
+    "rank": 10
+  }
+]

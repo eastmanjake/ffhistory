@@ -1,0 +1,1352 @@
+[
+  {
+    "season": 2012,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Peyton Manning",
+    "position": "QB",
+    "nfl_team": "DEN",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Dez Bryant",
+    "position": "WR",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Victor Cruz",
+    "position": "WR",
+    "nfl_team": "NYG",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Stevan Ridley",
+    "position": "RB",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Marshawn Lynch",
+    "position": "RB",
+    "nfl_team": "SEA",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Tony Gonzalez",
+    "position": "TE",
+    "nfl_team": "ATL",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Chris Johnson",
+    "position": "RB",
+    "nfl_team": "TEN",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Jordy Nelson",
+    "position": "WR",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Felix Jones",
+    "position": "RB",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Malcom Floyd",
+    "position": "WR",
+    "nfl_team": "SD",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Michael Crabtree",
+    "position": "WR",
+    "nfl_team": "SF",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Michael Bush",
+    "position": "RB",
+    "nfl_team": "CHI",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Matt Bryant",
+    "position": "K",
+    "nfl_team": "ATL",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Seahawks",
+    "position": "DEF",
+    "nfl_team": "Sea",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Bengals",
+    "position": "DEF",
+    "nfl_team": "Cin",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Aaron Rodgers",
+    "position": "QB",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Andre Johnson",
+    "position": "WR",
+    "nfl_team": "HST",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Greg Jennings",
+    "position": "WR",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Doug Martin",
+    "position": "RB",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Adrian Peterson",
+    "position": "RB",
+    "nfl_team": "MIN",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Heath Miller",
+    "position": "TE",
+    "nfl_team": "PIT",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Mikel Leshoure",
+    "position": "RB",
+    "nfl_team": "DET",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Danny Amendola",
+    "position": "WR",
+    "nfl_team": "SL",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Brandon LaFell",
+    "position": "WR",
+    "nfl_team": "CAR",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Montell Owens",
+    "position": "RB",
+    "nfl_team": "JAX",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Ben Roethlisberger",
+    "position": "QB",
+    "nfl_team": "PIT",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Denarius Moore",
+    "position": "WR",
+    "nfl_team": "OAK",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Bilal Powell",
+    "position": "RB",
+    "nfl_team": "NYJ",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Lawrence Tynes",
+    "position": "K",
+    "nfl_team": "NYG",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Bears",
+    "position": "DEF",
+    "nfl_team": "Chi",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Goatse",
+    "owner": "Jake",
+    "player": "Robert Griffin III",
+    "position": "QB",
+    "nfl_team": "WAS",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Goatse",
+    "owner": "Jake",
+    "player": "Demaryius Thomas",
+    "position": "WR",
+    "nfl_team": "DEN",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Goatse",
+    "owner": "Jake",
+    "player": "Wes Welker",
+    "position": "WR",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Goatse",
+    "owner": "Jake",
+    "player": "Alfred Morris",
+    "position": "RB",
+    "nfl_team": "WAS",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Goatse",
+    "owner": "Jake",
+    "player": "Darren McFadden",
+    "position": "RB",
+    "nfl_team": "OAK",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Goatse",
+    "owner": "Jake",
+    "player": "Dennis Pitta",
+    "position": "TE",
+    "nfl_team": "BLT",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Goatse",
+    "owner": "Jake",
+    "player": "Steve Smith",
+    "position": "WR",
+    "nfl_team": "CAR",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Goatse",
+    "owner": "Jake",
+    "player": "Martellus Bennett",
+    "position": "TE",
+    "nfl_team": "NYG",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Goatse",
+    "owner": "Jake",
+    "player": "Matthew Stafford",
+    "position": "QB",
+    "nfl_team": "DET",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Goatse",
+    "owner": "Jake",
+    "player": "BenJarvus Green-Ellis",
+    "position": "RB",
+    "nfl_team": "CIN",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Goatse",
+    "owner": "Jake",
+    "player": "Josh Gordon",
+    "position": "WR",
+    "nfl_team": "CLV",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Goatse",
+    "owner": "Jake",
+    "player": "Randall Cobb",
+    "position": "WR",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Goatse",
+    "owner": "Jake",
+    "player": "Miles Austin",
+    "position": "WR",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Goatse",
+    "owner": "Jake",
+    "player": "Justin Tucker",
+    "position": "K",
+    "nfl_team": "BLT",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Goatse",
+    "owner": "Jake",
+    "player": "Chargers",
+    "position": "DEF",
+    "nfl_team": "LAC",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Kenny kil",
+    "owner": "Ken",
+    "player": "Tony Romo",
+    "position": "QB",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Kenny kil",
+    "owner": "Ken",
+    "player": "Brandon Lloyd",
+    "position": "WR",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Kenny kil",
+    "owner": "Ken",
+    "player": "T.Y. Hilton",
+    "position": "WR",
+    "nfl_team": "IND",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Kenny kil",
+    "owner": "Ken",
+    "player": "Ray Rice",
+    "position": "RB",
+    "nfl_team": "BLT",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Kenny kil",
+    "owner": "Ken",
+    "player": "Jamaal Charles",
+    "position": "RB",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Kenny kil",
+    "owner": "Ken",
+    "player": "Jimmy Graham",
+    "position": "TE",
+    "nfl_team": "NO",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Kenny kil",
+    "owner": "Ken",
+    "player": "Trenton Richardson",
+    "position": "RB",
+    "nfl_team": "CLV",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Kenny kil",
+    "owner": "Ken",
+    "player": "James Jones",
+    "position": "WR",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Kenny kil",
+    "owner": "Ken",
+    "player": "Matt Schaub",
+    "position": "QB",
+    "nfl_team": "HST",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Kenny kil",
+    "owner": "Ken",
+    "player": "Jonathan Stewart",
+    "position": "RB",
+    "nfl_team": "CAR",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Kenny kil",
+    "owner": "Ken",
+    "player": "Jermaine Gresham",
+    "position": "TE",
+    "nfl_team": "CIN",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Kenny kil",
+    "owner": "Ken",
+    "player": "Sebastian Janikowski",
+    "position": "K",
+    "nfl_team": "OAK",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Kenny kil",
+    "owner": "Ken",
+    "player": "49ers",
+    "position": "DEF",
+    "nfl_team": "SF",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Kenny kil",
+    "owner": "Ken",
+    "player": "Jets",
+    "position": "DEF",
+    "nfl_team": "NYJ",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Kenny kil",
+    "owner": "Ken",
+    "player": "Ravens",
+    "position": "DEF",
+    "nfl_team": "Bal",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Joe Stop Haden on Me",
+    "owner": "Sean",
+    "player": "Drew Brees",
+    "position": "QB",
+    "nfl_team": "NO",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Joe Stop Haden on Me",
+    "owner": "Sean",
+    "player": "Calvin Johnson",
+    "position": "WR",
+    "nfl_team": "DET",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Joe Stop Haden on Me",
+    "owner": "Sean",
+    "player": "Pierre Garcon",
+    "position": "WR",
+    "nfl_team": "WAS",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Joe Stop Haden on Me",
+    "owner": "Sean",
+    "player": "Reggie Bush",
+    "position": "RB",
+    "nfl_team": "MIA",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Joe Stop Haden on Me",
+    "owner": "Sean",
+    "player": "DeMarco Murray",
+    "position": "RB",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Joe Stop Haden on Me",
+    "owner": "Sean",
+    "player": "Jason Witten",
+    "position": "TE",
+    "nfl_team": "DAL",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Joe Stop Haden on Me",
+    "owner": "Sean",
+    "player": "Roddy White",
+    "position": "WR",
+    "nfl_team": "ATL",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Joe Stop Haden on Me",
+    "owner": "Sean",
+    "player": "Reggie Wayne",
+    "position": "WR",
+    "nfl_team": "IND",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Joe Stop Haden on Me",
+    "owner": "Sean",
+    "player": "Marcel Reece",
+    "position": "RB",
+    "nfl_team": "OAK",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Joe Stop Haden on Me",
+    "owner": "Sean",
+    "player": "Maurice Jones-Drew",
+    "position": "RB",
+    "nfl_team": "JAX",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Joe Stop Haden on Me",
+    "owner": "Sean",
+    "player": "Danario Alexander",
+    "position": "WR",
+    "nfl_team": "SD",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Joe Stop Haden on Me",
+    "owner": "Sean",
+    "player": "Colin Kaepernick",
+    "position": "QB",
+    "nfl_team": "SF",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Joe Stop Haden on Me",
+    "owner": "Sean",
+    "player": "Cecil Shorts",
+    "position": "WR",
+    "nfl_team": "JAX",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Joe Stop Haden on Me",
+    "owner": "Sean",
+    "player": "Jason Hanson",
+    "position": "K",
+    "nfl_team": "DET",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Joe Stop Haden on Me",
+    "owner": "Sean",
+    "player": "Texans",
+    "position": "DEF",
+    "nfl_team": "Hou",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "natalie",
+    "owner": "Jake",
+    "player": "Matt Ryan",
+    "position": "QB",
+    "nfl_team": "ATL",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "natalie",
+    "owner": "Jake",
+    "player": "DeSean Jackson",
+    "position": "WR",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "natalie",
+    "owner": "Jake",
+    "player": "Larry Fitzgerald",
+    "position": "WR",
+    "nfl_team": "ARZ",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "natalie",
+    "owner": "Jake",
+    "player": "Arian Foster",
+    "position": "RB",
+    "nfl_team": "HST",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "natalie",
+    "owner": "Jake",
+    "player": "Shonn Greene",
+    "position": "RB",
+    "nfl_team": "NYJ",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "natalie",
+    "owner": "Jake",
+    "player": "Greg Olsen",
+    "position": "TE",
+    "nfl_team": "CAR",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "natalie",
+    "owner": "Jake",
+    "player": "Mike Williams",
+    "position": "WR",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "natalie",
+    "owner": "Jake",
+    "player": "Rob Gronkowski",
+    "position": "TE",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "natalie",
+    "owner": "Jake",
+    "player": "DeAngelo Williams",
+    "position": "RB",
+    "nfl_team": "CAR",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "natalie",
+    "owner": "Jake",
+    "player": "Jacquizz Rodgers",
+    "position": "RB",
+    "nfl_team": "ATL",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "natalie",
+    "owner": "Jake",
+    "player": "Danny Woodhead",
+    "position": "RB",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "natalie",
+    "owner": "Jake",
+    "player": "Michael Vick",
+    "position": "QB",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "natalie",
+    "owner": "Jake",
+    "player": "Ryan Succop",
+    "position": "K",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "natalie",
+    "owner": "Jake",
+    "player": "Mason Crosby",
+    "position": "K",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "natalie",
+    "owner": "Jake",
+    "player": "Patriots",
+    "position": "DEF",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Stat Corrections",
+    "owner": "Brett",
+    "player": "Cam Newton",
+    "position": "QB",
+    "nfl_team": "CAR",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Stat Corrections",
+    "owner": "Brett",
+    "player": "Vincent Jackson",
+    "position": "WR",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Stat Corrections",
+    "owner": "Brett",
+    "player": "Hakeem Nicks",
+    "position": "WR",
+    "nfl_team": "NYG",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Stat Corrections",
+    "owner": "Brett",
+    "player": "C.J. Spiller",
+    "position": "RB",
+    "nfl_team": "BUF",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Stat Corrections",
+    "owner": "Brett",
+    "player": "Darren Sproles",
+    "position": "RB",
+    "nfl_team": "NO",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Stat Corrections",
+    "owner": "Brett",
+    "player": "Antonio Gates",
+    "position": "TE",
+    "nfl_team": "SD",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Stat Corrections",
+    "owner": "Brett",
+    "player": "Antonio Brown",
+    "position": "WR",
+    "nfl_team": "PIT",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Stat Corrections",
+    "owner": "Brett",
+    "player": "Ahmad Bradshaw",
+    "position": "RB",
+    "nfl_team": "NYG",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Stat Corrections",
+    "owner": "Brett",
+    "player": "Rashard Mendenhall",
+    "position": "RB",
+    "nfl_team": "PIT",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Stat Corrections",
+    "owner": "Brett",
+    "player": "Anquan Boldin",
+    "position": "WR",
+    "nfl_team": "BLT",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Stat Corrections",
+    "owner": "Brett",
+    "player": "Joe Flacco",
+    "position": "QB",
+    "nfl_team": "BLT",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Stat Corrections",
+    "owner": "Brett",
+    "player": "Sidney Rice",
+    "position": "WR",
+    "nfl_team": "SEA",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Stat Corrections",
+    "owner": "Brett",
+    "player": "Kenny Britt",
+    "position": "WR",
+    "nfl_team": "TEN",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Stat Corrections",
+    "owner": "Brett",
+    "player": "Matt Prater",
+    "position": "K",
+    "nfl_team": "DEN",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Stat Corrections",
+    "owner": "Brett",
+    "player": "Steelers",
+    "position": "DEF",
+    "nfl_team": "Pit",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Josh Freeman",
+    "position": "QB",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Brandon Marshall",
+    "position": "WR",
+    "nfl_team": "CHI",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Julio Jones",
+    "position": "WR",
+    "nfl_team": "ATL",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Frank Gore",
+    "position": "RB",
+    "nfl_team": "SF",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Matt Forte",
+    "position": "RB",
+    "nfl_team": "CHI",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Aaron Hernandez",
+    "position": "TE",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Knowshon Moreno",
+    "position": "RB",
+    "nfl_team": "DEN",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Justin Blackmon",
+    "position": "WR",
+    "nfl_team": "JAX",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Carson Palmer",
+    "position": "QB",
+    "nfl_team": "OAK",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Torrey Smith",
+    "position": "WR",
+    "nfl_team": "BLT",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Percy Harvin",
+    "position": "WR",
+    "nfl_team": "MIN",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Brandon Myers",
+    "position": "TE",
+    "nfl_team": "OAK",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Kyle Rudolph",
+    "position": "TE",
+    "nfl_team": "MIN",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Phil Dawson",
+    "position": "K",
+    "nfl_team": "CLV",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Cardinals",
+    "position": "DEF",
+    "nfl_team": "Ari",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Donald Drunk",
+    "owner": "Drew",
+    "player": "Tom Brady",
+    "position": "QB",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Donald Drunk",
+    "owner": "Drew",
+    "player": "A.J. Green",
+    "position": "WR",
+    "nfl_team": "CIN",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Donald Drunk",
+    "owner": "Drew",
+    "player": "Steve Johnson",
+    "position": "WR",
+    "nfl_team": "BUF",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Donald Drunk",
+    "owner": "Drew",
+    "player": "Pierre Thomas",
+    "position": "RB",
+    "nfl_team": "NO",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Donald Drunk",
+    "owner": "Drew",
+    "player": "Michael Turner",
+    "position": "RB",
+    "nfl_team": "ATL",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Donald Drunk",
+    "owner": "Drew",
+    "player": "Brandon Pettigrew",
+    "position": "TE",
+    "nfl_team": "DET",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Donald Drunk",
+    "owner": "Drew",
+    "player": "Steven Jackson",
+    "position": "RB",
+    "nfl_team": "SL",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Donald Drunk",
+    "owner": "Drew",
+    "player": "Lance Moore",
+    "position": "WR",
+    "nfl_team": "NO",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Donald Drunk",
+    "owner": "Drew",
+    "player": "Andy Dalton",
+    "position": "QB",
+    "nfl_team": "CIN",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Donald Drunk",
+    "owner": "Drew",
+    "player": "Jeremy Maclin",
+    "position": "WR",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Donald Drunk",
+    "owner": "Drew",
+    "player": "Donald Brown",
+    "position": "RB",
+    "nfl_team": "IND",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Donald Drunk",
+    "owner": "Drew",
+    "player": "Stephen Gostkowski",
+    "position": "K",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Donald Drunk",
+    "owner": "Drew",
+    "player": "Shayne Graham",
+    "position": "K",
+    "nfl_team": "HST",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Donald Drunk",
+    "owner": "Drew",
+    "player": "Packers",
+    "position": "DEF",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Donald Drunk",
+    "owner": "Drew",
+    "player": "Falcons",
+    "position": "DEF",
+    "nfl_team": "Atl",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Eli Manning",
+    "position": "QB",
+    "nfl_team": "NYG",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Marques Colston",
+    "position": "WR",
+    "nfl_team": "NO",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Eric Decker",
+    "position": "WR",
+    "nfl_team": "DEN",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Ryan Mathews",
+    "position": "RB",
+    "nfl_team": "SD",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Bryce Brown",
+    "position": "RB",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Owen Daniels",
+    "position": "TE",
+    "nfl_team": "HST",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Mike Wallace",
+    "position": "WR",
+    "nfl_team": "PIT",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Fred Jackson",
+    "position": "RB",
+    "nfl_team": "BUF",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Andrew Luck",
+    "position": "QB",
+    "nfl_team": "IND",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "LeSean McCoy",
+    "position": "RB",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Vernon Davis",
+    "position": "TE",
+    "nfl_team": "SF",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Nate Washington",
+    "position": "WR",
+    "nfl_team": "TEN",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Robbie Gould",
+    "position": "K",
+    "nfl_team": "CHI",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Broncos",
+    "position": "DEF",
+    "nfl_team": "Den",
+    "status": ""
+  },
+  {
+    "season": 2012,
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "player": "Colts",
+    "position": "DEF",
+    "nfl_team": "Ind",
+    "status": ""
+  }
+]

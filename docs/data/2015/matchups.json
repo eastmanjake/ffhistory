@@ -1,0 +1,686 @@
+[
+  {
+    "week": 1,
+    "team1": "The Commish",
+    "score1": "92.15",
+    "team2": "Flint City Tropics",
+    "score2": "103.22",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "Goatse 7",
+    "score1": "111.94",
+    "team2": "Ben's Nice Team",
+    "score2": "98.69",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "The Brown Bears",
+    "score1": "98.60",
+    "team2": "Jive Turkey",
+    "score2": "118.19",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "Washington Sentinels",
+    "score1": "163.87",
+    "team2": "Raaaaaaaandy",
+    "score2": "112.22",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "SHARKEISHA NO",
+    "score1": "111.59",
+    "team2": "Bad Rivers Tribe",
+    "score2": "95.36",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "The Commish",
+    "score1": "110.94",
+    "team2": "Goatse 7",
+    "score2": "110.39",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Flint City Tropics",
+    "score1": "105.94",
+    "team2": "Bad Rivers Tribe",
+    "score2": "77.01",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "The Brown Bears",
+    "score1": "123.70",
+    "team2": "Ben's Nice Team",
+    "score2": "71.91",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Washington Sentinels",
+    "score1": "90.82",
+    "team2": "Jive Turkey",
+    "score2": "114.16",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "SHARKEISHA NO",
+    "score1": "74.20",
+    "team2": "Raaaaaaaandy",
+    "score2": "84.15",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "The Commish",
+    "score1": "108.51",
+    "team2": "The Brown Bears",
+    "score2": "137.53",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Flint City Tropics",
+    "score1": "130.32",
+    "team2": "Goatse 7",
+    "score2": "77.05",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Washington Sentinels",
+    "score1": "115.90",
+    "team2": "Ben's Nice Team",
+    "score2": "121.22",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "SHARKEISHA NO",
+    "score1": "147.14",
+    "team2": "Jive Turkey",
+    "score2": "106.78",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Raaaaaaaandy",
+    "score1": "98.35",
+    "team2": "Bad Rivers Tribe",
+    "score2": "132.37",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "The Commish",
+    "score1": "74.02",
+    "team2": "Washington Sentinels",
+    "score2": "85.04",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Flint City Tropics",
+    "score1": "59.19",
+    "team2": "The Brown Bears",
+    "score2": "101.66",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Goatse 7",
+    "score1": "110.76",
+    "team2": "Bad Rivers Tribe",
+    "score2": "87.26",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "SHARKEISHA NO",
+    "score1": "101.23",
+    "team2": "Ben's Nice Team",
+    "score2": "90.24",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Raaaaaaaandy",
+    "score1": "83.30",
+    "team2": "Jive Turkey",
+    "score2": "79.71",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "The Commish",
+    "score1": "137.79",
+    "team2": "SHARKEISHA NO",
+    "score2": "120.20",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Flint City Tropics",
+    "score1": "127.90",
+    "team2": "Washington Sentinels",
+    "score2": "97.31",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Goatse 7",
+    "score1": "97.37",
+    "team2": "The Brown Bears",
+    "score2": "102.60",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Raaaaaaaandy",
+    "score1": "71.77",
+    "team2": "Ben's Nice Team",
+    "score2": "120.04",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Jive Turkey",
+    "score1": "105.54",
+    "team2": "Bad Rivers Tribe",
+    "score2": "72.49",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "The Commish",
+    "score1": "87.65",
+    "team2": "Raaaaaaaandy",
+    "score2": "92.73",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Flint City Tropics",
+    "score1": "117.73",
+    "team2": "SHARKEISHA NO",
+    "score2": "113.97",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Goatse 7",
+    "score1": "113.04",
+    "team2": "Washington Sentinels",
+    "score2": "110.60",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "The Brown Bears",
+    "score1": "119.33",
+    "team2": "Bad Rivers Tribe",
+    "score2": "81.55",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Jive Turkey",
+    "score1": "108.36",
+    "team2": "Ben's Nice Team",
+    "score2": "103.32",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "The Commish",
+    "score1": "160.68",
+    "team2": "Jive Turkey",
+    "score2": "113.80",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Flint City Tropics",
+    "score1": "78.25",
+    "team2": "Raaaaaaaandy",
+    "score2": "104.17",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Goatse 7",
+    "score1": "113.80",
+    "team2": "SHARKEISHA NO",
+    "score2": "115.05",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "The Brown Bears",
+    "score1": "97.90",
+    "team2": "Washington Sentinels",
+    "score2": "89.99",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Ben's Nice Team",
+    "score1": "119.43",
+    "team2": "Bad Rivers Tribe",
+    "score2": "93.28",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "The Commish",
+    "score1": "97.65",
+    "team2": "Ben's Nice Team",
+    "score2": "129.49",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Flint City Tropics",
+    "score1": "98.69",
+    "team2": "Jive Turkey",
+    "score2": "76.03",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Goatse 7",
+    "score1": "108.97",
+    "team2": "Raaaaaaaandy",
+    "score2": "91.74",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "The Brown Bears",
+    "score1": "138.40",
+    "team2": "SHARKEISHA NO",
+    "score2": "94.49",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Washington Sentinels",
+    "score1": "120.48",
+    "team2": "Bad Rivers Tribe",
+    "score2": "75.83",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "The Commish",
+    "score1": "110.19",
+    "team2": "Bad Rivers Tribe",
+    "score2": "113.66",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Flint City Tropics",
+    "score1": "142.86",
+    "team2": "Ben's Nice Team",
+    "score2": "76.71",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Goatse 7",
+    "score1": "137.48",
+    "team2": "Jive Turkey",
+    "score2": "85.37",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "The Brown Bears",
+    "score1": "145.53",
+    "team2": "Raaaaaaaandy",
+    "score2": "101.52",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Washington Sentinels",
+    "score1": "106.37",
+    "team2": "SHARKEISHA NO",
+    "score2": "111.10",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "The Commish",
+    "score1": "75.75",
+    "team2": "Flint City Tropics",
+    "score2": "106.36",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "Goatse 7",
+    "score1": "108.88",
+    "team2": "Ben's Nice Team",
+    "score2": "86.33",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "The Brown Bears",
+    "score1": "108.46",
+    "team2": "Jive Turkey",
+    "score2": "100.92",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "Washington Sentinels",
+    "score1": "102.68",
+    "team2": "Raaaaaaaandy",
+    "score2": "73.34",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "SHARKEISHA NO",
+    "score1": "86.02",
+    "team2": "Bad Rivers Tribe",
+    "score2": "88.62",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "The Commish",
+    "score1": "96.32",
+    "team2": "Goatse 7",
+    "score2": "98.99",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Flint City Tropics",
+    "score1": "51.43",
+    "team2": "Bad Rivers Tribe",
+    "score2": "90.23",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "The Brown Bears",
+    "score1": "61.80",
+    "team2": "Ben's Nice Team",
+    "score2": "83.20",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Washington Sentinels",
+    "score1": "95.46",
+    "team2": "Jive Turkey",
+    "score2": "76.63",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "SHARKEISHA NO",
+    "score1": "90.58",
+    "team2": "Raaaaaaaandy",
+    "score2": "75.83",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "The Commish",
+    "score1": "80.04",
+    "team2": "The Brown Bears",
+    "score2": "115.92",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Flint City Tropics",
+    "score1": "81.05",
+    "team2": "Goatse 7",
+    "score2": "116.62",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Washington Sentinels",
+    "score1": "135.00",
+    "team2": "Ben's Nice Team",
+    "score2": "108.67",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "SHARKEISHA NO",
+    "score1": "88.84",
+    "team2": "Jive Turkey",
+    "score2": "135.19",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Raaaaaaaandy",
+    "score1": "94.14",
+    "team2": "Bad Rivers Tribe",
+    "score2": "83.88",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "The Commish",
+    "score1": "89.95",
+    "team2": "Washington Sentinels",
+    "score2": "100.71",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Flint City Tropics",
+    "score1": "111.03",
+    "team2": "The Brown Bears",
+    "score2": "121.53",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Goatse 7",
+    "score1": "134.19",
+    "team2": "Bad Rivers Tribe",
+    "score2": "88.57",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "SHARKEISHA NO",
+    "score1": "93.79",
+    "team2": "Ben's Nice Team",
+    "score2": "152.90",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Raaaaaaaandy",
+    "score1": "87.20",
+    "team2": "Jive Turkey",
+    "score2": "97.16",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 14,
+    "team1": "Flint City Tropics",
+    "score1": "101.44",
+    "team2": "SHARKEISHA NO",
+    "score2": "103.45",
+    "playoff": true,
+    "round": "Quarterfinal"
+  },
+  {
+    "week": 14,
+    "team1": "Washington Sentinels",
+    "score1": "101.22",
+    "team2": "Ben's Nice Team",
+    "score2": "82.76",
+    "playoff": true,
+    "round": "Quarterfinal"
+  },
+  {
+    "week": 15,
+    "team1": "The Commish",
+    "score1": "118.29",
+    "team2": "Jive Turkey",
+    "score2": "109.70",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 15,
+    "team1": "Flint City Tropics",
+    "score1": "109.88",
+    "team2": "Ben's Nice Team",
+    "score2": "102.11",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 15,
+    "team1": "Goatse 7",
+    "score1": "121.41",
+    "team2": "SHARKEISHA NO",
+    "score2": "129.11",
+    "playoff": true,
+    "round": "Semifinal"
+  },
+  {
+    "week": 15,
+    "team1": "The Brown Bears",
+    "score1": "107.24",
+    "team2": "Washington Sentinels",
+    "score2": "152.21",
+    "playoff": true,
+    "round": "Semifinal"
+  },
+  {
+    "week": 15,
+    "team1": "Raaaaaaaandy",
+    "score1": "147.56",
+    "team2": "Bad Rivers Tribe",
+    "score2": "108.51",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 16,
+    "team1": "The Commish",
+    "score1": "116.95",
+    "team2": "Raaaaaaaandy",
+    "score2": "110.44",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 16,
+    "team1": "Goatse 7",
+    "score1": "83.23",
+    "team2": "The Brown Bears",
+    "score2": "105.78",
+    "playoff": true,
+    "round": "3rd Place"
+  },
+  {
+    "week": 16,
+    "team1": "Washington Sentinels",
+    "score1": "149.27",
+    "team2": "SHARKEISHA NO",
+    "score2": "112.30",
+    "playoff": true,
+    "round": "Championship"
+  },
+  {
+    "week": 16,
+    "team1": "Jive Turkey",
+    "score1": "110.25",
+    "team2": "Bad Rivers Tribe",
+    "score2": "92.74",
+    "playoff": true,
+    "round": "Consolation"
+  }
+]

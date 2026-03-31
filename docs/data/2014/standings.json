@@ -1,0 +1,102 @@
+[
+  {
+    "team": "KOU KILL EM",
+    "owner": "Saiku",
+    "wins": "7",
+    "losses": "6",
+    "ties": 0,
+    "points_for": "1461.72",
+    "points_against": 1464.2499999999998,
+    "rank": 1
+  },
+  {
+    "team": "The Brown Bears",
+    "owner": "John",
+    "wins": "6",
+    "losses": "7",
+    "ties": 0,
+    "points_for": "1423.32",
+    "points_against": 1532.02,
+    "rank": 2
+  },
+  {
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "wins": "11",
+    "losses": "2",
+    "ties": 0,
+    "points_for": "1556.06",
+    "points_against": 1354.0900000000001,
+    "rank": 3
+  },
+  {
+    "team": "Goatse VI",
+    "owner": "Jake",
+    "wins": "8",
+    "losses": "5",
+    "ties": 0,
+    "points_for": "1486.40",
+    "points_against": 1362.15,
+    "rank": 4
+  },
+  {
+    "team": "The Commish",
+    "owner": "Andrew",
+    "wins": "7",
+    "losses": "6",
+    "ties": 0,
+    "points_for": "1475.51",
+    "points_against": 1299.4200000000003,
+    "rank": 5
+  },
+  {
+    "team": "TuneSquad",
+    "owner": "Paul",
+    "wins": "8",
+    "losses": "5",
+    "ties": 0,
+    "points_for": "1297.36",
+    "points_against": 1279.9799999999998,
+    "rank": 6
+  },
+  {
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "wins": "6",
+    "losses": "7",
+    "ties": 0,
+    "points_for": "1382.00",
+    "points_against": 1368.71,
+    "rank": 7
+  },
+  {
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "wins": "6",
+    "losses": "7",
+    "ties": 0,
+    "points_for": "1370.11",
+    "points_against": 1421.64,
+    "rank": 8
+  },
+  {
+    "team": "LeagueSafe = Scam",
+    "owner": "Sean",
+    "wins": "3",
+    "losses": "10",
+    "ties": 0,
+    "points_for": "1361.60",
+    "points_against": 1484.46,
+    "rank": 9
+  },
+  {
+    "team": "My Ball Zach Ertz",
+    "owner": "Drew",
+    "wins": "3",
+    "losses": "10",
+    "ties": 0,
+    "points_for": "1181.32",
+    "points_against": 1428.6800000000003,
+    "rank": 10
+  }
+]

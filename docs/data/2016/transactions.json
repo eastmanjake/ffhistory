@@ -1,0 +1,8129 @@
+[
+  {
+    "type": "Add",
+    "date": "2016-12-24",
+    "player": "Texans",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-24",
+    "player": "Bills",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-24",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-24",
+    "player": "Jets",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-23",
+    "player": "C.J. Fiedorowicz",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-23",
+    "player": "Rishard Matthews",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-22",
+    "player": "Brandon Marshall",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-22",
+    "player": "Wendell Smallwood",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-22",
+    "player": "Vernon Davis",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-22",
+    "player": "Sterling Shepard",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-21",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-21",
+    "player": "Robbie Chosen",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-21",
+    "player": "Sebastian Janikowski",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-21",
+    "player": "Cairo Santos",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-21",
+    "player": "Dion Lewis",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-21",
+    "player": "Kirk Cousins",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-21",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-21",
+    "player": "Ravens",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-21",
+    "player": "Jack Doyle",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-21",
+    "player": "Bills",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-21",
+    "player": "Adam Vinatieri",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-21",
+    "player": "Kai Forbath",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-21",
+    "player": "Sterling Shepard",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-21",
+    "player": "Tyrod Taylor",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-17",
+    "player": "Marcus Mariota",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-17",
+    "player": "Andre Ellington",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-17",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-17",
+    "player": "Texans",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-17",
+    "player": "Cairo Santos",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-17",
+    "player": "Adam Vinatieri",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-17",
+    "player": "Matt Bryant",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-17",
+    "player": "Chandler Catanzaro",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-15",
+    "player": "Robbie Chosen",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-15",
+    "player": "Brandon Marshall",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Tyrod Taylor",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Dak Prescott",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Jets",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Cowboys",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Patriots",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Dontrelle Inman",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Dion Lewis",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Andre Ellington",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Ladarius Green",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Ty Montgomery II",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Marcus Mariota",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Texans",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Brandon LaFell",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Kai Forbath",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Matt Bryant",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Kenneth Farrow",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Devontae Booker",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Chandler Catanzaro",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-14",
+    "player": "Cairo Santos",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-11",
+    "player": "Jermaine Gresham",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-11",
+    "player": "Sterling Shepard",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-10",
+    "player": "Brandon LaFell",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-10",
+    "player": "C.J. Fiedorowicz",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-10",
+    "player": "Taylor Gabriel",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-10",
+    "player": "Vance McDonald",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-09",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-09",
+    "player": "Rams",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-07",
+    "player": "Carson Palmer",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-07",
+    "player": "Vernon Davis",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-07",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-07",
+    "player": "Eagles",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-07",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-07",
+    "player": "Panthers",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-07",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-07",
+    "player": "Coby Fleener",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-07",
+    "player": "Ladarius Green",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-07",
+    "player": "Matthew Stafford",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-07",
+    "player": "Malcolm Mitchell",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-07",
+    "player": "Andre Ellington",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-04",
+    "player": "Cairo Santos",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-04",
+    "player": "Chris Boswell",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-03",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-03",
+    "player": "Raiders",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-03",
+    "player": "C.J. Fiedorowicz",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-03",
+    "player": "Cole Beasley",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-03",
+    "player": "Kenneth Dixon",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-03",
+    "player": "Ameer Abdullah",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-03",
+    "player": "Chris Ivory",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-02",
+    "player": "Matthew Stafford",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-02",
+    "player": "Adam Thielen",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-02",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-02",
+    "player": "T.J. Yeldon",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-01",
+    "player": "Coby Fleener",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-01",
+    "player": "Charcandrick West",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-01",
+    "player": "Cameron Brate",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-01",
+    "player": "Allen Hurns",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-01",
+    "player": "Vernon Davis",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-01",
+    "player": "Tyrod Taylor",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-01",
+    "player": "Adam Thielen",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-01",
+    "player": "Corey Coleman",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-01",
+    "player": "Matt Bryant",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-01",
+    "player": "Dustin Hopkins",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-01",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-01",
+    "player": "Bills",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-01",
+    "player": "Vance McDonald",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-12-01",
+    "player": "C.J. Fiedorowicz",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-30",
+    "player": "Andre Ellington",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-30",
+    "player": "Giovani Bernard",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-30",
+    "player": "Brandon McManus",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-30",
+    "player": "Graham Gano",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-30",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-30",
+    "player": "Titans",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-30",
+    "player": "Chargers",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-30",
+    "player": "Dolphins",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-30",
+    "player": "Tyreek Hill",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-30",
+    "player": "Andy Dalton",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-27",
+    "player": "Matt Jones",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Coby Fleener",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Ryan Mathews",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Eagles",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "C.J. Fiedorowicz",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Zach Miller",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Jameis Winston",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Matthew Stafford",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Raiders",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "DeVante Parker",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Matt Bryant",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Jared Cook",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Eddie Royal",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Dustin Hopkins",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Cairo Santos",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "DeSean Jackson",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Cameron Brate",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Tyler Boyd",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Jacquizz Rodgers",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Dak Prescott",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Carson Palmer",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "Wendell Smallwood",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-23",
+    "player": "C.J. Prosise",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-20",
+    "player": "Eddie Royal",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-20",
+    "player": "Dak Prescott",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-18",
+    "player": "Tyrod Taylor",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-18",
+    "player": "Ty Montgomery II",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-17",
+    "player": "Graham Gano",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-17",
+    "player": "Brandon McManus",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-17",
+    "player": "Nick Novak",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-17",
+    "player": "Josh Lambo",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-17",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-17",
+    "player": "Commanders",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-17",
+    "player": "Giants",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-17",
+    "player": "Jets",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-17",
+    "player": "Cameron Brate",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-17",
+    "player": "Kenneth Dixon",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Eric Ebron",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Hunter Henry",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Matt Prater",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Caleb Sturgis",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Martellus Bennett",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Ravens",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Gary Barnidge",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Chris Boswell",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "DuJuan Harris",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Rishard Matthews",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Chargers",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Kirk Cousins",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Jameis Winston",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Cairo Santos",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Mason Crosby",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Kenneth Dixon",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Packers",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Texans",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Kenny Britt",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-16",
+    "player": "Tavon Austin",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-15",
+    "player": "Chandler Catanzaro",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-14",
+    "player": "C.J. Prosise",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-14",
+    "player": "Sammie Coates",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-13",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-13",
+    "player": "Cowboys",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-11",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-11",
+    "player": "Chris Thompson",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-09",
+    "player": "Sterling Shepard",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-09",
+    "player": "Cameron Brate",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-09",
+    "player": "Thomas Rawls",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-09",
+    "player": "Jeremy Langford",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-09",
+    "player": "Texans",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-09",
+    "player": "Dolphins",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-09",
+    "player": "Chandler Catanzaro",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-09",
+    "player": "Kyle Rudolph",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-09",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-09",
+    "player": "C.J. Prosise",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-09",
+    "player": "Ryan Mathews",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-09",
+    "player": "Dennis Pitta",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-09",
+    "player": "James Starks",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-09",
+    "player": "Eric Ebron",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-09",
+    "player": "Zach Ertz",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-09",
+    "player": "Austin Hooper",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-09",
+    "player": "Chris Ivory",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-09",
+    "player": "Sebastian Janikowski",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-06",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-06",
+    "player": "Packers",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-06",
+    "player": "Dennis Pitta",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-06",
+    "player": "Jack Doyle",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-06",
+    "player": "Marcus Mariota",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-06",
+    "player": "Matt Asiata",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-05",
+    "player": "Mike Wallace",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-05",
+    "player": "Mohamed Sanu",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-04",
+    "player": "C.J. Prosise",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-04",
+    "player": "Antone Smith",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-04",
+    "player": "Chargers",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-04",
+    "player": "Ravens",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-04",
+    "player": "Corey Coleman",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-04",
+    "player": "Will Fuller V",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-03",
+    "player": "DuJuan Harris",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-03",
+    "player": "Dennis Pitta",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-03",
+    "player": "Dak Prescott",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-03",
+    "player": "Ka'Deem Carey",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-03",
+    "player": "Brandon McManus",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-03",
+    "player": "Mike Nugent",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-03",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-03",
+    "player": "Texans",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-03",
+    "player": "Antone Smith",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-03",
+    "player": "Marcus Mariota",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Austin Hooper",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Martellus Bennett",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Darren Sproles",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Ryan Mathews",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Patriots",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Sebastian Janikowski",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Travis Benjamin",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Cameron Brate",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Alfred Blue",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Caleb Sturgis",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Nick Novak",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Carson Wentz",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Mike Wallace",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Eric Ebron",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Knile Davis",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Dan Bailey",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Dustin Hopkins",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Rob Kelley",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Chris Ivory",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Quincy Enunwa",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Kenneth Barber",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Tim Hightower",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Alfred Morris",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-02",
+    "player": "Charcandrick West",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-11-01",
+    "player": "Cairo Santos",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-31",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-31",
+    "player": "Dak Prescott",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-30",
+    "player": "Mohamed Sanu",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-30",
+    "player": "Mike Davis",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-29",
+    "player": "Alfred Blue",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-29",
+    "player": "Rob Kelley",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-29",
+    "player": "Ka'Deem Carey",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-29",
+    "player": "Texans",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-29",
+    "player": "Bills",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-29",
+    "player": "Matt Bryant",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-29",
+    "player": "Blair Walsh",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-29",
+    "player": "Dennis Pitta",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-29",
+    "player": "Dak Prescott",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-29",
+    "player": "Darren Sproles",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-29",
+    "player": "Steelers",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-28",
+    "player": "Rob Kelley",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-28",
+    "player": "Kenny Britt",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-27",
+    "player": "Jameis Winston",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-27",
+    "player": "C.J. Anderson",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-27",
+    "player": "Don Jackson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-27",
+    "player": "Kenneth Barber",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-27",
+    "player": "DeSean Jackson",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-26",
+    "player": "Cairo Santos",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-26",
+    "player": "Sterling Shepard",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-26",
+    "player": "Josh Lambo",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-26",
+    "player": "Brandon McManus",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-26",
+    "player": "Davante Adams",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-26",
+    "player": "Michael Floyd",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-26",
+    "player": "Chris Thompson",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-26",
+    "player": "Zach Zenner",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-26",
+    "player": "Jack Doyle",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-26",
+    "player": "Cameron Brate",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-26",
+    "player": "Zach Zenner",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-26",
+    "player": "Arian Foster",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-26",
+    "player": "Matt Asiata",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-26",
+    "player": "Zach Ertz",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-26",
+    "player": "Jets",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-26",
+    "player": "Bengals",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-22",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-22",
+    "player": "Texans",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-22",
+    "player": "Arian Foster",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-22",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-22",
+    "player": "Ravens",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-21",
+    "player": "Cameron Brate",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-21",
+    "player": "Carson Wentz",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-21",
+    "player": "Jamison Crowder",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-21",
+    "player": "Antonio Gates",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-21",
+    "player": "Jesse James",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-21",
+    "player": "Vincent Jackson",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-20",
+    "player": "Danny Woodhead",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Don Jackson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Dwayne Washington",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Blair Walsh",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Chris Boswell",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Mike Davis",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Titans",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Panthers",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Mike Nugent",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Graham Gano",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Alfred Morris",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Blake Bortles",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Tyrell Williams",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Eddie Royal",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Zach Miller",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Dennis Pitta",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Chris Ivory",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "DeVante Parker",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Jay Ajayi",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Justin Forsett",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Knile Davis",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Rams",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Ty Montgomery II",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Arian Foster",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Kenny Britt",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Julius Thomas",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Marcus Mariota",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-19",
+    "player": "Jameis Winston",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-16",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-16",
+    "player": "Zach Miller",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-14",
+    "player": "Dwayne Washington",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-14",
+    "player": "Brian Hoyer",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-14",
+    "player": "Justin Forsett",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-14",
+    "player": "Jeremy Kerley",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-14",
+    "player": "Michael Thomas",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-14",
+    "player": "Justin Forsett",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-14",
+    "player": "Justin Forsett",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-14",
+    "player": "Jalen Richard",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-13",
+    "player": "Julius Thomas",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-13",
+    "player": "DeAndre Washington",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-13",
+    "player": "Chris Boswell",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-13",
+    "player": "Dan Bailey",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-13",
+    "player": "Golden Tate",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-13",
+    "player": "Fozzy Whittaker",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Jeremy Kerley",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Eric Decker",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Allen Hurns",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Kirk Cousins",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Jesse James",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Kyle Rudolph",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Nick Novak",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Blair Walsh",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Zach Miller",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "John Brown",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Cameron Meredith",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Jay Ajayi",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Antonio Gates",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "John Brown",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Tyler Lockett",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Blake Bortles",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Joe Flacco",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Stephen Hauschka",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Nick Folk",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Dan Bailey",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Mike Nugent",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Coby Fleener",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Cameron Brate",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Kenneth Dixon",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Matthew Stafford",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Quincy Enunwa",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Sammie Coates",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-12",
+    "player": "Phillip Dorsett II",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-09",
+    "player": "Tyrell Williams",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-09",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-09",
+    "player": "Jets",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-09",
+    "player": "Brian Hoyer",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-09",
+    "player": "Dak Prescott",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-09",
+    "player": "Fozzy Whittaker",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-09",
+    "player": "Charles Sims",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-09",
+    "player": "Mike Wallace",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-09",
+    "player": "Zach Miller",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-08",
+    "player": "Mike Gillislee",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-08",
+    "player": "Victor Cruz",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-08",
+    "player": "Jameis Winston",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-08",
+    "player": "Jacquizz Rodgers",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-08",
+    "player": "Golden Tate",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-08",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-08",
+    "player": "Jason Witten",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-07",
+    "player": "Bilal Powell",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-07",
+    "player": "Wendell Smallwood",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-07",
+    "player": "Jalen Richard",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-07",
+    "player": "Blake Bortles",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-07",
+    "player": "Eddie Royal",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-07",
+    "player": "John Brown",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-06",
+    "player": "Antonio Gates",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-06",
+    "player": "Eric Ebron",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-06",
+    "player": "Mike Nugent",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-06",
+    "player": "Dan Bailey",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-06",
+    "player": "James White",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-06",
+    "player": "Allen Hurns",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-06",
+    "player": "Cameron Brate",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-06",
+    "player": "Coby Fleener",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-06",
+    "player": "DeAndre Washington",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-06",
+    "player": "Julius Thomas",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-06",
+    "player": "John Brown",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-06",
+    "player": "Mohamed Sanu",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-06",
+    "player": "Joe Flacco",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-06",
+    "player": "Matthew Stafford",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Jamison Crowder",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Andy Dalton",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Commanders",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Adam Vinatieri",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Chandler Catanzaro",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Jay Ajayi",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Dwayne Washington",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Fozzy Whittaker",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Nick Folk",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Stephen Hauschka",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Martellus Bennett",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Cameron Artis-Payne",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Mason Crosby",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Cairo Santos",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Kenneth Dixon",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Matt Asiata",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Carson Wentz",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Kyle Rudolph",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Wendell Smallwood",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Josh Gordon",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Eric Ebron",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-05",
+    "player": "Chris Ivory",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-02",
+    "player": "Darren Sproles",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-02",
+    "player": "Thomas Rawls",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-02",
+    "player": "Dustin Hopkins",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-02",
+    "player": "Adam Vinatieri",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-02",
+    "player": "Dennis Pitta",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-02",
+    "player": "Eagles",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-01",
+    "player": "T.J. Yeldon",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-01",
+    "player": "Kenneth Dixon",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-01",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-10-01",
+    "player": "Antonio Gates",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-30",
+    "player": "Cole Beasley",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-30",
+    "player": "Justin Forsett",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-29",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-29",
+    "player": "Dwayne Allen",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Kenneth Dixon",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "T.J. Yeldon",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Devontae Booker",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Kenjon Barner",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Bengals",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Commanders",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Rams",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Chris Hogan",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Dak Prescott",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Tyler Boyd",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Allen Hurns",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Shane Vereen",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Steve Smith",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Mike Wallace",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Kirk Cousins",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Eric Ebron",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Dolphins",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Cairo Santos",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Mason Crosby",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Jason Witten",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Terrelle Pryor Sr.",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Markus Wheaton",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Jamison Crowder",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-28",
+    "player": "Martellus Bennett",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-25",
+    "player": "Shane Vereen",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-25",
+    "player": "Allen Hurns",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-25",
+    "player": "Zach Miller",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-25",
+    "player": "Corey Coleman",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-25",
+    "player": "DeVante Parker",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-25",
+    "player": "Cameron Artis-Payne",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-25",
+    "player": "Jay Ajayi",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-22",
+    "player": "Martellus Bennett",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-22",
+    "player": "Bilal Powell",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-22",
+    "player": "Jordan Howard",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-22",
+    "player": "Cameron Artis-Payne",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-22",
+    "player": "Cameron Artis-Payne",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-22",
+    "player": "Jeremy Kerley",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Philip Rivers",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "John Brown",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Dwayne Washington",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Mike Wallace",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Tajae Sharpe",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Ravens",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Jay Ajayi",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Ameer Abdullah",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Matt Asiata",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "James White",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Phillip Dorsett II",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Devin Funchess",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Patriots",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Matt Ryan",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Torrey Smith",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Quincy Enunwa",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "DeVante Parker",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Fozzy Whittaker",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Charles Sims",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-21",
+    "player": "Michael Thomas",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-18",
+    "player": "Eric Ebron",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-18",
+    "player": "Steve Smith",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-16",
+    "player": "Tyrell Williams",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-16",
+    "player": "Kamar Aiken",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-14",
+    "player": "Theo Riddick",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-14",
+    "player": "Charles Sims",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-14",
+    "player": "Jeremy Kerley",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-14",
+    "player": "Kevin White",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-14",
+    "player": "Kenjon Barner",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-14",
+    "player": "Philip Rivers",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-14",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-14",
+    "player": "Eagles",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-14",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-14",
+    "player": "Rams",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-14",
+    "player": "Tajae Sharpe",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-14",
+    "player": "Martellus Bennett",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-14",
+    "player": "Charles Sims",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-14",
+    "player": "Kirk Cousins",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-14",
+    "player": "Tevin Coleman",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-14",
+    "player": "Jared Cook",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-14",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-11",
+    "player": "Martellus Bennett",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-11",
+    "player": "Jason Witten",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-09",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-09",
+    "player": "Tyrod Taylor",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-08",
+    "player": "Matthew Stafford",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-08",
+    "player": "Jameis Winston",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-07",
+    "player": "Jerick McKinnon",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-07",
+    "player": "Jay Ajayi",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-07",
+    "player": "Justin Forsett",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-07",
+    "player": "James Starks",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-04",
+    "player": "James White",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-04",
+    "player": "Justin Forsett",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-04",
+    "player": "Blair Walsh",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-04",
+    "player": "Darren Sproles",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-03",
+    "player": "Kirk Cousins",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-03",
+    "player": "Charles Sims",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-01",
+    "player": "Spencer Ware",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-09-01",
+    "player": "Laquon Treadwell",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-30",
+    "player": "Mohamed Sanu",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-30",
+    "player": "Robert Griffin III",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-29",
+    "player": "Chris Hogan",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-29",
+    "player": "James White",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-29",
+    "player": "Will Fuller V",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-29",
+    "player": "Ted Ginn Jr.",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-28",
+    "player": "Ted Ginn Jr.",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-28",
+    "player": "Theo Riddick",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-28",
+    "player": "Jared Cook",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-28",
+    "player": "Tajae Sharpe",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-28",
+    "player": "Tajae Sharpe",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-28",
+    "player": "Rishard Matthews",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-27",
+    "player": "Robert Griffin III",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-27",
+    "player": "Terrelle Pryor Sr.",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-27",
+    "player": "Terrelle Pryor Sr.",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-27",
+    "player": "Charcandrick West",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-24",
+    "player": "Jameis Winston",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-23",
+    "player": "Jimmy Graham",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-23",
+    "player": "Ronnie Hillman",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-23",
+    "player": "James White",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Add",
+    "date": "2016-08-23",
+    "player": "Chris Johnson",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-24",
+    "player": "Texans",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-24",
+    "player": "Bills",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-24",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-24",
+    "player": "Jets",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-23",
+    "player": "C.J. Fiedorowicz",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-23",
+    "player": "Rishard Matthews",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-22",
+    "player": "Brandon Marshall",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-22",
+    "player": "Wendell Smallwood",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-22",
+    "player": "Vernon Davis",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-22",
+    "player": "Sterling Shepard",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-21",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-21",
+    "player": "Robbie Chosen",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-21",
+    "player": "Sebastian Janikowski",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-21",
+    "player": "Cairo Santos",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-21",
+    "player": "Dion Lewis",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-21",
+    "player": "Kirk Cousins",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-21",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-21",
+    "player": "Ravens",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-21",
+    "player": "Jack Doyle",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-21",
+    "player": "Bills",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-21",
+    "player": "Adam Vinatieri",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-21",
+    "player": "Kai Forbath",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-21",
+    "player": "Sterling Shepard",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-21",
+    "player": "Tyrod Taylor",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-17",
+    "player": "Marcus Mariota",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-17",
+    "player": "Andre Ellington",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-17",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-17",
+    "player": "Texans",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-17",
+    "player": "Cairo Santos",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-17",
+    "player": "Adam Vinatieri",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-17",
+    "player": "Matt Bryant",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-17",
+    "player": "Chandler Catanzaro",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-15",
+    "player": "Robbie Chosen",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-15",
+    "player": "Brandon Marshall",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Tyrod Taylor",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Dak Prescott",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Jets",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Cowboys",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Patriots",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Dontrelle Inman",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Dion Lewis",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Andre Ellington",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Ladarius Green",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Ty Montgomery II",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Marcus Mariota",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Texans",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Brandon LaFell",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Kai Forbath",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Matt Bryant",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Kenneth Farrow",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Devontae Booker",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Chandler Catanzaro",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-14",
+    "player": "Cairo Santos",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-11",
+    "player": "Jermaine Gresham",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-11",
+    "player": "Sterling Shepard",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-10",
+    "player": "Brandon LaFell",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-10",
+    "player": "C.J. Fiedorowicz",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-10",
+    "player": "Taylor Gabriel",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-10",
+    "player": "Vance McDonald",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-09",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-09",
+    "player": "Rams",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-07",
+    "player": "Carson Palmer",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-07",
+    "player": "Vernon Davis",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-07",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-07",
+    "player": "Eagles",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-07",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-07",
+    "player": "Panthers",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-07",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-07",
+    "player": "Coby Fleener",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-07",
+    "player": "Ladarius Green",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-07",
+    "player": "Matthew Stafford",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-07",
+    "player": "Malcolm Mitchell",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-07",
+    "player": "Andre Ellington",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-04",
+    "player": "Cairo Santos",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-04",
+    "player": "Chris Boswell",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-03",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-03",
+    "player": "Raiders",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-03",
+    "player": "C.J. Fiedorowicz",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-03",
+    "player": "Cole Beasley",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-03",
+    "player": "Kenneth Dixon",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-03",
+    "player": "Ameer Abdullah",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-03",
+    "player": "Chris Ivory",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-02",
+    "player": "Matthew Stafford",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-02",
+    "player": "Adam Thielen",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-02",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-02",
+    "player": "T.J. Yeldon",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-01",
+    "player": "Coby Fleener",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-01",
+    "player": "Charcandrick West",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-01",
+    "player": "Cameron Brate",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-01",
+    "player": "Allen Hurns",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-01",
+    "player": "Vernon Davis",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-01",
+    "player": "Tyrod Taylor",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-01",
+    "player": "Adam Thielen",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-01",
+    "player": "Corey Coleman",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-01",
+    "player": "Matt Bryant",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-01",
+    "player": "Dustin Hopkins",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-01",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-01",
+    "player": "Bills",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-01",
+    "player": "Vance McDonald",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-12-01",
+    "player": "C.J. Fiedorowicz",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-30",
+    "player": "Andre Ellington",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-30",
+    "player": "Giovani Bernard",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-30",
+    "player": "Brandon McManus",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-30",
+    "player": "Graham Gano",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-30",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-30",
+    "player": "Titans",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-30",
+    "player": "Chargers",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-30",
+    "player": "Dolphins",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-30",
+    "player": "Tyreek Hill",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-30",
+    "player": "Andy Dalton",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-27",
+    "player": "Matt Jones",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Coby Fleener",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Ryan Mathews",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Eagles",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "C.J. Fiedorowicz",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Zach Miller",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Jameis Winston",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Matthew Stafford",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Raiders",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "DeVante Parker",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Matt Bryant",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Jared Cook",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Eddie Royal",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Dustin Hopkins",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Cairo Santos",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "DeSean Jackson",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Cameron Brate",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Tyler Boyd",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Jacquizz Rodgers",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Dak Prescott",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Carson Palmer",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "Wendell Smallwood",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-23",
+    "player": "C.J. Prosise",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-20",
+    "player": "Eddie Royal",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-20",
+    "player": "Dak Prescott",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-18",
+    "player": "Tyrod Taylor",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-18",
+    "player": "Ty Montgomery II",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-17",
+    "player": "Graham Gano",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-17",
+    "player": "Brandon McManus",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-17",
+    "player": "Nick Novak",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-17",
+    "player": "Josh Lambo",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-17",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-17",
+    "player": "Commanders",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-17",
+    "player": "Giants",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-17",
+    "player": "Jets",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-17",
+    "player": "Cameron Brate",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-17",
+    "player": "Kenneth Dixon",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Eric Ebron",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Hunter Henry",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Matt Prater",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Caleb Sturgis",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Martellus Bennett",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Ravens",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Gary Barnidge",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Chris Boswell",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "DuJuan Harris",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Rishard Matthews",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Chargers",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Kirk Cousins",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Jameis Winston",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Cairo Santos",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Mason Crosby",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Kenneth Dixon",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Packers",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Texans",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Kenny Britt",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-16",
+    "player": "Tavon Austin",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-15",
+    "player": "Chandler Catanzaro",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-14",
+    "player": "C.J. Prosise",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-14",
+    "player": "Sammie Coates",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-13",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-13",
+    "player": "Cowboys",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-11",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-11",
+    "player": "Chris Thompson",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-09",
+    "player": "Sterling Shepard",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-09",
+    "player": "Cameron Brate",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-09",
+    "player": "Thomas Rawls",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-09",
+    "player": "Jeremy Langford",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-09",
+    "player": "Texans",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-09",
+    "player": "Dolphins",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-09",
+    "player": "Chandler Catanzaro",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-09",
+    "player": "Kyle Rudolph",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-09",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-09",
+    "player": "C.J. Prosise",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-09",
+    "player": "Ryan Mathews",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-09",
+    "player": "Dennis Pitta",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-09",
+    "player": "James Starks",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-09",
+    "player": "Eric Ebron",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-09",
+    "player": "Zach Ertz",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-09",
+    "player": "Austin Hooper",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-09",
+    "player": "Chris Ivory",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-09",
+    "player": "Sebastian Janikowski",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-06",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-06",
+    "player": "Packers",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-06",
+    "player": "Dennis Pitta",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-06",
+    "player": "Jack Doyle",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-06",
+    "player": "Marcus Mariota",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-06",
+    "player": "Matt Asiata",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-05",
+    "player": "Mike Wallace",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-05",
+    "player": "Mohamed Sanu",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-04",
+    "player": "C.J. Prosise",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-04",
+    "player": "Antone Smith",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-04",
+    "player": "Chargers",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-04",
+    "player": "Ravens",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-04",
+    "player": "Corey Coleman",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-04",
+    "player": "Will Fuller V",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-03",
+    "player": "DuJuan Harris",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-03",
+    "player": "Dennis Pitta",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-03",
+    "player": "Dak Prescott",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-03",
+    "player": "Ka'Deem Carey",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-03",
+    "player": "Brandon McManus",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-03",
+    "player": "Mike Nugent",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-03",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-03",
+    "player": "Texans",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-03",
+    "player": "Antone Smith",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-03",
+    "player": "Marcus Mariota",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Austin Hooper",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Martellus Bennett",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Darren Sproles",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Ryan Mathews",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Patriots",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Sebastian Janikowski",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Travis Benjamin",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Cameron Brate",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Alfred Blue",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Caleb Sturgis",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Nick Novak",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Carson Wentz",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Mike Wallace",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Eric Ebron",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Knile Davis",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Dan Bailey",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Dustin Hopkins",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Rob Kelley",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Chris Ivory",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Quincy Enunwa",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Kenneth Barber",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Tim Hightower",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Alfred Morris",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-02",
+    "player": "Charcandrick West",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-11-01",
+    "player": "Cairo Santos",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-31",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-31",
+    "player": "Dak Prescott",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-30",
+    "player": "Mohamed Sanu",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-30",
+    "player": "Mike Davis",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-29",
+    "player": "Alfred Blue",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-29",
+    "player": "Rob Kelley",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-29",
+    "player": "Ka'Deem Carey",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-29",
+    "player": "Texans",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-29",
+    "player": "Bills",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-29",
+    "player": "Matt Bryant",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-29",
+    "player": "Blair Walsh",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-29",
+    "player": "Dennis Pitta",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-29",
+    "player": "Dak Prescott",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-29",
+    "player": "Darren Sproles",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-29",
+    "player": "Steelers",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-28",
+    "player": "Rob Kelley",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-28",
+    "player": "Kenny Britt",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-27",
+    "player": "Jameis Winston",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-27",
+    "player": "C.J. Anderson",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-27",
+    "player": "Don Jackson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-27",
+    "player": "Kenneth Barber",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-27",
+    "player": "DeSean Jackson",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-26",
+    "player": "Cairo Santos",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-26",
+    "player": "Sterling Shepard",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-26",
+    "player": "Josh Lambo",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-26",
+    "player": "Brandon McManus",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-26",
+    "player": "Davante Adams",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-26",
+    "player": "Michael Floyd",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-26",
+    "player": "Chris Thompson",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-26",
+    "player": "Zach Zenner",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-26",
+    "player": "Jack Doyle",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-26",
+    "player": "Cameron Brate",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-26",
+    "player": "Zach Zenner",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-26",
+    "player": "Arian Foster",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-26",
+    "player": "Matt Asiata",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-26",
+    "player": "Zach Ertz",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-26",
+    "player": "Jets",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-26",
+    "player": "Bengals",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-22",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-22",
+    "player": "Texans",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-22",
+    "player": "Arian Foster",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-22",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-22",
+    "player": "Ravens",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-21",
+    "player": "Cameron Brate",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-21",
+    "player": "Carson Wentz",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-21",
+    "player": "Jamison Crowder",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-21",
+    "player": "Antonio Gates",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-21",
+    "player": "Jesse James",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-21",
+    "player": "Vincent Jackson",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-20",
+    "player": "Danny Woodhead",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Don Jackson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Dwayne Washington",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Blair Walsh",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Chris Boswell",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Mike Davis",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Titans",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Panthers",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Mike Nugent",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Graham Gano",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Alfred Morris",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Blake Bortles",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Tyrell Williams",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Eddie Royal",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Zach Miller",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Dennis Pitta",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Chris Ivory",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "DeVante Parker",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Jay Ajayi",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Justin Forsett",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Knile Davis",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Rams",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Ty Montgomery II",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Arian Foster",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Kenny Britt",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Julius Thomas",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Marcus Mariota",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-19",
+    "player": "Jameis Winston",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-16",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-16",
+    "player": "Zach Miller",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-14",
+    "player": "Dwayne Washington",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-14",
+    "player": "Brian Hoyer",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-14",
+    "player": "Justin Forsett",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-14",
+    "player": "Jeremy Kerley",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-14",
+    "player": "Michael Thomas",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-14",
+    "player": "Justin Forsett",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-14",
+    "player": "Justin Forsett",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-14",
+    "player": "Jalen Richard",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-13",
+    "player": "Julius Thomas",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-13",
+    "player": "DeAndre Washington",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-13",
+    "player": "Chris Boswell",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-13",
+    "player": "Dan Bailey",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-13",
+    "player": "Golden Tate",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-13",
+    "player": "Fozzy Whittaker",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Jeremy Kerley",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Eric Decker",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Allen Hurns",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Kirk Cousins",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Jesse James",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Kyle Rudolph",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Nick Novak",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Blair Walsh",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Zach Miller",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "John Brown",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Cameron Meredith",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Jay Ajayi",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Antonio Gates",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "John Brown",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Tyler Lockett",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Blake Bortles",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Joe Flacco",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Stephen Hauschka",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Nick Folk",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Dan Bailey",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Mike Nugent",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Coby Fleener",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Cameron Brate",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Kenneth Dixon",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Matthew Stafford",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Quincy Enunwa",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Sammie Coates",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-12",
+    "player": "Phillip Dorsett II",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-09",
+    "player": "Tyrell Williams",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-09",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-09",
+    "player": "Jets",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-09",
+    "player": "Brian Hoyer",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-09",
+    "player": "Dak Prescott",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-09",
+    "player": "Fozzy Whittaker",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-09",
+    "player": "Charles Sims",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-09",
+    "player": "Mike Wallace",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-09",
+    "player": "Zach Miller",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-08",
+    "player": "Mike Gillislee",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-08",
+    "player": "Victor Cruz",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-08",
+    "player": "Jameis Winston",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-08",
+    "player": "Jacquizz Rodgers",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-08",
+    "player": "Golden Tate",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-08",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-08",
+    "player": "Jason Witten",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-07",
+    "player": "Bilal Powell",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-07",
+    "player": "Wendell Smallwood",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-07",
+    "player": "Jalen Richard",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-07",
+    "player": "Blake Bortles",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-07",
+    "player": "Eddie Royal",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-07",
+    "player": "John Brown",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-06",
+    "player": "Antonio Gates",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-06",
+    "player": "Eric Ebron",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-06",
+    "player": "Mike Nugent",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-06",
+    "player": "Dan Bailey",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-06",
+    "player": "James White",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-06",
+    "player": "Allen Hurns",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-06",
+    "player": "Cameron Brate",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-06",
+    "player": "Coby Fleener",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-06",
+    "player": "DeAndre Washington",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-06",
+    "player": "Julius Thomas",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-06",
+    "player": "John Brown",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-06",
+    "player": "Mohamed Sanu",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-06",
+    "player": "Joe Flacco",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-06",
+    "player": "Matthew Stafford",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Jamison Crowder",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Andy Dalton",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Commanders",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Adam Vinatieri",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Chandler Catanzaro",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Jay Ajayi",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Dwayne Washington",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Fozzy Whittaker",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Nick Folk",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Stephen Hauschka",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Martellus Bennett",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Cameron Artis-Payne",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Mason Crosby",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Cairo Santos",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Kenneth Dixon",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Matt Asiata",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Carson Wentz",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Kyle Rudolph",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Wendell Smallwood",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Josh Gordon",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Eric Ebron",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-05",
+    "player": "Chris Ivory",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-02",
+    "player": "Darren Sproles",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-02",
+    "player": "Thomas Rawls",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-02",
+    "player": "Dustin Hopkins",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-02",
+    "player": "Adam Vinatieri",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-02",
+    "player": "Dennis Pitta",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-02",
+    "player": "Eagles",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-01",
+    "player": "T.J. Yeldon",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-01",
+    "player": "Kenneth Dixon",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-01",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-10-01",
+    "player": "Antonio Gates",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-30",
+    "player": "Cole Beasley",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-30",
+    "player": "Justin Forsett",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-29",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-29",
+    "player": "Dwayne Allen",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Kenneth Dixon",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "T.J. Yeldon",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Devontae Booker",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Kenjon Barner",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Bengals",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Commanders",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Rams",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Chris Hogan",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Dak Prescott",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Tyler Boyd",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Allen Hurns",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Shane Vereen",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Steve Smith",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Mike Wallace",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Kirk Cousins",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Eric Ebron",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Dolphins",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Cairo Santos",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Mason Crosby",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Jason Witten",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Terrelle Pryor Sr.",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Markus Wheaton",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Jamison Crowder",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-28",
+    "player": "Martellus Bennett",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-25",
+    "player": "Shane Vereen",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-25",
+    "player": "Allen Hurns",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-25",
+    "player": "Zach Miller",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-25",
+    "player": "Corey Coleman",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-25",
+    "player": "DeVante Parker",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-25",
+    "player": "Cameron Artis-Payne",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-25",
+    "player": "Jay Ajayi",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-22",
+    "player": "Martellus Bennett",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-22",
+    "player": "Bilal Powell",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-22",
+    "player": "Jordan Howard",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-22",
+    "player": "Cameron Artis-Payne",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-22",
+    "player": "Cameron Artis-Payne",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-22",
+    "player": "Jeremy Kerley",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Philip Rivers",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "John Brown",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Dwayne Washington",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Mike Wallace",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Tajae Sharpe",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Ravens",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Jay Ajayi",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Ameer Abdullah",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Matt Asiata",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "James White",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Phillip Dorsett II",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Devin Funchess",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Patriots",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Matt Ryan",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Torrey Smith",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Quincy Enunwa",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "DeVante Parker",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Fozzy Whittaker",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Charles Sims",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-21",
+    "player": "Michael Thomas",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-18",
+    "player": "Eric Ebron",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-18",
+    "player": "Steve Smith",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-16",
+    "player": "Tyrell Williams",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-16",
+    "player": "Kamar Aiken",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-14",
+    "player": "Theo Riddick",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-14",
+    "player": "Charles Sims",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-14",
+    "player": "Jeremy Kerley",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-14",
+    "player": "Kevin White",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-14",
+    "player": "Kenjon Barner",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-14",
+    "player": "Philip Rivers",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-14",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-14",
+    "player": "Eagles",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-14",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-14",
+    "player": "Rams",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-14",
+    "player": "Tajae Sharpe",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-14",
+    "player": "Martellus Bennett",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-14",
+    "player": "Charles Sims",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-14",
+    "player": "Kirk Cousins",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-14",
+    "player": "Tevin Coleman",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-14",
+    "player": "Jared Cook",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-14",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-11",
+    "player": "Martellus Bennett",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-11",
+    "player": "Jason Witten",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-09",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-09",
+    "player": "Tyrod Taylor",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-08",
+    "player": "Matthew Stafford",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-08",
+    "player": "Jameis Winston",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-07",
+    "player": "Jerick McKinnon",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-07",
+    "player": "Jay Ajayi",
+    "from": "Goatse VIII",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-07",
+    "player": "Justin Forsett",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-07",
+    "player": "James Starks",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-04",
+    "player": "James White",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-04",
+    "player": "Justin Forsett",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-04",
+    "player": "Blair Walsh",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-04",
+    "player": "Darren Sproles",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-03",
+    "player": "Kirk Cousins",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-03",
+    "player": "Charles Sims",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-01",
+    "player": "Spencer Ware",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-09-01",
+    "player": "Laquon Treadwell",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-30",
+    "player": "Mohamed Sanu",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-30",
+    "player": "Robert Griffin III",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-29",
+    "player": "Chris Hogan",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-29",
+    "player": "James White",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-29",
+    "player": "Will Fuller V",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-29",
+    "player": "Ted Ginn Jr.",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-28",
+    "player": "Ted Ginn Jr.",
+    "from": "FA/Waiver",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-28",
+    "player": "Theo Riddick",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-28",
+    "player": "Jared Cook",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-28",
+    "player": "Tajae Sharpe",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-28",
+    "player": "Tajae Sharpe",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-28",
+    "player": "Rishard Matthews",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-27",
+    "player": "Robert Griffin III",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-27",
+    "player": "Terrelle Pryor Sr.",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-27",
+    "player": "Terrelle Pryor Sr.",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-27",
+    "player": "Charcandrick West",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-24",
+    "player": "Jameis Winston",
+    "from": "FA/Waiver",
+    "to": "Goatse VIII"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-23",
+    "player": "Jimmy Graham",
+    "from": "FA/Waiver",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-23",
+    "player": "Ronnie Hillman",
+    "from": "Charlotte Banshees",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-23",
+    "player": "James White",
+    "from": "FA/Waiver",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Drop",
+    "date": "2016-08-23",
+    "player": "Chris Johnson",
+    "from": "Gruden's Grinders",
+    "to": "Dropped"
+  },
+  {
+    "type": "Trade",
+    "date": "2016-10-29",
+    "player": "DeAndre Hopkins",
+    "from": "Bad Rivers Tribe",
+    "to": "Charlotte Banshees"
+  },
+  {
+    "type": "Trade",
+    "date": "2016-10-29",
+    "player": "Jimmy Graham",
+    "from": "Charlotte Banshees",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Trade",
+    "date": "2016-10-29",
+    "player": "Jordy Nelson",
+    "from": "Charlotte Banshees",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Trade",
+    "date": "2016-10-29",
+    "player": "Terrelle Pryor Sr.",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Trade",
+    "date": "2016-10-29",
+    "player": "Theo Riddick",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Trade",
+    "date": "2016-10-29",
+    "player": "Tyler Eifert",
+    "from": "Bad Rivers Tribe",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Trade",
+    "date": "2016-10-07",
+    "player": "Willie Snead IV",
+    "from": "Dicks Out 4 Harambe",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Trade",
+    "date": "2016-10-07",
+    "player": "T.J. Yeldon",
+    "from": "Dicks Out 4 Harambe",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Trade",
+    "date": "2016-10-07",
+    "player": "Frank Gore",
+    "from": "SHARKEISHA NO",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Trade",
+    "date": "2016-10-02",
+    "player": "Rashad Jennings",
+    "from": "Gruden's Grinders",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Trade",
+    "date": "2016-10-02",
+    "player": "Julian Edelman",
+    "from": "Raaaaaaaandy",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Trade",
+    "date": "2016-09-16",
+    "player": "Rashad Jennings",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Trade",
+    "date": "2016-09-16",
+    "player": "Kamar Aiken",
+    "from": "Dicks Out 4 Harambe",
+    "to": "Gruden's Grinders"
+  },
+  {
+    "type": "Trade",
+    "date": "2016-09-16",
+    "player": "T.J. Yeldon",
+    "from": "Gruden's Grinders",
+    "to": "Dicks Out 4 Harambe"
+  },
+  {
+    "type": "Trade",
+    "date": "2016-09-16",
+    "player": "Markus Wheaton",
+    "from": "Gruden's Grinders",
+    "to": "Dicks Out 4 Harambe"
+  }
+]

@@ -1,0 +1,686 @@
+[
+  {
+    "week": 1,
+    "team1": "The Commish",
+    "score1": "108.67",
+    "team2": "Bad Rivers Tribe",
+    "score2": "128.63",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "el Tropicos",
+    "score1": "81.40",
+    "team2": "The Brown Bears",
+    "score2": "84.96",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "Goatse XII",
+    "score1": "96.35",
+    "team2": "Go Birds",
+    "score2": "130.84",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "DarnoldMonos",
+    "score1": "141.58",
+    "team2": "SHARKEISHA NO",
+    "score2": "99.22",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "Raaaaaaaandy",
+    "score1": "107.79",
+    "team2": "Piggy",
+    "score2": "94.65",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "The Commish",
+    "score1": "117.75",
+    "team2": "el Tropicos",
+    "score2": "117.43",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Bad Rivers Tribe",
+    "score1": "94.75",
+    "team2": "Piggy",
+    "score2": "89.99",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Goatse XII",
+    "score1": "104.96",
+    "team2": "The Brown Bears",
+    "score2": "94.85",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "DarnoldMonos",
+    "score1": "133.57",
+    "team2": "Go Birds",
+    "score2": "164.25",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Raaaaaaaandy",
+    "score1": "98.18",
+    "team2": "SHARKEISHA NO",
+    "score2": "108.53",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "The Commish",
+    "score1": "99.41",
+    "team2": "Goatse XII",
+    "score2": "116.93",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Bad Rivers Tribe",
+    "score1": "131.79",
+    "team2": "el Tropicos",
+    "score2": "74.58",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "DarnoldMonos",
+    "score1": "107.75",
+    "team2": "The Brown Bears",
+    "score2": "96.57",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Raaaaaaaandy",
+    "score1": "111.45",
+    "team2": "Go Birds",
+    "score2": "156.83",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "SHARKEISHA NO",
+    "score1": "119.93",
+    "team2": "Piggy",
+    "score2": "108.70",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "The Commish",
+    "score1": "88.10",
+    "team2": "DarnoldMonos",
+    "score2": "99.15",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Bad Rivers Tribe",
+    "score1": "109.27",
+    "team2": "Goatse XII",
+    "score2": "109.87",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "el Tropicos",
+    "score1": "84.69",
+    "team2": "Piggy",
+    "score2": "153.82",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Raaaaaaaandy",
+    "score1": "83.64",
+    "team2": "The Brown Bears",
+    "score2": "137.33",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "SHARKEISHA NO",
+    "score1": "118.66",
+    "team2": "Go Birds",
+    "score2": "130.88",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "The Commish",
+    "score1": "115.81",
+    "team2": "Raaaaaaaandy",
+    "score2": "120.50",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Bad Rivers Tribe",
+    "score1": "124.52",
+    "team2": "DarnoldMonos",
+    "score2": "87.58",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "el Tropicos",
+    "score1": "116.55",
+    "team2": "Goatse XII",
+    "score2": "103.85",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "SHARKEISHA NO",
+    "score1": "93.67",
+    "team2": "The Brown Bears",
+    "score2": "94.31",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Go Birds",
+    "score1": "92.04",
+    "team2": "Piggy",
+    "score2": "104.67",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "The Commish",
+    "score1": "106.80",
+    "team2": "SHARKEISHA NO",
+    "score2": "80.39",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Bad Rivers Tribe",
+    "score1": "101.43",
+    "team2": "Raaaaaaaandy",
+    "score2": "89.20",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "el Tropicos",
+    "score1": "75.63",
+    "team2": "DarnoldMonos",
+    "score2": "111.72",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Goatse XII",
+    "score1": "128.64",
+    "team2": "Piggy",
+    "score2": "80.27",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Go Birds",
+    "score1": "98.84",
+    "team2": "The Brown Bears",
+    "score2": "81.05",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "The Commish",
+    "score1": "138.31",
+    "team2": "Go Birds",
+    "score2": "119.85",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Bad Rivers Tribe",
+    "score1": "90.68",
+    "team2": "SHARKEISHA NO",
+    "score2": "84.36",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "el Tropicos",
+    "score1": "94.92",
+    "team2": "Raaaaaaaandy",
+    "score2": "126.04",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Goatse XII",
+    "score1": "89.25",
+    "team2": "DarnoldMonos",
+    "score2": "98.72",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "The Brown Bears",
+    "score1": "105.77",
+    "team2": "Piggy",
+    "score2": "88.15",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "The Commish",
+    "score1": "115.12",
+    "team2": "The Brown Bears",
+    "score2": "96.29",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Bad Rivers Tribe",
+    "score1": "122.31",
+    "team2": "Go Birds",
+    "score2": "76.97",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "el Tropicos",
+    "score1": "73.91",
+    "team2": "SHARKEISHA NO",
+    "score2": "76.61",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Goatse XII",
+    "score1": "87.97",
+    "team2": "Raaaaaaaandy",
+    "score2": "124.04",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "DarnoldMonos",
+    "score1": "75.99",
+    "team2": "Piggy",
+    "score2": "138.47",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "The Commish",
+    "score1": "105.24",
+    "team2": "Piggy",
+    "score2": "158.12",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Bad Rivers Tribe",
+    "score1": "93.15",
+    "team2": "The Brown Bears",
+    "score2": "88.35",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "el Tropicos",
+    "score1": "79.94",
+    "team2": "Go Birds",
+    "score2": "74.82",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Goatse XII",
+    "score1": "111.50",
+    "team2": "SHARKEISHA NO",
+    "score2": "76.26",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "DarnoldMonos",
+    "score1": "113.05",
+    "team2": "Raaaaaaaandy",
+    "score2": "104.08",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "The Commish",
+    "score1": "76.72",
+    "team2": "Bad Rivers Tribe",
+    "score2": "73.41",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "el Tropicos",
+    "score1": "80.87",
+    "team2": "The Brown Bears",
+    "score2": "124.15",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "Goatse XII",
+    "score1": "92.86",
+    "team2": "Go Birds",
+    "score2": "108.38",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "DarnoldMonos",
+    "score1": "81.37",
+    "team2": "SHARKEISHA NO",
+    "score2": "100.16",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "Raaaaaaaandy",
+    "score1": "69.49",
+    "team2": "Piggy",
+    "score2": "103.15",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "The Commish",
+    "score1": "132.01",
+    "team2": "el Tropicos",
+    "score2": "96.03",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Bad Rivers Tribe",
+    "score1": "106.38",
+    "team2": "Piggy",
+    "score2": "79.21",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Goatse XII",
+    "score1": "125.10",
+    "team2": "The Brown Bears",
+    "score2": "121.44",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "DarnoldMonos",
+    "score1": "87.53",
+    "team2": "Go Birds",
+    "score2": "127.50",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Raaaaaaaandy",
+    "score1": "74.72",
+    "team2": "SHARKEISHA NO",
+    "score2": "76.39",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "The Commish",
+    "score1": "188.92",
+    "team2": "Goatse XII",
+    "score2": "60.00",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Bad Rivers Tribe",
+    "score1": "125.68",
+    "team2": "el Tropicos",
+    "score2": "108.54",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "DarnoldMonos",
+    "score1": "91.90",
+    "team2": "The Brown Bears",
+    "score2": "114.19",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Raaaaaaaandy",
+    "score1": "106.58",
+    "team2": "Go Birds",
+    "score2": "56.26",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "SHARKEISHA NO",
+    "score1": "87.65",
+    "team2": "Piggy",
+    "score2": "65.15",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "The Commish",
+    "score1": "79.39",
+    "team2": "DarnoldMonos",
+    "score2": "88.77",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Bad Rivers Tribe",
+    "score1": "98.25",
+    "team2": "Goatse XII",
+    "score2": "85.68",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "el Tropicos",
+    "score1": "99.22",
+    "team2": "Piggy",
+    "score2": "118.22",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Raaaaaaaandy",
+    "score1": "86.37",
+    "team2": "The Brown Bears",
+    "score2": "98.90",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "SHARKEISHA NO",
+    "score1": "91.00",
+    "team2": "Go Birds",
+    "score2": "155.96",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 14,
+    "team1": "The Commish",
+    "score1": "128.41",
+    "team2": "Piggy",
+    "score2": "103.87",
+    "playoff": true,
+    "round": "Quarterfinal"
+  },
+  {
+    "week": 14,
+    "team1": "DarnoldMonos",
+    "score1": "103.94",
+    "team2": "The Brown Bears",
+    "score2": "144.40",
+    "playoff": true,
+    "round": "Quarterfinal"
+  },
+  {
+    "week": 15,
+    "team1": "The Commish",
+    "score1": "92.07",
+    "team2": "Go Birds",
+    "score2": "143.42",
+    "playoff": true,
+    "round": "Semifinal"
+  },
+  {
+    "week": 15,
+    "team1": "Bad Rivers Tribe",
+    "score1": "123.96",
+    "team2": "The Brown Bears",
+    "score2": "71.02",
+    "playoff": true,
+    "round": "Semifinal"
+  },
+  {
+    "week": 15,
+    "team1": "el Tropicos",
+    "score1": "95.64",
+    "team2": "Goatse XII",
+    "score2": "111.97",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 15,
+    "team1": "DarnoldMonos",
+    "score1": "110.99",
+    "team2": "Piggy",
+    "score2": "131.94",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 15,
+    "team1": "Raaaaaaaandy",
+    "score1": "101.66",
+    "team2": "SHARKEISHA NO",
+    "score2": "42.05",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 16,
+    "team1": "The Commish",
+    "score1": "80.71",
+    "team2": "The Brown Bears",
+    "score2": "105.39",
+    "playoff": true,
+    "round": "3rd Place"
+  },
+  {
+    "week": 16,
+    "team1": "Bad Rivers Tribe",
+    "score1": "107.20",
+    "team2": "Go Birds",
+    "score2": "128.54",
+    "playoff": true,
+    "round": "Championship"
+  },
+  {
+    "week": 16,
+    "team1": "el Tropicos",
+    "score1": "92.95",
+    "team2": "SHARKEISHA NO",
+    "score2": "66.79",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 16,
+    "team1": "Goatse XII",
+    "score1": "83.52",
+    "team2": "Raaaaaaaandy",
+    "score2": "117.87",
+    "playoff": true,
+    "round": "Consolation"
+  }
+]

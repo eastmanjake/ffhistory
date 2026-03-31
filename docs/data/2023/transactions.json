@@ -1,0 +1,7548 @@
+[
+  {
+    "type": "Add",
+    "date": "2023-12-30",
+    "player": "Demarcus Robinson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-30",
+    "player": "Dameon Pierce",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-30",
+    "player": "Jamaal Williams",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-30",
+    "player": "Rhamondre Stevenson",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-29",
+    "player": "Dalton Schultz",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-28",
+    "player": "Rashid Shaheed",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-28",
+    "player": "Ravens",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-27",
+    "player": "Bears",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-27",
+    "player": "Brandin Cooks",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-27",
+    "player": "Jake Moody",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-27",
+    "player": "Wil Lutz",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-27",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-27",
+    "player": "Packers",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-25",
+    "player": "Zamir White",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-25",
+    "player": "Jerick McKinnon",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-21",
+    "player": "Tyler Bass",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-21",
+    "player": "Evan McPherson",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-20",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-20",
+    "player": "Raiders",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-20",
+    "player": "Baker Mayfield",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-20",
+    "player": "Jerry Jeudy",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-20",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-20",
+    "player": "Vikings",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-18",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-18",
+    "player": "Tyjae Spears",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-16",
+    "player": "Dolphins",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-14",
+    "player": "Isaiah Likely",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-14",
+    "player": "Cole Kmet",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-13",
+    "player": "Evan McPherson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-13",
+    "player": "Jason Myers",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-13",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-13",
+    "player": "Bengals",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-13",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-13",
+    "player": "Packers",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-13",
+    "player": "Matthew Stafford",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-13",
+    "player": "Jordan Love",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-13",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-13",
+    "player": "Patriots",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-13",
+    "player": "Trevor Lawrence",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-13",
+    "player": "Justin Herbert",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-13",
+    "player": "Ty Chandler",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-13",
+    "player": "Khalil Herbert",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-10",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-10",
+    "player": "Lions",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-10",
+    "player": "Drake London",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-10",
+    "player": "Dalton Schultz",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-09",
+    "player": "Brandon Aubrey",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-09",
+    "player": "Riley Patterson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-09",
+    "player": "Jordan Love",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-09",
+    "player": "Joshua Dobbs",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-08",
+    "player": "Jerick McKinnon",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-08",
+    "player": "Trevor Lawrence",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-08",
+    "player": "Clyde Edwards-Helaire",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-08",
+    "player": "Kenneth Gainwell",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Eagles",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Joshua Kelley",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Jordan Love",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Rams",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Kenneth Gainwell",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Isaiah Likely",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Elijah Moore",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "D'Ernest Johnson",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Brandon Aubrey",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Jaxon Smith-Njigba",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Logan Thomas",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Chiefs",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Romeo Doubs",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Jahan Dotson",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Texans",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Buccaneers",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Joshua Dobbs",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Drake London",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Brandin Cooks",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Tank Dell",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Christian Watson",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Pat Freiermuth",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Ezekiel Elliott",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Tyler Boyd",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Aaron Jones Sr.",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-06",
+    "player": "Christian Kirk",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-03",
+    "player": "D'Ernest Johnson",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-03",
+    "player": "Greg Dortch",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-02",
+    "player": "Greg Dortch",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-02",
+    "player": "Jamaal Williams",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-02",
+    "player": "Kyle Pitts Sr.",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-02",
+    "player": "Ravens",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-02",
+    "player": "Tyler Allgeier",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-02",
+    "player": "Aaron Jones Sr.",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-02",
+    "player": "Cole Kmet",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-12-02",
+    "player": "Joshua Kelley",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Wil Lutz",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Tyler Bass",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Josh Downs",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Jordan Love",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Ty Chandler",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Buccaneers",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Vikings",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Russell Wilson",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Cole Kmet",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Antonio Gibson",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Rashid Shaheed",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Logan Thomas",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Quentin Johnston",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Lions",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Brandon Aubrey",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Titans",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Patriots",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Pat Freiermuth",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Tyler Allgeier",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-29",
+    "player": "Jared Goff",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-26",
+    "player": "Mike Williams",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-26",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-26",
+    "player": "Bills",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-26",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-26",
+    "player": "Kenneth Gainwell",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-26",
+    "player": "Kenneth Gainwell",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-26",
+    "player": "Tyler Higbee",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Josh Downs",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Michael Thomas",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Younghoe Koo",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Brandon Aubrey",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Jaxon Smith-Njigba",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Broncos",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Commanders",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Jayden Reed",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Brandin Cooks",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Isaiah Likely",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Dolphins",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "A.J. Dillon",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Antonio Gibson",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Harrison Butker",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Evan McPherson",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Trevor Lawrence",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Geno Smith",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Odell Beckham Jr.",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Leonard Fournette",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Brock Purdy",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Joe Burrow",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "David Njoku",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Ezekiel Elliott",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-22",
+    "player": "Darrell Henderson Jr.",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-19",
+    "player": "Tyler Higbee",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-19",
+    "player": "Noah Fant",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-19",
+    "player": "Noah Fant",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-19",
+    "player": "Brock Purdy",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-18",
+    "player": "Christian Watson",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-18",
+    "player": "Cole Kmet",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-18",
+    "player": "Hunter Henry",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-17",
+    "player": "Sam Howell",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-17",
+    "player": "Younghoe Koo",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-16",
+    "player": "Riley Patterson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-16",
+    "player": "Greg Zuerlein",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Brandon McManus",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Blake Grupe",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Jaguars",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Trevor Lawrence",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Raiders",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Brandin Cooks",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Jared Goff",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Colts",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Jake Elliott",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Cole Kmet",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Jason Sanders",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Cameron Dicker",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Falcons",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Seahawks",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Steelers",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Ty Chandler",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Samaje Perine",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Noah Brown",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Justice Hill",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Trey McBride",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-15",
+    "player": "Kyle Pitts Sr.",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-13",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-13",
+    "player": "Royce Freeman",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-12",
+    "player": "Samaje Perine",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-12",
+    "player": "Roschon Johnson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-12",
+    "player": "Geno Smith",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-12",
+    "player": "Deshaun Watson",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-11",
+    "player": "Rashee Rice",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-11",
+    "player": "Miles Sanders",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-10",
+    "player": "Emari Demercado",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-09",
+    "player": "Greg Zuerlein",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-09",
+    "player": "Jake Elliott",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-09",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-09",
+    "player": "Rashee Rice",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-09",
+    "player": "Brock Purdy",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-09",
+    "player": "Derek Carr",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Seahawks",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Patriots",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Vikings",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Brandon Aubrey",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Jason Sanders",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Jared Goff",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Trey McBride",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Antonio Gibson",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Pierre Strong Jr.",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Cameron Dicker",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Harrison Butker",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Tyler Boyd",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Romeo Doubs",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Cole Kmet",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Matthew Stafford",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Darren Waller",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Keaton Mitchell",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Elijah Moore",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "C.J. Stroud",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "D'Onta Foreman",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Tank Dell",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Josh Downs",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-08",
+    "player": "Browns",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-07",
+    "player": "Logan Thomas",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-06",
+    "player": "Joshua Kelley",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-06",
+    "player": "Cam Akers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-05",
+    "player": "Quentin Johnston",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-05",
+    "player": "Joshua Palmer",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-05",
+    "player": "Logan Thomas",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-05",
+    "player": "Darren Waller",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-04",
+    "player": "Trevor Lawrence",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-04",
+    "player": "Jameson Williams",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-03",
+    "player": "Deshaun Watson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-03",
+    "player": "Baker Mayfield",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-03",
+    "player": "Blake Grupe",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-03",
+    "player": "Brandon McManus",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-03",
+    "player": "Devin Singletary",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-03",
+    "player": "Joshua Kelley",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-02",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-02",
+    "player": "Buccaneers",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-02",
+    "player": "Jake Ferguson",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-02",
+    "player": "Logan Thomas",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Seahawks",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Chiefs",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Baker Mayfield",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Trevor Lawrence",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Taysom Hill",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "C.J. Stroud",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Derek Carr",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Taysom Hill",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Taysom Hill",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Kirk Cousins",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Rashid Shaheed",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Tutu Atwell",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Lions",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Jaxon Smith-Njigba",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Elijah Mitchell",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Dalton Schultz",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Jaleel McLaughlin",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Trey McBride",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Josh Reynolds",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Logan Thomas",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Rico Dowdle",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Dolphins",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Leonard Fournette",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "A.J. Dillon",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Dak Prescott",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-11-01",
+    "player": "Jared Goff",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-29",
+    "player": "Joshua Kelley",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-29",
+    "player": "Jaxon Smith-Njigba",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-28",
+    "player": "Kirk Cousins",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-28",
+    "player": "Brock Purdy",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-26",
+    "player": "Jason Sanders",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-26",
+    "player": "Jake Moody",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Pierre Strong Jr.",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Tank Dell",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Joshua Palmer",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Jeff Wilson Jr.",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Dalton Kincaid",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Jonnu Smith",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Buccaneers",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Commanders",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Dustin Hopkins",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Brett Maher",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Kyler Murray",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "C.J. Stroud",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Jordan Love",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Raiders",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Rashee Rice",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "K.J. Osborn",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Josh Downs",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Rams",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-25",
+    "player": "Graham Gano",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-23",
+    "player": "Evan McPherson",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-23",
+    "player": "C.J. Stroud",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-22",
+    "player": "Darrell Henderson Jr.",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-22",
+    "player": "Zach Evans",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-22",
+    "player": "Jordan Mason",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-22",
+    "player": "Royce Freeman",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-22",
+    "player": "Joshua Palmer",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-22",
+    "player": "Antonio Gibson",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-21",
+    "player": "C.J. Stroud",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-21",
+    "player": "Sam Howell",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-21",
+    "player": "Brock Purdy",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-21",
+    "player": "Deshaun Watson",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Brandon McManus",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Brandon Aubrey",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Chiefs",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Jason Myers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Nick Folk",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Dolphins",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Jonnu Smith",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Cole Kmet",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Sam Howell",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Kirk Cousins",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Graham Gano",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Evan McPherson",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Seahawks",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Falcons",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Brock Purdy",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Jaleel McLaughlin",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Keaontay Ingram",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Deshaun Watson",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Kenneth Gainwell",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "A.J. Dillon",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Salvon Ahmed",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Jordan Mason",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Logan Thomas",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Zach Evans",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-18",
+    "player": "Kendre Miller",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-16",
+    "player": "Jordan Love",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-16",
+    "player": "Anthony Richardson Sr.",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-14",
+    "player": "Jaylen Warren",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-14",
+    "player": "D'Onta Foreman",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-14",
+    "player": "Jaleel McLaughlin",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-13",
+    "player": "Matthew Stafford",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-13",
+    "player": "C.J. Stroud",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-13",
+    "player": "Salvon Ahmed",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-13",
+    "player": "Quentin Johnston",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-13",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-13",
+    "player": "Cowboys",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-12",
+    "player": "Kendre Miller",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "Keaontay Ingram",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "A.J. Dillon",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "Commanders",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "Rico Dowdle",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "Dalvin Cook",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "Logan Thomas",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "Michael Wilson",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "Antonio Gibson",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "Marvin Mims Jr.",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "Cole Kmet",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "Hunter Henry",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "Texans",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "Lions",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "Tutu Atwell",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "K.J. Osborn",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "Jordan Love",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-11",
+    "player": "Emari Demercado",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-10",
+    "player": "Matt Breida",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-09",
+    "player": "A.J. Dillon",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-09",
+    "player": "Chase Claypool",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-09",
+    "player": "Kareem Hunt",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-09",
+    "player": "Joshua Kelley",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-08",
+    "player": "Chuba Hubbard",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-08",
+    "player": "Jaylen Warren",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-08",
+    "player": "Matt Breida",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-08",
+    "player": "Tutu Atwell",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-08",
+    "player": "Jaguars",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-07",
+    "player": "Kirk Cousins",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-07",
+    "player": "Deshaun Watson",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-07",
+    "player": "Chase Claypool",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-07",
+    "player": "Kareem Hunt",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-05",
+    "player": "Texans",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-05",
+    "player": "A.J. Dillon",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-05",
+    "player": "Nick Folk",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-05",
+    "player": "Dustin Hopkins",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-04",
+    "player": "Jared Goff",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-04",
+    "player": "Kirk Cousins",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-04",
+    "player": "Brandon Aubrey",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-04",
+    "player": "Cameron Dicker",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-04",
+    "player": "Michael Wilson",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-04",
+    "player": "Daniel Jones",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-04",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-04",
+    "player": "Chiefs",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-04",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-04",
+    "player": "Browns",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-04",
+    "player": "Brock Purdy",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-04",
+    "player": "Steelers",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-04",
+    "player": "C.J. Stroud",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-04",
+    "player": "Dak Prescott",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-04",
+    "player": "Jaleel McLaughlin",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-10-04",
+    "player": "Bengals",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-30",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-30",
+    "player": "Patriots",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-30",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-30",
+    "player": "Darnell Mooney",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-28",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-28",
+    "player": "Seahawks",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-28",
+    "player": "Ezekiel Elliott",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "David Njoku",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Dustin Hopkins",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Jason Sanders",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Marvin Mims Jr.",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Leonard Fournette",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Quentin Johnston",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Kendrick Bourne",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Jordan Love",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Allen Lazard",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Romeo Doubs",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Tank Bigsby",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Patriots",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Adam Thielen",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Zay Jones",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Joshua Palmer",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Rashaad Penny",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Tank Dell",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-27",
+    "player": "Brandin Cooks",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Dak Prescott",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Matthew Stafford",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Matthew Stafford",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Seahawks",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Tyler Higbee",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Brett Maher",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Jason Myers",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Cameron Dicker",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Daniel Carlson",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Browns",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Leonard Fournette",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Damien Harris",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Jaguars",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Lions",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Kirk Cousins",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Romeo Doubs",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Josh Reynolds",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Quentin Johnston",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Zack Moss",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Rashid Shaheed",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Broncos",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "Kareem Hunt",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-20",
+    "player": "JuJu Smith-Schuster",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-18",
+    "player": "Rashid Shaheed",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-18",
+    "player": "Jerome Ford",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-18",
+    "player": "Ezekiel Elliott",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-18",
+    "player": "Jaylen Warren",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-18",
+    "player": "Odell Beckham Jr.",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-17",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-17",
+    "player": "Rashee Rice",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-17",
+    "player": "Jameson Williams",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-17",
+    "player": "Michael Carter",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-17",
+    "player": "Jake Moody",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-17",
+    "player": "Greg Zuerlein",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-15",
+    "player": "Tutu Atwell",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-15",
+    "player": "Patriots",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Zay Jones",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Marvin Mims Jr.",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Nico Collins",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Antonio Gibson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Justice Hill",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Kadarius Toney",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Kyren Williams",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Rashod Bateman",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Jaguars",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Kendrick Bourne",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Treylon Burks",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Commanders",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Sam LaPorta",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Pat Freiermuth",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Anthony Richardson Sr.",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Aaron Rodgers",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Darnell Mooney",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Samaje Perine",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Tua Tagovailoa",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Dalton Schultz",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Jakobi Meyers",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Jerick McKinnon",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Puka Nacua",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Juwan Johnson",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Joshua Kelley",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Skyy Moore",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "Gus Edwards",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-13",
+    "player": "J.K. Dobbins",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-11",
+    "player": "Michael Carter",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-11",
+    "player": "Adam Thielen",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-11",
+    "player": "Aaron Rodgers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-11",
+    "player": "Gerald Everett",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-10",
+    "player": "Gerald Everett",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-10",
+    "player": "Jason Sanders",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-10",
+    "player": "Kareem Hunt",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-10",
+    "player": "Marvin Mims Jr.",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-10",
+    "player": "Gus Edwards",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-09",
+    "player": "Dalton Schultz",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-09",
+    "player": "Jaylen Warren",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-08",
+    "player": "Roschon Johnson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-08",
+    "player": "Kendre Miller",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-05",
+    "player": "Juwan Johnson",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-05",
+    "player": "Ty Chandler",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-05",
+    "player": "Tyler Higbee",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-05",
+    "player": "Jakobi Meyers",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-03",
+    "player": "Rashee Rice",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-03",
+    "player": "Cordarrelle Patterson",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-03",
+    "player": "Jerick McKinnon",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Add",
+    "date": "2023-09-03",
+    "player": "Rondale Moore",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-08-31",
+    "player": "Deon Jackson",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-08-31",
+    "player": "Kyler Murray",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-08-31",
+    "player": "Kareem Hunt",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-08-31",
+    "player": "Devin Singletary",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-08-31",
+    "player": "Kyler Murray",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2023-08-31",
+    "player": "Jason Myers",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-08-30",
+    "player": "Deon Jackson",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-08-29",
+    "player": "Gus Edwards",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Add",
+    "date": "2023-08-29",
+    "player": "Darnell Mooney",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-08-29",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2023-08-29",
+    "player": "Jerick McKinnon",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-08-29",
+    "player": "Kendre Miller",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2023-08-29",
+    "player": "Nico Collins",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2023-08-28",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2023-08-28",
+    "player": "Zane Gonzalez",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-30",
+    "player": "Demarcus Robinson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-30",
+    "player": "Dameon Pierce",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-30",
+    "player": "Jamaal Williams",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-30",
+    "player": "Rhamondre Stevenson",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-29",
+    "player": "Dalton Schultz",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-28",
+    "player": "Rashid Shaheed",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-28",
+    "player": "Ravens",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-27",
+    "player": "Bears",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-27",
+    "player": "Brandin Cooks",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-27",
+    "player": "Jake Moody",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-27",
+    "player": "Wil Lutz",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-27",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-27",
+    "player": "Packers",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-25",
+    "player": "Zamir White",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-25",
+    "player": "Jerick McKinnon",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-21",
+    "player": "Tyler Bass",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-21",
+    "player": "Evan McPherson",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-20",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-20",
+    "player": "Raiders",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-20",
+    "player": "Baker Mayfield",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-20",
+    "player": "Jerry Jeudy",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-20",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-20",
+    "player": "Vikings",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-18",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-18",
+    "player": "Tyjae Spears",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-16",
+    "player": "Dolphins",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-14",
+    "player": "Isaiah Likely",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-14",
+    "player": "Cole Kmet",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-13",
+    "player": "Evan McPherson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-13",
+    "player": "Jason Myers",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-13",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-13",
+    "player": "Bengals",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-13",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-13",
+    "player": "Packers",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-13",
+    "player": "Matthew Stafford",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-13",
+    "player": "Jordan Love",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-13",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-13",
+    "player": "Patriots",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-13",
+    "player": "Trevor Lawrence",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-13",
+    "player": "Justin Herbert",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-13",
+    "player": "Ty Chandler",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-13",
+    "player": "Khalil Herbert",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-10",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-10",
+    "player": "Lions",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-10",
+    "player": "Drake London",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-10",
+    "player": "Dalton Schultz",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-09",
+    "player": "Brandon Aubrey",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-09",
+    "player": "Riley Patterson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-09",
+    "player": "Jordan Love",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-09",
+    "player": "Joshua Dobbs",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-08",
+    "player": "Jerick McKinnon",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-08",
+    "player": "Trevor Lawrence",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-08",
+    "player": "Clyde Edwards-Helaire",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-08",
+    "player": "Kenneth Gainwell",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Eagles",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Joshua Kelley",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Jordan Love",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Rams",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Kenneth Gainwell",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Isaiah Likely",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Elijah Moore",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "D'Ernest Johnson",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Brandon Aubrey",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Jaxon Smith-Njigba",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Logan Thomas",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Chiefs",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Romeo Doubs",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Jahan Dotson",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Texans",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Buccaneers",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Joshua Dobbs",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Drake London",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Brandin Cooks",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Tank Dell",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Christian Watson",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Pat Freiermuth",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Ezekiel Elliott",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Tyler Boyd",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Aaron Jones Sr.",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-06",
+    "player": "Christian Kirk",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-03",
+    "player": "D'Ernest Johnson",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-03",
+    "player": "Greg Dortch",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-02",
+    "player": "Greg Dortch",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-02",
+    "player": "Jamaal Williams",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-02",
+    "player": "Kyle Pitts Sr.",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-02",
+    "player": "Ravens",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-02",
+    "player": "Tyler Allgeier",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-02",
+    "player": "Aaron Jones Sr.",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-02",
+    "player": "Cole Kmet",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-12-02",
+    "player": "Joshua Kelley",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Wil Lutz",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Tyler Bass",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Josh Downs",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Jordan Love",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Ty Chandler",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Buccaneers",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Vikings",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Russell Wilson",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Cole Kmet",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Antonio Gibson",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Rashid Shaheed",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Logan Thomas",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Quentin Johnston",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Lions",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Brandon Aubrey",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Titans",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Patriots",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Pat Freiermuth",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Tyler Allgeier",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-29",
+    "player": "Jared Goff",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-26",
+    "player": "Mike Williams",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-26",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-26",
+    "player": "Bills",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-26",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-26",
+    "player": "Kenneth Gainwell",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-26",
+    "player": "Kenneth Gainwell",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-26",
+    "player": "Tyler Higbee",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Josh Downs",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Michael Thomas",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Younghoe Koo",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Brandon Aubrey",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Jaxon Smith-Njigba",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Broncos",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Commanders",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Jayden Reed",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Brandin Cooks",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Isaiah Likely",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Dolphins",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "A.J. Dillon",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Antonio Gibson",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Harrison Butker",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Evan McPherson",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Trevor Lawrence",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Geno Smith",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Odell Beckham Jr.",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Leonard Fournette",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Brock Purdy",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Joe Burrow",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "David Njoku",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Ezekiel Elliott",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-22",
+    "player": "Darrell Henderson Jr.",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-19",
+    "player": "Tyler Higbee",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-19",
+    "player": "Noah Fant",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-19",
+    "player": "Noah Fant",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-19",
+    "player": "Brock Purdy",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-18",
+    "player": "Christian Watson",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-18",
+    "player": "Cole Kmet",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-18",
+    "player": "Hunter Henry",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-17",
+    "player": "Sam Howell",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-17",
+    "player": "Younghoe Koo",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-16",
+    "player": "Riley Patterson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-16",
+    "player": "Greg Zuerlein",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Brandon McManus",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Blake Grupe",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Jaguars",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Trevor Lawrence",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Raiders",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Brandin Cooks",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Jared Goff",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Colts",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Jake Elliott",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Cole Kmet",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Jason Sanders",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Cameron Dicker",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Falcons",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Seahawks",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Steelers",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Ty Chandler",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Samaje Perine",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Noah Brown",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Justice Hill",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Trey McBride",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-15",
+    "player": "Kyle Pitts Sr.",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-13",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-13",
+    "player": "Royce Freeman",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-12",
+    "player": "Samaje Perine",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-12",
+    "player": "Roschon Johnson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-12",
+    "player": "Geno Smith",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-12",
+    "player": "Deshaun Watson",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-11",
+    "player": "Rashee Rice",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-11",
+    "player": "Miles Sanders",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-10",
+    "player": "Emari Demercado",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-09",
+    "player": "Greg Zuerlein",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-09",
+    "player": "Jake Elliott",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-09",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-09",
+    "player": "Rashee Rice",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-09",
+    "player": "Brock Purdy",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-09",
+    "player": "Derek Carr",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Seahawks",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Patriots",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Vikings",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Brandon Aubrey",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Jason Sanders",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Jared Goff",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Trey McBride",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Antonio Gibson",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Pierre Strong Jr.",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Cameron Dicker",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Harrison Butker",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Tyler Boyd",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Romeo Doubs",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Cole Kmet",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Matthew Stafford",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Darren Waller",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Keaton Mitchell",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Elijah Moore",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "C.J. Stroud",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "D'Onta Foreman",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Tank Dell",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Josh Downs",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-08",
+    "player": "Browns",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-07",
+    "player": "Logan Thomas",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-06",
+    "player": "Joshua Kelley",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-06",
+    "player": "Cam Akers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-05",
+    "player": "Quentin Johnston",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-05",
+    "player": "Joshua Palmer",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-05",
+    "player": "Logan Thomas",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-05",
+    "player": "Darren Waller",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-04",
+    "player": "Trevor Lawrence",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-04",
+    "player": "Jameson Williams",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-03",
+    "player": "Deshaun Watson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-03",
+    "player": "Baker Mayfield",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-03",
+    "player": "Blake Grupe",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-03",
+    "player": "Brandon McManus",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-03",
+    "player": "Devin Singletary",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-03",
+    "player": "Joshua Kelley",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-02",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-02",
+    "player": "Buccaneers",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-02",
+    "player": "Jake Ferguson",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-02",
+    "player": "Logan Thomas",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Seahawks",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Chiefs",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Baker Mayfield",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Trevor Lawrence",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Taysom Hill",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "C.J. Stroud",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Derek Carr",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Taysom Hill",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Taysom Hill",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Kirk Cousins",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Rashid Shaheed",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Tutu Atwell",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Lions",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Jaxon Smith-Njigba",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Elijah Mitchell",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Dalton Schultz",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Jaleel McLaughlin",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Trey McBride",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Josh Reynolds",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Logan Thomas",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Rico Dowdle",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Dolphins",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Leonard Fournette",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "A.J. Dillon",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Dak Prescott",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-11-01",
+    "player": "Jared Goff",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-29",
+    "player": "Joshua Kelley",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-29",
+    "player": "Jaxon Smith-Njigba",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-28",
+    "player": "Kirk Cousins",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-28",
+    "player": "Brock Purdy",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-26",
+    "player": "Jason Sanders",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-26",
+    "player": "Jake Moody",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Pierre Strong Jr.",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Tank Dell",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Joshua Palmer",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Jeff Wilson Jr.",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Dalton Kincaid",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Jonnu Smith",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Buccaneers",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Commanders",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Dustin Hopkins",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Brett Maher",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Kyler Murray",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "C.J. Stroud",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Jordan Love",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Raiders",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Rashee Rice",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "K.J. Osborn",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Josh Downs",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Rams",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-25",
+    "player": "Graham Gano",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-23",
+    "player": "Evan McPherson",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-23",
+    "player": "C.J. Stroud",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-22",
+    "player": "Darrell Henderson Jr.",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-22",
+    "player": "Zach Evans",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-22",
+    "player": "Jordan Mason",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-22",
+    "player": "Royce Freeman",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-22",
+    "player": "Joshua Palmer",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-22",
+    "player": "Antonio Gibson",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-21",
+    "player": "C.J. Stroud",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-21",
+    "player": "Sam Howell",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-21",
+    "player": "Brock Purdy",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-21",
+    "player": "Deshaun Watson",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Brandon McManus",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Brandon Aubrey",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Chiefs",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Jason Myers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Nick Folk",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Dolphins",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Jonnu Smith",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Cole Kmet",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Sam Howell",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Kirk Cousins",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Graham Gano",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Evan McPherson",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Seahawks",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Falcons",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Brock Purdy",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Jaleel McLaughlin",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Keaontay Ingram",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Deshaun Watson",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Kenneth Gainwell",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "A.J. Dillon",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Salvon Ahmed",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Jordan Mason",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Logan Thomas",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Zach Evans",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-18",
+    "player": "Kendre Miller",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-16",
+    "player": "Jordan Love",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-16",
+    "player": "Anthony Richardson Sr.",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-14",
+    "player": "Jaylen Warren",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-14",
+    "player": "D'Onta Foreman",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-14",
+    "player": "Jaleel McLaughlin",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-13",
+    "player": "Matthew Stafford",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-13",
+    "player": "C.J. Stroud",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-13",
+    "player": "Salvon Ahmed",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-13",
+    "player": "Quentin Johnston",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-13",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-13",
+    "player": "Cowboys",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-12",
+    "player": "Kendre Miller",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "Keaontay Ingram",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "A.J. Dillon",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "Commanders",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "Rico Dowdle",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "Dalvin Cook",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "Logan Thomas",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "Michael Wilson",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "Antonio Gibson",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "Marvin Mims Jr.",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "Cole Kmet",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "Hunter Henry",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "Texans",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "Lions",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "Tutu Atwell",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "K.J. Osborn",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "Jordan Love",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-11",
+    "player": "Emari Demercado",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-10",
+    "player": "Matt Breida",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-09",
+    "player": "A.J. Dillon",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-09",
+    "player": "Chase Claypool",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-09",
+    "player": "Kareem Hunt",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-09",
+    "player": "Joshua Kelley",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-08",
+    "player": "Chuba Hubbard",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-08",
+    "player": "Jaylen Warren",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-08",
+    "player": "Matt Breida",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-08",
+    "player": "Tutu Atwell",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-08",
+    "player": "Jaguars",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-07",
+    "player": "Kirk Cousins",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-07",
+    "player": "Deshaun Watson",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-07",
+    "player": "Chase Claypool",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-07",
+    "player": "Kareem Hunt",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-05",
+    "player": "Texans",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-05",
+    "player": "A.J. Dillon",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-05",
+    "player": "Nick Folk",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-05",
+    "player": "Dustin Hopkins",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-04",
+    "player": "Jared Goff",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-04",
+    "player": "Kirk Cousins",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-04",
+    "player": "Brandon Aubrey",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-04",
+    "player": "Cameron Dicker",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-04",
+    "player": "Michael Wilson",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-04",
+    "player": "Daniel Jones",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-04",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-04",
+    "player": "Chiefs",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-04",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-04",
+    "player": "Browns",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-04",
+    "player": "Brock Purdy",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-04",
+    "player": "Steelers",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-04",
+    "player": "C.J. Stroud",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-04",
+    "player": "Dak Prescott",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-04",
+    "player": "Jaleel McLaughlin",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-10-04",
+    "player": "Bengals",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-30",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-30",
+    "player": "Patriots",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-30",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-30",
+    "player": "Darnell Mooney",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-28",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-28",
+    "player": "Seahawks",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-28",
+    "player": "Ezekiel Elliott",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "David Njoku",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Dustin Hopkins",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Jason Sanders",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Marvin Mims Jr.",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Leonard Fournette",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Quentin Johnston",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Kendrick Bourne",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Jordan Love",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Allen Lazard",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Romeo Doubs",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Tank Bigsby",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Patriots",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Adam Thielen",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Zay Jones",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Joshua Palmer",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Rashaad Penny",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Tank Dell",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-27",
+    "player": "Brandin Cooks",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Dak Prescott",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Matthew Stafford",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Matthew Stafford",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Seahawks",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Tyler Higbee",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Brett Maher",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Jason Myers",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Cameron Dicker",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Daniel Carlson",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Browns",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Leonard Fournette",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Damien Harris",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Jaguars",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Lions",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Kirk Cousins",
+    "from": "FA/Waiver",
+    "to": "Piggy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Romeo Doubs",
+    "from": "Piggy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Josh Reynolds",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Quentin Johnston",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Zack Moss",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Rashid Shaheed",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Broncos",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "Kareem Hunt",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-20",
+    "player": "JuJu Smith-Schuster",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-18",
+    "player": "Rashid Shaheed",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-18",
+    "player": "Jerome Ford",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-18",
+    "player": "Ezekiel Elliott",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-18",
+    "player": "Jaylen Warren",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-18",
+    "player": "Odell Beckham Jr.",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-17",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-17",
+    "player": "Rashee Rice",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-17",
+    "player": "Jameson Williams",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-17",
+    "player": "Michael Carter",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-17",
+    "player": "Jake Moody",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-17",
+    "player": "Greg Zuerlein",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-15",
+    "player": "Tutu Atwell",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-15",
+    "player": "Patriots",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Zay Jones",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Marvin Mims Jr.",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Nico Collins",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Antonio Gibson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Justice Hill",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Kadarius Toney",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Kyren Williams",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Rashod Bateman",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Jaguars",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Kendrick Bourne",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Treylon Burks",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Commanders",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Sam LaPorta",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Pat Freiermuth",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Anthony Richardson Sr.",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Aaron Rodgers",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Darnell Mooney",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Samaje Perine",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Tua Tagovailoa",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Dalton Schultz",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Jakobi Meyers",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Jerick McKinnon",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Puka Nacua",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Juwan Johnson",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Joshua Kelley",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Skyy Moore",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "Gus Edwards",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-13",
+    "player": "J.K. Dobbins",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-11",
+    "player": "Michael Carter",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-11",
+    "player": "Adam Thielen",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-11",
+    "player": "Aaron Rodgers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-11",
+    "player": "Gerald Everett",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-10",
+    "player": "Gerald Everett",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-10",
+    "player": "Jason Sanders",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-10",
+    "player": "Kareem Hunt",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-10",
+    "player": "Marvin Mims Jr.",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-10",
+    "player": "Gus Edwards",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-09",
+    "player": "Dalton Schultz",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-09",
+    "player": "Jaylen Warren",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-08",
+    "player": "Roschon Johnson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-08",
+    "player": "Kendre Miller",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-05",
+    "player": "Juwan Johnson",
+    "from": "FA/Waiver",
+    "to": "Goatse XV"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-05",
+    "player": "Ty Chandler",
+    "from": "Goatse XV",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-05",
+    "player": "Tyler Higbee",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-05",
+    "player": "Jakobi Meyers",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-03",
+    "player": "Rashee Rice",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-03",
+    "player": "Cordarrelle Patterson",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-03",
+    "player": "Jerick McKinnon",
+    "from": "FA/Waiver",
+    "to": "GodDamJets"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-09-03",
+    "player": "Rondale Moore",
+    "from": "GodDamJets",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-08-31",
+    "player": "Deon Jackson",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-08-31",
+    "player": "Kyler Murray",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-08-31",
+    "player": "Kareem Hunt",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-08-31",
+    "player": "Devin Singletary",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-08-31",
+    "player": "Kyler Murray",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-08-31",
+    "player": "Jason Myers",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-08-30",
+    "player": "Deon Jackson",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-08-29",
+    "player": "Gus Edwards",
+    "from": "FA/Waiver",
+    "to": "Go Birds"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-08-29",
+    "player": "Darnell Mooney",
+    "from": "Go Birds",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-08-29",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-08-29",
+    "player": "Jerick McKinnon",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-08-29",
+    "player": "Kendre Miller",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-08-29",
+    "player": "Nico Collins",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-08-28",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2023-08-28",
+    "player": "Zane Gonzalez",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  }
+]

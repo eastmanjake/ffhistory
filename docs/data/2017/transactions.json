@@ -1,0 +1,9522 @@
+[
+  {
+    "type": "Add",
+    "date": "2017-12-22",
+    "player": "Mike Wallace",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-22",
+    "player": "Mike Davis",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-21",
+    "player": "Graham Gano",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-21",
+    "player": "Greg Zuerlein",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-20",
+    "player": "Robert Woods",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-20",
+    "player": "Bills",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-20",
+    "player": "Keelan Cole Sr.",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-20",
+    "player": "Rex Burkhead",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-20",
+    "player": "Nick Foles",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-20",
+    "player": "James Conner",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-20",
+    "player": "Chris Boswell",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-20",
+    "player": "Robbie Gould",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-20",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-20",
+    "player": "Saints",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-20",
+    "player": "Martavis Bryant",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-20",
+    "player": "Vikings",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-16",
+    "player": "Colin Kaepernick",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-15",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-15",
+    "player": "Adrian Peterson",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-15",
+    "player": "Kerwynn Williams",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-15",
+    "player": "Derek Carr",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-13",
+    "player": "Eric Ebron",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-13",
+    "player": "Titans",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-13",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-13",
+    "player": "Case Keenum",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-13",
+    "player": "Blake Bortles",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-13",
+    "player": "Carson Wentz",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-13",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-13",
+    "player": "Packers",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-09",
+    "player": "Bears",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-09",
+    "player": "Ameer Abdullah",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-09",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-09",
+    "player": "Raiders",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-07",
+    "player": "Jermaine Kearse",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-07",
+    "player": "Martavis Bryant",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-07",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-07",
+    "player": "Robert Woods",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-07",
+    "player": "Robbie Gould",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-07",
+    "player": "Graham Gano",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-06",
+    "player": "Jets",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-06",
+    "player": "Doug Martin",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-06",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-06",
+    "player": "Bears",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-06",
+    "player": "Giovani Bernard",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-06",
+    "player": "Tarik Cohen",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-06",
+    "player": "Derek Carr",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-06",
+    "player": "Steelers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-06",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-06",
+    "player": "Bills",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-06",
+    "player": "Mike Davis",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-06",
+    "player": "Corey Coleman",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-06",
+    "player": "Kenneth Barber",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-06",
+    "player": "Corey Davis",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-04",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-04",
+    "player": "Tyrod Taylor",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-02",
+    "player": "Colin Kaepernick",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-02",
+    "player": "Rams",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-01",
+    "player": "Trey Burton",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-01",
+    "player": "Ty Montgomery II",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-01",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-01",
+    "player": "Paul Richardson",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-01",
+    "player": "Will Fuller V",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-01",
+    "player": "Bears",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2017-12-01",
+    "player": "Kenny Stills",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Graham Gano",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Kai Forbath",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Damien Williams",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Jameis Winston",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Steelers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Kai Forbath",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Adam Vinatieri",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Case Keenum",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Jeremy Maclin",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Brent Celek",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Jason Witten",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Panthers",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Chargers",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Dede Westbrook",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Shelton Gibson",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Rishard Matthews",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Philip Rivers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Dak Prescott",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-29",
+    "player": "Cameron Brate",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-26",
+    "player": "Martavis Bryant",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-26",
+    "player": "Paul Richardson",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-26",
+    "player": "Charles Clay",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-24",
+    "player": "Tyler Kroft",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Corey Clement",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "James White",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Cardinals",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Tyrod Taylor",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Blake Bortles",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Jamison Crowder",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Devontae Booker",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Devontae Booker",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Adam Vinatieri",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Brandon McManus",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Texans",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "J.D. McKissic",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Lions",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Saints",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Ted Ginn Jr.",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Chris Thompson",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Kenny Stills",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Jordan Reed",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-22",
+    "player": "Buccaneers",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-21",
+    "player": "Derek Carr",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-21",
+    "player": "Nathan Peterman",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-18",
+    "player": "Jermaine Kearse",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-18",
+    "player": "Dede Westbrook",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-18",
+    "player": "Paul Richardson",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-17",
+    "player": "Will Fuller V",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-17",
+    "player": "Rodney Smith",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-16",
+    "player": "Buccaneers",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-16",
+    "player": "Giants",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Jermaine Kearse",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Titans",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Vikings",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Nathan Peterman",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Thomas Rawls",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Jonathan Stewart",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Willie Snead IV",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Blake Bortles",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Josh McCown",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Samaje Perine",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Cooper Kupp",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Panthers",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Latavius Murray",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Tyrod Taylor",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Rex Burkhead",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Patriots",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Brandon McManus",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Graham Gano",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Texans",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Bears",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Eric Ebron",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Josh Lambo",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Justin Tucker",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Kai Forbath",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Harrison Butker",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Chris Boswell",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Austin Ekeler",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Terrance Williams",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Jamaal Williams",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Aaron Jones Sr.",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Isaiah Crowell",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-15",
+    "player": "Vernon Davis",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-13",
+    "player": "Broncos",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-13",
+    "player": "Will Fuller V",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-12",
+    "player": "Cooper Kupp",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-12",
+    "player": "Jameis Winston",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-12",
+    "player": "Giants",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-12",
+    "player": "Texans",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-11",
+    "player": "Jack Doyle",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-11",
+    "player": "Jonathan Stewart",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-11",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-11",
+    "player": "Eddie Lacy",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-11",
+    "player": "Tyrod Taylor",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-11",
+    "player": "Mohamed Sanu",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-11",
+    "player": "Rodney Smith",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-11",
+    "player": "Isaiah Crowell",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-10",
+    "player": "Eric Ebron",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-10",
+    "player": "Hunter Henry",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-10",
+    "player": "James White",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-10",
+    "player": "Theo Riddick",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-09",
+    "player": "Terrance Williams",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-09",
+    "player": "Giants",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-09",
+    "player": "Giants",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-09",
+    "player": "Trey Burton",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-09",
+    "player": "Marqise Lee",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-09",
+    "player": "Ka'imi Fairbairn",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-09",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-09",
+    "player": "Jason Witten",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Josh Lambo",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Cooper Kupp",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Thomas Rawls",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Rodney Smith",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Josh McCown",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Cardinals",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Saints",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Chris Boswell",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Harrison Butker",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Bears",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Raiders",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Bills",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Kai Forbath",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Justin Tucker",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Ravens",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Jared Goff",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Jermaine Kearse",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Tyrod Taylor",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Ben Roethlisberger",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Jack Doyle",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Robert Woods",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-08",
+    "player": "Pierre Garcon",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-06",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-06",
+    "player": "Austin Seferian-Jenkins",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-05",
+    "player": "Damien Williams",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-05",
+    "player": "DeAndre Washington",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-05",
+    "player": "Trey Burton",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-05",
+    "player": "Austin Hooper",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-05",
+    "player": "Vernon Davis",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-05",
+    "player": "Hunter Henry",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-05",
+    "player": "Corey Davis",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-05",
+    "player": "Deshaun Watson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-05",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-05",
+    "player": "Panthers",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-04",
+    "player": "DeAndre Washington",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-04",
+    "player": "Darren McFadden",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-04",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-04",
+    "player": "Packers",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-03",
+    "player": "Jeremy Maclin",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-03",
+    "player": "Jamison Crowder",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-03",
+    "player": "Eddie Lacy",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-03",
+    "player": "Damien Williams",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-03",
+    "player": "Austin Hooper",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-03",
+    "player": "Vernon Davis",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-03",
+    "player": "Jamison Crowder",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-03",
+    "player": "Eddie Lacy",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-02",
+    "player": "Robbie Chosen",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-02",
+    "player": "J.J. Nelson",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-02",
+    "player": "Eddie Lacy",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-02",
+    "player": "Ted Ginn Jr.",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-02",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-02",
+    "player": "Steelers",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Mohamed Sanu",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Wendell Smallwood",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Graham Gano",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Stephen Hauschka",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Ravens",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "John Brown",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Josh Gordon",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Corey Davis",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Rodney Smith",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Matt Breida",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Matt Breida",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Rams",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Vernon Davis",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Latavius Murray",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Ted Ginn Jr.",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Blair Walsh",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Falcons",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Kenyan Drake",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Ben Roethlisberger",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Ka'imi Fairbairn",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Dolphins",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Theo Riddick",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Jalen Richard",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Paul Richardson",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "DeAndre Washington",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Jack Doyle",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Terrelle Pryor Sr.",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Bengals",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Damien Williams",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Mike Gillislee",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Ryan Succop",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2017-11-01",
+    "player": "Kai Forbath",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-28",
+    "player": "Tyrod Taylor",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-28",
+    "player": "Broncos",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-27",
+    "player": "Cooper Kupp",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-27",
+    "player": "Martavis Bryant",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Jalen Richard",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Austin Hooper",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Tyler Kroft",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Samaje Perine",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Matt Breida",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Blair Walsh",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Carson Palmer",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Kai Forbath",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Ryan Succop",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Matt Prater",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Dan Bailey",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Jared Cook",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Tyrod Taylor",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Stephen Hauschka",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Robbie Gould",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Titans",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "DeAndre Washington",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Randall Cobb",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Matt Forte",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Rob Kelley",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "JuJu Smith-Schuster",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Danny Amendola",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Josh Doctson",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Eric Decker",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-25",
+    "player": "Mike Williams",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-20",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-20",
+    "player": "Matt Forte",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-20",
+    "player": "Eric Decker",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-20",
+    "player": "Andre Ellington",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-19",
+    "player": "Danny Amendola",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-19",
+    "player": "Cooper Kupp",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-19",
+    "player": "Ben Roethlisberger",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-19",
+    "player": "C.J. Beathard",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Zach Miller",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Matt Forte",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Charles Clay",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "C.J. Beathard",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Jeremy Maclin",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Tyrell Williams",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Dion Lewis",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "James White",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Ravens",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Dan Bailey",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Matt Prater",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Tyrod Taylor",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Bills",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Chris Ivory",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Branden Oliver",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Marvin Jones Jr.",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Commanders",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Isaiah Crowell",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Eddie Lacy",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Orleans Darkwa",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Falcons",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Jermaine Kearse",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-18",
+    "player": "Raiders",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-16",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-16",
+    "player": "Elijah McGuire",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-16",
+    "player": "Corey Davis",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-16",
+    "player": "Roger Lewis",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-15",
+    "player": "Samaje Perine",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-15",
+    "player": "Jalen Richard",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-15",
+    "player": "Mike Williams",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-15",
+    "player": "Martellus Bennett",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-15",
+    "player": "Darren McFadden",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-15",
+    "player": "Wayne Gallman",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-12",
+    "player": "Alfred Morris",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-12",
+    "player": "Isaiah Crowell",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-12",
+    "player": "Matt Breida",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-12",
+    "player": "Darren McFadden",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Ryan Succop",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Dan Bailey",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Philip Rivers",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Roger Lewis",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Chandler Catanzaro",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Jets",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Derek Carr",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Allen Hurns",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Zach Miller",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Dwayne Allen",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Bills",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "John Brown",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Theo Riddick",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Jonathan Stewart",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Thomas Rawls",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Browns",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Austin Seferian-Jenkins",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Wil Lutz",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Mason Crosby",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "DeSean Jackson",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Jamison Crowder",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Jason Witten",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Harrison Butker",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Blair Walsh",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "J.J. Nelson",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Geronimo Allison",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Elijah McGuire",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Tyler Kroft",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Carson Palmer",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "49ers",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Jaguars",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Packers",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Jalen Richard",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Hunter Henry",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Alex Smith",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Ben Roethlisberger",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Devin Funchess",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Brandon Marshall",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Nelson Agholor",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Eli Manning",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Marlon Mack",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "J.D. McKissic",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Adrian Peterson",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-11",
+    "player": "Vikings",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-09",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-09",
+    "player": "Alfred Morris",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-09",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-09",
+    "player": "Jaron Brown",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-08",
+    "player": "J.D. McKissic",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-08",
+    "player": "Marqise Lee",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-08",
+    "player": "Mason Crosby",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-08",
+    "player": "DeSean Jackson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-07",
+    "player": "Robbie Gould",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-07",
+    "player": "Ryan Succop",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-07",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-07",
+    "player": "D'Onta Foreman",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-07",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-07",
+    "player": "Lions",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-07",
+    "player": "Carson Wentz",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-07",
+    "player": "Jamaal Charles",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-06",
+    "player": "Geronimo Allison",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-06",
+    "player": "Jalen Richard",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-05",
+    "player": "Dwayne Allen",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-05",
+    "player": "Coby Fleener",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-05",
+    "player": "49ers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-05",
+    "player": "Jaguars",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Darren McFadden",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Graham Gano",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "J.J. Nelson",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Chandler Catanzaro",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Chris Johnson",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Graham Gano",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Wil Lutz",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Jets",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Bengals",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Cowboys",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Jacquizz Rodgers",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "D'Onta Foreman",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Terrance West",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Jerick McKinnon",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Falcons",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Jaron Brown",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Jonathan Stewart",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Tyler Kroft",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Jared Cook",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Alfred Morris",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Derek Carr",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Wayne Gallman",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Kenny Golladay",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Jake Elliott",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Mason Crosby",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Vikings",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Cameron Brate",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Kyle Rudolph",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Cam Newton",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Trevor Siemian",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Evan Engram",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Jesse James",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Aaron Jones Sr.",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Jason Witten",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Ted Ginn Jr.",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Cardinals",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Eddie Lacy",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Chris Carson",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Andre Ellington",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Thomas Rawls",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Damien Williams",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Deshaun Watson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Carson Wentz",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Latavius Murray",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Matt Breida",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Philip Rivers",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2017-10-04",
+    "player": "Jordan Matthews",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-30",
+    "player": "Matt Breida",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-30",
+    "player": "Hunter Henry",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-28",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-28",
+    "player": "Nelson Agholor",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-28",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-28",
+    "player": "Alex Collins",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-28",
+    "player": "Samaje Perine",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-28",
+    "player": "Will Fuller V",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-28",
+    "player": "Patriots",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Orleans Darkwa",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Jared Cook",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Jack Doyle",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Dak Prescott",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Cam Newton",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Ravens",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Greg Zuerlein",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Chris Boswell",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Rams",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Jaguars",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Eagles",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "DeSean Jackson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Marvin Jones Jr.",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Evan Engram",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Rishard Matthews",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Rashard Higgins",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Jalen Richard",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Dolphins",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "Wendell Smallwood",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-27",
+    "player": "D'Onta Foreman",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-24",
+    "player": "Jamaal Charles",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-24",
+    "player": "Tyler Eifert",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-24",
+    "player": "Orleans Darkwa",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-24",
+    "player": "Paul Perkins",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-24",
+    "player": "Jesse James",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-24",
+    "player": "Kenny Stills",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-23",
+    "player": "Cam Newton",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-23",
+    "player": "Rishard Matthews",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-23",
+    "player": "Damien Williams",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-23",
+    "player": "Adrian Peterson",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-22",
+    "player": "Coby Fleener",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-21",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-21",
+    "player": "Mike Wallace",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-21",
+    "player": "Jack Doyle",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-21",
+    "player": "Jamaal Charles",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Buccaneers",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Corey Davis",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Ben Roethlisberger",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Donte Moncrief",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Jamison Crowder",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "DeSean Jackson",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Samaje Perine",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Andre Ellington",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Matt Prater",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Giorgio Tavecchio",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Bengals",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Ryan Succop",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Phil Dawson",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Allen Hurns",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Charcandrick West",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "D'Onta Foreman",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Eric Decker",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Cardinals",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Carson Wentz",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Jesse James",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Raiders",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Trevor Siemian",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Shane Vereen",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Chris Thompson",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Darren McFadden",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Rashard Higgins",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Cam Newton",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "J.J. Nelson",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-20",
+    "player": "Kerwynn Williams",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-18",
+    "player": "Evan Engram",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-18",
+    "player": "Thomas Rawls",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-17",
+    "player": "Austin Hooper",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-17",
+    "player": "C.J. Prosise",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-17",
+    "player": "Buccaneers",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-17",
+    "player": "Patriots",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-17",
+    "player": "Jordan Matthews",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-17",
+    "player": "John Brown",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-16",
+    "player": "Adrian Peterson",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-16",
+    "player": "Wendell Smallwood",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-14",
+    "player": "Phil Dawson",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-14",
+    "player": "Graham Gano",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-14",
+    "player": "Andre Ellington",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-14",
+    "player": "Latavius Murray",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-14",
+    "player": "James White",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-14",
+    "player": "Eddie Lacy",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-14",
+    "player": "Graham Gano",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-14",
+    "player": "Adam Vinatieri",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Marqise Lee",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Danny Amendola",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Danny Amendola",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Dion Lewis",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Jack Doyle",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Alvin Kamara",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Nelson Agholor",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Andre Ellington",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Andre Ellington",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Jordan Matthews",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Giorgio Tavecchio",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Matt Prater",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Blair Walsh",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Stephen Hauschka",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Falcons",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Chris Hogan",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Ben Roethlisberger",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Branden Oliver",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Jamison Crowder",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Thomas Rawls",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Cole Beasley",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Chris Carson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Adrian Peterson",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Kenny Golladay",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Hunter Henry",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Jesse James",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Bills",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Shane Vereen",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Rams",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Chris Johnson",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Matt Forte",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Javorius Allen",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Allen Robinson",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Kerwynn Williams",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Kenny Britt",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Tarik Cohen",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-13",
+    "player": "Jamaal Williams",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-10",
+    "player": "Cole Beasley",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-10",
+    "player": "Thomas Rawls",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-10",
+    "player": "Wil Lutz",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-10",
+    "player": "Jeremy Hill",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-10",
+    "player": "Mike Wallace",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-10",
+    "player": "Alfred Morris",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-07",
+    "player": "Dion Lewis",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-07",
+    "player": "Taylor Gabriel",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-06",
+    "player": "Ben Roethlisberger",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-06",
+    "player": "Chris Hogan",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-05",
+    "player": "Matt Prater",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-05",
+    "player": "James White",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-05",
+    "player": "Chris Boswell",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-05",
+    "player": "Kevin White",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-05",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-09-05",
+    "player": "Samaje Perine",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-29",
+    "player": "Jack Doyle",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-29",
+    "player": "Zay Jones",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-29",
+    "player": "Ted Ginn Jr.",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-29",
+    "player": "Cameron Meredith",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-29",
+    "player": "John Brown",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-28",
+    "player": "Kevin White",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-28",
+    "player": "Mike Wallace",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-28",
+    "player": "Charcandrick West",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-28",
+    "player": "Josh Doctson",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-27",
+    "player": "Jacquizz Rodgers",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-27",
+    "player": "Spencer Ware",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-26",
+    "player": "Chris Hogan",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-26",
+    "player": "Rex Burkhead",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-24",
+    "player": "Marvin Jones Jr.",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-24",
+    "player": "John Ross",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-22",
+    "player": "Wendell Smallwood",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-22",
+    "player": "Darren Sproles",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-21",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-21",
+    "player": "Marvin Jones Jr.",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-21",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-21",
+    "player": "Danny Amendola",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-21",
+    "player": "Cooper Kupp",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-21",
+    "player": "Kevin White",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-21",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-21",
+    "player": "Giovani Bernard",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-21",
+    "player": "Derek Carr",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-21",
+    "player": "Eagles",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-21",
+    "player": "Rex Burkhead",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-21",
+    "player": "Mohamed Sanu",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-21",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-21",
+    "player": "Robbie Chosen",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-21",
+    "player": "Cam Newton",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Add",
+    "date": "2017-08-21",
+    "player": "Jacquizz Rodgers",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-22",
+    "player": "Mike Wallace",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-22",
+    "player": "Mike Davis",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-21",
+    "player": "Graham Gano",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-21",
+    "player": "Greg Zuerlein",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-20",
+    "player": "Robert Woods",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-20",
+    "player": "Bills",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-20",
+    "player": "Keelan Cole Sr.",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-20",
+    "player": "Rex Burkhead",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-20",
+    "player": "Nick Foles",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-20",
+    "player": "James Conner",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-20",
+    "player": "Chris Boswell",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-20",
+    "player": "Robbie Gould",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-20",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-20",
+    "player": "Saints",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-20",
+    "player": "Martavis Bryant",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-20",
+    "player": "Vikings",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-16",
+    "player": "Colin Kaepernick",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-15",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-15",
+    "player": "Adrian Peterson",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-15",
+    "player": "Kerwynn Williams",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-15",
+    "player": "Derek Carr",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-13",
+    "player": "Eric Ebron",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-13",
+    "player": "Titans",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-13",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-13",
+    "player": "Case Keenum",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-13",
+    "player": "Blake Bortles",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-13",
+    "player": "Carson Wentz",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-13",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-13",
+    "player": "Packers",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-09",
+    "player": "Bears",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-09",
+    "player": "Ameer Abdullah",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-09",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-09",
+    "player": "Raiders",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-07",
+    "player": "Jermaine Kearse",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-07",
+    "player": "Martavis Bryant",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-07",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-07",
+    "player": "Robert Woods",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-07",
+    "player": "Robbie Gould",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-07",
+    "player": "Graham Gano",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-06",
+    "player": "Jets",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-06",
+    "player": "Doug Martin",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-06",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-06",
+    "player": "Bears",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-06",
+    "player": "Giovani Bernard",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-06",
+    "player": "Tarik Cohen",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-06",
+    "player": "Derek Carr",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-06",
+    "player": "Steelers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-06",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-06",
+    "player": "Bills",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-06",
+    "player": "Mike Davis",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-06",
+    "player": "Corey Coleman",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-06",
+    "player": "Kenneth Barber",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-06",
+    "player": "Corey Davis",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-04",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-04",
+    "player": "Tyrod Taylor",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-02",
+    "player": "Colin Kaepernick",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-02",
+    "player": "Rams",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-01",
+    "player": "Trey Burton",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-01",
+    "player": "Ty Montgomery II",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-01",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-01",
+    "player": "Paul Richardson",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-01",
+    "player": "Will Fuller V",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-01",
+    "player": "Bears",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-12-01",
+    "player": "Kenny Stills",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Graham Gano",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Kai Forbath",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Damien Williams",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Jameis Winston",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Steelers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Kai Forbath",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Adam Vinatieri",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Case Keenum",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Jeremy Maclin",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Brent Celek",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Jason Witten",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Panthers",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Chargers",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Dede Westbrook",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Shelton Gibson",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Rishard Matthews",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Philip Rivers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Dak Prescott",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-29",
+    "player": "Cameron Brate",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-26",
+    "player": "Martavis Bryant",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-26",
+    "player": "Paul Richardson",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-26",
+    "player": "Charles Clay",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-24",
+    "player": "Tyler Kroft",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Corey Clement",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "James White",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Cardinals",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Tyrod Taylor",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Blake Bortles",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Jamison Crowder",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Devontae Booker",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Devontae Booker",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Adam Vinatieri",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Brandon McManus",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Texans",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "J.D. McKissic",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Lions",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Saints",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Ted Ginn Jr.",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Chris Thompson",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Kenny Stills",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Jordan Reed",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-22",
+    "player": "Buccaneers",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-21",
+    "player": "Derek Carr",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-21",
+    "player": "Nathan Peterman",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-18",
+    "player": "Jermaine Kearse",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-18",
+    "player": "Dede Westbrook",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-18",
+    "player": "Paul Richardson",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-17",
+    "player": "Will Fuller V",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-17",
+    "player": "Rodney Smith",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-16",
+    "player": "Buccaneers",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-16",
+    "player": "Giants",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Jermaine Kearse",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Titans",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Vikings",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Nathan Peterman",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Thomas Rawls",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Jonathan Stewart",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Willie Snead IV",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Blake Bortles",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Josh McCown",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Samaje Perine",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Cooper Kupp",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Panthers",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Latavius Murray",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Tyrod Taylor",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Rex Burkhead",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Patriots",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Brandon McManus",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Graham Gano",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Texans",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Bears",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Eric Ebron",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Josh Lambo",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Justin Tucker",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Kai Forbath",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Harrison Butker",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Chris Boswell",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Austin Ekeler",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Terrance Williams",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Jamaal Williams",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Aaron Jones Sr.",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Isaiah Crowell",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-15",
+    "player": "Vernon Davis",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-13",
+    "player": "Broncos",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-13",
+    "player": "Will Fuller V",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-12",
+    "player": "Cooper Kupp",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-12",
+    "player": "Jameis Winston",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-12",
+    "player": "Giants",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-12",
+    "player": "Texans",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-11",
+    "player": "Jack Doyle",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-11",
+    "player": "Jonathan Stewart",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-11",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-11",
+    "player": "Eddie Lacy",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-11",
+    "player": "Tyrod Taylor",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-11",
+    "player": "Mohamed Sanu",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-11",
+    "player": "Rodney Smith",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-11",
+    "player": "Isaiah Crowell",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-10",
+    "player": "Eric Ebron",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-10",
+    "player": "Hunter Henry",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-10",
+    "player": "James White",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-10",
+    "player": "Theo Riddick",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-09",
+    "player": "Terrance Williams",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-09",
+    "player": "Giants",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-09",
+    "player": "Giants",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-09",
+    "player": "Trey Burton",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-09",
+    "player": "Marqise Lee",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-09",
+    "player": "Ka'imi Fairbairn",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-09",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-09",
+    "player": "Jason Witten",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Josh Lambo",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Cooper Kupp",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Thomas Rawls",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Rodney Smith",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Josh McCown",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Cardinals",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Saints",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Chris Boswell",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Harrison Butker",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Bears",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Raiders",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Bills",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Kai Forbath",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Justin Tucker",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Ravens",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Jared Goff",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Jermaine Kearse",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Tyrod Taylor",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Ben Roethlisberger",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Jack Doyle",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Robert Woods",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-08",
+    "player": "Pierre Garcon",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-06",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-06",
+    "player": "Austin Seferian-Jenkins",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-05",
+    "player": "Damien Williams",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-05",
+    "player": "DeAndre Washington",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-05",
+    "player": "Trey Burton",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-05",
+    "player": "Austin Hooper",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-05",
+    "player": "Vernon Davis",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-05",
+    "player": "Hunter Henry",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-05",
+    "player": "Corey Davis",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-05",
+    "player": "Deshaun Watson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-05",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-05",
+    "player": "Panthers",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-04",
+    "player": "DeAndre Washington",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-04",
+    "player": "Darren McFadden",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-04",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-04",
+    "player": "Packers",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-03",
+    "player": "Jeremy Maclin",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-03",
+    "player": "Jamison Crowder",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-03",
+    "player": "Eddie Lacy",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-03",
+    "player": "Damien Williams",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-03",
+    "player": "Austin Hooper",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-03",
+    "player": "Vernon Davis",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-03",
+    "player": "Jamison Crowder",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-03",
+    "player": "Eddie Lacy",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-02",
+    "player": "Robbie Chosen",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-02",
+    "player": "J.J. Nelson",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-02",
+    "player": "Eddie Lacy",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-02",
+    "player": "Ted Ginn Jr.",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-02",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-02",
+    "player": "Steelers",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Mohamed Sanu",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Wendell Smallwood",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Graham Gano",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Stephen Hauschka",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Ravens",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "John Brown",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Josh Gordon",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Corey Davis",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Rodney Smith",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Matt Breida",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Matt Breida",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Rams",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Vernon Davis",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Latavius Murray",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Ted Ginn Jr.",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Blair Walsh",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Falcons",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Kenyan Drake",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Ben Roethlisberger",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Ka'imi Fairbairn",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Dolphins",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Theo Riddick",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Jalen Richard",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Paul Richardson",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "DeAndre Washington",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Jack Doyle",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Terrelle Pryor Sr.",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Bengals",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Damien Williams",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Mike Gillislee",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Ryan Succop",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-11-01",
+    "player": "Kai Forbath",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-28",
+    "player": "Tyrod Taylor",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-28",
+    "player": "Broncos",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-27",
+    "player": "Cooper Kupp",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-27",
+    "player": "Martavis Bryant",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Jalen Richard",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Austin Hooper",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Tyler Kroft",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Samaje Perine",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Matt Breida",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Blair Walsh",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Carson Palmer",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Kai Forbath",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Ryan Succop",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Matt Prater",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Dan Bailey",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Jared Cook",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Tyrod Taylor",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Stephen Hauschka",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Robbie Gould",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Titans",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "DeAndre Washington",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Randall Cobb",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Matt Forte",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Rob Kelley",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "JuJu Smith-Schuster",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Danny Amendola",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Josh Doctson",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Eric Decker",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-25",
+    "player": "Mike Williams",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-20",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-20",
+    "player": "Matt Forte",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-20",
+    "player": "Eric Decker",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-20",
+    "player": "Andre Ellington",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-19",
+    "player": "Danny Amendola",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-19",
+    "player": "Cooper Kupp",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-19",
+    "player": "Ben Roethlisberger",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-19",
+    "player": "C.J. Beathard",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Zach Miller",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Matt Forte",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Charles Clay",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "C.J. Beathard",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Jeremy Maclin",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Tyrell Williams",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Dion Lewis",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "James White",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Ravens",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Dan Bailey",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Matt Prater",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Tyrod Taylor",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Bills",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Chris Ivory",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Branden Oliver",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Marvin Jones Jr.",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Commanders",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Isaiah Crowell",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Eddie Lacy",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Orleans Darkwa",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Falcons",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Jermaine Kearse",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-18",
+    "player": "Raiders",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-16",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-16",
+    "player": "Elijah McGuire",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-16",
+    "player": "Corey Davis",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-16",
+    "player": "Roger Lewis",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-15",
+    "player": "Samaje Perine",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-15",
+    "player": "Jalen Richard",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-15",
+    "player": "Mike Williams",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-15",
+    "player": "Martellus Bennett",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-15",
+    "player": "Darren McFadden",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-15",
+    "player": "Wayne Gallman",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-12",
+    "player": "Alfred Morris",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-12",
+    "player": "Isaiah Crowell",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-12",
+    "player": "Matt Breida",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-12",
+    "player": "Darren McFadden",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Ryan Succop",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Dan Bailey",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Philip Rivers",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Roger Lewis",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Chandler Catanzaro",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Jets",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Derek Carr",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Allen Hurns",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Zach Miller",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Dwayne Allen",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Bills",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "John Brown",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Theo Riddick",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Jonathan Stewart",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Thomas Rawls",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Browns",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Austin Seferian-Jenkins",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Wil Lutz",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Mason Crosby",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "DeSean Jackson",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Jamison Crowder",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Jason Witten",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Harrison Butker",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Blair Walsh",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "J.J. Nelson",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Geronimo Allison",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Elijah McGuire",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Tyler Kroft",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Carson Palmer",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "49ers",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Jaguars",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Packers",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Jalen Richard",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Hunter Henry",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Alex Smith",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Ben Roethlisberger",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Devin Funchess",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Brandon Marshall",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Nelson Agholor",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Eli Manning",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Marlon Mack",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "J.D. McKissic",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Adrian Peterson",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-11",
+    "player": "Vikings",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-09",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-09",
+    "player": "Alfred Morris",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-09",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-09",
+    "player": "Jaron Brown",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-08",
+    "player": "J.D. McKissic",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-08",
+    "player": "Marqise Lee",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-08",
+    "player": "Mason Crosby",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-08",
+    "player": "DeSean Jackson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-07",
+    "player": "Robbie Gould",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-07",
+    "player": "Ryan Succop",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-07",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-07",
+    "player": "D'Onta Foreman",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-07",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-07",
+    "player": "Lions",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-07",
+    "player": "Carson Wentz",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-07",
+    "player": "Jamaal Charles",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-06",
+    "player": "Geronimo Allison",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-06",
+    "player": "Jalen Richard",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-05",
+    "player": "Dwayne Allen",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-05",
+    "player": "Coby Fleener",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-05",
+    "player": "49ers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-05",
+    "player": "Jaguars",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Darren McFadden",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Graham Gano",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "J.J. Nelson",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Chandler Catanzaro",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Chris Johnson",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Graham Gano",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Wil Lutz",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Jets",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Bengals",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Cowboys",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Jacquizz Rodgers",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "D'Onta Foreman",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Terrance West",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Jerick McKinnon",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Falcons",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Jaron Brown",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Jonathan Stewart",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Tyler Kroft",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Jared Cook",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Alfred Morris",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Derek Carr",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Wayne Gallman",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Kenny Golladay",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Jake Elliott",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Mason Crosby",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Vikings",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Cameron Brate",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Kyle Rudolph",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Cam Newton",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Trevor Siemian",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Evan Engram",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Jesse James",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Aaron Jones Sr.",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Jason Witten",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Ted Ginn Jr.",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Cardinals",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Eddie Lacy",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Chris Carson",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Andre Ellington",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Thomas Rawls",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Damien Williams",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Deshaun Watson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Carson Wentz",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Latavius Murray",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Matt Breida",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Philip Rivers",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-10-04",
+    "player": "Jordan Matthews",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-30",
+    "player": "Matt Breida",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-30",
+    "player": "Hunter Henry",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-28",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-28",
+    "player": "Nelson Agholor",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-28",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-28",
+    "player": "Alex Collins",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-28",
+    "player": "Samaje Perine",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-28",
+    "player": "Will Fuller V",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-28",
+    "player": "Patriots",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Orleans Darkwa",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Jared Cook",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Jack Doyle",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Dak Prescott",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Cam Newton",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Ravens",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Greg Zuerlein",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Chris Boswell",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Rams",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Jaguars",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Eagles",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "DeSean Jackson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Marvin Jones Jr.",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Evan Engram",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Rishard Matthews",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Rashard Higgins",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Jalen Richard",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Dolphins",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "Wendell Smallwood",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-27",
+    "player": "D'Onta Foreman",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-24",
+    "player": "Jamaal Charles",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-24",
+    "player": "Tyler Eifert",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-24",
+    "player": "Orleans Darkwa",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-24",
+    "player": "Paul Perkins",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-24",
+    "player": "Jesse James",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-24",
+    "player": "Kenny Stills",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-23",
+    "player": "Cam Newton",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-23",
+    "player": "Rishard Matthews",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-23",
+    "player": "Damien Williams",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-23",
+    "player": "Adrian Peterson",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-22",
+    "player": "Coby Fleener",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-21",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-21",
+    "player": "Mike Wallace",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-21",
+    "player": "Jack Doyle",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-21",
+    "player": "Jamaal Charles",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Buccaneers",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Corey Davis",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Ben Roethlisberger",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Donte Moncrief",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Jamison Crowder",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "DeSean Jackson",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Samaje Perine",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Andre Ellington",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Matt Prater",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Giorgio Tavecchio",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Bengals",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Ryan Succop",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Phil Dawson",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Allen Hurns",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Charcandrick West",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "D'Onta Foreman",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Eric Decker",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Cardinals",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Carson Wentz",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Jesse James",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Raiders",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Trevor Siemian",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Shane Vereen",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Chris Thompson",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Darren McFadden",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Rashard Higgins",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Cam Newton",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "J.J. Nelson",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-20",
+    "player": "Kerwynn Williams",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-18",
+    "player": "Evan Engram",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-18",
+    "player": "Thomas Rawls",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-17",
+    "player": "Austin Hooper",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-17",
+    "player": "C.J. Prosise",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-17",
+    "player": "Buccaneers",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-17",
+    "player": "Patriots",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-17",
+    "player": "Jordan Matthews",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-17",
+    "player": "John Brown",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-16",
+    "player": "Adrian Peterson",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-16",
+    "player": "Wendell Smallwood",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-14",
+    "player": "Phil Dawson",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-14",
+    "player": "Graham Gano",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-14",
+    "player": "Andre Ellington",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-14",
+    "player": "Latavius Murray",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-14",
+    "player": "James White",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-14",
+    "player": "Eddie Lacy",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-14",
+    "player": "Graham Gano",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-14",
+    "player": "Adam Vinatieri",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Marqise Lee",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Danny Amendola",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Danny Amendola",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Dion Lewis",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Jack Doyle",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Alvin Kamara",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Nelson Agholor",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Andre Ellington",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Andre Ellington",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Jordan Matthews",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Giorgio Tavecchio",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Matt Prater",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Blair Walsh",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Stephen Hauschka",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Falcons",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Chris Hogan",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Ben Roethlisberger",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Branden Oliver",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Jamison Crowder",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Thomas Rawls",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Cole Beasley",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Chris Carson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Adrian Peterson",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Kenny Golladay",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Hunter Henry",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Jesse James",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Bills",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Shane Vereen",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Rams",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Chris Johnson",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Matt Forte",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Javorius Allen",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Allen Robinson",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Kerwynn Williams",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Kenny Britt",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Tarik Cohen",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-13",
+    "player": "Jamaal Williams",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-10",
+    "player": "Cole Beasley",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-10",
+    "player": "Thomas Rawls",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-10",
+    "player": "Wil Lutz",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-10",
+    "player": "Jeremy Hill",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-10",
+    "player": "Mike Wallace",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-10",
+    "player": "Alfred Morris",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-07",
+    "player": "Dion Lewis",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-07",
+    "player": "Taylor Gabriel",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-06",
+    "player": "Ben Roethlisberger",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-06",
+    "player": "Chris Hogan",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-05",
+    "player": "Matt Prater",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-05",
+    "player": "James White",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-05",
+    "player": "Chris Boswell",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-05",
+    "player": "Kevin White",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-05",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-09-05",
+    "player": "Samaje Perine",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-29",
+    "player": "Jack Doyle",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-29",
+    "player": "Zay Jones",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-29",
+    "player": "Ted Ginn Jr.",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-29",
+    "player": "Cameron Meredith",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-29",
+    "player": "John Brown",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-28",
+    "player": "Kevin White",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-28",
+    "player": "Mike Wallace",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-28",
+    "player": "Charcandrick West",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-28",
+    "player": "Josh Doctson",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-27",
+    "player": "Jacquizz Rodgers",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-27",
+    "player": "Spencer Ware",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-26",
+    "player": "Chris Hogan",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-26",
+    "player": "Rex Burkhead",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-24",
+    "player": "Marvin Jones Jr.",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-24",
+    "player": "John Ross",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-22",
+    "player": "Wendell Smallwood",
+    "from": "FA/Waiver",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-22",
+    "player": "Darren Sproles",
+    "from": "Goatse IX",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-21",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-21",
+    "player": "Marvin Jones Jr.",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-21",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-21",
+    "player": "Danny Amendola",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-21",
+    "player": "Cooper Kupp",
+    "from": "FA/Waiver",
+    "to": "The juice is loose"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-21",
+    "player": "Kevin White",
+    "from": "The juice is loose",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-21",
+    "player": "Hunter Henry",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-21",
+    "player": "Giovani Bernard",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-21",
+    "player": "Derek Carr",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-21",
+    "player": "Eagles",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-21",
+    "player": "Rex Burkhead",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-21",
+    "player": "Mohamed Sanu",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-21",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-21",
+    "player": "Robbie Chosen",
+    "from": "Los Angeles Knights",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-21",
+    "player": "Cam Newton",
+    "from": "FA/Waiver",
+    "to": "Silver Dodge Ram"
+  },
+  {
+    "type": "Drop",
+    "date": "2017-08-21",
+    "player": "Jacquizz Rodgers",
+    "from": "Silver Dodge Ram",
+    "to": "Dropped"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-11-12",
+    "player": "Jordy Nelson",
+    "from": "The Commish",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-11-12",
+    "player": "Ameer Abdullah",
+    "from": "The Commish",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-11-12",
+    "player": "DeMarco Murray",
+    "from": "Bad Rivers Tribe",
+    "to": "The Commish"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-11-03",
+    "player": "Julio Jones",
+    "from": "Los Angeles Knights",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-11-03",
+    "player": "Amari Cooper",
+    "from": "Los Angeles Knights",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-11-03",
+    "player": "Christian McCaffrey",
+    "from": "The Brown Bears",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-11-03",
+    "player": "Odell Beckham Jr.",
+    "from": "The Brown Bears",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-11-03",
+    "player": "Will Fuller V",
+    "from": "The Brown Bears",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-10-24",
+    "player": "Drew Brees",
+    "from": "The Commish",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-10-24",
+    "player": "Todd Gurley",
+    "from": "The Commish",
+    "to": "Goatse IX"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-10-24",
+    "player": "Antonio Brown",
+    "from": "Goatse IX",
+    "to": "The Commish"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-10-24",
+    "player": "Zach Ertz",
+    "from": "Goatse IX",
+    "to": "The Commish"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-09-21",
+    "player": "Emmanuel Sanders",
+    "from": "Flint City Tropics",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-09-21",
+    "player": "Chris Carson",
+    "from": "Flint City Tropics",
+    "to": "Los Angeles Knights"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-09-21",
+    "player": "Keenan Allen",
+    "from": "Los Angeles Knights",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-09-20",
+    "player": "Chris Hogan",
+    "from": "The Brown Bears",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-09-20",
+    "player": "Isaiah Crowell",
+    "from": "Bad Rivers Tribe",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-09-20",
+    "player": "Kelvin Benjamin",
+    "from": "The Brown Bears",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-09-20",
+    "player": "Mike Gillislee",
+    "from": "The Brown Bears",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Trade",
+    "date": "2017-09-20",
+    "player": "A.J. Green",
+    "from": "Raaaaaaaandy",
+    "to": "The Brown Bears"
+  }
+]

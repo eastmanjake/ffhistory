@@ -1,0 +1,1052 @@
+[
+  {
+    "round": 1,
+    "pick": 1,
+    "team": "Go Birds",
+    "player": "Jahmyr Gibbs",
+    "position": "RB"
+  },
+  {
+    "round": 1,
+    "pick": 2,
+    "team": "The Commish",
+    "player": "Derrick Henry",
+    "position": "RB"
+  },
+  {
+    "round": 1,
+    "pick": 3,
+    "team": "The Brown Bears",
+    "player": "CeeDee Lamb",
+    "position": "WR"
+  },
+  {
+    "round": 1,
+    "pick": 4,
+    "team": "GodDamJets",
+    "player": "Christian McCaffrey",
+    "position": "RB"
+  },
+  {
+    "round": 1,
+    "pick": 5,
+    "team": "Bad Rivers Tribe",
+    "player": "Saquon Barkley",
+    "position": "RB"
+  },
+  {
+    "round": 1,
+    "pick": 6,
+    "team": "Flint City Tropics",
+    "player": "Justin Jefferson",
+    "position": "WR"
+  },
+  {
+    "round": 1,
+    "pick": 7,
+    "team": "Piggy",
+    "player": "Ja'Marr Chase",
+    "position": "WR"
+  },
+  {
+    "round": 1,
+    "pick": 8,
+    "team": "SHARKEISHA NO",
+    "player": "Ashton Jeanty",
+    "position": "RB"
+  },
+  {
+    "round": 1,
+    "pick": 9,
+    "team": "Raaaaaaaandy",
+    "player": "Bijan Robinson",
+    "position": "RB"
+  },
+  {
+    "round": 1,
+    "pick": 10,
+    "team": "Goatse XVI",
+    "player": "Nico Collins",
+    "position": "WR"
+  },
+  {
+    "round": 2,
+    "pick": 11,
+    "team": "Goatse XVI",
+    "player": "Amon-Ra St. Brown",
+    "position": "WR"
+  },
+  {
+    "round": 2,
+    "pick": 12,
+    "team": "Raaaaaaaandy",
+    "player": "Puka Nacua",
+    "position": "WR"
+  },
+  {
+    "round": 2,
+    "pick": 13,
+    "team": "SHARKEISHA NO",
+    "player": "Jonathan Taylor",
+    "position": "RB"
+  },
+  {
+    "round": 2,
+    "pick": 14,
+    "team": "Piggy",
+    "player": "Josh Jacobs",
+    "position": "RB"
+  },
+  {
+    "round": 2,
+    "pick": 15,
+    "team": "Flint City Tropics",
+    "player": "Drake London",
+    "position": "WR"
+  },
+  {
+    "round": 2,
+    "pick": 16,
+    "team": "Bad Rivers Tribe",
+    "player": "De'Von Achane",
+    "position": "RB"
+  },
+  {
+    "round": 2,
+    "pick": 17,
+    "team": "GodDamJets",
+    "player": "A.J. Brown",
+    "position": "WR"
+  },
+  {
+    "round": 2,
+    "pick": 18,
+    "team": "The Brown Bears",
+    "player": "Chase Brown",
+    "position": "RB"
+  },
+  {
+    "round": 2,
+    "pick": 19,
+    "team": "The Commish",
+    "player": "Kyren Williams",
+    "position": "RB"
+  },
+  {
+    "round": 2,
+    "pick": 20,
+    "team": "Go Birds",
+    "player": "Jaxon Smith-Njigba",
+    "position": "WR"
+  },
+  {
+    "round": 3,
+    "pick": 21,
+    "team": "Go Birds",
+    "player": "Mike Evans",
+    "position": "WR"
+  },
+  {
+    "round": 3,
+    "pick": 22,
+    "team": "The Commish",
+    "player": "Josh Allen",
+    "position": "QB"
+  },
+  {
+    "round": 3,
+    "pick": 23,
+    "team": "The Brown Bears",
+    "player": "Lamar Jackson",
+    "position": "QB"
+  },
+  {
+    "round": 3,
+    "pick": 24,
+    "team": "GodDamJets",
+    "player": "James Cook III",
+    "position": "RB"
+  },
+  {
+    "round": 3,
+    "pick": 25,
+    "team": "Bad Rivers Tribe",
+    "player": "Kenneth Walker III",
+    "position": "RB"
+  },
+  {
+    "round": 3,
+    "pick": 26,
+    "team": "Flint City Tropics",
+    "player": "Omarion Hampton",
+    "position": "RB"
+  },
+  {
+    "round": 3,
+    "pick": 27,
+    "team": "Piggy",
+    "player": "Tyreek Hill",
+    "position": "WR"
+  },
+  {
+    "round": 3,
+    "pick": 28,
+    "team": "SHARKEISHA NO",
+    "player": "Jalen Hurts",
+    "position": "QB"
+  },
+  {
+    "round": 3,
+    "pick": 29,
+    "team": "Raaaaaaaandy",
+    "player": "Breece Hall",
+    "position": "RB"
+  },
+  {
+    "round": 3,
+    "pick": 30,
+    "team": "Goatse XVI",
+    "player": "Alvin Kamara",
+    "position": "RB"
+  },
+  {
+    "round": 4,
+    "pick": 31,
+    "team": "Goatse XVI",
+    "player": "George Kittle",
+    "position": "TE"
+  },
+  {
+    "round": 4,
+    "pick": 32,
+    "team": "Raaaaaaaandy",
+    "player": "Marvin Harrison Jr.",
+    "position": "WR"
+  },
+  {
+    "round": 4,
+    "pick": 33,
+    "team": "SHARKEISHA NO",
+    "player": "Malik Nabers",
+    "position": "WR"
+  },
+  {
+    "round": 4,
+    "pick": 34,
+    "team": "Piggy",
+    "player": "TreVeyon Henderson",
+    "position": "RB"
+  },
+  {
+    "round": 4,
+    "pick": 35,
+    "team": "Flint City Tropics",
+    "player": "Garrett Wilson",
+    "position": "WR"
+  },
+  {
+    "round": 4,
+    "pick": 36,
+    "team": "Bad Rivers Tribe",
+    "player": "Davante Adams",
+    "position": "WR"
+  },
+  {
+    "round": 4,
+    "pick": 37,
+    "team": "GodDamJets",
+    "player": "DK Metcalf",
+    "position": "WR"
+  },
+  {
+    "round": 4,
+    "pick": 38,
+    "team": "The Brown Bears",
+    "player": "Courtland Sutton",
+    "position": "WR"
+  },
+  {
+    "round": 4,
+    "pick": 39,
+    "team": "The Commish",
+    "player": "DJ Moore",
+    "position": "WR"
+  },
+  {
+    "round": 4,
+    "pick": 40,
+    "team": "Go Birds",
+    "player": "Chuba Hubbard",
+    "position": "RB"
+  },
+  {
+    "round": 5,
+    "pick": 41,
+    "team": "Go Birds",
+    "player": "Jayden Daniels",
+    "position": "QB"
+  },
+  {
+    "round": 5,
+    "pick": 42,
+    "team": "The Commish",
+    "player": "Tee Higgins",
+    "position": "WR"
+  },
+  {
+    "round": 5,
+    "pick": 43,
+    "team": "The Brown Bears",
+    "player": "DeVonta Smith",
+    "position": "WR"
+  },
+  {
+    "round": 5,
+    "pick": 44,
+    "team": "GodDamJets",
+    "player": "Tetairoa McMillan",
+    "position": "WR"
+  },
+  {
+    "round": 5,
+    "pick": 45,
+    "team": "Bad Rivers Tribe",
+    "player": "Zay Flowers",
+    "position": "WR"
+  },
+  {
+    "round": 5,
+    "pick": 46,
+    "team": "Flint City Tropics",
+    "player": "James Conner",
+    "position": "RB"
+  },
+  {
+    "round": 5,
+    "pick": 47,
+    "team": "Piggy",
+    "player": "D'Andre Swift",
+    "position": "RB"
+  },
+  {
+    "round": 5,
+    "pick": 48,
+    "team": "SHARKEISHA NO",
+    "player": "Xavier Worthy",
+    "position": "WR"
+  },
+  {
+    "round": 5,
+    "pick": 49,
+    "team": "Raaaaaaaandy",
+    "player": "Tony Pollard",
+    "position": "RB"
+  },
+  {
+    "round": 5,
+    "pick": 50,
+    "team": "Goatse XVI",
+    "player": "RJ Harvey",
+    "position": "RB"
+  },
+  {
+    "round": 6,
+    "pick": 51,
+    "team": "Goatse XVI",
+    "player": "Joe Burrow",
+    "position": "QB"
+  },
+  {
+    "round": 6,
+    "pick": 52,
+    "team": "Raaaaaaaandy",
+    "player": "Terry McLaurin",
+    "position": "WR"
+  },
+  {
+    "round": 6,
+    "pick": 53,
+    "team": "SHARKEISHA NO",
+    "player": "Jameson Williams",
+    "position": "WR"
+  },
+  {
+    "round": 6,
+    "pick": 54,
+    "team": "Piggy",
+    "player": "Sam LaPorta",
+    "position": "TE"
+  },
+  {
+    "round": 6,
+    "pick": 55,
+    "team": "Flint City Tropics",
+    "player": "Isiah Pacheco",
+    "position": "RB"
+  },
+  {
+    "round": 6,
+    "pick": 56,
+    "team": "Bad Rivers Tribe",
+    "player": "Jaylen Waddle",
+    "position": "WR"
+  },
+  {
+    "round": 6,
+    "pick": 57,
+    "team": "GodDamJets",
+    "player": "David Montgomery",
+    "position": "RB"
+  },
+  {
+    "round": 6,
+    "pick": 58,
+    "team": "The Brown Bears",
+    "player": "Trey McBride",
+    "position": "TE"
+  },
+  {
+    "round": 6,
+    "pick": 59,
+    "team": "The Commish",
+    "player": "George Pickens",
+    "position": "WR"
+  },
+  {
+    "round": 6,
+    "pick": 60,
+    "team": "Go Birds",
+    "player": "Aaron Jones Sr.",
+    "position": "RB"
+  },
+  {
+    "round": 7,
+    "pick": 61,
+    "team": "Go Birds",
+    "player": "Calvin Ridley",
+    "position": "WR"
+  },
+  {
+    "round": 7,
+    "pick": 62,
+    "team": "The Commish",
+    "player": "Kaleb Johnson",
+    "position": "RB"
+  },
+  {
+    "round": 7,
+    "pick": 63,
+    "team": "The Brown Bears",
+    "player": "Joe Mixon",
+    "position": "RB"
+  },
+  {
+    "round": 7,
+    "pick": 64,
+    "team": "GodDamJets",
+    "player": "T.J. Hockenson",
+    "position": "TE"
+  },
+  {
+    "round": 7,
+    "pick": 65,
+    "team": "Bad Rivers Tribe",
+    "player": "Jerry Jeudy",
+    "position": "WR"
+  },
+  {
+    "round": 7,
+    "pick": 66,
+    "team": "Flint City Tropics",
+    "player": "Ricky Pearsall",
+    "position": "WR"
+  },
+  {
+    "round": 7,
+    "pick": 67,
+    "team": "Piggy",
+    "player": "Patrick Mahomes",
+    "position": "QB"
+  },
+  {
+    "round": 7,
+    "pick": 68,
+    "team": "SHARKEISHA NO",
+    "player": "Mark Andrews",
+    "position": "TE"
+  },
+  {
+    "round": 7,
+    "pick": 69,
+    "team": "Raaaaaaaandy",
+    "player": "Chris Olave",
+    "position": "WR"
+  },
+  {
+    "round": 7,
+    "pick": 70,
+    "team": "Goatse XVI",
+    "player": "Jordan Mason",
+    "position": "RB"
+  },
+  {
+    "round": 8,
+    "pick": 71,
+    "team": "Goatse XVI",
+    "player": "Brian Thomas Jr.",
+    "position": "WR"
+  },
+  {
+    "round": 8,
+    "pick": 72,
+    "team": "Raaaaaaaandy",
+    "player": "Travis Hunter",
+    "position": "WR"
+  },
+  {
+    "round": 8,
+    "pick": 73,
+    "team": "SHARKEISHA NO",
+    "player": "Jordan Addison",
+    "position": "WR"
+  },
+  {
+    "round": 8,
+    "pick": 74,
+    "team": "Piggy",
+    "player": "Rome Odunze",
+    "position": "WR"
+  },
+  {
+    "round": 8,
+    "pick": 75,
+    "team": "Flint City Tropics",
+    "player": "Bucky Irving",
+    "position": "RB"
+  },
+  {
+    "round": 8,
+    "pick": 76,
+    "team": "Bad Rivers Tribe",
+    "player": "Chris Godwin Jr.",
+    "position": "WR"
+  },
+  {
+    "round": 8,
+    "pick": 77,
+    "team": "GodDamJets",
+    "player": "Ladd McConkey",
+    "position": "WR"
+  },
+  {
+    "round": 8,
+    "pick": 78,
+    "team": "The Brown Bears",
+    "player": "Emeka Egbuka",
+    "position": "WR"
+  },
+  {
+    "round": 8,
+    "pick": 79,
+    "team": "The Commish",
+    "player": "Khalil Shakir",
+    "position": "WR"
+  },
+  {
+    "round": 8,
+    "pick": 80,
+    "team": "Go Birds",
+    "player": "Brock Bowers",
+    "position": "TE"
+  },
+  {
+    "round": 9,
+    "pick": 81,
+    "team": "Go Birds",
+    "player": "Tyrone Tracy Jr.",
+    "position": "RB"
+  },
+  {
+    "round": 9,
+    "pick": 82,
+    "team": "The Commish",
+    "player": "Travis Kelce",
+    "position": "TE"
+  },
+  {
+    "round": 9,
+    "pick": 83,
+    "team": "The Brown Bears",
+    "player": "Javonte Williams",
+    "position": "RB"
+  },
+  {
+    "round": 9,
+    "pick": 84,
+    "team": "GodDamJets",
+    "player": "Bo Nix",
+    "position": "QB"
+  },
+  {
+    "round": 9,
+    "pick": 85,
+    "team": "Bad Rivers Tribe",
+    "player": "Jaylen Warren",
+    "position": "RB"
+  },
+  {
+    "round": 9,
+    "pick": 86,
+    "team": "Flint City Tropics",
+    "player": "Matthew Golden",
+    "position": "WR"
+  },
+  {
+    "round": 9,
+    "pick": 87,
+    "team": "Piggy",
+    "player": "Deebo Samuel",
+    "position": "WR"
+  },
+  {
+    "round": 9,
+    "pick": 88,
+    "team": "SHARKEISHA NO",
+    "player": "Jayden Reed",
+    "position": "WR"
+  },
+  {
+    "round": 9,
+    "pick": 89,
+    "team": "Raaaaaaaandy",
+    "player": "Travis Etienne Jr.",
+    "position": "RB"
+  },
+  {
+    "round": 9,
+    "pick": 90,
+    "team": "Goatse XVI",
+    "player": "J.K. Dobbins",
+    "position": "RB"
+  },
+  {
+    "round": 10,
+    "pick": 91,
+    "team": "Goatse XVI",
+    "player": "Rashee Rice",
+    "position": "WR"
+  },
+  {
+    "round": 10,
+    "pick": 92,
+    "team": "Raaaaaaaandy",
+    "player": "Stefon Diggs",
+    "position": "WR"
+  },
+  {
+    "round": 10,
+    "pick": 93,
+    "team": "SHARKEISHA NO",
+    "player": "Quinshon Judkins",
+    "position": "RB"
+  },
+  {
+    "round": 10,
+    "pick": 94,
+    "team": "Piggy",
+    "player": "Tank Bigsby",
+    "position": "RB"
+  },
+  {
+    "round": 10,
+    "pick": 95,
+    "team": "Flint City Tropics",
+    "player": "Jakobi Meyers",
+    "position": "WR"
+  },
+  {
+    "round": 10,
+    "pick": 96,
+    "team": "Bad Rivers Tribe",
+    "player": "Evan Engram",
+    "position": "TE"
+  },
+  {
+    "round": 10,
+    "pick": 97,
+    "team": "GodDamJets",
+    "player": "Brian Robinson Jr.",
+    "position": "RB"
+  },
+  {
+    "round": 10,
+    "pick": 98,
+    "team": "The Brown Bears",
+    "player": "Jacory Croskey-Merritt",
+    "position": "RB"
+  },
+  {
+    "round": 10,
+    "pick": 99,
+    "team": "The Commish",
+    "player": "Keon Coleman",
+    "position": "WR"
+  },
+  {
+    "round": 10,
+    "pick": 100,
+    "team": "Go Birds",
+    "player": "Jauan Jennings",
+    "position": "WR"
+  },
+  {
+    "round": 11,
+    "pick": 101,
+    "team": "Go Birds",
+    "player": "Cam Skattebo",
+    "position": "RB"
+  },
+  {
+    "round": 11,
+    "pick": 102,
+    "team": "The Commish",
+    "player": "Nick Chubb",
+    "position": "RB"
+  },
+  {
+    "round": 11,
+    "pick": 103,
+    "team": "The Brown Bears",
+    "player": "Josh Downs",
+    "position": "WR"
+  },
+  {
+    "round": 11,
+    "pick": 104,
+    "team": "GodDamJets",
+    "player": "Michael Pittman Jr.",
+    "position": "WR"
+  },
+  {
+    "round": 11,
+    "pick": 105,
+    "team": "Bad Rivers Tribe",
+    "player": "Baker Mayfield",
+    "position": "QB"
+  },
+  {
+    "round": 11,
+    "pick": 106,
+    "team": "Flint City Tropics",
+    "player": "Cooper Kupp",
+    "position": "WR"
+  },
+  {
+    "round": 11,
+    "pick": 107,
+    "team": "Piggy",
+    "player": "Zach Charbonnet",
+    "position": "RB"
+  },
+  {
+    "round": 11,
+    "pick": 108,
+    "team": "SHARKEISHA NO",
+    "player": "Tyjae Spears",
+    "position": "RB"
+  },
+  {
+    "round": 11,
+    "pick": 109,
+    "team": "Raaaaaaaandy",
+    "player": "Kyler Murray",
+    "position": "QB"
+  },
+  {
+    "round": 11,
+    "pick": 110,
+    "team": "Goatse XVI",
+    "player": "Braelon Allen",
+    "position": "RB"
+  },
+  {
+    "round": 12,
+    "pick": 111,
+    "team": "Goatse XVI",
+    "player": "Tyler Warren",
+    "position": "TE"
+  },
+  {
+    "round": 12,
+    "pick": 112,
+    "team": "Raaaaaaaandy",
+    "player": "David Njoku",
+    "position": "TE"
+  },
+  {
+    "round": 12,
+    "pick": 113,
+    "team": "SHARKEISHA NO",
+    "player": "Tucker Kraft",
+    "position": "TE"
+  },
+  {
+    "round": 12,
+    "pick": 114,
+    "team": "Piggy",
+    "player": "Broncos",
+    "position": "DEF"
+  },
+  {
+    "round": 12,
+    "pick": 115,
+    "team": "Flint City Tropics",
+    "player": "Austin Ekeler",
+    "position": "RB"
+  },
+  {
+    "round": 12,
+    "pick": 116,
+    "team": "Bad Rivers Tribe",
+    "player": "Rhamondre Stevenson",
+    "position": "RB"
+  },
+  {
+    "round": 12,
+    "pick": 117,
+    "team": "GodDamJets",
+    "player": "Eagles",
+    "position": "DEF"
+  },
+  {
+    "round": 12,
+    "pick": 118,
+    "team": "The Brown Bears",
+    "player": "Ray Davis",
+    "position": "RB"
+  },
+  {
+    "round": 12,
+    "pick": 119,
+    "team": "The Commish",
+    "player": "Jayden Higgins",
+    "position": "WR"
+  },
+  {
+    "round": 12,
+    "pick": 120,
+    "team": "Go Birds",
+    "player": "Tyler Allgeier",
+    "position": "RB"
+  },
+  {
+    "round": 13,
+    "pick": 121,
+    "team": "Go Birds",
+    "player": "Ravens",
+    "position": "DEF"
+  },
+  {
+    "round": 13,
+    "pick": 122,
+    "team": "The Commish",
+    "player": "Texans",
+    "position": "DEF"
+  },
+  {
+    "round": 13,
+    "pick": 123,
+    "team": "The Brown Bears",
+    "player": "Luther Burden III",
+    "position": "WR"
+  },
+  {
+    "round": 13,
+    "pick": 124,
+    "team": "GodDamJets",
+    "player": "Brandon Aiyuk",
+    "position": "WR"
+  },
+  {
+    "round": 13,
+    "pick": 125,
+    "team": "Bad Rivers Tribe",
+    "player": "Steelers",
+    "position": "DEF"
+  },
+  {
+    "round": 13,
+    "pick": 126,
+    "team": "Flint City Tropics",
+    "player": "Dak Prescott",
+    "position": "QB"
+  },
+  {
+    "round": 13,
+    "pick": 127,
+    "team": "Piggy",
+    "player": "Brandon Aubrey",
+    "position": "K"
+  },
+  {
+    "round": 13,
+    "pick": 128,
+    "team": "SHARKEISHA NO",
+    "player": "Bills",
+    "position": "DEF"
+  },
+  {
+    "round": 13,
+    "pick": 129,
+    "team": "Raaaaaaaandy",
+    "player": "Jerome Ford",
+    "position": "RB"
+  },
+  {
+    "round": 13,
+    "pick": 130,
+    "team": "Goatse XVI",
+    "player": "Jaydon Blue",
+    "position": "RB"
+  },
+  {
+    "round": 14,
+    "pick": 131,
+    "team": "Goatse XVI",
+    "player": "Cameron Dicker",
+    "position": "K"
+  },
+  {
+    "round": 14,
+    "pick": 132,
+    "team": "Raaaaaaaandy",
+    "player": "Jake Bates",
+    "position": "K"
+  },
+  {
+    "round": 14,
+    "pick": 133,
+    "team": "SHARKEISHA NO",
+    "player": "Matt Gay",
+    "position": "K"
+  },
+  {
+    "round": 14,
+    "pick": 134,
+    "team": "Piggy",
+    "player": "Ollie Gordon II",
+    "position": "RB"
+  },
+  {
+    "round": 14,
+    "pick": 135,
+    "team": "Flint City Tropics",
+    "player": "Colston Loveland",
+    "position": "TE"
+  },
+  {
+    "round": 14,
+    "pick": 136,
+    "team": "Bad Rivers Tribe",
+    "player": "Christian Kirk",
+    "position": "WR"
+  },
+  {
+    "round": 14,
+    "pick": 137,
+    "team": "GodDamJets",
+    "player": "Chris Boswell",
+    "position": "K"
+  },
+  {
+    "round": 14,
+    "pick": 138,
+    "team": "The Brown Bears",
+    "player": "Cardinals",
+    "position": "DEF"
+  },
+  {
+    "round": 14,
+    "pick": 139,
+    "team": "The Commish",
+    "player": "Najee Harris",
+    "position": "RB"
+  },
+  {
+    "round": 14,
+    "pick": 140,
+    "team": "Go Birds",
+    "player": "Wil Lutz",
+    "position": "K"
+  },
+  {
+    "round": 15,
+    "pick": 141,
+    "team": "Go Birds",
+    "player": "Marvin Mims Jr.",
+    "position": "WR"
+  },
+  {
+    "round": 15,
+    "pick": 142,
+    "team": "The Commish",
+    "player": "Ka'imi Fairbairn",
+    "position": "K"
+  },
+  {
+    "round": 15,
+    "pick": 143,
+    "team": "The Brown Bears",
+    "player": "Harrison Butker",
+    "position": "K"
+  },
+  {
+    "round": 15,
+    "pick": 144,
+    "team": "GodDamJets",
+    "player": "Wan'Dale Robinson",
+    "position": "WR"
+  },
+  {
+    "round": 15,
+    "pick": 145,
+    "team": "Bad Rivers Tribe",
+    "player": "Jake Elliott",
+    "position": "K"
+  },
+  {
+    "round": 15,
+    "pick": 146,
+    "team": "Flint City Tropics",
+    "player": "Commanders",
+    "position": "DEF"
+  },
+  {
+    "round": 15,
+    "pick": 147,
+    "team": "Piggy",
+    "player": "Kyle Williams",
+    "position": "WR"
+  },
+  {
+    "round": 15,
+    "pick": 148,
+    "team": "SHARKEISHA NO",
+    "player": "Kimani Vidal",
+    "position": "RB"
+  },
+  {
+    "round": 15,
+    "pick": 149,
+    "team": "Raaaaaaaandy",
+    "player": "Vikings",
+    "position": "DEF"
+  },
+  {
+    "round": 15,
+    "pick": 150,
+    "team": "Goatse XVI",
+    "player": "Jets",
+    "position": "DEF"
+  }
+]

@@ -1,0 +1,1052 @@
+[
+  {
+    "round": 1,
+    "pick": 1,
+    "team": "Gus the Bus",
+    "player": "Le'Veon Bell",
+    "position": "RB"
+  },
+  {
+    "round": 1,
+    "pick": 2,
+    "team": "The Commish",
+    "player": "Antonio Brown",
+    "position": "WR"
+  },
+  {
+    "round": 1,
+    "pick": 3,
+    "team": "Flint City Tropics",
+    "player": "Melvin Gordon III",
+    "position": "RB"
+  },
+  {
+    "round": 1,
+    "pick": 4,
+    "team": "#FireBoesch",
+    "player": "Julio Jones",
+    "position": "WR"
+  },
+  {
+    "round": 1,
+    "pick": 5,
+    "team": "The Brown Bears",
+    "player": "Kareem Hunt",
+    "position": "RB"
+  },
+  {
+    "round": 1,
+    "pick": 6,
+    "team": "SHARKEISHA NO",
+    "player": "Devonta Freeman",
+    "position": "RB"
+  },
+  {
+    "round": 1,
+    "pick": 7,
+    "team": "Bad Rivers Tribe",
+    "player": "Ezekiel Elliott",
+    "position": "RB"
+  },
+  {
+    "round": 1,
+    "pick": 8,
+    "team": "Raaaaaaaandy",
+    "player": "Dalvin Cook",
+    "position": "RB"
+  },
+  {
+    "round": 1,
+    "pick": 9,
+    "team": "Philly Philly",
+    "player": "David Johnson",
+    "position": "RB"
+  },
+  {
+    "round": 1,
+    "pick": 10,
+    "team": "Goatse X",
+    "player": "Todd Gurley",
+    "position": "RB"
+  },
+  {
+    "round": 2,
+    "pick": 11,
+    "team": "Goatse X",
+    "player": "Saquon Barkley",
+    "position": "RB"
+  },
+  {
+    "round": 2,
+    "pick": 12,
+    "team": "Philly Philly",
+    "player": "Alvin Kamara",
+    "position": "RB"
+  },
+  {
+    "round": 2,
+    "pick": 13,
+    "team": "Raaaaaaaandy",
+    "player": "DeAndre Hopkins",
+    "position": "WR"
+  },
+  {
+    "round": 2,
+    "pick": 14,
+    "team": "Bad Rivers Tribe",
+    "player": "Odell Beckham Jr.",
+    "position": "WR"
+  },
+  {
+    "round": 2,
+    "pick": 15,
+    "team": "SHARKEISHA NO",
+    "player": "Michael Thomas",
+    "position": "WR"
+  },
+  {
+    "round": 2,
+    "pick": 16,
+    "team": "The Brown Bears",
+    "player": "Leonard Fournette",
+    "position": "RB"
+  },
+  {
+    "round": 2,
+    "pick": 17,
+    "team": "#FireBoesch",
+    "player": "Christian McCaffrey",
+    "position": "RB"
+  },
+  {
+    "round": 2,
+    "pick": 18,
+    "team": "Flint City Tropics",
+    "player": "Jordan Howard",
+    "position": "RB"
+  },
+  {
+    "round": 2,
+    "pick": 19,
+    "team": "The Commish",
+    "player": "Davante Adams",
+    "position": "WR"
+  },
+  {
+    "round": 2,
+    "pick": 20,
+    "team": "Gus the Bus",
+    "player": "Rob Gronkowski",
+    "position": "TE"
+  },
+  {
+    "round": 3,
+    "pick": 21,
+    "team": "Gus the Bus",
+    "player": "A.J. Green",
+    "position": "WR"
+  },
+  {
+    "round": 3,
+    "pick": 22,
+    "team": "The Commish",
+    "player": "Jerick McKinnon",
+    "position": "RB"
+  },
+  {
+    "round": 3,
+    "pick": 23,
+    "team": "Flint City Tropics",
+    "player": "Keenan Allen",
+    "position": "WR"
+  },
+  {
+    "round": 3,
+    "pick": 24,
+    "team": "#FireBoesch",
+    "player": "Mike Evans",
+    "position": "WR"
+  },
+  {
+    "round": 3,
+    "pick": 25,
+    "team": "The Brown Bears",
+    "player": "Stefon Diggs",
+    "position": "WR"
+  },
+  {
+    "round": 3,
+    "pick": 26,
+    "team": "SHARKEISHA NO",
+    "player": "Tyreek Hill",
+    "position": "WR"
+  },
+  {
+    "round": 3,
+    "pick": 27,
+    "team": "Bad Rivers Tribe",
+    "player": "T.Y. Hilton",
+    "position": "WR"
+  },
+  {
+    "round": 3,
+    "pick": 28,
+    "team": "Raaaaaaaandy",
+    "player": "Kenyan Drake",
+    "position": "RB"
+  },
+  {
+    "round": 3,
+    "pick": 29,
+    "team": "Philly Philly",
+    "player": "Doug Baldwin",
+    "position": "WR"
+  },
+  {
+    "round": 3,
+    "pick": 30,
+    "team": "Goatse X",
+    "player": "Joe Mixon",
+    "position": "RB"
+  },
+  {
+    "round": 4,
+    "pick": 31,
+    "team": "Goatse X",
+    "player": "Adam Thielen",
+    "position": "WR"
+  },
+  {
+    "round": 4,
+    "pick": 32,
+    "team": "Philly Philly",
+    "player": "Travis Kelce",
+    "position": "TE"
+  },
+  {
+    "round": 4,
+    "pick": 33,
+    "team": "Raaaaaaaandy",
+    "player": "Amari Cooper",
+    "position": "WR"
+  },
+  {
+    "round": 4,
+    "pick": 34,
+    "team": "Bad Rivers Tribe",
+    "player": "Zach Ertz",
+    "position": "TE"
+  },
+  {
+    "round": 4,
+    "pick": 35,
+    "team": "SHARKEISHA NO",
+    "player": "Aaron Rodgers",
+    "position": "QB"
+  },
+  {
+    "round": 4,
+    "pick": 36,
+    "team": "The Brown Bears",
+    "player": "LeSean McCoy",
+    "position": "RB"
+  },
+  {
+    "round": 4,
+    "pick": 37,
+    "team": "#FireBoesch",
+    "player": "Allen Robinson",
+    "position": "WR"
+  },
+  {
+    "round": 4,
+    "pick": 38,
+    "team": "Flint City Tropics",
+    "player": "Jarvis Landry",
+    "position": "WR"
+  },
+  {
+    "round": 4,
+    "pick": 39,
+    "team": "The Commish",
+    "player": "Lamar Miller",
+    "position": "RB"
+  },
+  {
+    "round": 4,
+    "pick": 40,
+    "team": "Gus the Bus",
+    "player": "Royce Freeman",
+    "position": "RB"
+  },
+  {
+    "round": 5,
+    "pick": 41,
+    "team": "Gus the Bus",
+    "player": "Tom Brady",
+    "position": "QB"
+  },
+  {
+    "round": 5,
+    "pick": 42,
+    "team": "The Commish",
+    "player": "Demaryius Thomas",
+    "position": "WR"
+  },
+  {
+    "round": 5,
+    "pick": 43,
+    "team": "Flint City Tropics",
+    "player": "Larry Fitzgerald",
+    "position": "WR"
+  },
+  {
+    "round": 5,
+    "pick": 44,
+    "team": "#FireBoesch",
+    "player": "Jay Ajayi",
+    "position": "RB"
+  },
+  {
+    "round": 5,
+    "pick": 45,
+    "team": "The Brown Bears",
+    "player": "Deshaun Watson",
+    "position": "QB"
+  },
+  {
+    "round": 5,
+    "pick": 46,
+    "team": "SHARKEISHA NO",
+    "player": "Derrick Henry",
+    "position": "RB"
+  },
+  {
+    "round": 5,
+    "pick": 47,
+    "team": "Bad Rivers Tribe",
+    "player": "Alex Collins",
+    "position": "RB"
+  },
+  {
+    "round": 5,
+    "pick": 48,
+    "team": "Raaaaaaaandy",
+    "player": "Golden Tate",
+    "position": "WR"
+  },
+  {
+    "round": 5,
+    "pick": 49,
+    "team": "Philly Philly",
+    "player": "JuJu Smith-Schuster",
+    "position": "WR"
+  },
+  {
+    "round": 5,
+    "pick": 50,
+    "team": "Goatse X",
+    "player": "Marvin Jones Jr.",
+    "position": "WR"
+  },
+  {
+    "round": 6,
+    "pick": 51,
+    "team": "Goatse X",
+    "player": "Mark Ingram II",
+    "position": "RB"
+  },
+  {
+    "round": 6,
+    "pick": 52,
+    "team": "Philly Philly",
+    "player": "Brandin Cooks",
+    "position": "WR"
+  },
+  {
+    "round": 6,
+    "pick": 53,
+    "team": "Raaaaaaaandy",
+    "player": "Russell Wilson",
+    "position": "QB"
+  },
+  {
+    "round": 6,
+    "pick": 54,
+    "team": "Bad Rivers Tribe",
+    "player": "Chris Hogan",
+    "position": "WR"
+  },
+  {
+    "round": 6,
+    "pick": 55,
+    "team": "SHARKEISHA NO",
+    "player": "Jimmy Graham",
+    "position": "TE"
+  },
+  {
+    "round": 6,
+    "pick": 56,
+    "team": "The Brown Bears",
+    "player": "Josh Gordon",
+    "position": "WR"
+  },
+  {
+    "round": 6,
+    "pick": 57,
+    "team": "#FireBoesch",
+    "player": "Evan Engram",
+    "position": "TE"
+  },
+  {
+    "round": 6,
+    "pick": 58,
+    "team": "Flint City Tropics",
+    "player": "Alshon Jeffery",
+    "position": "WR"
+  },
+  {
+    "round": 6,
+    "pick": 59,
+    "team": "The Commish",
+    "player": "Corey Davis",
+    "position": "WR"
+  },
+  {
+    "round": 6,
+    "pick": 60,
+    "team": "Gus the Bus",
+    "player": "Michael Crabtree",
+    "position": "WR"
+  },
+  {
+    "round": 7,
+    "pick": 61,
+    "team": "Gus the Bus",
+    "player": "Carlos Hyde",
+    "position": "RB"
+  },
+  {
+    "round": 7,
+    "pick": 62,
+    "team": "The Commish",
+    "player": "Carson Wentz",
+    "position": "QB"
+  },
+  {
+    "round": 7,
+    "pick": 63,
+    "team": "Flint City Tropics",
+    "player": "Marshawn Lynch",
+    "position": "RB"
+  },
+  {
+    "round": 7,
+    "pick": 64,
+    "team": "#FireBoesch",
+    "player": "Sony Michel",
+    "position": "RB"
+  },
+  {
+    "round": 7,
+    "pick": 65,
+    "team": "The Brown Bears",
+    "player": "Marquise Goodwin",
+    "position": "WR"
+  },
+  {
+    "round": 7,
+    "pick": 66,
+    "team": "SHARKEISHA NO",
+    "player": "Greg Olsen",
+    "position": "TE"
+  },
+  {
+    "round": 7,
+    "pick": 67,
+    "team": "Bad Rivers Tribe",
+    "player": "Drew Brees",
+    "position": "QB"
+  },
+  {
+    "round": 7,
+    "pick": 68,
+    "team": "Raaaaaaaandy",
+    "player": "Chris Carson",
+    "position": "RB"
+  },
+  {
+    "round": 7,
+    "pick": 69,
+    "team": "Philly Philly",
+    "player": "Dion Lewis",
+    "position": "RB"
+  },
+  {
+    "round": 7,
+    "pick": 70,
+    "team": "Goatse X",
+    "player": "Kyle Rudolph",
+    "position": "TE"
+  },
+  {
+    "round": 8,
+    "pick": 71,
+    "team": "Goatse X",
+    "player": "Cam Newton",
+    "position": "QB"
+  },
+  {
+    "round": 8,
+    "pick": 72,
+    "team": "Philly Philly",
+    "player": "Kirk Cousins",
+    "position": "QB"
+  },
+  {
+    "round": 8,
+    "pick": 73,
+    "team": "Raaaaaaaandy",
+    "player": "Isaiah Crowell",
+    "position": "RB"
+  },
+  {
+    "round": 8,
+    "pick": 74,
+    "team": "Bad Rivers Tribe",
+    "player": "Sammy Watkins",
+    "position": "WR"
+  },
+  {
+    "round": 8,
+    "pick": 75,
+    "team": "SHARKEISHA NO",
+    "player": "Robbie Chosen",
+    "position": "WR"
+  },
+  {
+    "round": 8,
+    "pick": 76,
+    "team": "The Brown Bears",
+    "player": "Jordan Reed",
+    "position": "TE"
+  },
+  {
+    "round": 8,
+    "pick": 77,
+    "team": "#FireBoesch",
+    "player": "Rashaad Penny",
+    "position": "RB"
+  },
+  {
+    "round": 8,
+    "pick": 78,
+    "team": "Flint City Tropics",
+    "player": "Ronald Jones",
+    "position": "RB"
+  },
+  {
+    "round": 8,
+    "pick": 79,
+    "team": "The Commish",
+    "player": "Kerryon Johnson",
+    "position": "RB"
+  },
+  {
+    "round": 8,
+    "pick": 80,
+    "team": "Gus the Bus",
+    "player": "Chris Thompson",
+    "position": "RB"
+  },
+  {
+    "round": 9,
+    "pick": 81,
+    "team": "Gus the Bus",
+    "player": "Kelvin Benjamin",
+    "position": "WR"
+  },
+  {
+    "round": 9,
+    "pick": 82,
+    "team": "The Commish",
+    "player": "Jamison Crowder",
+    "position": "WR"
+  },
+  {
+    "round": 9,
+    "pick": 83,
+    "team": "Flint City Tropics",
+    "player": "Rex Burkhead",
+    "position": "RB"
+  },
+  {
+    "round": 9,
+    "pick": 84,
+    "team": "#FireBoesch",
+    "player": "Robert Woods",
+    "position": "WR"
+  },
+  {
+    "round": 9,
+    "pick": 85,
+    "team": "The Brown Bears",
+    "player": "Will Fuller V",
+    "position": "WR"
+  },
+  {
+    "round": 9,
+    "pick": 86,
+    "team": "SHARKEISHA NO",
+    "player": "Cooper Kupp",
+    "position": "WR"
+  },
+  {
+    "round": 9,
+    "pick": 87,
+    "team": "Bad Rivers Tribe",
+    "player": "Duke Johnson",
+    "position": "RB"
+  },
+  {
+    "round": 9,
+    "pick": 88,
+    "team": "Raaaaaaaandy",
+    "player": "Delanie Walker",
+    "position": "TE"
+  },
+  {
+    "round": 9,
+    "pick": 89,
+    "team": "Philly Philly",
+    "player": "Emmanuel Sanders",
+    "position": "WR"
+  },
+  {
+    "round": 9,
+    "pick": 90,
+    "team": "Goatse X",
+    "player": "Pierre Garcon",
+    "position": "WR"
+  },
+  {
+    "round": 10,
+    "pick": 91,
+    "team": "Goatse X",
+    "player": "Devin Funchess",
+    "position": "WR"
+  },
+  {
+    "round": 10,
+    "pick": 92,
+    "team": "Philly Philly",
+    "player": "Tevin Coleman",
+    "position": "RB"
+  },
+  {
+    "round": 10,
+    "pick": 93,
+    "team": "Raaaaaaaandy",
+    "player": "Marlon Mack",
+    "position": "RB"
+  },
+  {
+    "round": 10,
+    "pick": 94,
+    "team": "Bad Rivers Tribe",
+    "player": "Nelson Agholor",
+    "position": "WR"
+  },
+  {
+    "round": 10,
+    "pick": 95,
+    "team": "SHARKEISHA NO",
+    "player": "Tarik Cohen",
+    "position": "RB"
+  },
+  {
+    "round": 10,
+    "pick": 96,
+    "team": "The Brown Bears",
+    "player": "Geronimo Allison",
+    "position": "WR"
+  },
+  {
+    "round": 10,
+    "pick": 97,
+    "team": "#FireBoesch",
+    "player": "Allen Hurns",
+    "position": "WR"
+  },
+  {
+    "round": 10,
+    "pick": 98,
+    "team": "Flint City Tropics",
+    "player": "Jamaal Williams",
+    "position": "RB"
+  },
+  {
+    "round": 10,
+    "pick": 99,
+    "team": "The Commish",
+    "player": "Kenneth Barber",
+    "position": "RB"
+  },
+  {
+    "round": 10,
+    "pick": 100,
+    "team": "Gus the Bus",
+    "player": "Jordy Nelson",
+    "position": "WR"
+  },
+  {
+    "round": 11,
+    "pick": 101,
+    "team": "Gus the Bus",
+    "player": "C.J. Anderson",
+    "position": "RB"
+  },
+  {
+    "round": 11,
+    "pick": 102,
+    "team": "The Commish",
+    "player": "Trey Burton",
+    "position": "TE"
+  },
+  {
+    "round": 11,
+    "pick": 103,
+    "team": "Flint City Tropics",
+    "player": "Adrian Peterson",
+    "position": "RB"
+  },
+  {
+    "round": 11,
+    "pick": 104,
+    "team": "#FireBoesch",
+    "player": "Bilal Powell",
+    "position": "RB"
+  },
+  {
+    "round": 11,
+    "pick": 105,
+    "team": "The Brown Bears",
+    "player": "Mike Williams",
+    "position": "WR"
+  },
+  {
+    "round": 11,
+    "pick": 106,
+    "team": "SHARKEISHA NO",
+    "player": "Jaguars",
+    "position": "DEF"
+  },
+  {
+    "round": 11,
+    "pick": 107,
+    "team": "Bad Rivers Tribe",
+    "player": "Kenny Stills",
+    "position": "WR"
+  },
+  {
+    "round": 11,
+    "pick": 108,
+    "team": "Raaaaaaaandy",
+    "player": "Julian Edelman",
+    "position": "WR"
+  },
+  {
+    "round": 11,
+    "pick": 109,
+    "team": "Philly Philly",
+    "player": "Randall Cobb",
+    "position": "WR"
+  },
+  {
+    "round": 11,
+    "pick": 110,
+    "team": "Goatse X",
+    "player": "Corey Clement",
+    "position": "RB"
+  },
+  {
+    "round": 12,
+    "pick": 111,
+    "team": "Goatse X",
+    "player": "Ty Montgomery II",
+    "position": "RB"
+  },
+  {
+    "round": 12,
+    "pick": 112,
+    "team": "Philly Philly",
+    "player": "Nick Chubb",
+    "position": "RB"
+  },
+  {
+    "round": 12,
+    "pick": 113,
+    "team": "Raaaaaaaandy",
+    "player": "Tyrell Williams",
+    "position": "WR"
+  },
+  {
+    "round": 12,
+    "pick": 114,
+    "team": "Bad Rivers Tribe",
+    "player": "Theo Riddick",
+    "position": "RB"
+  },
+  {
+    "round": 12,
+    "pick": 115,
+    "team": "SHARKEISHA NO",
+    "player": "Calvin Ridley",
+    "position": "WR"
+  },
+  {
+    "round": 12,
+    "pick": 116,
+    "team": "The Brown Bears",
+    "player": "Josh Doctson",
+    "position": "WR"
+  },
+  {
+    "round": 12,
+    "pick": 117,
+    "team": "#FireBoesch",
+    "player": "Sterling Shepard",
+    "position": "WR"
+  },
+  {
+    "round": 12,
+    "pick": 118,
+    "team": "Flint City Tropics",
+    "player": "LeGarrette Blount",
+    "position": "RB"
+  },
+  {
+    "round": 12,
+    "pick": 119,
+    "team": "The Commish",
+    "player": "Rams",
+    "position": "DEF"
+  },
+  {
+    "round": 12,
+    "pick": 120,
+    "team": "Gus the Bus",
+    "player": "DJ Moore",
+    "position": "WR"
+  },
+  {
+    "round": 13,
+    "pick": 121,
+    "team": "Gus the Bus",
+    "player": "Justin Tucker",
+    "position": "K"
+  },
+  {
+    "round": 13,
+    "pick": 122,
+    "team": "The Commish",
+    "player": "Andrew Luck",
+    "position": "QB"
+  },
+  {
+    "round": 13,
+    "pick": 123,
+    "team": "Flint City Tropics",
+    "player": "Philip Rivers",
+    "position": "QB"
+  },
+  {
+    "round": 13,
+    "pick": 124,
+    "team": "#FireBoesch",
+    "player": "Vikings",
+    "position": "DEF"
+  },
+  {
+    "round": 13,
+    "pick": 125,
+    "team": "The Brown Bears",
+    "player": "Eagles",
+    "position": "DEF"
+  },
+  {
+    "round": 13,
+    "pick": 126,
+    "team": "SHARKEISHA NO",
+    "player": "Greg Zuerlein",
+    "position": "K"
+  },
+  {
+    "round": 13,
+    "pick": 127,
+    "team": "Bad Rivers Tribe",
+    "player": "Chargers",
+    "position": "DEF"
+  },
+  {
+    "round": 13,
+    "pick": 128,
+    "team": "Raaaaaaaandy",
+    "player": "Panthers",
+    "position": "DEF"
+  },
+  {
+    "round": 13,
+    "pick": 129,
+    "team": "Philly Philly",
+    "player": "Texans",
+    "position": "DEF"
+  },
+  {
+    "round": 13,
+    "pick": 130,
+    "team": "Goatse X",
+    "player": "Kenny Golladay",
+    "position": "WR"
+  },
+  {
+    "round": 14,
+    "pick": 131,
+    "team": "Goatse X",
+    "player": "Stephen Gostkowski",
+    "position": "K"
+  },
+  {
+    "round": 14,
+    "pick": 132,
+    "team": "Philly Philly",
+    "player": "DeVante Parker",
+    "position": "WR"
+  },
+  {
+    "round": 14,
+    "pick": 133,
+    "team": "Raaaaaaaandy",
+    "player": "Latavius Murray",
+    "position": "RB"
+  },
+  {
+    "round": 14,
+    "pick": 134,
+    "team": "Bad Rivers Tribe",
+    "player": "O.J. Howard",
+    "position": "TE"
+  },
+  {
+    "round": 14,
+    "pick": 135,
+    "team": "SHARKEISHA NO",
+    "player": "Marqise Lee",
+    "position": "WR"
+  },
+  {
+    "round": 14,
+    "pick": 136,
+    "team": "The Brown Bears",
+    "player": "David Njoku",
+    "position": "TE"
+  },
+  {
+    "round": 14,
+    "pick": 137,
+    "team": "#FireBoesch",
+    "player": "Matt Bryant",
+    "position": "K"
+  },
+  {
+    "round": 14,
+    "pick": 138,
+    "team": "Flint City Tropics",
+    "player": "James White",
+    "position": "RB"
+  },
+  {
+    "round": 14,
+    "pick": 139,
+    "team": "The Commish",
+    "player": "D'Onta Foreman",
+    "position": "RB"
+  },
+  {
+    "round": 14,
+    "pick": 140,
+    "team": "Gus the Bus",
+    "player": "Ravens",
+    "position": "DEF"
+  },
+  {
+    "round": 15,
+    "pick": 141,
+    "team": "Gus the Bus",
+    "player": "James Conner",
+    "position": "RB"
+  },
+  {
+    "round": 15,
+    "pick": 142,
+    "team": "The Commish",
+    "player": "Wil Lutz",
+    "position": "K"
+  },
+  {
+    "round": 15,
+    "pick": 143,
+    "team": "Flint City Tropics",
+    "player": "George Kittle",
+    "position": "TE"
+  },
+  {
+    "round": 15,
+    "pick": 144,
+    "team": "#FireBoesch",
+    "player": "Matt Ryan",
+    "position": "QB"
+  },
+  {
+    "round": 15,
+    "pick": 145,
+    "team": "The Brown Bears",
+    "player": "Chris Boswell",
+    "position": "K"
+  },
+  {
+    "round": 15,
+    "pick": 146,
+    "team": "SHARKEISHA NO",
+    "player": "Devontae Booker",
+    "position": "RB"
+  },
+  {
+    "round": 15,
+    "pick": 147,
+    "team": "Bad Rivers Tribe",
+    "player": "Jake Elliott",
+    "position": "K"
+  },
+  {
+    "round": 15,
+    "pick": 148,
+    "team": "Raaaaaaaandy",
+    "player": "Harrison Butker",
+    "position": "K"
+  },
+  {
+    "round": 15,
+    "pick": 149,
+    "team": "Philly Philly",
+    "player": "Matt Prater",
+    "position": "K"
+  },
+  {
+    "round": 15,
+    "pick": 150,
+    "team": "Goatse X",
+    "player": "Broncos",
+    "position": "DEF"
+  }
+]

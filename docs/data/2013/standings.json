@@ -1,0 +1,102 @@
+[
+  {
+    "team": "Donald Drunk",
+    "owner": "Drew",
+    "wins": "7",
+    "losses": "6",
+    "ties": 0,
+    "points_for": "1440.56",
+    "points_against": 1373.5,
+    "rank": 1
+  },
+  {
+    "team": "The Brown Bears",
+    "owner": "John",
+    "wins": "9",
+    "losses": "4",
+    "ties": 0,
+    "points_for": "1450.78",
+    "points_against": 1281.17,
+    "rank": 2
+  },
+  {
+    "team": "She Wants Moreno'l",
+    "owner": "Sean",
+    "wins": "10",
+    "losses": "3",
+    "ties": 0,
+    "points_for": "1509.14",
+    "points_against": 1365.35,
+    "rank": 3
+  },
+  {
+    "team": "Stat Corrections",
+    "owner": "Brett",
+    "wins": "7",
+    "losses": "6",
+    "ties": 0,
+    "points_for": "1378.86",
+    "points_against": 1417.8900000000003,
+    "rank": 4
+  },
+  {
+    "team": "New York Asshole",
+    "owner": "Paul",
+    "wins": "7",
+    "losses": "6",
+    "ties": 0,
+    "points_for": "1389.08",
+    "points_against": 1352.39,
+    "rank": 5
+  },
+  {
+    "team": "Goatse V",
+    "owner": "Jake",
+    "wins": "8",
+    "losses": "5",
+    "ties": 0,
+    "points_for": "1476.68",
+    "points_against": 1422.71,
+    "rank": 6
+  },
+  {
+    "team": "The Commish",
+    "owner": "Andrew",
+    "wins": "4",
+    "losses": "9",
+    "ties": 0,
+    "points_for": "1537.68",
+    "points_against": 1490.6599999999999,
+    "rank": 7
+  },
+  {
+    "team": "Flint City Tropics",
+    "owner": "Andre",
+    "wins": "6",
+    "losses": "7",
+    "ties": 0,
+    "points_for": "1353.65",
+    "points_against": 1394.3299999999997,
+    "rank": 8
+  },
+  {
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "wins": "4",
+    "losses": "9",
+    "ties": 0,
+    "points_for": "1354.59",
+    "points_against": 1471.5900000000001,
+    "rank": 9
+  },
+  {
+    "team": "Kenny kil",
+    "owner": "Ken",
+    "wins": "3",
+    "losses": "10",
+    "ties": 0,
+    "points_for": "1041.24",
+    "points_against": 1362.6699999999998,
+    "rank": 10
+  }
+]

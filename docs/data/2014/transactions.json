@@ -1,0 +1,6841 @@
+[
+  {
+    "type": "Add",
+    "date": "2014-12-21",
+    "player": "Joe Flacco",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-21",
+    "player": "Jay Cutler",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-19",
+    "player": "Harry Douglas",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-19",
+    "player": "Donte Moncrief",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-17",
+    "player": "Lance Dunbar",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-17",
+    "player": "Chiefs",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-17",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-17",
+    "player": "Johnny Manziel",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-17",
+    "player": "Broncos",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-17",
+    "player": "Joe Flacco",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-17",
+    "player": "Joseph Randle",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-17",
+    "player": "Jordan Cameron",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-12",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-12",
+    "player": "Robert Griffin III",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-12",
+    "player": "Jordan Cameron",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-12",
+    "player": "Michael Crabtree",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-12",
+    "player": "Donte Moncrief",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-12",
+    "player": "Colts",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-11",
+    "player": "Robert Griffin III",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-11",
+    "player": "James Starks",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-10",
+    "player": "Johnny Manziel",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-10",
+    "player": "Phil Dawson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-10",
+    "player": "Justin Tucker",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-10",
+    "player": "Kyle Rudolph",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-10",
+    "player": "James Starks",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-10",
+    "player": "Dolphins",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-10",
+    "player": "Jonathan Stewart",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-10",
+    "player": "Carlos Hyde",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-10",
+    "player": "Alex Smith",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-10",
+    "player": "Colin Kaepernick",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-06",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-06",
+    "player": "Jerick McKinnon",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-03",
+    "player": "Andre Williams",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-03",
+    "player": "Jordan Cameron",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-03",
+    "player": "Doug Martin",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-03",
+    "player": "Alfred Blue",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-03",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-03",
+    "player": "Kyle Rudolph",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-03",
+    "player": "Joe Flacco",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-03",
+    "player": "Alex Smith",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-03",
+    "player": "Kenny Stills",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-12-03",
+    "player": "Charles Sims",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-30",
+    "player": "Dwayne Bowe",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-30",
+    "player": "Bobby Rainey",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-30",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-30",
+    "player": "Timothy Wright",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-30",
+    "player": "Timothy Wright",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-30",
+    "player": "Bishop Sankey",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-29",
+    "player": "Coby Fleener",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-29",
+    "player": "Giants",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-27",
+    "player": "Giants",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-27",
+    "player": "DeAngelo Williams",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-26",
+    "player": "Adrian Peterson",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-26",
+    "player": "Justin Tucker",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-26",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-26",
+    "player": "Cecil Shorts",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-26",
+    "player": "Jordan Cameron",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-26",
+    "player": "Coby Fleener",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-26",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-26",
+    "player": "Broncos",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-26",
+    "player": "Latavius Murray",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-26",
+    "player": "Chiefs",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-23",
+    "player": "Dan Herron",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-23",
+    "player": "Kenny Stills",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-20",
+    "player": "Alex Smith",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-20",
+    "player": "Mychal Rivera",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-20",
+    "player": "LeGarrette Blount",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-20",
+    "player": "Matt Asiata",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-20",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-20",
+    "player": "Martavis Bryant",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-20",
+    "player": "Kenny Stills",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-20",
+    "player": "Ben Tate",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-19",
+    "player": "Cecil Shorts",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-19",
+    "player": "Marqise Lee",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-19",
+    "player": "Isaiah Crowell",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-19",
+    "player": "Adrian Peterson",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-19",
+    "player": "Bears",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-19",
+    "player": "Browns",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-19",
+    "player": "Coby Fleener",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-19",
+    "player": "Brandin Cooks",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-19",
+    "player": "Mason Crosby",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-19",
+    "player": "Chandler Catanzaro",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-19",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-19",
+    "player": "Steelers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-19",
+    "player": "Reggie Wayne",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-19",
+    "player": "Ahmad Bradshaw",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-19",
+    "player": "Caleb Sturgis",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-19",
+    "player": "Graham Gano",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-19",
+    "player": "Jonas Gray",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-19",
+    "player": "Shaun Suisham",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-16",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-16",
+    "player": "Ravens",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-15",
+    "player": "DeAngelo Williams",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-15",
+    "player": "Andre Williams",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-15",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-15",
+    "player": "Bengals",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-13",
+    "player": "Andre Williams",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-13",
+    "player": "Robert Griffin III",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-13",
+    "player": "Matt Asiata",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-13",
+    "player": "Reggie Wayne",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-13",
+    "player": "Theo Riddick",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-13",
+    "player": "Charles Clay",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Shaun Suisham",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Cowboys",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Marqise Lee",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Mason Crosby",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "John Brown",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Carson Palmer",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Carlos Hyde",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Allen Robinson",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Branden Oliver",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Browns",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Jordan Reed",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Heath Miller",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Jordan Matthews",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Zach Ertz",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Phil Dawson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Mike Nugent",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Robert Griffin III",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Alex Smith",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Mychal Rivera",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Packers",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Ryan Tannehill",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Owen Daniels",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Adam Vinatieri",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "Terrance Williams",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "C.J. Anderson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-12",
+    "player": "DeAngelo Williams",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-11",
+    "player": "DeAngelo Williams",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-11",
+    "player": "Doug Baldwin",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-09",
+    "player": "Mark Sanchez",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-09",
+    "player": "Theo Riddick",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-09",
+    "player": "Chandler Catanzaro",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-09",
+    "player": "Adam Vinatieri",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-08",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-08",
+    "player": "Panthers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-08",
+    "player": "Knile Davis",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-08",
+    "player": "Joe Flacco",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-08",
+    "player": "Fred Jackson",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-08",
+    "player": "Reggie Wayne",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-08",
+    "player": "Cordarrelle Patterson",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-08",
+    "player": "Tony Romo",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-08",
+    "player": "Ryan Tannehill",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-08",
+    "player": "Vernon Davis",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-08",
+    "player": "Alex Smith",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-08",
+    "player": "Eli Manning",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-07",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-07",
+    "player": "Michael Vick",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-06",
+    "player": "Matt Prater",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-06",
+    "player": "Billy Cundiff",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Dan Carpenter",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Chandler Catanzaro",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Steelers",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Michael Vick",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Matt Asiata",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Martavis Bryant",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Lorenzo Taliaferro",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Terrance West",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Doug Martin",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Ryan Tannehill",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Jonathan Stewart",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Reggie Wayne",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Tre Mason",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Fred Jackson",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Bryce Brown",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Billy Cundiff",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Nick Novak",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Steven Jackson",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Branden Oliver",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Colts",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Joe Flacco",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Nick Foles",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Matt Asiata",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Eddie Royal",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Owen Daniels",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Tony Romo",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Alfred Blue",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Carlos Hyde",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Toby Gerhart",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Reggie Bush",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Wes Welker",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Adrian Peterson",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-05",
+    "player": "Jordan Cameron",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-03",
+    "player": "Mason Crosby",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-03",
+    "player": "Jordan Reed",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-01",
+    "player": "Toby Gerhart",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-01",
+    "player": "Zac Stacy",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-01",
+    "player": "Zac Stacy",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-01",
+    "player": "Dan Carpenter",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-01",
+    "player": "Reggie Wayne",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-01",
+    "player": "Chris Johnson",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-01",
+    "player": "Jeremy Hill",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-11-01",
+    "player": "Andre Williams",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Bobby Rainey",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Packers",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Lorenzo Taliaferro",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Reggie Wayne",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Ben Roethlisberger",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Isaiah Crowell",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Mike Nugent",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Caleb Sturgis",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Charles Sims",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Tre Mason",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Dolphins",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Carson Palmer",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Reggie Bush",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Kendall Wright",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Chandler Catanzaro",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Theo Riddick",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Heath Miller",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Jeremy Hill",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Allen Robinson",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-29",
+    "player": "Brandon Bolden",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-28",
+    "player": "Anthony Dixon",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-27",
+    "player": "Brian Quick",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-25",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-25",
+    "player": "Jared Cook",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-23",
+    "player": "Benny Cunningham Jr.",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-23",
+    "player": "Bernard Pierce",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Anthony Dixon",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Pierre Thomas",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Cowboys",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Caleb Sturgis",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Zac Stacy",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "49ers",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Joe Flacco",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Mike Evans",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Kenny Britt",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Chargers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Dwayne Allen",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Jason Witten",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Doug Baldwin",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Chandler Catanzaro",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Brandon LaFell",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Antone Smith",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Commanders",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Bernard Pierce",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "C.J. Spiller",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Tony Romo",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Andy Dalton",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Bryce Brown",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Steven Jackson",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Tre Mason",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Phil Dawson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Denard Robinson",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-22",
+    "player": "Bears",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-19",
+    "player": "Chargers",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-19",
+    "player": "49ers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-19",
+    "player": "Brandin Cooks",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-19",
+    "player": "Tony Romo",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-16",
+    "player": "Brandon Bolden",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-16",
+    "player": "Chargers",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-16",
+    "player": "Jeremy Hill",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-16",
+    "player": "Matt Asiata",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-16",
+    "player": "Jonathan Stewart",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-16",
+    "player": "Brandin Cooks",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-16",
+    "player": "Graham Gano",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-16",
+    "player": "Matt Bryant",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-16",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-16",
+    "player": "James Jones",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-16",
+    "player": "Andre Holmes",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-16",
+    "player": "Dwayne Bowe",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Titans",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Panthers",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Andy Dalton",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Eli Manning",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Antone Smith",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Chiefs",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Joe Flacco",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Dwayne Allen",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Kenny Britt",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Darren McFadden",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Devin Hester",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Jordan Reed",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Owen Daniels",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Chandler Catanzaro",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Stevan Ridley",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Isaiah Crowell",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-15",
+    "player": "Markus Wheaton",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-14",
+    "player": "Victor Cruz",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-14",
+    "player": "Knowshon Moreno",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-11",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-11",
+    "player": "Rams",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-11",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-11",
+    "player": "Commanders",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-10",
+    "player": "Phil Dawson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-10",
+    "player": "Adrian Peterson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-10",
+    "player": "Broncos",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-10",
+    "player": "Steelers",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-09",
+    "player": "Rueben Randle",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-09",
+    "player": "Isaiah Crowell",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-09",
+    "player": "Carlos Hyde",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-09",
+    "player": "Joseph Randle",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-09",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-09",
+    "player": "Lorenzo Taliaferro",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-08",
+    "player": "Mohamed Sanu",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-08",
+    "player": "Ben Roethlisberger",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-08",
+    "player": "Dwayne Allen",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-08",
+    "player": "Jordan Reed",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-08",
+    "player": "Joseph Randle",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-08",
+    "player": "Toby Gerhart",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-08",
+    "player": "Jordan Reed",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-08",
+    "player": "Niles Paul",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-08",
+    "player": "Tony Romo",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-08",
+    "player": "Nick Folk",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-08",
+    "player": "Ronnie Hillman",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-08",
+    "player": "Bobby Rainey",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-08",
+    "player": "Branden Oliver",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-08",
+    "player": "Eli Manning",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-08",
+    "player": "Andre Williams",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-05",
+    "player": "Niles Paul",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-05",
+    "player": "Knile Davis",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-04",
+    "player": "Nick Folk",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-04",
+    "player": "Tom Brady",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-04",
+    "player": "Rueben Randle",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-04",
+    "player": "Heath Miller",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-04",
+    "player": "Tony Romo",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-03",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-03",
+    "player": "Alfred Blue",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-03",
+    "player": "Owen Daniels",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-03",
+    "player": "Allen Robinson",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-02",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-02",
+    "player": "Eagles",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-02",
+    "player": "Ben Roethlisberger",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-02",
+    "player": "Kirk Cousins",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-02",
+    "player": "Eddie Royal",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-02",
+    "player": "Mike Evans",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Jerick McKinnon",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Nick Folk",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Bishop Sankey",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Donald Brown",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Lions",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Isaiah Crowell",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "LeGarrette Blount",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Malcom Floyd",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Dolphins",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Stephen Hauschka",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Shaun Suisham",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Justin Forsett",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Terrance West",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Jared Cook",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Shonn Greene",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Heath Miller",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Niles Paul",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Devin Hester",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Cecil Shorts",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Mark Ingram II",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Bernard Pierce",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Knile Davis",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "DeAngelo Williams",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Odell Beckham Jr.",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-10-01",
+    "player": "Tom Brady",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-27",
+    "player": "Shane Vereen",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-27",
+    "player": "Knile Davis",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-27",
+    "player": "Knile Davis",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-27",
+    "player": "Jeremy Hill",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-27",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-27",
+    "player": "Darren McFadden",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Shonn Greene",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Khiry Robinson",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Matt Bryant",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Phil Dawson",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Danny Woodhead",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Larry Donnell",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Knile Davis",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Stephen Hauschka",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Nick Novak",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Mason Crosby",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Eagles",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Kyle Rudolph",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Allen Robinson",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Shane Vereen",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "LeGarrette Blount",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Mark Ingram II",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Chargers",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Saints",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Brian Quick",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Justin Forsett",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Shaun Suisham",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Riley Cooper",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "DeAngelo Williams",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Jonathan Stewart",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Niles Paul",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Dennis Pitta",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Khiry Robinson",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Owen Daniels",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Lorenzo Taliaferro",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-24",
+    "player": "Ravens",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-21",
+    "player": "Darren McFadden",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-21",
+    "player": "Robert Griffin III",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-21",
+    "player": "Jonathan Stewart",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-21",
+    "player": "Devonta Freeman",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-21",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-21",
+    "player": "Cardinals",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-21",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-21",
+    "player": "Broncos",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-21",
+    "player": "Alfred Blue",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-21",
+    "player": "Ladarius Green",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-21",
+    "player": "Jeremy Hill",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-21",
+    "player": "Carlos Hyde",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-20",
+    "player": "Matt Asiata",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-20",
+    "player": "Buccaneers",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-19",
+    "player": "Kirk Cousins",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-19",
+    "player": "Ben Roethlisberger",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-18",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-18",
+    "player": "Browns",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-18",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-18",
+    "player": "Cardinals",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-18",
+    "player": "Owen Daniels",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-18",
+    "player": "DeAngelo Williams",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-17",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-17",
+    "player": "Steelers",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-17",
+    "player": "Donald Brown",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-17",
+    "player": "Jerick McKinnon",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-17",
+    "player": "James Jones",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-17",
+    "player": "Hakeem Nicks",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-17",
+    "player": "Danny Woodhead",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-17",
+    "player": "Allen Hurns",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-17",
+    "player": "Stevan Ridley",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-17",
+    "player": "Jarrett Boykin",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-17",
+    "player": "Bernard Pierce",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-17",
+    "player": "Andy Dalton",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-17",
+    "player": "Antonio Gates",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-17",
+    "player": "Matt Asiata",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-17",
+    "player": "Knile Davis",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-17",
+    "player": "Shonn Greene",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-14",
+    "player": "Jerick McKinnon",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-14",
+    "player": "Jeremy Hill",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-12",
+    "player": "Matt Asiata",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-12",
+    "player": "James White",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-11",
+    "player": "Bears",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-11",
+    "player": "Maurice Jones-Drew",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "Bobby Rainey",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "James Starks",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "Lions",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "Fred Jackson",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "Ray Rice",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "Chris Ivory",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "Alex Smith",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "Allen Hurns",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "Carson Palmer",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "Terrance West",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "Bernard Pierce",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "James Starks",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "Bishop Sankey",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "Ahmad Bradshaw",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "Justin Hunter",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "Buccaneers",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "Danny Woodhead",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "Justin Forsett",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-10",
+    "player": "Jordan Reed",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-08",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-08",
+    "player": "Stevan Ridley",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-07",
+    "player": "Alex Smith",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-07",
+    "player": "Fred Jackson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-05",
+    "player": "Josh Gordon",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-05",
+    "player": "Charles Clay",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-04",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-04",
+    "player": "Cardinals",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-04",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Add",
+    "date": "2014-09-04",
+    "player": "Heath Miller",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-21",
+    "player": "Joe Flacco",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-21",
+    "player": "Jay Cutler",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-19",
+    "player": "Harry Douglas",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-19",
+    "player": "Donte Moncrief",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-17",
+    "player": "Lance Dunbar",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-17",
+    "player": "Chiefs",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-17",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-17",
+    "player": "Johnny Manziel",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-17",
+    "player": "Broncos",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-17",
+    "player": "Joe Flacco",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-17",
+    "player": "Joseph Randle",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-17",
+    "player": "Jordan Cameron",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-12",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-12",
+    "player": "Robert Griffin III",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-12",
+    "player": "Jordan Cameron",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-12",
+    "player": "Michael Crabtree",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-12",
+    "player": "Donte Moncrief",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-12",
+    "player": "Colts",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-11",
+    "player": "Robert Griffin III",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-11",
+    "player": "James Starks",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-10",
+    "player": "Johnny Manziel",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-10",
+    "player": "Phil Dawson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-10",
+    "player": "Justin Tucker",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-10",
+    "player": "Kyle Rudolph",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-10",
+    "player": "James Starks",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-10",
+    "player": "Dolphins",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-10",
+    "player": "Jonathan Stewart",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-10",
+    "player": "Carlos Hyde",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-10",
+    "player": "Alex Smith",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-10",
+    "player": "Colin Kaepernick",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-06",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-06",
+    "player": "Jerick McKinnon",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-03",
+    "player": "Andre Williams",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-03",
+    "player": "Jordan Cameron",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-03",
+    "player": "Doug Martin",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-03",
+    "player": "Alfred Blue",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-03",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-03",
+    "player": "Kyle Rudolph",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-03",
+    "player": "Joe Flacco",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-03",
+    "player": "Alex Smith",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-03",
+    "player": "Kenny Stills",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-12-03",
+    "player": "Charles Sims",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-30",
+    "player": "Dwayne Bowe",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-30",
+    "player": "Bobby Rainey",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-30",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-30",
+    "player": "Timothy Wright",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-30",
+    "player": "Timothy Wright",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-30",
+    "player": "Bishop Sankey",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-29",
+    "player": "Coby Fleener",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-29",
+    "player": "Giants",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-27",
+    "player": "Giants",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-27",
+    "player": "DeAngelo Williams",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-26",
+    "player": "Adrian Peterson",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-26",
+    "player": "Justin Tucker",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-26",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-26",
+    "player": "Cecil Shorts",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-26",
+    "player": "Jordan Cameron",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-26",
+    "player": "Coby Fleener",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-26",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-26",
+    "player": "Broncos",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-26",
+    "player": "Latavius Murray",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-26",
+    "player": "Chiefs",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-23",
+    "player": "Dan Herron",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-23",
+    "player": "Kenny Stills",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-20",
+    "player": "Alex Smith",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-20",
+    "player": "Mychal Rivera",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-20",
+    "player": "LeGarrette Blount",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-20",
+    "player": "Matt Asiata",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-20",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-20",
+    "player": "Martavis Bryant",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-20",
+    "player": "Kenny Stills",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-20",
+    "player": "Ben Tate",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-19",
+    "player": "Cecil Shorts",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-19",
+    "player": "Marqise Lee",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-19",
+    "player": "Isaiah Crowell",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-19",
+    "player": "Adrian Peterson",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-19",
+    "player": "Bears",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-19",
+    "player": "Browns",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-19",
+    "player": "Coby Fleener",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-19",
+    "player": "Brandin Cooks",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-19",
+    "player": "Mason Crosby",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-19",
+    "player": "Chandler Catanzaro",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-19",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-19",
+    "player": "Steelers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-19",
+    "player": "Reggie Wayne",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-19",
+    "player": "Ahmad Bradshaw",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-19",
+    "player": "Caleb Sturgis",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-19",
+    "player": "Graham Gano",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-19",
+    "player": "Jonas Gray",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-19",
+    "player": "Shaun Suisham",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-16",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-16",
+    "player": "Ravens",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-15",
+    "player": "DeAngelo Williams",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-15",
+    "player": "Andre Williams",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-15",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-15",
+    "player": "Bengals",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-13",
+    "player": "Andre Williams",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-13",
+    "player": "Robert Griffin III",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-13",
+    "player": "Matt Asiata",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-13",
+    "player": "Reggie Wayne",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-13",
+    "player": "Theo Riddick",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-13",
+    "player": "Charles Clay",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Shaun Suisham",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Cowboys",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Marqise Lee",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Mason Crosby",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "John Brown",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Carson Palmer",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Carlos Hyde",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Allen Robinson",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Branden Oliver",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Browns",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Jordan Reed",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Heath Miller",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Jordan Matthews",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Zach Ertz",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Phil Dawson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Mike Nugent",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Robert Griffin III",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Alex Smith",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Mychal Rivera",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Packers",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Ryan Tannehill",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Owen Daniels",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Adam Vinatieri",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "Terrance Williams",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "C.J. Anderson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-12",
+    "player": "DeAngelo Williams",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-11",
+    "player": "DeAngelo Williams",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-11",
+    "player": "Doug Baldwin",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-09",
+    "player": "Mark Sanchez",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-09",
+    "player": "Theo Riddick",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-09",
+    "player": "Chandler Catanzaro",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-09",
+    "player": "Adam Vinatieri",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-08",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-08",
+    "player": "Panthers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-08",
+    "player": "Knile Davis",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-08",
+    "player": "Joe Flacco",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-08",
+    "player": "Fred Jackson",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-08",
+    "player": "Reggie Wayne",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-08",
+    "player": "Cordarrelle Patterson",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-08",
+    "player": "Tony Romo",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-08",
+    "player": "Ryan Tannehill",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-08",
+    "player": "Vernon Davis",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-08",
+    "player": "Alex Smith",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-08",
+    "player": "Eli Manning",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-07",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-07",
+    "player": "Michael Vick",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-06",
+    "player": "Matt Prater",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-06",
+    "player": "Billy Cundiff",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Dan Carpenter",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Chandler Catanzaro",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Steelers",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Michael Vick",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Matt Asiata",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Martavis Bryant",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Lorenzo Taliaferro",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Terrance West",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Doug Martin",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Ryan Tannehill",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Jonathan Stewart",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Reggie Wayne",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Tre Mason",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Fred Jackson",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Bryce Brown",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Billy Cundiff",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Nick Novak",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Steven Jackson",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Branden Oliver",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Colts",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Joe Flacco",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Nick Foles",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Matt Asiata",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Eddie Royal",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Owen Daniels",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Tony Romo",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Alfred Blue",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Carlos Hyde",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Toby Gerhart",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Reggie Bush",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Wes Welker",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Adrian Peterson",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-05",
+    "player": "Jordan Cameron",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-03",
+    "player": "Mason Crosby",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-03",
+    "player": "Jordan Reed",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-01",
+    "player": "Toby Gerhart",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-01",
+    "player": "Zac Stacy",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-01",
+    "player": "Zac Stacy",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-01",
+    "player": "Dan Carpenter",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-01",
+    "player": "Reggie Wayne",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-01",
+    "player": "Chris Johnson",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-01",
+    "player": "Jeremy Hill",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-11-01",
+    "player": "Andre Williams",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Bobby Rainey",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Packers",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Lorenzo Taliaferro",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Reggie Wayne",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Ben Roethlisberger",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Isaiah Crowell",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Mike Nugent",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Caleb Sturgis",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Charles Sims",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Tre Mason",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Dolphins",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Carson Palmer",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Reggie Bush",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Kendall Wright",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Chandler Catanzaro",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Theo Riddick",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Heath Miller",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Jeremy Hill",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Allen Robinson",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-29",
+    "player": "Brandon Bolden",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-28",
+    "player": "Anthony Dixon",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-27",
+    "player": "Brian Quick",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-25",
+    "player": "Jason Witten",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-25",
+    "player": "Jared Cook",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-23",
+    "player": "Benny Cunningham Jr.",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-23",
+    "player": "Bernard Pierce",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Anthony Dixon",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Pierre Thomas",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Cowboys",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Caleb Sturgis",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Zac Stacy",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "49ers",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Joe Flacco",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Mike Evans",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Kenny Britt",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Cowboys",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Chargers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Dwayne Allen",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Jason Witten",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Doug Baldwin",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Chandler Catanzaro",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Brandon LaFell",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Antone Smith",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Commanders",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Bernard Pierce",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "C.J. Spiller",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Tony Romo",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Andy Dalton",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Bryce Brown",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Steven Jackson",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Tre Mason",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Phil Dawson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Denard Robinson",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-22",
+    "player": "Bears",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-19",
+    "player": "Chargers",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-19",
+    "player": "49ers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-19",
+    "player": "Brandin Cooks",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-19",
+    "player": "Tony Romo",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-16",
+    "player": "Brandon Bolden",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-16",
+    "player": "Chargers",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-16",
+    "player": "Jeremy Hill",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-16",
+    "player": "Matt Asiata",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-16",
+    "player": "Jonathan Stewart",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-16",
+    "player": "Brandin Cooks",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-16",
+    "player": "Graham Gano",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-16",
+    "player": "Matt Bryant",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-16",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-16",
+    "player": "James Jones",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-16",
+    "player": "Andre Holmes",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-16",
+    "player": "Dwayne Bowe",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Titans",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Panthers",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Andy Dalton",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Eli Manning",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Antone Smith",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Chiefs",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Joe Flacco",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Dwayne Allen",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Kenny Britt",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Darren McFadden",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Devin Hester",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Jordan Reed",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Owen Daniels",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Chandler Catanzaro",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Stevan Ridley",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Isaiah Crowell",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-15",
+    "player": "Markus Wheaton",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-14",
+    "player": "Victor Cruz",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-14",
+    "player": "Knowshon Moreno",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-11",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-11",
+    "player": "Rams",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-11",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-11",
+    "player": "Commanders",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-10",
+    "player": "Phil Dawson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-10",
+    "player": "Adrian Peterson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-10",
+    "player": "Broncos",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-10",
+    "player": "Steelers",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-09",
+    "player": "Rueben Randle",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-09",
+    "player": "Isaiah Crowell",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-09",
+    "player": "Carlos Hyde",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-09",
+    "player": "Joseph Randle",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-09",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-09",
+    "player": "Lorenzo Taliaferro",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-08",
+    "player": "Mohamed Sanu",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-08",
+    "player": "Ben Roethlisberger",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-08",
+    "player": "Dwayne Allen",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-08",
+    "player": "Jordan Reed",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-08",
+    "player": "Joseph Randle",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-08",
+    "player": "Toby Gerhart",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-08",
+    "player": "Jordan Reed",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-08",
+    "player": "Niles Paul",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-08",
+    "player": "Tony Romo",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-08",
+    "player": "Nick Folk",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-08",
+    "player": "Ronnie Hillman",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-08",
+    "player": "Bobby Rainey",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-08",
+    "player": "Branden Oliver",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-08",
+    "player": "Eli Manning",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-08",
+    "player": "Andre Williams",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-05",
+    "player": "Niles Paul",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-05",
+    "player": "Knile Davis",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-04",
+    "player": "Nick Folk",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-04",
+    "player": "Tom Brady",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-04",
+    "player": "Rueben Randle",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-04",
+    "player": "Heath Miller",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-04",
+    "player": "Tony Romo",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-03",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-03",
+    "player": "Alfred Blue",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-03",
+    "player": "Owen Daniels",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-03",
+    "player": "Allen Robinson",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-02",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-02",
+    "player": "Eagles",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-02",
+    "player": "Ben Roethlisberger",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-02",
+    "player": "Kirk Cousins",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-02",
+    "player": "Eddie Royal",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-02",
+    "player": "Mike Evans",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Jerick McKinnon",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Nick Folk",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Bishop Sankey",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Donald Brown",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Lions",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Isaiah Crowell",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "LeGarrette Blount",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Malcom Floyd",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Dolphins",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Stephen Hauschka",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Shaun Suisham",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Justin Forsett",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Terrance West",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Jared Cook",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Shonn Greene",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Heath Miller",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Niles Paul",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Devin Hester",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Cecil Shorts",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Mark Ingram II",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Bernard Pierce",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Knile Davis",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "DeAngelo Williams",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Odell Beckham Jr.",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-10-01",
+    "player": "Tom Brady",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-27",
+    "player": "Shane Vereen",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-27",
+    "player": "Knile Davis",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-27",
+    "player": "Knile Davis",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-27",
+    "player": "Jeremy Hill",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-27",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-27",
+    "player": "Darren McFadden",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Shonn Greene",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Khiry Robinson",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Matt Bryant",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Phil Dawson",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Danny Woodhead",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Larry Donnell",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Knile Davis",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Stephen Hauschka",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Nick Novak",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Mason Crosby",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Bills",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Eagles",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Kyle Rudolph",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Allen Robinson",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Shane Vereen",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "LeGarrette Blount",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Mark Ingram II",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Chargers",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Saints",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Brian Quick",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Justin Forsett",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Shaun Suisham",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Riley Cooper",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "DeAngelo Williams",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Jonathan Stewart",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Niles Paul",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Dennis Pitta",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Khiry Robinson",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Owen Daniels",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Lorenzo Taliaferro",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-24",
+    "player": "Ravens",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-21",
+    "player": "Darren McFadden",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-21",
+    "player": "Robert Griffin III",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-21",
+    "player": "Jonathan Stewart",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-21",
+    "player": "Devonta Freeman",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-21",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-21",
+    "player": "Cardinals",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-21",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-21",
+    "player": "Broncos",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-21",
+    "player": "Alfred Blue",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-21",
+    "player": "Ladarius Green",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-21",
+    "player": "Jeremy Hill",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-21",
+    "player": "Carlos Hyde",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-20",
+    "player": "Matt Asiata",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-20",
+    "player": "Buccaneers",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-19",
+    "player": "Kirk Cousins",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-19",
+    "player": "Ben Roethlisberger",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-18",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-18",
+    "player": "Browns",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-18",
+    "player": "Browns",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-18",
+    "player": "Cardinals",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-18",
+    "player": "Owen Daniels",
+    "from": "FA/Waiver",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-18",
+    "player": "DeAngelo Williams",
+    "from": "KOU KILL EM",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-17",
+    "player": "Ravens",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-17",
+    "player": "Steelers",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-17",
+    "player": "Donald Brown",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-17",
+    "player": "Jerick McKinnon",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-17",
+    "player": "James Jones",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-17",
+    "player": "Hakeem Nicks",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-17",
+    "player": "Danny Woodhead",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-17",
+    "player": "Allen Hurns",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-17",
+    "player": "Stevan Ridley",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-17",
+    "player": "Jarrett Boykin",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-17",
+    "player": "Bernard Pierce",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-17",
+    "player": "Andy Dalton",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-17",
+    "player": "Antonio Gates",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-17",
+    "player": "Matt Asiata",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-17",
+    "player": "Knile Davis",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-17",
+    "player": "Shonn Greene",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-14",
+    "player": "Jerick McKinnon",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-14",
+    "player": "Jeremy Hill",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-12",
+    "player": "Matt Asiata",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-12",
+    "player": "James White",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-11",
+    "player": "Bears",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-11",
+    "player": "Maurice Jones-Drew",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "Bobby Rainey",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "James Starks",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "Lions",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "Fred Jackson",
+    "from": "FA/Waiver",
+    "to": "LeagueSafe = Scam"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "Ray Rice",
+    "from": "LeagueSafe = Scam",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "Chris Ivory",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "Alex Smith",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "Allen Hurns",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "Carson Palmer",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "Terrance West",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "Bernard Pierce",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "James Starks",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "Bishop Sankey",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "Ahmad Bradshaw",
+    "from": "FA/Waiver",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "Justin Hunter",
+    "from": "TuneSquad",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "Buccaneers",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "Danny Woodhead",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "Justin Forsett",
+    "from": "FA/Waiver",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-10",
+    "player": "Jordan Reed",
+    "from": "My Ball Zach Ertz",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-08",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-08",
+    "player": "Stevan Ridley",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-07",
+    "player": "Alex Smith",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-07",
+    "player": "Fred Jackson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-05",
+    "player": "Josh Gordon",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-05",
+    "player": "Charles Clay",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-04",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-04",
+    "player": "Cardinals",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-04",
+    "player": "Cardinals",
+    "from": "FA/Waiver",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Drop",
+    "date": "2014-09-04",
+    "player": "Heath Miller",
+    "from": "Goatse VI",
+    "to": "Dropped"
+  },
+  {
+    "type": "Trade",
+    "date": "2014-11-13",
+    "player": "Joique Bell",
+    "from": "My Ball Zach Ertz",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Trade",
+    "date": "2014-11-13",
+    "player": "Anquan Boldin",
+    "from": "KOU KILL EM",
+    "to": "My Ball Zach Ertz"
+  },
+  {
+    "type": "Trade",
+    "date": "2014-11-12",
+    "player": "Colin Kaepernick",
+    "from": "Raaaaaaaandy",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Trade",
+    "date": "2014-11-12",
+    "player": "Trenton Richardson",
+    "from": "Raaaaaaaandy",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Trade",
+    "date": "2014-11-12",
+    "player": "Russell Wilson",
+    "from": "KOU KILL EM",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Trade",
+    "date": "2014-11-12",
+    "player": "Odell Beckham Jr.",
+    "from": "KOU KILL EM",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Trade",
+    "date": "2014-11-08",
+    "player": "Aaron Rodgers",
+    "from": "KOU KILL EM",
+    "to": "The Commish"
+  },
+  {
+    "type": "Trade",
+    "date": "2014-11-08",
+    "player": "Brandon Marshall",
+    "from": "The Commish",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Trade",
+    "date": "2014-11-08",
+    "player": "Justin Forsett",
+    "from": "The Commish",
+    "to": "KOU KILL EM"
+  },
+  {
+    "type": "Trade",
+    "date": "2014-10-26",
+    "player": "Percy Harvin",
+    "from": "Goatse VI",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Trade",
+    "date": "2014-10-26",
+    "player": "Shane Vereen",
+    "from": "TuneSquad",
+    "to": "Goatse VI"
+  },
+  {
+    "type": "Trade",
+    "date": "2014-10-04",
+    "player": "Larry Donnell",
+    "from": "The Brown Bears",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Trade",
+    "date": "2014-10-04",
+    "player": "Chris Ivory",
+    "from": "The Brown Bears",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Trade",
+    "date": "2014-10-04",
+    "player": "Eric Decker",
+    "from": "The Brown Bears",
+    "to": "TuneSquad"
+  },
+  {
+    "type": "Trade",
+    "date": "2014-10-04",
+    "player": "Zac Stacy",
+    "from": "TuneSquad",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Trade",
+    "date": "2014-09-26",
+    "player": "Martellus Bennett",
+    "from": "Raaaaaaaandy",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Trade",
+    "date": "2014-09-26",
+    "player": "T.Y. Hilton",
+    "from": "Flint City Tropics",
+    "to": "Raaaaaaaandy"
+  }
+]

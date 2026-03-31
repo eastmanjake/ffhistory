@@ -16,10 +16,12 @@ that season is skipped. To re-scrape, delete that season's folder and re-run.
 """
 
 import os
+import re
 import sys
 import json
 import time
 from datetime import datetime, timezone
+import pandas as pd
 import openpyxl
 from requests_oauthlib import OAuth2Session
 
@@ -39,6 +41,7 @@ SEASONS = [
     {"year": 2022, "game_id": "414", "league_id": "247217", "num_weeks": 17, "playoff_start": 15},
     {"year": 2023, "game_id": "423", "league_id": "251046", "num_weeks": 17, "playoff_start": 15},
     {"year": 2024, "game_id": "449", "league_id": "215072", "num_weeks": 17, "playoff_start": 15},
+    {"year": 2025, "game_id": "461", "league_id": "833763", "num_weeks": 17, "playoff_start": 15},
 ]
 
 # ── OWNER OVERRIDES ───────────────────────────────────────────────────────────
@@ -48,12 +51,44 @@ SEASONS = [
 OWNER_OVERRIDES = {
     # 2011
     "257.l.163099.t.2": "Andre?",    # Jennys New Lover (hidden, guess)
-    "257.l.163099.t.3": "Sean K.",   # 16-0 (hidden)
+    "257.l.163099.t.3": "Sean",      # 16-0 (hidden)
     "257.l.163099.t.4": "Richie?",   # old dirty bastard (hidden, guess)
     "257.l.163099.t.5": "Jacob S.",  # postseason champs (Yahoo: Jake)
-    "257.l.163099.t.6": "Jacob E.",  # Goatse III (Yahoo: Jake)
+    "257.l.163099.t.6": "Jake",      # Goatse III (Yahoo: Jake)
     "257.l.163099.t.8": "Unknown",   # Taint Lickers (hidden)
-    # 2012–2024: add after each season's owner mapping is verified
+    # 2012
+    "273.l.176570.t.7":  "Steve",    # Raaaaaaaandy
+    "273.l.176570.t.10": "Ken",      # Kenny kil
+    "273.l.176570.t.8":  "Andre",    # Flint City Tropics
+    # 2013
+    "314.l.222964.t.6": "Steve",     # Raaaaaaaandy (Yahoo: Steven)
+    "314.l.222964.t.7": "Ken",       # Kenny kil (hidden)
+    # 2014
+    "331.l.285789.t.4": "Saiku",     # KOU KILL EM (hidden)
+    "331.l.285789.t.7": "Steve",     # Raaaaaaaandy (Yahoo: Steven)
+    # 2015
+    "348.l.284573.t.7": "Steve",     # Raaaaaaaandy (Yahoo: Steven)
+    "348.l.284573.t.9": "Ben",       # Ben's Nice Team (hidden)
+    # 2016
+    "359.l.371414.t.7": "Steve",     # Raaaaaaaandy (Yahoo: Steven)
+    # 2017
+    "371.l.351465.t.6": "Steve",     # Raaaaaaaandy (Yahoo: Steven)
+    # 2018
+    "380.l.208659.t.6": "Steve",     # Raaaaaaaandy (Yahoo: Steven)
+    # 2019
+    "390.l.500600.t.6": "Steve",     # Raaaaaaaandy (Yahoo: Steven)
+    # 2020
+    "399.l.362789.t.6": "Steve",     # Raaaaaaaandy (Yahoo: Steven)
+    # 2021
+    "406.l.237408.t.6": "Steve",     # Raaaaaaaandy (Yahoo: Steven)
+    # 2022
+    "414.l.247217.t.6": "Steve",     # Raaaaaaaandy (Yahoo: Steven)
+    # 2023
+    "423.l.251046.t.6": "Steve",     # Raaaaaaaandy (Yahoo: Steven)
+    # 2024
+    "449.l.215072.t.6": "Steve",     # Raaaaaaaandy (Yahoo: Steven)
+    # 2025
+    "461.l.833763.t.6": "Steve",     # Raaaaaaaandy (Yahoo: Steven)
 }
 
 # ── CREDENTIALS & PATHS ───────────────────────────────────────────────────────
@@ -101,21 +136,33 @@ def get_session():
         token = get_token()
     return OAuth2Session(CONSUMER_KEY, token=token)
 
-def yahoo_get(session, url):
+def yahoo_get(session, url, _retries=5):
     from oauthlib.oauth2.rfc6749.errors import TokenExpiredError
-    try:
-        response = session.get(url, headers={"Accept": "application/json"})
-    except TokenExpiredError:
-        print("Token expired, re-authenticating...")
-        token = get_token()
-        session.__dict__.update(OAuth2Session(CONSUMER_KEY, token=token).__dict__)
-        response = session.get(url, headers={"Accept": "application/json"})
-    if response.status_code == 401:
-        print("Token expired (401), re-authenticating...")
-        token = get_token()
-        session.__dict__.update(OAuth2Session(CONSUMER_KEY, token=token).__dict__)
-        response = session.get(url, headers={"Accept": "application/json"})
-    return response.json()
+    for attempt in range(_retries):
+        try:
+            response = session.get(url, headers={"Accept": "application/json"})
+        except TokenExpiredError:
+            print("Token expired, re-authenticating...")
+            token = get_token()
+            session.__dict__.update(OAuth2Session(CONSUMER_KEY, token=token).__dict__)
+            response = session.get(url, headers={"Accept": "application/json"})
+        if response.status_code == 401:
+            print("Token expired (401), re-authenticating...")
+            token = get_token()
+            session.__dict__.update(OAuth2Session(CONSUMER_KEY, token=token).__dict__)
+            response = session.get(url, headers={"Accept": "application/json"})
+        if response.status_code == 429 or not response.text.strip():
+            wait = 30 * (attempt + 1)
+            print(f"  Rate limited (empty response), waiting {wait}s...")
+            time.sleep(wait)
+            continue
+        try:
+            return response.json()
+        except Exception:
+            wait = 30 * (attempt + 1)
+            print(f"  Bad response (status {response.status_code}), waiting {wait}s...")
+            time.sleep(wait)
+    raise RuntimeError(f"Yahoo API failed after {_retries} retries: {url}")
 
 def fmt_ts(ts):
     """Convert Unix timestamp to YYYY-MM-DD string."""
@@ -123,6 +170,69 @@ def fmt_ts(ts):
         return datetime.fromtimestamp(int(ts), tz=timezone.utc).strftime("%Y-%m-%d")
     except:
         return str(ts)
+
+def normalize_name(name):
+    """Normalize player name for matching against nfl_data_py."""
+    name = name.lower().strip()
+    name = name.replace('.', '')
+    name = re.sub(r'\s+(jr|sr|ii|iii|iv)$', '', name)
+    name = re.sub(r'\s+', ' ', name)
+    return name
+
+def build_nfl_team_lookup(year):
+    """
+    Load nfl_data_py weekly rosters for the given year.
+    Returns (by_yahoo_id, by_name):
+      by_yahoo_id: {yahoo_id_int: {week_int: team_str}}
+      by_name:     {normalized_name: {week_int: team_str}}
+    """
+    try:
+        import nfl_data_py as nfl
+        rosters = nfl.import_weekly_rosters([year])
+        by_yahoo_id, by_name = {}, {}
+        for _, row in rosters.iterrows():
+            week_val = row.get('week')
+            team_val = row.get('team')
+            if pd.isna(week_val) or pd.isna(team_val):
+                continue
+            week = int(week_val)
+            team = str(team_val)
+            yid = row.get('yahoo_id')
+            try:
+                if yid is not None and str(yid).strip() != '' and not pd.isna(yid):
+                    by_yahoo_id.setdefault(int(yid), {})[week] = team
+            except (ValueError, TypeError):
+                pass
+            pname = str(row.get('player_name') or '')
+            norm = normalize_name(pname)
+            if norm:
+                by_name.setdefault(norm, {})[week] = team
+        return by_yahoo_id, by_name
+    except Exception as e:
+        print(f"  Warning: nfl_data_py roster lookup unavailable for {year}: {e}")
+        return {}, {}
+
+def lookup_nfl_team(player_key, player_name, week, by_yahoo_id, by_name, fallback=""):
+    """Look up a player's NFL team for a given week using nfl_data_py data."""
+    if player_key:
+        try:
+            yid = int(player_key.split('.')[-1])
+            if yid in by_yahoo_id:
+                week_map = by_yahoo_id[yid]
+                if week in week_map:
+                    return week_map[week]
+                nearest = min(week_map, key=lambda w: abs(w - week))
+                return week_map[nearest]
+        except (ValueError, IndexError):
+            pass
+    norm = normalize_name(player_name)
+    if norm in by_name:
+        week_map = by_name[norm]
+        if week in week_map:
+            return week_map[week]
+        nearest = min(week_map, key=lambda w: abs(w - week))
+        return week_map[nearest]
+    return fallback
 
 # ── SEASON SCRAPER ────────────────────────────────────────────────────────────
 def scrape_season(session, cfg, export=False):
@@ -331,12 +441,15 @@ def scrape_season(session, cfg, export=False):
         try:
             data         = yahoo_get(session, f"{BASE}/league/{league_key}/transactions;type={t_type}?format=json")
             transactions = data["fantasy_content"]["league"][1]["transactions"]
-            t_count      = transactions["count"]
+            if isinstance(transactions, list):
+                transactions = transactions[0] if transactions else {}
+            t_count      = transactions.get("count", 0) if isinstance(transactions, dict) else 0
             print(f"  Found {t_count} {t_type}s")
             for i in range(t_count):
                 t         = transactions[str(i)]["transaction"]
                 t_info    = t[0]
-                t_players = t[1].get("players", {})
+                t1_raw    = t[1] if len(t) > 1 else {}
+                t_players = (t1_raw if isinstance(t1_raw, dict) else {}).get("players", {})
                 timestamp = fmt_ts(t_info.get("timestamp", ""))
                 for j in range(t_players.get("count", 0)):
                     p      = t_players[str(j)]["player"]
@@ -359,6 +472,9 @@ def scrape_season(session, cfg, export=False):
         except Exception as e:
             print(f"  Error fetching {t_type}s: {e}")
 
+    # ── NFL TEAM LOOKUP ───────────────────────────────────────────────────────
+    nfl_by_yahoo_id, nfl_by_name = build_nfl_team_lookup(year)
+
     # ── 5. END OF SEASON ROSTERS ──────────────────────────────────────────────
     print("\nFetching end of season rosters...")
     roster_rows = []
@@ -368,8 +484,10 @@ def scrape_season(session, cfg, export=False):
             players = data["fantasy_content"]["team"][1]["roster"]["0"]["players"]
             for i in range(players["count"]):
                 p = players[str(i)]["player"][0]
-                pname, ppos, pteam, pstatus = "", "", "", ""
+                pk, pname, ppos, pteam, pstatus = "", "", "", "", ""
                 for x in p:
+                    if isinstance(x, dict) and "player_key" in x:
+                        pk = x["player_key"]
                     if isinstance(x, dict) and "name" in x and isinstance(x["name"], dict):
                         pname = x["name"].get("full", "")
                     if isinstance(x, dict) and "display_position" in x:
@@ -378,11 +496,12 @@ def scrape_season(session, cfg, export=False):
                         pteam = x["editorial_team_abbr"]
                     if isinstance(x, dict) and "status" in x:
                         pstatus = x["status"]
+                nfl_team = lookup_nfl_team(pk, pname, num_weeks, nfl_by_yahoo_id, nfl_by_name, pteam)
                 roster_rows.append({
                     "season": year, "team": team_name,
                     "owner": team_key_to_manager.get(team_key, "Unknown"),
                     "player": pname, "position": ppos,
-                    "nfl_team": pteam, "status": pstatus
+                    "nfl_team": nfl_team, "status": pstatus
                 })
             print(f"  {team_name}: {players['count']} players")
             time.sleep(0.5)
@@ -432,10 +551,11 @@ def scrape_season(session, cfg, export=False):
 
                 owner = team_key_to_manager.get(team_key, "Unknown")
                 for pk, slot, pname, ppos, pteam in players_this_week:
+                    nfl_team = lookup_nfl_team(pk, pname, week, nfl_by_yahoo_id, nfl_by_name, pteam)
                     lineup_rows.append({
                         "week": week, "team": team_name, "owner": owner,
                         "slot": slot, "player": pname, "pos": ppos,
-                        "nfl_team": pteam, "fantasy_pts": pts_by_key.get(pk, "")
+                        "nfl_team": nfl_team, "fantasy_pts": pts_by_key.get(pk, "")
                     })
             except Exception as e:
                 print(f"    Error {team_name} week {week}: {e}")

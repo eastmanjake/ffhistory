@@ -1,0 +1,1397 @@
+[
+  {
+    "season": 2016,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Philip Rivers",
+    "position": "QB",
+    "nfl_team": "SD",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Michael Crabtree",
+    "position": "WR",
+    "nfl_team": "OAK",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Tyrell Williams",
+    "position": "WR",
+    "nfl_team": "SD",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Le'Veon Bell",
+    "position": "RB",
+    "nfl_team": "PIT",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "LeSean McCoy",
+    "position": "RB",
+    "nfl_team": "BUF",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Vernon Davis",
+    "position": "TE",
+    "nfl_team": "WAS",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Spencer Ware",
+    "position": "RB",
+    "nfl_team": "KC",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Jordan Reed",
+    "position": "TE",
+    "nfl_team": "WAS",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Kelvin Benjamin",
+    "position": "WR",
+    "nfl_team": "CAR",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Matt Forte",
+    "position": "RB",
+    "nfl_team": "NYJ",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Mike Gillislee",
+    "position": "RB",
+    "nfl_team": "BUF",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Jack Doyle",
+    "position": "TE",
+    "nfl_team": "IND",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Justin Tucker",
+    "position": "K",
+    "nfl_team": "BAL",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Chargers",
+    "position": "DEF",
+    "nfl_team": "LAC",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "Jive Turkey",
+    "owner": "patrick",
+    "player": "Broncos",
+    "position": "DEF",
+    "nfl_team": "Den",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "Dicks Out 4 Harambe",
+    "owner": "Ramsey",
+    "player": "Andrew Luck",
+    "position": "QB",
+    "nfl_team": "IND",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Dicks Out 4 Harambe",
+    "owner": "Ramsey",
+    "player": "Michael Thomas",
+    "position": "WR",
+    "nfl_team": "NO",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Dicks Out 4 Harambe",
+    "owner": "Ramsey",
+    "player": "Ty Montgomery II",
+    "position": "WR,RB",
+    "nfl_team": "GB",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Dicks Out 4 Harambe",
+    "owner": "Ramsey",
+    "player": "David Johnson",
+    "position": "RB",
+    "nfl_team": "ARI",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Dicks Out 4 Harambe",
+    "owner": "Ramsey",
+    "player": "Latavius Murray",
+    "position": "RB",
+    "nfl_team": "OAK",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Dicks Out 4 Harambe",
+    "owner": "Ramsey",
+    "player": "Hunter Henry",
+    "position": "TE",
+    "nfl_team": "SD",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "Dicks Out 4 Harambe",
+    "owner": "Ramsey",
+    "player": "Frank Gore",
+    "position": "RB",
+    "nfl_team": "IND",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Dicks Out 4 Harambe",
+    "owner": "Ramsey",
+    "player": "Tyler Eifert",
+    "position": "TE",
+    "nfl_team": "CIN",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Dicks Out 4 Harambe",
+    "owner": "Ramsey",
+    "player": "Larry Fitzgerald",
+    "position": "WR",
+    "nfl_team": "ARI",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Dicks Out 4 Harambe",
+    "owner": "Ramsey",
+    "player": "Jay Ajayi",
+    "position": "RB",
+    "nfl_team": "MIA",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Dicks Out 4 Harambe",
+    "owner": "Ramsey",
+    "player": "Marcus Mariota",
+    "position": "QB",
+    "nfl_team": "TEN",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "Dicks Out 4 Harambe",
+    "owner": "Ramsey",
+    "player": "C.J. Fiedorowicz",
+    "position": "TE",
+    "nfl_team": "HOU",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Dicks Out 4 Harambe",
+    "owner": "Ramsey",
+    "player": "Adam Vinatieri",
+    "position": "K",
+    "nfl_team": "IND",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Dicks Out 4 Harambe",
+    "owner": "Ramsey",
+    "player": "Titans",
+    "position": "DEF",
+    "nfl_team": "Ten",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "Dicks Out 4 Harambe",
+    "owner": "Ramsey",
+    "player": "Cardinals",
+    "position": "DEF",
+    "nfl_team": "Ari",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "Dicks Out 4 Harambe",
+    "owner": "Ramsey",
+    "player": "Keenan Allen",
+    "position": "WR",
+    "nfl_team": "SD",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Charlotte Banshees",
+    "owner": "Paul",
+    "player": "Jameis Winston",
+    "position": "QB",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "Charlotte Banshees",
+    "owner": "Paul",
+    "player": "T.Y. Hilton",
+    "position": "WR",
+    "nfl_team": "IND",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Charlotte Banshees",
+    "owner": "Paul",
+    "player": "Julio Jones",
+    "position": "WR",
+    "nfl_team": "ATL",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Charlotte Banshees",
+    "owner": "Paul",
+    "player": "Carlos Hyde",
+    "position": "RB",
+    "nfl_team": "SF",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Charlotte Banshees",
+    "owner": "Paul",
+    "player": "Mark Ingram II",
+    "position": "RB",
+    "nfl_team": "NO",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Charlotte Banshees",
+    "owner": "Paul",
+    "player": "Travis Kelce",
+    "position": "TE",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "Charlotte Banshees",
+    "owner": "Paul",
+    "player": "DeAndre Hopkins",
+    "position": "WR",
+    "nfl_team": "HOU",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Charlotte Banshees",
+    "owner": "Paul",
+    "player": "Isaiah Crowell",
+    "position": "RB",
+    "nfl_team": "CLE",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Charlotte Banshees",
+    "owner": "Paul",
+    "player": "Eli Manning",
+    "position": "QB",
+    "nfl_team": "NYG",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Charlotte Banshees",
+    "owner": "Paul",
+    "player": "DeVante Parker",
+    "position": "WR",
+    "nfl_team": "MIA",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Charlotte Banshees",
+    "owner": "Paul",
+    "player": "Kenny Britt",
+    "position": "WR",
+    "nfl_team": "LA",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Charlotte Banshees",
+    "owner": "Paul",
+    "player": "Matt Bryant",
+    "position": "K",
+    "nfl_team": "ATL",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Charlotte Banshees",
+    "owner": "Paul",
+    "player": "Patriots",
+    "position": "DEF",
+    "nfl_team": "NE",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "Charlotte Banshees",
+    "owner": "Paul",
+    "player": "Dolphins",
+    "position": "DEF",
+    "nfl_team": "Mia",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "Charlotte Banshees",
+    "owner": "Paul",
+    "player": "Falcons",
+    "position": "DEF",
+    "nfl_team": "Atl",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "Goatse VIII",
+    "owner": "Jake",
+    "player": "Matt Ryan",
+    "position": "QB",
+    "nfl_team": "ATL",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Goatse VIII",
+    "owner": "Jake",
+    "player": "Mike Evans",
+    "position": "WR",
+    "nfl_team": "TB",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "Goatse VIII",
+    "owner": "Jake",
+    "player": "Antonio Brown",
+    "position": "WR",
+    "nfl_team": "PIT",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Goatse VIII",
+    "owner": "Jake",
+    "player": "LeGarrette Blount",
+    "position": "RB",
+    "nfl_team": "NE",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Goatse VIII",
+    "owner": "Jake",
+    "player": "Dion Lewis",
+    "position": "RB",
+    "nfl_team": "NE",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Goatse VIII",
+    "owner": "Jake",
+    "player": "Greg Olsen",
+    "position": "TE",
+    "nfl_team": "CAR",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Goatse VIII",
+    "owner": "Jake",
+    "player": "Dontrelle Inman",
+    "position": "WR",
+    "nfl_team": "SD",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Goatse VIII",
+    "owner": "Jake",
+    "player": "Kenneth Farrow",
+    "position": "RB",
+    "nfl_team": "SD",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Goatse VIII",
+    "owner": "Jake",
+    "player": "Tim Hightower",
+    "position": "RB",
+    "nfl_team": "NO",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Goatse VIII",
+    "owner": "Jake",
+    "player": "Darren Sproles",
+    "position": "RB",
+    "nfl_team": "PHI",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Goatse VIII",
+    "owner": "Jake",
+    "player": "Jerick McKinnon",
+    "position": "RB",
+    "nfl_team": "MIN",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Goatse VIII",
+    "owner": "Jake",
+    "player": "A.J. Green",
+    "position": "WR",
+    "nfl_team": "CIN",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Goatse VIII",
+    "owner": "Jake",
+    "player": "Malcolm Mitchell",
+    "position": "WR",
+    "nfl_team": "NE",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Goatse VIII",
+    "owner": "Jake",
+    "player": "Sebastian Janikowski",
+    "position": "K",
+    "nfl_team": "OAK",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Goatse VIII",
+    "owner": "Jake",
+    "player": "Packers",
+    "position": "DEF",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Drew Brees",
+    "position": "QB",
+    "nfl_team": "NO",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Jordy Nelson",
+    "position": "WR",
+    "nfl_team": "GB",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Sammy Watkins",
+    "position": "WR",
+    "nfl_team": "BUF",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Ezekiel Elliott",
+    "position": "RB",
+    "nfl_team": "DAL",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Kenneth Dixon",
+    "position": "RB",
+    "nfl_team": "BAL",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Jimmy Graham",
+    "position": "TE",
+    "nfl_team": "SEA",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Tyreek Hill",
+    "position": "WR",
+    "nfl_team": "KC",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Jamison Crowder",
+    "position": "WR",
+    "nfl_team": "WAS",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Terrelle Pryor Sr.",
+    "position": "WR",
+    "nfl_team": "CLE",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Theo Riddick",
+    "position": "RB",
+    "nfl_team": "DET",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Quincy Enunwa",
+    "position": "WR",
+    "nfl_team": "NYJ",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Antonio Gates",
+    "position": "TE",
+    "nfl_team": "SD",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Jeremy Maclin",
+    "position": "WR",
+    "nfl_team": "KC",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Stephen Gostkowski",
+    "position": "K",
+    "nfl_team": "NE",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Chiefs",
+    "position": "DEF",
+    "nfl_team": "KC",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "Bad Rivers Tribe",
+    "owner": "Michael",
+    "player": "Ameer Abdullah",
+    "position": "RB",
+    "nfl_team": "DET",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Gruden's Grinders",
+    "owner": "Andre",
+    "player": "Cam Newton",
+    "position": "QB",
+    "nfl_team": "CAR",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Gruden's Grinders",
+    "owner": "Andre",
+    "player": "Dez Bryant",
+    "position": "WR",
+    "nfl_team": "DAL",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Gruden's Grinders",
+    "owner": "Andre",
+    "player": "Julian Edelman",
+    "position": "WR",
+    "nfl_team": "NE",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Gruden's Grinders",
+    "owner": "Andre",
+    "player": "Melvin Gordon III",
+    "position": "RB",
+    "nfl_team": "SD",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Gruden's Grinders",
+    "owner": "Andre",
+    "player": "DeMarco Murray",
+    "position": "RB",
+    "nfl_team": "TEN",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Gruden's Grinders",
+    "owner": "Andre",
+    "player": "Jermaine Gresham",
+    "position": "TE",
+    "nfl_team": "ARI",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Gruden's Grinders",
+    "owner": "Andre",
+    "player": "Jordan Howard",
+    "position": "RB",
+    "nfl_team": "CHI",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Gruden's Grinders",
+    "owner": "Andre",
+    "player": "Martellus Bennett",
+    "position": "TE",
+    "nfl_team": "NE",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Gruden's Grinders",
+    "owner": "Andre",
+    "player": "Carson Palmer",
+    "position": "QB",
+    "nfl_team": "ARI",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Gruden's Grinders",
+    "owner": "Andre",
+    "player": "Demaryius Thomas",
+    "position": "WR",
+    "nfl_team": "DEN",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Gruden's Grinders",
+    "owner": "Andre",
+    "player": "Davante Adams",
+    "position": "WR",
+    "nfl_team": "GB",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "Gruden's Grinders",
+    "owner": "Andre",
+    "player": "Lamar Miller",
+    "position": "RB",
+    "nfl_team": "HOU",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Gruden's Grinders",
+    "owner": "Andre",
+    "player": "Taylor Gabriel",
+    "position": "WR",
+    "nfl_team": "ATL",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Gruden's Grinders",
+    "owner": "Andre",
+    "player": "Matt Prater",
+    "position": "K",
+    "nfl_team": "DET",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Gruden's Grinders",
+    "owner": "Andre",
+    "player": "Bengals",
+    "position": "DEF",
+    "nfl_team": "Cin",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Russell Wilson",
+    "position": "QB",
+    "nfl_team": "SEA",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Odell Beckham Jr.",
+    "position": "WR",
+    "nfl_team": "NYG",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Allen Robinson",
+    "position": "WR",
+    "nfl_team": "JAX",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Jeremy Hill",
+    "position": "RB",
+    "nfl_team": "CIN",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Derrick Henry",
+    "position": "RB",
+    "nfl_team": "TEN",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Kyle Rudolph",
+    "position": "TE",
+    "nfl_team": "MIN",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Brandon Marshall",
+    "position": "WR",
+    "nfl_team": "NYJ",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Cameron Meredith",
+    "position": "WR",
+    "nfl_team": "CHI",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "James White",
+    "position": "RB",
+    "nfl_team": "NE",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Donte Moncrief",
+    "position": "WR",
+    "nfl_team": "IND",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Jared Cook",
+    "position": "TE",
+    "nfl_team": "GB",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Christine Michael",
+    "position": "RB",
+    "nfl_team": "GB",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "DeAngelo Williams",
+    "position": "RB",
+    "nfl_team": "PIT",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Brandon McManus",
+    "position": "K",
+    "nfl_team": "DEN",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Texans",
+    "position": "DEF",
+    "nfl_team": "Hou",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "The Brown Bears",
+    "owner": "John",
+    "player": "Jamaal Charles",
+    "position": "RB",
+    "nfl_team": "KC",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Aaron Rodgers",
+    "position": "QB",
+    "nfl_team": "GB",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Brandin Cooks",
+    "position": "WR",
+    "nfl_team": "NO",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "DeSean Jackson",
+    "position": "WR",
+    "nfl_team": "WAS",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Rashad Jennings",
+    "position": "RB",
+    "nfl_team": "NYG",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Thomas Rawls",
+    "position": "RB",
+    "nfl_team": "SEA",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Cameron Brate",
+    "position": "TE",
+    "nfl_team": "TB",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Jarvis Landry",
+    "position": "WR",
+    "nfl_team": "MIA",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Steve Smith",
+    "position": "WR",
+    "nfl_team": "BAL",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "James Starks",
+    "position": "RB",
+    "nfl_team": "GB",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Rob Gronkowski",
+    "position": "TE",
+    "nfl_team": "NE",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Terrance West",
+    "position": "RB",
+    "nfl_team": "BAL",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Marvin Jones Jr.",
+    "position": "WR",
+    "nfl_team": "DET",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Duke Johnson",
+    "position": "RB",
+    "nfl_team": "CLE",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Stephen Hauschka",
+    "position": "K",
+    "nfl_team": "SEA",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Seahawks",
+    "position": "DEF",
+    "nfl_team": "Sea",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "Raaaaaaaandy",
+    "owner": "Steve",
+    "player": "Eddie Lacy",
+    "position": "RB",
+    "nfl_team": "GB",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Tom Brady",
+    "position": "QB",
+    "nfl_team": "NE",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Golden Tate",
+    "position": "WR",
+    "nfl_team": "DET",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Doug Baldwin",
+    "position": "WR",
+    "nfl_team": "SEA",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Jonathan Stewart",
+    "position": "RB",
+    "nfl_team": "CAR",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Devonta Freeman",
+    "position": "RB",
+    "nfl_team": "ATL",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Jason Witten",
+    "position": "TE",
+    "nfl_team": "DAL",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Stefon Diggs",
+    "position": "WR",
+    "nfl_team": "MIN",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Delanie Walker",
+    "position": "TE",
+    "nfl_team": "TEN",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Doug Martin",
+    "position": "RB",
+    "nfl_team": "TB",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Willie Snead IV",
+    "position": "WR",
+    "nfl_team": "NO",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Emmanuel Sanders",
+    "position": "WR",
+    "nfl_team": "DEN",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Alshon Jeffery",
+    "position": "WR",
+    "nfl_team": "CHI",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Carson Wentz",
+    "position": "QB",
+    "nfl_team": "PHI",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Dan Bailey",
+    "position": "K",
+    "nfl_team": "DAL",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "SHARKEISHA NO",
+    "owner": "Brett",
+    "player": "Giants",
+    "position": "DEF",
+    "nfl_team": "NYG",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Ben Roethlisberger",
+    "position": "QB",
+    "nfl_team": "PIT",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Amari Cooper",
+    "position": "WR",
+    "nfl_team": "OAK",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Randall Cobb",
+    "position": "WR",
+    "nfl_team": "GB",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Todd Gurley",
+    "position": "RB",
+    "nfl_team": "LA",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Rob Kelley",
+    "position": "RB",
+    "nfl_team": "WAS",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Eric Ebron",
+    "position": "TE",
+    "nfl_team": "DET",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Tevin Coleman",
+    "position": "RB",
+    "nfl_team": "ATL",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Jordan Matthews",
+    "position": "WR",
+    "nfl_team": "PHI",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Tyler Boyd",
+    "position": "WR",
+    "nfl_team": "CIN",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Zach Ertz",
+    "position": "TE",
+    "nfl_team": "PHI",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Mike Wallace",
+    "position": "WR",
+    "nfl_team": "BAL",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Bilal Powell",
+    "position": "RB",
+    "nfl_team": "NYJ",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Derek Carr",
+    "position": "QB",
+    "nfl_team": "OAK",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Nick Novak",
+    "position": "K",
+    "nfl_team": "HOU",
+    "status": "NA"
+  },
+  {
+    "season": 2016,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Vikings",
+    "position": "DEF",
+    "nfl_team": "Min",
+    "status": ""
+  },
+  {
+    "season": 2016,
+    "team": "The Commish",
+    "owner": "Andrew",
+    "player": "Adrian Peterson",
+    "position": "RB",
+    "nfl_team": "MIN",
+    "status": "NA"
+  }
+]

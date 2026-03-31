@@ -1,0 +1,686 @@
+[
+  {
+    "week": 1,
+    "team1": "The Commish",
+    "score1": "118.09",
+    "team2": "Stat Corrections",
+    "score2": "112.22",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "natalie",
+    "score1": "106.68",
+    "team2": "Joe Stop Haden on Me",
+    "score2": "94.31",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "The Brown Bears",
+    "score1": "95.32",
+    "team2": "Flint City Tropics",
+    "score2": "107.17",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "Goatse",
+    "score1": "104.65",
+    "team2": "Raaaaaaaandy",
+    "score2": "103.22",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 1,
+    "team1": "Donald Drunk",
+    "score1": "97.69",
+    "team2": "Kenny kil",
+    "score2": "144.38",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "The Commish",
+    "score1": "105.31",
+    "team2": "natalie",
+    "score2": "115.94",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Stat Corrections",
+    "score1": "99.47",
+    "team2": "Kenny kil",
+    "score2": "113.64",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "The Brown Bears",
+    "score1": "77.41",
+    "team2": "Joe Stop Haden on Me",
+    "score2": "103.25",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Goatse",
+    "score1": "84.25",
+    "team2": "Flint City Tropics",
+    "score2": "139.05",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 2,
+    "team1": "Donald Drunk",
+    "score1": "99.04",
+    "team2": "Raaaaaaaandy",
+    "score2": "123.09",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "The Commish",
+    "score1": "93.47",
+    "team2": "The Brown Bears",
+    "score2": "130.42",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Stat Corrections",
+    "score1": "92.28",
+    "team2": "natalie",
+    "score2": "70.73",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Goatse",
+    "score1": "96.29",
+    "team2": "Joe Stop Haden on Me",
+    "score2": "84.60",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Donald Drunk",
+    "score1": "116.65",
+    "team2": "Flint City Tropics",
+    "score2": "83.47",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 3,
+    "team1": "Raaaaaaaandy",
+    "score1": "95.30",
+    "team2": "Kenny kil",
+    "score2": "129.92",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "The Commish",
+    "score1": "80.71",
+    "team2": "Goatse",
+    "score2": "108.82",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Stat Corrections",
+    "score1": "113.04",
+    "team2": "The Brown Bears",
+    "score2": "136.71",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "natalie",
+    "score1": "128.76",
+    "team2": "Kenny kil",
+    "score2": "127.88",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Donald Drunk",
+    "score1": "102.05",
+    "team2": "Joe Stop Haden on Me",
+    "score2": "120.59",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 4,
+    "team1": "Raaaaaaaandy",
+    "score1": "136.62",
+    "team2": "Flint City Tropics",
+    "score2": "113.11",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "The Commish",
+    "score1": "125.31",
+    "team2": "Donald Drunk",
+    "score2": "81.52",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Stat Corrections",
+    "score1": "126.43",
+    "team2": "Goatse",
+    "score2": "91.59",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "natalie",
+    "score1": "82.10",
+    "team2": "The Brown Bears",
+    "score2": "127.35",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Raaaaaaaandy",
+    "score1": "129.48",
+    "team2": "Joe Stop Haden on Me",
+    "score2": "130.15",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 5,
+    "team1": "Flint City Tropics",
+    "score1": "81.26",
+    "team2": "Kenny kil",
+    "score2": "104.86",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "The Commish",
+    "score1": "84.89",
+    "team2": "Raaaaaaaandy",
+    "score2": "119.36",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Stat Corrections",
+    "score1": "112.31",
+    "team2": "Donald Drunk",
+    "score2": "129.30",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "natalie",
+    "score1": "124.86",
+    "team2": "Goatse",
+    "score2": "120.08",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "The Brown Bears",
+    "score1": "156.52",
+    "team2": "Kenny kil",
+    "score2": "101.87",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 6,
+    "team1": "Flint City Tropics",
+    "score1": "100.67",
+    "team2": "Joe Stop Haden on Me",
+    "score2": "108.88",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "The Commish",
+    "score1": "114.24",
+    "team2": "Flint City Tropics",
+    "score2": "97.43",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Stat Corrections",
+    "score1": "101.48",
+    "team2": "Raaaaaaaandy",
+    "score2": "128.07",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "natalie",
+    "score1": "122.85",
+    "team2": "Donald Drunk",
+    "score2": "98.01",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "The Brown Bears",
+    "score1": "133.23",
+    "team2": "Goatse",
+    "score2": "116.82",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 7,
+    "team1": "Joe Stop Haden on Me",
+    "score1": "71.78",
+    "team2": "Kenny kil",
+    "score2": "68.43",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "The Commish",
+    "score1": "101.11",
+    "team2": "Joe Stop Haden on Me",
+    "score2": "91.47",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Stat Corrections",
+    "score1": "92.41",
+    "team2": "Flint City Tropics",
+    "score2": "79.93",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "natalie",
+    "score1": "118.53",
+    "team2": "Raaaaaaaandy",
+    "score2": "100.55",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "The Brown Bears",
+    "score1": "134.69",
+    "team2": "Donald Drunk",
+    "score2": "86.21",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 8,
+    "team1": "Goatse",
+    "score1": "86.73",
+    "team2": "Kenny kil",
+    "score2": "130.88",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "The Commish",
+    "score1": "128.58",
+    "team2": "Kenny kil",
+    "score2": "107.19",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Stat Corrections",
+    "score1": "90.14",
+    "team2": "Joe Stop Haden on Me",
+    "score2": "111.81",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "natalie",
+    "score1": "98.43",
+    "team2": "Flint City Tropics",
+    "score2": "108.05",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "The Brown Bears",
+    "score1": "206.27",
+    "team2": "Raaaaaaaandy",
+    "score2": "118.14",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 9,
+    "team1": "Goatse",
+    "score1": "75.55",
+    "team2": "Donald Drunk",
+    "score2": "83.76",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "The Commish",
+    "score1": "80.95",
+    "team2": "Stat Corrections",
+    "score2": "106.89",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "natalie",
+    "score1": "99.89",
+    "team2": "Joe Stop Haden on Me",
+    "score2": "90.67",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "The Brown Bears",
+    "score1": "105.23",
+    "team2": "Flint City Tropics",
+    "score2": "95.23",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "Goatse",
+    "score1": "113.16",
+    "team2": "Raaaaaaaandy",
+    "score2": "144.49",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 10,
+    "team1": "Donald Drunk",
+    "score1": "87.38",
+    "team2": "Kenny kil",
+    "score2": "133.56",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "The Commish",
+    "score1": "70.07",
+    "team2": "natalie",
+    "score2": "94.84",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Stat Corrections",
+    "score1": "102.93",
+    "team2": "Kenny kil",
+    "score2": "92.82",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "The Brown Bears",
+    "score1": "107.14",
+    "team2": "Joe Stop Haden on Me",
+    "score2": "95.41",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Goatse",
+    "score1": "116.00",
+    "team2": "Flint City Tropics",
+    "score2": "79.06",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 11,
+    "team1": "Donald Drunk",
+    "score1": "107.69",
+    "team2": "Raaaaaaaandy",
+    "score2": "112.10",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "The Commish",
+    "score1": "79.34",
+    "team2": "The Brown Bears",
+    "score2": "115.91",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Stat Corrections",
+    "score1": "126.04",
+    "team2": "natalie",
+    "score2": "101.49",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Goatse",
+    "score1": "133.66",
+    "team2": "Joe Stop Haden on Me",
+    "score2": "93.88",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Donald Drunk",
+    "score1": "97.52",
+    "team2": "Flint City Tropics",
+    "score2": "75.95",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 12,
+    "team1": "Raaaaaaaandy",
+    "score1": "115.95",
+    "team2": "Kenny kil",
+    "score2": "87.45",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "The Commish",
+    "score1": "113.93",
+    "team2": "Goatse",
+    "score2": "128.17",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Stat Corrections",
+    "score1": "99.98",
+    "team2": "The Brown Bears",
+    "score2": "116.44",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "natalie",
+    "score1": "85.15",
+    "team2": "Kenny kil",
+    "score2": "107.77",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Donald Drunk",
+    "score1": "100.87",
+    "team2": "Joe Stop Haden on Me",
+    "score2": "118.39",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 13,
+    "team1": "Raaaaaaaandy",
+    "score1": "119.43",
+    "team2": "Flint City Tropics",
+    "score2": "95.60",
+    "playoff": false,
+    "round": ""
+  },
+  {
+    "week": 14,
+    "team1": "natalie",
+    "score1": "80.38",
+    "team2": "Goatse",
+    "score2": "105.53",
+    "playoff": true,
+    "round": "Quarterfinal"
+  },
+  {
+    "week": 14,
+    "team1": "Joe Stop Haden on Me",
+    "score1": "107.46",
+    "team2": "Kenny kil",
+    "score2": "113.72",
+    "playoff": true,
+    "round": "Quarterfinal"
+  },
+  {
+    "week": 15,
+    "team1": "The Commish",
+    "score1": "131.01",
+    "team2": "Donald Drunk",
+    "score2": "117.62",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 15,
+    "team1": "Stat Corrections",
+    "score1": "99.89",
+    "team2": "Flint City Tropics",
+    "score2": "74.49",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 15,
+    "team1": "natalie",
+    "score1": "67.85",
+    "team2": "Joe Stop Haden on Me",
+    "score2": "108.88",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 15,
+    "team1": "The Brown Bears",
+    "score1": "124.84",
+    "team2": "Kenny kil",
+    "score2": "118.79",
+    "playoff": true,
+    "round": "Semifinal"
+  },
+  {
+    "week": 15,
+    "team1": "Goatse",
+    "score1": "93.34",
+    "team2": "Raaaaaaaandy",
+    "score2": "109.16",
+    "playoff": true,
+    "round": "Semifinal"
+  },
+  {
+    "week": 16,
+    "team1": "The Commish",
+    "score1": "100.68",
+    "team2": "Stat Corrections",
+    "score2": "129.45",
+    "playoff": true,
+    "round": "Consolation"
+  },
+  {
+    "week": 16,
+    "team1": "The Brown Bears",
+    "score1": "127.98",
+    "team2": "Raaaaaaaandy",
+    "score2": "129.21",
+    "playoff": true,
+    "round": "Championship"
+  },
+  {
+    "week": 16,
+    "team1": "Goatse",
+    "score1": "136.17",
+    "team2": "Kenny kil",
+    "score2": "120.39",
+    "playoff": true,
+    "round": "3rd Place"
+  },
+  {
+    "week": 16,
+    "team1": "Donald Drunk",
+    "score1": "100.28",
+    "team2": "Flint City Tropics",
+    "score2": "69.30",
+    "playoff": true,
+    "round": "Consolation"
+  }
+]

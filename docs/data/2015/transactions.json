@@ -1,0 +1,7254 @@
+[
+  {
+    "type": "Add",
+    "date": "2015-12-26",
+    "player": "Willie Snead IV",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-26",
+    "player": "Brandon Bolden",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-25",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-25",
+    "player": "Patriots",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-24",
+    "player": "Cameron Artis-Payne",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-24",
+    "player": "Travis Benjamin",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-23",
+    "player": "Teddy Bridgewater",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-23",
+    "player": "Will Tye",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-23",
+    "player": "Texans",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-23",
+    "player": "Matt Ryan",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-19",
+    "player": "DeSean Jackson",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-19",
+    "player": "LeGarrette Blount",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-19",
+    "player": "Zach Ertz",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-19",
+    "player": "Jason Witten",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-16",
+    "player": "Fozzy Whittaker",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-16",
+    "player": "Cameron Artis-Payne",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-16",
+    "player": "Kirk Cousins",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-16",
+    "player": "Andy Dalton",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-16",
+    "player": "Brandon Bolden",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-16",
+    "player": "Zach Miller",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-16",
+    "player": "Tyler Lockett",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-16",
+    "player": "Robert Turbin",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-16",
+    "player": "Andrew Luck",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-16",
+    "player": "Mark Ingram II",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-16",
+    "player": "Fred Jackson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-16",
+    "player": "Matt Jones",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-16",
+    "player": "Ryan Fitzpatrick",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-16",
+    "player": "Lions",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-16",
+    "player": "Bryce Brown",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-16",
+    "player": "DeSean Jackson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-16",
+    "player": "Denard Robinson",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-16",
+    "player": "Thomas Rawls",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-13",
+    "player": "Cameron Artis-Payne",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-13",
+    "player": "Jacob Tamme",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-13",
+    "player": "Will Tye",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-13",
+    "player": "Carlos Hyde",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-13",
+    "player": "Darren Sproles",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-13",
+    "player": "Juwan Thompson",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-12",
+    "player": "Mark Ingram II",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-12",
+    "player": "Andre Ellington",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-11",
+    "player": "Julian Edelman",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-11",
+    "player": "Rishard Matthews",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-11",
+    "player": "Mason Crosby",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-11",
+    "player": "Justin Tucker",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-11",
+    "player": "Juwan Thompson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-11",
+    "player": "Vance McDonald",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-10",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-10",
+    "player": "Derek Carr",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-10",
+    "player": "Mike Nugent",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-10",
+    "player": "Brandon McManus",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-10",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-10",
+    "player": "Commanders",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-10",
+    "player": "Tyrod Taylor",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-10",
+    "player": "Shane Vereen",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-09",
+    "player": "Tim Hightower",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-09",
+    "player": "Mark Ingram II",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-09",
+    "player": "C.J. Spiller",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-09",
+    "player": "Raiders",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-09",
+    "player": "Zach Miller",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-09",
+    "player": "Brock Osweiler",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-09",
+    "player": "Richard Rodgers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-09",
+    "player": "Crockett Gillmore",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-06",
+    "player": "Austin Seferian-Jenkins",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-06",
+    "player": "Darren Sproles",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-06",
+    "player": "Dan Herron",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-06",
+    "player": "Donte Moncrief",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-04",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-04",
+    "player": "Justin Forsett",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-04",
+    "player": "Matthew Stafford",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-04",
+    "player": "Kirk Cousins",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-03",
+    "player": "Jacob Tamme",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-03",
+    "player": "Willie Snead IV",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-02",
+    "player": "Doug Baldwin",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-02",
+    "player": "Jimmy Graham",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-02",
+    "player": "Kirk Cousins",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-02",
+    "player": "Andrew Luck",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-02",
+    "player": "Vance McDonald",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-02",
+    "player": "Ahmad Bradshaw",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-02",
+    "player": "Scott Chandler",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-02",
+    "player": "Chris Polk",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-02",
+    "player": "Andre Ellington",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-02",
+    "player": "Tony Romo",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-02",
+    "player": "David Johnson",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-12-02",
+    "player": "Devin Funchess",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-29",
+    "player": "Josh Brown",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-29",
+    "player": "Cairo Santos",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-28",
+    "player": "Karlos Williams",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-28",
+    "player": "Tyrod Taylor",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-27",
+    "player": "Brian Hoyer",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-27",
+    "player": "Julian Edelman",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-26",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-26",
+    "player": "Falcons",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-26",
+    "player": "Golden Tate",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-26",
+    "player": "Rams",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Julius Thomas",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Joique Bell",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Duke Johnson",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Andre Ellington",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Crockett Gillmore",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Zach Ertz",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Vincent Jackson",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Jay Cutler",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Devin Funchess",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Titans",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Eagles",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Spencer Ware",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Eric Ebron",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Ahmad Bradshaw",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Jay Ajayi",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Javorius Allen",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Rodney Smith",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Thomas Rawls",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-25",
+    "player": "Karlos Williams",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-22",
+    "player": "Andre Ellington",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-22",
+    "player": "Duke Johnson",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-22",
+    "player": "Robert Turbin",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-22",
+    "player": "Matthew Stafford",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-22",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-22",
+    "player": "Dolphins",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-21",
+    "player": "Shaun Draughn",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-21",
+    "player": "Devin Funchess",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-20",
+    "player": "Darren Sproles",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-20",
+    "player": "Saints",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-20",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-20",
+    "player": "Peyton Manning",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-20",
+    "player": "Ryan Tannehill",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-20",
+    "player": "David Cobb",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-20",
+    "player": "Rodney Smith",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-20",
+    "player": "Christine Michael",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-20",
+    "player": "Devin Funchess",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-20",
+    "player": "Thomas Rawls",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-20",
+    "player": "Cairo Santos",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-20",
+    "player": "Vernon Davis",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-20",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-20",
+    "player": "Steelers",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-19",
+    "player": "Jay Cutler",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-19",
+    "player": "Eli Manning",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-18",
+    "player": "Brock Osweiler",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-18",
+    "player": "Josh Brown",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-18",
+    "player": "Michael Floyd",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-18",
+    "player": "Ka'Deem Carey",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-18",
+    "player": "Matthew Stafford",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-18",
+    "player": "Michael Floyd",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-18",
+    "player": "Michael Floyd",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-18",
+    "player": "Brock Osweiler",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-18",
+    "player": "Brock Osweiler",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-18",
+    "player": "Benjamin Watson",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-15",
+    "player": "Thomas Rawls",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-15",
+    "player": "Anquan Boldin",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-15",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-15",
+    "player": "Wes Welker",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-15",
+    "player": "Benjamin Watson",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-15",
+    "player": "Richard Rodgers",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-14",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-14",
+    "player": "Brandon Bolden",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-12",
+    "player": "Matt Jones",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-12",
+    "player": "Heath Miller",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-12",
+    "player": "Jay Ajayi",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-12",
+    "player": "Dion Lewis",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Chandler Catanzaro",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Matt Bryant",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Wes Welker",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Julius Thomas",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Connor Barth",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Robbie Gould",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Graham Gano",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Richard Rodgers",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "C.J. Spiller",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Falcons",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Tony Romo",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Eli Manning",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Brandon Bolden",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Sebastian Janikowski",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Blair Walsh",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Adam Vinatieri",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Blake Bortles",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Joique Bell",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Benjamin Watson",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "James White",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Michael Floyd",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Justin Tucker",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Nick Folk",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "James Starks",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-11",
+    "player": "Kendall Gaskins",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-10",
+    "player": "Malcom Floyd",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-10",
+    "player": "Josh Lambo",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-10",
+    "player": "Ka'Deem Carey",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-10",
+    "player": "Golden Tate",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-08",
+    "player": "Zach Ertz",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-08",
+    "player": "Jordan Cameron",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-08",
+    "player": "Derek Carr",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-08",
+    "player": "Shane Vereen",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-08",
+    "player": "Pierre Thomas",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-07",
+    "player": "Kendall Gaskins",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-07",
+    "player": "Ameer Abdullah",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-06",
+    "player": "Steelers",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-06",
+    "player": "Sebastian Janikowski",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-06",
+    "player": "Blair Walsh",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-05",
+    "player": "Michael Floyd",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-05",
+    "player": "Matt Jones",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-05",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-05",
+    "player": "Packers",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-05",
+    "player": "Antonio Andrews",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-05",
+    "player": "Chiefs",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Ted Ginn Jr.",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Larry Donnell",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "C.J. Spiller",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Ladarius Green",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Heath Miller",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Charles Sims",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Zach Ertz",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Robbie Gould",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Justin Tucker",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Vernon Davis",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Tavon Austin",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Keenan Allen",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Vikings",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Jordan Reed",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Shane Vereen",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Blair Walsh",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Vincent Jackson",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Steve Johnson",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Steve Smith",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Anquan Boldin",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Orleans Darkwa",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Malcom Floyd",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Pierre Thomas",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Giants",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Jeremy Langford",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Ryan Tannehill",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Benjamin Watson",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Andre Ellington",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Kamar Aiken",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Isaiah Crowell",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "DeAngelo Williams",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Joseph Randle",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Nick Folk",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-04",
+    "player": "Chandler Catanzaro",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-11-01",
+    "player": "Jordan Reed",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-30",
+    "player": "Andre Ellington",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-30",
+    "player": "James Starks",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-29",
+    "player": "Orleans Darkwa",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-29",
+    "player": "Mike Wallace",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-29",
+    "player": "Karlos Williams",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-29",
+    "player": "Anquan Boldin",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-29",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-29",
+    "player": "Blake Bortles",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Eagles",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Charles Sims",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Benjamin Watson",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Danny Amendola",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Kyle Rudolph",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Chris Polk",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Arian Foster",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Jordan Reed",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Charles Clay",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Giants",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Texans",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Brandon McManus",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Nick Folk",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "David Cobb",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "David Johnson",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Tyrod Taylor",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Eli Manning",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Alfred Blue",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Knile Davis",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Darren McFadden",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-28",
+    "player": "Theo Riddick",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-25",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-25",
+    "player": "Ravens",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-24",
+    "player": "Josh Brown",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-24",
+    "player": "Brandon McManus",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-24",
+    "player": "Ladarius Green",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-24",
+    "player": "Javorius Allen",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-24",
+    "player": "Matt Jones",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-24",
+    "player": "Kamar Aiken",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-22",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-22",
+    "player": "Andre Ellington",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-22",
+    "player": "Theo Riddick",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-22",
+    "player": "Karlos Williams",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Ryan Tannehill",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Marcus Mariota",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Rueben Randle",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Packers",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Nick Folk",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Dan Carpenter",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Josh Lambo",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Ameer Abdullah",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Brian Hoyer",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Brian Hoyer",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Nelson Agholor",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Benjamin Watson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Leonard Hankerson",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Josh Brown",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Jacob Tamme",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Blake Bortles",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Alfred Morris",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "James Starks",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-21",
+    "player": "Andre Johnson",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-20",
+    "player": "Mason Crosby",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-18",
+    "player": "Michael Crabtree",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-18",
+    "player": "Nelson Agholor",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-18",
+    "player": "Eric Ebron",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-18",
+    "player": "Sammy Watkins",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-18",
+    "player": "Terrance Williams",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-18",
+    "player": "Denard Robinson",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-18",
+    "player": "Ameer Abdullah",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-18",
+    "player": "Toby Gerhart",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-17",
+    "player": "Kamar Aiken",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-17",
+    "player": "Charles Sims",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-17",
+    "player": "Sam Bradford",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-17",
+    "player": "Shane Vereen",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-17",
+    "player": "Theo Riddick",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-15",
+    "player": "Denard Robinson",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-15",
+    "player": "Sammy Watkins",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-15",
+    "player": "Toby Gerhart",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-15",
+    "player": "Brian Quick",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-15",
+    "player": "Jacob Tamme",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-15",
+    "player": "Owen Daniels",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Larry Donnell",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Thomas Rawls",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Christine Michael",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Richard Rodgers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Brandon LaFell",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Percy Harvin",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Theo Riddick",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "C.J. Spiller",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Willie Snead IV",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Tyrod Taylor",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Javorius Allen",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Giants",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Rishard Matthews",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Charles Clay",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Pierre Garcon",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Marques Colston",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Josh Brown",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Darren Sproles",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "David Johnson",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Matt Jones",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Charles Sims",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Sam Bradford",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Gary Barnidge",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Jordan Reed",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Knile Davis",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Steve Johnson",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Charcandrick West",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Jaguars",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Andre Johnson",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-14",
+    "player": "Shane Vereen",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-11",
+    "player": "Richard Rodgers",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-11",
+    "player": "Crockett Gillmore",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-11",
+    "player": "Martavis Bryant",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-11",
+    "player": "Rishard Matthews",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-10",
+    "player": "Sam Bradford",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-10",
+    "player": "Blake Bortles",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-08",
+    "player": "Stefon Diggs",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-08",
+    "player": "Alfred Blue",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-08",
+    "player": "Rueben Randle",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-08",
+    "player": "David Johnson",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-08",
+    "player": "Blake Bortles",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-08",
+    "player": "Martavis Bryant",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-08",
+    "player": "Crockett Gillmore",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-08",
+    "player": "Eric Ebron",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-08",
+    "player": "Jaguars",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-08",
+    "player": "Marvin Jones Jr.",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-07",
+    "player": "Chandler Catanzaro",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-07",
+    "player": "Phil Dawson",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-07",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-07",
+    "player": "Colts",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-07",
+    "player": "Allen Hurns",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-07",
+    "player": "Kyle Rudolph",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-07",
+    "player": "Giants",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-07",
+    "player": "Josh Brown",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-07",
+    "player": "Duke Johnson",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-07",
+    "player": "Leonard Hankerson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-07",
+    "player": "Derek Carr",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-07",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-07",
+    "player": "Michael Vick",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-07",
+    "player": "Martavis Bryant",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-07",
+    "player": "Sam Bradford",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-06",
+    "player": "Lance Dunbar",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-04",
+    "player": "C.J. Spiller",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-04",
+    "player": "Victor Cruz",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-04",
+    "player": "Owen Daniels",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-04",
+    "player": "Coby Fleener",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-04",
+    "player": "Sam Bradford",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-04",
+    "player": "Markus Wheaton",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-03",
+    "player": "Marvin Jones Jr.",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-03",
+    "player": "Antonio Andrews",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-02",
+    "player": "Darren Sproles",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-02",
+    "player": "Andre Johnson",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-01",
+    "player": "Coby Fleener",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-01",
+    "player": "Crockett Gillmore",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-01",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-01",
+    "player": "James Starks",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-01",
+    "player": "Michael Vick",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-01",
+    "player": "Eli Manning",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-01",
+    "player": "Lance Dunbar",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-01",
+    "player": "Darren Sproles",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-01",
+    "player": "Darren Sproles",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-10-01",
+    "player": "Lance Dunbar",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Patriots",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Antonio Andrews",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Charles Johnson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Lance Dunbar",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Brandon Coleman",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Josh Brown",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Martavis Bryant",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Dan Carpenter",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Robbie Gould",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Torrey Smith",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Brian Quick",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Sam Bradford",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Rishard Matthews",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Nelson Agholor",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Derek Carr",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Heath Miller",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Thomas Rawls",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Pierre Garcon",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Alfred Blue",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Roddy White",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Ryan Tannehill",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "Karlos Williams",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-30",
+    "player": "C.J. Spiller",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-26",
+    "player": "Marcus Mariota",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-26",
+    "player": "Bishop Sankey",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-26",
+    "player": "Percy Harvin",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-26",
+    "player": "Duke Johnson",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-24",
+    "player": "Heath Miller",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-24",
+    "player": "Ladarius Green",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Eric Ebron",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "DeAngelo Williams",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Tyrod Taylor",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Tre Mason",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Andy Dalton",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Lance Dunbar",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Broncos",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Percy Harvin",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Austin Seferian-Jenkins",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "James Starks",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Darren Sproles",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Dolphins",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Robbie Gould",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Matt Prater",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Crockett Gillmore",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Dwayne Allen",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "David Johnson",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Reggie Bush",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Travis Benjamin",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Cole Beasley",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Carson Palmer",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Tony Romo",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Matt Jones",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Knile Davis",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Dion Lewis",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-23",
+    "player": "Marcus Mariota",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-20",
+    "player": "Darren Sproles",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-20",
+    "player": "Joique Bell",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-20",
+    "player": "Cole Beasley",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-20",
+    "player": "Darren McFadden",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-19",
+    "player": "DeSean Jackson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-19",
+    "player": "Matthew Stafford",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-17",
+    "player": "Brandon McManus",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-17",
+    "player": "Josh Scobee",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Austin Seferian-Jenkins",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Larry Donnell",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Marcus Mariota",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Josh Hill",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Ronnie Hillman",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Dorial Green-Beckham",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "DeAngelo Williams",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Brian Quick",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Ladarius Green",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Eddie Royal",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Jordan Reed",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Owen Daniels",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Donte Moncrief",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Alfred Blue",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Terrance Williams",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Eli Manning",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Lance Dunbar",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Devin Funchess",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Brandon Coleman",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "DeSean Jackson",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Chris Johnson",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Chiefs",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "James Jones",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-16",
+    "player": "Michael Floyd",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-13",
+    "player": "Larry Donnell",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-13",
+    "player": "Kyle Rudolph",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-12",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-12",
+    "player": "Kenny Stills",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-11",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-11",
+    "player": "Eric Ebron",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-11",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-11",
+    "player": "Patriots",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-11",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Add",
+    "date": "2015-09-11",
+    "player": "DeVante Parker",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-26",
+    "player": "Willie Snead IV",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-26",
+    "player": "Brandon Bolden",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-25",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-25",
+    "player": "Patriots",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-24",
+    "player": "Cameron Artis-Payne",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-24",
+    "player": "Travis Benjamin",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-23",
+    "player": "Teddy Bridgewater",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-23",
+    "player": "Will Tye",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-23",
+    "player": "Texans",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-23",
+    "player": "Matt Ryan",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-19",
+    "player": "DeSean Jackson",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-19",
+    "player": "LeGarrette Blount",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-19",
+    "player": "Zach Ertz",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-19",
+    "player": "Jason Witten",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-16",
+    "player": "Fozzy Whittaker",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-16",
+    "player": "Cameron Artis-Payne",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-16",
+    "player": "Kirk Cousins",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-16",
+    "player": "Andy Dalton",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-16",
+    "player": "Brandon Bolden",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-16",
+    "player": "Zach Miller",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-16",
+    "player": "Tyler Lockett",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-16",
+    "player": "Robert Turbin",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-16",
+    "player": "Andrew Luck",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-16",
+    "player": "Mark Ingram II",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-16",
+    "player": "Fred Jackson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-16",
+    "player": "Matt Jones",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-16",
+    "player": "Ryan Fitzpatrick",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-16",
+    "player": "Lions",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-16",
+    "player": "Bryce Brown",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-16",
+    "player": "DeSean Jackson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-16",
+    "player": "Denard Robinson",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-16",
+    "player": "Thomas Rawls",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-13",
+    "player": "Cameron Artis-Payne",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-13",
+    "player": "Jacob Tamme",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-13",
+    "player": "Will Tye",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-13",
+    "player": "Carlos Hyde",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-13",
+    "player": "Darren Sproles",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-13",
+    "player": "Juwan Thompson",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-12",
+    "player": "Mark Ingram II",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-12",
+    "player": "Andre Ellington",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-11",
+    "player": "Julian Edelman",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-11",
+    "player": "Rishard Matthews",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-11",
+    "player": "Mason Crosby",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-11",
+    "player": "Justin Tucker",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-11",
+    "player": "Juwan Thompson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-11",
+    "player": "Vance McDonald",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-10",
+    "player": "Lions",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-10",
+    "player": "Derek Carr",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-10",
+    "player": "Mike Nugent",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-10",
+    "player": "Brandon McManus",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-10",
+    "player": "Rams",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-10",
+    "player": "Commanders",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-10",
+    "player": "Tyrod Taylor",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-10",
+    "player": "Shane Vereen",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-09",
+    "player": "Tim Hightower",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-09",
+    "player": "Mark Ingram II",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-09",
+    "player": "C.J. Spiller",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-09",
+    "player": "Raiders",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-09",
+    "player": "Zach Miller",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-09",
+    "player": "Brock Osweiler",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-09",
+    "player": "Richard Rodgers",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-09",
+    "player": "Crockett Gillmore",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-06",
+    "player": "Austin Seferian-Jenkins",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-06",
+    "player": "Darren Sproles",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-06",
+    "player": "Dan Herron",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-06",
+    "player": "Donte Moncrief",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-04",
+    "player": "Commanders",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-04",
+    "player": "Justin Forsett",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-04",
+    "player": "Matthew Stafford",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-04",
+    "player": "Kirk Cousins",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-03",
+    "player": "Jacob Tamme",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-03",
+    "player": "Willie Snead IV",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-02",
+    "player": "Doug Baldwin",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-02",
+    "player": "Jimmy Graham",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-02",
+    "player": "Kirk Cousins",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-02",
+    "player": "Andrew Luck",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-02",
+    "player": "Vance McDonald",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-02",
+    "player": "Ahmad Bradshaw",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-02",
+    "player": "Scott Chandler",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-02",
+    "player": "Chris Polk",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-02",
+    "player": "Andre Ellington",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-02",
+    "player": "Tony Romo",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-02",
+    "player": "David Johnson",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-12-02",
+    "player": "Devin Funchess",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-29",
+    "player": "Josh Brown",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-29",
+    "player": "Cairo Santos",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-28",
+    "player": "Karlos Williams",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-28",
+    "player": "Tyrod Taylor",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-27",
+    "player": "Brian Hoyer",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-27",
+    "player": "Julian Edelman",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-26",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-26",
+    "player": "Falcons",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-26",
+    "player": "Golden Tate",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-26",
+    "player": "Rams",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Julius Thomas",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Joique Bell",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Duke Johnson",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Andre Ellington",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Crockett Gillmore",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Zach Ertz",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Vincent Jackson",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Jay Cutler",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Devin Funchess",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Titans",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Eagles",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Spencer Ware",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Eric Ebron",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Ahmad Bradshaw",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Jay Ajayi",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Javorius Allen",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Rodney Smith",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Thomas Rawls",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-25",
+    "player": "Karlos Williams",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-22",
+    "player": "Andre Ellington",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-22",
+    "player": "Duke Johnson",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-22",
+    "player": "Robert Turbin",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-22",
+    "player": "Matthew Stafford",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-22",
+    "player": "Raiders",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-22",
+    "player": "Dolphins",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-21",
+    "player": "Shaun Draughn",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-21",
+    "player": "Devin Funchess",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-20",
+    "player": "Darren Sproles",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-20",
+    "player": "Saints",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-20",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-20",
+    "player": "Peyton Manning",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-20",
+    "player": "Ryan Tannehill",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-20",
+    "player": "David Cobb",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-20",
+    "player": "Rodney Smith",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-20",
+    "player": "Christine Michael",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-20",
+    "player": "Devin Funchess",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-20",
+    "player": "Thomas Rawls",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-20",
+    "player": "Cairo Santos",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-20",
+    "player": "Vernon Davis",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-20",
+    "player": "Titans",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-20",
+    "player": "Steelers",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-19",
+    "player": "Jay Cutler",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-19",
+    "player": "Eli Manning",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-18",
+    "player": "Brock Osweiler",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-18",
+    "player": "Josh Brown",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-18",
+    "player": "Michael Floyd",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-18",
+    "player": "Ka'Deem Carey",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-18",
+    "player": "Matthew Stafford",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-18",
+    "player": "Michael Floyd",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-18",
+    "player": "Michael Floyd",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-18",
+    "player": "Brock Osweiler",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-18",
+    "player": "Brock Osweiler",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-18",
+    "player": "Benjamin Watson",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-15",
+    "player": "Thomas Rawls",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-15",
+    "player": "Anquan Boldin",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-15",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-15",
+    "player": "Wes Welker",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-15",
+    "player": "Benjamin Watson",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-15",
+    "player": "Richard Rodgers",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-14",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-14",
+    "player": "Brandon Bolden",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-12",
+    "player": "Matt Jones",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-12",
+    "player": "Heath Miller",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-12",
+    "player": "Jay Ajayi",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-12",
+    "player": "Dion Lewis",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Chandler Catanzaro",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Matt Bryant",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Wes Welker",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Julius Thomas",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Connor Barth",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Robbie Gould",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Graham Gano",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Richard Rodgers",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "C.J. Spiller",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Falcons",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Tony Romo",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Eli Manning",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Brandon Bolden",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Sebastian Janikowski",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Blair Walsh",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Adam Vinatieri",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Blake Bortles",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Joique Bell",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Benjamin Watson",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "James White",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Michael Floyd",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Justin Tucker",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Nick Folk",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "James Starks",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-11",
+    "player": "Kendall Gaskins",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-10",
+    "player": "Malcom Floyd",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-10",
+    "player": "Josh Lambo",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-10",
+    "player": "Ka'Deem Carey",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-10",
+    "player": "Golden Tate",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-08",
+    "player": "Zach Ertz",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-08",
+    "player": "Jordan Cameron",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-08",
+    "player": "Derek Carr",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-08",
+    "player": "Shane Vereen",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-08",
+    "player": "Pierre Thomas",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-07",
+    "player": "Kendall Gaskins",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-07",
+    "player": "Ameer Abdullah",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-06",
+    "player": "Steelers",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-06",
+    "player": "Sebastian Janikowski",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-06",
+    "player": "Blair Walsh",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-05",
+    "player": "Michael Floyd",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-05",
+    "player": "Matt Jones",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-05",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-05",
+    "player": "Packers",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-05",
+    "player": "Antonio Andrews",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-05",
+    "player": "Chiefs",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Ted Ginn Jr.",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Larry Donnell",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "C.J. Spiller",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Ladarius Green",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Heath Miller",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Charles Sims",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Saints",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Zach Ertz",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Robbie Gould",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Justin Tucker",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Vernon Davis",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Tavon Austin",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Keenan Allen",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Eagles",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Vikings",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Jordan Reed",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Shane Vereen",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Blair Walsh",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Vincent Jackson",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Steve Johnson",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Steve Smith",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Anquan Boldin",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Orleans Darkwa",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Malcom Floyd",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Pierre Thomas",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Giants",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Jeremy Langford",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Ryan Tannehill",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Benjamin Watson",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Andre Ellington",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Kamar Aiken",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Isaiah Crowell",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "DeAngelo Williams",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Joseph Randle",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Nick Folk",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-04",
+    "player": "Chandler Catanzaro",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-11-01",
+    "player": "Jordan Reed",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-30",
+    "player": "Andre Ellington",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-30",
+    "player": "James Starks",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-29",
+    "player": "Orleans Darkwa",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-29",
+    "player": "Mike Wallace",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-29",
+    "player": "Karlos Williams",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-29",
+    "player": "Anquan Boldin",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-29",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-29",
+    "player": "Blake Bortles",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Vikings",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Eagles",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Charles Sims",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Benjamin Watson",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Danny Amendola",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Kyle Rudolph",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Chris Polk",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Arian Foster",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Jordan Reed",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Charles Clay",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Giants",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Texans",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Brandon McManus",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Nick Folk",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "David Cobb",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "David Johnson",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Tyrod Taylor",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Eli Manning",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Alfred Blue",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Knile Davis",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Darren McFadden",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-28",
+    "player": "Theo Riddick",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-25",
+    "player": "Packers",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-25",
+    "player": "Ravens",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-24",
+    "player": "Josh Brown",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-24",
+    "player": "Brandon McManus",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-24",
+    "player": "Ladarius Green",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-24",
+    "player": "Javorius Allen",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-24",
+    "player": "Matt Jones",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-24",
+    "player": "Kamar Aiken",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-22",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-22",
+    "player": "Andre Ellington",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-22",
+    "player": "Theo Riddick",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-22",
+    "player": "Karlos Williams",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Ryan Tannehill",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Marcus Mariota",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Rueben Randle",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Packers",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Nick Folk",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Dan Carpenter",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Josh Lambo",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Ameer Abdullah",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Brian Hoyer",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Brian Hoyer",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Nelson Agholor",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Benjamin Watson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Leonard Hankerson",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Steelers",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Josh Brown",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Falcons",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Jacob Tamme",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Blake Bortles",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Alfred Morris",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "James Starks",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-21",
+    "player": "Andre Johnson",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-20",
+    "player": "Mason Crosby",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-18",
+    "player": "Michael Crabtree",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-18",
+    "player": "Nelson Agholor",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-18",
+    "player": "Eric Ebron",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-18",
+    "player": "Sammy Watkins",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-18",
+    "player": "Terrance Williams",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-18",
+    "player": "Denard Robinson",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-18",
+    "player": "Ameer Abdullah",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-18",
+    "player": "Toby Gerhart",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-17",
+    "player": "Kamar Aiken",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-17",
+    "player": "Charles Sims",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-17",
+    "player": "Sam Bradford",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-17",
+    "player": "Shane Vereen",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-17",
+    "player": "Theo Riddick",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-15",
+    "player": "Denard Robinson",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-15",
+    "player": "Sammy Watkins",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-15",
+    "player": "Toby Gerhart",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-15",
+    "player": "Brian Quick",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-15",
+    "player": "Jacob Tamme",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-15",
+    "player": "Owen Daniels",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Larry Donnell",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Thomas Rawls",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Christine Michael",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Richard Rodgers",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Brandon LaFell",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Percy Harvin",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Theo Riddick",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "C.J. Spiller",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Willie Snead IV",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Tyrod Taylor",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Javorius Allen",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Giants",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Rishard Matthews",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Charles Clay",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Pierre Garcon",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Marques Colston",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Josh Brown",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Darren Sproles",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "David Johnson",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Matt Jones",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Charles Sims",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Sam Bradford",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Gary Barnidge",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Jordan Reed",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Knile Davis",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Steve Johnson",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Charcandrick West",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Jaguars",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Andre Johnson",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-14",
+    "player": "Shane Vereen",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-11",
+    "player": "Richard Rodgers",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-11",
+    "player": "Crockett Gillmore",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-11",
+    "player": "Martavis Bryant",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-11",
+    "player": "Rishard Matthews",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-10",
+    "player": "Sam Bradford",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-10",
+    "player": "Blake Bortles",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-08",
+    "player": "Stefon Diggs",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-08",
+    "player": "Alfred Blue",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-08",
+    "player": "Rueben Randle",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-08",
+    "player": "David Johnson",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-08",
+    "player": "Blake Bortles",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-08",
+    "player": "Martavis Bryant",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-08",
+    "player": "Crockett Gillmore",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-08",
+    "player": "Eric Ebron",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-08",
+    "player": "Jaguars",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-08",
+    "player": "Marvin Jones Jr.",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-07",
+    "player": "Chandler Catanzaro",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-07",
+    "player": "Phil Dawson",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-07",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-07",
+    "player": "Colts",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-07",
+    "player": "Allen Hurns",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-07",
+    "player": "Kyle Rudolph",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-07",
+    "player": "Giants",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-07",
+    "player": "Josh Brown",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-07",
+    "player": "Duke Johnson",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-07",
+    "player": "Leonard Hankerson",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-07",
+    "player": "Derek Carr",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-07",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-07",
+    "player": "Michael Vick",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-07",
+    "player": "Martavis Bryant",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-07",
+    "player": "Sam Bradford",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-06",
+    "player": "Lance Dunbar",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-04",
+    "player": "C.J. Spiller",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-04",
+    "player": "Victor Cruz",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-04",
+    "player": "Owen Daniels",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-04",
+    "player": "Coby Fleener",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-04",
+    "player": "Sam Bradford",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-04",
+    "player": "Markus Wheaton",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-03",
+    "player": "Marvin Jones Jr.",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-03",
+    "player": "Antonio Andrews",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-02",
+    "player": "Darren Sproles",
+    "from": "FA/Waiver",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-02",
+    "player": "Andre Johnson",
+    "from": "Bad Rivers Tribe",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-01",
+    "player": "Coby Fleener",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-01",
+    "player": "Crockett Gillmore",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-01",
+    "player": "Bengals",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-01",
+    "player": "James Starks",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-01",
+    "player": "Michael Vick",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-01",
+    "player": "Eli Manning",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-01",
+    "player": "Lance Dunbar",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-01",
+    "player": "Darren Sproles",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-01",
+    "player": "Darren Sproles",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-10-01",
+    "player": "Lance Dunbar",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Colts",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Patriots",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Antonio Andrews",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Charles Johnson",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Lance Dunbar",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Brandon Coleman",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Josh Brown",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Martavis Bryant",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Dan Carpenter",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Robbie Gould",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Charles Clay",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Torrey Smith",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Brian Quick",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Sam Bradford",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Rishard Matthews",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Nelson Agholor",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Derek Carr",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Heath Miller",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Thomas Rawls",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Pierre Garcon",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Alfred Blue",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Roddy White",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Eli Manning",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Ryan Tannehill",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "Karlos Williams",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-30",
+    "player": "C.J. Spiller",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-26",
+    "player": "Marcus Mariota",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-26",
+    "player": "Bishop Sankey",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-26",
+    "player": "Percy Harvin",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-26",
+    "player": "Duke Johnson",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-24",
+    "player": "Heath Miller",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-24",
+    "player": "Ladarius Green",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Eric Ebron",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "DeAngelo Williams",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Tyrod Taylor",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Tre Mason",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Andy Dalton",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Lance Dunbar",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Broncos",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Percy Harvin",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Austin Seferian-Jenkins",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "James Starks",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Darren Sproles",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Patriots",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Dolphins",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Robbie Gould",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Matt Prater",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Crockett Gillmore",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Dwayne Allen",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "David Johnson",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Reggie Bush",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Travis Benjamin",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Cole Beasley",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Carson Palmer",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Tony Romo",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Matt Jones",
+    "from": "FA/Waiver",
+    "to": "The Commish"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Knile Davis",
+    "from": "The Commish",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Dion Lewis",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-23",
+    "player": "Marcus Mariota",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-20",
+    "player": "Darren Sproles",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-20",
+    "player": "Joique Bell",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-20",
+    "player": "Cole Beasley",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-20",
+    "player": "Darren McFadden",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-19",
+    "player": "DeSean Jackson",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-19",
+    "player": "Matthew Stafford",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-17",
+    "player": "Brandon McManus",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-17",
+    "player": "Josh Scobee",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Austin Seferian-Jenkins",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Larry Donnell",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Marcus Mariota",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Josh Hill",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Ronnie Hillman",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Dorial Green-Beckham",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "DeAngelo Williams",
+    "from": "FA/Waiver",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Brian Quick",
+    "from": "The Brown Bears",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Ladarius Green",
+    "from": "FA/Waiver",
+    "to": "Flint City Tropics"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Eddie Royal",
+    "from": "Flint City Tropics",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Jordan Reed",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Owen Daniels",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Donte Moncrief",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Alfred Blue",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Terrance Williams",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Eli Manning",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Lance Dunbar",
+    "from": "FA/Waiver",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Devin Funchess",
+    "from": "Ben's Nice Team",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Brandon Coleman",
+    "from": "FA/Waiver",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "DeSean Jackson",
+    "from": "Jive Turkey",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Chris Johnson",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Chiefs",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "James Jones",
+    "from": "FA/Waiver",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-16",
+    "player": "Michael Floyd",
+    "from": "Washington Sentinels",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-13",
+    "player": "Larry Donnell",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-13",
+    "player": "Kyle Rudolph",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-12",
+    "player": "Chiefs",
+    "from": "FA/Waiver",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-12",
+    "player": "Kenny Stills",
+    "from": "Raaaaaaaandy",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-11",
+    "player": "Panthers",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-11",
+    "player": "Eric Ebron",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-11",
+    "player": "Kyle Rudolph",
+    "from": "FA/Waiver",
+    "to": "Goatse 7"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-11",
+    "player": "Patriots",
+    "from": "Goatse 7",
+    "to": "Dropped"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-11",
+    "player": "Dolphins",
+    "from": "FA/Waiver",
+    "to": "SHARKEISHA NO"
+  },
+  {
+    "type": "Drop",
+    "date": "2015-09-11",
+    "player": "DeVante Parker",
+    "from": "SHARKEISHA NO",
+    "to": "Dropped"
+  },
+  {
+    "type": "Trade",
+    "date": "2015-11-06",
+    "player": "Adrian Peterson",
+    "from": "Bad Rivers Tribe",
+    "to": "Washington Sentinels"
+  },
+  {
+    "type": "Trade",
+    "date": "2015-11-06",
+    "player": "Danny Woodhead",
+    "from": "Washington Sentinels",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Trade",
+    "date": "2015-11-06",
+    "player": "DeAndre Hopkins",
+    "from": "Washington Sentinels",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Trade",
+    "date": "2015-10-18",
+    "player": "Rob Gronkowski",
+    "from": "Ben's Nice Team",
+    "to": "The Brown Bears"
+  },
+  {
+    "type": "Trade",
+    "date": "2015-10-18",
+    "player": "Arian Foster",
+    "from": "The Brown Bears",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Trade",
+    "date": "2015-10-18",
+    "player": "Christine Michael",
+    "from": "The Brown Bears",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Trade",
+    "date": "2015-10-18",
+    "player": "Greg Olsen",
+    "from": "The Brown Bears",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Trade",
+    "date": "2015-10-18",
+    "player": "Charcandrick West",
+    "from": "The Brown Bears",
+    "to": "Ben's Nice Team"
+  },
+  {
+    "type": "Trade",
+    "date": "2015-10-18",
+    "player": "Andre Ellington",
+    "from": "Raaaaaaaandy",
+    "to": "Bad Rivers Tribe"
+  },
+  {
+    "type": "Trade",
+    "date": "2015-10-18",
+    "player": "Delanie Walker",
+    "from": "Bad Rivers Tribe",
+    "to": "Raaaaaaaandy"
+  },
+  {
+    "type": "Trade",
+    "date": "2015-09-26",
+    "player": "Travis Benjamin",
+    "from": "Washington Sentinels",
+    "to": "Jive Turkey"
+  },
+  {
+    "type": "Trade",
+    "date": "2015-09-26",
+    "player": "Danny Woodhead",
+    "from": "Jive Turkey",
+    "to": "Washington Sentinels"
+  }
+]
