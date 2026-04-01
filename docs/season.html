@@ -101,7 +101,6 @@ async function loadYear(year) {
       <td>${t.owner}</td>
       <td class="num">${t.wins}</td>
       <td class="num">${t.losses}</td>
-      <td class="num">${t.ties > 0 ? t.ties : ''}</td>
       <td class="num">${parseFloat(t.points_for).toFixed(2)}</td>
       <td class="num">${parseFloat(t.points_against).toFixed(2)}</td>
     </tr>`;
@@ -163,7 +162,6 @@ async function loadYear(year) {
             <th>Owner</th>
             <th class="num">W</th>
             <th class="num">L</th>
-            <th class="num">T</th>
             <th class="num">PF</th>
             <th class="num">PA</th>
           </tr></thead>

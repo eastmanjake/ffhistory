@@ -55,10 +55,11 @@
               <th>Owner</th>
               <th class="num">Score</th>
               <th>Runner-Up</th>
+              <th>Owner</th>
               <th class="num">Score</th>
             </tr>
           </thead>
-          <tbody><tr><td colspan="6" class="loading">Loading…</td></tr></tbody>
+          <tbody><tr><td colspan="7" class="loading">Loading…</td></tr></tbody>
         </table>
       </div>
     </section>
@@ -71,6 +72,43 @@
             <tr>
               <th>Owner</th>
               <th>Rings</th>
+              <th>Years</th>
+            </tr>
+          </thead>
+          <tbody><tr><td colspan="3" class="loading">Loading…</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <div class="two-col">
+    <section>
+      <h2>Regular Season Winners</h2>
+      <div class="table-wrap">
+        <table id="reg-table">
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Team</th>
+              <th>Owner</th>
+              <th class="num">W</th>
+              <th class="num">L</th>
+              <th class="num">PF</th>
+            </tr>
+          </thead>
+          <tbody><tr><td colspan="6" class="loading">Loading…</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Runner-Up Finishes</h2>
+      <div class="table-wrap">
+        <table id="runnerup-table">
+          <thead>
+            <tr>
+              <th>Owner</th>
+              <th>Finishes</th>
               <th>Years</th>
             </tr>
           </thead>
@@ -100,6 +138,7 @@ async function init() {
       <td>${c.owner}</td>
       <td class="num">${fmt2(c.score)}</td>
       <td style="color:var(--muted)">${c.opponent}</td>
+      <td style="color:var(--muted)">${c.oppOwner}</td>
       <td class="num">${fmt2(c.oppScore)}</td>
     `;
     champTbody.appendChild(tr);
@@ -144,6 +183,47 @@ async function init() {
   document.getElementById('stat-games').textContent = Math.round(totalGames);
   document.getElementById('stat-most-champ').textContent =
     `${topOwners.join('/')} (${maxRings})`;
+
+  // ── Runner-Up Finishes ─────────────────────────────────────────
+  const ruCounts = {}, ruYears = {};
+  champions.forEach(c => {
+    if (!c.oppOwner || c.oppOwner === '?') return;
+    ruCounts[c.oppOwner] = (ruCounts[c.oppOwner] || 0) + 1;
+    (ruYears[c.oppOwner] = ruYears[c.oppOwner] || []).push(c.year);
+  });
+  const ruData = Object.entries(ruCounts).sort((a, b) => b[1] - a[1]);
+
+  const ruTbody = document.querySelector('#runnerup-table tbody');
+  ruTbody.innerHTML = '';
+  ruData.forEach(([owner, count]) => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td>${owner}</td>
+      <td>${'🥈'.repeat(count)}</td>
+      <td style="color:var(--muted);font-size:12px">${ruYears[owner].join(', ')}</td>
+    `;
+    ruTbody.appendChild(tr);
+  });
+
+  // ── Regular Season Winners ─────────────────────────────────────
+  const regTbody = document.querySelector('#reg-table tbody');
+  regTbody.innerHTML = '';
+  [...SEASONS].reverse().forEach(year => {
+    const standings = allStandings[year];
+    if (!standings) return;
+    const first = standings.find(t => parseInt(t.rank) === 1);
+    if (!first) return;
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td><a href="season.html?year=${year}">${year}</a></td>
+      <td><strong>${first.team}</strong></td>
+      <td>${normOwner(first.owner)}</td>
+      <td class="num">${first.wins}</td>
+      <td class="num">${first.losses}</td>
+      <td class="num">${parseFloat(first.points_for).toFixed(2)}</td>
+    `;
+    regTbody.appendChild(tr);
+  });
 }
 
 init().catch(console.error);

@@ -1,9 +1,11 @@
 // ── Constants ────────────────────────────────────────────────────────────────
 const SEASONS = [2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025];
 
-// Yahoo stored Steve's name as "Steven" in 2024 — normalize to Steve
+// Normalize owner names to canonical display names
 function normOwner(o) {
-  return o === 'Steven' ? 'Steve' : o;
+  if (o === 'Steven')  return 'Steve';
+  if (o === 'Patrick') return 'Pat';
+  return o;
 }
 
 // ── Data loading ─────────────────────────────────────────────────────────────
@@ -52,7 +54,7 @@ async function getChampions() {
     const s1 = parseFloat(champ.score1), s2 = parseFloat(champ.score2);
     const [winner, winScore, loser, loseScore] =
       s1 > s2 ? [champ.team1, s1, champ.team2, s2] : [champ.team2, s2, champ.team1, s1];
-    return [{ year, team: winner, owner: teamOwner[winner] || '?', score: winScore, opponent: loser, oppScore: loseScore }];
+    return [{ year, team: winner, owner: teamOwner[winner] || '?', score: winScore, opponent: loser, oppOwner: teamOwner[loser] || '?', oppScore: loseScore }];
   });
 }
 
