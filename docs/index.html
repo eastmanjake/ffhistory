@@ -84,7 +84,7 @@
 
   <div class="two-col">
     <section>
-      <h2>Regular Season Winners</h2>
+      <h2>Most Points by Season</h2>
       <div class="table-wrap">
         <table id="reg-table">
           <thead>
@@ -92,12 +92,10 @@
               <th>Year</th>
               <th>Team</th>
               <th>Owner</th>
-              <th class="num">W</th>
-              <th class="num">L</th>
               <th class="num">PF</th>
             </tr>
           </thead>
-          <tbody><tr><td colspan="6" class="loading">Loading…</td></tr></tbody>
+          <tbody><tr><td colspan="4" class="loading">Loading…</td></tr></tbody>
         </table>
       </div>
     </section>
@@ -206,22 +204,20 @@ async function init() {
     ruTbody.appendChild(tr);
   });
 
-  // ── Regular Season Winners ─────────────────────────────────────
+  // ── Most Points by Season ──────────────────────────────────────
   const regTbody = document.querySelector('#reg-table tbody');
   regTbody.innerHTML = '';
   [...SEASONS].reverse().forEach(year => {
     const standings = allStandings[year];
     if (!standings) return;
-    const first = standings.find(t => parseInt(t.rank) === 1);
-    if (!first) return;
+    const top = [...standings].sort((a, b) => parseFloat(b.points_for) - parseFloat(a.points_for))[0];
+    if (!top) return;
     const tr = document.createElement('tr');
     tr.innerHTML = `
       <td><a href="season.html?year=${year}">${year}</a></td>
-      <td><strong>${first.team}</strong></td>
-      <td>${normOwner(first.owner)}</td>
-      <td class="num">${first.wins}</td>
-      <td class="num">${first.losses}</td>
-      <td class="num">${parseFloat(first.points_for).toFixed(2)}</td>
+      <td><strong>${top.team}</strong></td>
+      <td>${normOwner(top.owner)}</td>
+      <td class="num">${parseFloat(top.points_for).toFixed(2)}</td>
     `;
     regTbody.appendChild(tr);
   });
