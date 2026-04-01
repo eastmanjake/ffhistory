@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Matchups — The League</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>🏈</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ── Matchup card grid ───────────────────────────────────────── */
+    .week-header {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      padding: 8px 0 10px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 16px;
+      margin-top: 32px;
+    }
+    .week-header:first-of-type { margin-top: 0; }
+
+    .matchup-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 12px;
+      margin-bottom: 8px;
+    }
+
+    .matchup-card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: border-color 0.15s;
+    }
+    .matchup-card:hover { border-color: var(--gold); }
+    .matchup-card.expanded { border-color: var(--gold); }
+
+    .matchup-summary {
+      display: flex;
+      align-items: stretch;
+    }
+    .matchup-team {
+      flex: 1;
+      padding: 12px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .matchup-team.winner { background: rgba(212,160,23,0.05); }
+    .matchup-team-name { font-size: 12px; color: var(--muted); }
+    .matchup-owner { font-weight: 700; font-size: 15px; }
+    .matchup-score { font-size: 22px; font-weight: 800; font-variant-numeric: tabular-nums; }
+    .matchup-team.winner .matchup-score { color: var(--gold); }
+    .matchup-team.loser  .matchup-score { color: var(--muted); }
+    .matchup-divider {
+      width: 1px;
+      background: var(--border);
+      margin: 8px 0;
+    }
+    .matchup-vs {
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 600;
+    }
+    .matchup-badge {
+      text-align: center;
+      padding: 4px 8px;
+      background: var(--surface2);
+      font-size: 10px;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+    .matchup-badge.is-playoff { color: var(--blue); }
+
+    /* ── Lineup detail (expanded) ────────────────────────────────── */
+    .lineup-detail {
+      display: none;
+      border-top: 1px solid var(--border);
+    }
+    .matchup-card.expanded .lineup-detail { display: block; }
+
+    .lineup-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .lineup-col {
+      padding: 12px 14px;
+    }
+    .lineup-col:first-child {
+      border-right: 1px solid var(--border);
+    }
+    .lineup-col-header {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-bottom: 8px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .lineup-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 3px 0;
+      font-size: 12px;
+      border-bottom: 1px solid rgba(48,54,61,0.5);
+    }
+    .lineup-row:last-child { border-bottom: none; }
+    .lineup-row.bench-row { opacity: 0.55; }
+    .lineup-slot {
+      width: 44px;
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+    .lineup-player { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .lineup-nfl { font-size: 10px; color: var(--muted); width: 28px; flex-shrink: 0; }
+    .lineup-pts {
+      font-variant-numeric: tabular-nums;
+      font-weight: 600;
+      font-size: 12px;
+      width: 38px;
+      text-align: right;
+      flex-shrink: 0;
+    }
+    .lineup-pts.top-score { color: var(--gold); }
+
+    .lineup-totals {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 0 2px;
+      font-size: 11px;
+      margin-top: 4px;
+      border-top: 1px solid var(--border);
+    }
+    .lineup-totals .label { color: var(--muted); }
+    .lineup-totals .val   { font-weight: 700; }
+
+    /* ── Filter bar ──────────────────────────────────────────────── */
+    .filter-bar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+    }
+    .filter-bar label { color: var(--muted); font-size: 13px; white-space: nowrap; }
+
+    @media (max-width: 600px) {
+      .matchup-cards { grid-template-columns: 1fr; }
+      .lineup-cols { grid-template-columns: 1fr; }
+      .lineup-col:first-child { border-right: none; border-bottom: 1px solid var(--border); }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">🏈 The League</a>
+    <a href="index.html">Home</a>
+    <a href="season.html">Seasons</a>
+    <a href="alltime.html">All-Time</a>
+    <a href="h2h.html">Head-to-Head</a>
+    <a href="draft.html">Draft</a>
+    <a href="weekly.html" class="active">Weekly</a>
+  </div>
+</nav>
+
+<main>
+  <div class="page-header">
+    <h1>Weekly Matchups</h1>
+    <p>Full lineups and scoring for every game. Click any matchup to expand.</p>
+  </div>
+
+  <div class="filter-bar">
+    <label>Season</label>
+    <select id="year-select"></select>
+    <label>Owner</label>
+    <select id="owner-select">
+      <option value="">All owners</option>
+    </select>
+    <label>
+      <input type="checkbox" id="playoff-toggle" checked> Include playoffs
+    </label>
+  </div>
+
+  <div id="content"><p class="loading">Loading…</p></div>
+</main>
+
+<script src="js/utils.js"></script>
+<script>
+// Slot display order for lineups
+const SLOT_ORDER = ['QB','WR','RB','TE','W/R/T','K','DEF','BN','IR'];
+
+function slotRank(slot) {
+  const i = SLOT_ORDER.indexOf(slot);
+  return i === -1 ? 99 : i;
+}
+
+function isBench(slot) { return slot === 'BN' || slot === 'IR'; }
+
+function posColor(pos) {
+  const p = (pos || '').split('/')[0].toUpperCase();
+  return { QB:'#e88', RB:'#8d8', WR:'#88d', TE:'#da8' }[p] || 'var(--muted)';
+}
+
+// Build lineup HTML for one team
+function buildLineupHTML(entries) {
+  if (!entries || !entries.length) return '<p class="empty" style="font-size:12px">No lineup data</p>';
+
+  const sorted = [...entries].sort((a, b) => slotRank(a.slot) - slotRank(b.slot));
+
+  const starters = sorted.filter(e => !isBench(e.slot));
+  const bench    = sorted.filter(e => isBench(e.slot));
+
+  const startPts  = starters.reduce((s, e) => s + (parseFloat(e.fantasy_pts) || 0), 0);
+  const benchPts  = bench.reduce((s, e) => s + (parseFloat(e.fantasy_pts) || 0), 0);
+  const topScore  = Math.max(...starters.map(e => parseFloat(e.fantasy_pts) || 0));
+
+  const makeRow = (e) => {
+    const pts = parseFloat(e.fantasy_pts) || 0;
+    const isTop = !isBench(e.slot) && pts === topScore && topScore > 0;
+    const benchCls = isBench(e.slot) ? ' bench-row' : '';
+    return `<div class="lineup-row${benchCls}">
+      <span class="lineup-slot">${e.slot}</span>
+      <span class="lineup-player" title="${e.player}" style="color:${posColor(e.pos)}">${e.player}</span>
+      <span class="lineup-nfl">${e.nfl_team || ''}</span>
+      <span class="lineup-pts${isTop ? ' top-score' : ''}">${pts > 0 ? pts.toFixed(2) : '—'}</span>
+    </div>`;
+  };
+
+  const hasBench = bench.length > 0;
+  const benchDivider = hasBench
+    ? `<div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;padding:6px 0 4px;margin-top:4px;border-top:1px solid var(--border)">Bench</div>`
+    : '';
+
+  return `
+    ${starters.map(makeRow).join('')}
+    ${benchDivider}
+    ${bench.map(makeRow).join('')}
+    <div class="lineup-totals">
+      <span class="label">Started</span>
+      <span class="val">${startPts.toFixed(2)}</span>
+    </div>
+    ${hasBench ? `<div class="lineup-totals" style="margin-top:0">
+      <span class="label">Left on bench</span>
+      <span class="val" style="color:var(--muted)">${benchPts.toFixed(2)}</span>
+    </div>` : ''}
+  `;
+}
+
+// Build one matchup card
+function buildCard(matchup, lineupsByTeam) {
+  const { team1, owner1, score1, team2, owner2, score2, playoff, round, week, year } = matchup;
+  const won1 = score1 > score2;
+  const won2 = score2 > score1;
+  const diff = Math.abs(score1 - score2).toFixed(2);
+
+  const badge = round
+    ? `<div class="matchup-badge is-playoff">${round}</div>`
+    : (playoff ? `<div class="matchup-badge is-playoff">Playoffs</div>` : '');
+
+  const lineup1 = buildLineupHTML(lineupsByTeam[team1]);
+  const lineup2 = buildLineupHTML(lineupsByTeam[team2]);
+
+  return `
+    <div class="matchup-card" data-week="${week}" data-year="${year}"
+         data-owners="${owner1}|${owner2}">
+      <div class="matchup-summary" onclick="toggleCard(this.closest('.matchup-card'))">
+        <div class="matchup-team ${won1 ? 'winner' : 'loser'}">
+          <div class="matchup-team-name">${team1}</div>
+          <div class="matchup-owner">${owner1}</div>
+          <div class="matchup-score">${score1.toFixed(2)}</div>
+        </div>
+        <div class="matchup-vs">vs</div>
+        <div class="matchup-team ${won2 ? 'winner' : 'loser'}" style="text-align:right">
+          <div class="matchup-team-name">${team2}</div>
+          <div class="matchup-owner">${owner2}</div>
+          <div class="matchup-score">${score2.toFixed(2)}</div>
+        </div>
+      </div>
+      ${badge}
+      <div class="lineup-detail">
+        <div style="text-align:center;padding:6px 8px;background:var(--surface2);font-size:11px;color:var(--muted);border-top:1px solid var(--border)">
+          Margin of victory: <strong style="color:var(--text)">${diff}</strong>
+        </div>
+        <div class="lineup-cols">
+          <div class="lineup-col">
+            <div class="lineup-col-header">${owner1} — ${team1}</div>
+            ${lineup1}
+          </div>
+          <div class="lineup-col">
+            <div class="lineup-col-header">${owner2} — ${team2}</div>
+            ${lineup2}
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function toggleCard(card) {
+  card.classList.toggle('expanded');
+}
+
+// ── Main ──────────────────────────────────────────────────────────────────────
+const yearSelect   = document.getElementById('year-select');
+const ownerSelect  = document.getElementById('owner-select');
+const playoffToggle = document.getElementById('playoff-toggle');
+
+for (const y of [...SEASONS].reverse()) {
+  yearSelect.appendChild(new Option(y, y));
+}
+
+const params = new URLSearchParams(location.search);
+if (params.has('year') && SEASONS.includes(parseInt(params.get('year')))) {
+  yearSelect.value = params.get('year');
+}
+
+let currentMatchups = [];
+let currentLineups  = {};
+let currentOwnerMap = {};
+
+yearSelect.addEventListener('change', loadYear);
+ownerSelect.addEventListener('change', render);
+playoffToggle.addEventListener('change', render);
+
+async function loadYear() {
+  const year = parseInt(yearSelect.value);
+  const url = new URL(location.href);
+  url.searchParams.set('year', year);
+  history.replaceState({}, '', url);
+
+  document.getElementById('content').innerHTML = '<p class="loading">Loading…</p>';
+
+  const [matchups, lineups, standings] = await Promise.all([
+    loadFile(year, 'matchups.json'),
+    loadFile(year, 'weekly_lineups.json'),
+    loadFile(year, 'standings.json'),
+  ]);
+
+  currentOwnerMap = buildTeamOwnerMap(standings);
+
+  // Enrich matchups with owner names
+  currentMatchups = matchups.map(m => ({
+    ...m,
+    year,
+    score1: parseFloat(m.score1),
+    score2: parseFloat(m.score2),
+    owner1: currentOwnerMap[m.team1] || m.team1,
+    owner2: currentOwnerMap[m.team2] || m.team2,
+  }));
+
+  // Group lineups by week → team
+  currentLineups = {};
+  for (const e of lineups) {
+    if (!currentLineups[e.week]) currentLineups[e.week] = {};
+    if (!currentLineups[e.week][e.team]) currentLineups[e.week][e.team] = [];
+    currentLineups[e.week][e.team].push(e);
+  }
+
+  // Populate owner filter
+  const owners = [...new Set(
+    standings.map(t => normOwner(t.owner))
+  )].sort();
+
+  const savedOwner = ownerSelect.value;
+  ownerSelect.innerHTML = '<option value="">All owners</option>';
+  owners.forEach(o => ownerSelect.appendChild(new Option(o, o)));
+  if (owners.includes(savedOwner)) ownerSelect.value = savedOwner;
+
+  render();
+}
+
+function render() {
+  const ownerFilter  = ownerSelect.value;
+  const showPlayoffs = playoffToggle.checked;
+
+  let filtered = currentMatchups;
+  if (!showPlayoffs) filtered = filtered.filter(m => !m.playoff);
+  if (ownerFilter)   filtered = filtered.filter(m =>
+    m.owner1 === ownerFilter || m.owner2 === ownerFilter
+  );
+
+  const content = document.getElementById('content');
+  if (!filtered.length) {
+    content.innerHTML = '<p class="empty">No matchups found.</p>';
+    return;
+  }
+
+  // Group by week
+  const byWeek = {};
+  for (const m of filtered) {
+    (byWeek[m.week] = byWeek[m.week] || []).push(m);
+  }
+  const weeks = Object.keys(byWeek).map(Number).sort((a, b) => a - b);
+
+  let html = '';
+  for (const week of weeks) {
+    const games = byWeek[week];
+    const isPlayoff = games[0].playoff;
+    const label = isPlayoff
+      ? (games[0].round ? `Week ${week} — ${games[0].round.includes('Consolation') ? 'Playoffs' : 'Playoffs'}` : `Week ${week} — Playoffs`)
+      : `Week ${week}`;
+    html += `<div class="week-header">${label}</div>`;
+    html += `<div class="matchup-cards">`;
+    for (const m of games) {
+      const weekLineups = currentLineups[week] || {};
+      html += buildCard(m, weekLineups);
+    }
+    html += `</div>`;
+  }
+
+  content.innerHTML = html;
+}
+
+loadYear();
+</script>
+</body>
+</html>
