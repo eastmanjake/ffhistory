@@ -53,7 +53,7 @@ OWNER_OVERRIDES = {
     "257.l.163099.t.2": "Andre?",    # Jennys New Lover (hidden, guess)
     "257.l.163099.t.3": "Sean",      # 16-0 (hidden)
     "257.l.163099.t.4": "Richie?",   # old dirty bastard (hidden, guess)
-    "257.l.163099.t.5": "Jacob S.",  # postseason champs (Yahoo: Jake)
+    "257.l.163099.t.5": "Schlichter", # postseason champs (Yahoo: Jake)
     "257.l.163099.t.6": "Jake",      # Goatse III (Yahoo: Jake)
     "257.l.163099.t.8": "Unknown",   # Taint Lickers (hidden)
     # 2012

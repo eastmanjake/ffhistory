@@ -752,7 +752,7 @@
   {
     "week": 1,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "QB",
     "player": "Michael Vick",
     "pos": "QB",
@@ -762,7 +762,7 @@
   {
     "week": 1,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "Larry Fitzgerald",
     "pos": "WR",
@@ -772,7 +772,7 @@
   {
     "week": 1,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "DeSean Jackson",
     "pos": "WR",
@@ -782,7 +782,7 @@
   {
     "week": 1,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Arian Foster",
     "pos": "RB",
@@ -792,7 +792,7 @@
   {
     "week": 1,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Shonn Greene",
     "pos": "RB",
@@ -802,7 +802,7 @@
   {
     "week": 1,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "TE",
     "player": "Rob Gronkowski",
     "pos": "TE",
@@ -812,7 +812,7 @@
   {
     "week": 1,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "W/R/T",
     "player": "DeAngelo Williams",
     "pos": "RB",
@@ -822,7 +822,7 @@
   {
     "week": 1,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Matt Ryan",
     "pos": "QB",
@@ -832,7 +832,7 @@
   {
     "week": 1,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Mike Williams",
     "pos": "WR",
@@ -842,7 +842,7 @@
   {
     "week": 1,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jacquizz Rodgers",
     "pos": "RB",
@@ -852,7 +852,7 @@
   {
     "week": 1,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Titus Young",
     "pos": "WR",
@@ -862,7 +862,7 @@
   {
     "week": 1,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jared Cook",
     "pos": "TE",
@@ -872,7 +872,7 @@
   {
     "week": 1,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "K",
     "player": "Mason Crosby",
     "pos": "K",
@@ -882,7 +882,7 @@
   {
     "week": 1,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "DEF",
     "player": "Patriots",
     "pos": "DEF",
@@ -892,7 +892,7 @@
   {
     "week": 1,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Steelers",
     "pos": "DEF",
@@ -2252,7 +2252,7 @@
   {
     "week": 2,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "QB",
     "player": "Michael Vick",
     "pos": "QB",
@@ -2262,7 +2262,7 @@
   {
     "week": 2,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "Larry Fitzgerald",
     "pos": "WR",
@@ -2272,7 +2272,7 @@
   {
     "week": 2,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "DeSean Jackson",
     "pos": "WR",
@@ -2282,7 +2282,7 @@
   {
     "week": 2,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Arian Foster",
     "pos": "RB",
@@ -2292,7 +2292,7 @@
   {
     "week": 2,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Shonn Greene",
     "pos": "RB",
@@ -2302,7 +2302,7 @@
   {
     "week": 2,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "TE",
     "player": "Rob Gronkowski",
     "pos": "TE",
@@ -2312,7 +2312,7 @@
   {
     "week": 2,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "W/R/T",
     "player": "DeAngelo Williams",
     "pos": "RB",
@@ -2322,7 +2322,7 @@
   {
     "week": 2,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Matt Ryan",
     "pos": "QB",
@@ -2332,7 +2332,7 @@
   {
     "week": 2,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Mike Williams",
     "pos": "WR",
@@ -2342,7 +2342,7 @@
   {
     "week": 2,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jacquizz Rodgers",
     "pos": "RB",
@@ -2352,7 +2352,7 @@
   {
     "week": 2,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Titus Young",
     "pos": "WR",
@@ -2362,7 +2362,7 @@
   {
     "week": 2,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jared Cook",
     "pos": "TE",
@@ -2372,7 +2372,7 @@
   {
     "week": 2,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "K",
     "player": "Mason Crosby",
     "pos": "K",
@@ -2382,7 +2382,7 @@
   {
     "week": 2,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "DEF",
     "player": "Patriots",
     "pos": "DEF",
@@ -2392,7 +2392,7 @@
   {
     "week": 2,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Steelers",
     "pos": "DEF",
@@ -3752,7 +3752,7 @@
   {
     "week": 3,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "QB",
     "player": "Michael Vick",
     "pos": "QB",
@@ -3762,7 +3762,7 @@
   {
     "week": 3,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "Larry Fitzgerald",
     "pos": "WR",
@@ -3772,7 +3772,7 @@
   {
     "week": 3,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "DeSean Jackson",
     "pos": "WR",
@@ -3782,7 +3782,7 @@
   {
     "week": 3,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Arian Foster",
     "pos": "RB",
@@ -3792,7 +3792,7 @@
   {
     "week": 3,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Shonn Greene",
     "pos": "RB",
@@ -3802,7 +3802,7 @@
   {
     "week": 3,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "TE",
     "player": "Rob Gronkowski",
     "pos": "TE",
@@ -3812,7 +3812,7 @@
   {
     "week": 3,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "W/R/T",
     "player": "Mike Williams",
     "pos": "WR",
@@ -3822,7 +3822,7 @@
   {
     "week": 3,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "DeAngelo Williams",
     "pos": "RB",
@@ -3832,7 +3832,7 @@
   {
     "week": 3,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Matt Ryan",
     "pos": "QB",
@@ -3842,7 +3842,7 @@
   {
     "week": 3,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jacquizz Rodgers",
     "pos": "RB",
@@ -3852,7 +3852,7 @@
   {
     "week": 3,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Titus Young",
     "pos": "WR",
@@ -3862,7 +3862,7 @@
   {
     "week": 3,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jared Cook",
     "pos": "TE",
@@ -3872,7 +3872,7 @@
   {
     "week": 3,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "K",
     "player": "Mason Crosby",
     "pos": "K",
@@ -3882,7 +3882,7 @@
   {
     "week": 3,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "DEF",
     "player": "Steelers",
     "pos": "DEF",
@@ -3892,7 +3892,7 @@
   {
     "week": 3,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Patriots",
     "pos": "DEF",
@@ -5252,7 +5252,7 @@
   {
     "week": 4,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "QB",
     "player": "Matt Ryan",
     "pos": "QB",
@@ -5262,7 +5262,7 @@
   {
     "week": 4,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "Larry Fitzgerald",
     "pos": "WR",
@@ -5272,7 +5272,7 @@
   {
     "week": 4,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "DeSean Jackson",
     "pos": "WR",
@@ -5282,7 +5282,7 @@
   {
     "week": 4,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Arian Foster",
     "pos": "RB",
@@ -5292,7 +5292,7 @@
   {
     "week": 4,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Shonn Greene",
     "pos": "RB",
@@ -5302,7 +5302,7 @@
   {
     "week": 4,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "TE",
     "player": "Rob Gronkowski",
     "pos": "TE",
@@ -5312,7 +5312,7 @@
   {
     "week": 4,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "W/R/T",
     "player": "Mike Williams",
     "pos": "WR",
@@ -5322,7 +5322,7 @@
   {
     "week": 4,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Michael Vick",
     "pos": "QB",
@@ -5332,7 +5332,7 @@
   {
     "week": 4,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "DeAngelo Williams",
     "pos": "RB",
@@ -5342,7 +5342,7 @@
   {
     "week": 4,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jacquizz Rodgers",
     "pos": "RB",
@@ -5352,7 +5352,7 @@
   {
     "week": 4,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Titus Young",
     "pos": "WR",
@@ -5362,7 +5362,7 @@
   {
     "week": 4,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jared Cook",
     "pos": "TE",
@@ -5372,7 +5372,7 @@
   {
     "week": 4,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "K",
     "player": "Mason Crosby",
     "pos": "K",
@@ -5382,7 +5382,7 @@
   {
     "week": 4,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "DEF",
     "player": "Patriots",
     "pos": "DEF",
@@ -5392,7 +5392,7 @@
   {
     "week": 4,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Steelers",
     "pos": "DEF",
@@ -6752,7 +6752,7 @@
   {
     "week": 5,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "QB",
     "player": "Matt Ryan",
     "pos": "QB",
@@ -6762,7 +6762,7 @@
   {
     "week": 5,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "Larry Fitzgerald",
     "pos": "WR",
@@ -6772,7 +6772,7 @@
   {
     "week": 5,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "DeSean Jackson",
     "pos": "WR",
@@ -6782,7 +6782,7 @@
   {
     "week": 5,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Arian Foster",
     "pos": "RB",
@@ -6792,7 +6792,7 @@
   {
     "week": 5,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Shonn Greene",
     "pos": "RB",
@@ -6802,7 +6802,7 @@
   {
     "week": 5,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "TE",
     "player": "Rob Gronkowski",
     "pos": "TE",
@@ -6812,7 +6812,7 @@
   {
     "week": 5,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "W/R/T",
     "player": "DeAngelo Williams",
     "pos": "RB",
@@ -6822,7 +6822,7 @@
   {
     "week": 5,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Mike Williams",
     "pos": "WR",
@@ -6832,7 +6832,7 @@
   {
     "week": 5,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Michael Vick",
     "pos": "QB",
@@ -6842,7 +6842,7 @@
   {
     "week": 5,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jacquizz Rodgers",
     "pos": "RB",
@@ -6852,7 +6852,7 @@
   {
     "week": 5,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Titus Young",
     "pos": "WR",
@@ -6862,7 +6862,7 @@
   {
     "week": 5,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jared Cook",
     "pos": "TE",
@@ -6872,7 +6872,7 @@
   {
     "week": 5,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "K",
     "player": "Mason Crosby",
     "pos": "K",
@@ -6882,7 +6882,7 @@
   {
     "week": 5,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "DEF",
     "player": "Patriots",
     "pos": "DEF",
@@ -6892,7 +6892,7 @@
   {
     "week": 5,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Steelers",
     "pos": "DEF",
@@ -8242,7 +8242,7 @@
   {
     "week": 6,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "QB",
     "player": "Matt Ryan",
     "pos": "QB",
@@ -8252,7 +8252,7 @@
   {
     "week": 6,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "Larry Fitzgerald",
     "pos": "WR",
@@ -8262,7 +8262,7 @@
   {
     "week": 6,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "DeSean Jackson",
     "pos": "WR",
@@ -8272,7 +8272,7 @@
   {
     "week": 6,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Arian Foster",
     "pos": "RB",
@@ -8282,7 +8282,7 @@
   {
     "week": 6,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Shonn Greene",
     "pos": "RB",
@@ -8292,7 +8292,7 @@
   {
     "week": 6,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "TE",
     "player": "Rob Gronkowski",
     "pos": "TE",
@@ -8302,7 +8302,7 @@
   {
     "week": 6,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "W/R/T",
     "player": "Mike Williams",
     "pos": "WR",
@@ -8312,7 +8312,7 @@
   {
     "week": 6,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "DeAngelo Williams",
     "pos": "RB",
@@ -8322,7 +8322,7 @@
   {
     "week": 6,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Michael Vick",
     "pos": "QB",
@@ -8332,7 +8332,7 @@
   {
     "week": 6,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jacquizz Rodgers",
     "pos": "RB",
@@ -8342,7 +8342,7 @@
   {
     "week": 6,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Titus Young",
     "pos": "WR",
@@ -8352,7 +8352,7 @@
   {
     "week": 6,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jared Cook",
     "pos": "TE",
@@ -8362,7 +8362,7 @@
   {
     "week": 6,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "K",
     "player": "Mason Crosby",
     "pos": "K",
@@ -8372,7 +8372,7 @@
   {
     "week": 6,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "DEF",
     "player": "Steelers",
     "pos": "DEF",
@@ -8382,7 +8382,7 @@
   {
     "week": 6,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Patriots",
     "pos": "DEF",
@@ -9732,7 +9732,7 @@
   {
     "week": 7,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "QB",
     "player": "Ryan Fitzpatrick",
     "pos": "QB",
@@ -9742,7 +9742,7 @@
   {
     "week": 7,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "Larry Fitzgerald",
     "pos": "WR",
@@ -9752,7 +9752,7 @@
   {
     "week": 7,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "Mike Williams",
     "pos": "WR",
@@ -9762,7 +9762,7 @@
   {
     "week": 7,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Arian Foster",
     "pos": "RB",
@@ -9772,7 +9772,7 @@
   {
     "week": 7,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Shonn Greene",
     "pos": "RB",
@@ -9782,7 +9782,7 @@
   {
     "week": 7,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "TE",
     "player": "Rob Gronkowski",
     "pos": "TE",
@@ -9792,7 +9792,7 @@
   {
     "week": 7,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "W/R/T",
     "player": "DeAngelo Williams",
     "pos": "RB",
@@ -9802,7 +9802,7 @@
   {
     "week": 7,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Matt Ryan",
     "pos": "QB",
@@ -9812,7 +9812,7 @@
   {
     "week": 7,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "DeSean Jackson",
     "pos": "WR",
@@ -9822,7 +9822,7 @@
   {
     "week": 7,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Michael Vick",
     "pos": "QB",
@@ -9832,7 +9832,7 @@
   {
     "week": 7,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jacquizz Rodgers",
     "pos": "RB",
@@ -9842,7 +9842,7 @@
   {
     "week": 7,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jared Cook",
     "pos": "TE",
@@ -9852,7 +9852,7 @@
   {
     "week": 7,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "K",
     "player": "Mason Crosby",
     "pos": "K",
@@ -9862,7 +9862,7 @@
   {
     "week": 7,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "DEF",
     "player": "Patriots",
     "pos": "DEF",
@@ -9872,7 +9872,7 @@
   {
     "week": 7,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Steelers",
     "pos": "DEF",
@@ -11232,7 +11232,7 @@
   {
     "week": 8,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "QB",
     "player": "Matt Ryan",
     "pos": "QB",
@@ -11242,7 +11242,7 @@
   {
     "week": 8,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "Larry Fitzgerald",
     "pos": "WR",
@@ -11252,7 +11252,7 @@
   {
     "week": 8,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "DeSean Jackson",
     "pos": "WR",
@@ -11262,7 +11262,7 @@
   {
     "week": 8,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Shonn Greene",
     "pos": "RB",
@@ -11272,7 +11272,7 @@
   {
     "week": 8,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Danny Woodhead",
     "pos": "RB",
@@ -11282,7 +11282,7 @@
   {
     "week": 8,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "TE",
     "player": "Rob Gronkowski",
     "pos": "TE",
@@ -11292,7 +11292,7 @@
   {
     "week": 8,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "W/R/T",
     "player": "Mike Williams",
     "pos": "WR",
@@ -11302,7 +11302,7 @@
   {
     "week": 8,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Arian Foster",
     "pos": "RB",
@@ -11312,7 +11312,7 @@
   {
     "week": 8,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "DeAngelo Williams",
     "pos": "RB",
@@ -11322,7 +11322,7 @@
   {
     "week": 8,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Michael Vick",
     "pos": "QB",
@@ -11332,7 +11332,7 @@
   {
     "week": 8,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jacquizz Rodgers",
     "pos": "RB",
@@ -11342,7 +11342,7 @@
   {
     "week": 8,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jared Cook",
     "pos": "TE",
@@ -11352,7 +11352,7 @@
   {
     "week": 8,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "K",
     "player": "Mason Crosby",
     "pos": "K",
@@ -11362,7 +11362,7 @@
   {
     "week": 8,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "DEF",
     "player": "Patriots",
     "pos": "DEF",
@@ -11372,7 +11372,7 @@
   {
     "week": 8,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Steelers",
     "pos": "DEF",
@@ -12732,7 +12732,7 @@
   {
     "week": 9,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "QB",
     "player": "Matt Ryan",
     "pos": "QB",
@@ -12742,7 +12742,7 @@
   {
     "week": 9,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "Larry Fitzgerald",
     "pos": "WR",
@@ -12752,7 +12752,7 @@
   {
     "week": 9,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "DeSean Jackson",
     "pos": "WR",
@@ -12762,7 +12762,7 @@
   {
     "week": 9,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Arian Foster",
     "pos": "RB",
@@ -12772,7 +12772,7 @@
   {
     "week": 9,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Jacquizz Rodgers",
     "pos": "RB",
@@ -12782,7 +12782,7 @@
   {
     "week": 9,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "TE",
     "player": "Jared Cook",
     "pos": "TE",
@@ -12792,7 +12792,7 @@
   {
     "week": 9,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "W/R/T",
     "player": "Mike Williams",
     "pos": "WR",
@@ -12802,7 +12802,7 @@
   {
     "week": 9,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Shonn Greene",
     "pos": "RB",
@@ -12812,7 +12812,7 @@
   {
     "week": 9,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Danny Woodhead",
     "pos": "RB",
@@ -12822,7 +12822,7 @@
   {
     "week": 9,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Rob Gronkowski",
     "pos": "TE",
@@ -12832,7 +12832,7 @@
   {
     "week": 9,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "DeAngelo Williams",
     "pos": "RB",
@@ -12842,7 +12842,7 @@
   {
     "week": 9,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Michael Vick",
     "pos": "QB",
@@ -12852,7 +12852,7 @@
   {
     "week": 9,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "K",
     "player": "Mason Crosby",
     "pos": "K",
@@ -12862,7 +12862,7 @@
   {
     "week": 9,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "DEF",
     "player": "Steelers",
     "pos": "DEF",
@@ -12872,7 +12872,7 @@
   {
     "week": 9,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Patriots",
     "pos": "DEF",
@@ -14232,7 +14232,7 @@
   {
     "week": 10,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "QB",
     "player": "Matt Ryan",
     "pos": "QB",
@@ -14242,7 +14242,7 @@
   {
     "week": 10,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "DeSean Jackson",
     "pos": "WR",
@@ -14252,7 +14252,7 @@
   {
     "week": 10,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "Mike Williams",
     "pos": "WR",
@@ -14262,7 +14262,7 @@
   {
     "week": 10,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Arian Foster",
     "pos": "RB",
@@ -14272,7 +14272,7 @@
   {
     "week": 10,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Shonn Greene",
     "pos": "RB",
@@ -14282,7 +14282,7 @@
   {
     "week": 10,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "TE",
     "player": "Rob Gronkowski",
     "pos": "TE",
@@ -14292,7 +14292,7 @@
   {
     "week": 10,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "W/R/T",
     "player": "DeAngelo Williams",
     "pos": "RB",
@@ -14302,7 +14302,7 @@
   {
     "week": 10,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Larry Fitzgerald",
     "pos": "WR",
@@ -14312,7 +14312,7 @@
   {
     "week": 10,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jacquizz Rodgers",
     "pos": "RB",
@@ -14322,7 +14322,7 @@
   {
     "week": 10,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jared Cook",
     "pos": "TE",
@@ -14332,7 +14332,7 @@
   {
     "week": 10,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Danny Woodhead",
     "pos": "RB",
@@ -14342,7 +14342,7 @@
   {
     "week": 10,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Michael Vick",
     "pos": "QB",
@@ -14352,7 +14352,7 @@
   {
     "week": 10,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "K",
     "player": "Ryan Succop",
     "pos": "K",
@@ -14362,7 +14362,7 @@
   {
     "week": 10,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Mason Crosby",
     "pos": "K",
@@ -14372,7 +14372,7 @@
   {
     "week": 10,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "DEF",
     "player": "Patriots",
     "pos": "DEF",
@@ -15732,7 +15732,7 @@
   {
     "week": 11,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "QB",
     "player": "Matt Ryan",
     "pos": "QB",
@@ -15742,7 +15742,7 @@
   {
     "week": 11,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "DeSean Jackson",
     "pos": "WR",
@@ -15752,7 +15752,7 @@
   {
     "week": 11,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "Larry Fitzgerald",
     "pos": "WR",
@@ -15762,7 +15762,7 @@
   {
     "week": 11,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Arian Foster",
     "pos": "RB",
@@ -15772,7 +15772,7 @@
   {
     "week": 11,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Shonn Greene",
     "pos": "RB",
@@ -15782,7 +15782,7 @@
   {
     "week": 11,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "TE",
     "player": "Rob Gronkowski",
     "pos": "TE",
@@ -15792,7 +15792,7 @@
   {
     "week": 11,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "W/R/T",
     "player": "Mike Williams",
     "pos": "WR",
@@ -15802,7 +15802,7 @@
   {
     "week": 11,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "DeAngelo Williams",
     "pos": "RB",
@@ -15812,7 +15812,7 @@
   {
     "week": 11,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jacquizz Rodgers",
     "pos": "RB",
@@ -15822,7 +15822,7 @@
   {
     "week": 11,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jared Cook",
     "pos": "TE",
@@ -15832,7 +15832,7 @@
   {
     "week": 11,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Danny Woodhead",
     "pos": "RB",
@@ -15842,7 +15842,7 @@
   {
     "week": 11,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Michael Vick",
     "pos": "QB",
@@ -15852,7 +15852,7 @@
   {
     "week": 11,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "K",
     "player": "Ryan Succop",
     "pos": "K",
@@ -15862,7 +15862,7 @@
   {
     "week": 11,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Mason Crosby",
     "pos": "K",
@@ -15872,7 +15872,7 @@
   {
     "week": 11,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "DEF",
     "player": "Patriots",
     "pos": "DEF",
@@ -17222,7 +17222,7 @@
   {
     "week": 12,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "QB",
     "player": "Matt Ryan",
     "pos": "QB",
@@ -17232,7 +17232,7 @@
   {
     "week": 12,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "DeSean Jackson",
     "pos": "WR",
@@ -17242,7 +17242,7 @@
   {
     "week": 12,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "Larry Fitzgerald",
     "pos": "WR",
@@ -17252,7 +17252,7 @@
   {
     "week": 12,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Arian Foster",
     "pos": "RB",
@@ -17262,7 +17262,7 @@
   {
     "week": 12,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Shonn Greene",
     "pos": "RB",
@@ -17272,7 +17272,7 @@
   {
     "week": 12,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "TE",
     "player": "Rob Gronkowski",
     "pos": "TE",
@@ -17282,7 +17282,7 @@
   {
     "week": 12,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "W/R/T",
     "player": "Mike Williams",
     "pos": "WR",
@@ -17292,7 +17292,7 @@
   {
     "week": 12,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "DeAngelo Williams",
     "pos": "RB",
@@ -17302,7 +17302,7 @@
   {
     "week": 12,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jacquizz Rodgers",
     "pos": "RB",
@@ -17312,7 +17312,7 @@
   {
     "week": 12,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Danny Woodhead",
     "pos": "RB",
@@ -17322,7 +17322,7 @@
   {
     "week": 12,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Michael Vick",
     "pos": "QB",
@@ -17332,7 +17332,7 @@
   {
     "week": 12,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Greg Olsen",
     "pos": "TE",
@@ -17342,7 +17342,7 @@
   {
     "week": 12,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "K",
     "player": "Ryan Succop",
     "pos": "K",
@@ -17352,7 +17352,7 @@
   {
     "week": 12,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Mason Crosby",
     "pos": "K",
@@ -17362,7 +17362,7 @@
   {
     "week": 12,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "DEF",
     "player": "Patriots",
     "pos": "DEF",
@@ -18722,7 +18722,7 @@
   {
     "week": 13,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "QB",
     "player": "Matt Ryan",
     "pos": "QB",
@@ -18732,7 +18732,7 @@
   {
     "week": 13,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "DeSean Jackson",
     "pos": "WR",
@@ -18742,7 +18742,7 @@
   {
     "week": 13,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "Larry Fitzgerald",
     "pos": "WR",
@@ -18752,7 +18752,7 @@
   {
     "week": 13,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Arian Foster",
     "pos": "RB",
@@ -18762,7 +18762,7 @@
   {
     "week": 13,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Shonn Greene",
     "pos": "RB",
@@ -18772,7 +18772,7 @@
   {
     "week": 13,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "TE",
     "player": "Greg Olsen",
     "pos": "TE",
@@ -18782,7 +18782,7 @@
   {
     "week": 13,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "W/R/T",
     "player": "Mike Williams",
     "pos": "WR",
@@ -18792,7 +18792,7 @@
   {
     "week": 13,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Rob Gronkowski",
     "pos": "TE",
@@ -18802,7 +18802,7 @@
   {
     "week": 13,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "DeAngelo Williams",
     "pos": "RB",
@@ -18812,7 +18812,7 @@
   {
     "week": 13,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jacquizz Rodgers",
     "pos": "RB",
@@ -18822,7 +18822,7 @@
   {
     "week": 13,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Danny Woodhead",
     "pos": "RB",
@@ -18832,7 +18832,7 @@
   {
     "week": 13,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Michael Vick",
     "pos": "QB",
@@ -18842,7 +18842,7 @@
   {
     "week": 13,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "K",
     "player": "Ryan Succop",
     "pos": "K",
@@ -18852,7 +18852,7 @@
   {
     "week": 13,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Mason Crosby",
     "pos": "K",
@@ -18862,7 +18862,7 @@
   {
     "week": 13,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "DEF",
     "player": "Patriots",
     "pos": "DEF",
@@ -20222,7 +20222,7 @@
   {
     "week": 14,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "QB",
     "player": "Matt Ryan",
     "pos": "QB",
@@ -20232,7 +20232,7 @@
   {
     "week": 14,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "DeSean Jackson",
     "pos": "WR",
@@ -20242,7 +20242,7 @@
   {
     "week": 14,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "Larry Fitzgerald",
     "pos": "WR",
@@ -20252,7 +20252,7 @@
   {
     "week": 14,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Arian Foster",
     "pos": "RB",
@@ -20262,7 +20262,7 @@
   {
     "week": 14,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Shonn Greene",
     "pos": "RB",
@@ -20272,7 +20272,7 @@
   {
     "week": 14,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "TE",
     "player": "Greg Olsen",
     "pos": "TE",
@@ -20282,7 +20282,7 @@
   {
     "week": 14,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "W/R/T",
     "player": "Mike Williams",
     "pos": "WR",
@@ -20292,7 +20292,7 @@
   {
     "week": 14,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Rob Gronkowski",
     "pos": "TE",
@@ -20302,7 +20302,7 @@
   {
     "week": 14,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "DeAngelo Williams",
     "pos": "RB",
@@ -20312,7 +20312,7 @@
   {
     "week": 14,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jacquizz Rodgers",
     "pos": "RB",
@@ -20322,7 +20322,7 @@
   {
     "week": 14,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Danny Woodhead",
     "pos": "RB",
@@ -20332,7 +20332,7 @@
   {
     "week": 14,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Michael Vick",
     "pos": "QB",
@@ -20342,7 +20342,7 @@
   {
     "week": 14,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "K",
     "player": "Ryan Succop",
     "pos": "K",
@@ -20352,7 +20352,7 @@
   {
     "week": 14,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Mason Crosby",
     "pos": "K",
@@ -20362,7 +20362,7 @@
   {
     "week": 14,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "DEF",
     "player": "Patriots",
     "pos": "DEF",
@@ -21722,7 +21722,7 @@
   {
     "week": 15,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "QB",
     "player": "Matt Ryan",
     "pos": "QB",
@@ -21732,7 +21732,7 @@
   {
     "week": 15,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "DeSean Jackson",
     "pos": "WR",
@@ -21742,7 +21742,7 @@
   {
     "week": 15,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "Larry Fitzgerald",
     "pos": "WR",
@@ -21752,7 +21752,7 @@
   {
     "week": 15,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Arian Foster",
     "pos": "RB",
@@ -21762,7 +21762,7 @@
   {
     "week": 15,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Shonn Greene",
     "pos": "RB",
@@ -21772,7 +21772,7 @@
   {
     "week": 15,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "TE",
     "player": "Greg Olsen",
     "pos": "TE",
@@ -21782,7 +21782,7 @@
   {
     "week": 15,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "W/R/T",
     "player": "Mike Williams",
     "pos": "WR",
@@ -21792,7 +21792,7 @@
   {
     "week": 15,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Rob Gronkowski",
     "pos": "TE",
@@ -21802,7 +21802,7 @@
   {
     "week": 15,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "DeAngelo Williams",
     "pos": "RB",
@@ -21812,7 +21812,7 @@
   {
     "week": 15,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jacquizz Rodgers",
     "pos": "RB",
@@ -21822,7 +21822,7 @@
   {
     "week": 15,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Danny Woodhead",
     "pos": "RB",
@@ -21832,7 +21832,7 @@
   {
     "week": 15,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Michael Vick",
     "pos": "QB",
@@ -21842,7 +21842,7 @@
   {
     "week": 15,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "K",
     "player": "Ryan Succop",
     "pos": "K",
@@ -21852,7 +21852,7 @@
   {
     "week": 15,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Mason Crosby",
     "pos": "K",
@@ -21862,7 +21862,7 @@
   {
     "week": 15,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "DEF",
     "player": "Patriots",
     "pos": "DEF",
@@ -23222,7 +23222,7 @@
   {
     "week": 16,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "QB",
     "player": "Matt Ryan",
     "pos": "QB",
@@ -23232,7 +23232,7 @@
   {
     "week": 16,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "DeSean Jackson",
     "pos": "WR",
@@ -23242,7 +23242,7 @@
   {
     "week": 16,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "WR",
     "player": "Larry Fitzgerald",
     "pos": "WR",
@@ -23252,7 +23252,7 @@
   {
     "week": 16,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Arian Foster",
     "pos": "RB",
@@ -23262,7 +23262,7 @@
   {
     "week": 16,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "RB",
     "player": "Shonn Greene",
     "pos": "RB",
@@ -23272,7 +23272,7 @@
   {
     "week": 16,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "TE",
     "player": "Greg Olsen",
     "pos": "TE",
@@ -23282,7 +23282,7 @@
   {
     "week": 16,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "W/R/T",
     "player": "Mike Williams",
     "pos": "WR",
@@ -23292,7 +23292,7 @@
   {
     "week": 16,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Rob Gronkowski",
     "pos": "TE",
@@ -23302,7 +23302,7 @@
   {
     "week": 16,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "DeAngelo Williams",
     "pos": "RB",
@@ -23312,7 +23312,7 @@
   {
     "week": 16,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Jacquizz Rodgers",
     "pos": "RB",
@@ -23322,7 +23322,7 @@
   {
     "week": 16,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Danny Woodhead",
     "pos": "RB",
@@ -23332,7 +23332,7 @@
   {
     "week": 16,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Michael Vick",
     "pos": "QB",
@@ -23342,7 +23342,7 @@
   {
     "week": 16,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "K",
     "player": "Ryan Succop",
     "pos": "K",
@@ -23352,7 +23352,7 @@
   {
     "week": 16,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "BN",
     "player": "Mason Crosby",
     "pos": "K",
@@ -23362,7 +23362,7 @@
   {
     "week": 16,
     "team": "natalie",
-    "owner": "Jake",
+    "owner": "Schlichter",
     "slot": "DEF",
     "player": "Patriots",
     "pos": "DEF",
