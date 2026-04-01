@@ -6,6 +6,76 @@
   <title>Head-to-Head — The League</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>🏈</text></svg>">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ── Tab bar ─────────────────────────────────────────────────── */
+    .tab-bar {
+      display: flex;
+      gap: 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 24px;
+    }
+    .tab-btn {
+      padding: 10px 20px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      color: var(--muted);
+      font-size: 14px;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--gold); border-bottom-color: var(--gold); }
+
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* ── H2H matchup row expansion ───────────────────────────────── */
+    .game-row { cursor: pointer; }
+    .game-row:hover td { background: rgba(212,160,23,0.04); }
+    .game-row.expanded td { background: rgba(212,160,23,0.06); }
+    .game-detail-row { display: none; }
+    .game-detail-row.visible { display: table-row; }
+    .game-detail-row td { padding: 0; border-bottom: 1px solid var(--border); }
+
+    .lineup-cols { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--border); }
+    .lineup-col { padding: 12px 14px; }
+    .lineup-col:first-child { border-right: 1px solid var(--border); }
+    .lineup-col-header { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-bottom: 8px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+    .lineup-row { display: flex; align-items: center; gap: 6px; padding: 3px 0; font-size: 12px; border-bottom: 1px solid rgba(48,54,61,0.5); }
+    .lineup-row:last-child { border-bottom: none; }
+    .lineup-row.bench-row { opacity: 0.55; }
+    .lineup-slot { width: 44px; font-size: 10px; font-weight: 600; color: var(--muted); flex-shrink: 0; }
+    .lineup-player { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .lineup-nfl { font-size: 10px; color: var(--muted); width: 28px; flex-shrink: 0; }
+    .lineup-pts { font-variant-numeric: tabular-nums; font-weight: 600; font-size: 12px; width: 38px; text-align: right; flex-shrink: 0; }
+    .lineup-pts.top-score { color: var(--gold); }
+    .lineup-totals { display: flex; justify-content: space-between; padding: 6px 0 2px; font-size: 11px; margin-top: 4px; border-top: 1px solid var(--border); }
+    .lineup-totals .label { color: var(--muted); }
+    .lineup-totals .val { font-weight: 700; }
+
+    /* ── League grid ─────────────────────────────────────────────── */
+    .league-grid-wrap { overflow-x: auto; }
+    .league-grid { border-collapse: collapse; min-width: 100%; }
+    .league-grid th, .league-grid td {
+      border: 1px solid var(--border);
+      padding: 6px 10px;
+      white-space: nowrap;
+      text-align: center;
+      font-size: 13px;
+    }
+    .league-grid th { background: var(--surface2); color: var(--muted); font-weight: 600; font-size: 11px; }
+    .league-grid .row-label { text-align: left; font-weight: 600; color: var(--text); background: var(--surface2); min-width: 90px; }
+    .league-grid .self-cell { background: var(--surface2); color: var(--border); }
+    .grid-win  { color: var(--green); }
+    .grid-loss { color: var(--red); }
+
+    @media (max-width: 600px) {
+      .lineup-cols { grid-template-columns: 1fr; }
+      .lineup-col:first-child { border-right: none; border-bottom: 1px solid var(--border); }
+    }
+  </style>
 </head>
 <body>
 
@@ -18,6 +88,7 @@
     <a href="h2h.html" class="active">Head-to-Head</a>
     <a href="draft.html">Draft</a>
     <a href="weekly.html">Weekly</a>
+    <a href="transactions.html">Transactions</a>
   </div>
 </nav>
 
@@ -26,26 +97,97 @@
     <h1>Head-to-Head</h1>
   </div>
 
-  <div class="controls">
-    <label>Owner 1</label>
-    <select id="owner1-select"><option>Loading…</option></select>
-    <label>vs.</label>
-    <select id="owner2-select"><option>Loading…</option></select>
+  <div class="tab-bar">
+    <button class="tab-btn active" onclick="switchTab('matchup')">Matchup Lookup</button>
+    <button class="tab-btn" onclick="switchTab('grid')">Full League Grid</button>
   </div>
 
-  <div id="content"><p class="loading">Loading…</p></div>
+  <!-- ── Tab: Matchup Lookup ──────────────────────────────────── -->
+  <div class="tab-panel active" id="tab-matchup">
+    <div class="controls">
+      <label>Owner 1</label>
+      <select id="owner1-select"><option>Loading…</option></select>
+      <label>vs.</label>
+      <select id="owner2-select"><option>Loading…</option></select>
+    </div>
+    <div id="matchup-content"><p class="loading">Loading…</p></div>
+  </div>
+
+  <!-- ── Tab: Full League Grid ────────────────────────────────── -->
+  <div class="tab-panel" id="tab-grid">
+    <p style="color:var(--muted);font-size:12px;margin-bottom:16px">
+      Row = owner's record <em>against</em> each column opponent.
+      <span class="grid-win">Green</span> = winning record &nbsp;
+      <span class="grid-loss">Red</span> = losing record
+    </p>
+    <div id="grid-content"><p class="loading">Loading…</p></div>
+  </div>
 </main>
 
 <script src="js/utils.js"></script>
 <script>
-let allMatchups = null;
-let ownerList   = null;
+const SLOT_ORDER = ['QB','WR','RB','TE','W/R/T','K','DEF','BN','IR'];
+function slotRank(slot) { const i = SLOT_ORDER.indexOf(slot); return i === -1 ? 99 : i; }
+function isBench(slot)  { return slot === 'BN' || slot === 'IR'; }
+function posColor(pos)  {
+  const p = (pos || '').split('/')[0].toUpperCase();
+  return { QB:'#e88', RB:'#8d8', WR:'#88d', TE:'#da8' }[p] || 'var(--muted)';
+}
+
+function buildLineupHTML(entries) {
+  if (!entries || !entries.length) return '<p style="color:var(--muted);font-size:12px;padding:8px 0">No lineup data</p>';
+  const sorted   = [...entries].sort((a, b) => slotRank(a.slot) - slotRank(b.slot));
+  const starters = sorted.filter(e => !isBench(e.slot));
+  const bench    = sorted.filter(e => isBench(e.slot));
+  const startPts = starters.reduce((s, e) => s + (parseFloat(e.fantasy_pts) || 0), 0);
+  const benchPts = bench.reduce((s, e) => s + (parseFloat(e.fantasy_pts) || 0), 0);
+  const topScore = Math.max(...starters.map(e => parseFloat(e.fantasy_pts) || 0));
+
+  const makeRow = e => {
+    const pts = parseFloat(e.fantasy_pts) || 0;
+    const isTop = !isBench(e.slot) && pts === topScore && topScore > 0;
+    return `<div class="lineup-row${isBench(e.slot) ? ' bench-row' : ''}">
+      <span class="lineup-slot">${e.slot}</span>
+      <span class="lineup-player" title="${e.player}" style="color:${posColor(e.pos)}">${e.player}</span>
+      <span class="lineup-nfl">${e.nfl_team || ''}</span>
+      <span class="lineup-pts${isTop ? ' top-score' : ''}">${pts > 0 ? pts.toFixed(2) : '—'}</span>
+    </div>`;
+  };
+
+  const hasBench = bench.length > 0;
+  return `
+    ${starters.map(makeRow).join('')}
+    ${hasBench ? `<div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;padding:6px 0 4px;margin-top:4px;border-top:1px solid var(--border)">Bench</div>${bench.map(makeRow).join('')}` : ''}
+    <div class="lineup-totals"><span class="label">Started</span><span class="val">${startPts.toFixed(2)}</span></div>
+    ${hasBench ? `<div class="lineup-totals" style="margin-top:0"><span class="label">Left on bench</span><span class="val" style="color:var(--muted)">${benchPts.toFixed(2)}</span></div>` : ''}
+  `;
+}
+
+// ── Global state ──────────────────────────────────────────────────────────────
+let allMatchups   = null;
+let ownerList     = null;
+let allLineupsByYearWeekTeam = {};
 
 async function init() {
-  [allMatchups, ownerList] = await Promise.all([
+  const [matchups, owners, allStandings] = await Promise.all([
     getAllMatchupsWithOwners(),
     getOwnerList(),
+    loadAllSeasons('standings.json'),
   ]);
+  allMatchups = matchups;
+  ownerList   = owners;
+
+  // Load all lineups for all seasons
+  const lineupsByYear = await loadAllSeasons('weekly_lineups.json');
+  for (const year of SEASONS) {
+    const entries = lineupsByYear[year] || [];
+    allLineupsByYearWeekTeam[year] = {};
+    for (const e of entries) {
+      if (!allLineupsByYearWeekTeam[year][e.week]) allLineupsByYearWeekTeam[year][e.week] = {};
+      if (!allLineupsByYearWeekTeam[year][e.week][e.team]) allLineupsByYearWeekTeam[year][e.week][e.team] = [];
+      allLineupsByYearWeekTeam[year][e.week][e.team].push(e);
+    }
+  }
 
   const sel1 = document.getElementById('owner1-select');
   const sel2 = document.getElementById('owner2-select');
@@ -56,21 +198,33 @@ async function init() {
     sel2.appendChild(new Option(o, o));
   });
 
-  // Default: Jake vs Andre (two of the most active)
   sel1.value = ownerList.includes('Jake')  ? 'Jake'  : ownerList[0];
   sel2.value = ownerList.includes('Andre') ? 'Andre' : ownerList[1];
 
-  // Honor URL params
   const params = new URLSearchParams(location.search);
   if (params.has('o1') && ownerList.includes(params.get('o1'))) sel1.value = params.get('o1');
   if (params.has('o2') && ownerList.includes(params.get('o2'))) sel2.value = params.get('o2');
 
-  sel1.addEventListener('change', render);
-  sel2.addEventListener('change', render);
-  render();
+  sel1.addEventListener('change', renderMatchup);
+  sel2.addEventListener('change', renderMatchup);
+
+  renderMatchup();
+  renderGrid();
 }
 
-function render() {
+// ── Tab switching ──────────────────────────────────────────────────────────────
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach((b, i) => {
+    b.classList.toggle('active', ['matchup','grid'][i] === tab);
+  });
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.getElementById(`tab-${tab}`).classList.add('active');
+}
+
+// ── Matchup tab ────────────────────────────────────────────────────────────────
+let gameIdCounter = 0;
+
+function renderMatchup() {
   const o1 = document.getElementById('owner1-select').value;
   const o2 = document.getElementById('owner2-select').value;
 
@@ -79,65 +233,78 @@ function render() {
   url.searchParams.set('o2', o2);
   history.replaceState({}, '', url);
 
-  const content = document.getElementById('content');
+  const content = document.getElementById('matchup-content');
 
   if (o1 === o2) {
     content.innerHTML = '<p class="empty">Select two different owners.</p>';
     return;
   }
 
-  // Filter matchups where both owners played
   const games = allMatchups.filter(m =>
     (m.owner1 === o1 && m.owner2 === o2) ||
     (m.owner1 === o2 && m.owner2 === o1)
   ).sort((a, b) => a.year - b.year || a.week - b.week);
 
-  if (games.length === 0) {
+  if (!games.length) {
     content.innerHTML = `<p class="empty">${o1} and ${o2} have never played each other.</p>`;
     return;
   }
 
-  // Compute record from o1's perspective
-  let w1 = 0, w2 = 0, ties = 0;
-  let pf1 = 0, pf2 = 0;
+  let w1 = 0, w2 = 0, ties = 0, pf1 = 0, pf2 = 0;
   games.forEach(g => {
     const s1 = g.owner1 === o1 ? g.score1 : g.score2;
     const s2 = g.owner1 === o1 ? g.score2 : g.score1;
     pf1 += s1; pf2 += s2;
-    if (s1 > s2) w1++;
-    else if (s2 > s1) w2++;
-    else ties++;
+    if (s1 > s2) w1++; else if (s2 > s1) w2++; else ties++;
   });
 
   const total = games.length;
-  const pct1 = total ? w1 / total : 0;
-  const pct2 = total ? w2 / total : 0;
-  const avg1 = total ? pf1 / total : 0;
-  const avg2 = total ? pf2 / total : 0;
+  const avg1 = pf1 / total, avg2 = pf2 / total;
 
-  // Game log rows
   const gameRows = games.map(g => {
+    const gid = `g-${gameIdCounter++}`;
     const myScore  = g.owner1 === o1 ? g.score1 : g.score2;
     const oppScore = g.owner1 === o1 ? g.score2 : g.score1;
     const myTeam   = g.owner1 === o1 ? g.team1  : g.team2;
     const oppTeam  = g.owner1 === o1 ? g.team2  : g.team1;
-    const won = myScore > oppScore;
-    const tied = myScore === oppScore;
+    const won = myScore > oppScore, tied = myScore === oppScore;
     const result = tied ? '<span class="badge badge-gray">T</span>'
                        : won ? '<span class="badge badge-green">W</span>'
                               : '<span class="badge badge-red">L</span>';
     const round = g.round ? `<span class="badge badge-blue">${g.round}</span>` : '';
-    return `<tr>
-      <td><a href="season.html?year=${g.year}">${g.year}</a></td>
-      <td class="num">Wk ${g.week}</td>
-      <td>${result}</td>
-      <td style="color:var(--muted);font-size:12px">${myTeam}</td>
-      <td class="num" style="${won?'font-weight:600':'color:var(--muted)'}">${myScore.toFixed(2)}</td>
-      <td style="color:var(--border);text-align:center">—</td>
-      <td style="color:var(--muted);font-size:12px">${oppTeam}</td>
-      <td class="num" style="${!won&&!tied?'font-weight:600':'color:var(--muted)'}">${oppScore.toFixed(2)}</td>
-      <td>${round}</td>
-    </tr>`;
+
+    const weekLineups = (allLineupsByYearWeekTeam[g.year] || {})[g.week] || {};
+    const l1 = buildLineupHTML(weekLineups[g.owner1 === o1 ? g.team1 : g.team2]);
+    const l2 = buildLineupHTML(weekLineups[g.owner1 === o1 ? g.team2 : g.team1]);
+
+    return `<tr class="game-row" id="${gid}-row" onclick="toggleGameRow('${gid}')">
+        <td><a href="season.html?year=${g.year}">${g.year}</a></td>
+        <td class="num">Wk ${g.week}</td>
+        <td>${result}</td>
+        <td style="color:var(--muted);font-size:12px">${myTeam}</td>
+        <td class="num" style="${won?'font-weight:600':'color:var(--muted)'}">${myScore.toFixed(2)}</td>
+        <td style="color:var(--border);text-align:center">—</td>
+        <td style="color:var(--muted);font-size:12px">${oppTeam}</td>
+        <td class="num" style="${!won&&!tied?'font-weight:600':'color:var(--muted)'}">${oppScore.toFixed(2)}</td>
+        <td>${round}</td>
+      </tr>
+      <tr class="game-detail-row" id="${gid}-detail">
+        <td colspan="9">
+          <div style="text-align:center;padding:6px 8px;background:var(--surface2);font-size:11px;color:var(--muted)">
+            Margin of victory: <strong style="color:var(--text)">${Math.abs(myScore-oppScore).toFixed(2)}</strong>
+          </div>
+          <div class="lineup-cols">
+            <div class="lineup-col">
+              <div class="lineup-col-header">${o1} — ${myTeam}</div>
+              ${l1}
+            </div>
+            <div class="lineup-col">
+              <div class="lineup-col-header">${o2} — ${oppTeam}</div>
+              ${l2}
+            </div>
+          </div>
+        </td>
+      </tr>`;
   }).join('');
 
   content.innerHTML = `
@@ -145,37 +312,85 @@ function render() {
       <div class="h2h-owner">
         <div class="name">${o1}</div>
         <div class="wins">${w1}</div>
-        <div class="winpct">${pctStr(pct1)} win rate</div>
+        <div class="winpct">${pctStr(w1/total)} win rate</div>
         <div style="color:var(--muted);font-size:12px;margin-top:4px">${avg1.toFixed(1)} avg pts</div>
       </div>
       <div class="h2h-vs">${ties > 0 ? `${ties} tie${ties > 1 ? 's' : ''}` : 'vs'}</div>
       <div class="h2h-owner">
         <div class="name">${o2}</div>
         <div class="wins">${w2}</div>
-        <div class="winpct">${pctStr(pct2)} win rate</div>
+        <div class="winpct">${pctStr(w2/total)} win rate</div>
         <div style="color:var(--muted);font-size:12px;margin-top:4px">${avg2.toFixed(1)} avg pts</div>
       </div>
     </div>
 
     <section>
-      <h2>${total} Games Played</h2>
+      <h2>${total} Games Played <span style="font-size:11px;color:var(--muted);font-weight:400">— click a row to see lineups</span></h2>
       <div class="table-wrap">
         <table>
           <thead><tr>
-            <th>Year</th>
-            <th class="num">Week</th>
-            <th>Result</th>
-            <th>${o1} Team</th>
-            <th class="num">Score</th>
+            <th>Year</th><th class="num">Week</th><th>Result</th>
+            <th>${o1} Team</th><th class="num">Score</th>
             <th></th>
-            <th>${o2} Team</th>
-            <th class="num">Score</th>
+            <th>${o2} Team</th><th class="num">Score</th>
             <th></th>
           </tr></thead>
           <tbody>${gameRows}</tbody>
         </table>
       </div>
     </section>
+  `;
+}
+
+function toggleGameRow(id) {
+  document.getElementById(`${id}-row`).classList.toggle('expanded');
+  document.getElementById(`${id}-detail`).classList.toggle('visible');
+}
+
+// ── Grid tab ───────────────────────────────────────────────────────────────────
+function renderGrid() {
+  const content = document.getElementById('grid-content');
+  if (!allMatchups || !ownerList) { content.innerHTML = '<p class="empty">No data</p>'; return; }
+
+  // Build records: records[row][col] = {w, l}
+  const records = {};
+  ownerList.forEach(o1 => {
+    records[o1] = {};
+    ownerList.forEach(o2 => { records[o1][o2] = { w: 0, l: 0 }; });
+  });
+
+  allMatchups.forEach(g => {
+    const { owner1, owner2, score1, score2 } = g;
+    if (!records[owner1] || !records[owner2]) return;
+    if (score1 > score2) {
+      records[owner1][owner2].w++;
+      records[owner2][owner1].l++;
+    } else if (score2 > score1) {
+      records[owner2][owner1].w++;
+      records[owner1][owner2].l++;
+    }
+  });
+
+  const colHeaders = ownerList.map(o => `<th title="${o}">${o.length > 7 ? o.slice(0,6)+'…' : o}</th>`).join('');
+  const bodyRows = ownerList.map(row => {
+    const cells = ownerList.map(col => {
+      if (row === col) return `<td class="self-cell">—</td>`;
+      const { w, l } = records[row][col];
+      if (w === 0 && l === 0) return `<td style="color:var(--border)">—</td>`;
+      const cls = w > l ? 'grid-win' : w < l ? 'grid-loss' : '';
+      return `<td class="${cls}">${w}-${l}</td>`;
+    }).join('');
+    return `<tr><td class="row-label">${row}</td>${cells}</tr>`;
+  }).join('');
+
+  content.innerHTML = `
+    <div class="league-grid-wrap">
+      <table class="league-grid">
+        <thead><tr><th style="text-align:left">vs →</th>${colHeaders}</tr></thead>
+        <tbody>${bodyRows}</tbody>
+      </table>
+    </div>
+    <p style="color:var(--muted);font-size:11px;margin-top:10px">Includes all regular season and playoff games across all 15 seasons.</p>
   `;
 }
 

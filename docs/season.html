@@ -6,6 +6,73 @@
   <title>Season Browser — The League</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>🏈</text></svg>">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ── Expandable playoff matchup rows ─────────────────────────── */
+    .playoff-row {
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+    .playoff-row:hover td { background: rgba(212,160,23,0.04); }
+    .playoff-row.expanded td { background: rgba(212,160,23,0.06); }
+
+    .playoff-detail-row { display: none; }
+    .playoff-detail-row.visible { display: table-row; }
+    .playoff-detail-row td { padding: 0; border-bottom: 1px solid var(--border); }
+
+    .lineup-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      border-top: 1px solid var(--border);
+    }
+    .lineup-col { padding: 12px 14px; }
+    .lineup-col:first-child { border-right: 1px solid var(--border); }
+    .lineup-col-header {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-bottom: 8px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    .lineup-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 3px 0;
+      font-size: 12px;
+      border-bottom: 1px solid rgba(48,54,61,0.5);
+    }
+    .lineup-row:last-child { border-bottom: none; }
+    .lineup-row.bench-row { opacity: 0.55; }
+    .lineup-slot { width: 44px; font-size: 10px; font-weight: 600; color: var(--muted); flex-shrink: 0; }
+    .lineup-player { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .lineup-nfl { font-size: 10px; color: var(--muted); width: 28px; flex-shrink: 0; }
+    .lineup-pts { font-variant-numeric: tabular-nums; font-weight: 600; font-size: 12px; width: 38px; text-align: right; flex-shrink: 0; }
+    .lineup-pts.top-score { color: var(--gold); }
+    .lineup-totals {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 0 2px;
+      font-size: 11px;
+      margin-top: 4px;
+      border-top: 1px solid var(--border);
+    }
+    .lineup-totals .label { color: var(--muted); }
+    .lineup-totals .val   { font-weight: 700; }
+
+    .expand-hint {
+      font-size: 10px;
+      color: var(--muted);
+      margin-left: 6px;
+    }
+
+    @media (max-width: 600px) {
+      .lineup-cols { grid-template-columns: 1fr; }
+      .lineup-col:first-child { border-right: none; border-bottom: 1px solid var(--border); }
+    }
+  </style>
 </head>
 <body>
 
@@ -18,6 +85,7 @@
     <a href="h2h.html">Head-to-Head</a>
     <a href="draft.html">Draft</a>
     <a href="weekly.html">Weekly</a>
+    <a href="transactions.html">Transactions</a>
   </div>
 </nav>
 
@@ -36,22 +104,56 @@
 
 <script src="js/utils.js"></script>
 <script>
-const yearSelect = document.getElementById('year-select');
-
-// Populate year dropdown (newest first)
-for (const y of [...SEASONS].reverse()) {
-  const opt = document.createElement('option');
-  opt.value = y;
-  opt.textContent = y;
-  yearSelect.appendChild(opt);
+const SLOT_ORDER = ['QB','WR','RB','TE','W/R/T','K','DEF','BN','IR'];
+function slotRank(slot) { const i = SLOT_ORDER.indexOf(slot); return i === -1 ? 99 : i; }
+function isBench(slot)  { return slot === 'BN' || slot === 'IR'; }
+function posColor(pos)  {
+  const p = (pos || '').split('/')[0].toUpperCase();
+  return { QB:'#e88', RB:'#8d8', WR:'#88d', TE:'#da8' }[p] || 'var(--muted)';
 }
 
-// Honor ?year= param
+function buildLineupHTML(entries) {
+  if (!entries || !entries.length) return '<p style="color:var(--muted);font-size:12px;padding:8px 0">No lineup data</p>';
+  const sorted   = [...entries].sort((a, b) => slotRank(a.slot) - slotRank(b.slot));
+  const starters = sorted.filter(e => !isBench(e.slot));
+  const bench    = sorted.filter(e => isBench(e.slot));
+  const startPts = starters.reduce((s, e) => s + (parseFloat(e.fantasy_pts) || 0), 0);
+  const benchPts = bench.reduce((s, e) => s + (parseFloat(e.fantasy_pts) || 0), 0);
+  const topScore = Math.max(...starters.map(e => parseFloat(e.fantasy_pts) || 0));
+
+  const makeRow = e => {
+    const pts = parseFloat(e.fantasy_pts) || 0;
+    const isTop = !isBench(e.slot) && pts === topScore && topScore > 0;
+    return `<div class="lineup-row${isBench(e.slot) ? ' bench-row' : ''}">
+      <span class="lineup-slot">${e.slot}</span>
+      <span class="lineup-player" title="${e.player}" style="color:${posColor(e.pos)}">${e.player}</span>
+      <span class="lineup-nfl">${e.nfl_team || ''}</span>
+      <span class="lineup-pts${isTop ? ' top-score' : ''}">${pts > 0 ? pts.toFixed(2) : '—'}</span>
+    </div>`;
+  };
+
+  const hasBench = bench.length > 0;
+  return `
+    ${starters.map(makeRow).join('')}
+    ${hasBench ? `<div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;padding:6px 0 4px;margin-top:4px;border-top:1px solid var(--border)">Bench</div>${bench.map(makeRow).join('')}` : ''}
+    <div class="lineup-totals">
+      <span class="label">Started</span><span class="val">${startPts.toFixed(2)}</span>
+    </div>
+    ${hasBench ? `<div class="lineup-totals" style="margin-top:0">
+      <span class="label">Left on bench</span><span class="val" style="color:var(--muted)">${benchPts.toFixed(2)}</span>
+    </div>` : ''}
+  `;
+}
+
+// ── Year select ────────────────────────────────────────────────────────────────
+const yearSelect = document.getElementById('year-select');
+for (const y of [...SEASONS].reverse()) {
+  yearSelect.appendChild(new Option(y, y));
+}
 const params = new URLSearchParams(location.search);
 if (params.has('year') && SEASONS.includes(parseInt(params.get('year')))) {
   yearSelect.value = params.get('year');
 }
-
 yearSelect.addEventListener('change', () => {
   const url = new URL(location.href);
   url.searchParams.set('year', yearSelect.value);
@@ -59,19 +161,28 @@ yearSelect.addEventListener('change', () => {
   loadYear(parseInt(yearSelect.value));
 });
 
+// ── Load year ──────────────────────────────────────────────────────────────────
 async function loadYear(year) {
   document.getElementById('page-title').textContent = `${year} Season`;
   const content = document.getElementById('content');
   content.innerHTML = '<p class="loading">Loading…</p>';
 
-  const [standings, matchups] = await Promise.all([
+  const [standings, matchups, lineups] = await Promise.all([
     loadFile(year, 'standings.json'),
     loadFile(year, 'matchups.json'),
+    loadFile(year, 'weekly_lineups.json').catch(() => []),
   ]);
 
   const teamOwner = buildTeamOwnerMap(standings);
 
-  // Determine champion from matchups
+  // Group lineups by week → team
+  const lineupsByWeekTeam = {};
+  for (const e of lineups) {
+    if (!lineupsByWeekTeam[e.week]) lineupsByWeekTeam[e.week] = {};
+    if (!lineupsByWeekTeam[e.week][e.team]) lineupsByWeekTeam[e.week][e.team] = [];
+    lineupsByWeekTeam[e.week][e.team].push(e);
+  }
+
   const champGame = matchups.find(m => m.round === 'Championship');
   let champTeam = null;
   if (champGame) {
@@ -79,22 +190,13 @@ async function loadYear(year) {
     champTeam = s1 > s2 ? champGame.team1 : champGame.team2;
   }
 
-  // Regular season matchups (for week range)
-  const regularMatchups = matchups.filter(m => !m.playoff);
-  const playoffMatchups  = matchups.filter(m => m.playoff);
-
-  // Group matchups by week
+  const playoffMatchups = matchups.filter(m => m.playoff);
   const byWeek = {};
-  for (const m of matchups) {
-    (byWeek[m.week] = byWeek[m.week] || []).push(m);
-  }
+  for (const m of matchups) (byWeek[m.week] = byWeek[m.week] || []).push(m);
   const allWeeks = Object.keys(byWeek).map(Number).sort((a, b) => a - b);
-  const regWeeks     = allWeeks.filter(w => !byWeek[w][0].playoff);
-  const playoffWeeks = allWeeks.filter(w => byWeek[w][0].playoff);
 
   // ── Standings ────────────────────────────────────────────────
   const sortedStandings = [...standings].sort((a, b) => parseInt(a.rank) - parseInt(b.rank));
-
   const standingRows = sortedStandings.map(t => {
     const isChamp = t.team === champTeam;
     return `<tr class="${isChamp ? 'is-champ' : ''}">
@@ -108,26 +210,54 @@ async function loadYear(year) {
     </tr>`;
   }).join('');
 
-  // ── Playoff results ──────────────────────────────────────────
+  // ── Playoff results (expandable) ─────────────────────────────
   const roundOrder = ['Championship', '3rd Place', 'Semifinal', 'Quarterfinal', 'Consolation'];
-  const playoffRows = playoffMatchups
+  let playoffDetailRows = '';
+  let playoffId = 0;
+  const sortedPlayoff = playoffMatchups
     .filter(m => m.round)
     .sort((a, b) => {
       const ai = roundOrder.indexOf(a.round), bi = roundOrder.indexOf(b.round);
       return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
-    })
-    .map(m => {
-      const s1 = parseFloat(m.score1), s2 = parseFloat(m.score2);
-      const w = s1 > s2 ? 1 : 2;
-      return `<tr>
-        <td><span class="badge badge-gold">${m.round}</span></td>
+    });
+
+  sortedPlayoff.forEach(m => {
+    const id = `pm-${playoffId++}`;
+    const s1 = parseFloat(m.score1), s2 = parseFloat(m.score2);
+    const w = s1 > s2 ? 1 : 2;
+    const wkLineups = lineupsByWeekTeam[m.week] || {};
+    const l1 = buildLineupHTML(wkLineups[m.team1]);
+    const l2 = buildLineupHTML(wkLineups[m.team2]);
+    const hasLineups = (wkLineups[m.team1] || wkLineups[m.team2]);
+    const hint = hasLineups ? `<span class="expand-hint">▶ lineups</span>` : '';
+
+    playoffDetailRows += `
+      <tr class="playoff-row" onclick="togglePlayoffRow('${id}')" id="${id}-row">
+        <td><span class="badge badge-gold">${m.round}</span>${hint}</td>
         <td style="${w===1?'font-weight:600':'color:var(--muted)'}">${m.team1}</td>
         <td class="num" style="${w===1?'font-weight:600':'color:var(--muted)'}">${s1.toFixed(2)}</td>
         <td style="color:var(--muted);text-align:center">vs</td>
         <td style="${w===2?'font-weight:600':'color:var(--muted)'}">${m.team2}</td>
         <td class="num" style="${w===2?'font-weight:600':'color:var(--muted)'}">${s2.toFixed(2)}</td>
+      </tr>
+      <tr class="playoff-detail-row" id="${id}-detail">
+        <td colspan="6">
+          <div style="text-align:center;padding:6px 8px;background:var(--surface2);font-size:11px;color:var(--muted)">
+            Margin of victory: <strong style="color:var(--text)">${Math.abs(s1-s2).toFixed(2)}</strong>
+          </div>
+          <div class="lineup-cols">
+            <div class="lineup-col">
+              <div class="lineup-col-header">${teamOwner[m.team1] || m.team1} — ${m.team1}</div>
+              ${l1}
+            </div>
+            <div class="lineup-col">
+              <div class="lineup-col-header">${teamOwner[m.team2] || m.team2} — ${m.team2}</div>
+              ${l2}
+            </div>
+          </div>
+        </td>
       </tr>`;
-    }).join('');
+  });
 
   // ── Weekly matchups ──────────────────────────────────────────
   const weekRows = allWeeks.map(week => {
@@ -159,29 +289,25 @@ async function loadYear(year) {
       <div class="table-wrap">
         <table>
           <thead><tr>
-            <th class="num">Rank</th>
-            <th>Team</th>
-            <th>Owner</th>
-            <th class="num">W</th>
-            <th class="num">L</th>
-            <th class="num">PF</th>
-            <th class="num">PA</th>
+            <th class="num">Rank</th><th>Team</th><th>Owner</th>
+            <th class="num">W</th><th class="num">L</th>
+            <th class="num">PF</th><th class="num">PA</th>
           </tr></thead>
           <tbody>${standingRows}</tbody>
         </table>
       </div>
     </section>
 
-    ${playoffRows ? `
+    ${playoffDetailRows ? `
     <section>
-      <h2>Playoff Results</h2>
+      <h2>Playoff Results <span style="font-size:11px;color:var(--muted);font-weight:400">— click a row to see lineups</span></h2>
       <div class="table-wrap">
         <table>
           <thead><tr>
             <th>Round</th><th>Team</th><th class="num">Score</th>
             <th></th><th>Team</th><th class="num">Score</th>
           </tr></thead>
-          <tbody>${playoffRows}</tbody>
+          <tbody>${playoffDetailRows}</tbody>
         </table>
       </div>
     </section>` : ''}
@@ -201,6 +327,13 @@ async function loadYear(year) {
       </div>
     </section>
   `;
+}
+
+function togglePlayoffRow(id) {
+  const row    = document.getElementById(`${id}-row`);
+  const detail = document.getElementById(`${id}-detail`);
+  const open   = detail.classList.toggle('visible');
+  row.classList.toggle('expanded', open);
 }
 
 loadYear(parseInt(yearSelect.value));

@@ -18,6 +18,7 @@
     <a href="h2h.html">Head-to-Head</a>
     <a href="draft.html">Draft</a>
     <a href="weekly.html">Weekly</a>
+    <a href="transactions.html">Transactions</a>
   </div>
 </nav>
 
@@ -117,14 +118,31 @@
       </div>
     </section>
   </div>
+
+  <section>
+    <h2>Fun Stats</h2>
+    <div class="table-wrap">
+      <table id="fun-table">
+        <thead>
+          <tr>
+            <th>Stat</th>
+            <th>Owner</th>
+            <th class="num">Value</th>
+          </tr>
+        </thead>
+        <tbody><tr><td colspan="3" class="loading">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
 </main>
 
 <script src="js/utils.js"></script>
 <script>
 async function init() {
-  const [champions, allStandings] = await Promise.all([
+  const [champions, allStandings, allMatchups] = await Promise.all([
     getChampions(),
     loadAllSeasons('standings.json'),
+    loadAllSeasons('matchups.json'),
   ]);
 
   // ── Hall of Champions (newest first) ──────────────────────────
@@ -221,6 +239,111 @@ async function init() {
       <td class="num">${parseFloat(top.points_for).toFixed(2)}</td>
     `;
     regTbody.appendChild(tr);
+  });
+}
+
+  // ── Fun Stats ──────────────────────────────────────────────────
+  // Aggregate owner stats for fun computations
+  const ownerStats = {};
+  for (const year of SEASONS) {
+    for (const t of (allStandings[year] || [])) {
+      const owner = normOwner(t.owner);
+      if (!ownerStats[owner]) ownerStats[owner] = {
+        owner, wins: 0, losses: 0, pf: 0, pa: 0, seasons: 0,
+        closeLosses: 0, closeLossMarginTotal: 0,
+      };
+      ownerStats[owner].wins    += parseInt(t.wins)             || 0;
+      ownerStats[owner].losses  += parseInt(t.losses)           || 0;
+      ownerStats[owner].pf      += parseFloat(t.points_for)     || 0;
+      ownerStats[owner].pa      += parseFloat(t.points_against) || 0;
+      ownerStats[owner].seasons += 1;
+    }
+  }
+
+  // Count close losses (margin ≤ 5 pts) and h2h dominance
+  const h2h = {}; // h2h[winner][loser]++
+  for (const year of SEASONS) {
+    const standings = allStandings[year] || [];
+    const teamOwner = buildTeamOwnerMap(standings);
+    for (const m of (allMatchups[year] || [])) {
+      const o1 = teamOwner[m.team1], o2 = teamOwner[m.team2];
+      if (!o1 || !o2) continue;
+      const s1 = parseFloat(m.score1), s2 = parseFloat(m.score2);
+      const diff = Math.abs(s1 - s2);
+      const loser  = s1 > s2 ? o2 : o1;
+      const winner = s1 > s2 ? o1 : o2;
+      if (loser && ownerStats[loser] && diff <= 5) {
+        ownerStats[loser].closeLosses++;
+        ownerStats[loser].closeLossMarginTotal += diff;
+      }
+      if (winner && loser) {
+        if (!h2h[winner]) h2h[winner] = {};
+        h2h[winner][loser] = (h2h[winner][loser] || 0) + 1;
+      }
+    }
+  }
+
+  // Find who "owns" another (most wins vs one opponent)
+  let bestOwns = null, bestOwnsCount = 0;
+  for (const [winner, opponents] of Object.entries(h2h)) {
+    for (const [loser, wins] of Object.entries(opponents)) {
+      if (wins > bestOwnsCount) {
+        bestOwnsCount = wins;
+        bestOwns = { winner, loser, wins };
+      }
+    }
+  }
+
+  // Best win% (min 3 seasons)
+  const statsList = Object.values(ownerStats);
+  const byWinPct  = [...statsList].filter(s => s.seasons >= 3).sort((a, b) => {
+    const wpA = a.wins / (a.wins + a.losses || 1);
+    const wpB = b.wins / (b.wins + b.losses || 1);
+    return wpB - wpA;
+  });
+  const bestWinPct = byWinPct[0];
+
+  // Most close losses
+  const mostCloseLosses = [...statsList].sort((a, b) => b.closeLosses - a.closeLosses)[0];
+
+  // Luckiest: most wins relative to points scored (high wins, lower PF/game)
+  // Proxy: win% significantly higher than PF rank
+  const withPFRank = statsList.filter(s => s.seasons >= 2).map(s => ({
+    ...s,
+    pfPerGame: s.pf / (s.wins + s.losses),
+    winPct: s.wins / (s.wins + s.losses),
+  }));
+  withPFRank.sort((a, b) => a.pfPerGame - b.pfPerGame); // rank by pfPerGame ascending
+  const pfRank = {};
+  withPFRank.forEach((s, i) => { pfRank[s.owner] = i + 1; });
+  withPFRank.sort((a, b) => b.winPct - a.winPct);
+  const winRank = {};
+  withPFRank.forEach((s, i) => { winRank[s.owner] = i + 1; });
+  // Luckiest = best win rank relative to PF rank
+  const luckiestOwner = withPFRank.map(s => ({
+    owner: s.owner, luck: pfRank[s.owner] - winRank[s.owner],
+    wins: s.wins, losses: s.losses, pfPerGame: s.pfPerGame,
+  })).sort((a, b) => b.luck - a.luck)[0];
+
+  // Most PA (war of attrition)
+  const mostPA = [...statsList].filter(s => s.seasons >= 3).sort((a, b) =>
+    b.pa / b.seasons - a.pa / a.seasons
+  )[0];
+
+  const funRows = [
+    { stat: 'Best All-Time Win %', owner: bestWinPct?.owner, value: bestWinPct ? pctStr(bestWinPct.wins/(bestWinPct.wins+bestWinPct.losses)) : '—' },
+    { stat: 'Most Close Losses (≤5 pts)', owner: mostCloseLosses?.owner, value: mostCloseLosses?.closeLosses ?? '—' },
+    { stat: 'Most Points Scored Against (per season)', owner: mostPA?.owner, value: mostPA ? (mostPA.pa/mostPA.seasons).toFixed(1) : '—' },
+    { stat: 'Luckiest Owner (win% >> scoring rank)', owner: luckiestOwner?.owner, value: luckiestOwner ? pctStr(luckiestOwner.wins/(luckiestOwner.wins+luckiestOwner.losses)) : '—' },
+    bestOwns ? { stat: `Most dominant rivalry`, owner: `${bestOwns.winner} over ${bestOwns.loser}`, value: `${bestOwns.wins} wins` } : null,
+  ].filter(Boolean);
+
+  const funTbody = document.querySelector('#fun-table tbody');
+  funTbody.innerHTML = '';
+  funRows.forEach(r => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td style="color:var(--muted)">${r.stat}</td><td><strong>${r.owner}</strong></td><td class="num">${r.value}</td>`;
+    funTbody.appendChild(tr);
   });
 }
 

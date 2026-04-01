@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transactions — The League</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>🏈</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">🏈 The League</a>
+    <a href="index.html">Home</a>
+    <a href="season.html">Seasons</a>
+    <a href="alltime.html">All-Time</a>
+    <a href="h2h.html">Head-to-Head</a>
+    <a href="draft.html">Draft</a>
+    <a href="weekly.html">Weekly</a>
+    <a href="transactions.html" class="active">Transactions</a>
+  </div>
+</nav>
+
+<main>
+  <div class="page-header">
+    <h1>Transaction History</h1>
+    <p>All adds, drops, and trades across every season.</p>
+  </div>
+
+  <div class="controls" style="flex-wrap:wrap;gap:16px">
+    <div style="display:flex;align-items:center;gap:8px">
+      <label>Season</label>
+      <select id="year-select"></select>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px">
+      <label>Owner</label>
+      <select id="owner-select"><option value="">All owners</option></select>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px">
+      <label>Type</label>
+      <select id="type-select">
+        <option value="">All types</option>
+        <option value="Add">Adds</option>
+        <option value="Drop">Drops</option>
+        <option value="Trade">Trades</option>
+      </select>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px">
+      <label>Player</label>
+      <input id="player-search" type="text" placeholder="Search player…"
+             style="background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:6px 10px;border-radius:4px;font-size:13px;width:160px">
+    </div>
+  </div>
+
+  <div id="summary" style="margin-bottom:16px"></div>
+  <div id="content"><p class="loading">Loading…</p></div>
+</main>
+
+<script src="js/utils.js"></script>
+<script>
+let currentTxns   = [];
+let currentOwners = [];
+
+const yearSelect   = document.getElementById('year-select');
+const ownerSelect  = document.getElementById('owner-select');
+const typeSelect   = document.getElementById('type-select');
+const playerSearch = document.getElementById('player-search');
+
+for (const y of [...SEASONS].reverse()) yearSelect.appendChild(new Option(y, y));
+
+const params = new URLSearchParams(location.search);
+if (params.has('year') && SEASONS.includes(parseInt(params.get('year')))) {
+  yearSelect.value = params.get('year');
+}
+
+yearSelect.addEventListener('change', loadYear);
+ownerSelect.addEventListener('change', render);
+typeSelect.addEventListener('change', render);
+playerSearch.addEventListener('input', render);
+
+async function loadYear() {
+  const year = parseInt(yearSelect.value);
+  const url  = new URL(location.href);
+  url.searchParams.set('year', year);
+  history.replaceState({}, '', url);
+
+  document.getElementById('content').innerHTML = '<p class="loading">Loading…</p>';
+
+  const [txns, standings] = await Promise.all([
+    loadFile(year, 'transactions.json').catch(() => []),
+    loadFile(year, 'standings.json'),
+  ]);
+
+  const teamOwner = buildTeamOwnerMap(standings);
+
+  // Normalize: each raw transaction row (Add/Drop has from/to team or FA)
+  // We want one row per transaction event with owner resolved
+  currentTxns = txns.map(tx => {
+    // Determine the primary owner (the team doing the acquiring / releasing)
+    let ownerTeam = null;
+    if (tx.type === 'Add') {
+      ownerTeam = tx.to !== 'Dropped' && tx.to !== 'FA/Waiver' ? tx.to : null;
+    } else if (tx.type === 'Drop') {
+      ownerTeam = tx.from !== 'Dropped' && tx.from !== 'FA/Waiver' ? tx.from : null;
+    } else if (tx.type === 'Trade') {
+      ownerTeam = tx.to !== 'Dropped' && tx.to !== 'FA/Waiver' ? tx.to : null;
+    }
+    return {
+      ...tx,
+      ownerTeam,
+      owner: ownerTeam ? (teamOwner[ownerTeam] || ownerTeam) : null,
+      fromDisplay: tx.from === 'FA/Waiver' ? 'Waiver/FA' : (teamOwner[tx.from] || tx.from || '—'),
+      toDisplay:   tx.to   === 'Dropped'  ? 'Released'  : (teamOwner[tx.to]   || tx.to   || '—'),
+    };
+  });
+
+  // Populate owner filter
+  const ownersInSeason = [...new Set(
+    standings.map(t => normOwner(t.owner))
+  )].sort();
+
+  const savedOwner = ownerSelect.value;
+  ownerSelect.innerHTML = '<option value="">All owners</option>';
+  ownersInSeason.forEach(o => ownerSelect.appendChild(new Option(o, o)));
+  if (ownersInSeason.includes(savedOwner)) ownerSelect.value = savedOwner;
+
+  render();
+}
+
+function render() {
+  const ownerFilter  = ownerSelect.value;
+  const typeFilter   = typeSelect.value;
+  const playerFilter = playerSearch.value.trim().toLowerCase();
+
+  let filtered = currentTxns;
+  if (ownerFilter) filtered = filtered.filter(t =>
+    t.owner === ownerFilter ||
+    // For trades, also include the other side
+    (t.type === 'Trade' && normOwner(t.fromDisplay) === ownerFilter)
+  );
+  if (typeFilter)   filtered = filtered.filter(t => t.type === typeFilter);
+  if (playerFilter) filtered = filtered.filter(t =>
+    (t.player || '').toLowerCase().includes(playerFilter)
+  );
+
+  const content = document.getElementById('content');
+  const summary = document.getElementById('summary');
+
+  const counts = { Add: 0, Drop: 0, Trade: 0 };
+  filtered.forEach(t => { if (counts[t.type] !== undefined) counts[t.type]++; });
+  summary.innerHTML = `<span style="color:var(--muted);font-size:13px">
+    Showing ${filtered.length} transaction${filtered.length !== 1 ? 's' : ''} &nbsp;·&nbsp;
+    ${counts.Add} adds &nbsp;·&nbsp; ${counts.Drop} drops &nbsp;·&nbsp; ${counts.Trade} trade moves
+  </span>`;
+
+  if (!filtered.length) {
+    content.innerHTML = '<p class="empty">No transactions found.</p>';
+    return;
+  }
+
+  const rows = filtered.map(tx => {
+    let badge, detail;
+    if (tx.type === 'Add') {
+      badge  = '<span class="badge badge-green">Add</span>';
+      detail = `<span style="color:var(--muted)">${tx.fromDisplay} → </span><strong>${tx.toDisplay}</strong>`;
+    } else if (tx.type === 'Drop') {
+      badge  = '<span class="badge badge-red">Drop</span>';
+      detail = `<strong>${tx.fromDisplay}</strong><span style="color:var(--muted)"> → Released</span>`;
+    } else {
+      badge  = '<span class="badge badge-blue">Trade</span>';
+      detail = `<span style="color:var(--muted)">${tx.fromDisplay} → </span><strong>${tx.toDisplay}</strong>`;
+    }
+    return `<tr>
+      <td>${tx.date || '—'}</td>
+      <td>${badge}</td>
+      <td>${tx.player || '—'}</td>
+      <td>${detail}</td>
+    </tr>`;
+  }).join('');
+
+  content.innerHTML = `
+    <div class="table-wrap">
+      <table>
+        <thead><tr>
+          <th>Date</th>
+          <th>Type</th>
+          <th>Player</th>
+          <th>Details</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  `;
+}
+
+loadYear();
+</script>
+</body>
+</html>

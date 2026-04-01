@@ -18,6 +18,7 @@
     <a href="h2h.html">Head-to-Head</a>
     <a href="draft.html">Draft</a>
     <a href="weekly.html">Weekly</a>
+    <a href="transactions.html">Transactions</a>
   </div>
 </nav>
 
@@ -25,6 +26,13 @@
   <div class="page-header">
     <h1>All-Time Records</h1>
     <p>Click any column header to sort</p>
+  </div>
+
+  <div class="controls">
+    <label>Seasons</label>
+    <select id="from-year"></select>
+    <span style="color:var(--muted);padding:0 6px">–</span>
+    <select id="to-year"></select>
   </div>
 
   <section>
@@ -38,12 +46,16 @@
             <th class="sortable num">W</th>
             <th class="sortable num">L</th>
             <th class="sortable num">Win%</th>
-            <th class="sortable num">PF/Season</th>
+            <th class="sortable num">PF/Ssn</th>
             <th class="sortable num">Total PF</th>
+            <th class="sortable num">PA/Ssn</th>
+            <th class="sortable num">Total PA</th>
+            <th class="sortable num">Moves</th>
+            <th class="sortable num">Moves/Ssn</th>
             <th class="sortable num">Championships</th>
           </tr>
         </thead>
-        <tbody><tr><td colspan="8" class="loading">Loading…</td></tr></tbody>
+        <tbody><tr><td colspan="12" class="loading">Loading…</td></tr></tbody>
       </table>
     </div>
   </section>
@@ -67,19 +79,91 @@
 
 <script src="js/utils.js"></script>
 <script>
+let allData = null;
+
 async function init() {
-  const [ownerStats, allStandings, allMatchups, champions] = await Promise.all([
-    getOwnerStats(),
+  const [allStandings, allMatchups, allTransactions, champions] = await Promise.all([
     loadAllSeasons('standings.json'),
     loadAllSeasons('matchups.json'),
+    loadAllSeasons('transactions.json'),
     getChampions(),
   ]);
+  allData = { allStandings, allMatchups, allTransactions, champions };
 
-  // ── Owner stats table ──────────────────────────────────────────
-  const champSet = new Set(champions.map(c => c.owner));
+  const fromSel = document.getElementById('from-year');
+  const toSel   = document.getElementById('to-year');
+  SEASONS.forEach(y => {
+    fromSel.appendChild(new Option(y, y));
+    toSel.appendChild(new Option(y, y));
+  });
+  toSel.value = SEASONS[SEASONS.length - 1];
+
+  fromSel.addEventListener('change', render);
+  toSel.addEventListener('change', render);
+  render();
+}
+
+function render() {
+  const fromYear = parseInt(document.getElementById('from-year').value);
+  const toYear   = parseInt(document.getElementById('to-year').value);
+  const filteredSeasons = SEASONS.filter(y => y >= fromYear && y <= toYear);
+
+  const { allStandings, allMatchups, allTransactions, champions } = allData;
+
+  // Champions in range
+  const champCounts = {};
+  champions
+    .filter(c => c.year >= fromYear && c.year <= toYear)
+    .forEach(c => { champCounts[c.owner] = (champCounts[c.owner] || 0) + 1; });
+
+  // Aggregate per-owner stats
+  const stats = {};
+  for (const year of filteredSeasons) {
+    for (const t of (allStandings[year] || [])) {
+      const owner = normOwner(t.owner);
+      if (!stats[owner]) stats[owner] = { owner, wins:0, losses:0, pf:0, pa:0, seasons:0, moves:0 };
+      stats[owner].wins    += parseInt(t.wins)             || 0;
+      stats[owner].losses  += parseInt(t.losses)           || 0;
+      stats[owner].pf      += parseFloat(t.points_for)     || 0;
+      stats[owner].pa      += parseFloat(t.points_against) || 0;
+      stats[owner].seasons += 1;
+    }
+  }
+
+  // Count transaction moves per owner
+  // Adds count for the acquiring team, Drops count for the releasing team,
+  // Trades count once per player for each team involved.
+  for (const year of filteredSeasons) {
+    const txns = allTransactions[year] || [];
+    const teamOwner = buildTeamOwnerMap(allStandings[year] || []);
+    for (const tx of txns) {
+      for (const field of ['from', 'to']) {
+        const team = tx[field];
+        if (team && team !== 'FA/Waiver' && team !== 'Dropped') {
+          const owner = teamOwner[team];
+          if (owner && stats[owner]) stats[owner].moves++;
+        }
+      }
+    }
+  }
+
+  // Finalize derived stats
+  for (const s of Object.values(stats)) {
+    s.championships  = champCounts[s.owner] || 0;
+    const g          = s.wins + s.losses;
+    s.winPct         = g ? s.wins / g : 0;
+    s.avgPF          = s.seasons ? s.pf / s.seasons : 0;
+    s.avgPA          = s.seasons ? s.pa / s.seasons : 0;
+    s.movesPerSeason = s.seasons ? s.moves / s.seasons : 0;
+  }
+
+  const ownerStats = Object.values(stats).sort((a, b) =>
+    b.championships - a.championships || b.wins - a.wins
+  );
+
+  // ── Stats table ────────────────────────────────────────────────
   const tbody = document.querySelector('#stats-table tbody');
   tbody.innerHTML = '';
-
   ownerStats.forEach(s => {
     const tr = document.createElement('tr');
     if (s.championships > 0) tr.classList.add('is-champ');
@@ -91,61 +175,61 @@ async function init() {
       <td class="num" data-val="${s.winPct}">${pctStr(s.winPct)}</td>
       <td class="num" data-val="${s.avgPF}">${s.avgPF.toFixed(1)}</td>
       <td class="num" data-val="${s.pf}">${s.pf.toFixed(0)}</td>
+      <td class="num" data-val="${s.avgPA}">${s.avgPA.toFixed(1)}</td>
+      <td class="num" data-val="${s.pa}">${s.pa.toFixed(0)}</td>
+      <td class="num" data-val="${s.moves}">${s.moves}</td>
+      <td class="num" data-val="${s.movesPerSeason}">${s.movesPerSeason.toFixed(1)}</td>
       <td class="num" data-val="${s.championships}">${s.championships > 0 ? '🏆 '.repeat(s.championships).trim() : '—'}</td>
     `;
     tbody.appendChild(tr);
   });
-
   makeSortableTable(document.getElementById('stats-table'));
 
   // ── Season grid ────────────────────────────────────────────────
-  // Build per-season data: {year: {team: {wins, losses, isChamp, isPlayoff}}}
   const champByYear = {};
-  champions.forEach(c => { champByYear[c.year] = c.team; });
+  champions
+    .filter(c => c.year >= fromYear && c.year <= toYear)
+    .forEach(c => { champByYear[c.year] = c.team; });
 
-  // Determine playoff teams per year (teams that appeared in any playoff matchup)
   const playoffTeamsByYear = {};
-  for (const year of SEASONS) {
+  for (const year of filteredSeasons) {
     const matchups = allMatchups[year] || [];
-    const playoffTeams = new Set(
+    playoffTeamsByYear[year] = new Set(
       matchups.filter(m => m.playoff).flatMap(m => [m.team1, m.team2])
     );
-    playoffTeamsByYear[year] = playoffTeams;
   }
 
-  // Build owner→year→record map
-  const ownerYearRecord = {}; // {owner: {year: {w, l, isChamp, isPlayoff}}}
-  for (const year of SEASONS) {
-    const standings = allStandings[year] || [];
-    for (const t of standings) {
+  const ownerYearRecord = {};
+  for (const year of filteredSeasons) {
+    for (const t of (allStandings[year] || [])) {
       const owner = normOwner(t.owner);
       if (!ownerYearRecord[owner]) ownerYearRecord[owner] = {};
       ownerYearRecord[owner][year] = {
         w: parseInt(t.wins) || 0,
         l: parseInt(t.losses) || 0,
-        isChamp: t.team === champByYear[year],
+        isChamp:   t.team === champByYear[year],
         isPlayoff: playoffTeamsByYear[year]?.has(t.team) || false,
       };
     }
   }
 
-  // Sort owners same as stats table (by championships desc, wins desc)
   const sortedOwners = ownerStats.map(s => s.owner);
 
-  // Build grid header
   const gridHead = document.querySelector('#grid-table thead');
+  gridHead.innerHTML = '';
   const headerRow = document.createElement('tr');
   headerRow.innerHTML = `<th style="text-align:left;min-width:90px">Owner</th>` +
-    SEASONS.map(y => `<th style="min-width:52px"><a href="season.html?year=${y}" style="color:var(--muted)">${y}</a></th>`).join('');
+    filteredSeasons.map(y =>
+      `<th style="min-width:52px"><a href="season.html?year=${y}" style="color:var(--muted)">${y}</a></th>`
+    ).join('');
   gridHead.appendChild(headerRow);
 
-  // Build grid body
   const gridBody = document.querySelector('#grid-table tbody');
   gridBody.innerHTML = '';
   sortedOwners.forEach(owner => {
     const tr = document.createElement('tr');
     let cells = `<td class="owner-cell">${owner}</td>`;
-    for (const year of SEASONS) {
+    for (const year of filteredSeasons) {
       const rec = ownerYearRecord[owner]?.[year];
       if (!rec) {
         cells += `<td class="empty-cell">—</td>`;
