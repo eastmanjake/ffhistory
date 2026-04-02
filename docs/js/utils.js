@@ -177,8 +177,8 @@ document.addEventListener('DOMContentLoaded', () => {
   btn.id        = 'pre-modern-toggle';
   btn.title     = 'Toggle whether pre-2016 seasons (2011–2015) are included in stats';
   btn.innerHTML = isOn
-    ? '<span style="color:var(--gold)">&#9679;</span> Pre-Modern'
-    : '<span style="color:var(--border)">&#9675;</span> Pre-Modern';
+    ? '<span style="color:var(--gold)">&#9679;</span> Pre 2016'
+    : '<span style="color:var(--border)">&#9675;</span> Pre 2016';
   btn.style.cssText = [
     'background:none',
     'border:1px solid var(--border)',

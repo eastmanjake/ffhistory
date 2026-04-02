@@ -65,6 +65,44 @@ nav a {
 nav a:hover { color: var(--text); text-decoration: none; }
 nav a.active { color: var(--text); border-bottom-color: var(--gold); }
 
+/* ── Nav dropdowns ───────────────────────────────────────────── */
+.nav-group { position: relative; }
+.nav-group-btn {
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 12px 10px;
+  transition: color 0.1s, border-color 0.1s;
+  white-space: nowrap;
+}
+.nav-group:hover .nav-group-btn { color: var(--text); }
+.nav-group-btn.active { color: var(--text); border-bottom-color: var(--gold); }
+.nav-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0 6px 6px 6px;
+  padding: 4px 0;
+  min-width: 168px;
+  z-index: 200;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+}
+.nav-group:hover .nav-dropdown { display: block; }
+.nav-dropdown a {
+  display: block;
+  padding: 8px 16px;
+  border-bottom-width: 0;
+}
+.nav-dropdown a:hover { background: var(--surface2); text-decoration: none; }
+.nav-dropdown a.active { color: var(--text); font-weight: 600; background: rgba(212,160,23,0.08); border-bottom-color: transparent; }
+
 /* ── Layout ──────────────────────────────────────────────────── */
 main {
   max-width: 1100px;

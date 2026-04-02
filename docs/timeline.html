@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Season Timeline — The League</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>🏈</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ── Season Timeline ─────────────────────────────────────────── */
+    .timeline-controls {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+
+    /* ── Rank Race Chart ─────────────────────────────────────────── */
+    .chart-wrap {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 8px;
+      position: relative;
+    }
+    .chart-wrap canvas {
+      display: block;
+      width: 100%;
+      cursor: crosshair;
+    }
+    .chart-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+      margin-top: 12px;
+    }
+    .chart-legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: var(--muted);
+      cursor: pointer;
+      user-select: none;
+    }
+    .chart-legend-item:hover { color: var(--text); }
+    .chart-legend-item.hidden { opacity: 0.3; }
+    .chart-legend-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* ── Week nav ────────────────────────────────────────────────── */
+    .week-nav {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 16px 0 12px;
+      flex-wrap: wrap;
+    }
+    .week-nav-label {
+      color: var(--muted);
+      font-size: 13px;
+      margin-right: 4px;
+    }
+    .week-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 12px;
+      font-family: inherit;
+      padding: 4px 10px;
+      transition: color 0.1s, border-color 0.1s, background 0.1s;
+    }
+    .week-btn:hover { color: var(--text); border-color: var(--muted); }
+    .week-btn.active {
+      background: rgba(212,160,23,0.12);
+      border-color: var(--gold);
+      color: var(--gold);
+      font-weight: 600;
+    }
+
+    /* ── Standings snapshot table ────────────────────────────────── */
+    .snapshot-header {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .snapshot-header h2 { margin-bottom: 0; border-bottom: none; }
+    .snapshot-week-label {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    td.rank-cell { font-weight: 700; color: var(--muted); width: 36px; }
+    td.change-cell { width: 40px; text-align: center; font-size: 12px; font-weight: 600; }
+    .change-up   { color: var(--green); }
+    .change-down { color: var(--red); }
+    .change-flat { color: var(--muted); }
+    .playoff-cutoff td { border-top: 2px dashed var(--border); }
+
+    /* color swatch in table */
+    .team-swatch {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 6px;
+      vertical-align: middle;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">🏈 The League</a>
+    <a href="index.html">Home</a>
+    <div class="nav-group">
+      <button class="nav-group-btn active">History ▾</button>
+      <div class="nav-dropdown">
+        <a href="season.html">Seasons</a>
+        <a href="alltime.html">All-Time</a>
+        <a href="h2h.html">Head-to-Head</a>
+        <a href="extrapoints.html">Extra Points</a>
+        <a href="timeline.html" class="active">Season Timeline</a>
+      </div>
+    </div>
+    <div class="nav-group">
+      <button class="nav-group-btn">Draft & Transactions ▾</button>
+      <div class="nav-dropdown">
+        <a href="draft.html">Draft</a>
+        <a href="transactions.html">Transactions</a>
+      </div>
+    </div>
+    <div class="nav-group">
+      <button class="nav-group-btn">Stats ▾</button>
+      <div class="nav-dropdown">
+        <a href="weekly.html">Weekly</a>
+        <a href="players.html">Player History</a>
+        <a href="rules.html">Rules</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="page-header">
+    <h1>Season Timeline</h1>
+    <p>Week-by-week standings race — see how the playoff picture evolved</p>
+  </div>
+
+  <div class="timeline-controls">
+    <label for="season-select" style="color:var(--muted);font-size:13px">Season</label>
+    <select id="season-select"></select>
+  </div>
+
+  <section>
+    <h2>Rank Race</h2>
+    <div class="chart-wrap">
+      <canvas id="rank-chart" height="320"></canvas>
+      <div class="chart-legend" id="chart-legend"></div>
+    </div>
+    <p style="font-size:11px;color:var(--muted);margin-top:4px">
+      Click a week on the chart to pin that week's standings below. Rank 1 = first place. Dashed line = playoff cutoff.
+    </p>
+  </section>
+
+  <section>
+    <div class="snapshot-header">
+      <h2 style="margin-bottom:0;border-bottom:none">Standings</h2>
+      <span class="snapshot-week-label" id="snapshot-week-label"></span>
+    </div>
+    <div class="week-nav" id="week-nav"></div>
+    <div class="table-wrap">
+      <table id="snapshot-table">
+        <thead>
+          <tr>
+            <th style="width:36px">#</th>
+            <th></th>
+            <th>Owner</th>
+            <th>Team</th>
+            <th class="num">W</th>
+            <th class="num">L</th>
+            <th class="num">PF</th>
+            <th class="num" title="Rank change vs previous week">±</th>
+          </tr>
+        </thead>
+        <tbody id="snapshot-tbody"></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<script src="js/utils.js"></script>
+<script>
+// ── Color palette (up to 12 teams) ────────────────────────────────────────────
+const PALETTE = [
+  '#58a6ff', // blue
+  '#3fb950', // green
+  '#d4a017', // gold
+  '#f85149', // red
+  '#bc8cff', // purple
+  '#ffa657', // orange
+  '#39d353', // lime
+  '#ff7b72', // coral
+  '#79c0ff', // sky
+  '#f9e157', // yellow
+  '#56d364', // mint
+  '#ff9bce', // pink
+];
+
+// ── State ──────────────────────────────────────────────────────────────────────
+let weeklyStandings = []; // array of arrays: weeklyStandings[weekIndex] = [{team,owner,wins,losses,pf,rank}, ...]
+let teams = [];           // [{team, owner, color}, ...]
+let numRegularWeeks = 0;
+let numPlayoffTeams = 4;  // default, detected from data
+let selectedWeek = 1;     // 1-based
+let hiddenTeams = new Set();
+
+// ── Season selector ────────────────────────────────────────────────────────────
+async function init() {
+  const sel = document.getElementById('season-select');
+  SEASONS.slice().reverse().forEach(y => {
+    const opt = document.createElement('option');
+    opt.value = y;
+    opt.textContent = y;
+    sel.appendChild(opt);
+  });
+  sel.addEventListener('change', () => loadSeason(parseInt(sel.value)));
+  await loadSeason(SEASONS[SEASONS.length - 1]);
+}
+
+// ── Load season data ───────────────────────────────────────────────────────────
+async function loadSeason(year) {
+  weeklyStandings = [];
+  teams = [];
+  hiddenTeams = new Set();
+
+  const [matchups, standings] = await Promise.all([
+    loadFile(year, 'matchups.json'),
+    loadFile(year, 'standings.json'),
+  ]);
+
+  // Build team→owner map from standings
+  const ownerMap = {}; // team name → owner
+  standings.forEach(s => { ownerMap[s.team] = normOwner(s.owner); });
+
+  // Determine regular season weeks
+  const regularGames = matchups.filter(m => !m.playoff);
+  const weeks = [...new Set(regularGames.map(m => m.week))].sort((a, b) => a - b);
+  numRegularWeeks = weeks.length;
+
+  // Detect playoff team count from playoff games
+  // The number of teams in week 1 playoffs (or min playoff week) = playoff field size
+  const playoffGames = matchups.filter(m => m.playoff);
+  if (playoffGames.length > 0) {
+    const firstPlayoffWeek = Math.min(...playoffGames.map(m => m.week));
+    const firstRoundGames = playoffGames.filter(m => m.week === firstPlayoffWeek);
+    numPlayoffTeams = firstRoundGames.length * 2;
+  }
+
+  // Build all team names (from regular season participants)
+  const teamNames = [...new Set(regularGames.flatMap(m => [m.team1, m.team2]))].sort();
+  teams = teamNames.map((t, i) => ({
+    team: t,
+    owner: ownerMap[t] || t,
+    color: PALETTE[i % PALETTE.length],
+  }));
+
+  // Build cumulative stats week by week
+  const cumWins  = {};
+  const cumLoss  = {};
+  const cumPF    = {};
+  teamNames.forEach(t => { cumWins[t] = 0; cumLoss[t] = 0; cumPF[t] = 0; });
+
+  weeklyStandings = weeks.map(week => {
+    const weekGames = regularGames.filter(m => m.week === week);
+    weekGames.forEach(m => {
+      const s1 = parseFloat(m.score1), s2 = parseFloat(m.score2);
+      cumPF[m.team1] += s1;
+      cumPF[m.team2] += s2;
+      if (s1 > s2) { cumWins[m.team1]++; cumLoss[m.team2]++; }
+      else         { cumWins[m.team2]++; cumLoss[m.team1]++; }
+    });
+
+    // Rank: sort by wins desc, then PF desc
+    const sorted = [...teamNames].sort((a, b) => {
+      if (cumWins[b] !== cumWins[a]) return cumWins[b] - cumWins[a];
+      return cumPF[b] - cumPF[a];
+    });
+
+    return sorted.map((t, i) => ({
+      team: t,
+      owner: ownerMap[t] || t,
+      wins:   cumWins[t],
+      losses: cumLoss[t],
+      pf:     cumPF[t],
+      rank:   i + 1,
+    }));
+  });
+
+  selectedWeek = numRegularWeeks;
+  renderAll();
+}
+
+// ── Render everything ──────────────────────────────────────────────────────────
+function renderAll() {
+  renderWeekNav();
+  renderChart();
+  renderSnapshot();
+}
+
+// ── Week navigation buttons ────────────────────────────────────────────────────
+function renderWeekNav() {
+  const nav = document.getElementById('week-nav');
+  nav.innerHTML = '<span class="week-nav-label">After Week</span>';
+  for (let w = 1; w <= numRegularWeeks; w++) {
+    const btn = document.createElement('button');
+    btn.className = 'week-btn' + (w === selectedWeek ? ' active' : '');
+    btn.textContent = w;
+    btn.addEventListener('click', () => selectWeek(w));
+    nav.appendChild(btn);
+  }
+}
+
+function selectWeek(w) {
+  selectedWeek = w;
+  // Update button active states
+  document.querySelectorAll('.week-btn').forEach((btn, i) => {
+    btn.classList.toggle('active', i + 1 === w);
+  });
+  renderChart();
+  renderSnapshot();
+}
+
+// ── Rank Race Chart ────────────────────────────────────────────────────────────
+function renderChart() {
+  const canvas = document.getElementById('rank-chart');
+  const legend = document.getElementById('chart-legend');
+  const dpr    = window.devicePixelRatio || 1;
+  const W      = canvas.parentElement.clientWidth - 32;
+  const H      = 320;
+
+  canvas.width  = W * dpr;
+  canvas.height = H * dpr;
+  canvas.style.width  = W + 'px';
+  canvas.style.height = H + 'px';
+
+  const ctx = canvas.getContext('2d');
+  ctx.scale(dpr, dpr);
+
+  const numTeams = teams.length;
+  const PAD_L = 14, PAD_R = 14, PAD_T = 20, PAD_B = 32;
+  const cw = W - PAD_L - PAD_R;
+  const ch = H - PAD_T - PAD_B;
+
+  // x = week index (0-based), y = rank (1-based, 1=top)
+  function xOf(weekIdx) {
+    return numRegularWeeks <= 1
+      ? PAD_L + cw / 2
+      : PAD_L + (weekIdx / (numRegularWeeks - 1)) * cw;
+  }
+  function yOf(rank) {
+    return PAD_T + ((rank - 1) / (numTeams - 1)) * ch;
+  }
+
+  // Background
+  ctx.fillStyle = '#161b22';
+  ctx.fillRect(0, 0, W, H);
+
+  // Grid lines for each week
+  ctx.strokeStyle = 'rgba(48,54,61,0.7)';
+  ctx.lineWidth = 1;
+  for (let wi = 0; wi < numRegularWeeks; wi++) {
+    const x = xOf(wi);
+    ctx.beginPath(); ctx.moveTo(x, PAD_T); ctx.lineTo(x, H - PAD_B); ctx.stroke();
+  }
+
+  // Horizontal rank lines (faint)
+  for (let r = 1; r <= numTeams; r++) {
+    const y = yOf(r);
+    ctx.beginPath(); ctx.moveTo(PAD_L, y); ctx.lineTo(W - PAD_R, y); ctx.stroke();
+  }
+
+  // Highlight selected week column
+  {
+    const x = xOf(selectedWeek - 1);
+    ctx.fillStyle = 'rgba(212,160,23,0.07)';
+    const colW = numRegularWeeks > 1 ? cw / (numRegularWeeks - 1) : cw;
+    ctx.fillRect(x - colW / 2, PAD_T, colW, ch);
+    ctx.strokeStyle = 'rgba(212,160,23,0.4)';
+    ctx.lineWidth = 1;
+    ctx.setLineDash([4, 3]);
+    ctx.beginPath(); ctx.moveTo(x, PAD_T); ctx.lineTo(x, H - PAD_B); ctx.stroke();
+    ctx.setLineDash([]);
+  }
+
+  // Playoff cutoff line (dashed horizontal)
+  if (numPlayoffTeams > 0 && numPlayoffTeams < numTeams) {
+    const yCutoff = (yOf(numPlayoffTeams) + yOf(numPlayoffTeams + 1)) / 2;
+    ctx.strokeStyle = 'rgba(88,166,255,0.3)';
+    ctx.lineWidth = 1.5;
+    ctx.setLineDash([6, 4]);
+    ctx.beginPath(); ctx.moveTo(PAD_L, yCutoff); ctx.lineTo(W - PAD_R, yCutoff); ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.fillStyle = 'rgba(88,166,255,0.5)';
+    ctx.font = '9px system-ui,sans-serif';
+    ctx.textAlign = 'right';
+    ctx.fillText('playoff cutoff', W - PAD_R - 2, yCutoff - 3);
+  }
+
+  // X-axis week labels
+  ctx.fillStyle = '#7d8590';
+  ctx.font = '10px system-ui,sans-serif';
+  ctx.textAlign = 'center';
+  for (let wi = 0; wi < numRegularWeeks; wi++) {
+    ctx.fillText('W' + (wi + 1), xOf(wi), H - PAD_B + 14);
+  }
+
+  // Draw team lines + dots
+  teams.forEach(team => {
+    if (hiddenTeams.has(team.team)) return;
+
+    // Get this team's rank at each week
+    const ranks = weeklyStandings.map(wk => {
+      const entry = wk.find(e => e.team === team.team);
+      return entry ? entry.rank : null;
+    });
+
+    ctx.strokeStyle = team.color;
+    ctx.lineWidth = 2.5;
+    ctx.lineJoin = 'round';
+    ctx.beginPath();
+    let started = false;
+    ranks.forEach((rank, wi) => {
+      if (rank == null) { started = false; return; }
+      const x = xOf(wi), y = yOf(rank);
+      if (!started) { ctx.moveTo(x, y); started = true; }
+      else ctx.lineTo(x, y);
+    });
+    ctx.stroke();
+
+    // Dots
+    ranks.forEach((rank, wi) => {
+      if (rank == null) return;
+      const x = xOf(wi), y = yOf(rank);
+      const isSelected = (wi === selectedWeek - 1);
+      ctx.fillStyle = team.color;
+      ctx.beginPath();
+      ctx.arc(x, y, isSelected ? 5 : 3.5, 0, Math.PI * 2);
+      ctx.fill();
+      if (isSelected) {
+        ctx.strokeStyle = '#0d1117';
+        ctx.lineWidth = 1.5;
+        ctx.beginPath();
+        ctx.arc(x, y, 5, 0, Math.PI * 2);
+        ctx.stroke();
+      }
+    });
+
+    // Owner label at final week
+    const lastRank = ranks[numRegularWeeks - 1];
+    if (lastRank != null && numRegularWeeks > 0) {
+      ctx.fillStyle = team.color;
+      ctx.font = '11px system-ui,sans-serif';
+      ctx.textAlign = 'left';
+      // Only label at far right if there's room
+      const x = xOf(numRegularWeeks - 1) + 8;
+      if (x + 60 < W) {
+        ctx.fillText(team.owner, x, yOf(lastRank) + 4);
+      }
+    }
+  });
+
+  // Y-axis rank labels (1, 2, ..., N)
+  ctx.fillStyle = '#7d8590';
+  ctx.font = '10px system-ui,sans-serif';
+  ctx.textAlign = 'right';
+  for (let r = 1; r <= numTeams; r++) {
+    ctx.fillText(r, PAD_L - 2, yOf(r) + 4);
+  }
+
+  // Build legend
+  legend.innerHTML = teams.map(t => `
+    <div class="chart-legend-item${hiddenTeams.has(t.team) ? ' hidden' : ''}"
+         onclick="toggleTeam(${JSON.stringify(t.team)})">
+      <div class="chart-legend-dot" style="background:${t.color}"></div>
+      <span>${t.owner}</span>
+    </div>
+  `).join('');
+
+  // Click handler on canvas to select week
+  canvas._clickHandler && canvas.removeEventListener('click', canvas._clickHandler);
+  canvas._clickHandler = function(e) {
+    const rect = canvas.getBoundingClientRect();
+    const mx = (e.clientX - rect.left) * (W / rect.width);
+    // Find nearest week
+    let best = 0, bestDist = Infinity;
+    for (let wi = 0; wi < numRegularWeeks; wi++) {
+      const d = Math.abs(xOf(wi) - mx);
+      if (d < bestDist) { bestDist = d; best = wi; }
+    }
+    selectWeek(best + 1);
+  };
+  canvas.addEventListener('click', canvas._clickHandler);
+}
+
+// ── Toggle team visibility ─────────────────────────────────────────────────────
+function toggleTeam(teamName) {
+  if (hiddenTeams.has(teamName)) hiddenTeams.delete(teamName);
+  else hiddenTeams.add(teamName);
+  renderChart();
+}
+
+// ── Standings snapshot table ───────────────────────────────────────────────────
+function renderSnapshot() {
+  const weekData = weeklyStandings[selectedWeek - 1];
+  if (!weekData) return;
+
+  const prevWeekData = selectedWeek > 1 ? weeklyStandings[selectedWeek - 2] : null;
+
+  document.getElementById('snapshot-week-label').textContent =
+    `After Week ${selectedWeek} of ${numRegularWeeks}`;
+
+  const tbody = document.getElementById('snapshot-tbody');
+  tbody.innerHTML = '';
+
+  weekData.forEach((entry, i) => {
+    const isPlayoffLine = i === numPlayoffTeams; // first team out
+
+    const tr = document.createElement('tr');
+    if (i === 0) tr.className = 'is-champ'; // highlight leader
+
+    // Rank change
+    let changeHtml = '<span class="change-flat">—</span>';
+    if (prevWeekData) {
+      const prevEntry = prevWeekData.find(e => e.team === entry.team);
+      if (prevEntry) {
+        const delta = prevEntry.rank - entry.rank; // positive = moved up
+        if (delta > 0)      changeHtml = `<span class="change-up">▲${delta}</span>`;
+        else if (delta < 0) changeHtml = `<span class="change-down">▼${Math.abs(delta)}</span>`;
+        else                changeHtml = `<span class="change-flat">—</span>`;
+      }
+    }
+
+    // Find team color
+    const teamInfo = teams.find(t => t.team === entry.team);
+    const color = teamInfo ? teamInfo.color : '#7d8590';
+
+    tr.innerHTML = `
+      <td class="rank-cell">${entry.rank}</td>
+      <td style="width:12px;padding:0"><span class="team-swatch" style="background:${color}"></span></td>
+      <td>${entry.owner}</td>
+      <td style="color:var(--muted);font-size:12px">${entry.team}</td>
+      <td class="num win">${entry.wins}</td>
+      <td class="num loss">${entry.losses}</td>
+      <td class="num">${entry.pf.toFixed(2)}</td>
+      <td class="change-cell">${changeHtml}</td>
+    `;
+
+    if (isPlayoffLine) tr.classList.add('playoff-cutoff');
+    tbody.appendChild(tr);
+  });
+}
+
+// ── Bootstrap ─────────────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>
