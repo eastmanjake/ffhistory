@@ -132,6 +132,7 @@
         <a href="h2h.html">Head-to-Head</a>
         <a href="extrapoints.html">Extra Points</a>
         <a href="timeline.html" class="active">Season Timeline</a>
+        <a href="owner.html">Owner Profiles</a>
       </div>
     </div>
     <div class="nav-group">
@@ -259,13 +260,18 @@ async function loadSeason(year) {
   const weeks = [...new Set(regularGames.map(m => m.week))].sort((a, b) => a - b);
   numRegularWeeks = weeks.length;
 
-  // Detect playoff team count from playoff games
-  // The number of teams in week 1 playoffs (or min playoff week) = playoff field size
+  // Detect playoff team count: count unique teams in bracket rounds (exclude consolation-only teams)
+  const bracketRounds = new Set(['Quarterfinal', 'Semifinal', 'Championship', '3rd Place', 'Final']);
   const playoffGames = matchups.filter(m => m.playoff);
   if (playoffGames.length > 0) {
-    const firstPlayoffWeek = Math.min(...playoffGames.map(m => m.week));
-    const firstRoundGames = playoffGames.filter(m => m.week === firstPlayoffWeek);
-    numPlayoffTeams = firstRoundGames.length * 2;
+    const bracketTeams = new Set();
+    playoffGames.forEach(m => {
+      if (bracketRounds.has(m.round)) {
+        bracketTeams.add(m.team1);
+        bracketTeams.add(m.team2);
+      }
+    });
+    if (bracketTeams.size > 0) numPlayoffTeams = bracketTeams.size;
   }
 
   // Build all team names (from regular season participants)
