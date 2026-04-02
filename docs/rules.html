@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rules &amp; Scoring — The League</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>🏈</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ── Scoring matrix table ────────────────────────────────────── */
+    .scoring-wrap { overflow-x: auto; }
+    .scoring-table { border-collapse: collapse; min-width: 100%; font-size: 12px; }
+    .scoring-table th, .scoring-table td {
+      border: 1px solid var(--border);
+      padding: 5px 10px;
+      white-space: nowrap;
+      text-align: center;
+    }
+    .scoring-table th {
+      background: var(--surface2);
+      color: var(--muted);
+      font-weight: 600;
+      font-size: 11px;
+    }
+    .scoring-table .stat-label {
+      text-align: left;
+      font-weight: 500;
+      color: var(--text);
+      background: var(--surface2);
+      min-width: 210px;
+      padding-left: 12px;
+    }
+    .scoring-table .cat-header td {
+      background: var(--surface);
+      color: var(--gold);
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      text-align: left;
+      padding-left: 12px;
+    }
+    .scoring-table .changed {
+      background: rgba(212, 160, 23, 0.18);
+      color: var(--gold);
+      font-weight: 700;
+    }
+    .scoring-table .na {
+      color: var(--border);
+    }
+    .scoring-table .neg { color: #f85149; }
+    .scoring-table .pos { color: #3fb950; }
+
+    /* ── Change legend ───────────────────────────────────────────── */
+    .change-legend {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-size: 11px;
+      color: var(--muted);
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+    .change-swatch {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border-radius: 3px;
+      vertical-align: middle;
+      margin-right: 4px;
+    }
+
+    /* ── Chart ───────────────────────────────────────────────────── */
+    .chart-wrap {
+      position: relative;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 20px 16px 12px;
+      margin-bottom: 32px;
+    }
+    .chart-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 18px;
+      margin-top: 10px;
+      font-size: 11px;
+    }
+    .chart-legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .chart-legend-item.hidden { opacity: 0.35; }
+    .chart-legend-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    canvas { display: block; width: 100%; }
+
+    /* ── Key changes callout ─────────────────────────────────────── */
+    .changes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+    .change-card {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 12px 14px;
+    }
+    .change-card .change-year {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--gold);
+      margin-bottom: 4px;
+    }
+    .change-card .change-stat { font-weight: 600; font-size: 13px; }
+    .change-card .change-val  { font-size: 12px; color: var(--muted); margin-top: 2px; }
+    .arrow-up   { color: var(--green); }
+    .arrow-down { color: var(--red); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">🏈 The League</a>
+    <a href="index.html">Home</a>
+    <a href="season.html">Seasons</a>
+    <a href="alltime.html">All-Time</a>
+    <a href="h2h.html">Head-to-Head</a>
+    <a href="draft.html">Draft</a>
+    <a href="weekly.html">Weekly</a>
+    <a href="transactions.html">Transactions</a>
+    <a href="extrapoints.html">Extra Points</a>
+    <a href="players.html">Players</a>
+    <a href="rules.html" class="active">Rules</a>
+  </div>
+</nav>
+
+<main>
+  <div class="page-header">
+    <h1>Rules &amp; Scoring</h1>
+    <p>How the scoring settings have evolved across all 15 seasons.</p>
+  </div>
+
+  <!-- Key changes callout cards -->
+  <section>
+    <h2>Notable Rule Changes</h2>
+    <div class="changes-grid" id="changes-grid">
+      <div class="change-card"><div class="change-year">Loading…</div></div>
+    </div>
+  </section>
+
+  <!-- Line chart for key stats -->
+  <section>
+    <h2>Key Scoring Values Over Time</h2>
+    <div class="chart-wrap">
+      <canvas id="scoring-chart" height="300"></canvas>
+      <div class="chart-legend" id="chart-legend"></div>
+    </div>
+  </section>
+
+  <!-- Full scoring matrix -->
+  <section>
+    <h2>Full Scoring Table</h2>
+    <div class="change-legend">
+      <span>
+        <span class="change-swatch" style="background:rgba(212,160,23,0.18);border:1px solid var(--gold)"></span>
+        Value changed from prior season
+      </span>
+      <span style="color:var(--border)">— = stat not in use that year</span>
+    </div>
+    <div class="scoring-wrap">
+      <table class="scoring-table" id="scoring-table">
+        <thead id="scoring-thead"></thead>
+        <tbody id="scoring-tbody">
+          <tr><td colspan="16" class="loading">Loading…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<script src="js/utils.js"></script>
+<script>
+// ── Stat normalization ────────────────────────────────────────────────────────
+// Some early seasons use slightly different names for the same stat
+const STAT_ALIASES = {
+  'Reception Yards':      'Receiving Yards',
+  'Reception Touchdowns': 'Receiving Touchdowns',
+};
+function normStat(s) { return STAT_ALIASES[s] || s; }
+
+// ── Stat categories and display order ────────────────────────────────────────
+const STAT_GROUPS = [
+  {
+    label: 'Passing',
+    stats: ['Passing Yards', 'Passing Touchdowns', 'Interceptions'],
+  },
+  {
+    label: 'Rushing',
+    stats: ['Rushing Yards', 'Rushing Touchdowns'],
+  },
+  {
+    label: 'Receiving',
+    stats: ['Receptions', 'Receiving Yards', 'Receiving Touchdowns'],
+  },
+  {
+    label: 'General Offense / Special Teams',
+    stats: ['2-Point Conversions', 'Fumbles Lost', 'Return Touchdowns', 'Kickoff and Punt Return Touchdowns', 'Offensive Fumble Return TD'],
+  },
+  {
+    label: 'Kicker',
+    stats: [
+      'Field Goals 0-19 Yards', 'Field Goals 20-29 Yards', 'Field Goals 30-39 Yards',
+      'Field Goals 40-49 Yards', 'Field Goals 50+ Yards',
+      'Field Goals Missed 0-19 Yards', 'Field Goals Missed 20-29 Yards',
+      'Field Goals Missed 30-39 Yards', 'Field Goals Missed 40-49 Yards',
+      'Field Goals Missed 50+ Yards',
+      'Point After Attempt Made',
+    ],
+  },
+  {
+    label: 'Defense / Special Teams',
+    stats: [
+      'Sack', 'Interception', 'Fumble Recovery', 'Touchdown', 'Safety',
+      'Points Allowed 0 points', 'Points Allowed 1-6 points', 'Points Allowed 7-13 points',
+      'Points Allowed 14-20 points', 'Points Allowed 21-27 points',
+      'Points Allowed 28-34 points', 'Points Allowed 35+ points',
+    ],
+  },
+];
+
+// ── Chart series ──────────────────────────────────────────────────────────────
+const CHART_SERIES = [
+  { stat: 'Receptions',           label: 'Receptions (pts)',    color: '#88d' },
+  { stat: 'Passing Touchdowns',   label: 'Pass TD (pts)',       color: '#e88' },
+  { stat: 'Rushing Touchdowns',   label: 'Rush TD (pts)',       color: '#8dc' },
+  { stat: 'Field Goals 50+ Yards',label: 'FG 50+ (pts)',        color: '#da8' },
+  { stat: 'Point After Attempt Made', label: 'PAT (pts)',       color: '#aaa' },
+  { stat: 'Sack',                 label: 'Sack (def pts)',      color: '#6af' },
+  { stat: 'Points Allowed 0 points', label: 'PA-0 (def pts)',   color: '#d4a017' },
+];
+
+// ── Main ──────────────────────────────────────────────────────────────────────
+async function init() {
+  const allSettings = await loadAllSeasons('settings.json');
+
+  // Build matrix: statMatrix[normalizedStat][year] = value | null
+  const statMatrix = {};
+  for (const year of SEASONS) {
+    for (const e of (allSettings[year] || [])) {
+      const stat = normStat(e.stat);
+      if (!statMatrix[stat]) statMatrix[stat] = {};
+      statMatrix[stat][year] = e.points;
+    }
+  }
+
+  // Detect changes: changedCells[stat][year] = true if value differs from previous year
+  const changedCells = {};
+  for (const [stat, byYear] of Object.entries(statMatrix)) {
+    changedCells[stat] = {};
+    let prev = null;
+    for (const year of SEASONS) {
+      const val = byYear[year] ?? null;
+      if (prev !== null && val !== null && val !== prev) {
+        changedCells[stat][year] = true;
+      }
+      if (val !== null) prev = val;
+    }
+  }
+
+  renderChangesGrid(statMatrix, changedCells);
+  renderChart(statMatrix);
+  renderTable(statMatrix, changedCells);
+}
+
+// ── Notable changes cards ─────────────────────────────────────────────────────
+function renderChangesGrid(statMatrix, changedCells) {
+  const cards = [];
+  for (const year of SEASONS) {
+    for (const [stat, years] of Object.entries(changedCells)) {
+      if (!years[year]) continue;
+      // Find previous value
+      let prevVal = null;
+      for (const y of SEASONS) {
+        if (y >= year) break;
+        if (statMatrix[stat][y] != null) prevVal = statMatrix[stat][y];
+      }
+      const newVal = statMatrix[stat][year];
+      const up = newVal > prevVal;
+      cards.push({ year, stat, prevVal, newVal, up });
+    }
+  }
+  // Sort by year
+  cards.sort((a, b) => a.year - b.year);
+
+  const grid = document.getElementById('changes-grid');
+  if (!cards.length) { grid.innerHTML = '<p class="empty">No changes detected.</p>'; return; }
+
+  grid.innerHTML = cards.map(c => `
+    <div class="change-card">
+      <div class="change-year">${c.year}</div>
+      <div class="change-stat">${c.stat}</div>
+      <div class="change-val">
+        <span style="color:var(--muted)">${c.prevVal}</span>
+        &nbsp;→&nbsp;
+        <strong class="${c.up ? 'arrow-up' : 'arrow-down'}">${c.up ? '▲' : '▼'} ${c.newVal}</strong>
+      </div>
+    </div>
+  `).join('');
+}
+
+// ── Line chart ────────────────────────────────────────────────────────────────
+let hiddenSeries = new Set();
+
+function renderChart(statMatrix) {
+  const canvas  = document.getElementById('scoring-chart');
+  const legend  = document.getElementById('chart-legend');
+  const dpr     = window.devicePixelRatio || 1;
+  const W       = canvas.parentElement.clientWidth - 32;
+  const H       = 300;
+  canvas.width  = W * dpr;
+  canvas.height = H * dpr;
+  canvas.style.width  = W + 'px';
+  canvas.style.height = H + 'px';
+  const ctx = canvas.getContext('2d');
+  ctx.scale(dpr, dpr);
+
+  // Build legend
+  legend.innerHTML = CHART_SERIES.map((s, i) => `
+    <div class="chart-legend-item${hiddenSeries.has(i) ? ' hidden' : ''}" onclick="toggleSeries(${i})" id="legend-item-${i}">
+      <div class="chart-legend-dot" style="background:${s.color}"></div>
+      <span>${s.label}</span>
+    </div>
+  `).join('');
+
+  // Find value range (exclude hidden, exclude nulls)
+  let minVal = Infinity, maxVal = -Infinity;
+  CHART_SERIES.forEach((s, i) => {
+    if (hiddenSeries.has(i)) return;
+    SEASONS.forEach(year => {
+      const v = statMatrix[s.stat]?.[year];
+      if (v != null) { minVal = Math.min(minVal, v); maxVal = Math.max(maxVal, v); }
+    });
+  });
+  if (!isFinite(minVal)) { minVal = 0; maxVal = 10; }
+  // Add some padding
+  const pad = (maxVal - minVal) * 0.12 || 1;
+  const lo  = Math.min(0, minVal - pad);
+  const hi  = maxVal + pad;
+
+  const PAD_L = 46, PAD_R = 16, PAD_T = 16, PAD_B = 36;
+  const cw = W - PAD_L - PAD_R;
+  const ch = H - PAD_T - PAD_B;
+
+  function xOf(i) { return PAD_L + (i / (SEASONS.length - 1)) * cw; }
+  function yOf(v) { return PAD_T + (1 - (v - lo) / (hi - lo)) * ch; }
+
+  // Grid lines + y-axis labels
+  ctx.strokeStyle = 'rgba(48,54,61,0.7)';
+  ctx.lineWidth   = 1;
+  ctx.fillStyle   = '#7d8590';
+  ctx.font        = '10px system-ui, sans-serif';
+  ctx.textAlign   = 'right';
+  const yTicks = 6;
+  for (let i = 0; i <= yTicks; i++) {
+    const v = lo + (hi - lo) * (i / yTicks);
+    const y = yOf(v);
+    ctx.beginPath(); ctx.moveTo(PAD_L, y); ctx.lineTo(W - PAD_R, y); ctx.stroke();
+    ctx.fillText(v.toFixed(2).replace(/\.?0+$/, ''), PAD_L - 4, y + 3);
+  }
+
+  // Zero line
+  if (lo < 0 && hi > 0) {
+    ctx.strokeStyle = 'rgba(120,120,120,0.5)';
+    ctx.lineWidth = 1.5;
+    ctx.setLineDash([4, 3]);
+    const y0 = yOf(0);
+    ctx.beginPath(); ctx.moveTo(PAD_L, y0); ctx.lineTo(W - PAD_R, y0); ctx.stroke();
+    ctx.setLineDash([]);
+  }
+
+  // X-axis labels
+  ctx.fillStyle   = '#7d8590';
+  ctx.textAlign   = 'center';
+  ctx.font        = '10px system-ui, sans-serif';
+  SEASONS.forEach((year, i) => {
+    const x = xOf(i);
+    ctx.fillText(year, x, H - PAD_B + 14);
+    ctx.strokeStyle = 'rgba(48,54,61,0.4)';
+    ctx.lineWidth   = 1;
+    ctx.beginPath(); ctx.moveTo(x, PAD_T); ctx.lineTo(x, H - PAD_B); ctx.stroke();
+  });
+
+  // Series lines + dots
+  CHART_SERIES.forEach((s, si) => {
+    if (hiddenSeries.has(si)) return;
+    ctx.strokeStyle = s.color;
+    ctx.lineWidth   = 2;
+    ctx.beginPath();
+    let started = false;
+    SEASONS.forEach((year, i) => {
+      const v = statMatrix[s.stat]?.[year];
+      if (v == null) { started = false; return; }
+      const x = xOf(i), y = yOf(v);
+      if (!started) { ctx.moveTo(x, y); started = true; }
+      else ctx.lineTo(x, y);
+    });
+    ctx.stroke();
+
+    // Dots
+    SEASONS.forEach((year, i) => {
+      const v = statMatrix[s.stat]?.[year];
+      if (v == null) return;
+      ctx.fillStyle = s.color;
+      ctx.beginPath();
+      ctx.arc(xOf(i), yOf(v), 3.5, 0, Math.PI * 2);
+      ctx.fill();
+    });
+  });
+}
+
+function toggleSeries(i) {
+  if (hiddenSeries.has(i)) hiddenSeries.delete(i);
+  else hiddenSeries.add(i);
+  document.getElementById(`legend-item-${i}`).classList.toggle('hidden', hiddenSeries.has(i));
+  // Re-render chart (need statMatrix — store it globally)
+  renderChart(window._statMatrix);
+}
+
+// ── Full scoring matrix table ─────────────────────────────────────────────────
+function renderTable(statMatrix, changedCells) {
+  // Store globally for chart toggle
+  window._statMatrix = statMatrix;
+
+  // Header row
+  const thead = document.getElementById('scoring-thead');
+  thead.innerHTML = `<tr>
+    <th style="text-align:left;min-width:210px">Scoring Rule</th>
+    ${SEASONS.map(y => `<th>${y}</th>`).join('')}
+  </tr>`;
+
+  const tbody = document.getElementById('scoring-tbody');
+  tbody.innerHTML = '';
+
+  for (const group of STAT_GROUPS) {
+    // Category header
+    const catRow = document.createElement('tr');
+    catRow.className = 'cat-header';
+    catRow.innerHTML = `<td colspan="${SEASONS.length + 1}">${group.label}</td>`;
+    tbody.appendChild(catRow);
+
+    for (const stat of group.stats) {
+      // Only show stats that appear in at least one year
+      const byYear = statMatrix[stat] || {};
+      if (!Object.keys(byYear).length) continue;
+
+      const row = document.createElement('tr');
+      const cells = SEASONS.map(year => {
+        const val     = byYear[year] ?? null;
+        const changed = changedCells[stat]?.[year];
+        if (val === null) return `<td class="na">—</td>`;
+        const numClass = val < 0 ? 'neg' : val > 0 ? 'pos' : '';
+        const changedClass = changed ? 'changed' : '';
+        const display = val === 0 ? '0' : val;
+        return `<td class="${[changedClass, numClass].filter(Boolean).join(' ')}">${display}</td>`;
+      }).join('');
+
+      row.innerHTML = `<td class="stat-label">${stat}</td>${cells}`;
+      tbody.appendChild(row);
+    }
+  }
+}
+
+init().catch(console.error);
+</script>
+</body>
+</html>

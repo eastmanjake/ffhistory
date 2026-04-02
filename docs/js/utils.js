@@ -1,10 +1,16 @@
 // ── Constants ────────────────────────────────────────────────────────────────
-const SEASONS = [2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025];
+const ALL_SEASONS = [2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025];
+const PRE_MODERN_CUTOFF = 2016; // current ownership established this year
+
+// SEASONS respects the Pre-Modern Era toggle (default: modern only, 2016+)
+let SEASONS = localStorage.getItem('includePreModern') === 'true'
+  ? ALL_SEASONS
+  : ALL_SEASONS.filter(y => y >= PRE_MODERN_CUTOFF);
 
 // Normalize owner names to canonical display names
 function normOwner(o) {
   if (o === 'Steven')  return 'Steve';
-  if (o === 'Patrick') return 'Pat';
+  if (o === 'Patrick' || o === 'patrick') return 'Pat';
   return o;
 }
 
@@ -158,3 +164,44 @@ function makeSortableTable(tableEl) {
     });
   });
 }
+
+// ── Pre-Modern Era toggle ─────────────────────────────────────────────────────
+// Injected into every page's nav automatically.
+document.addEventListener('DOMContentLoaded', () => {
+  const nav = document.querySelector('.nav-inner');
+  if (!nav) return;
+
+  const isOn = localStorage.getItem('includePreModern') === 'true';
+
+  const btn = document.createElement('button');
+  btn.id        = 'pre-modern-toggle';
+  btn.title     = 'Toggle whether pre-2016 seasons (2011–2015) are included in stats';
+  btn.innerHTML = isOn
+    ? '<span style="color:var(--gold)">&#9679;</span> Pre-Modern'
+    : '<span style="color:var(--border)">&#9675;</span> Pre-Modern';
+  btn.style.cssText = [
+    'background:none',
+    'border:1px solid var(--border)',
+    'border-radius:20px',
+    'color:var(--muted)',
+    'cursor:pointer',
+    'font-size:11px',
+    'font-weight:600',
+    'letter-spacing:0.03em',
+    'margin-left:auto',
+    'padding:4px 10px',
+    'white-space:nowrap',
+    'transition:border-color 0.15s, color 0.15s',
+  ].join(';');
+
+  btn.addEventListener('mouseenter', () => { btn.style.borderColor = 'var(--muted)'; btn.style.color = 'var(--text)'; });
+  btn.addEventListener('mouseleave', () => { btn.style.borderColor = 'var(--border)'; btn.style.color = 'var(--muted)'; });
+
+  btn.addEventListener('click', () => {
+    const current = localStorage.getItem('includePreModern') === 'true';
+    localStorage.setItem('includePreModern', String(!current));
+    location.reload();
+  });
+
+  nav.appendChild(btn);
+});

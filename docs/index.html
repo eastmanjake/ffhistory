@@ -6,6 +6,67 @@
   <title>The League — Fantasy Football History</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>🏈</text></svg>">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ── Power Rankings ──────────────────────────────────────────── */
+    .pr-info-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      border: 1px solid var(--muted);
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 700;
+      cursor: pointer;
+      vertical-align: middle;
+      margin-left: 6px;
+      position: relative;
+      font-style: normal;
+      user-select: none;
+    }
+    .pr-info-icon:hover { border-color: var(--gold); color: var(--gold); }
+
+    .pr-tooltip {
+      display: none;
+      position: absolute;
+      z-index: 200;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 14px;
+      font-size: 12px;
+      line-height: 1.6;
+      color: var(--text);
+      min-width: 240px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+      margin-top: 6px;
+    }
+    .pr-tooltip.visible { display: block; }
+    .pr-formula-table { border-collapse: collapse; width: 100%; margin: 6px 0 10px; }
+    .pr-formula-table td { padding: 1px 8px 1px 0; color: var(--muted); }
+    .pr-formula-table td:last-child { text-align: right; color: var(--gold); font-weight: 600; padding-right: 0; }
+
+    /* ── Power breakdown expandable rows ─────────────────────────── */
+    .power-row { cursor: pointer; }
+    .power-row:hover td { background: rgba(212,160,23,0.04); }
+    .power-row.expanded td { background: rgba(212,160,23,0.06); }
+    .power-detail-row { display: none; }
+    .power-detail-row.visible { display: table-row; }
+    .power-detail-row td { padding: 0; border-bottom: 1px solid var(--border); }
+    .power-breakdown {
+      padding: 10px 14px;
+      background: var(--surface2);
+      overflow-x: auto;
+    }
+    .power-breakdown table { border-collapse: collapse; font-size: 11px; width: 100%; }
+    .power-breakdown th { color: var(--muted); font-weight: 600; padding: 3px 10px; text-align: right; border-bottom: 1px solid var(--border); white-space: nowrap; }
+    .power-breakdown th:first-child { text-align: left; }
+    .power-breakdown td { padding: 3px 10px; text-align: right; border-bottom: 1px solid rgba(48,54,61,0.4); white-space: nowrap; }
+    .power-breakdown td:first-child { text-align: left; color: var(--muted); }
+    .power-breakdown .total-row td { font-weight: 700; border-top: 1px solid var(--border); border-bottom: none; }
+  </style>
 </head>
 <body>
 
@@ -19,6 +80,9 @@
     <a href="draft.html">Draft</a>
     <a href="weekly.html">Weekly</a>
     <a href="transactions.html">Transactions</a>
+    <a href="extrapoints.html">Extra Points</a>
+    <a href="players.html">Players</a>
+    <a href="rules.html">Rules</a>
   </div>
 </nav>
 
@@ -84,6 +148,47 @@
     </section>
   </div>
 
+  <section>
+    <h2>Power Rankings <span id="pr-info" class="pr-info-icon" tabindex="0">ℹ</span></h2>
+    <div id="pr-tooltip" class="pr-tooltip" role="tooltip">
+      <strong>Power Score = Σ (Season Score × Era Multiplier)</strong>
+      <table class="pr-formula-table">
+        <tr><td>Championship</td><td>× 16</td></tr>
+        <tr><td>Runner-Up</td><td>× 8</td></tr>
+        <tr><td>Playoff Bye (seed 1/2)</td><td>× 6</td></tr>
+        <tr><td>Playoff Win</td><td>× 4</td></tr>
+        <tr><td>Playoff Appearance</td><td>× 2</td></tr>
+        <tr><td>Regular Season Win</td><td>× 1</td></tr>
+        <tr><td>Most Points – 1st</td><td>× 5</td></tr>
+        <tr><td>Most Points – 2nd</td><td>× 3</td></tr>
+        <tr><td>Most Points – 3rd</td><td>× 1</td></tr>
+        <tr><td>(PF − PA) / 200</td><td>tiebreaker</td></tr>
+      </table>
+      <strong>Era Multiplier</strong>
+      <table class="pr-formula-table">
+        <tr><td>2011–2015</td><td>× 1.0</td></tr>
+        <tr><td>2016+</td><td>× 1.5</td></tr>
+      </table>
+    </div>
+    <p style="color:var(--muted);font-size:12px;margin-bottom:12px">Click a row to see the season-by-season breakdown.</p>
+    <div class="table-wrap">
+      <table id="power-table">
+        <thead>
+          <tr>
+            <th class="num">#</th>
+            <th>Owner</th>
+            <th class="num">Power Score</th>
+            <th class="num">Seasons</th>
+            <th class="num">Championships</th>
+            <th class="num">Playoff Wins</th>
+            <th class="num">RS Wins</th>
+          </tr>
+        </thead>
+        <tbody><tr><td colspan="7" class="loading">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
   <div class="two-col">
     <section>
       <h2>Most Points by Season</h2>
@@ -119,25 +224,34 @@
     </section>
   </div>
 
-  <section>
-    <h2>Fun Stats</h2>
-    <div class="table-wrap">
-      <table id="fun-table">
-        <thead>
-          <tr>
-            <th>Stat</th>
-            <th>Owner</th>
-            <th class="num">Value</th>
-          </tr>
-        </thead>
-        <tbody><tr><td colspan="3" class="loading">Loading…</td></tr></tbody>
-      </table>
-    </div>
-  </section>
 </main>
 
 <script src="js/utils.js"></script>
 <script>
+// ── Tooltip toggle ────────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+  const icon    = document.getElementById('pr-info');
+  const tooltip = document.getElementById('pr-tooltip');
+  if (!icon || !tooltip) return;
+
+  // Position tooltip below icon
+  icon.addEventListener('click', e => {
+    e.stopPropagation();
+    const show = !tooltip.classList.contains('visible');
+    tooltip.classList.toggle('visible', show);
+    if (show) {
+      const rect = icon.getBoundingClientRect();
+      tooltip.style.top  = (rect.bottom + window.scrollY + 4) + 'px';
+      tooltip.style.left = (rect.left  + window.scrollX - 10) + 'px';
+      tooltip.style.position = 'fixed';
+      tooltip.style.top = (rect.bottom + 4) + 'px';
+      tooltip.style.left = (rect.left - 10) + 'px';
+    }
+  });
+  document.addEventListener('click', () => tooltip.classList.remove('visible'));
+  tooltip.addEventListener('click', e => e.stopPropagation());
+});
+
 async function init() {
   const [champions, allStandings, allMatchups] = await Promise.all([
     getChampions(),
@@ -241,109 +355,162 @@ async function init() {
     regTbody.appendChild(tr);
   });
 
-  // ── Fun Stats ──────────────────────────────────────────────────
-  // Aggregate owner stats for fun computations
-  const ownerStats = {};
-  for (const year of SEASONS) {
-    for (const t of (allStandings[year] || [])) {
-      const owner = normOwner(t.owner);
-      if (!ownerStats[owner]) ownerStats[owner] = {
-        owner, wins: 0, losses: 0, pf: 0, pa: 0, seasons: 0,
-        closeLosses: 0, closeLossMarginTotal: 0,
-      };
-      ownerStats[owner].wins    += parseInt(t.wins)             || 0;
-      ownerStats[owner].losses  += parseInt(t.losses)           || 0;
-      ownerStats[owner].pf      += parseFloat(t.points_for)     || 0;
-      ownerStats[owner].pa      += parseFloat(t.points_against) || 0;
-      ownerStats[owner].seasons += 1;
-    }
-  }
+  // ── Power Rankings ─────────────────────────────────────────────
+  const ownerPower  = {}; // owner -> total power score
+  const ownerDetail = {}; // owner -> [{year, breakdown, seasonScore, weighted}]
 
-  // Count close losses (margin ≤ 5 pts) and h2h dominance
-  const h2h = {}; // h2h[winner][loser]++
   for (const year of SEASONS) {
     const standings = allStandings[year] || [];
+    const matchups  = allMatchups[year]  || [];
     const teamOwner = buildTeamOwnerMap(standings);
-    for (const m of (allMatchups[year] || [])) {
-      const o1 = teamOwner[m.team1], o2 = teamOwner[m.team2];
-      if (!o1 || !o2) continue;
+    const eraMulti  = year <= 2015 ? 1.0 : 1.5;
+
+    // PF rankings (1st=5, 2nd=3, 3rd=1)
+    const pfRanked = [...standings].sort((a, b) => parseFloat(b.points_for) - parseFloat(a.points_for));
+    const pfBonus  = {};
+    [5, 3, 1].forEach((pts, i) => { if (pfRanked[i]) pfBonus[pfRanked[i].team] = pts; });
+
+    // Parse playoff matchups
+    const inQF = new Set(), inSF = new Set();
+    const playoffWins = {};
+    let champTeam = null, runnerUpTeam = null;
+
+    for (const m of matchups) {
+      if (!m.round) continue;
       const s1 = parseFloat(m.score1), s2 = parseFloat(m.score2);
-      const diff = Math.abs(s1 - s2);
-      const loser  = s1 > s2 ? o2 : o1;
-      const winner = s1 > s2 ? o1 : o2;
-      if (loser && ownerStats[loser] && diff <= 5) {
-        ownerStats[loser].closeLosses++;
-        ownerStats[loser].closeLossMarginTotal += diff;
+      const winner = s1 >= s2 ? m.team1 : m.team2;
+      const loser  = s1 >= s2 ? m.team2 : m.team1;
+      if (m.round === 'Quarterfinal') {
+        inQF.add(m.team1); inQF.add(m.team2);
+        playoffWins[winner] = (playoffWins[winner] || 0) + 1;
+      } else if (m.round === 'Semifinal') {
+        inSF.add(m.team1); inSF.add(m.team2);
+        playoffWins[winner] = (playoffWins[winner] || 0) + 1;
+      } else if (m.round === 'Championship') {
+        champTeam    = winner;
+        runnerUpTeam = loser;
+        playoffWins[winner] = (playoffWins[winner] || 0) + 1;
       }
-      if (winner && loser) {
-        if (!h2h[winner]) h2h[winner] = {};
-        h2h[winner][loser] = (h2h[winner][loser] || 0) + 1;
-      }
+    }
+
+    // All playoff teams; bye = in SF but not QF
+    const allPlayoffTeams = new Set([...inQF, ...inSF]);
+    if (champTeam)    allPlayoffTeams.add(champTeam);
+    if (runnerUpTeam) allPlayoffTeams.add(runnerUpTeam);
+    const byeTeams = new Set([...inSF].filter(t => !inQF.has(t)));
+
+    for (const t of standings) {
+      const owner = normOwner(t.owner);
+      const team  = t.team;
+      const pf    = parseFloat(t.points_for)     || 0;
+      const pa    = parseFloat(t.points_against)  || 0;
+      const rsW   = parseInt(t.wins)              || 0;
+
+      const bd = {
+        championship: team === champTeam    ? 16 : 0,
+        runnerUp:     team === runnerUpTeam ?  8 : 0,
+        bye:          byeTeams.has(team)    ?  6 : 0,
+        playoffApp:   allPlayoffTeams.has(team) ? 2 : 0,
+        playoffWins:  (playoffWins[team] || 0) * 4,
+        rsWins:       rsW,
+        pfBonus:      pfBonus[team] || 0,
+        diff:         (pf - pa) / 200,
+      };
+      const seasonScore  = Object.values(bd).reduce((s, v) => s + v, 0);
+      const weighted     = seasonScore * eraMulti;
+
+      if (!ownerPower[owner])  ownerPower[owner]  = 0;
+      if (!ownerDetail[owner]) ownerDetail[owner] = [];
+      ownerPower[owner] += weighted;
+      ownerDetail[owner].push({ year, eraMulti, bd, seasonScore, weighted,
+        champCount: bd.championship ? 1 : 0,
+        playoffWinCount: playoffWins[team] || 0,
+        rsWins: rsW,
+      });
     }
   }
 
-  // Find who "owns" another (most wins vs one opponent)
-  let bestOwns = null, bestOwnsCount = 0;
-  for (const [winner, opponents] of Object.entries(h2h)) {
-    for (const [loser, wins] of Object.entries(opponents)) {
-      if (wins > bestOwnsCount) {
-        bestOwnsCount = wins;
-        bestOwns = { winner, loser, wins };
-      }
-    }
-  }
+  const powerRankings = Object.entries(ownerPower)
+    .map(([owner, score]) => ({
+      owner, score,
+      details:    ownerDetail[owner] || [],
+      seasons:    (ownerDetail[owner] || []).length,
+      champs:     (ownerDetail[owner] || []).reduce((s, d) => s + d.champCount, 0),
+      playoffW:   (ownerDetail[owner] || []).reduce((s, d) => s + d.playoffWinCount, 0),
+      rsWins:     (ownerDetail[owner] || []).reduce((s, d) => s + d.rsWins, 0),
+    }))
+    .sort((a, b) => b.score - a.score);
 
-  // Best win% (min 3 seasons)
-  const statsList = Object.values(ownerStats);
-  const byWinPct  = [...statsList].filter(s => s.seasons >= 3).sort((a, b) => {
-    const wpA = a.wins / (a.wins + a.losses || 1);
-    const wpB = b.wins / (b.wins + b.losses || 1);
-    return wpB - wpA;
+  const powerTbody = document.querySelector('#power-table tbody');
+  powerTbody.innerHTML = '';
+  let prCounter = 0;
+  powerRankings.forEach((r, idx) => {
+    const rid = `pw-${prCounter++}`;
+
+    // Year-by-year breakdown table
+    const detailRows = [...r.details].sort((a, b) => b.year - a.year).map(d => `
+      <tr>
+        <td>${d.year}</td>
+        <td>${d.eraMulti.toFixed(1)}×</td>
+        <td>${d.bd.championship ? '🏆' : d.bd.runnerUp ? '🥈' : ''}</td>
+        <td>${d.bd.bye      > 0 ? d.bd.bye      : '—'}</td>
+        <td>${d.bd.playoffApp > 0 ? d.bd.playoffApp : '—'}</td>
+        <td>${d.bd.playoffWins > 0 ? d.bd.playoffWins : '—'}</td>
+        <td>${d.bd.rsWins}</td>
+        <td>${d.bd.pfBonus > 0 ? '+' + d.bd.pfBonus : '—'}</td>
+        <td>${d.bd.diff >= 0 ? '+' : ''}${d.bd.diff.toFixed(2)}</td>
+        <td>${d.seasonScore.toFixed(2)}</td>
+        <td><strong>${d.weighted.toFixed(2)}</strong></td>
+      </tr>
+    `).join('');
+
+    const dataRow = document.createElement('tr');
+    dataRow.className = 'power-row';
+    dataRow.id = `${rid}-row`;
+    dataRow.onclick = () => {
+      dataRow.classList.toggle('expanded');
+      document.getElementById(`${rid}-detail`).classList.toggle('visible');
+    };
+    dataRow.innerHTML = `
+      <td class="num" style="color:var(--muted)">${idx + 1}</td>
+      <td><strong>${r.owner}</strong></td>
+      <td class="num"><strong>${r.score.toFixed(1)}</strong></td>
+      <td class="num">${r.seasons}</td>
+      <td class="num">${r.champs > 0 ? '🏆'.repeat(r.champs) : '—'}</td>
+      <td class="num">${r.playoffW}</td>
+      <td class="num">${r.rsWins}</td>
+    `;
+    powerTbody.appendChild(dataRow);
+
+    const detailRow = document.createElement('tr');
+    detailRow.className = 'power-detail-row';
+    detailRow.id = `${rid}-detail`;
+    detailRow.innerHTML = `
+      <td colspan="7">
+        <div class="power-breakdown">
+          <table>
+            <thead>
+              <tr>
+                <th>Year</th><th>Era</th><th>Result</th>
+                <th>Bye</th><th>App</th><th>PO Wins</th>
+                <th>RS W</th><th>PF Rank</th><th>Diff</th>
+                <th>Season</th><th>Weighted</th>
+              </tr>
+            </thead>
+            <tbody>${detailRows}</tbody>
+            <tfoot>
+              <tr class="total-row">
+                <td colspan="10">Total Power Score</td>
+                <td>${r.score.toFixed(2)}</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </td>
+    `;
+    powerTbody.appendChild(detailRow);
   });
-  const bestWinPct = byWinPct[0];
 
-  // Most close losses
-  const mostCloseLosses = [...statsList].sort((a, b) => b.closeLosses - a.closeLosses)[0];
-
-  // Luckiest: most wins relative to points scored (high wins, lower PF/game)
-  // Proxy: win% significantly higher than PF rank
-  const withPFRank = statsList.filter(s => s.seasons >= 2).map(s => ({
-    ...s,
-    pfPerGame: s.pf / (s.wins + s.losses),
-    winPct: s.wins / (s.wins + s.losses),
-  }));
-  withPFRank.sort((a, b) => a.pfPerGame - b.pfPerGame); // rank by pfPerGame ascending
-  const pfRank = {};
-  withPFRank.forEach((s, i) => { pfRank[s.owner] = i + 1; });
-  withPFRank.sort((a, b) => b.winPct - a.winPct);
-  const winRank = {};
-  withPFRank.forEach((s, i) => { winRank[s.owner] = i + 1; });
-  // Luckiest = best win rank relative to PF rank
-  const luckiestOwner = withPFRank.map(s => ({
-    owner: s.owner, luck: pfRank[s.owner] - winRank[s.owner],
-    wins: s.wins, losses: s.losses, pfPerGame: s.pfPerGame,
-  })).sort((a, b) => b.luck - a.luck)[0];
-
-  // Most PA (war of attrition)
-  const mostPA = [...statsList].filter(s => s.seasons >= 3).sort((a, b) =>
-    b.pa / b.seasons - a.pa / a.seasons
-  )[0];
-
-  const funRows = [
-    { stat: 'Best All-Time Win %', owner: bestWinPct?.owner, value: bestWinPct ? pctStr(bestWinPct.wins/(bestWinPct.wins+bestWinPct.losses)) : '—' },
-    { stat: 'Most Close Losses (≤5 pts)', owner: mostCloseLosses?.owner, value: mostCloseLosses?.closeLosses ?? '—' },
-    { stat: 'Most Points Scored Against (per season)', owner: mostPA?.owner, value: mostPA ? (mostPA.pa/mostPA.seasons).toFixed(1) : '—' },
-    { stat: 'Luckiest Owner (win% >> scoring rank)', owner: luckiestOwner?.owner, value: luckiestOwner ? pctStr(luckiestOwner.wins/(luckiestOwner.wins+luckiestOwner.losses)) : '—' },
-    bestOwns ? { stat: `Most dominant rivalry`, owner: `${bestOwns.winner} over ${bestOwns.loser}`, value: `${bestOwns.wins} wins` } : null,
-  ].filter(Boolean);
-
-  const funTbody = document.querySelector('#fun-table tbody');
-  funTbody.innerHTML = '';
-  funRows.forEach(r => {
-    const tr = document.createElement('tr');
-    tr.innerHTML = `<td style="color:var(--muted)">${r.stat}</td><td><strong>${r.owner}</strong></td><td class="num">${r.value}</td>`;
-    funTbody.appendChild(tr);
-  });
 }
 
 init().catch(console.error);

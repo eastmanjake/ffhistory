@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player History — The League</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>🏈</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ── Controls ────────────────────────────────────────────────── */
+    .player-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .search-wrap {
+      position: relative;
+      flex: 1;
+      min-width: 200px;
+      max-width: 340px;
+    }
+    .search-wrap input {
+      width: 100%;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text);
+      padding: 7px 12px 7px 32px;
+      font-size: 13px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .search-wrap input:focus { border-color: var(--gold); }
+    .search-wrap .search-icon {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+      font-size: 13px;
+      pointer-events: none;
+    }
+
+    /* ── Position filter pills ───────────────────────────────────── */
+    .pos-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .pos-pill {
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: var(--surface2);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.1s;
+    }
+    .pos-pill:hover { color: var(--text); border-color: var(--muted); }
+    .pos-pill.active { background: var(--gold); border-color: var(--gold); color: #000; }
+
+    /* ── Player table ────────────────────────────────────────────── */
+    .player-row { cursor: pointer; }
+    .player-row:hover td { background: rgba(212,160,23,0.04); }
+    .player-row.expanded td { background: rgba(212,160,23,0.06); }
+
+    .owner-breakdown-row { display: none; }
+    .owner-breakdown-row.visible { display: table-row; }
+    .owner-breakdown-row td { padding: 0; border-bottom: 1px solid var(--border); }
+
+    .owner-breakdown {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 10px 14px;
+      background: var(--surface2);
+    }
+    .owner-chip {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 6px 12px;
+      min-width: 80px;
+    }
+    .owner-chip .chip-owner { font-size: 11px; color: var(--muted); margin-bottom: 2px; }
+    .owner-chip .chip-pts   { font-size: 14px; font-weight: 700; color: var(--text); }
+    .owner-chip .chip-starts { font-size: 10px; color: var(--muted); margin-top: 1px; }
+
+    /* ── Position badge ──────────────────────────────────────────── */
+    .pos-badge {
+      display: inline-block;
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+    }
+
+    /* ── Result count ────────────────────────────────────────────── */
+    .result-count {
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">🏈 The League</a>
+    <a href="index.html">Home</a>
+    <a href="season.html">Seasons</a>
+    <a href="alltime.html">All-Time</a>
+    <a href="h2h.html">Head-to-Head</a>
+    <a href="draft.html">Draft</a>
+    <a href="weekly.html">Weekly</a>
+    <a href="transactions.html">Transactions</a>
+    <a href="extrapoints.html">Extra Points</a>
+    <a href="players.html" class="active">Players</a>
+    <a href="rules.html">Rules</a>
+  </div>
+</nav>
+
+<main>
+  <div class="page-header">
+    <h1>Player History</h1>
+    <p>All-time leaders by fantasy points scored as a starter. Click a row to see points per owner.</p>
+  </div>
+
+  <div class="player-controls">
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="player-search" placeholder="Search player or NFL team…" oninput="applyFilters()">
+    </div>
+    <div class="pos-pills" id="pos-pills">
+      <button class="pos-pill active" data-pos="ALL" onclick="setPosFilter('ALL')">All</button>
+      <button class="pos-pill" data-pos="QB"  onclick="setPosFilter('QB')">QB</button>
+      <button class="pos-pill" data-pos="RB"  onclick="setPosFilter('RB')">RB</button>
+      <button class="pos-pill" data-pos="WR"  onclick="setPosFilter('WR')">WR</button>
+      <button class="pos-pill" data-pos="TE"  onclick="setPosFilter('TE')">TE</button>
+      <button class="pos-pill" data-pos="K"   onclick="setPosFilter('K')">K</button>
+      <button class="pos-pill" data-pos="DEF" onclick="setPosFilter('DEF')">DEF</button>
+    </div>
+  </div>
+
+  <section>
+    <div class="result-count" id="result-count"></div>
+    <div class="table-wrap">
+      <table id="players-table">
+        <thead>
+          <tr>
+            <th class="num sortable" data-col="rank">#</th>
+            <th class="sortable" data-col="player">Player</th>
+            <th class="sortable" data-col="pos">Pos</th>
+            <th class="sortable" data-col="nfl_team">NFL Team</th>
+            <th class="num sortable sort-desc" data-col="total">Total Pts</th>
+            <th class="num sortable" data-col="starts">Starts</th>
+            <th class="num sortable" data-col="ppg">Pts / Start</th>
+          </tr>
+        </thead>
+        <tbody><tr><td colspan="7" class="loading">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<script src="js/utils.js"></script>
+<script>
+// ── Position badge colors ─────────────────────────────────────────────────────
+const POS_COLORS = {
+  QB:  { bg: 'rgba(232,136,136,0.18)', color: '#e88' },
+  RB:  { bg: 'rgba(141,200,141,0.18)', color: '#8dc' },
+  WR:  { bg: 'rgba(136,136,220,0.18)', color: '#88d' },
+  TE:  { bg: 'rgba(218,168,136,0.18)', color: '#da8' },
+  K:   { bg: 'rgba(160,160,160,0.18)', color: '#aaa' },
+  DEF: { bg: 'rgba(100,160,220,0.18)', color: '#6af' },
+};
+
+function posBadge(pos) {
+  const p = normalizePos(pos);
+  const c = POS_COLORS[p] || { bg: 'rgba(160,160,160,0.12)', color: 'var(--muted)' };
+  return `<span class="pos-badge" style="background:${c.bg};color:${c.color}">${p}</span>`;
+}
+
+function normalizePos(pos) {
+  // Some entries are "QB,TE" etc — take the first
+  return (pos || '?').split(/[,/]/)[0].toUpperCase();
+}
+
+// ── State ─────────────────────────────────────────────────────────────────────
+let allPlayers   = [];   // sorted by total pts desc
+let sortCol      = 'total';
+let sortDir      = -1;   // -1 = desc, 1 = asc
+let activePosFilter = 'ALL';
+
+// ── Load & aggregate ──────────────────────────────────────────────────────────
+async function init() {
+  const lineupsByYear = await loadAllSeasons('weekly_lineups.json');
+
+  // playerMap[name] = { player, pos, nfl_team, total, starts, owners: {owner: {pts, starts}} }
+  const playerMap = {};
+
+  for (const year of SEASONS) {
+    for (const e of (lineupsByYear[year] || [])) {
+      if (e.slot === 'BN' || e.slot === 'IR') continue;
+      const name  = e.player;
+      const owner = normOwner(e.owner || '?');
+      const pts   = parseFloat(e.fantasy_pts) || 0;
+      const pos   = normalizePos(e.pos);
+
+      if (!playerMap[name]) {
+        playerMap[name] = { player: name, pos, nfl_team: e.nfl_team || '?', total: 0, starts: 0, owners: {} };
+      }
+      const p = playerMap[name];
+      // Update NFL team to most recent non-null value
+      if (e.nfl_team) p.nfl_team = e.nfl_team;
+      p.total  += pts;
+      p.starts += 1;
+
+      if (!p.owners[owner]) p.owners[owner] = { pts: 0, starts: 0 };
+      p.owners[owner].pts    += pts;
+      p.owners[owner].starts += 1;
+    }
+  }
+
+  allPlayers = Object.values(playerMap)
+    .map(p => ({ ...p, ppg: p.starts > 0 ? p.total / p.starts : 0 }))
+    .sort((a, b) => b.total - a.total);
+
+  setupSortHeaders();
+  applyFilters();
+}
+
+// ── Sorting ───────────────────────────────────────────────────────────────────
+function setupSortHeaders() {
+  const ths = document.querySelectorAll('#players-table th.sortable');
+  ths.forEach(th => {
+    th.style.cursor = 'pointer';
+    th.addEventListener('click', () => {
+      const col = th.dataset.col;
+      if (sortCol === col) {
+        sortDir *= -1;
+      } else {
+        sortCol = col;
+        sortDir = col === 'player' || col === 'pos' || col === 'nfl_team' ? 1 : -1;
+      }
+      ths.forEach(t => t.classList.remove('sort-asc', 'sort-desc'));
+      th.classList.add(sortDir === 1 ? 'sort-asc' : 'sort-desc');
+      applyFilters();
+    });
+  });
+}
+
+function sortPlayers(players) {
+  return [...players].sort((a, b) => {
+    let av = a[sortCol], bv = b[sortCol];
+    if (sortCol === 'rank') return 0; // rank is display order, handled by position in filtered list
+    if (typeof av === 'string') return sortDir * av.localeCompare(bv);
+    return sortDir * (bv - av);
+  });
+}
+
+// ── Filtering ─────────────────────────────────────────────────────────────────
+function setPosFilter(pos) {
+  activePosFilter = pos;
+  document.querySelectorAll('.pos-pill').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.pos === pos);
+  });
+  applyFilters();
+}
+
+function applyFilters() {
+  const query = document.getElementById('player-search').value.trim().toLowerCase();
+  let filtered = allPlayers;
+
+  if (activePosFilter !== 'ALL') {
+    filtered = filtered.filter(p => p.pos === activePosFilter);
+  }
+  if (query) {
+    filtered = filtered.filter(p =>
+      p.player.toLowerCase().includes(query) ||
+      (p.nfl_team || '').toLowerCase().includes(query)
+    );
+  }
+
+  filtered = sortPlayers(filtered);
+  renderTable(filtered);
+}
+
+// ── Render ────────────────────────────────────────────────────────────────────
+let rowIdCounter = 0;
+
+function renderTable(players) {
+  document.getElementById('result-count').textContent =
+    `${players.length.toLocaleString()} player${players.length !== 1 ? 's' : ''}`;
+
+  const tbody = document.querySelector('#players-table tbody');
+  tbody.innerHTML = '';
+
+  if (!players.length) {
+    tbody.innerHTML = '<tr><td colspan="7" class="loading">No players match.</td></tr>';
+    return;
+  }
+
+  players.forEach((p, idx) => {
+    const rid = `pr-${rowIdCounter++}`;
+
+    // Owner breakdown chips
+    const ownerChips = Object.entries(p.owners)
+      .sort((a, b) => b[1].pts - a[1].pts)
+      .map(([owner, d]) => `
+        <div class="owner-chip">
+          <span class="chip-owner">${owner}</span>
+          <span class="chip-pts">${d.pts.toFixed(1)}</span>
+          <span class="chip-starts">${d.starts} start${d.starts !== 1 ? 's' : ''}</span>
+        </div>
+      `).join('');
+
+    const dataRow = document.createElement('tr');
+    dataRow.className = 'player-row';
+    dataRow.id = `${rid}-row`;
+    dataRow.onclick = () => togglePlayerRow(rid);
+    dataRow.innerHTML = `
+      <td class="num" style="color:var(--muted)">${idx + 1}</td>
+      <td><strong>${p.player}</strong></td>
+      <td>${posBadge(p.pos)}</td>
+      <td style="color:var(--muted)">${p.nfl_team || '—'}</td>
+      <td class="num"><strong>${p.total.toFixed(1)}</strong></td>
+      <td class="num">${p.starts}</td>
+      <td class="num">${p.ppg.toFixed(1)}</td>
+    `;
+    tbody.appendChild(dataRow);
+
+    const detailRow = document.createElement('tr');
+    detailRow.className = 'owner-breakdown-row';
+    detailRow.id = `${rid}-detail`;
+    detailRow.innerHTML = `
+      <td colspan="7">
+        <div class="owner-breakdown">${ownerChips}</div>
+      </td>
+    `;
+    tbody.appendChild(detailRow);
+  });
+}
+
+function togglePlayerRow(rid) {
+  document.getElementById(`${rid}-row`).classList.toggle('expanded');
+  document.getElementById(`${rid}-detail`).classList.toggle('visible');
+}
+
+init().catch(console.error);
+</script>
+</body>
+</html>

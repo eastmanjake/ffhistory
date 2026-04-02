@@ -68,8 +68,76 @@
     .league-grid th { background: var(--surface2); color: var(--muted); font-weight: 600; font-size: 11px; }
     .league-grid .row-label { text-align: left; font-weight: 600; color: var(--text); background: var(--surface2); min-width: 90px; }
     .league-grid .self-cell { background: var(--surface2); color: var(--border); }
-    .grid-win  { color: var(--green); }
-    .grid-loss { color: var(--red); }
+
+    /* ── Grid filters ────────────────────────────────────────────── */
+    .grid-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: flex-start;
+      margin-bottom: 20px;
+      padding: 14px 16px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+    }
+    .grid-filter-group { display: flex; flex-direction: column; gap: 6px; }
+    .grid-filter-group label.group-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--muted);
+    }
+    .grid-filter-group .range-row { display: flex; align-items: center; gap: 8px; }
+    .grid-filter-group select {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+    .owner-checkboxes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 14px;
+    }
+    .owner-checkboxes label {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 13px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .owner-checkboxes input[type=checkbox] { accent-color: var(--gold); cursor: pointer; }
+    .filter-toggle-btn {
+      font-size: 11px;
+      color: var(--gold);
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      text-decoration: underline;
+    }
+
+    /* ── Heat legend ─────────────────────────────────────────────── */
+    .heat-legend {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+    .heat-legend-bar {
+      width: 120px;
+      height: 10px;
+      border-radius: 3px;
+      background: linear-gradient(to right, rgba(229,115,115,0.6), transparent, rgba(76,175,80,0.6));
+      border: 1px solid var(--border);
+    }
 
     @media (max-width: 600px) {
       .lineup-cols { grid-template-columns: 1fr; }
@@ -89,6 +157,9 @@
     <a href="draft.html">Draft</a>
     <a href="weekly.html">Weekly</a>
     <a href="transactions.html">Transactions</a>
+    <a href="extrapoints.html">Extra Points</a>
+    <a href="players.html">Players</a>
+    <a href="rules.html">Rules</a>
   </div>
 </nav>
 
@@ -115,11 +186,34 @@
 
   <!-- ── Tab: Full League Grid ────────────────────────────────── -->
   <div class="tab-panel" id="tab-grid">
-    <p style="color:var(--muted);font-size:12px;margin-bottom:16px">
-      Row = owner's record <em>against</em> each column opponent.
-      <span class="grid-win">Green</span> = winning record &nbsp;
-      <span class="grid-loss">Red</span> = losing record
-    </p>
+    <div class="grid-filters">
+      <div class="grid-filter-group">
+        <label class="group-label">Season Range</label>
+        <div class="range-row">
+          <select id="grid-year-from"></select>
+          <span style="color:var(--muted);font-size:12px">to</span>
+          <select id="grid-year-to"></select>
+        </div>
+      </div>
+      <div class="grid-filter-group">
+        <label class="group-label">
+          Owners &nbsp;
+          <button class="filter-toggle-btn" id="owners-toggle" onclick="toggleAllOwners()">Deselect All</button>
+        </label>
+        <div class="owner-checkboxes" id="owner-checkboxes">
+          <!-- populated by JS -->
+        </div>
+      </div>
+    </div>
+
+    <div class="heat-legend">
+      <span>Losing</span>
+      <div class="heat-legend-bar"></div>
+      <span>Winning</span>
+      <span style="margin-left:12px;color:var(--border)">|</span>
+      <span style="margin-left:12px">Row owner's record <em>against</em> each column opponent.</span>
+    </div>
+
     <div id="grid-content"><p class="loading">Loading…</p></div>
   </div>
 </main>
@@ -169,10 +263,9 @@ let ownerList     = null;
 let allLineupsByYearWeekTeam = {};
 
 async function init() {
-  const [matchups, owners, allStandings] = await Promise.all([
+  const [matchups, owners] = await Promise.all([
     getAllMatchupsWithOwners(),
     getOwnerList(),
-    loadAllSeasons('standings.json'),
   ]);
   allMatchups = matchups;
   ownerList   = owners;
@@ -189,6 +282,7 @@ async function init() {
     }
   }
 
+  // ── Matchup tab dropdowns ────────────────────────────────────────
   const sel1 = document.getElementById('owner1-select');
   const sel2 = document.getElementById('owner2-select');
   sel1.innerHTML = '';
@@ -208,7 +302,49 @@ async function init() {
   sel1.addEventListener('change', renderMatchup);
   sel2.addEventListener('change', renderMatchup);
 
+  // ── Grid filters ─────────────────────────────────────────────────
+  const fromSel = document.getElementById('grid-year-from');
+  const toSel   = document.getElementById('grid-year-to');
+  SEASONS.forEach(y => {
+    fromSel.appendChild(new Option(y, y));
+    toSel.appendChild(new Option(y, y));
+  });
+  fromSel.value = SEASONS[0];
+  toSel.value   = SEASONS[SEASONS.length - 1];
+  fromSel.addEventListener('change', onGridFilterChange);
+  toSel.addEventListener('change', onGridFilterChange);
+
+  const cbWrap = document.getElementById('owner-checkboxes');
+  ownerList.forEach(o => {
+    const lbl = document.createElement('label');
+    const cb  = document.createElement('input');
+    cb.type    = 'checkbox';
+    cb.value   = o;
+    cb.checked = true;
+    cb.addEventListener('change', onGridFilterChange);
+    lbl.appendChild(cb);
+    lbl.appendChild(document.createTextNode(o));
+    cbWrap.appendChild(lbl);
+  });
+
   renderMatchup();
+  renderGrid();
+}
+
+function onGridFilterChange() {
+  // Enforce from ≤ to
+  const fromSel = document.getElementById('grid-year-from');
+  const toSel   = document.getElementById('grid-year-to');
+  if (parseInt(fromSel.value) > parseInt(toSel.value)) toSel.value = fromSel.value;
+  renderGrid();
+}
+
+function toggleAllOwners() {
+  const cbs  = document.querySelectorAll('#owner-checkboxes input[type=checkbox]');
+  const btn  = document.getElementById('owners-toggle');
+  const allChecked = [...cbs].every(c => c.checked);
+  cbs.forEach(c => { c.checked = !allChecked; });
+  btn.textContent = allChecked ? 'Select All' : 'Deselect All';
   renderGrid();
 }
 
@@ -348,18 +484,45 @@ function toggleGameRow(id) {
 }
 
 // ── Grid tab ───────────────────────────────────────────────────────────────────
+function heatBg(w, l) {
+  const total = w + l;
+  if (total === 0) return '';
+  const pct       = w / total;
+  const intensity = Math.abs(pct - 0.5) * 2; // 0 → even, 1 → dominant
+  const alpha     = 0.15 + intensity * 0.45;  // 0.15 … 0.60
+  if (pct > 0.5) return `background:rgba(76,175,80,${alpha.toFixed(2)})`;
+  if (pct < 0.5) return `background:rgba(229,115,115,${alpha.toFixed(2)})`;
+  return 'background:rgba(180,180,180,0.08)';
+}
+
 function renderGrid() {
   const content = document.getElementById('grid-content');
   if (!allMatchups || !ownerList) { content.innerHTML = '<p class="empty">No data</p>'; return; }
 
-  // Build records: records[row][col] = {w, l}
+  // Read filters
+  const yearFrom = parseInt(document.getElementById('grid-year-from').value);
+  const yearTo   = parseInt(document.getElementById('grid-year-to').value);
+  const checkedOwners = new Set(
+    [...document.querySelectorAll('#owner-checkboxes input[type=checkbox]')]
+      .filter(c => c.checked).map(c => c.value)
+  );
+
+  if (!checkedOwners.size) {
+    content.innerHTML = '<p class="empty">No owners selected.</p>';
+    return;
+  }
+
+  const visibleOwners = ownerList.filter(o => checkedOwners.has(o));
+
+  // Build records from filtered matchups
   const records = {};
-  ownerList.forEach(o1 => {
+  visibleOwners.forEach(o1 => {
     records[o1] = {};
-    ownerList.forEach(o2 => { records[o1][o2] = { w: 0, l: 0 }; });
+    visibleOwners.forEach(o2 => { records[o1][o2] = { w: 0, l: 0 }; });
   });
 
   allMatchups.forEach(g => {
+    if (g.year < yearFrom || g.year > yearTo) return;
     const { owner1, owner2, score1, score2 } = g;
     if (!records[owner1] || !records[owner2]) return;
     if (score1 > score2) {
@@ -371,17 +534,24 @@ function renderGrid() {
     }
   });
 
-  const colHeaders = ownerList.map(o => `<th title="${o}">${o.length > 7 ? o.slice(0,6)+'…' : o}</th>`).join('');
-  const bodyRows = ownerList.map(row => {
-    const cells = ownerList.map(col => {
+  const colHeaders = visibleOwners.map(o =>
+    `<th title="${o}">${o.length > 7 ? o.slice(0,6)+'…' : o}</th>`
+  ).join('');
+
+  const bodyRows = visibleOwners.map(row => {
+    const cells = visibleOwners.map(col => {
       if (row === col) return `<td class="self-cell">—</td>`;
       const { w, l } = records[row][col];
       if (w === 0 && l === 0) return `<td style="color:var(--border)">—</td>`;
-      const cls = w > l ? 'grid-win' : w < l ? 'grid-loss' : '';
-      return `<td class="${cls}">${w}-${l}</td>`;
+      const bg      = heatBg(w, l);
+      const weight  = w !== l ? 'font-weight:600' : '';
+      return `<td style="${bg};${weight}">${w}-${l}</td>`;
     }).join('');
     return `<tr><td class="row-label">${row}</td>${cells}</tr>`;
   }).join('');
+
+  const totalGames = allMatchups.filter(g => g.year >= yearFrom && g.year <= yearTo).length;
+  const seasonLabel = yearFrom === yearTo ? `${yearFrom}` : `${yearFrom}–${yearTo}`;
 
   content.innerHTML = `
     <div class="league-grid-wrap">
@@ -390,7 +560,9 @@ function renderGrid() {
         <tbody>${bodyRows}</tbody>
       </table>
     </div>
-    <p style="color:var(--muted);font-size:11px;margin-top:10px">Includes all regular season and playoff games across all 15 seasons.</p>
+    <p style="color:var(--muted);font-size:11px;margin-top:10px">
+      ${totalGames} games across ${seasonLabel}. Includes regular season and playoffs.
+    </p>
   `;
 }
 

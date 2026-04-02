@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extra Points — The League</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>🏈</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">🏈 The League</a>
+    <a href="index.html">Home</a>
+    <a href="season.html">Seasons</a>
+    <a href="alltime.html">All-Time</a>
+    <a href="h2h.html">Head-to-Head</a>
+    <a href="draft.html">Draft</a>
+    <a href="weekly.html">Weekly</a>
+    <a href="transactions.html">Transactions</a>
+    <a href="extrapoints.html" class="active">Extra Points</a>
+  </div>
+</nav>
+
+<main>
+  <div class="page-header">
+    <h1>Extra Points</h1>
+    <p>Fun stats and historical curiosities from 15 seasons.</p>
+  </div>
+
+  <!-- Fun Stats -->
+  <section>
+    <h2>Fun Stats</h2>
+    <div class="table-wrap">
+      <table id="fun-table">
+        <thead>
+          <tr><th>Stat</th><th>Owner</th><th class="num">Value</th></tr>
+        </thead>
+        <tbody><tr><td colspan="3" class="loading">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Individual Season Feats -->
+  <section>
+    <h2>Individual Season Feats</h2>
+    <div class="table-wrap">
+      <table id="feats-table">
+        <thead>
+          <tr><th>Feat</th><th>Details</th><th class="num">Value</th></tr>
+        </thead>
+        <tbody><tr><td colspan="3" class="loading">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- H2H Rivalries + Nemesis -->
+  <div class="two-col">
+    <section>
+      <h2>Rivalry Records</h2>
+      <div class="table-wrap">
+        <table id="rivalry-table">
+          <thead>
+            <tr><th>Category</th><th>Rivalry</th><th class="num">Record</th></tr>
+          </thead>
+          <tbody><tr><td colspan="3" class="loading">Loading…</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+    <section>
+      <h2>Nemesis</h2>
+      <p style="font-size:12px;color:var(--muted);margin:0 0 8px">Opponent each owner has the worst record against (min. 3 matchups)</p>
+      <div class="table-wrap">
+        <table id="nemesis-table">
+          <thead>
+            <tr><th>Owner</th><th>Nemesis</th><th class="num">Record</th></tr>
+          </thead>
+          <tbody><tr><td colspan="3" class="loading">Loading…</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <!-- Championship & Playoff Drama -->
+  <section>
+    <h2>Championship &amp; Playoff Drama</h2>
+    <div class="table-wrap">
+      <table id="drama-table">
+        <thead>
+          <tr><th>Achievement</th><th>Owner</th><th class="num">Value</th></tr>
+        </thead>
+        <tbody><tr><td colspan="3" class="loading">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Scoring Trends -->
+  <div class="two-col">
+    <section>
+      <h2>Avg Points Per Season</h2>
+      <div class="table-wrap">
+        <table id="trends-table">
+          <thead>
+            <tr><th>Year</th><th class="num">Avg Points</th></tr>
+          </thead>
+          <tbody><tr><td colspan="2" class="loading">Loading…</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+    <section>
+      <h2>Owner Scoring Trends</h2>
+      <p style="font-size:12px;color:var(--muted);margin:0 0 8px">Avg pts/game — first 3 seasons played vs. most recent 3 (min. 6 seasons)</p>
+      <div class="table-wrap">
+        <table id="owner-trend-table">
+          <thead>
+            <tr><th>Owner</th><th class="num">Early</th><th class="num">Recent</th><th class="num">Change</th></tr>
+          </thead>
+          <tbody><tr><td colspan="4" class="loading">Loading…</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <!-- Streaks -->
+  <section>
+    <h2>Streaks</h2>
+    <div class="table-wrap">
+      <table id="streaks-table">
+        <thead>
+          <tr><th>Streak</th><th>Owner</th><th class="num">Games</th></tr>
+        </thead>
+        <tbody><tr><td colspan="3" class="loading">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Draft Curiosities -->
+  <div class="two-col">
+    <section>
+      <h2>Round 1 Picks by Position</h2>
+      <p style="font-size:12px;color:var(--muted);margin:0 0 8px">How often each position is taken in round 1, across all 15 drafts</p>
+      <div class="table-wrap">
+        <table id="draft-r1-table">
+          <thead>
+            <tr><th>Position</th><th class="num">Times Picked</th></tr>
+          </thead>
+          <tbody><tr><td colspan="2" class="loading">Loading…</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+    <section>
+      <h2>Repeat Draft Picks</h2>
+      <p style="font-size:12px;color:var(--muted);margin:0 0 8px">Players drafted by the same owner in multiple seasons</p>
+      <div class="table-wrap">
+        <table id="repeat-draft-table">
+          <thead>
+            <tr><th>Owner</th><th>Player</th><th class="num">Times</th></tr>
+          </thead>
+          <tbody><tr><td colspan="3" class="loading">Loading…</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <!-- Fun / Absurd Facts -->
+  <section>
+    <h2>Fun / Absurd Facts</h2>
+    <div class="table-wrap">
+      <table id="absurd-table">
+        <thead>
+          <tr><th>Fact</th><th>Details</th><th class="num">Value</th></tr>
+        </thead>
+        <tbody><tr><td colspan="3" class="loading">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<script src="js/utils.js"></script>
+<script>
+// Generic renderer for 3-col stat tables: Stat | Details | Value
+function renderStatTable(selector, rows) {
+  const tbody = document.querySelector(selector + ' tbody');
+  if (!tbody) return;
+  tbody.innerHTML = '';
+  rows.filter(Boolean).forEach(r => {
+    const tr = document.createElement('tr');
+    const mid = r.owner
+      ? `<strong>${r.owner}</strong>${r.sub ? `<br><span style="color:var(--muted);font-size:11px">${r.sub}</span>` : ''}`
+      : (r.sub || '—');
+    tr.innerHTML = `
+      <td style="color:var(--muted)">${r.stat}</td>
+      <td>${mid}</td>
+      <td class="num">${r.value}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+async function init() {
+  const [allStandings, allMatchups, allDraft, allTxns] = await Promise.all([
+    loadAllSeasons('standings.json'),
+    loadAllSeasons('matchups.json'),
+    loadAllSeasons('draft.json'),
+    loadAllSeasons('transactions.json'),
+  ]);
+
+  // ── Build team→owner map and enriched game list ─────────────────
+  const teamOwnerByYear = {};
+  for (const year of SEASONS) {
+    teamOwnerByYear[year] = buildTeamOwnerMap(allStandings[year] || []);
+  }
+
+  const allGames = [];
+  for (const year of SEASONS) {
+    const to = teamOwnerByYear[year];
+    for (const m of (allMatchups[year] || [])) {
+      const s1 = parseFloat(m.score1), s2 = parseFloat(m.score2);
+      if (isNaN(s1) || isNaN(s2)) continue;
+      const o1 = to[m.team1] || '?', o2 = to[m.team2] || '?';
+      allGames.push({
+        year, week: m.week,
+        team1: m.team1, owner1: o1, score1: s1,
+        team2: m.team2, owner2: o2, score2: s2,
+        playoff: m.playoff, round: m.round || '',
+        margin: Math.abs(s1 - s2),
+        winnerTeam:  s1 >= s2 ? m.team1 : m.team2,
+        loserTeam:   s1 >= s2 ? m.team2 : m.team1,
+        winnerOwner: s1 >= s2 ? o1 : o2,
+        loserOwner:  s1 >= s2 ? o2 : o1,
+        winnerScore: Math.max(s1, s2),
+        loserScore:  Math.min(s1, s2),
+      });
+    }
+  }
+  const regGames = allGames.filter(g => !g.playoff);
+
+  // ── FUN STATS (original) ────────────────────────────────────────
+  const ownerStats = {};
+  for (const year of SEASONS) {
+    for (const t of (allStandings[year] || [])) {
+      const owner = normOwner(t.owner);
+      if (!ownerStats[owner]) ownerStats[owner] = { owner, wins:0, losses:0, pf:0, pa:0, seasons:0, closeLosses:0 };
+      ownerStats[owner].wins    += parseInt(t.wins)             || 0;
+      ownerStats[owner].losses  += parseInt(t.losses)           || 0;
+      ownerStats[owner].pf      += parseFloat(t.points_for)     || 0;
+      ownerStats[owner].pa      += parseFloat(t.points_against) || 0;
+      ownerStats[owner].seasons += 1;
+    }
+  }
+
+  const h2hAll = {};
+  for (const g of allGames) {
+    if (g.owner1 === '?' || g.owner2 === '?') continue;
+    if (!h2hAll[g.winnerOwner]) h2hAll[g.winnerOwner] = {};
+    h2hAll[g.winnerOwner][g.loserOwner] = (h2hAll[g.winnerOwner][g.loserOwner] || 0) + 1;
+    if (g.margin <= 5 && ownerStats[g.loserOwner]) ownerStats[g.loserOwner].closeLosses++;
+  }
+
+  let bestOwns = null, bestOwnsCount = 0;
+  for (const [winner, opp] of Object.entries(h2hAll)) {
+    for (const [loser, wins] of Object.entries(opp)) {
+      if (wins > bestOwnsCount) { bestOwnsCount = wins; bestOwns = { winner, loser, wins }; }
+    }
+  }
+
+  const statsList = Object.values(ownerStats);
+  const bestWinPct = [...statsList].filter(s => s.seasons >= 3)
+    .sort((a, b) => (b.wins/(b.wins+b.losses)) - (a.wins/(a.wins+a.losses)))[0];
+  const mostCloseLosses = [...statsList].sort((a, b) => b.closeLosses - a.closeLosses)[0];
+  const mostPA = [...statsList].filter(s => s.seasons >= 3)
+    .sort((a, b) => b.pa/b.seasons - a.pa/a.seasons)[0];
+
+  const withPFRank = statsList.filter(s => s.seasons >= 2).map(s => ({
+    ...s, pfPerGame: s.pf/(s.wins+s.losses), winPct: s.wins/(s.wins+s.losses),
+  }));
+  withPFRank.sort((a, b) => a.pfPerGame - b.pfPerGame);
+  const pfRank = {}; withPFRank.forEach((s, i) => { pfRank[s.owner] = i+1; });
+  withPFRank.sort((a, b) => b.winPct - a.winPct);
+  const winRank = {}; withPFRank.forEach((s, i) => { winRank[s.owner] = i+1; });
+  const luckiestOwner = withPFRank.map(s => ({
+    owner: s.owner, luck: pfRank[s.owner] - winRank[s.owner],
+    wins: s.wins, losses: s.losses,
+  })).sort((a, b) => b.luck - a.luck)[0];
+
+  renderStatTable('#fun-table', [
+    { stat: 'Best All-Time Win %', owner: bestWinPct?.owner, value: bestWinPct ? pctStr(bestWinPct.wins/(bestWinPct.wins+bestWinPct.losses)) : '—' },
+    { stat: 'Most Close Losses (≤5 pts)', owner: mostCloseLosses?.owner, value: mostCloseLosses?.closeLosses ?? '—' },
+    { stat: 'Most Points Scored Against (per season)', owner: mostPA?.owner, value: mostPA ? (mostPA.pa/mostPA.seasons).toFixed(1) : '—' },
+    { stat: 'Luckiest Owner (win% >> scoring rank)', owner: luckiestOwner?.owner, value: luckiestOwner ? pctStr(luckiestOwner.wins/(luckiestOwner.wins+luckiestOwner.losses)) : '—' },
+    bestOwns ? { stat: 'Most dominant rivalry', owner: `${bestOwns.winner} over ${bestOwns.loser}`, value: `${bestOwns.wins} wins` } : null,
+  ]);
+
+  // ── INDIVIDUAL SEASON FEATS ─────────────────────────────────────
+
+  // Highest/lowest single-week score
+  let highWeek = null, lowWeek = null;
+  for (const g of allGames) {
+    for (const [score, team, owner] of [[g.score1, g.team1, g.owner1],[g.score2, g.team2, g.owner2]]) {
+      if (!highWeek || score > highWeek.score) highWeek = { score, team, owner, year: g.year, week: g.week };
+      if (score > 0 && (!lowWeek || score < lowWeek.score)) lowWeek = { score, team, owner, year: g.year, week: g.week };
+    }
+  }
+
+  // Highest/lowest season total
+  let highSeason = null, lowSeason = null;
+  for (const year of SEASONS) {
+    for (const t of (allStandings[year] || [])) {
+      const pf = parseFloat(t.points_for);
+      if (!highSeason || pf > highSeason.pf) highSeason = { pf, team: t.team, owner: normOwner(t.owner), year };
+      if (pf > 0 && (!lowSeason || pf < lowSeason.pf)) lowSeason = { pf, team: t.team, owner: normOwner(t.owner), year };
+    }
+  }
+
+  // Most lopsided matchup
+  const mostLopsided = [...allGames].sort((a, b) => b.margin - a.margin)[0];
+
+  // Most points in a loss
+  const biggestLoss = [...allGames].sort((a, b) => b.loserScore - a.loserScore)[0];
+
+  // Best record that missed playoffs / worst record that made playoffs
+  const playoffTeamsByYear = {};
+  for (const year of SEASONS) {
+    playoffTeamsByYear[year] = new Set();
+    for (const m of (allMatchups[year] || [])) {
+      if (m.playoff && ['Quarterfinal','Semifinal','Championship'].includes(m.round)) {
+        playoffTeamsByYear[year].add(m.team1);
+        playoffTeamsByYear[year].add(m.team2);
+      }
+    }
+  }
+
+  // Count regular-season wins per team per year
+  const rsWins = {}, rsGames = {};
+  for (const year of SEASONS) {
+    rsWins[year] = {}; rsGames[year] = {};
+    for (const g of regGames.filter(g => g.year === year)) {
+      rsGames[year][g.team1] = (rsGames[year][g.team1] || 0) + 1;
+      rsGames[year][g.team2] = (rsGames[year][g.team2] || 0) + 1;
+      rsWins[year][g.winnerTeam] = (rsWins[year][g.winnerTeam] || 0) + 1;
+    }
+  }
+
+  let bestMissed = null, worstMade = null;
+  for (const year of SEASONS) {
+    const ptSet = playoffTeamsByYear[year];
+    for (const t of (allStandings[year] || [])) {
+      const wins  = rsWins[year]?.[t.team] || 0;
+      const games = rsGames[year]?.[t.team] || 1;
+      const made  = ptSet.has(t.team);
+      if (!made) {
+        if (!bestMissed || wins > bestMissed.wins) bestMissed = { wins, games, team: t.team, owner: normOwner(t.owner), year };
+      } else {
+        if (!worstMade || wins < worstMade.wins) worstMade = { wins, games, team: t.team, owner: normOwner(t.owner), year };
+      }
+    }
+  }
+
+  renderStatTable('#feats-table', [
+    highWeek  ? { stat: 'Highest single-week score', owner: highWeek.owner,  sub: `${highWeek.team} — ${highWeek.year} Wk ${highWeek.week}`,   value: fmt2(highWeek.score) }  : null,
+    lowWeek   ? { stat: 'Lowest single-week score',  owner: lowWeek.owner,   sub: `${lowWeek.team} — ${lowWeek.year} Wk ${lowWeek.week}`,      value: fmt2(lowWeek.score) }   : null,
+    highSeason? { stat: 'Highest season total PF',   owner: highSeason.owner,sub: `${highSeason.team} — ${highSeason.year}`,                    value: fmt2(highSeason.pf) }   : null,
+    lowSeason ? { stat: 'Lowest season total PF',    owner: lowSeason.owner, sub: `${lowSeason.team} — ${lowSeason.year}`,                      value: fmt2(lowSeason.pf) }    : null,
+    mostLopsided ? { stat: 'Most lopsided matchup',  owner: `${mostLopsided.winnerOwner} def. ${mostLopsided.loserOwner}`, sub: `${mostLopsided.year} Wk ${mostLopsided.week} — ${fmt2(mostLopsided.winnerScore)} to ${fmt2(mostLopsided.loserScore)}`, value: `+${fmt2(mostLopsided.margin)}` } : null,
+    biggestLoss  ? { stat: 'Most points in a loss',  owner: biggestLoss.loserOwner, sub: `Lost to ${biggestLoss.winnerOwner} — ${biggestLoss.year} Wk ${biggestLoss.week}`,    value: fmt2(biggestLoss.loserScore) } : null,
+    bestMissed? { stat: 'Best record that missed playoffs', owner: bestMissed.owner, sub: `${bestMissed.team} — ${bestMissed.year}`, value: `${bestMissed.wins}–${bestMissed.games - bestMissed.wins}` } : null,
+    worstMade ? { stat: 'Worst record that made playoffs',  owner: worstMade.owner,  sub: `${worstMade.team} — ${worstMade.year}`,  value: `${worstMade.wins}–${worstMade.games - worstMade.wins}` }  : null,
+  ]);
+
+  // ── H2H RIVALRY RECORDS ─────────────────────────────────────────
+
+  // Build symmetric pair map: h2hPairs[a][b] where a < b alphabetically
+  // aWins = a's wins against b
+  const h2hPairs = {};
+  for (const g of allGames) {
+    if (g.owner1 === '?' || g.owner2 === '?') continue;
+    const [a, b] = [g.owner1, g.owner2].sort();
+    if (!h2hPairs[a]) h2hPairs[a] = {};
+    if (!h2hPairs[a][b]) h2hPairs[a][b] = { aWins: 0, bWins: 0, total: 0 };
+    h2hPairs[a][b].total++;
+    if (g.winnerOwner === a) h2hPairs[a][b].aWins++;
+    else h2hPairs[a][b].bWins++;
+  }
+
+  const pairsList = [];
+  for (const [a, opps] of Object.entries(h2hPairs)) {
+    for (const [b, rec] of Object.entries(opps)) pairsList.push({ a, b, ...rec });
+  }
+
+  const mostPlayed = pairsList.length ? [...pairsList].sort((a, b) => b.total - a.total)[0] : null;
+
+  const mostDominant = pairsList.length ? [...pairsList].sort((a, b) =>
+    Math.max(b.aWins, b.bWins) - Math.max(a.aWins, a.bWins)
+  )[0] : null;
+  const mdWinner = mostDominant ? (mostDominant.aWins >= mostDominant.bWins ? mostDominant.a : mostDominant.b) : null;
+  const mdLoser  = mostDominant ? (mostDominant.aWins >= mostDominant.bWins ? mostDominant.b : mostDominant.a) : null;
+  const mdW = mostDominant ? Math.max(mostDominant.aWins, mostDominant.bWins) : 0;
+  const mdL = mostDominant ? Math.min(mostDominant.aWins, mostDominant.bWins) : 0;
+
+  const closestRivalry = pairsList.filter(p => p.total >= 6).sort((a, b) =>
+    (Math.abs(a.aWins - a.bWins) / a.total) - (Math.abs(b.aWins - b.bWins) / b.total)
+  )[0] || null;
+
+  // Render rivalry table
+  const rivalryTbody = document.querySelector('#rivalry-table tbody');
+  rivalryTbody.innerHTML = '';
+  [
+    mostPlayed   ? { cat: 'Most-played rivalry',    rivalry: `${mostPlayed.a} vs. ${mostPlayed.b}`,   record: `${mostPlayed.aWins}–${mostPlayed.bWins}`, games: mostPlayed.total }   : null,
+    mostDominant ? { cat: 'Most dominant rivalry',  rivalry: `${mdWinner} over ${mdLoser}`,            record: `${mdW}–${mdL}`,                           games: mdW+mdL }             : null,
+    closestRivalry ? { cat: 'Closest rivalry',      rivalry: `${closestRivalry.a} vs. ${closestRivalry.b}`, record: `${closestRivalry.aWins}–${closestRivalry.bWins}`, games: closestRivalry.total } : null,
+  ].filter(Boolean).forEach(r => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td style="color:var(--muted)">${r.cat}</td>
+      <td><strong>${r.rivalry}</strong><br><span style="color:var(--muted);font-size:11px">${r.games} total games</span></td>
+      <td class="num">${r.record}</td>
+    `;
+    rivalryTbody.appendChild(tr);
+  });
+
+  // Nemesis: opponent each owner has the worst record against (min 3 games)
+  const allOwners = new Set(pairsList.flatMap(p => [p.a, p.b]));
+  const nemesisTbody = document.querySelector('#nemesis-table tbody');
+  nemesisTbody.innerHTML = '';
+  const nemesisRows = [];
+  for (const owner of [...allOwners].sort()) {
+    let worst = null;
+    for (const [a, opps] of Object.entries(h2hPairs)) {
+      for (const [b, rec] of Object.entries(opps)) {
+        if (rec.total < 3) continue;
+        let myWins, theirWins, opponent;
+        if (a === owner)      { myWins = rec.aWins; theirWins = rec.bWins; opponent = b; }
+        else if (b === owner) { myWins = rec.bWins; theirWins = rec.aWins; opponent = a; }
+        else continue;
+        const theirPct = theirWins / rec.total;
+        if (!worst || theirPct > worst.theirPct || (theirPct === worst.theirPct && rec.total > worst.total)) {
+          worst = { opponent, myWins, theirWins, total: rec.total, theirPct };
+        }
+      }
+    }
+    if (worst) nemesisRows.push({ owner, ...worst });
+  }
+  if (!nemesisRows.length) {
+    nemesisTbody.innerHTML = '<tr><td colspan="3" class="loading">No rivalries with 3+ games.</td></tr>';
+  } else {
+    nemesisRows.forEach(r => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${r.owner}</td>
+        <td><strong>${r.opponent}</strong></td>
+        <td class="num">${r.myWins}–${r.theirWins}</td>
+      `;
+      nemesisTbody.appendChild(tr);
+    });
+  }
+
+  // ── CHAMPIONSHIP & PLAYOFF DRAMA ────────────────────────────────
+
+  // Get champions from already-loaded data
+  const champsList = SEASONS.flatMap(year => {
+    const matchups = allMatchups[year] || [];
+    const to = teamOwnerByYear[year];
+    const champ = matchups.find(m => m.round === 'Championship');
+    if (!champ) return [];
+    const s1 = parseFloat(champ.score1), s2 = parseFloat(champ.score2);
+    const [winT, winS, loseT, loseS] = s1 > s2
+      ? [champ.team1, s1, champ.team2, s2]
+      : [champ.team2, s2, champ.team1, s1];
+    return [{ year, team: winT, owner: to[winT] || '?', score: winS, opponent: loseT, oppOwner: to[loseT] || '?', oppScore: loseS }];
+  });
+
+  const champWins  = {}, finalsApp = {};
+  champsList.forEach(c => {
+    champWins[c.owner] = (champWins[c.owner] || 0) + 1;
+    finalsApp[c.owner] = (finalsApp[c.owner] || 0) + 1;
+    if (c.oppOwner && c.oppOwner !== '?') finalsApp[c.oppOwner] = (finalsApp[c.oppOwner] || 0) + 1;
+  });
+
+  // Playoff seasons per owner (Quarterfinal/Semifinal/Championship only)
+  const playoffSeasonsByOwner = {};
+  for (const year of SEASONS) {
+    const ptSet = playoffTeamsByYear[year];
+    const to = teamOwnerByYear[year];
+    for (const team of ptSet) {
+      const owner = to[team] || '?';
+      if (owner === '?') continue;
+      if (!playoffSeasonsByOwner[owner]) playoffSeasonsByOwner[owner] = new Set();
+      playoffSeasonsByOwner[owner].add(year);
+    }
+  }
+  const playoffSeasonCounts = Object.fromEntries(
+    Object.entries(playoffSeasonsByOwner).map(([o, s]) => [o, s.size])
+  );
+
+  const mostFinals     = Object.entries(finalsApp).sort((a,b) => b[1]-a[1])[0];
+  const mostPlayoffs   = Object.entries(playoffSeasonCounts).sort((a,b) => b[1]-a[1])[0];
+  const neverWon       = Object.entries(playoffSeasonCounts).filter(([o]) => !champWins[o]).sort((a,b) => b[1]-a[1])[0];
+  const mostRunnerUp   = Object.entries(finalsApp)
+    .map(([o, apps]) => ({ owner: o, ruFinishes: apps - (champWins[o] || 0) }))
+    .filter(e => e.ruFinishes > 0).sort((a,b) => b.ruFinishes - a.ruFinishes)[0];
+
+  const champGames  = allGames.filter(g => g.round === 'Championship');
+  const closestChamp = champGames.length ? [...champGames].sort((a,b) => a.margin - b.margin)[0] : null;
+
+  renderStatTable('#drama-table', [
+    mostFinals   ? { stat: 'Most championship game appearances', owner: mostFinals[0],   value: mostFinals[1] }   : null,
+    mostPlayoffs ? { stat: 'Most playoff seasons',               owner: mostPlayoffs[0], value: mostPlayoffs[1] } : null,
+    mostRunnerUp ? { stat: 'Most runner-up finishes',            owner: mostRunnerUp.owner, value: mostRunnerUp.ruFinishes } : null,
+    neverWon     ? { stat: 'Always in, never wins',              owner: neverWon[0], sub: `${neverWon[1]} playoff seasons, 0 titles`, value: neverWon[1] } : null,
+    closestChamp ? { stat: 'Closest championship game', owner: `${closestChamp.winnerOwner} def. ${closestChamp.loserOwner}`, sub: `${closestChamp.year} — ${fmt2(closestChamp.winnerScore)} to ${fmt2(closestChamp.loserScore)}`, value: `+${fmt2(closestChamp.margin)}` } : null,
+  ]);
+
+  // ── SCORING TRENDS ──────────────────────────────────────────────
+
+  // Avg points per team per year
+  const trendsTbody = document.querySelector('#trends-table tbody');
+  trendsTbody.innerHTML = '';
+  SEASONS.forEach(year => {
+    const standings = allStandings[year] || [];
+    if (!standings.length) return;
+    const avg = standings.reduce((s, t) => s + (parseFloat(t.points_for) || 0), 0) / standings.length;
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${year}</td><td class="num">${fmt2(avg)}</td>`;
+    trendsTbody.appendChild(tr);
+  });
+
+  // Owner scoring trends: first 3 seasons vs most recent 3
+  const ownerSeasonPF = {};
+  for (const year of SEASONS) {
+    for (const t of (allStandings[year] || [])) {
+      const owner = normOwner(t.owner);
+      const pf    = parseFloat(t.points_for);
+      const games = (parseInt(t.wins) || 0) + (parseInt(t.losses) || 0) || 1;
+      if (!ownerSeasonPF[owner]) ownerSeasonPF[owner] = [];
+      ownerSeasonPF[owner].push({ year, pfPerGame: pf / games });
+    }
+  }
+
+  const ownerTrends = Object.entries(ownerSeasonPF)
+    .filter(([, s]) => s.length >= 6)
+    .map(([owner, seasons]) => {
+      seasons.sort((a, b) => a.year - b.year);
+      const avg = arr => arr.reduce((s, x) => s + x.pfPerGame, 0) / arr.length;
+      const early  = avg(seasons.slice(0, 3));
+      const recent = avg(seasons.slice(-3));
+      return { owner, early, recent, change: recent - early };
+    })
+    .sort((a, b) => b.change - a.change);
+
+  const ownerTrendTbody = document.querySelector('#owner-trend-table tbody');
+  ownerTrendTbody.innerHTML = '';
+  if (!ownerTrends.length) {
+    ownerTrendTbody.innerHTML = '<tr><td colspan="4" class="loading">Not enough data.</td></tr>';
+  } else {
+    ownerTrends.forEach(r => {
+      const up    = r.change >= 0;
+      const arrow = up ? '▲' : '▼';
+      const color = up ? 'var(--accent)' : '#e05252';
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${r.owner}</td>
+        <td class="num">${fmt2(r.early)}</td>
+        <td class="num">${fmt2(r.recent)}</td>
+        <td class="num" style="color:${color}">${arrow} ${fmt2(Math.abs(r.change))}</td>
+      `;
+      ownerTrendTbody.appendChild(tr);
+    });
+  }
+
+  // ── STREAKS ─────────────────────────────────────────────────────
+  const gamesByOwner = {};
+  for (const g of regGames) {
+    if (!gamesByOwner[g.owner1]) gamesByOwner[g.owner1] = [];
+    if (!gamesByOwner[g.owner2]) gamesByOwner[g.owner2] = [];
+    gamesByOwner[g.owner1].push({ year: g.year, week: g.week, won: g.score1 > g.score2 });
+    gamesByOwner[g.owner2].push({ year: g.year, week: g.week, won: g.score2 > g.score1 });
+  }
+
+  let longestWin = null, longestLoss = null;
+  for (const [owner, games] of Object.entries(gamesByOwner)) {
+    if (owner === '?') continue;
+    games.sort((a, b) => a.year !== b.year ? a.year - b.year : a.week - b.week);
+    let curW = 0, curL = 0, maxW = 0, maxL = 0;
+    for (const g of games) {
+      if (g.won) { curW++; curL = 0; } else { curL++; curW = 0; }
+      if (curW > maxW) maxW = curW;
+      if (curL > maxL) maxL = curL;
+    }
+    if (!longestWin  || maxW > longestWin.streak)  longestWin  = { owner, streak: maxW };
+    if (!longestLoss || maxL > longestLoss.streak) longestLoss = { owner, streak: maxL };
+  }
+
+  renderStatTable('#streaks-table', [
+    longestWin  ? { stat: 'Longest winning streak (regular season)', owner: longestWin.owner,  value: `${longestWin.streak} games`  } : null,
+    longestLoss ? { stat: 'Longest losing streak (regular season)',  owner: longestLoss.owner, value: `${longestLoss.streak} games` } : null,
+  ]);
+
+  // ── DRAFT CURIOSITIES ───────────────────────────────────────────
+
+  // Round 1 picks by position
+  const r1Pos = {};
+  for (const year of SEASONS) {
+    for (const pick of (allDraft[year] || [])) {
+      if (pick.round === 1) r1Pos[pick.position] = (r1Pos[pick.position] || 0) + 1;
+    }
+  }
+  const r1Tbody = document.querySelector('#draft-r1-table tbody');
+  r1Tbody.innerHTML = '';
+  Object.entries(r1Pos).sort((a, b) => b[1] - a[1]).forEach(([pos, count]) => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${pos}</td><td class="num">${count}</td>`;
+    r1Tbody.appendChild(tr);
+  });
+
+  // Players drafted by same owner multiple times
+  const ownerDraftHistory = {};
+  for (const year of SEASONS) {
+    const to = teamOwnerByYear[year];
+    for (const pick of (allDraft[year] || [])) {
+      const owner = to[pick.team] || pick.team;
+      if (!ownerDraftHistory[owner]) ownerDraftHistory[owner] = {};
+      ownerDraftHistory[owner][pick.player] = (ownerDraftHistory[owner][pick.player] || 0) + 1;
+    }
+  }
+
+  const repeatDrafts = [];
+  for (const [owner, players] of Object.entries(ownerDraftHistory)) {
+    for (const [player, count] of Object.entries(players)) {
+      if (count >= 2) repeatDrafts.push({ owner, player, count });
+    }
+  }
+  repeatDrafts.sort((a, b) => b.count - a.count || a.player.localeCompare(b.player));
+
+  const repeatTbody = document.querySelector('#repeat-draft-table tbody');
+  repeatTbody.innerHTML = '';
+  if (!repeatDrafts.length) {
+    repeatTbody.innerHTML = '<tr><td colspan="3" class="loading">No players drafted by the same owner more than once.</td></tr>';
+  } else {
+    repeatDrafts.forEach(r => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td>${r.owner}</td><td>${r.player}</td><td class="num">${r.count}×</td>`;
+      repeatTbody.appendChild(tr);
+    });
+  }
+
+  // ── FUN / ABSURD FACTS ──────────────────────────────────────────
+
+  const totalPts = allGames.reduce((s, g) => s + g.score1 + g.score2, 0);
+  const totalTxns = SEASONS.reduce((s, y) => s + (allTxns[y] || []).length, 0);
+
+  let worstWeek = null;
+  for (const g of allGames) {
+    for (const [score, team, owner] of [[g.score1,g.team1,g.owner1],[g.score2,g.team2,g.owner2]]) {
+      if (score > 0 && (!worstWeek || score < worstWeek.score))
+        worstWeek = { score, team, owner, year: g.year, week: g.week };
+    }
+  }
+
+  const totalOwnerSeasons = SEASONS.reduce((s, y) => s + (allStandings[y] || []).length, 0);
+
+  renderStatTable('#absurd-table', [
+    { stat: 'Total points scored (all-time)', owner: null, sub: 'Across all 15 seasons and all matchups', value: Math.round(totalPts).toLocaleString() },
+    { stat: 'Total transactions',             owner: null, sub: 'Adds, drops, and trades combined',       value: totalTxns.toLocaleString() },
+    { stat: 'Total owner-seasons played',     owner: null, sub: '15 seasons × ~10 teams',                 value: totalOwnerSeasons.toLocaleString() },
+    worstWeek ? { stat: 'Single worst week ever', owner: worstWeek.owner, sub: `${worstWeek.team} — ${worstWeek.year} Wk ${worstWeek.week}`, value: fmt2(worstWeek.score) } : null,
+  ]);
+}
+
+init().catch(console.error);
+</script>
+</body>
+</html>
