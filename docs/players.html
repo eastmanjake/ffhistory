@@ -7,13 +7,38 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>🏈</text></svg>">
   <link rel="stylesheet" href="css/style.css">
   <style>
-    /* ── Controls ────────────────────────────────────────────────── */
+    /* ── Tabs ───────────────────────────────────────────────────── */
+    .tab-bar {
+      display: flex;
+      gap: 0;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab-btn {
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 8px 20px;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+    }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--gold); border-bottom-color: var(--gold); }
+
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* ── Shared controls ────────────────────────────────────────── */
     .player-controls {
       display: flex;
       flex-wrap: wrap;
       gap: 12px;
       align-items: center;
-      margin-bottom: 20px;
+      margin-bottom: 12px;
     }
     .search-wrap {
       position: relative;
@@ -43,27 +68,60 @@
       pointer-events: none;
     }
 
-    /* ── Position filter pills ───────────────────────────────────── */
-    .pos-pills {
+    /* ── Pills ──────────────────────────────────────────────────── */
+    .pills-row {
       display: flex;
       flex-wrap: wrap;
+      align-items: center;
       gap: 6px;
+      margin-bottom: 10px;
     }
-    .pos-pill {
-      padding: 4px 12px;
+    .pills-label {
+      font-size: 11px;
+      color: var(--muted);
+      font-weight: 600;
+      white-space: nowrap;
+      margin-right: 2px;
+    }
+    .pos-pill, .season-pill, .owner-pill {
+      padding: 3px 10px;
       border-radius: 20px;
       border: 1px solid var(--border);
       background: var(--surface2);
       color: var(--muted);
-      font-size: 12px;
+      font-size: 11px;
       font-weight: 600;
       cursor: pointer;
       transition: all 0.1s;
     }
-    .pos-pill:hover { color: var(--text); border-color: var(--muted); }
-    .pos-pill.active { background: var(--gold); border-color: var(--gold); color: #000; }
+    .pos-pill:hover, .season-pill:hover, .owner-pill:hover { color: var(--text); border-color: var(--muted); }
+    .pos-pill.active  { background: var(--gold); border-color: var(--gold); color: #000; }
+    .season-pill.active { background: rgba(212,160,23,0.18); border-color: var(--gold); color: var(--gold); }
+    .owner-pill.active  { background: var(--gold); border-color: var(--gold); color: #000; }
 
-    /* ── Player table ────────────────────────────────────────────── */
+    /* ── Starts range ───────────────────────────────────────────── */
+    .starts-filter {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .starts-filter input {
+      width: 64px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--text);
+      padding: 4px 8px;
+      font-size: 12px;
+      outline: none;
+      text-align: center;
+    }
+    .starts-filter input:focus { border-color: var(--gold); }
+
+    /* ── Player rows ────────────────────────────────────────────── */
     .player-row { cursor: pointer; }
     .player-row:hover td { background: rgba(212,160,23,0.04); }
     .player-row.expanded td { background: rgba(212,160,23,0.06); }
@@ -71,7 +129,6 @@
     .owner-breakdown-row { display: none; }
     .owner-breakdown-row.visible { display: table-row; }
     .owner-breakdown-row td { padding: 0; border-bottom: 1px solid var(--border); }
-
     .owner-breakdown {
       display: flex;
       flex-wrap: wrap;
@@ -89,11 +146,11 @@
       padding: 6px 12px;
       min-width: 80px;
     }
-    .owner-chip .chip-owner { font-size: 11px; color: var(--muted); margin-bottom: 2px; }
-    .owner-chip .chip-pts   { font-size: 14px; font-weight: 700; color: var(--text); }
+    .owner-chip .chip-owner  { font-size: 11px; color: var(--muted); margin-bottom: 2px; }
+    .owner-chip .chip-pts    { font-size: 14px; font-weight: 700; color: var(--text); }
     .owner-chip .chip-starts { font-size: 10px; color: var(--muted); margin-top: 1px; }
 
-    /* ── Position badge ──────────────────────────────────────────── */
+    /* ── Position badge ─────────────────────────────────────────── */
     .pos-badge {
       display: inline-block;
       padding: 1px 6px;
@@ -103,11 +160,15 @@
       letter-spacing: 0.03em;
     }
 
-    /* ── Result count ────────────────────────────────────────────── */
-    .result-count {
-      font-size: 12px;
+    /* ── Result count ───────────────────────────────────────────── */
+    .result-count { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+
+    /* ── Owner tab prompt ───────────────────────────────────────── */
+    .owner-prompt {
       color: var(--muted);
-      margin-bottom: 8px;
+      font-size: 13px;
+      padding: 40px 0;
+      text-align: center;
     }
   </style>
 </head>
@@ -126,6 +187,7 @@
         <a href="extrapoints.html">Extra Points</a>
         <a href="timeline.html">Season Timeline</a>
         <a href="owner.html">Owner Profiles</a>
+        <a href="finalrosters.html">Final Rosters</a>
       </div>
     </div>
     <div class="nav-group">
@@ -138,7 +200,6 @@
     <div class="nav-group">
       <button class="nav-group-btn active">Stats ▾</button>
       <div class="nav-dropdown">
-        <a href="weekly.html">Weekly</a>
         <a href="players.html" class="active">Player History</a>
         <a href="rules.html">Rules</a>
       </div>
@@ -149,44 +210,147 @@
 <main>
   <div class="page-header">
     <h1>Player History</h1>
-    <p>All-time leaders by fantasy points scored as a starter. Click a row to see points per owner.</p>
+    <p>All-time fantasy scoring records. Click a career row to see breakdown by owner.</p>
   </div>
 
+  <!-- Tabs -->
+  <div class="tab-bar">
+    <button class="tab-btn active" onclick="switchTab('career')">Career Totals</button>
+    <button class="tab-btn" onclick="switchTab('byseason')">By Season</button>
+    <button class="tab-btn" onclick="switchTab('bestweeks')">Best Weeks</button>
+    <button class="tab-btn" onclick="switchTab('byowner')">By Owner</button>
+  </div>
+
+  <!-- Shared: Search + Position pills (multi-select) -->
   <div class="player-controls">
     <div class="search-wrap">
       <span class="search-icon">🔍</span>
       <input type="text" id="player-search" placeholder="Search player or NFL team…" oninput="applyFilters()">
     </div>
     <div class="pos-pills" id="pos-pills">
-      <button class="pos-pill active" data-pos="ALL" onclick="setPosFilter('ALL')">All</button>
-      <button class="pos-pill" data-pos="QB"  onclick="setPosFilter('QB')">QB</button>
-      <button class="pos-pill" data-pos="RB"  onclick="setPosFilter('RB')">RB</button>
-      <button class="pos-pill" data-pos="WR"  onclick="setPosFilter('WR')">WR</button>
-      <button class="pos-pill" data-pos="TE"  onclick="setPosFilter('TE')">TE</button>
-      <button class="pos-pill" data-pos="K"   onclick="setPosFilter('K')">K</button>
-      <button class="pos-pill" data-pos="DEF" onclick="setPosFilter('DEF')">DEF</button>
+      <button class="pos-pill active" data-pos="ALL" onclick="togglePosFilter('ALL')">All</button>
+      <button class="pos-pill" data-pos="QB"  onclick="togglePosFilter('QB')">QB</button>
+      <button class="pos-pill" data-pos="RB"  onclick="togglePosFilter('RB')">RB</button>
+      <button class="pos-pill" data-pos="WR"  onclick="togglePosFilter('WR')">WR</button>
+      <button class="pos-pill" data-pos="TE"  onclick="togglePosFilter('TE')">TE</button>
+      <button class="pos-pill" data-pos="K"   onclick="togglePosFilter('K')">K</button>
+      <button class="pos-pill" data-pos="DEF" onclick="togglePosFilter('DEF')">DEF</button>
     </div>
   </div>
 
-  <section>
-    <div class="result-count" id="result-count"></div>
+  <!-- Season filter (Career, By Season, By Owner tabs) -->
+  <div class="pills-row" id="season-filter-row">
+    <span class="pills-label">Season:</span>
+    <div id="season-pills"></div>
+  </div>
+
+  <!-- ── Career Totals ─────────────────────────────────────────── -->
+  <div id="tab-career" class="tab-panel active">
+    <div class="starts-filter">
+      <span>Min starts:</span>
+      <input type="number" id="starts-min" min="1" value="1" oninput="applyFilters()">
+      <span>Max starts:</span>
+      <input type="number" id="starts-max" min="1" placeholder="∞" oninput="applyFilters()">
+    </div>
+    <div class="result-count" id="career-count"></div>
     <div class="table-wrap">
-      <table id="players-table">
+      <table id="career-table">
         <thead>
           <tr>
-            <th class="num sortable" data-col="rank">#</th>
+            <th class="num" data-col="rank">#</th>
             <th class="sortable" data-col="player">Player</th>
             <th class="sortable" data-col="pos">Pos</th>
             <th class="sortable" data-col="nfl_team">NFL Team</th>
             <th class="num sortable sort-desc" data-col="total">Total Pts</th>
+            <th class="num sortable" data-col="seasons">Seasons</th>
             <th class="num sortable" data-col="starts">Starts</th>
-            <th class="num sortable" data-col="ppg">Pts / Start</th>
+            <th class="num sortable" data-col="pps">Pts/Season</th>
+            <th class="num sortable" data-col="ppg">Pts/Start</th>
           </tr>
         </thead>
-        <tbody><tr><td colspan="7" class="loading">Loading…</td></tr></tbody>
+        <tbody><tr><td colspan="9" class="loading">Loading…</td></tr></tbody>
       </table>
     </div>
-  </section>
+  </div>
+
+  <!-- ── By Season ─────────────────────────────────────────────── -->
+  <div id="tab-byseason" class="tab-panel">
+    <div class="result-count" id="byseason-count"></div>
+    <div class="table-wrap">
+      <table id="byseason-table">
+        <thead>
+          <tr>
+            <th class="num">#</th>
+            <th class="sortable" data-col="player">Player</th>
+            <th class="sortable" data-col="pos">Pos</th>
+            <th class="sortable" data-col="nfl_team">NFL Team</th>
+            <th class="num sortable" data-col="year">Year</th>
+            <th class="sortable" data-col="teams">Fantasy Team(s)</th>
+            <th class="num sortable sort-desc" data-col="total">Total Pts</th>
+            <th class="num sortable" data-col="starts">Starts</th>
+            <th class="num sortable" data-col="ppg">Pts/Start</th>
+          </tr>
+        </thead>
+        <tbody><tr><td colspan="9" class="loading">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ── Best Weeks ─────────────────────────────────────────────── -->
+  <div id="tab-bestweeks" class="tab-panel">
+    <p style="color:var(--muted);font-size:12px;margin-bottom:10px">Top 100 single-week scores across all seasons. Filter and search narrow within this set.</p>
+    <div class="result-count" id="bestweeks-count"></div>
+    <div class="table-wrap">
+      <table id="bestweeks-table">
+        <thead>
+          <tr>
+            <th class="num">#</th>
+            <th>Player</th>
+            <th>Pos</th>
+            <th>NFL Team</th>
+            <th class="num">Year</th>
+            <th class="num">Wk</th>
+            <th class="num">Pts</th>
+            <th>Fantasy Team</th>
+            <th>Opponent</th>
+          </tr>
+        </thead>
+        <tbody><tr><td colspan="9" class="loading">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ── By Owner ───────────────────────────────────────────────── -->
+  <div id="tab-byowner" class="tab-panel">
+    <div class="pills-row" id="owner-pills-row">
+      <span class="pills-label">Owner:</span>
+      <div id="owner-pills"></div>
+    </div>
+    <div class="starts-filter">
+      <span>Min starts:</span>
+      <input type="number" id="byowner-starts-min" min="1" value="1" oninput="applyFilters()">
+      <span>Max starts:</span>
+      <input type="number" id="byowner-starts-max" min="1" placeholder="∞" oninput="applyFilters()">
+    </div>
+    <div class="result-count" id="byowner-count"></div>
+    <div class="table-wrap">
+      <table id="byowner-table">
+        <thead>
+          <tr>
+            <th class="num">#</th>
+            <th class="sortable" data-col="player">Player</th>
+            <th class="sortable" data-col="owner">Owner</th>
+            <th class="sortable" data-col="pos">Pos</th>
+            <th class="sortable" data-col="nfl_team">NFL Team</th>
+            <th class="num sortable sort-desc" data-col="total">Total Pts</th>
+            <th class="num sortable" data-col="starts">Starts</th>
+            <th class="num sortable" data-col="ppg">Pts/Start</th>
+          </tr>
+        </thead>
+        <tbody><tr><td colspan="8" class="loading">Select an owner above.</td></tr></tbody>
+      </table>
+    </div>
+  </div>
 </main>
 
 <script src="js/utils.js"></script>
@@ -208,129 +372,325 @@ function posBadge(pos) {
 }
 
 function normalizePos(pos) {
-  // Some entries are "QB,TE" etc — take the first
   return (pos || '?').split(/[,/]/)[0].toUpperCase();
 }
 
 // ── State ─────────────────────────────────────────────────────────────────────
-let allPlayers   = [];   // sorted by total pts desc
-let sortCol      = 'total';
-let sortDir      = -1;   // -1 = desc, 1 = asc
-let activePosFilter = 'ALL';
+let allSeasonRows = [];   // one entry per player per year
+let allWeeklyTop  = [];   // top 100 single-week scores
 
-// ── Load & aggregate ──────────────────────────────────────────────────────────
+let careerSortCol   = 'total'; let careerSortDir   = -1;
+let bySeasSortCol   = 'total'; let bySeasSortDir   = -1;
+let byOwnerSortCol  = 'total'; let byOwnerSortDir  = -1;
+
+let activePosFilter    = new Set();  // empty = all positions
+let activeSeasonFilter = new Set();  // empty = all seasons
+let selectedOwner      = null;
+let activeTab          = 'career';
+let rowIdCounter       = 0;
+
+// ── Load & build ──────────────────────────────────────────────────────────────
 async function init() {
-  const lineupsByYear = await loadAllSeasons('weekly_lineups.json');
+  const [lineupsByYear, matchupsByYear] = await Promise.all([
+    loadAllSeasons('weekly_lineups.json'),
+    loadAllSeasons('matchups.json'),
+  ]);
 
-  // playerMap[name] = { player, pos, nfl_team, total, starts, owners: {owner: {pts, starts}} }
-  const playerMap = {};
+  // Build opponent lookup: opponentMap[year][week][team] = opponentTeam
+  const opponentMap = {};
+  for (const year of SEASONS) {
+    opponentMap[year] = {};
+    for (const m of (matchupsByYear[year] || [])) {
+      const w = m.week;
+      if (!opponentMap[year][w]) opponentMap[year][w] = {};
+      opponentMap[year][w][m.team1] = m.team2;
+      opponentMap[year][w][m.team2] = m.team1;
+    }
+  }
+
+  const seasonMap  = {};
+  const weeklyRows = [];
 
   for (const year of SEASONS) {
     for (const e of (lineupsByYear[year] || [])) {
       if (e.slot === 'BN' || e.slot === 'IR') continue;
+
       const name  = e.player;
       const owner = normOwner(e.owner || '?');
+      const team  = e.team  || '?';
       const pts   = parseFloat(e.fantasy_pts) || 0;
       const pos   = normalizePos(e.pos);
 
-      if (!playerMap[name]) {
-        playerMap[name] = { player: name, pos, nfl_team: e.nfl_team || '?', total: 0, starts: 0, owners: {} };
+      // Per-season aggregate
+      const sKey = `${name}|${year}`;
+      if (!seasonMap[sKey]) {
+        seasonMap[sKey] = { player: name, pos, nfl_team: '', year,
+                            total: 0, starts: 0, teams: new Set(), owners: {} };
       }
-      const p = playerMap[name];
-      // Update NFL team to most recent non-null value
-      if (e.nfl_team) p.nfl_team = e.nfl_team;
-      p.total  += pts;
-      p.starts += 1;
+      const s = seasonMap[sKey];
+      if (e.nfl_team) s.nfl_team = e.nfl_team;
+      s.total  += pts;
+      s.starts += 1;
+      s.teams.add(team);
+      if (!s.owners[owner]) s.owners[owner] = { pts: 0, starts: 0 };
+      s.owners[owner].pts    += pts;
+      s.owners[owner].starts += 1;
 
-      if (!p.owners[owner]) p.owners[owner] = { pts: 0, starts: 0 };
-      p.owners[owner].pts    += pts;
-      p.owners[owner].starts += 1;
+      // Best Weeks
+      const opponent = opponentMap[year]?.[e.week]?.[team] || '—';
+      weeklyRows.push({ player: name, pos, nfl_team: e.nfl_team || '?', year, week: e.week, pts, team, opponent });
     }
   }
 
-  allPlayers = Object.values(playerMap)
-    .map(p => ({ ...p, ppg: p.starts > 0 ? p.total / p.starts : 0 }))
-    .sort((a, b) => b.total - a.total);
+  allSeasonRows = Object.values(seasonMap).map(s => ({
+    ...s,
+    teams: [...s.teams].join(', '),
+    ppg:   s.starts > 0 ? s.total / s.starts : 0,
+  }));
 
-  setupSortHeaders();
+  allWeeklyTop = weeklyRows.sort((a, b) => b.pts - a.pts).slice(0, 100);
+
+  buildSeasonPills();
+  buildOwnerPills();
+  setupCareerSort();
+  setupBySeasSort();
+  setupByOwnerSort();
   applyFilters();
 }
 
-// ── Sorting ───────────────────────────────────────────────────────────────────
-function setupSortHeaders() {
-  const ths = document.querySelectorAll('#players-table th.sortable');
-  ths.forEach(th => {
+// ── Season pills ──────────────────────────────────────────────────────────────
+function buildSeasonPills() {
+  const container = document.getElementById('season-pills');
+
+  const allBtn = document.createElement('button');
+  allBtn.className = 'season-pill active';
+  allBtn.textContent = 'All';
+  allBtn.dataset.season = 'ALL';
+  allBtn.onclick = () => { activeSeasonFilter.clear(); updateSeasonPills(); applyFilters(); };
+  container.appendChild(allBtn);
+
+  for (const yr of SEASONS) {
+    const btn = document.createElement('button');
+    btn.className = 'season-pill';
+    btn.textContent = yr;
+    btn.dataset.season = yr;
+    btn.onclick = () => {
+      if (activeSeasonFilter.has(yr)) activeSeasonFilter.delete(yr);
+      else                             activeSeasonFilter.add(yr);
+      updateSeasonPills();
+      applyFilters();
+    };
+    container.appendChild(btn);
+  }
+}
+
+function updateSeasonPills() {
+  document.querySelectorAll('#season-pills .season-pill').forEach(p => {
+    if (p.dataset.season === 'ALL') p.classList.toggle('active', activeSeasonFilter.size === 0);
+    else p.classList.toggle('active', activeSeasonFilter.has(parseInt(p.dataset.season)));
+  });
+}
+
+// ── Owner pills ───────────────────────────────────────────────────────────────
+function buildOwnerPills() {
+  const ownerSet = new Set();
+  for (const r of allSeasonRows) {
+    for (const o of Object.keys(r.owners)) ownerSet.add(o);
+  }
+  const owners = [...ownerSet].sort();
+
+  const container = document.getElementById('owner-pills');
+
+  const allBtn = document.createElement('button');
+  allBtn.className = 'owner-pill';
+  allBtn.textContent = 'All Owners';
+  allBtn.dataset.owner = 'ALL';
+  allBtn.onclick = () => {
+    selectedOwner = (selectedOwner === 'ALL') ? null : 'ALL';
+    document.querySelectorAll('.owner-pill').forEach(p => p.classList.toggle('active', p.dataset.owner === selectedOwner));
+    applyFilters();
+  };
+  container.appendChild(allBtn);
+
+  for (const owner of owners) {
+    const btn = document.createElement('button');
+    btn.className = 'owner-pill';
+    btn.textContent = owner;
+    btn.dataset.owner = owner;
+    btn.onclick = () => {
+      selectedOwner = (selectedOwner === owner) ? null : owner;
+      document.querySelectorAll('.owner-pill').forEach(p => p.classList.toggle('active', p.dataset.owner === selectedOwner));
+      applyFilters();
+    };
+    container.appendChild(btn);
+  }
+}
+
+// ── Tab switching ─────────────────────────────────────────────────────────────
+function switchTab(tab) {
+  activeTab = tab;
+  const labels = ['career', 'byseason', 'bestweeks', 'byowner'];
+  document.querySelectorAll('.tab-btn').forEach((btn, i) => btn.classList.toggle('active', labels[i] === tab));
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.getElementById(`tab-${tab}`).classList.add('active');
+  document.getElementById('season-filter-row').style.display = tab === 'bestweeks' ? 'none' : '';
+  applyFilters();
+}
+
+// ── Sort setup ────────────────────────────────────────────────────────────────
+function setupCareerSort() {
+  document.querySelectorAll('#career-table th.sortable').forEach(th => {
     th.style.cursor = 'pointer';
     th.addEventListener('click', () => {
       const col = th.dataset.col;
-      if (sortCol === col) {
-        sortDir *= -1;
-      } else {
-        sortCol = col;
-        sortDir = col === 'player' || col === 'pos' || col === 'nfl_team' ? 1 : -1;
+      if (careerSortCol === col) { careerSortDir *= -1; }
+      else {
+        careerSortCol = col;
+        careerSortDir = (col === 'player' || col === 'pos' || col === 'nfl_team') ? 1 : -1;
       }
-      ths.forEach(t => t.classList.remove('sort-asc', 'sort-desc'));
-      th.classList.add(sortDir === 1 ? 'sort-asc' : 'sort-desc');
+      document.querySelectorAll('#career-table th.sortable').forEach(t => t.classList.remove('sort-asc', 'sort-desc'));
+      th.classList.add(careerSortDir === 1 ? 'sort-asc' : 'sort-desc');
       applyFilters();
     });
   });
 }
 
-function sortPlayers(players) {
-  return [...players].sort((a, b) => {
-    let av = a[sortCol], bv = b[sortCol];
-    if (sortCol === 'rank') return 0; // rank is display order, handled by position in filtered list
-    if (typeof av === 'string') return sortDir * av.localeCompare(bv);
-    return sortDir * (bv - av);
+function setupByOwnerSort() {
+  document.querySelectorAll('#byowner-table th.sortable').forEach(th => {
+    th.style.cursor = 'pointer';
+    th.addEventListener('click', () => {
+      const col = th.dataset.col;
+      if (byOwnerSortCol === col) { byOwnerSortDir *= -1; }
+      else {
+        byOwnerSortCol = col;
+        byOwnerSortDir = (col === 'player' || col === 'owner' || col === 'pos' || col === 'nfl_team') ? 1 : -1;
+      }
+      document.querySelectorAll('#byowner-table th.sortable').forEach(t => t.classList.remove('sort-asc', 'sort-desc'));
+      th.classList.add(byOwnerSortDir === 1 ? 'sort-asc' : 'sort-desc');
+      applyFilters();
+    });
   });
 }
 
-// ── Filtering ─────────────────────────────────────────────────────────────────
-function setPosFilter(pos) {
-  activePosFilter = pos;
+function setupBySeasSort() {
+  document.querySelectorAll('#byseason-table th.sortable').forEach(th => {
+    th.style.cursor = 'pointer';
+    th.addEventListener('click', () => {
+      const col = th.dataset.col;
+      if (bySeasSortCol === col) { bySeasSortDir *= -1; }
+      else {
+        bySeasSortCol = col;
+        bySeasSortDir = (col === 'player' || col === 'pos' || col === 'nfl_team' || col === 'teams') ? 1 : -1;
+      }
+      document.querySelectorAll('#byseason-table th.sortable').forEach(t => t.classList.remove('sort-asc', 'sort-desc'));
+      th.classList.add(bySeasSortDir === 1 ? 'sort-asc' : 'sort-desc');
+      applyFilters();
+    });
+  });
+}
+
+// ── Filters ───────────────────────────────────────────────────────────────────
+function togglePosFilter(pos) {
+  if (pos === 'ALL') {
+    activePosFilter.clear();
+  } else {
+    if (activePosFilter.has(pos)) activePosFilter.delete(pos);
+    else                           activePosFilter.add(pos);
+  }
   document.querySelectorAll('.pos-pill').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.pos === pos);
+    if (btn.dataset.pos === 'ALL') btn.classList.toggle('active', activePosFilter.size === 0);
+    else btn.classList.toggle('active', activePosFilter.has(btn.dataset.pos));
   });
   applyFilters();
 }
 
-function applyFilters() {
-  const query = document.getElementById('player-search').value.trim().toLowerCase();
-  let filtered = allPlayers;
-
-  if (activePosFilter !== 'ALL') {
-    filtered = filtered.filter(p => p.pos === activePosFilter);
-  }
-  if (query) {
-    filtered = filtered.filter(p =>
-      p.player.toLowerCase().includes(query) ||
-      (p.nfl_team || '').toLowerCase().includes(query)
-    );
-  }
-
-  filtered = sortPlayers(filtered);
-  renderTable(filtered);
+function posMatch(pos) {
+  return activePosFilter.size === 0 || activePosFilter.has(pos);
 }
 
-// ── Render ────────────────────────────────────────────────────────────────────
-let rowIdCounter = 0;
+function applyFilters() {
+  const query = document.getElementById('player-search').value.trim().toLowerCase();
+  if      (activeTab === 'career')    renderCareer(query);
+  else if (activeTab === 'byseason')  renderByseason(query);
+  else if (activeTab === 'bestweeks') renderBestWeeks(query);
+  else                                renderByOwner(query);
+}
 
-function renderTable(players) {
-  document.getElementById('result-count').textContent =
+// ── Career aggregation ────────────────────────────────────────────────────────
+function aggregateCareer(seasonRows) {
+  const pm = {};
+  for (const r of seasonRows) {
+    if (!pm[r.player]) {
+      pm[r.player] = { player: r.player, pos: r.pos, nfl_teams: new Set(),
+                       total: 0, starts: 0, yearSet: new Set(), owners: {} };
+    }
+    const p = pm[r.player];
+    if (r.nfl_team) p.nfl_teams.add(r.nfl_team);
+    p.total  += r.total;
+    p.starts += r.starts;
+    p.yearSet.add(r.year);
+    for (const [owner, d] of Object.entries(r.owners)) {
+      if (!p.owners[owner]) p.owners[owner] = { pts: 0, starts: 0 };
+      p.owners[owner].pts    += d.pts;
+      p.owners[owner].starts += d.starts;
+    }
+  }
+  return Object.values(pm).map(p => ({
+    player:   p.player,
+    pos:      p.pos,
+    nfl_team: [...p.nfl_teams].join(', '),
+    total:    p.total,
+    starts:   p.starts,
+    seasons:  p.yearSet.size,
+    ppg:      p.starts      > 0 ? p.total / p.starts      : 0,
+    pps:      p.yearSet.size > 0 ? p.total / p.yearSet.size : 0,
+    owners:   p.owners,
+  }));
+}
+
+function sortBy(arr, col, dir) {
+  return [...arr].sort((a, b) => {
+    const av = a[col], bv = b[col];
+    if (typeof av === 'string') return dir * av.localeCompare(bv);
+    return dir * (av - bv);
+  });
+}
+
+function filteredSeasonRows() {
+  let rows = allSeasonRows;
+  if (activeSeasonFilter.size > 0) rows = rows.filter(r => activeSeasonFilter.has(r.year));
+  return rows;
+}
+
+// ── Render: Career ────────────────────────────────────────────────────────────
+function renderCareer(query) {
+  let players = aggregateCareer(filteredSeasonRows());
+
+  players = players.filter(p => posMatch(p.pos));
+  if (query) players = players.filter(p =>
+    p.player.toLowerCase().includes(query) || p.nfl_team.toLowerCase().includes(query));
+
+  const startsMin = parseInt(document.getElementById('starts-min').value) || 1;
+  const startsMaxRaw = document.getElementById('starts-max').value;
+  const startsMax = startsMaxRaw ? parseInt(startsMaxRaw) : Infinity;
+  players = players.filter(p => p.starts >= startsMin && p.starts <= startsMax);
+
+  players = sortBy(players, careerSortCol, careerSortDir);
+
+  document.getElementById('career-count').textContent =
     `${players.length.toLocaleString()} player${players.length !== 1 ? 's' : ''}`;
 
-  const tbody = document.querySelector('#players-table tbody');
+  const tbody = document.querySelector('#career-table tbody');
   tbody.innerHTML = '';
 
   if (!players.length) {
-    tbody.innerHTML = '<tr><td colspan="7" class="loading">No players match.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="9" class="loading">No players match.</td></tr>';
     return;
   }
 
   players.forEach((p, idx) => {
     const rid = `pr-${rowIdCounter++}`;
 
-    // Owner breakdown chips
     const ownerChips = Object.entries(p.owners)
       .sort((a, b) => b[1].pts - a[1].pts)
       .map(([owner, d]) => `
@@ -338,8 +698,7 @@ function renderTable(players) {
           <span class="chip-owner">${owner}</span>
           <span class="chip-pts">${d.pts.toFixed(1)}</span>
           <span class="chip-starts">${d.starts} start${d.starts !== 1 ? 's' : ''}</span>
-        </div>
-      `).join('');
+        </div>`).join('');
 
     const dataRow = document.createElement('tr');
     dataRow.className = 'player-row';
@@ -351,20 +710,170 @@ function renderTable(players) {
       <td>${posBadge(p.pos)}</td>
       <td style="color:var(--muted)">${p.nfl_team || '—'}</td>
       <td class="num"><strong>${p.total.toFixed(1)}</strong></td>
+      <td class="num">${p.seasons}</td>
       <td class="num">${p.starts}</td>
-      <td class="num">${p.ppg.toFixed(1)}</td>
-    `;
+      <td class="num">${p.pps.toFixed(1)}</td>
+      <td class="num">${p.ppg.toFixed(1)}</td>`;
     tbody.appendChild(dataRow);
 
     const detailRow = document.createElement('tr');
     detailRow.className = 'owner-breakdown-row';
     detailRow.id = `${rid}-detail`;
-    detailRow.innerHTML = `
-      <td colspan="7">
-        <div class="owner-breakdown">${ownerChips}</div>
-      </td>
-    `;
+    detailRow.innerHTML = `<td colspan="9"><div class="owner-breakdown">${ownerChips}</div></td>`;
     tbody.appendChild(detailRow);
+  });
+}
+
+// ── Render: By Season ─────────────────────────────────────────────────────────
+function renderByseason(query) {
+  let rows = filteredSeasonRows();
+  rows = rows.filter(r => posMatch(r.pos));
+  if (query) rows = rows.filter(r =>
+    r.player.toLowerCase().includes(query) || r.nfl_team.toLowerCase().includes(query));
+
+  rows = sortBy(rows, bySeasSortCol, bySeasSortDir);
+
+  document.getElementById('byseason-count').textContent =
+    `${rows.length.toLocaleString()} row${rows.length !== 1 ? 's' : ''}`;
+
+  const tbody = document.querySelector('#byseason-table tbody');
+  tbody.innerHTML = '';
+
+  if (!rows.length) {
+    tbody.innerHTML = '<tr><td colspan="9" class="loading">No results match.</td></tr>';
+    return;
+  }
+
+  rows.forEach((r, idx) => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td class="num" style="color:var(--muted)">${idx + 1}</td>
+      <td><strong>${r.player}</strong></td>
+      <td>${posBadge(r.pos)}</td>
+      <td style="color:var(--muted)">${r.nfl_team || '—'}</td>
+      <td class="num">${r.year}</td>
+      <td style="color:var(--muted)">${r.teams}</td>
+      <td class="num"><strong>${r.total.toFixed(1)}</strong></td>
+      <td class="num">${r.starts}</td>
+      <td class="num">${r.ppg.toFixed(1)}</td>`;
+    tbody.appendChild(tr);
+  });
+}
+
+// ── Render: Best Weeks ────────────────────────────────────────────────────────
+function renderBestWeeks(query) {
+  let rows = allWeeklyTop;
+  rows = rows.filter(r => posMatch(r.pos));
+  if (query) rows = rows.filter(r =>
+    r.player.toLowerCase().includes(query) || (r.nfl_team || '').toLowerCase().includes(query));
+
+  document.getElementById('bestweeks-count').textContent =
+    `${rows.length.toLocaleString()} result${rows.length !== 1 ? 's' : ''}`;
+
+  const tbody = document.querySelector('#bestweeks-table tbody');
+  tbody.innerHTML = '';
+
+  if (!rows.length) {
+    tbody.innerHTML = '<tr><td colspan="9" class="loading">No results match.</td></tr>';
+    return;
+  }
+
+  rows.forEach((r, idx) => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td class="num" style="color:var(--muted)">${idx + 1}</td>
+      <td><strong>${r.player}</strong></td>
+      <td>${posBadge(r.pos)}</td>
+      <td style="color:var(--muted)">${r.nfl_team || '—'}</td>
+      <td class="num">${r.year}</td>
+      <td class="num">${r.week}</td>
+      <td class="num"><strong>${r.pts.toFixed(2)}</strong></td>
+      <td style="color:var(--muted)">${r.team}</td>
+      <td style="color:var(--muted)">${r.opponent}</td>`;
+    tbody.appendChild(tr);
+  });
+}
+
+// ── Render: By Owner ──────────────────────────────────────────────────────────
+function renderByOwner(query) {
+  const tbody  = document.querySelector('#byowner-table tbody');
+  const countEl = document.getElementById('byowner-count');
+
+  if (!selectedOwner) {
+    countEl.textContent = '';
+    tbody.innerHTML = '<tr><td colspan="8" class="loading">Select an owner above to see their top players.</td></tr>';
+    return;
+  }
+
+  let seasRows = filteredSeasonRows();
+  const pm = {};
+
+  if (selectedOwner === 'ALL') {
+    for (const r of seasRows) {
+      for (const [owner, od] of Object.entries(r.owners)) {
+        const key = `${r.player}|${owner}`;
+        if (!pm[key]) pm[key] = { player: r.player, owner, pos: r.pos, nfl_teams: new Set(), total: 0, starts: 0 };
+        const p = pm[key];
+        if (r.nfl_team) p.nfl_teams.add(r.nfl_team);
+        p.total  += od.pts;
+        p.starts += od.starts;
+      }
+    }
+  } else {
+    for (const r of seasRows) {
+      const od = r.owners[selectedOwner];
+      if (!od) continue;
+      if (!pm[r.player]) pm[r.player] = { player: r.player, owner: selectedOwner, pos: r.pos, nfl_teams: new Set(), total: 0, starts: 0 };
+      const p = pm[r.player];
+      if (r.nfl_team) p.nfl_teams.add(r.nfl_team);
+      p.total  += od.pts;
+      p.starts += od.starts;
+    }
+  }
+
+  let players = Object.values(pm).map(p => ({
+    player:   p.player,
+    owner:    p.owner,
+    pos:      p.pos,
+    nfl_team: [...p.nfl_teams].join(', '),
+    total:    p.total,
+    starts:   p.starts,
+    ppg:      p.starts > 0 ? p.total / p.starts : 0,
+  }));
+
+  players = players.filter(p => posMatch(p.pos));
+  if (query) players = players.filter(p =>
+    p.player.toLowerCase().includes(query) || p.nfl_team.toLowerCase().includes(query));
+
+  const boMin = parseInt(document.getElementById('byowner-starts-min').value) || 1;
+  const boMaxRaw = document.getElementById('byowner-starts-max').value;
+  const boMax = boMaxRaw ? parseInt(boMaxRaw) : Infinity;
+  players = players.filter(p => p.starts >= boMin && p.starts <= boMax);
+
+  players = sortBy(players, byOwnerSortCol, byOwnerSortDir);
+
+  countEl.textContent = selectedOwner === 'ALL'
+    ? `${players.length.toLocaleString()} player-owner row${players.length !== 1 ? 's' : ''}`
+    : `${players.length.toLocaleString()} player${players.length !== 1 ? 's' : ''} started by ${selectedOwner}`;
+
+  tbody.innerHTML = '';
+  if (!players.length) {
+    tbody.innerHTML = '<tr><td colspan="8" class="loading">No players match the current filters.</td></tr>';
+    return;
+  }
+
+  players.forEach((p, idx) => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td class="num" style="color:var(--muted)">${idx + 1}</td>
+      <td><strong>${p.player}</strong></td>
+      <td style="color:var(--muted)">${p.owner}</td>
+      <td>${posBadge(p.pos)}</td>
+      <td style="color:var(--muted)">${p.nfl_team || '—'}</td>
+      <td class="num"><strong>${p.total.toFixed(1)}</strong></td>
+      <td class="num">${p.starts}</td>
+      <td class="num">${p.ppg.toFixed(1)}</td>`;
+    tbody.appendChild(tr);
   });
 }
 

@@ -7,22 +7,178 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>🏈</text></svg>">
   <link rel="stylesheet" href="css/style.css">
   <style>
-    /* ── Expandable playoff matchup rows ─────────────────────────── */
-    .playoff-row {
-      cursor: pointer;
-      transition: background 0.1s;
+    /* ── Playoff Bracket ─────────────────────────────────────────── */
+    .bracket-outer { overflow-x: auto; }
+    .bracket-wrap {
+      display: flex;
+      align-items: stretch;
+      min-width: fit-content;
     }
-    .playoff-row:hover td { background: rgba(212,160,23,0.04); }
-    .playoff-row.expanded td { background: rgba(212,160,23,0.06); }
 
-    .playoff-detail-row { display: none; }
-    .playoff-detail-row.visible { display: table-row; }
-    .playoff-detail-row td { padding: 0; border-bottom: 1px solid var(--border); }
+    .bkt-col {
+      display: flex;
+      flex-direction: column;
+      min-width: 165px;
+    }
+    .bkt-col.finals { min-width: 180px; }
 
+    .bkt-col-hdr {
+      height: 26px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding-bottom: 8px;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .bkt-half {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      padding: 6px 8px;
+      position: relative;
+    }
+
+    /* card */
+    .bkt-card {
+      width: 100%;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .bkt-card:hover { border-color: var(--blue); }
+    .bkt-card.active { border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold); }
+    .bkt-card.bkt-champ-card { border-color: rgba(212,160,23,0.35); }
+    .bkt-card.bkt-champ-card:hover { border-color: var(--gold); }
+
+    .bkt-card-lbl {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      color: var(--muted);
+      padding: 5px 10px 4px;
+      background: var(--surface2);
+      border-bottom: 1px solid var(--border);
+    }
+    .bkt-champ-card .bkt-card-lbl { color: var(--gold); }
+
+    .bkt-team {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 10px;
+      font-size: 12px;
+      gap: 8px;
+      border-bottom: 1px solid var(--border);
+      overflow: hidden;
+    }
+    .bkt-team:last-of-type { border-bottom: none; }
+    .bkt-team.win { font-weight: 600; }
+    .bkt-team.lose { color: var(--muted); }
+    .bkt-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .bkt-score { font-variant-numeric: tabular-nums; font-size: 11px; flex-shrink: 0; }
+    .bkt-score.win { color: var(--gold); font-weight: 700; }
+
+    .bkt-hint {
+      font-size: 10px;
+      color: var(--muted);
+      text-align: center;
+      padding: 3px;
+      background: var(--surface2);
+      border-top: 1px solid var(--border);
+    }
+
+    /* connector columns */
+    .bkt-conn {
+      width: 24px;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .bkt-conn-hdr-gap { height: 26px; }
+    .bkt-conn-body { flex: 1; display: flex; flex-direction: column; }
+
+    .bkt-ch { flex: 1; position: relative; }
+
+    /* simple connector: horizontal line at center (QF→SF) */
+    .bkt-conn.simple .bkt-ch::before {
+      content: '';
+      position: absolute;
+      left: 0; right: 0;
+      top: 50%;
+      border-top: 2px solid var(--border);
+    }
+
+    /* bracket connector: converging arms (SF→Finals) */
+    .bkt-conn.bracket .bkt-ch.top::before {
+      content: '';
+      position: absolute;
+      left: 0; right: 0;
+      top: 50%;
+      border-top: 2px solid var(--border);
+    }
+    .bkt-conn.bracket .bkt-ch.top::after {
+      content: '';
+      position: absolute;
+      top: 50%; bottom: 0;
+      right: 0; width: 2px;
+      background: var(--border);
+    }
+    .bkt-conn.bracket .bkt-ch.bot::before {
+      content: '';
+      position: absolute;
+      left: 0; right: 0;
+      top: 50%;
+      border-top: 2px solid var(--border);
+    }
+    .bkt-conn.bracket .bkt-ch.bot::after {
+      content: '';
+      position: absolute;
+      top: 0; bottom: 50%;
+      right: 0; width: 2px;
+      background: var(--border);
+    }
+
+    /* Finals column: left arm from connector to card */
+    .bkt-col.finals .bkt-half { padding-left: 0; }
+    .bkt-col.finals .bkt-half::before {
+      content: '';
+      position: absolute;
+      left: 0; width: 8px;
+      top: 50%;
+      border-top: 2px solid var(--border);
+    }
+    .bkt-col.finals .bkt-half .bkt-card { margin-left: 8px; }
+
+    /* lineup panel below bracket */
+    .bkt-lineup-panel {
+      margin-top: 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .bkt-lineup-meta {
+      text-align: center;
+      padding: 6px 10px;
+      background: var(--surface2);
+      font-size: 11px;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* shared lineup layout */
     .lineup-cols {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      border-top: 1px solid var(--border);
     }
     .lineup-col { padding: 12px 14px; }
     .lineup-col:first-child { border-right: 1px solid var(--border); }
@@ -62,11 +218,84 @@
     .lineup-totals .label { color: var(--muted); }
     .lineup-totals .val   { font-weight: 700; }
 
-    .expand-hint {
-      font-size: 10px;
-      color: var(--muted);
-      margin-left: 6px;
+    /* ── Clickable standing rows ──────────────────────────────── */
+    .standing-row { cursor: pointer; }
+    .standing-row:hover td { background: rgba(212,160,23,0.04); }
+    .standing-row.expanded td { background: rgba(212,160,23,0.06); }
+    .standing-detail-row { display: none; }
+    .standing-detail-row.visible { display: table-row; }
+    .standing-detail-row td { padding: 0; border-bottom: 1px solid var(--border); }
+    .team-schedule {
+      padding: 0;
     }
+    .team-schedule table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    .team-schedule th {
+      background: var(--surface2);
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      padding: 5px 12px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    .team-schedule th.num { text-align: right; }
+    .team-schedule td { padding: 5px 12px; border-bottom: 1px solid rgba(48,54,61,0.4); }
+    .team-schedule td.num { text-align: right; font-variant-numeric: tabular-nums; }
+    .team-schedule tr:last-child td { border-bottom: none; }
+    .team-schedule .res-w { color: var(--green); font-weight: 700; }
+    .team-schedule .res-l { color: var(--red); }
+
+    /* ── Clickable matchup rows ──────────────────────────────── */
+    .matchup-row.has-lineups { cursor: pointer; }
+    .matchup-row.has-lineups:hover td { background: rgba(212,160,23,0.04); }
+    .matchup-row.expanded td { background: rgba(212,160,23,0.06); }
+    .matchup-detail-row { display: none; }
+    .matchup-detail-row.visible { display: table-row; }
+    .matchup-detail-row td { padding: 0; border-bottom: 1px solid var(--border); }
+
+    /* ── Sortable standings headers ──────────────────────────── */
+    .st-th { cursor: pointer; user-select: none; white-space: nowrap; }
+    .st-th:hover { color: var(--text); }
+    .st-th.sort-asc::after  { content: ' ▲'; font-size: 9px; color: var(--gold); }
+    .st-th.sort-desc::after { content: ' ▼'; font-size: 9px; color: var(--gold); }
+
+    /* ── Player Highlights ───────────────────────────────────── */
+    .highlights-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    .highlight-pos-block {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .highlight-pos-hdr {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .06em; color: var(--gold);
+      padding: 9px 14px;
+      background: var(--surface2);
+      border-bottom: 1px solid var(--border);
+    }
+    .highlight-pos-list { list-style: none; padding: 0; margin: 0; }
+    .highlight-pos-list li {
+      display: grid;
+      grid-template-columns: 20px 1fr 60px;
+      grid-template-rows: auto auto;
+      column-gap: 6px;
+      padding: 6px 14px;
+      border-bottom: 1px solid rgba(48,54,61,0.4);
+      font-size: 12px;
+      align-items: baseline;
+    }
+    .highlight-pos-list li:last-child { border-bottom: none; }
+    .highlight-rank { color: var(--muted); font-size: 11px; }
+    .highlight-name { font-weight: 600; word-break: break-word; }
+    .highlight-pts-sm { font-variant-numeric: tabular-nums; color: var(--gold); font-weight: 700; font-size: 11px; text-align: right; }
+    .highlight-team-sm { grid-column: 2 / 4; font-size: 10px; color: var(--muted); padding-top: 1px; word-break: break-word; }
 
     @media (max-width: 600px) {
       .lineup-cols { grid-template-columns: 1fr; }
@@ -89,6 +318,7 @@
         <a href="extrapoints.html">Extra Points</a>
         <a href="timeline.html">Season Timeline</a>
         <a href="owner.html">Owner Profiles</a>
+        <a href="finalrosters.html">Final Rosters</a>
       </div>
     </div>
     <div class="nav-group">
@@ -101,7 +331,6 @@
     <div class="nav-group">
       <button class="nav-group-btn">Stats ▾</button>
       <div class="nav-dropdown">
-        <a href="weekly.html">Weekly</a>
         <a href="players.html">Player History</a>
         <a href="rules.html">Rules</a>
       </div>
@@ -187,10 +416,11 @@ async function loadYear(year) {
   const content = document.getElementById('content');
   content.innerHTML = '<p class="loading">Loading…</p>';
 
-  const [standings, matchups, lineups] = await Promise.all([
+  const [standings, matchups, lineups, transactions] = await Promise.all([
     loadFile(year, 'standings.json'),
     loadFile(year, 'matchups.json'),
     loadFile(year, 'weekly_lineups.json').catch(() => []),
+    loadFile(year, 'transactions.json').catch(() => []),
   ]);
 
   const teamOwner = buildTeamOwnerMap(standings);
@@ -215,71 +445,129 @@ async function loadYear(year) {
   for (const m of matchups) (byWeek[m.week] = byWeek[m.week] || []).push(m);
   const allWeeks = Object.keys(byWeek).map(Number).sort((a, b) => a - b);
 
+  // ── Pre-compute standings stats ──────────────────────────────
+  // League average PF
+  const leagueAvgPF = standings.reduce((s, t) => s + parseFloat(t.points_for), 0) / standings.length;
+
+  // Transactions per team (count entries where team is the recipient)
+  const teamMoves = {};
+  for (const tx of transactions) {
+    if (tx.to && tx.to !== 'Dropped' && tx.to !== 'FA/Waiver') {
+      teamMoves[tx.to] = (teamMoves[tx.to] || 0) + 1;
+    }
+  }
+
+  // Luck record: for each regular-season week, how many other teams would you beat?
+  const luckRecord = {};
+  for (const m of matchups) {
+    if (m.playoff) continue;
+    const s1 = parseFloat(m.score1), s2 = parseFloat(m.score2);
+    for (const [team, score] of [[m.team1, s1], [m.team2, s2]]) {
+      if (!luckRecord[team]) luckRecord[team] = { w: 0, l: 0 };
+    }
+  }
+  // Second pass: compare each team's score against every other team that week
+  const byRegWeek = {};
+  for (const m of matchups) {
+    if (m.playoff) continue;
+    (byRegWeek[m.week] = byRegWeek[m.week] || []).push(m);
+  }
+  for (const games of Object.values(byRegWeek)) {
+    const weekScores = {}; // team -> score
+    for (const m of games) {
+      weekScores[m.team1] = parseFloat(m.score1);
+      weekScores[m.team2] = parseFloat(m.score2);
+    }
+    for (const [team, score] of Object.entries(weekScores)) {
+      if (!luckRecord[team]) luckRecord[team] = { w: 0, l: 0 };
+      for (const [other, otherScore] of Object.entries(weekScores)) {
+        if (other === team) continue;
+        if (score > otherScore) luckRecord[team].w++;
+        else if (score < otherScore) luckRecord[team].l++;
+      }
+    }
+  }
+
   // ── Standings ────────────────────────────────────────────────
-  const sortedStandings = [...standings].sort((a, b) => parseInt(a.rank) - parseInt(b.rank));
+  // Build per-team schedule lookup
+  const teamSchedule = {};
+  for (const m of matchups) {
+    const s1 = parseFloat(m.score1), s2 = parseFloat(m.score2);
+    for (const [myTeam, myScore, oppTeam, oppScore] of [
+      [m.team1, s1, m.team2, s2],
+      [m.team2, s2, m.team1, s1],
+    ]) {
+      if (!teamSchedule[myTeam]) teamSchedule[myTeam] = [];
+      teamSchedule[myTeam].push({ week: m.week, opponent: oppTeam, myScore, oppScore, round: m.round, playoff: m.playoff });
+    }
+  }
+
+  const sortedStandings = computeFinalStandings(matchups, standings);
+  let stIdx = 0;
   const standingRows = sortedStandings.map(t => {
     const isChamp = t.team === champTeam;
-    return `<tr class="${isChamp ? 'is-champ' : ''}">
-      <td class="num">${t.rank}</td>
-      <td>${isChamp ? '🏆 ' : ''}${t.team}</td>
-      <td>${t.owner}</td>
-      <td class="num">${t.wins}</td>
-      <td class="num">${t.losses}</td>
-      <td class="num">${parseFloat(t.points_for).toFixed(2)}</td>
-      <td class="num">${parseFloat(t.points_against).toFixed(2)}</td>
+    const sid = `st-${stIdx++}`;
+    const games = (teamSchedule[t.team] || []).sort((a, b) => a.week - b.week);
+    const schedRows = games.map(g => {
+      const won = g.myScore > g.oppScore;
+      const label = g.round ? `<span class="badge badge-blue" style="font-size:9px">${g.round}</span>` : '';
+      return `<tr>
+        <td class="num">${g.week}</td>
+        <td>${g.opponent}</td>
+        <td class="num" style="${won ? 'font-weight:600' : 'color:var(--muted)'}">${g.myScore.toFixed(2)}</td>
+        <td class="num" style="${!won ? 'font-weight:600' : 'color:var(--muted)'}">${g.oppScore.toFixed(2)}</td>
+        <td class="num"><span class="${won ? 'res-w' : 'res-l'}">${won ? 'W' : 'L'}</span></td>
+        <td>${label}</td>
+      </tr>`;
+    }).join('');
+
+    const pf   = parseFloat(t.points_for);
+    const pa   = parseFloat(t.points_against);
+    const pd   = pf - pa;
+    const vsAvg = pf - leagueAvgPF;
+    const luck = luckRecord[t.team] || { w: 0, l: 0 };
+    const moves = teamMoves[t.team] || 0;
+    const pdStr  = (pd  >= 0 ? '+' : '') + pd.toFixed(2);
+    const vaStr  = (vsAvg >= 0 ? '+' : '') + vsAvg.toFixed(2);
+
+    return `<tr class="standing-row${isChamp ? ' is-champ' : ''}" onclick="standingClick('${sid}')">
+      <td class="num" data-val="${t.rank}">${t.rank}</td>
+      <td data-val="${t.team}">${isChamp ? '🏆 ' : ''}${t.team}</td>
+      <td data-val="${t.owner}">${t.owner}</td>
+      <td class="num" data-val="${t.wins}">${t.wins}</td>
+      <td class="num" data-val="${t.losses}">${t.losses}</td>
+      <td class="num" data-val="${pf}">${pf.toFixed(2)}</td>
+      <td class="num" data-val="${pa}">${pa.toFixed(2)}</td>
+      <td class="num" data-val="${pd}" style="color:${pd >= 0 ? 'var(--green)' : 'var(--red)'}">${pdStr}</td>
+      <td class="num" data-val="${vsAvg}" style="color:${vsAvg >= 0 ? 'var(--green)' : 'var(--red)'}">${vaStr}</td>
+      <td class="num" data-val="${luck.w}" style="color:var(--muted)">${luck.w}-${luck.l}</td>
+      <td class="num" data-val="${moves}" style="color:var(--muted)">${moves}</td>
+    </tr>
+    <tr class="standing-detail-row" id="${sid}-detail">
+      <td colspan="11">
+        <div class="team-schedule">
+          <table>
+            <thead><tr>
+              <th class="num">Wk</th><th>Opponent</th>
+              <th class="num">For</th><th class="num">Opp</th>
+              <th class="num">W/L</th><th></th>
+            </tr></thead>
+            <tbody>${schedRows}</tbody>
+          </table>
+        </div>
+      </td>
     </tr>`;
   }).join('');
 
-  // ── Playoff results (expandable) ─────────────────────────────
-  const roundOrder = ['Championship', '3rd Place', 'Semifinal', 'Quarterfinal', 'Consolation'];
-  let playoffDetailRows = '';
-  let playoffId = 0;
-  const sortedPlayoff = playoffMatchups
-    .filter(m => m.round)
-    .sort((a, b) => {
-      const ai = roundOrder.indexOf(a.round), bi = roundOrder.indexOf(b.round);
-      return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
-    });
+  // ── Player highlights ────────────────────────────────────────
+  const playerHighlightsHTML = buildPlayerHighlightsHTML(lineups);
 
-  sortedPlayoff.forEach(m => {
-    const id = `pm-${playoffId++}`;
-    const s1 = parseFloat(m.score1), s2 = parseFloat(m.score2);
-    const w = s1 > s2 ? 1 : 2;
-    const wkLineups = lineupsByWeekTeam[m.week] || {};
-    const l1 = buildLineupHTML(wkLineups[m.team1]);
-    const l2 = buildLineupHTML(wkLineups[m.team2]);
-    const hasLineups = (wkLineups[m.team1] || wkLineups[m.team2]);
-    const hint = hasLineups ? `<span class="expand-hint">▶ lineups</span>` : '';
-
-    playoffDetailRows += `
-      <tr class="playoff-row" onclick="togglePlayoffRow('${id}')" id="${id}-row">
-        <td><span class="badge badge-gold">${m.round}</span>${hint}</td>
-        <td style="${w===1?'font-weight:600':'color:var(--muted)'}">${m.team1}</td>
-        <td class="num" style="${w===1?'font-weight:600':'color:var(--muted)'}">${s1.toFixed(2)}</td>
-        <td style="color:var(--muted);text-align:center">vs</td>
-        <td style="${w===2?'font-weight:600':'color:var(--muted)'}">${m.team2}</td>
-        <td class="num" style="${w===2?'font-weight:600':'color:var(--muted)'}">${s2.toFixed(2)}</td>
-      </tr>
-      <tr class="playoff-detail-row" id="${id}-detail">
-        <td colspan="6">
-          <div style="text-align:center;padding:6px 8px;background:var(--surface2);font-size:11px;color:var(--muted)">
-            Margin of victory: <strong style="color:var(--text)">${Math.abs(s1-s2).toFixed(2)}</strong>
-          </div>
-          <div class="lineup-cols">
-            <div class="lineup-col">
-              <div class="lineup-col-header">${teamOwner[m.team1] || m.team1} — ${m.team1}</div>
-              ${l1}
-            </div>
-            <div class="lineup-col">
-              <div class="lineup-col-header">${teamOwner[m.team2] || m.team2} — ${m.team2}</div>
-              ${l2}
-            </div>
-          </div>
-        </td>
-      </tr>`;
-  });
+  // ── Playoff bracket ──────────────────────────────────────────
+  const bracketHTML = buildBracketHTML(playoffMatchups, lineupsByWeekTeam, teamOwner);
 
   // ── Weekly matchups ──────────────────────────────────────────
+  _wkData = {};
+  let wkIdx = 0;
   const weekRows = allWeeks.map(week => {
     const games = byWeek[week];
     const isPlayoff = games[0].playoff;
@@ -289,51 +577,64 @@ async function loadYear(year) {
       </td>
     </tr>`;
     const gameRows = games.map(m => {
+      const id = `wk-${wkIdx++}`;
       const s1 = parseFloat(m.score1), s2 = parseFloat(m.score2);
       const w = s1 > s2 ? 1 : 2;
-      return `<tr>
+      const wkL = lineupsByWeekTeam[m.week] || {};
+      const hasL = !!(wkL[m.team1] || wkL[m.team2]);
+      _wkData[id] = { m, lineupsByWeekTeam, teamOwner };
+      const hint = hasL ? `<span class="expand-hint" style="margin-left:4px">▶</span>` : '';
+      return `<tr class="matchup-row${hasL ? ' has-lineups' : ''}" id="${id}-row" onclick="weekClick('${id}')">
         <td style="${w===1?'font-weight:600':'color:var(--muted)'}">${m.team1}</td>
         <td class="num" style="${w===1?'font-weight:600':'color:var(--muted)'}">${s1.toFixed(2)}</td>
         <td style="color:var(--border);text-align:center">—</td>
         <td style="${w===2?'font-weight:600':'color:var(--muted)'}">${m.team2}</td>
         <td class="num" style="${w===2?'font-weight:600':'color:var(--muted)'}">${s2.toFixed(2)}</td>
-        <td style="text-align:right">${m.round ? `<span class="badge badge-blue">${m.round}</span>` : ''}</td>
-      </tr>`;
+        <td style="text-align:right">${m.round ? `<span class="badge badge-blue">${m.round}</span>` : ''}${hint}</td>
+      </tr>
+      <tr class="matchup-detail-row" id="${id}-detail"><td colspan="6"></td></tr>`;
     }).join('');
     return header + gameRows;
   }).join('');
 
   content.innerHTML = `
     <section>
-      <h2>Final Standings</h2>
+      <h2>Final Standings <span style="font-size:11px;color:var(--muted);font-weight:400">— click a team to see their schedule · click a column to sort</span></h2>
       <div class="table-wrap">
-        <table>
+        <table class="standings-table">
           <thead><tr>
-            <th class="num">Rank</th><th>Team</th><th>Owner</th>
-            <th class="num">W</th><th class="num">L</th>
-            <th class="num">PF</th><th class="num">PA</th>
+            <th class="num st-th" data-col="0">Rank</th>
+            <th class="st-th" data-col="1">Team</th>
+            <th class="st-th" data-col="2">Owner</th>
+            <th class="num st-th" data-col="3">W</th>
+            <th class="num st-th" data-col="4">L</th>
+            <th class="num st-th" data-col="5">PF</th>
+            <th class="num st-th" data-col="6">PA</th>
+            <th class="num st-th" data-col="7" title="Point Differential (PF − PA)">PD</th>
+            <th class="num st-th" data-col="8" title="Points vs league average this season">vs Avg</th>
+            <th class="num st-th" data-col="9" title="Record if team played every other team each regular-season week">Luck</th>
+            <th class="num st-th" data-col="10" title="Total players added (transactions)">Moves</th>
           </tr></thead>
           <tbody>${standingRows}</tbody>
         </table>
       </div>
     </section>
 
-    ${playoffDetailRows ? `
+    ${bracketHTML ? `
     <section>
-      <h2>Playoff Results <span style="font-size:11px;color:var(--muted);font-weight:400">— click a row to see lineups</span></h2>
-      <div class="table-wrap">
-        <table>
-          <thead><tr>
-            <th>Round</th><th>Team</th><th class="num">Score</th>
-            <th></th><th>Team</th><th class="num">Score</th>
-          </tr></thead>
-          <tbody>${playoffDetailRows}</tbody>
-        </table>
-      </div>
+      <h2>Playoff Results <span style="font-size:11px;color:var(--muted);font-weight:400">— click a matchup to see lineups</span></h2>
+      <div class="bracket-outer">${bracketHTML}</div>
+    </section>` : ''}
+
+    ${playerHighlightsHTML ? `
+    <section>
+      <h2>Player Highlights</h2>
+      <p style="color:var(--muted);font-size:12px;margin-bottom:12px">Top 10 highest-scoring starters at each position — total fantasy points across the season.</p>
+      <div class="highlights-grid">${playerHighlightsHTML}</div>
     </section>` : ''}
 
     <section>
-      <h2>All Matchups</h2>
+      <h2>All Matchups <span style="font-size:11px;color:var(--muted);font-weight:400">— click a matchup to see lineups</span></h2>
       <div class="table-wrap">
         <table>
           <thead><tr>
@@ -347,13 +648,277 @@ async function loadYear(year) {
       </div>
     </section>
   `;
+  initStandingsSort();
 }
 
-function togglePlayoffRow(id) {
+// ── Bracket builder ────────────────────────────────────────────────────────────
+let _bktData = {};
+let _bktActive = null;
+let _wkData = {};
+
+function buildBracketHTML(playoffMatchups, lineupsByWeekTeam, teamOwner) {
+  const byRound = {};
+  for (const m of playoffMatchups) {
+    if (!m.round) continue;
+    (byRound[m.round] = byRound[m.round] || []).push(m);
+  }
+
+  const champ = (byRound['Championship'] || [])[0];
+  const third = (byRound['3rd Place']    || [])[0];
+  const sfAll = byRound['Semifinal']     || [];
+  const qfAll = byRound['Quarterfinal']  || [];
+  const cons  = byRound['Consolation']   || [];
+
+  if (!champ) return '';
+
+  // Order SF: top = the one containing champ.team1
+  let sfTop = sfAll[0], sfBot = sfAll[1];
+  if (sfAll.length === 2) {
+    const b = sfAll[1];
+    if (b.team1 === champ.team1 || b.team2 === champ.team1) { sfTop = b; sfBot = sfAll[0]; }
+  }
+
+  // Find the QF game that fed each SF
+  function findQF(sf) {
+    if (!sf) return null;
+    return qfAll.find(qf => {
+      const w = parseFloat(qf.score1) > parseFloat(qf.score2) ? qf.team1 : qf.team2;
+      return w === sf.team1 || w === sf.team2;
+    }) || null;
+  }
+  const qfTop = findQF(sfTop);
+  const qfBot = findQF(sfBot);
+  const hasQF = qfTop || qfBot;
+
+  // Store matchup data for lineup clicks
+  _bktData = {};
+  const register = (id, m) => { if (m) _bktData[id] = { m, lineupsByWeekTeam, teamOwner }; };
+  register('qfTop', qfTop); register('qfBot', qfBot);
+  register('sfTop', sfTop); register('sfBot', sfBot);
+  register('champ', champ); register('third', third);
+
+  function makeCard(id, m, label) {
+    if (!m) return '';
+    const s1 = parseFloat(m.score1), s2 = parseFloat(m.score2);
+    const w  = s1 > s2 ? 1 : 2;
+    const wkL = lineupsByWeekTeam[m.week] || {};
+    const hasL = !!(wkL[m.team1] || wkL[m.team2]);
+    const isC = id === 'champ';
+    return `<div class="bkt-card${isC ? ' bkt-champ-card' : ''}" id="bkt-${id}" onclick="bracketClick('${id}')">
+      ${label ? `<div class="bkt-card-lbl">${label}</div>` : ''}
+      <div class="bkt-team ${w===1?'win':'lose'}"><span class="bkt-name">${m.team1}</span><span class="bkt-score ${w===1?'win':''}">${s1.toFixed(2)}</span></div>
+      <div class="bkt-team ${w===2?'win':'lose'}"><span class="bkt-name">${m.team2}</span><span class="bkt-score ${w===2?'win':''}">${s2.toFixed(2)}</span></div>
+      ${hasL ? '<div class="bkt-hint">▶ lineups</div>' : ''}
+    </div>`;
+  }
+
+  let html = '<div class="bracket-wrap">';
+
+  if (hasQF) {
+    html += `<div class="bkt-col">
+      <div class="bkt-col-hdr">Quarterfinals</div>
+      <div class="bkt-half">${makeCard('qfTop', qfTop, '')}</div>
+      <div class="bkt-half">${makeCard('qfBot', qfBot, '')}</div>
+    </div>
+    <div class="bkt-conn simple">
+      <div class="bkt-conn-hdr-gap"></div>
+      <div class="bkt-conn-body"><div class="bkt-ch top"></div><div class="bkt-ch bot"></div></div>
+    </div>`;
+  }
+
+  html += `<div class="bkt-col">
+    <div class="bkt-col-hdr">Semifinals</div>
+    <div class="bkt-half">${makeCard('sfTop', sfTop, '')}</div>
+    <div class="bkt-half">${makeCard('sfBot', sfBot, '')}</div>
+  </div>
+  <div class="bkt-conn bracket">
+    <div class="bkt-conn-hdr-gap"></div>
+    <div class="bkt-conn-body"><div class="bkt-ch top"></div><div class="bkt-ch bot"></div></div>
+  </div>
+  <div class="bkt-col finals">
+    <div class="bkt-col-hdr">Finals</div>
+    <div class="bkt-half">${makeCard('champ', champ, '🏆 Championship')}</div>
+    <div class="bkt-half">${makeCard('third', third, '3rd Place')}</div>
+  </div>`;
+
+  html += '</div>'; // bracket-wrap
+
+  // Lineup panel (hidden until a card is clicked)
+  html += '<div id="bkt-lineup" class="bkt-lineup-panel" style="display:none"></div>';
+
+  // Consolation section
+  if (cons.length > 0) {
+    const consByWeek = {};
+    for (const m of cons) (consByWeek[m.week] = consByWeek[m.week] || []).push(m);
+    const consRows = Object.keys(consByWeek).sort((a,b)=>a-b).flatMap(wk =>
+      consByWeek[wk].map(m => {
+        const s1 = parseFloat(m.score1), s2 = parseFloat(m.score2), w = s1>s2?1:2;
+        return `<tr>
+          <td style="color:var(--muted);font-size:11px">Wk ${wk}</td>
+          <td style="${w===1?'font-weight:600':'color:var(--muted)'}">${m.team1}</td>
+          <td class="num" style="${w===1?'font-weight:600':'color:var(--muted)'}">${s1.toFixed(2)}</td>
+          <td style="color:var(--muted);text-align:center">vs</td>
+          <td style="${w===2?'font-weight:600':'color:var(--muted)'}">${m.team2}</td>
+          <td class="num" style="${w===2?'font-weight:600':'color:var(--muted)'}">${s2.toFixed(2)}</td>
+        </tr>`;
+      })
+    ).join('');
+    html += `<div style="margin-top:20px">
+      <h3 style="font-size:12px;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.05em;margin-bottom:8px">Consolation Bracket</h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Week</th><th>Team</th><th class="num">Score</th><th></th><th>Team</th><th class="num">Score</th></tr></thead>
+        <tbody>${consRows}</tbody>
+      </table></div>
+    </div>`;
+  }
+
+  return html;
+}
+
+function buildPlayerHighlightsHTML(lineups) {
+  if (!lineups || !lineups.length) return '';
+  const POSITIONS = ['QB', 'RB', 'WR', 'TE', 'K', 'DEF'];
+  const isBenchSlot = s => s === 'BN' || s === 'IR';
+  const byPos = {};
+  for (const e of lineups) {
+    if (isBenchSlot(e.slot)) continue;
+    const pos = (e.pos || '').toUpperCase().split('/')[0];
+    if (!POSITIONS.includes(pos)) continue;
+    const key = `${e.player}__${pos}`;
+    if (!byPos[pos]) byPos[pos] = {};
+    if (!byPos[pos][key]) byPos[pos][key] = { player: e.player, pos, totalPts: 0, teams: new Set() };
+    byPos[pos][key].totalPts += parseFloat(e.fantasy_pts) || 0;
+    byPos[pos][key].teams.add(e.team);
+  }
+  return POSITIONS.map(pos => {
+    const players = Object.values(byPos[pos] || {})
+      .sort((a, b) => b.totalPts - a.totalPts)
+      .slice(0, 10);
+    if (!players.length) return '';
+    const items = players.map((d, i) => {
+      const teams = [...d.teams].join(', ');
+      return `<li>
+        <span class="highlight-rank">${i + 1}.</span>
+        <span class="highlight-name" title="${d.player}">${d.player}</span>
+        <span class="highlight-pts-sm">${d.totalPts.toFixed(2)}</span>
+        <span class="highlight-team-sm" title="${teams}">${teams}</span>
+      </li>`;
+    }).join('');
+    return `<div class="highlight-pos-block">
+      <div class="highlight-pos-hdr">${pos}</div>
+      <ul class="highlight-pos-list">${items}</ul>
+    </div>`;
+  }).filter(Boolean).join('');
+}
+
+function initStandingsSort() {
+  const table = document.querySelector('.standings-table');
+  if (!table) return;
+  const ths = table.querySelectorAll('th[data-col]');
+  ths.forEach(th => {
+    th.addEventListener('click', () => {
+      const col = parseInt(th.dataset.col);
+      const asc = !th.classList.contains('sort-asc');
+      ths.forEach(t => t.classList.remove('sort-asc', 'sort-desc'));
+      th.classList.add(asc ? 'sort-asc' : 'sort-desc');
+      const tbody = table.querySelector('tbody');
+      const rows = [...tbody.children];
+      const pairs = [];
+      for (let i = 0; i < rows.length; i++) {
+        if (rows[i].classList.contains('standing-row')) {
+          pairs.push([rows[i], rows[i + 1]]);
+          i++;
+        }
+      }
+      pairs.sort((a, b) => {
+        const av = a[0].cells[col]?.dataset.val ?? a[0].cells[col]?.textContent ?? '';
+        const bv = b[0].cells[col]?.dataset.val ?? b[0].cells[col]?.textContent ?? '';
+        const an = parseFloat(av), bn = parseFloat(bv);
+        const cmp = !isNaN(an) && !isNaN(bn) ? an - bn : av.localeCompare(bv);
+        return asc ? cmp : -cmp;
+      });
+      pairs.forEach(([dr, detail]) => { tbody.appendChild(dr); tbody.appendChild(detail); });
+    });
+  });
+}
+
+function standingClick(sid) {
+  const detail = document.getElementById(`${sid}-detail`);
+  const row    = detail.previousElementSibling;
+  const isOpen = detail.classList.toggle('visible');
+  row.classList.toggle('expanded', isOpen);
+}
+
+function weekClick(id) {
   const row    = document.getElementById(`${id}-row`);
   const detail = document.getElementById(`${id}-detail`);
-  const open   = detail.classList.toggle('visible');
-  row.classList.toggle('expanded', open);
+  const data   = _wkData[id];
+  if (!data) return;
+  const { m, lineupsByWeekTeam, teamOwner } = data;
+  const wkL = lineupsByWeekTeam[m.week] || {};
+  if (!wkL[m.team1] && !wkL[m.team2]) return;
+
+  const isOpen = detail.classList.toggle('visible');
+  row.classList.toggle('expanded', isOpen);
+
+  if (isOpen && !detail.querySelector('.lineup-cols')) {
+    const s1 = parseFloat(m.score1), s2 = parseFloat(m.score2);
+    detail.querySelector('td').innerHTML = `
+      <div style="text-align:center;padding:6px 8px;background:var(--surface2);font-size:11px;color:var(--muted)">
+        Week ${m.week}${m.round ? ' — ' + m.round : ''} — Margin: <strong style="color:var(--text)">${Math.abs(s1-s2).toFixed(2)}</strong>
+      </div>
+      <div class="lineup-cols">
+        <div class="lineup-col">
+          <div class="lineup-col-header">${teamOwner[m.team1] || m.team1} — ${m.team1}</div>
+          ${buildLineupHTML(wkL[m.team1])}
+        </div>
+        <div class="lineup-col">
+          <div class="lineup-col-header">${teamOwner[m.team2] || m.team2} — ${m.team2}</div>
+          ${buildLineupHTML(wkL[m.team2])}
+        </div>
+      </div>`;
+  }
+}
+
+function bracketClick(id) {
+  const panel = document.getElementById('bkt-lineup');
+  // Deactivate previous card
+  if (_bktActive) {
+    const prev = document.getElementById(`bkt-${_bktActive}`);
+    if (prev) prev.classList.remove('active');
+  }
+  // Toggle off if same card
+  if (_bktActive === id) {
+    _bktActive = null;
+    panel.style.display = 'none';
+    return;
+  }
+  _bktActive = id;
+  const card = document.getElementById(`bkt-${id}`);
+  if (card) card.classList.add('active');
+
+  const data = _bktData[id];
+  if (!data) { panel.style.display = 'none'; return; }
+
+  const { m, lineupsByWeekTeam, teamOwner } = data;
+  const s1 = parseFloat(m.score1), s2 = parseFloat(m.score2);
+  const wkL = lineupsByWeekTeam[m.week] || {};
+
+  panel.style.display = 'block';
+  panel.innerHTML = `
+    <div class="bkt-lineup-meta">
+      <strong style="color:var(--text)">${m.round}</strong> — Week ${m.week} — Margin: <strong style="color:var(--text)">${Math.abs(s1-s2).toFixed(2)}</strong>
+    </div>
+    <div class="lineup-cols">
+      <div class="lineup-col">
+        <div class="lineup-col-header">${teamOwner[m.team1] || m.team1} — ${m.team1}</div>
+        ${buildLineupHTML(wkL[m.team1])}
+      </div>
+      <div class="lineup-col">
+        <div class="lineup-col-header">${teamOwner[m.team2] || m.team2} — ${m.team2}</div>
+        ${buildLineupHTML(wkL[m.team2])}
+      </div>
+    </div>`;
 }
 
 loadYear(parseInt(yearSelect.value));

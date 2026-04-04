@@ -22,6 +22,7 @@
         <a href="extrapoints.html">Extra Points</a>
         <a href="timeline.html">Season Timeline</a>
         <a href="owner.html">Owner Profiles</a>
+        <a href="finalrosters.html">Final Rosters</a>
       </div>
     </div>
     <div class="nav-group">
@@ -34,7 +35,6 @@
     <div class="nav-group">
       <button class="nav-group-btn">Stats ▾</button>
       <div class="nav-dropdown">
-        <a href="weekly.html">Weekly</a>
         <a href="players.html">Player History</a>
         <a href="rules.html">Rules</a>
       </div>
@@ -70,24 +70,21 @@
             <th class="sortable num">Total PF</th>
             <th class="sortable num">PA/Ssn</th>
             <th class="sortable num">Total PA</th>
+            <th class="sortable num">PD</th>
+            <th class="sortable num">PD/Ssn</th>
             <th class="sortable num">Moves</th>
             <th class="sortable num">Moves/Ssn</th>
             <th class="sortable num">Championships</th>
           </tr>
         </thead>
-        <tbody><tr><td colspan="12" class="loading">Loading…</td></tr></tbody>
+        <tbody><tr><td colspan="14" class="loading">Loading…</td></tr></tbody>
       </table>
     </div>
   </section>
 
   <section>
     <h2>Season-by-Season Records</h2>
-    <p style="color:var(--muted);font-size:12px;margin-bottom:12px">
-      <span style="background:rgba(212,160,23,0.18);color:var(--gold);padding:1px 6px;border-radius:3px">W-L</span> = Champion &nbsp;
-      <span style="background:rgba(63,185,80,0.08);color:var(--green);padding:1px 6px;border-radius:3px">W-L</span> = Playoff appearance &nbsp;
-      <span style="color:var(--muted)">W-L</span> = Regular finish &nbsp;
-      <span style="color:var(--border)">—</span> = Did not play
-    </p>
+    <p style="color:var(--muted);font-size:12px;margin-bottom:12px">★ = Champion</p>
     <div class="season-grid-wrap">
       <table class="season-grid" id="grid-table">
         <thead></thead>
@@ -174,6 +171,8 @@ function render() {
     s.winPct         = g ? s.wins / g : 0;
     s.avgPF          = s.seasons ? s.pf / s.seasons : 0;
     s.avgPA          = s.seasons ? s.pa / s.seasons : 0;
+    s.pd             = s.pf - s.pa;
+    s.pdPerSeason    = s.seasons ? s.pd / s.seasons : 0;
     s.movesPerSeason = s.seasons ? s.moves / s.seasons : 0;
   }
 
@@ -197,6 +196,8 @@ function render() {
       <td class="num" data-val="${s.pf}">${s.pf.toFixed(0)}</td>
       <td class="num" data-val="${s.avgPA}">${s.avgPA.toFixed(1)}</td>
       <td class="num" data-val="${s.pa}">${s.pa.toFixed(0)}</td>
+      <td class="num" data-val="${s.pd}" style="color:${s.pd>=0?'var(--green)':'#e05252'}">${s.pd>=0?'+':''}${s.pd.toFixed(0)}</td>
+      <td class="num" data-val="${s.pdPerSeason}" style="color:${s.pdPerSeason>=0?'var(--green)':'#e05252'}">${s.pdPerSeason>=0?'+':''}${s.pdPerSeason.toFixed(1)}</td>
       <td class="num" data-val="${s.moves}">${s.moves}</td>
       <td class="num" data-val="${s.movesPerSeason}">${s.movesPerSeason.toFixed(1)}</td>
       <td class="num" data-val="${s.championships}">${s.championships > 0 ? '🏆 '.repeat(s.championships).trim() : '—'}</td>
@@ -205,19 +206,11 @@ function render() {
   });
   makeSortableTable(document.getElementById('stats-table'));
 
-  // ── Season grid ────────────────────────────────────────────────
+  // ── Season grid (heat chart) ────────────────────────────────────
   const champByYear = {};
   champions
     .filter(c => c.year >= fromYear && c.year <= toYear)
     .forEach(c => { champByYear[c.year] = c.team; });
-
-  const playoffTeamsByYear = {};
-  for (const year of filteredSeasons) {
-    const matchups = allMatchups[year] || [];
-    playoffTeamsByYear[year] = new Set(
-      matchups.filter(m => m.playoff).flatMap(m => [m.team1, m.team2])
-    );
-  }
 
   const ownerYearRecord = {};
   for (const year of filteredSeasons) {
@@ -227,9 +220,34 @@ function render() {
       ownerYearRecord[owner][year] = {
         w: parseInt(t.wins) || 0,
         l: parseInt(t.losses) || 0,
-        isChamp:   t.team === champByYear[year],
-        isPlayoff: playoffTeamsByYear[year]?.has(t.team) || false,
+        isChamp: t.team === champByYear[year],
+        team: t.team,
       };
+    }
+  }
+
+  // Rank owners by win% within each season (for heat coloring)
+  const heatRank = {}; // heatRank[owner][year] = { rank, total }
+  for (const year of filteredSeasons) {
+    const entries = (allStandings[year] || []).map(t => {
+      const w = parseInt(t.wins) || 0, l = parseInt(t.losses) || 0;
+      return { owner: normOwner(t.owner), pct: w / Math.max(w + l, 1) };
+    }).sort((a, b) => b.pct - a.pct);
+    entries.forEach((e, i) => {
+      if (!heatRank[e.owner]) heatRank[e.owner] = {};
+      heatRank[e.owner][year] = { rank: i + 1, total: entries.length };
+    });
+  }
+
+  // Map rank 1..total → green..red background
+  function heatBg(rank, total) {
+    const t = total <= 1 ? 0.5 : (rank - 1) / (total - 1); // 0=best, 1=worst
+    if (t < 0.5) {
+      const a = ((0.5 - t) * 2 * 0.38).toFixed(2);
+      return `rgba(63,185,80,${a})`;
+    } else {
+      const a = ((t - 0.5) * 2 * 0.33).toFixed(2);
+      return `rgba(224,82,82,${a})`;
     }
   }
 
@@ -254,8 +272,11 @@ function render() {
       if (!rec) {
         cells += `<td class="empty-cell">—</td>`;
       } else {
-        const cls = rec.isChamp ? 'champ-cell' : rec.isPlayoff ? 'playoff-cell' : '';
-        cells += `<td class="${cls}" title="${year}: ${rec.w}W ${rec.l}L">${rec.w}-${rec.l}</td>`;
+        const hr = heatRank[owner]?.[year];
+        const bg = hr ? heatBg(hr.rank, hr.total) : '';
+        const label = rec.isChamp ? `${rec.w}-${rec.l} ★` : `${rec.w}-${rec.l}`;
+        const tip = rec.isChamp ? `${year}: ${rec.w}W ${rec.l}L — Champion` : `${year}: ${rec.w}W ${rec.l}L`;
+        cells += `<td style="background:${bg};text-align:center" title="${tip}">${label}</td>`;
       }
     }
     tr.innerHTML = cells;

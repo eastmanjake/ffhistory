@@ -83,6 +83,7 @@
         <a href="extrapoints.html">Extra Points</a>
         <a href="timeline.html">Season Timeline</a>
         <a href="owner.html">Owner Profiles</a>
+        <a href="finalrosters.html">Final Rosters</a>
       </div>
     </div>
     <div class="nav-group">
@@ -95,7 +96,6 @@
     <div class="nav-group">
       <button class="nav-group-btn">Stats ▾</button>
       <div class="nav-dropdown">
-        <a href="weekly.html">Weekly</a>
         <a href="players.html">Player History</a>
         <a href="rules.html">Rules</a>
       </div>
@@ -121,45 +121,33 @@
         <div class="stat-label">Games Played</div>
       </div>
     </div>
+    <div id="current-champ-banner" style="display:none;margin-top:20px;padding:12px 20px;background:rgba(212,160,23,0.1);border:1px solid rgba(212,160,23,0.3);border-radius:8px;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap">
+      <span style="font-size:20px">🏆</span>
+      <span style="font-size:13px;color:var(--muted)">Reigning Champion</span>
+      <span id="current-champ-name" style="font-size:15px;font-weight:700;color:var(--gold)">—</span>
+      <span style="color:var(--muted);font-size:12px">(<span id="current-champ-owner">—</span>, <span id="current-champ-year">—</span>)</span>
+    </div>
   </div>
 
-  <div class="two-col">
-    <section>
-      <h2>Hall of Champions</h2>
-      <div class="table-wrap">
-        <table id="champ-table">
-          <thead>
-            <tr>
-              <th>Year</th>
-              <th>Champion</th>
-              <th>Owner</th>
-              <th class="num">Score</th>
-              <th>Runner-Up</th>
-              <th>Owner</th>
-              <th class="num">Score</th>
-            </tr>
-          </thead>
-          <tbody><tr><td colspan="7" class="loading">Loading…</td></tr></tbody>
-        </table>
-      </div>
-    </section>
-
-    <section>
-      <h2>Championship Count</h2>
-      <div class="table-wrap">
-        <table id="rings-table">
-          <thead>
-            <tr>
-              <th>Owner</th>
-              <th>Rings</th>
-              <th>Years</th>
-            </tr>
-          </thead>
-          <tbody><tr><td colspan="3" class="loading">Loading…</td></tr></tbody>
-        </table>
-      </div>
-    </section>
-  </div>
+  <section>
+    <h2>Hall of Champions</h2>
+    <div class="table-wrap">
+      <table id="champ-table">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Champion</th>
+            <th>Owner</th>
+            <th class="num">Score</th>
+            <th>Runner-Up</th>
+            <th>Owner</th>
+            <th class="num">Score</th>
+          </tr>
+        </thead>
+        <tbody><tr><td colspan="7" class="loading">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
 
   <section>
     <h2>Power Rankings <span id="pr-info" class="pr-info-icon" tabindex="0">ℹ</span></h2>
@@ -204,18 +192,17 @@
 
   <div class="two-col">
     <section>
-      <h2>Most Points by Season</h2>
+      <h2>Championship Count</h2>
       <div class="table-wrap">
-        <table id="reg-table">
+        <table id="rings-table">
           <thead>
             <tr>
-              <th>Year</th>
-              <th>Team</th>
               <th>Owner</th>
-              <th class="num">PF</th>
+              <th>Rings</th>
+              <th>Years</th>
             </tr>
           </thead>
-          <tbody><tr><td colspan="4" class="loading">Loading…</td></tr></tbody>
+          <tbody><tr><td colspan="3" class="loading">Loading…</td></tr></tbody>
         </table>
       </div>
     </section>
@@ -236,6 +223,47 @@
       </div>
     </section>
   </div>
+
+  <section>
+    <h2>Top 10 Scoring Seasons</h2>
+    <p style="color:var(--muted);font-size:12px;margin-bottom:12px">Highest single-season point totals by any team, across all seasons.</p>
+    <div class="table-wrap">
+      <table id="top10-table">
+        <thead>
+          <tr>
+            <th class="num">#</th>
+            <th>Year</th>
+            <th>Team</th>
+            <th>Owner</th>
+            <th class="num">PF</th>
+            <th class="num" title="Points above the league average for that season">vs Season Avg</th>
+          </tr>
+        </thead>
+        <tbody><tr><td colspan="6" class="loading">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Most Points by Season</h2>
+    <p style="color:var(--muted);font-size:12px;margin-bottom:12px">* Scoring rules changed from prior season — hover for details</p>
+    <div class="table-wrap">
+      <table id="reg-table">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Team</th>
+            <th>Owner</th>
+            <th class="num">PF</th>
+            <th class="num" title="Points above the league average for that season">vs Season Avg</th>
+            <th class="num" title="Points vs the average top score across all seasons">vs All-Time Avg</th>
+          </tr>
+        </thead>
+        <tbody><tr><td colspan="6" class="loading">Loading…</td></tr></tbody>
+        <tfoot id="reg-tfoot"></tfoot>
+      </table>
+    </div>
+  </section>
 
 </main>
 
@@ -266,11 +294,46 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 async function init() {
-  const [champions, allStandings, allMatchups] = await Promise.all([
+  const [champions, allStandings, allMatchups, allSettings] = await Promise.all([
     getChampions(),
     loadAllSeasons('standings.json'),
     loadAllSeasons('matchups.json'),
+    loadAllSeasons('settings.json'),
   ]);
+
+  // Detect which years had any scoring rule change vs prior year
+  const STAT_ALIASES = { 'Reception Yards': 'Receiving Yards', 'Reception Touchdowns': 'Receiving Touchdowns' };
+  const statMatrix = {};
+  for (const year of ALL_SEASONS) {
+    for (const e of (allSettings[year] || [])) {
+      const stat = STAT_ALIASES[e.stat] || e.stat;
+      if (!statMatrix[stat]) statMatrix[stat] = {};
+      statMatrix[stat][year] = e.points;
+    }
+  }
+  const scoringChangeYears = new Set();
+  const scoringChangeDetails = {};
+  for (const [stat, byYear] of Object.entries(statMatrix)) {
+    let prev = null;
+    for (const year of ALL_SEASONS) {
+      const val = byYear[year] ?? null;
+      if (prev !== null && val !== null && val !== prev) {
+        scoringChangeYears.add(year);
+        if (!scoringChangeDetails[year]) scoringChangeDetails[year] = [];
+        scoringChangeDetails[year].push(`${stat}: ${prev} → ${val}`);
+      }
+      if (val !== null) prev = val;
+    }
+  }
+
+  // ── Current champion banner ────────────────────────────────────
+  if (champions.length) {
+    const latest = champions[champions.length - 1];
+    document.getElementById('current-champ-name').textContent  = latest.team;
+    document.getElementById('current-champ-owner').textContent = latest.owner;
+    document.getElementById('current-champ-year').textContent  = latest.year;
+    document.getElementById('current-champ-banner').style.display = 'flex';
+  }
 
   // ── Hall of Champions (newest first) ──────────────────────────
   const champTbody = document.querySelector('#champ-table tbody');
@@ -346,21 +409,93 @@ async function init() {
   });
 
   // ── Most Points by Season ──────────────────────────────────────
+  // Pre-compute per-season averages and top scores for all-time avg
+  const seasonTopScores = [];
+  for (const year of SEASONS) {
+    const standings = allStandings[year];
+    if (!standings || !standings.length) continue;
+    const top = [...standings].sort((a, b) => parseFloat(b.points_for) - parseFloat(a.points_for))[0];
+    if (top) seasonTopScores.push(parseFloat(top.points_for));
+  }
+  const allTimeTopAvg = seasonTopScores.length
+    ? seasonTopScores.reduce((s, v) => s + v, 0) / seasonTopScores.length
+    : 0;
+
   const regTbody = document.querySelector('#reg-table tbody');
   regTbody.innerHTML = '';
   [...SEASONS].reverse().forEach(year => {
     const standings = allStandings[year];
-    if (!standings) return;
+    if (!standings || !standings.length) return;
     const top = [...standings].sort((a, b) => parseFloat(b.points_for) - parseFloat(a.points_for))[0];
     if (!top) return;
+    const pf = parseFloat(top.points_for);
+    const seasonAvg = standings.reduce((s, t) => s + parseFloat(t.points_for), 0) / standings.length;
+    const vsSeasonAvg  = pf - seasonAvg;
+    const vsAllTimeAvg = pf - allTimeTopAvg;
+    const hasChange = scoringChangeYears.has(year);
+    const changeTitle = hasChange ? (scoringChangeDetails[year] || []).join('\n') : '';
+    const fmtDiff = v => (v >= 0 ? '+' : '') + v.toFixed(2);
     const tr = document.createElement('tr');
     tr.innerHTML = `
-      <td><a href="season.html?year=${year}">${year}</a></td>
+      <td><a href="season.html?year=${year}">${year}${hasChange ? `<sup title="${changeTitle}" style="color:var(--gold);font-size:9px;margin-left:2px;cursor:help">*</sup>` : ''}</a></td>
       <td><strong>${top.team}</strong></td>
       <td>${normOwner(top.owner)}</td>
-      <td class="num">${parseFloat(top.points_for).toFixed(2)}</td>
+      <td class="num">${pf.toFixed(2)}</td>
+      <td class="num" style="color:${vsSeasonAvg >= 0 ? 'var(--green)' : 'var(--red)'}">${fmtDiff(vsSeasonAvg)}</td>
+      <td class="num" style="color:${vsAllTimeAvg >= 0 ? 'var(--green)' : 'var(--red)'}">${fmtDiff(vsAllTimeAvg)}</td>
     `;
     regTbody.appendChild(tr);
+  });
+
+  // ── Averages footer row ────────────────────────────────────────
+  const allPFs = [], allVsSeasonAvgs = [], allVsAllTimeAvgs = [];
+  for (const year of SEASONS) {
+    const standings = allStandings[year];
+    if (!standings || !standings.length) continue;
+    const top = [...standings].sort((a, b) => parseFloat(b.points_for) - parseFloat(a.points_for))[0];
+    if (!top) continue;
+    const pf = parseFloat(top.points_for);
+    const seasonAvg = standings.reduce((s, t) => s + parseFloat(t.points_for), 0) / standings.length;
+    allPFs.push(pf);
+    allVsSeasonAvgs.push(pf - seasonAvg);
+    allVsAllTimeAvgs.push(pf - allTimeTopAvg);
+  }
+  const avg = arr => arr.length ? arr.reduce((s, v) => s + v, 0) / arr.length : 0;
+  const avgPF = avg(allPFs), avgVsSeason = avg(allVsSeasonAvgs), avgVsAllTime = avg(allVsAllTimeAvgs);
+  const fmtDiff = v => (v >= 0 ? '+' : '') + v.toFixed(2);
+  document.getElementById('reg-tfoot').innerHTML = `
+    <tr style="border-top:2px solid var(--border);color:var(--muted);font-size:11px">
+      <td colspan="3" style="padding:6px 12px;font-weight:600;text-transform:uppercase;letter-spacing:.04em">Season Average</td>
+      <td class="num">${avgPF.toFixed(2)}</td>
+      <td class="num" style="color:${avgVsSeason >= 0 ? 'var(--green)' : 'var(--red)'}">${fmtDiff(avgVsSeason)}</td>
+      <td class="num" style="color:${avgVsAllTime >= 0 ? 'var(--green)' : 'var(--red)'}">${fmtDiff(avgVsAllTime)}</td>
+    </tr>`;
+
+  // ── Top 10 scoring seasons (all teams, all years) ─────────────
+  const allSeasonScores = [];
+  for (const year of SEASONS) {
+    const standings = allStandings[year];
+    if (!standings) continue;
+    const seasonAvg = standings.reduce((s, t) => s + parseFloat(t.points_for), 0) / standings.length;
+    for (const t of standings) {
+      allSeasonScores.push({ year, team: t.team, owner: normOwner(t.owner), pf: parseFloat(t.points_for), seasonAvg });
+    }
+  }
+  allSeasonScores.sort((a, b) => b.pf - a.pf);
+  const top10Tbody = document.querySelector('#top10-table tbody');
+  top10Tbody.innerHTML = '';
+  allSeasonScores.slice(0, 10).forEach((s, i) => {
+    const vsAvg = s.pf - s.seasonAvg;
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td class="num" style="color:var(--muted)">${i + 1}</td>
+      <td><a href="season.html?year=${s.year}">${s.year}</a></td>
+      <td><strong>${s.team}</strong></td>
+      <td>${s.owner}</td>
+      <td class="num">${s.pf.toFixed(2)}</td>
+      <td class="num" style="color:${vsAvg >= 0 ? 'var(--green)' : 'var(--red)'}">${(vsAvg >= 0 ? '+' : '') + vsAvg.toFixed(2)}</td>
+    `;
+    top10Tbody.appendChild(tr);
   });
 
   // ── Power Rankings ─────────────────────────────────────────────

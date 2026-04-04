@@ -102,6 +102,73 @@
     .result-semi     { color: var(--blue);  }
     .result-quarter  { color: var(--blue);  }
     .result-missed   { color: var(--border); }
+
+    /* ── Player Hall of Fame ─────────────────────────────────────── */
+    .hof-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+    .hof-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+    .hof-card .hof-name {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 8px 0 4px;
+      line-height: 1.3;
+    }
+    .hof-card .hof-pts {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--gold);
+    }
+    .hof-card .hof-years {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 3px;
+    }
+    .hof-card .hof-empty {
+      font-size: 13px;
+      color: var(--border);
+      margin-top: 8px;
+    }
+    .hof-section-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      margin: 0 0 10px;
+    }
+    .champ-impact-year {
+      font-weight: 700;
+      color: var(--gold);
+      font-size: 14px;
+      margin: 20px 0 8px;
+    }
+
+    /* ── Keeper badge ────────────────────────────────────────────── */
+    .keeper-badge {
+      background: rgba(184,134,11,0.18);
+      color: #f0c040;
+      border: 1px solid rgba(184,134,11,0.5);
+      border-radius: 4px;
+      padding: 1px 7px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+    .pick-label {
+      font-size: 11px;
+      color: var(--muted);
+    }
+    .draft-row-keeper td { background: rgba(184,134,11,0.04); }
   </style>
 </head>
 <body>
@@ -119,6 +186,7 @@
         <a href="extrapoints.html">Extra Points</a>
         <a href="timeline.html">Season Timeline</a>
         <a href="owner.html" class="active">Owner Profiles</a>
+        <a href="finalrosters.html">Final Rosters</a>
       </div>
     </div>
     <div class="nav-group">
@@ -131,7 +199,6 @@
     <div class="nav-group">
       <button class="nav-group-btn">Stats ▾</button>
       <div class="nav-dropdown">
-        <a href="weekly.html">Weekly</a>
         <a href="players.html">Player History</a>
         <a href="rules.html">Rules</a>
       </div>
@@ -178,25 +245,129 @@ const RESULT_LABELS = {
   missed:    { label: 'Missed Playoffs', cls: 'result-missed' },
 };
 
+// ── Draft: identify keeper and true first pick for a given owner/year ──────────
+function buildDraftHighlights(ownerName, seasons, allStandings, allDraft, keepersManual) {
+  const highlights = [];
+  for (const year of [...seasons].reverse()) {
+    const standings = allStandings[year] || [];
+    const draft     = allDraft[year]     || [];
+    const ownerEntry = standings.find(s => normOwner(s.owner) === ownerName);
+    if (!ownerEntry || !draft.length) continue;
+    const ownerTeam = ownerEntry.team;
+
+    let keeper    = null;
+    let firstPick = null;
+
+    if (year < PRE_MODERN_CUTOFF) {
+      // Pre-2016: no keeper system — round 1 is a genuine first pick
+      firstPick = draft.find(d => d.team === ownerTeam && d.round === 1) || null;
+    } else if (year <= 2024) {
+      // 2016–2024: round 1 = keeper, round 2 = true first pick
+      keeper    = draft.find(d => d.team === ownerTeam && d.round === 1) || null;
+      firstPick = draft.find(d => d.team === ownerTeam && d.round === 2) || null;
+    } else {
+      // 2025+: keeper from manual list (any round)
+      const manual = (keepersManual || []).find(k => normOwner(k.owner) === ownerName);
+      if (manual) {
+        keeper = draft.find(d => d.team === ownerTeam && d.round === manual.round) || null;
+      }
+      // First actual pick: round 1 if keeper is not in round 1, else round 2
+      const keeperRound = manual ? manual.round : null;
+      const fpRound = keeperRound === 1 ? 2 : 1;
+      firstPick = draft.find(d => d.team === ownerTeam && d.round === fpRound) || null;
+    }
+
+    if (keeper || firstPick) highlights.push({ year, keeper, firstPick });
+  }
+  return highlights;
+}
+
+// ── Player Hall of Fame ───────────────────────────────────────────────────────
+function buildPlayerHoF(ownerName, seasons, allStandings, allLineups, champYears) {
+  const BN_SLOTS  = new Set(['BN', 'IR', 'IL']);
+  const POSITIONS = ['QB', 'RB', 'WR', 'TE', 'K', 'DEF'];
+
+  const playerMap     = {}; // `player|pos` → { player, pos, pts, seasons: Set }
+  const champSeasons  = {}; // year → { team, players: { `player|pos` → { player, pos, pts } } }
+
+  for (const year of seasons) {
+    const standings = allStandings[year] || [];
+    const lineups   = allLineups[year]   || [];
+    const ownerEntry = standings.find(s => normOwner(s.owner) === ownerName);
+    if (!ownerEntry) continue;
+    const ownerTeam  = ownerEntry.team;
+    const isChamp    = champYears.includes(year);
+    if (isChamp) champSeasons[year] = { team: ownerTeam, players: {} };
+
+    for (const l of lineups) {
+      if (l.team !== ownerTeam) continue;
+      if (BN_SLOTS.has(l.slot))  continue;
+
+      const pts = parseFloat(l.fantasy_pts) || 0;
+      const pos = l.pos;
+      const key = `${l.player}|${pos}`;
+
+      if (!playerMap[key]) playerMap[key] = { player: l.player, pos, pts: 0, seasons: new Set() };
+      playerMap[key].pts += pts;
+      playerMap[key].seasons.add(year);
+
+      if (isChamp) {
+        const cp = champSeasons[year].players;
+        if (!cp[key]) cp[key] = { player: l.player, pos, pts: 0 };
+        cp[key].pts += pts;
+      }
+    }
+  }
+
+  // Position leaders
+  const posLeaders = {};
+  for (const entry of Object.values(playerMap)) {
+    if (!POSITIONS.includes(entry.pos)) continue;
+    if (!posLeaders[entry.pos] || entry.pts > posLeaders[entry.pos].pts) {
+      const sortedYears = [...entry.seasons].sort((a, b) => a - b);
+      posLeaders[entry.pos] = { ...entry, seasons: sortedYears };
+    }
+  }
+
+  // Championship impact: top 7 starters per champ season, sorted by pts
+  const champImpact = champYears
+    .filter(y => champSeasons[y])
+    .map(y => ({
+      year: y,
+      team: champSeasons[y].team,
+      players: Object.values(champSeasons[y].players)
+        .sort((a, b) => b.pts - a.pts)
+        .slice(0, 7),
+    }));
+
+  return { posLeaders, champImpact };
+}
+
 // ── Main entry point ───────────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', async () => {
-  const ownerParam = new URLSearchParams(location.search).get('owner');
+  const ownerParam       = new URLSearchParams(location.search).get('owner');
+  const includePreModern = localStorage.getItem('includePreModern') === 'true';
 
-  // Always use modern seasons for owner pages (current owners = 2016+)
+  // For the directory, always use modern seasons; profiles respect the toggle
   const modernSeasons = ALL_SEASONS.filter(y => y >= PRE_MODERN_CUTOFF);
+  const profileSeasons = includePreModern ? ALL_SEASONS : modernSeasons;
+  const loadSeasons    = ownerParam ? profileSeasons : modernSeasons;
 
-  // Load all data in parallel
-  const [allStandings, allMatchups, allDraft] = await Promise.all([
-    Promise.all(modernSeasons.map(y => loadFile(y, 'standings.json').catch(() => null)))
-      .then(arr => Object.fromEntries(modernSeasons.map((y, i) => [y, arr[i]]))),
-    Promise.all(modernSeasons.map(y => loadFile(y, 'matchups.json').catch(() => null)))
-      .then(arr => Object.fromEntries(modernSeasons.map((y, i) => [y, arr[i]]))),
-    Promise.all(modernSeasons.map(y => loadFile(y, 'draft.json').catch(() => null)))
-      .then(arr => Object.fromEntries(modernSeasons.map((y, i) => [y, arr[i]]))),
+  // Load all data for the relevant seasons
+  const [allStandings, allMatchups, allDraft, allLineups, keepersManual] = await Promise.all([
+    Promise.all(loadSeasons.map(y => loadFile(y, 'standings.json').catch(() => null)))
+      .then(arr => Object.fromEntries(loadSeasons.map((y, i) => [y, arr[i]]))),
+    Promise.all(loadSeasons.map(y => loadFile(y, 'matchups.json').catch(() => null)))
+      .then(arr => Object.fromEntries(loadSeasons.map((y, i) => [y, arr[i]]))),
+    Promise.all(loadSeasons.map(y => loadFile(y, 'draft.json').catch(() => null)))
+      .then(arr => Object.fromEntries(loadSeasons.map((y, i) => [y, arr[i]]))),
+    Promise.all(loadSeasons.map(y => loadFile(y, 'weekly_lineups.json').catch(() => null)))
+      .then(arr => Object.fromEntries(loadSeasons.map((y, i) => [y, arr[i]]))),
+    loadFile(2025, 'keepers_manual.json').catch(() => []),
   ]);
 
-  // Build owner → seasons map (which years did each owner play)
-  const ownerSeasons = {}; // ownerName → [year]
+  // Build owner → years map from modern seasons (determines who's in the directory)
+  const ownerSeasons = {};
   for (const year of modernSeasons) {
     const standings = allStandings[year] || [];
     standings.forEach(s => {
@@ -205,44 +376,43 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
-  // Build aggregated career stats per owner
+  // Career stats aggregated across loadSeasons
   function buildCareerStats(ownerName) {
     let wins = 0, losses = 0, pf = 0, pa = 0;
-    let championships = 0, seasons = 0;
+    let championships = 0, numSeasons = 0;
     const seasonRows = [];
 
-    for (const year of modernSeasons) {
+    for (const year of loadSeasons) {
       const standings = allStandings[year] || [];
       const matchups  = allMatchups[year]  || [];
       const entry = standings.find(s => normOwner(s.owner) === ownerName);
       if (!entry) continue;
 
-      seasons++;
-      const w = parseInt(entry.wins) || 0;
-      const l = parseInt(entry.losses) || 0;
-      const pfVal = parseFloat(entry.points_for) || 0;
-      const paVal = parseFloat(entry.points_against) || 0;
-      wins   += w;
-      losses += l;
-      pf     += pfVal;
-      pa     += paVal;
+      numSeasons++;
+      const w    = parseInt(entry.wins)          || 0;
+      const l    = parseInt(entry.losses)        || 0;
+      const pfV  = parseFloat(entry.points_for)  || 0;
+      const paV  = parseFloat(entry.points_against) || 0;
+      wins   += w; losses += l; pf += pfV; pa += paV;
 
-      // Find this owner's teams this season (normally 1, but handle edge cases)
       const ownerTeams = new Set(
         standings.filter(s => normOwner(s.owner) === ownerName).map(s => s.team)
       );
-
       const result = getPlayoffResult(ownerTeams, matchups);
       if (result === 'champion') championships++;
 
-      seasonRows.push({ year, team: entry.team, wins: w, losses: l, pf: pfVal, pa: paVal, rank: parseInt(entry.rank), result });
+      seasonRows.push({
+        year, team: entry.team,
+        wins: w, losses: l, pf: pfV, pa: paV,
+        rank: parseInt(entry.rank), result,
+      });
     }
-
-    return { wins, losses, pf, pa, championships, seasons, seasonRows };
+    return { wins, losses, pf, pa, championships, numSeasons, seasonRows };
   }
 
   if (ownerParam) {
-    renderProfile(ownerParam, allStandings, allMatchups, allDraft, modernSeasons, buildCareerStats);
+    renderProfile(ownerParam, allStandings, allMatchups, allDraft, allLineups,
+                  keepersManual, loadSeasons, buildCareerStats);
   } else {
     renderDirectory(ownerSeasons, buildCareerStats);
   }
@@ -264,7 +434,7 @@ function renderDirectory(ownerSeasons, buildCareerStats) {
         <div class="owner-card-name">${owner}</div>
         <div class="owner-card-champs">${champs}</div>
         <div class="owner-card-stats">
-          <div class="owner-card-stat"><div class="val">${stats.seasons}</div><div class="lbl">Seasons</div></div>
+          <div class="owner-card-stat"><div class="val">${stats.numSeasons}</div><div class="lbl">Seasons</div></div>
           <div class="owner-card-stat"><div class="val">${stats.wins}–${stats.losses}</div><div class="lbl">Record</div></div>
           <div class="owner-card-stat"><div class="val">${winPct}%</div><div class="lbl">Win%</div></div>
         </div>
@@ -282,11 +452,12 @@ function renderDirectory(ownerSeasons, buildCareerStats) {
 }
 
 // ── Profile view ───────────────────────────────────────────────────────────────
-function renderProfile(ownerName, allStandings, allMatchups, allDraft, modernSeasons, buildCareerStats) {
+function renderProfile(ownerName, allStandings, allMatchups, allDraft, allLineups,
+                       keepersManual, seasons, buildCareerStats) {
   document.title = `${ownerName} — The League`;
 
   const stats = buildCareerStats(ownerName);
-  if (!stats.seasons) {
+  if (!stats.numSeasons) {
     document.getElementById('app').innerHTML = `
       <a class="profile-back" href="owner.html">← All Owners</a>
       <p style="color:var(--muted)">No data found for "${ownerName}".</p>
@@ -294,27 +465,82 @@ function renderProfile(ownerName, allStandings, allMatchups, allDraft, modernSea
     return;
   }
 
-  const { wins, losses, pf, pa, championships, seasons, seasonRows } = stats;
+  const { wins, losses, pf, pa, championships, numSeasons, seasonRows } = stats;
   const totalGames = wins + losses;
-  const winPct = totalGames ? ((wins / totalGames) * 100).toFixed(1) : '—';
+  const winPct  = totalGames ? ((wins / totalGames) * 100).toFixed(1) : '—';
   const champStr = '🏆'.repeat(championships) || '';
 
+  // Season range label
+  const years = seasonRows.map(r => r.year).sort((a, b) => a - b);
+  const seasonRange = years.length > 1 ? `${years[0]}–${years[years.length - 1]}` : `${years[0]}`;
+
   // ── Career highlights ──────────────────────────────────────────
-  const byWins  = [...seasonRows].sort((a, b) => b.wins - a.wins || b.pf - a.pf);
-  const byPF    = [...seasonRows].sort((a, b) => b.pf - a.pf);
-  const byLoss  = [...seasonRows].sort((a, b) => b.losses - a.losses || a.pf - b.pf);
+  const byWins   = [...seasonRows].sort((a, b) => b.wins - a.wins   || b.pf - a.pf);
+  const byPF     = [...seasonRows].sort((a, b) => b.pf - a.pf);
+  const byLoss   = [...seasonRows].sort((a, b) => b.losses - a.losses || a.pf - b.pf);
   const bestWin  = byWins[0];
   const bestPF   = byPF[0];
   const worstSzn = byLoss[0];
   const playoffCount = seasonRows.filter(r => r.result !== 'missed').length;
 
   const highlights = [
-    { label: 'Best Record',    value: `${bestWin.wins}–${bestWin.losses}`,    sub: bestWin.year },
-    { label: 'Best Scoring Season', value: bestPF.pf.toFixed(0) + ' pts',    sub: bestPF.year },
-    { label: 'Worst Record',   value: `${worstSzn.wins}–${worstSzn.losses}`, sub: worstSzn.year },
-    { label: 'Playoff Appearances', value: `${playoffCount} / ${seasons}`,   sub: `${((playoffCount/seasons)*100).toFixed(0)}% appearance rate` },
-    { label: 'Avg PF / Season', value: (pf / seasons).toFixed(0) + ' pts',   sub: `${(pa / seasons).toFixed(0)} pts against` },
+    { label: 'Best Record',           value: `${bestWin.wins}–${bestWin.losses}`, sub: bestWin.year },
+    { label: 'Best Scoring Season',   value: bestPF.pf.toFixed(0) + ' pts',       sub: bestPF.year },
+    { label: 'Worst Record',          value: `${worstSzn.wins}–${worstSzn.losses}`, sub: worstSzn.year },
+    { label: 'Playoff Appearances',   value: `${playoffCount} / ${numSeasons}`,   sub: `${((playoffCount/numSeasons)*100).toFixed(0)}% appearance rate` },
+    { label: 'Avg PF / Season',       value: (pf / numSeasons).toFixed(0) + ' pts', sub: `${(pa / numSeasons).toFixed(0)} pts against` },
   ];
+
+  // ── Player Hall of Fame ────────────────────────────────────────
+  const champYears = seasonRows.filter(r => r.result === 'champion').map(r => r.year);
+  const { posLeaders, champImpact } = buildPlayerHoF(ownerName, seasons, allStandings, allLineups, champYears);
+
+  const POSITIONS = ['QB', 'RB', 'WR', 'TE', 'K', 'DEF'];
+
+  const hofCardsHtml = POSITIONS.map(pos => {
+    const leader = posLeaders[pos];
+    if (!leader) {
+      return `
+        <div class="hof-card">
+          <span class="pos-${pos}" style="font-size:11px;font-weight:700">${pos}</span>
+          <div class="hof-empty">—</div>
+        </div>`;
+    }
+    const yrs = leader.seasons;
+    const yearLabel = yrs.length > 1 ? `${yrs[0]}–${yrs[yrs.length - 1]}` : `${yrs[0]}`;
+    return `
+      <div class="hof-card">
+        <span class="pos-${pos}" style="font-size:11px;font-weight:700">${pos}</span>
+        <div class="hof-name">${leader.player}</div>
+        <div class="hof-pts">${leader.pts.toFixed(0)} pts</div>
+        <div class="hof-years">${yearLabel}</div>
+      </div>`;
+  }).join('');
+
+  const champImpactHtml = champImpact.length ? `
+    <p class="hof-section-label" style="margin-top:24px">Championship Season Impact</p>
+    ${champImpact.map(({ year, team, players }) => `
+      <div class="champ-impact-year">🏆 ${year} — <span style="font-weight:400;color:var(--muted);font-size:12px">${team}</span></div>
+      <div class="table-wrap" style="margin-bottom:8px">
+        <table>
+          <thead>
+            <tr>
+              <th>Player</th>
+              <th>Pos</th>
+              <th class="num">Season Pts</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${players.map(p => `
+              <tr>
+                <td>${p.player}</td>
+                <td><span class="pos-${p.pos}" style="font-size:11px;font-weight:600">${p.pos}</span></td>
+                <td class="num">${p.pts.toFixed(0)}</td>
+              </tr>`).join('')}
+          </tbody>
+        </table>
+      </div>`).join('')}
+  ` : '';
 
   // ── Season-by-season table rows ────────────────────────────────
   const seasonTableRows = [...seasonRows].reverse().map(r => {
@@ -334,7 +560,7 @@ function renderProfile(ownerName, allStandings, allMatchups, allDraft, modernSea
 
   // ── H2H records ────────────────────────────────────────────────
   const h2hWins = {}, h2hLoss = {};
-  for (const year of modernSeasons) {
+  for (const year of seasons) {
     const standings = allStandings[year] || [];
     const matchups  = allMatchups[year]  || [];
     const ownerTeams = new Set(
@@ -364,7 +590,7 @@ function renderProfile(ownerName, allStandings, allMatchups, allDraft, modernSea
   const h2hRows = h2hOwners.map(opp => {
     const w = h2hWins[opp] || 0, l = h2hLoss[opp] || 0;
     const g = w + l;
-    const pct = g ? ((w / g) * 100).toFixed(1) : '—';
+    const pct    = g ? ((w / g) * 100).toFixed(1) : '—';
     const pctNum = g ? w / g : 0;
     return { opp, w, l, pct, pctNum, g };
   }).sort((a, b) => b.pctNum - a.pctNum || b.g - a.g);
@@ -379,33 +605,46 @@ function renderProfile(ownerName, allStandings, allMatchups, allDraft, modernSea
     </tr>
   `).join('');
 
-  // ── Draft picks ────────────────────────────────────────────────
-  const round1Picks = [];
+  // ── Draft History: keepers + first picks ───────────────────────
+  const draftHighlights = buildDraftHighlights(ownerName, seasons, allStandings, allDraft, keepersManual);
+
+  // Favorite kept position (from keeper picks; fall back to first picks for pre-2016)
   const positionCounts = {};
-  for (const year of modernSeasons) {
-    const standings = allStandings[year] || [];
-    const draft = allDraft[year] || [];
-    const ownerEntry = standings.find(s => normOwner(s.owner) === ownerName);
-    if (!ownerEntry) continue;
-
-    const pick = draft.find(d => d.team === ownerEntry.team && d.round === 1);
-    if (pick) {
-      round1Picks.push({ year, player: pick.player, position: pick.position, pickNum: pick.pick });
-      positionCounts[pick.position] = (positionCounts[pick.position] || 0) + 1;
-    }
+  for (const { year, keeper, firstPick } of draftHighlights) {
+    const pick = keeper || (year < PRE_MODERN_CUTOFF ? firstPick : null);
+    if (pick) positionCounts[pick.position] = (positionCounts[pick.position] || 0) + 1;
   }
-
-  const draftRows = [...round1Picks].reverse().map(p => `
-    <tr>
-      <td>${p.year}</td>
-      <td class="num" style="color:var(--muted)">#${p.pickNum}</td>
-      <td>${p.player}</td>
-      <td><span class="pos-${p.position}" style="font-size:11px;font-weight:600">${p.position}</span></td>
-    </tr>
-  `).join('');
-
   const topPos = Object.entries(positionCounts).sort((a, b) => b[1] - a[1]);
   const favPos = topPos.map(([pos, cnt]) => `${pos} (${cnt})`).join(', ');
+
+  const draftRows = draftHighlights.map(({ year, keeper, firstPick }) => {
+    let rows = '';
+    if (keeper) {
+      rows += `
+        <tr class="draft-row-keeper">
+          <td>${year}</td>
+          <td class="num" style="color:var(--muted)">Rd ${keeper.round}</td>
+          <td>${keeper.player}</td>
+          <td><span class="pos-${keeper.position}" style="font-size:11px;font-weight:600">${keeper.position}</span></td>
+          <td><span class="keeper-badge">K</span></td>
+        </tr>`;
+    }
+    if (firstPick) {
+      rows += `
+        <tr>
+          <td>${keeper ? '' : year}</td>
+          <td class="num" style="color:var(--muted)">Rd ${firstPick.round}</td>
+          <td>${firstPick.player}</td>
+          <td><span class="pos-${firstPick.position}" style="font-size:11px;font-weight:600">${firstPick.position}</span></td>
+          <td><span class="pick-label">1st Pick</span></td>
+        </tr>`;
+    }
+    return rows;
+  }).join('');
+
+  const draftNote = `<span style="font-weight:400;color:var(--muted);font-size:11px">
+    (keepers &amp; first picks — Rd&nbsp;1 picks prior to 2025 are keepers; true 1st pick = Rd&nbsp;2)
+  </span>`;
 
   // ── Render ─────────────────────────────────────────────────────
   document.getElementById('app').innerHTML = `
@@ -415,7 +654,7 @@ function renderProfile(ownerName, allStandings, allMatchups, allDraft, modernSea
       <div class="profile-name-block">
         <div class="profile-name">${ownerName}</div>
         <div class="profile-champs">${champStr}</div>
-        <div class="profile-subtext">${seasons} season${seasons !== 1 ? 's' : ''} &bull; 2016–present</div>
+        <div class="profile-subtext">${numSeasons} season${numSeasons !== 1 ? 's' : ''} &bull; ${seasonRange}</div>
       </div>
       <div class="profile-stats-row">
         <div class="profile-stat"><div class="val">${wins}–${losses}</div><div class="lbl">All-Time Record</div></div>
@@ -434,6 +673,13 @@ function renderProfile(ownerName, allStandings, allMatchups, allDraft, modernSea
         </div>
       `).join('')}
     </div>
+
+    <section>
+      <h2>Player Hall of Fame</h2>
+      <p class="hof-section-label">All-Time Position Leaders</p>
+      <div class="hof-grid">${hofCardsHtml}</div>
+      ${champImpactHtml}
+    </section>
 
     <section>
       <h2>Season by Season</h2>
@@ -474,19 +720,20 @@ function renderProfile(ownerName, allStandings, allMatchups, allDraft, modernSea
     </section>
 
     <section>
-      <h2>Draft History <span style="font-weight:400;color:var(--muted);font-size:11px">(round 1 picks)</span></h2>
-      ${favPos ? `<p style="color:var(--muted);font-size:12px;margin-bottom:12px">Favorite position: <strong style="color:var(--text)">${favPos}</strong></p>` : ''}
+      <h2>Draft History ${draftNote}</h2>
+      ${favPos ? `<p style="color:var(--muted);font-size:12px;margin-bottom:12px">Favorite kept position: <strong style="color:var(--text)">${favPos}</strong></p>` : ''}
       <div class="table-wrap">
         <table>
           <thead>
             <tr>
               <th>Year</th>
-              <th class="num">Pick</th>
+              <th class="num">Round</th>
               <th>Player</th>
               <th>Pos</th>
+              <th>Type</th>
             </tr>
           </thead>
-          <tbody>${draftRows || '<tr><td colspan="4" style="color:var(--muted);text-align:center;padding:24px">No draft data available</td></tr>'}</tbody>
+          <tbody>${draftRows || '<tr><td colspan="5" style="color:var(--muted);text-align:center;padding:24px">No draft data available</td></tr>'}</tbody>
         </table>
       </div>
     </section>

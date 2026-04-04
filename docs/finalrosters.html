@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Rosters — The League</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>🏈</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .roster-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+    .roster-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .roster-card.champ {
+      border-color: var(--gold);
+    }
+    .roster-card-header {
+      padding: 12px 14px 10px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .rank-badge {
+      min-width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 700;
+      flex-shrink: 0;
+      background: var(--surface2);
+      color: var(--muted);
+    }
+    .rank-badge.rank-1  { background: var(--gold);    color: #000; }
+    .rank-badge.rank-2  { background: #8b9eb0;        color: #000; }
+    .rank-badge.rank-3  { background: #8b6a40;        color: #fff; }
+    .roster-card-title  { flex: 1; min-width: 0; }
+    .roster-card-team   { font-weight: 700; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .roster-card-meta   { font-size: 11px; color: var(--muted); margin-top: 2px; }
+    .roster-card-body   { padding: 10px 14px 12px; }
+    .roster-player {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 3px 0;
+      font-size: 12px;
+      border-bottom: 1px solid transparent;
+    }
+    .roster-player:not(:last-child) {
+      border-bottom-color: var(--border);
+    }
+    .roster-player .pos {
+      min-width: 34px;
+      font-size: 10px;
+    }
+    .player-name { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .nfl-team    { font-size: 11px; color: var(--muted); flex-shrink: 0; }
+    .status-dot  { font-size: 10px; flex-shrink: 0; }
+    .pos-sep {
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      padding: 6px 0 2px;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">🏈 The League</a>
+    <a href="index.html">Home</a>
+    <div class="nav-group">
+      <button class="nav-group-btn active">History ▾</button>
+      <div class="nav-dropdown">
+        <a href="season.html">Seasons</a>
+        <a href="alltime.html">All-Time</a>
+        <a href="h2h.html">Head-to-Head</a>
+        <a href="extrapoints.html">Extra Points</a>
+        <a href="timeline.html">Season Timeline</a>
+        <a href="owner.html">Owner Profiles</a>
+        <a href="finalrosters.html" class="active">Final Rosters</a>
+      </div>
+    </div>
+    <div class="nav-group">
+      <button class="nav-group-btn">Draft & Transactions ▾</button>
+      <div class="nav-dropdown">
+        <a href="draft.html">Draft</a>
+        <a href="transactions.html">Transactions</a>
+      </div>
+    </div>
+    <div class="nav-group">
+      <button class="nav-group-btn">Stats ▾</button>
+      <div class="nav-dropdown">
+        <a href="players.html">Player History</a>
+        <a href="rules.html">Rules</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="page-header">
+    <h1>Final Rosters</h1>
+  </div>
+
+  <div class="controls">
+    <label for="year-select">Season</label>
+    <select id="year-select"></select>
+  </div>
+
+  <div id="content"><p class="loading">Loading…</p></div>
+</main>
+
+<script src="js/utils.js"></script>
+<script>
+const yearSelect = document.getElementById('year-select');
+for (const y of [...ALL_SEASONS].reverse()) {
+  yearSelect.appendChild(new Option(y, y));
+}
+const params = new URLSearchParams(location.search);
+if (params.has('year') && ALL_SEASONS.includes(parseInt(params.get('year')))) {
+  yearSelect.value = params.get('year');
+}
+yearSelect.addEventListener('change', () => {
+  const url = new URL(location.href);
+  url.searchParams.set('year', yearSelect.value);
+  history.replaceState({}, '', url);
+  loadYear(parseInt(yearSelect.value));
+});
+
+const POS_ORDER = { QB: 0, RB: 1, WR: 2, TE: 3, K: 4, DEF: 5 };
+
+function posClass(pos) {
+  return `pos pos-${(pos || '').split('/')[0].toUpperCase()}`;
+}
+
+async function loadYear(year) {
+  const content = document.getElementById('content');
+  content.innerHTML = '<p class="loading">Loading…</p>';
+
+  const [rosters, standings, matchups] = await Promise.all([
+    loadFile(year, 'rosters.json'),
+    loadFile(year, 'standings.json'),
+    loadFile(year, 'matchups.json').catch(() => []),
+  ]);
+
+  // Compute correct final standings from playoff results
+  const finalStandings = computeFinalStandings(matchups, standings);
+
+  // Index computed standings by team
+  const standMap = {};
+  for (const s of finalStandings) standMap[s.team] = s;
+
+  // Group roster players by team
+  const teamPlayers = {};
+  for (const row of rosters) {
+    (teamPlayers[row.team] = teamPlayers[row.team] || []).push(row);
+  }
+
+  // Sort teams by computed final standing rank
+  const teams = Object.keys(teamPlayers).sort((a, b) => {
+    const ra = standMap[a]?.rank ?? 99;
+    const rb = standMap[b]?.rank ?? 99;
+    return ra - rb;
+  });
+
+  const totalTeams = teams.length;
+
+  const cards = teams.map(team => {
+    const s       = standMap[team] || {};
+    const rank    = s.rank ?? 99;
+    const owner   = normOwner(s.owner || '');
+    const wins    = s.wins    || 0;
+    const losses  = s.losses  || 0;
+    const pf      = parseFloat(s.points_for || 0).toFixed(1);
+
+    // Sort players: by position order, then alphabetically within position
+    const players = [...teamPlayers[team]].sort((a, b) => {
+      const pa = POS_ORDER[a.position] ?? 9;
+      const pb = POS_ORDER[b.position] ?? 9;
+      if (pa !== pb) return pa - pb;
+      return a.player.localeCompare(b.player);
+    });
+
+    // Group players by position for section labels
+    let lastPos = null;
+    const playerRows = players.map(p => {
+      let sep = '';
+      if (p.position !== lastPos) {
+        sep = `<div class="pos-sep">${p.position}</div>`;
+        lastPos = p.position;
+      }
+      const statusDot = p.status === 'NA' ? '<span class="status-dot" title="Inactive/IR" style="color:var(--muted)">●</span>'
+                      : p.status === 'Q'  ? '<span class="status-dot" title="Questionable" style="color:var(--gold)">●</span>'
+                      : '';
+      return `${sep}<div class="roster-player">
+        <span class="${posClass(p.position)}">${p.position}</span>
+        <span class="player-name">${p.player}</span>
+        <span class="nfl-team">${p.nfl_team || ''}</span>
+        ${statusDot}
+      </div>`;
+    }).join('');
+
+    const rankBadgeClass = rank <= 3 ? `rank-badge rank-${rank}` : 'rank-badge';
+    const rankLabel      = rank <= totalTeams ? `#${rank}` : '—';
+    const champClass     = rank === 1 ? ' champ' : '';
+
+    // Playoff indicator (top 6 of 10 teams)
+    const playoffLabel   = rank === 1 ? 'Champion'
+                         : rank === 2 ? 'Runner-Up'
+                         : rank <= 6  ? `Playoff — ${rank}${['st','nd','rd','th','th','th'][rank-1] || 'th'}`
+                         : `${rank}${['st','nd','rd','th','th','th','th','th','th','th'][rank-1] || 'th'} Place`;
+
+    return `
+      <div class="roster-card${champClass}">
+        <div class="roster-card-header">
+          <div class="${rankBadgeClass}">${rankLabel}</div>
+          <div class="roster-card-title">
+            <div class="roster-card-team" title="${team}">${team}</div>
+            <div class="roster-card-meta">${owner} &nbsp;·&nbsp; ${wins}–${losses} &nbsp;·&nbsp; ${pf} pts &nbsp;·&nbsp; ${playoffLabel}</div>
+          </div>
+        </div>
+        <div class="roster-card-body">${playerRows}</div>
+      </div>
+    `;
+  }).join('');
+
+  content.innerHTML = `
+    <p style="font-size:13px;color:var(--muted);margin-bottom:4px">
+      ${totalTeams} teams &nbsp;·&nbsp; end-of-season rosters &nbsp;·&nbsp;
+      <span style="color:var(--gold)">●</span> = questionable &nbsp;
+      <span style="color:var(--muted)">●</span> = inactive / IR
+    </p>
+    <div class="roster-grid">${cards}</div>
+  `;
+}
+
+loadYear(parseInt(yearSelect.value));
+</script>
+</body>
+</html>

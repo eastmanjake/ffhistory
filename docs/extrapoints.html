@@ -22,6 +22,7 @@
         <a href="extrapoints.html" class="active">Extra Points</a>
         <a href="timeline.html">Season Timeline</a>
         <a href="owner.html">Owner Profiles</a>
+        <a href="finalrosters.html">Final Rosters</a>
       </div>
     </div>
     <div class="nav-group">
@@ -34,7 +35,6 @@
     <div class="nav-group">
       <button class="nav-group-btn">Stats ▾</button>
       <div class="nav-dropdown">
-        <a href="weekly.html">Weekly</a>
         <a href="players.html">Player History</a>
         <a href="rules.html">Rules</a>
       </div>
@@ -155,32 +155,18 @@
   </section>
 
   <!-- Draft Curiosities -->
-  <div class="two-col">
-    <section>
-      <h2>Round 1 Picks by Position</h2>
-      <p style="font-size:12px;color:var(--muted);margin:0 0 8px">How often each position is taken in round 1, across all 15 drafts</p>
-      <div class="table-wrap">
-        <table id="draft-r1-table">
-          <thead>
-            <tr><th>Position</th><th class="num">Times Picked</th></tr>
-          </thead>
-          <tbody><tr><td colspan="2" class="loading">Loading…</td></tr></tbody>
-        </table>
-      </div>
-    </section>
-    <section>
-      <h2>Repeat Draft Picks</h2>
-      <p style="font-size:12px;color:var(--muted);margin:0 0 8px">Players drafted by the same owner in multiple seasons</p>
-      <div class="table-wrap">
-        <table id="repeat-draft-table">
-          <thead>
-            <tr><th>Owner</th><th>Player</th><th class="num">Times</th></tr>
-          </thead>
-          <tbody><tr><td colspan="3" class="loading">Loading…</td></tr></tbody>
-        </table>
-      </div>
-    </section>
-  </div>
+  <section>
+    <h2>Round 1 Picks by Position</h2>
+    <p style="font-size:12px;color:var(--muted);margin:0 0 8px">How often each position is taken in round 1, across all 15 drafts</p>
+    <div class="table-wrap">
+      <table id="draft-r1-table">
+        <thead>
+          <tr><th>Position</th><th class="num">Times Picked</th></tr>
+        </thead>
+        <tbody><tr><td colspan="2" class="loading">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
 
   <!-- Fun / Absurd Facts -->
   <section>
@@ -199,15 +185,23 @@
 <script src="js/utils.js"></script>
 <script>
 // Generic renderer for 3-col stat tables: Stat | Details | Value
+// r.owners = [{name, sub}, ...] renders multiple tied entries stacked in one cell
 function renderStatTable(selector, rows) {
   const tbody = document.querySelector(selector + ' tbody');
   if (!tbody) return;
   tbody.innerHTML = '';
   rows.filter(Boolean).forEach(r => {
     const tr = document.createElement('tr');
-    const mid = r.owner
-      ? `<strong>${r.owner}</strong>${r.sub ? `<br><span style="color:var(--muted);font-size:11px">${r.sub}</span>` : ''}`
-      : (r.sub || '—');
+    let mid;
+    if (r.owners && r.owners.length) {
+      mid = r.owners.map(o =>
+        `<strong>${o.name}</strong>${o.sub ? `<br><span style="color:var(--muted);font-size:11px">${o.sub}</span>` : ''}`
+      ).join('<br>');
+    } else if (r.owner) {
+      mid = `<strong>${r.owner}</strong>${r.sub ? `<br><span style="color:var(--muted);font-size:11px">${r.sub}</span>` : ''}`;
+    } else {
+      mid = r.sub || '—';
+    }
     tr.innerHTML = `
       <td style="color:var(--muted)">${r.stat}</td>
       <td>${mid}</td>
@@ -215,6 +209,18 @@ function renderStatTable(selector, rows) {
     `;
     tbody.appendChild(tr);
   });
+}
+
+// Find all items matching the max score (handles ties)
+function allMax(arr, scoreFn, epsilon = 0) {
+  if (!arr.length) return [];
+  const best = Math.max(...arr.map(scoreFn));
+  return arr.filter(x => Math.abs(scoreFn(x) - best) <= epsilon);
+}
+function allMin(arr, scoreFn, epsilon = 0) {
+  if (!arr.length) return [];
+  const best = Math.min(...arr.map(scoreFn));
+  return arr.filter(x => Math.abs(scoreFn(x) - best) <= epsilon);
 }
 
 async function init() {
@@ -269,27 +275,23 @@ async function init() {
     }
   }
 
-  const h2hAll = {};
   for (const g of allGames) {
     if (g.owner1 === '?' || g.owner2 === '?') continue;
-    if (!h2hAll[g.winnerOwner]) h2hAll[g.winnerOwner] = {};
-    h2hAll[g.winnerOwner][g.loserOwner] = (h2hAll[g.winnerOwner][g.loserOwner] || 0) + 1;
     if (g.margin <= 5 && ownerStats[g.loserOwner]) ownerStats[g.loserOwner].closeLosses++;
   }
 
-  let bestOwns = null, bestOwnsCount = 0;
-  for (const [winner, opp] of Object.entries(h2hAll)) {
-    for (const [loser, wins] of Object.entries(opp)) {
-      if (wins > bestOwnsCount) { bestOwnsCount = wins; bestOwns = { winner, loser, wins }; }
-    }
-  }
-
   const statsList = Object.values(ownerStats);
-  const bestWinPct = [...statsList].filter(s => s.seasons >= 3)
-    .sort((a, b) => (b.wins/(b.wins+b.losses)) - (a.wins/(a.wins+a.losses)))[0];
-  const mostCloseLosses = [...statsList].sort((a, b) => b.closeLosses - a.closeLosses)[0];
-  const mostPA = [...statsList].filter(s => s.seasons >= 3)
-    .sort((a, b) => b.pa/b.seasons - a.pa/a.seasons)[0];
+
+  const eligible = statsList.filter(s => s.seasons >= 3);
+  const maxWinPct = eligible.length ? Math.max(...eligible.map(s => s.wins/(s.wins+s.losses))) : 0;
+  const bestWinPctAll = allMax(eligible, s => s.wins/(s.wins+s.losses), 0.0001);
+
+  const maxCL = statsList.length ? Math.max(...statsList.map(s => s.closeLosses)) : 0;
+  const mostCLAll = statsList.filter(s => s.closeLosses === maxCL);
+
+  const eligible3 = statsList.filter(s => s.seasons >= 3);
+  const maxPA = eligible3.length ? Math.max(...eligible3.map(s => s.pa/s.seasons)) : 0;
+  const mostPAAll = allMax(eligible3, s => s.pa/s.seasons, 1);
 
   const withPFRank = statsList.filter(s => s.seasons >= 2).map(s => ({
     ...s, pfPerGame: s.pf/(s.wins+s.losses), winPct: s.wins/(s.wins+s.losses),
@@ -298,45 +300,51 @@ async function init() {
   const pfRank = {}; withPFRank.forEach((s, i) => { pfRank[s.owner] = i+1; });
   withPFRank.sort((a, b) => b.winPct - a.winPct);
   const winRank = {}; withPFRank.forEach((s, i) => { winRank[s.owner] = i+1; });
-  const luckiestOwner = withPFRank.map(s => ({
-    owner: s.owner, luck: pfRank[s.owner] - winRank[s.owner],
-    wins: s.wins, losses: s.losses,
-  })).sort((a, b) => b.luck - a.luck)[0];
+  const luckScores = withPFRank.map(s => ({
+    owner: s.owner, luck: pfRank[s.owner] - winRank[s.owner], wins: s.wins, losses: s.losses,
+  }));
+  const maxLuck = luckScores.length ? Math.max(...luckScores.map(x => x.luck)) : 0;
+  const luckiestAll = luckScores.filter(x => x.luck === maxLuck);
 
   renderStatTable('#fun-table', [
-    { stat: 'Best All-Time Win %', owner: bestWinPct?.owner, value: bestWinPct ? pctStr(bestWinPct.wins/(bestWinPct.wins+bestWinPct.losses)) : '—' },
-    { stat: 'Most Close Losses (≤5 pts)', owner: mostCloseLosses?.owner, value: mostCloseLosses?.closeLosses ?? '—' },
-    { stat: 'Most Points Scored Against (per season)', owner: mostPA?.owner, value: mostPA ? (mostPA.pa/mostPA.seasons).toFixed(1) : '—' },
-    { stat: 'Luckiest Owner (win% >> scoring rank)', owner: luckiestOwner?.owner, value: luckiestOwner ? pctStr(luckiestOwner.wins/(luckiestOwner.wins+luckiestOwner.losses)) : '—' },
-    bestOwns ? { stat: 'Most dominant rivalry', owner: `${bestOwns.winner} over ${bestOwns.loser}`, value: `${bestOwns.wins} wins` } : null,
+    bestWinPctAll.length ? { stat: 'Best All-Time Win %', owners: bestWinPctAll.map(s => ({ name: s.owner })), value: pctStr(maxWinPct) } : null,
+    mostCLAll.length ? { stat: 'Most Close Losses (≤5 pts)', owners: mostCLAll.map(s => ({ name: s.owner })), value: maxCL } : null,
+    mostPAAll.length ? { stat: 'Most Points Scored Against (per season)', owners: mostPAAll.map(s => ({ name: s.owner })), value: maxPA.toFixed(1) } : null,
+    luckiestAll.length ? { stat: 'Luckiest Owner (win% >> scoring rank)', owners: luckiestAll.map(x => ({ name: x.owner })), value: luckiestAll.length ? pctStr(luckiestAll[0].wins/(luckiestAll[0].wins+luckiestAll[0].losses)) : '—' } : null,
   ]);
 
   // ── INDIVIDUAL SEASON FEATS ─────────────────────────────────────
 
-  // Highest/lowest single-week score
-  let highWeek = null, lowWeek = null;
+  // Collect all individual game scores for tie-aware high/low
+  const allScoreEntries = [];
   for (const g of allGames) {
     for (const [score, team, owner] of [[g.score1, g.team1, g.owner1],[g.score2, g.team2, g.owner2]]) {
-      if (!highWeek || score > highWeek.score) highWeek = { score, team, owner, year: g.year, week: g.week };
-      if (score > 0 && (!lowWeek || score < lowWeek.score)) lowWeek = { score, team, owner, year: g.year, week: g.week };
+      if (score > 0) allScoreEntries.push({ score, team, owner, year: g.year, week: g.week });
     }
   }
+  const highWeekAll = allMax(allScoreEntries, x => x.score, 0.005);
+  const lowWeekAll  = allMin(allScoreEntries, x => x.score, 0.005);
+  const maxWeekScore = highWeekAll.length ? highWeekAll[0].score : 0;
+  const minWeekScore = lowWeekAll.length  ? lowWeekAll[0].score  : 0;
 
   // Highest/lowest season total
-  let highSeason = null, lowSeason = null;
+  const allSeasonPF = [];
   for (const year of SEASONS) {
     for (const t of (allStandings[year] || [])) {
       const pf = parseFloat(t.points_for);
-      if (!highSeason || pf > highSeason.pf) highSeason = { pf, team: t.team, owner: normOwner(t.owner), year };
-      if (pf > 0 && (!lowSeason || pf < lowSeason.pf)) lowSeason = { pf, team: t.team, owner: normOwner(t.owner), year };
+      if (pf > 0) allSeasonPF.push({ pf, team: t.team, owner: normOwner(t.owner), year });
     }
   }
+  const highSeasonAll = allMax(allSeasonPF, x => x.pf, 0.005);
+  const lowSeasonAll  = allMin(allSeasonPF, x => x.pf, 0.005);
 
   // Most lopsided matchup
-  const mostLopsided = [...allGames].sort((a, b) => b.margin - a.margin)[0];
+  const mostLopsidedAll = allMax(allGames, g => g.margin, 0.005);
+  const maxMargin = mostLopsidedAll.length ? mostLopsidedAll[0].margin : 0;
 
   // Most points in a loss
-  const biggestLoss = [...allGames].sort((a, b) => b.loserScore - a.loserScore)[0];
+  const biggestLossAll = allMax(allGames, g => g.loserScore, 0.005);
+  const maxLoserScore  = biggestLossAll.length ? biggestLossAll[0].loserScore : 0;
 
   // Best record that missed playoffs / worst record that made playoffs
   const playoffTeamsByYear = {};
@@ -361,30 +369,33 @@ async function init() {
     }
   }
 
-  let bestMissed = null, worstMade = null;
+  let maxMissedWins = -1, minMadeWins = Infinity;
+  const bestMissedAll = [], worstMadeAll = [];
   for (const year of SEASONS) {
     const ptSet = playoffTeamsByYear[year];
     for (const t of (allStandings[year] || [])) {
       const wins  = rsWins[year]?.[t.team] || 0;
       const games = rsGames[year]?.[t.team] || 1;
-      const made  = ptSet.has(t.team);
-      if (!made) {
-        if (!bestMissed || wins > bestMissed.wins) bestMissed = { wins, games, team: t.team, owner: normOwner(t.owner), year };
+      const entry = { wins, games, team: t.team, owner: normOwner(t.owner), year };
+      if (!ptSet.has(t.team)) {
+        if (wins > maxMissedWins) { maxMissedWins = wins; bestMissedAll.length = 0; }
+        if (wins === maxMissedWins) bestMissedAll.push(entry);
       } else {
-        if (!worstMade || wins < worstMade.wins) worstMade = { wins, games, team: t.team, owner: normOwner(t.owner), year };
+        if (wins < minMadeWins) { minMadeWins = wins; worstMadeAll.length = 0; }
+        if (wins === minMadeWins) worstMadeAll.push(entry);
       }
     }
   }
 
   renderStatTable('#feats-table', [
-    highWeek  ? { stat: 'Highest single-week score', owner: highWeek.owner,  sub: `${highWeek.team} — ${highWeek.year} Wk ${highWeek.week}`,   value: fmt2(highWeek.score) }  : null,
-    lowWeek   ? { stat: 'Lowest single-week score',  owner: lowWeek.owner,   sub: `${lowWeek.team} — ${lowWeek.year} Wk ${lowWeek.week}`,      value: fmt2(lowWeek.score) }   : null,
-    highSeason? { stat: 'Highest season total PF',   owner: highSeason.owner,sub: `${highSeason.team} — ${highSeason.year}`,                    value: fmt2(highSeason.pf) }   : null,
-    lowSeason ? { stat: 'Lowest season total PF',    owner: lowSeason.owner, sub: `${lowSeason.team} — ${lowSeason.year}`,                      value: fmt2(lowSeason.pf) }    : null,
-    mostLopsided ? { stat: 'Most lopsided matchup',  owner: `${mostLopsided.winnerOwner} def. ${mostLopsided.loserOwner}`, sub: `${mostLopsided.year} Wk ${mostLopsided.week} — ${fmt2(mostLopsided.winnerScore)} to ${fmt2(mostLopsided.loserScore)}`, value: `+${fmt2(mostLopsided.margin)}` } : null,
-    biggestLoss  ? { stat: 'Most points in a loss',  owner: biggestLoss.loserOwner, sub: `Lost to ${biggestLoss.winnerOwner} — ${biggestLoss.year} Wk ${biggestLoss.week}`,    value: fmt2(biggestLoss.loserScore) } : null,
-    bestMissed? { stat: 'Best record that missed playoffs', owner: bestMissed.owner, sub: `${bestMissed.team} — ${bestMissed.year}`, value: `${bestMissed.wins}–${bestMissed.games - bestMissed.wins}` } : null,
-    worstMade ? { stat: 'Worst record that made playoffs',  owner: worstMade.owner,  sub: `${worstMade.team} — ${worstMade.year}`,  value: `${worstMade.wins}–${worstMade.games - worstMade.wins}` }  : null,
+    highWeekAll.length ? { stat: 'Highest single-week score', owners: highWeekAll.map(x => ({ name: x.owner, sub: `${x.team} — ${x.year} Wk ${x.week}` })), value: fmt2(maxWeekScore) } : null,
+    lowWeekAll.length  ? { stat: 'Lowest single-week score',  owners: lowWeekAll.map(x => ({ name: x.owner,  sub: `${x.team} — ${x.year} Wk ${x.week}` })), value: fmt2(minWeekScore) } : null,
+    highSeasonAll.length ? { stat: 'Highest season total PF', owners: highSeasonAll.map(x => ({ name: x.owner, sub: `${x.team} — ${x.year}` })), value: fmt2(highSeasonAll[0].pf) } : null,
+    lowSeasonAll.length  ? { stat: 'Lowest season total PF',  owners: lowSeasonAll.map(x => ({ name: x.owner,  sub: `${x.team} — ${x.year}` })), value: fmt2(lowSeasonAll[0].pf)  } : null,
+    mostLopsidedAll.length ? { stat: 'Most lopsided matchup', owners: mostLopsidedAll.map(g => ({ name: `${g.winnerOwner} def. ${g.loserOwner}`, sub: `${g.year} Wk ${g.week} — ${fmt2(g.winnerScore)} to ${fmt2(g.loserScore)}` })), value: `+${fmt2(maxMargin)}` } : null,
+    biggestLossAll.length  ? { stat: 'Most points in a loss', owners: biggestLossAll.map(g => ({ name: g.loserOwner, sub: `Lost to ${g.winnerOwner} — ${g.year} Wk ${g.week}` })), value: fmt2(maxLoserScore) } : null,
+    bestMissedAll.length ? { stat: 'Best record that missed playoffs', owners: bestMissedAll.map(x => ({ name: x.owner, sub: `${x.team} — ${x.year}` })), value: `${maxMissedWins}–${bestMissedAll[0].games - maxMissedWins}` } : null,
+    worstMadeAll.length  ? { stat: 'Worst record that made playoffs',  owners: worstMadeAll.map(x => ({ name: x.owner,  sub: `${x.team} — ${x.year}` })), value: `${minMadeWins}–${worstMadeAll[0].games - minMadeWins}`  } : null,
   ]);
 
   // ── H2H RIVALRY RECORDS ─────────────────────────────────────────
@@ -407,36 +418,46 @@ async function init() {
     for (const [b, rec] of Object.entries(opps)) pairsList.push({ a, b, ...rec });
   }
 
-  const mostPlayed = pairsList.length ? [...pairsList].sort((a, b) => b.total - a.total)[0] : null;
+  const mostPlayedAll    = allMax(pairsList, p => p.total);
+  const mostDominantAll  = allMax(pairsList, p => Math.abs(p.aWins - p.bWins));
+  const closestPool      = pairsList.filter(p => p.total >= 6);
+  const closestRivalryAll = allMin(closestPool, p => Math.abs(p.aWins - p.bWins) / p.total, 0.0001);
 
-  const mostDominant = pairsList.length ? [...pairsList].sort((a, b) =>
-    Math.max(b.aWins, b.bWins) - Math.max(a.aWins, a.bWins)
-  )[0] : null;
-  const mdWinner = mostDominant ? (mostDominant.aWins >= mostDominant.bWins ? mostDominant.a : mostDominant.b) : null;
-  const mdLoser  = mostDominant ? (mostDominant.aWins >= mostDominant.bWins ? mostDominant.b : mostDominant.a) : null;
-  const mdW = mostDominant ? Math.max(mostDominant.aWins, mostDominant.bWins) : 0;
-  const mdL = mostDominant ? Math.min(mostDominant.aWins, mostDominant.bWins) : 0;
-
-  const closestRivalry = pairsList.filter(p => p.total >= 6).sort((a, b) =>
-    (Math.abs(a.aWins - a.bWins) / a.total) - (Math.abs(b.aWins - b.bWins) / b.total)
-  )[0] || null;
-
-  // Render rivalry table
+  // Render rivalry table — supports ties by stacking rows per category
   const rivalryTbody = document.querySelector('#rivalry-table tbody');
   rivalryTbody.innerHTML = '';
-  [
-    mostPlayed   ? { cat: 'Most-played rivalry',    rivalry: `${mostPlayed.a} vs. ${mostPlayed.b}`,   record: `${mostPlayed.aWins}–${mostPlayed.bWins}`, games: mostPlayed.total }   : null,
-    mostDominant ? { cat: 'Most dominant rivalry',  rivalry: `${mdWinner} over ${mdLoser}`,            record: `${mdW}–${mdL}`,                           games: mdW+mdL }             : null,
-    closestRivalry ? { cat: 'Closest rivalry',      rivalry: `${closestRivalry.a} vs. ${closestRivalry.b}`, record: `${closestRivalry.aWins}–${closestRivalry.bWins}`, games: closestRivalry.total } : null,
-  ].filter(Boolean).forEach(r => {
-    const tr = document.createElement('tr');
-    tr.innerHTML = `
-      <td style="color:var(--muted)">${r.cat}</td>
-      <td><strong>${r.rivalry}</strong><br><span style="color:var(--muted);font-size:11px">${r.games} total games</span></td>
-      <td class="num">${r.record}</td>
-    `;
-    rivalryTbody.appendChild(tr);
-  });
+  function addRivalryRows(cat, pairs, rivalryFn, recordFn, gamesFn) {
+    pairs.forEach((p, i) => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td style="color:var(--muted)">${i === 0 ? cat : ''}</td>
+        <td><strong>${rivalryFn(p)}</strong><br><span style="color:var(--muted);font-size:11px">${gamesFn(p)} total games</span></td>
+        <td class="num">${recordFn(p)}</td>
+      `;
+      rivalryTbody.appendChild(tr);
+    });
+  }
+  if (mostPlayedAll.length) addRivalryRows(
+    'Most-played rivalry',
+    mostPlayedAll,
+    p => `${p.a} vs. ${p.b}`,
+    p => `${p.aWins}–${p.bWins}`,
+    p => p.total
+  );
+  if (mostDominantAll.length) addRivalryRows(
+    'Most dominant rivalry',
+    mostDominantAll,
+    p => { const w = p.aWins >= p.bWins ? p.a : p.b, l = p.aWins >= p.bWins ? p.b : p.a; return `${w} over ${l}`; },
+    p => { const w = Math.max(p.aWins, p.bWins), l = Math.min(p.aWins, p.bWins); return `${w}–${l}`; },
+    p => p.aWins + p.bWins
+  );
+  if (closestRivalryAll.length) addRivalryRows(
+    'Closest rivalry',
+    closestRivalryAll,
+    p => `${p.a} vs. ${p.b}`,
+    p => `${p.aWins}–${p.bWins}`,
+    p => p.total
+  );
 
   // Nemesis: opponent each owner has the worst record against (min 3 games)
   const allOwners = new Set(pairsList.flatMap(p => [p.a, p.b]));
@@ -512,21 +533,30 @@ async function init() {
     Object.entries(playoffSeasonsByOwner).map(([o, s]) => [o, s.size])
   );
 
-  const mostFinals     = Object.entries(finalsApp).sort((a,b) => b[1]-a[1])[0];
-  const mostPlayoffs   = Object.entries(playoffSeasonCounts).sort((a,b) => b[1]-a[1])[0];
-  const neverWon       = Object.entries(playoffSeasonCounts).filter(([o]) => !champWins[o]).sort((a,b) => b[1]-a[1])[0];
-  const mostRunnerUp   = Object.entries(finalsApp)
-    .map(([o, apps]) => ({ owner: o, ruFinishes: apps - (champWins[o] || 0) }))
-    .filter(e => e.ruFinishes > 0).sort((a,b) => b.ruFinishes - a.ruFinishes)[0];
+  const finalsEntries = Object.entries(finalsApp);
+  const maxFinals = finalsEntries.length ? Math.max(...finalsEntries.map(([,v]) => v)) : 0;
+  const mostFinalsAll = finalsEntries.filter(([,v]) => v === maxFinals);
+
+  const playoffEntries = Object.entries(playoffSeasonCounts);
+  const maxPlayoffs = playoffEntries.length ? Math.max(...playoffEntries.map(([,v]) => v)) : 0;
+  const mostPlayoffsAll = playoffEntries.filter(([,v]) => v === maxPlayoffs);
+
+  const ruData = finalsEntries.map(([o, apps]) => ({ owner: o, ru: apps - (champWins[o] || 0) })).filter(e => e.ru > 0);
+  const maxRU = ruData.length ? Math.max(...ruData.map(e => e.ru)) : 0;
+  const mostRunnerUpAll = ruData.filter(e => e.ru === maxRU);
+
+  const neverWonCandidates = playoffEntries.filter(([o]) => !champWins[o]);
+  const maxNeverWon = neverWonCandidates.length ? Math.max(...neverWonCandidates.map(([,v]) => v)) : 0;
+  const neverWonAll = neverWonCandidates.filter(([,v]) => v === maxNeverWon);
 
   const champGames  = allGames.filter(g => g.round === 'Championship');
   const closestChamp = champGames.length ? [...champGames].sort((a,b) => a.margin - b.margin)[0] : null;
 
   renderStatTable('#drama-table', [
-    mostFinals   ? { stat: 'Most championship game appearances', owner: mostFinals[0],   value: mostFinals[1] }   : null,
-    mostPlayoffs ? { stat: 'Most playoff seasons',               owner: mostPlayoffs[0], value: mostPlayoffs[1] } : null,
-    mostRunnerUp ? { stat: 'Most runner-up finishes',            owner: mostRunnerUp.owner, value: mostRunnerUp.ruFinishes } : null,
-    neverWon     ? { stat: 'Always in, never wins',              owner: neverWon[0], sub: `${neverWon[1]} playoff seasons, 0 titles`, value: neverWon[1] } : null,
+    mostFinalsAll.length   ? { stat: 'Most championship game appearances', owners: mostFinalsAll.map(([o]) => ({ name: o })),   value: maxFinals }   : null,
+    mostPlayoffsAll.length ? { stat: 'Most playoff seasons',               owners: mostPlayoffsAll.map(([o]) => ({ name: o })), value: maxPlayoffs } : null,
+    mostRunnerUpAll.length ? { stat: 'Most runner-up finishes',            owners: mostRunnerUpAll.map(e => ({ name: e.owner })), value: maxRU }    : null,
+    neverWonAll.length     ? { stat: 'Always in, never wins', owners: neverWonAll.map(([o, v]) => ({ name: o, sub: `${v} playoff seasons, 0 titles` })), value: maxNeverWon } : null,
     closestChamp ? { stat: 'Closest championship game', owner: `${closestChamp.winnerOwner} def. ${closestChamp.loserOwner}`, sub: `${closestChamp.year} — ${fmt2(closestChamp.winnerScore)} to ${fmt2(closestChamp.loserScore)}`, value: `+${fmt2(closestChamp.margin)}` } : null,
   ]);
 
@@ -596,23 +626,35 @@ async function init() {
     gamesByOwner[g.owner2].push({ year: g.year, week: g.week, won: g.score2 > g.score1 });
   }
 
-  let longestWin = null, longestLoss = null;
+  let maxWStreak = 0, maxLStreak = 0;
+  const allLongestWin = [], allLongestLoss = [];
   for (const [owner, games] of Object.entries(gamesByOwner)) {
     if (owner === '?') continue;
     games.sort((a, b) => a.year !== b.year ? a.year - b.year : a.week - b.week);
-    let curW = 0, curL = 0, maxW = 0, maxL = 0;
+    let curW = 0, curL = 0;
+    let curWStart = null, curLStart = null;
+    let bestW = 0, bestL = 0, bestWStart = null, bestWEnd = null, bestLStart = null, bestLEnd = null;
     for (const g of games) {
-      if (g.won) { curW++; curL = 0; } else { curL++; curW = 0; }
-      if (curW > maxW) maxW = curW;
-      if (curL > maxL) maxL = curL;
+      if (g.won) {
+        if (curW === 0) curWStart = g.year;
+        curW++; curL = 0; curLStart = null;
+        if (curW > bestW) { bestW = curW; bestWStart = curWStart; bestWEnd = g.year; }
+      } else {
+        if (curL === 0) curLStart = g.year;
+        curL++; curW = 0; curWStart = null;
+        if (curL > bestL) { bestL = curL; bestLStart = curLStart; bestLEnd = g.year; }
+      }
     }
-    if (!longestWin  || maxW > longestWin.streak)  longestWin  = { owner, streak: maxW };
-    if (!longestLoss || maxL > longestLoss.streak) longestLoss = { owner, streak: maxL };
+    if (bestW > maxWStreak) { maxWStreak = bestW; allLongestWin.length = 0; }
+    if (bestW === maxWStreak && maxWStreak > 0) allLongestWin.push({ owner, streak: bestW, start: bestWStart, end: bestWEnd });
+    if (bestL > maxLStreak) { maxLStreak = bestL; allLongestLoss.length = 0; }
+    if (bestL === maxLStreak && maxLStreak > 0) allLongestLoss.push({ owner, streak: bestL, start: bestLStart, end: bestLEnd });
   }
+  const streakSub = s => s.start === s.end ? `${s.start}` : `${s.start}–${s.end}`;
 
   renderStatTable('#streaks-table', [
-    longestWin  ? { stat: 'Longest winning streak (regular season)', owner: longestWin.owner,  value: `${longestWin.streak} games`  } : null,
-    longestLoss ? { stat: 'Longest losing streak (regular season)',  owner: longestLoss.owner, value: `${longestLoss.streak} games` } : null,
+    allLongestWin.length  ? { stat: 'Longest winning streak (regular season)', owners: allLongestWin.map(s => ({ name: s.owner, sub: streakSub(s) })),  value: `${maxWStreak} games`  } : null,
+    allLongestLoss.length ? { stat: 'Longest losing streak (regular season)',  owners: allLongestLoss.map(s => ({ name: s.owner, sub: streakSub(s) })), value: `${maxLStreak} games` } : null,
   ]);
 
   // ── DRAFT CURIOSITIES ───────────────────────────────────────────
@@ -631,37 +673,6 @@ async function init() {
     tr.innerHTML = `<td>${pos}</td><td class="num">${count}</td>`;
     r1Tbody.appendChild(tr);
   });
-
-  // Players drafted by same owner multiple times
-  const ownerDraftHistory = {};
-  for (const year of SEASONS) {
-    const to = teamOwnerByYear[year];
-    for (const pick of (allDraft[year] || [])) {
-      const owner = to[pick.team] || pick.team;
-      if (!ownerDraftHistory[owner]) ownerDraftHistory[owner] = {};
-      ownerDraftHistory[owner][pick.player] = (ownerDraftHistory[owner][pick.player] || 0) + 1;
-    }
-  }
-
-  const repeatDrafts = [];
-  for (const [owner, players] of Object.entries(ownerDraftHistory)) {
-    for (const [player, count] of Object.entries(players)) {
-      if (count >= 2) repeatDrafts.push({ owner, player, count });
-    }
-  }
-  repeatDrafts.sort((a, b) => b.count - a.count || a.player.localeCompare(b.player));
-
-  const repeatTbody = document.querySelector('#repeat-draft-table tbody');
-  repeatTbody.innerHTML = '';
-  if (!repeatDrafts.length) {
-    repeatTbody.innerHTML = '<tr><td colspan="3" class="loading">No players drafted by the same owner more than once.</td></tr>';
-  } else {
-    repeatDrafts.forEach(r => {
-      const tr = document.createElement('tr');
-      tr.innerHTML = `<td>${r.owner}</td><td>${r.player}</td><td class="num">${r.count}×</td>`;
-      repeatTbody.appendChild(tr);
-    });
-  }
 
   // ── FUN / ABSURD FACTS ──────────────────────────────────────────
 

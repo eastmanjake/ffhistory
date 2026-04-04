@@ -6,6 +6,26 @@
   <title>Transactions — The League</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>🏈</text></svg>">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    .season-pill {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      color: var(--muted);
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 12px;
+      padding: 3px 10px;
+      transition: color 0.1s, border-color 0.1s, background 0.1s;
+      white-space: nowrap;
+    }
+    .season-pill:hover { color: var(--text); border-color: var(--muted); }
+    .season-pill.active {
+      background: rgba(212,160,23,0.18);
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+  </style>
 </head>
 <body>
 
@@ -22,6 +42,7 @@
         <a href="extrapoints.html">Extra Points</a>
         <a href="timeline.html">Season Timeline</a>
         <a href="owner.html">Owner Profiles</a>
+        <a href="finalrosters.html">Final Rosters</a>
       </div>
     </div>
     <div class="nav-group">
@@ -34,7 +55,6 @@
     <div class="nav-group">
       <button class="nav-group-btn">Stats ▾</button>
       <div class="nav-dropdown">
-        <a href="weekly.html">Weekly</a>
         <a href="players.html">Player History</a>
         <a href="rules.html">Rules</a>
       </div>
@@ -48,10 +68,12 @@
     <p>All adds, drops, and trades across every season.</p>
   </div>
 
+  <div id="waiver-section" style="margin-bottom:32px"></div>
+
   <div class="controls" style="flex-wrap:wrap;gap:16px">
-    <div style="display:flex;align-items:center;gap:8px">
-      <label>Season</label>
-      <select id="year-select"></select>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      <label style="color:var(--muted);font-size:13px">Season</label>
+      <div id="season-pills" style="display:flex;flex-wrap:wrap;gap:6px"></div>
     </div>
     <div style="display:flex;align-items:center;gap:8px">
       <label>Owner</label>
@@ -79,84 +101,152 @@
 
 <script src="js/utils.js"></script>
 <script>
-let currentTxns   = [];
-let currentOwners = [];
+// ── State ─────────────────────────────────────────────────────────────────────
+let allTxns      = {}; // year → [normalized tx, ...]
+let allStandings = {}; // year → [standings row, ...]
+let playerPts    = {}; // year → team → player → {pts, weeks (Set)}  (all slots)
+let startedPts   = {}; // year → team → player → {pts, weeks (Set), pos}  (started only)
+let selectedSeasons  = new Set();
+let waiverPosFilter  = '';
 
-const yearSelect   = document.getElementById('year-select');
 const ownerSelect  = document.getElementById('owner-select');
 const typeSelect   = document.getElementById('type-select');
 const playerSearch = document.getElementById('player-search');
 
-for (const y of [...SEASONS].reverse()) yearSelect.appendChild(new Option(y, y));
-
-const params = new URLSearchParams(location.search);
-if (params.has('year') && SEASONS.includes(parseInt(params.get('year')))) {
-  yearSelect.value = params.get('year');
-}
-
-yearSelect.addEventListener('change', loadYear);
 ownerSelect.addEventListener('change', render);
 typeSelect.addEventListener('change', render);
 playerSearch.addEventListener('input', render);
 
-async function loadYear() {
-  const year = parseInt(yearSelect.value);
-  const url  = new URL(location.href);
-  url.searchParams.set('year', year);
-  history.replaceState({}, '', url);
-
+// ── Init ──────────────────────────────────────────────────────────────────────
+async function init() {
   document.getElementById('content').innerHTML = '<p class="loading">Loading…</p>';
 
-  const [txns, standings] = await Promise.all([
-    loadFile(year, 'transactions.json').catch(() => []),
-    loadFile(year, 'standings.json'),
+  const [txnsAll, standingsAll, lineupsAll] = await Promise.all([
+    loadAllSeasons('transactions.json'),
+    loadAllSeasons('standings.json'),
+    loadAllSeasons('weekly_lineups.json'),
   ]);
 
-  const teamOwner = buildTeamOwnerMap(standings);
+  allStandings = standingsAll;
 
-  // Normalize: each raw transaction row (Add/Drop has from/to team or FA)
-  // We want one row per transaction event with owner resolved
-  currentTxns = txns.map(tx => {
-    // Determine the primary owner (the team doing the acquiring / releasing)
-    let ownerTeam = null;
-    if (tx.type === 'Add') {
-      ownerTeam = tx.to !== 'Dropped' && tx.to !== 'FA/Waiver' ? tx.to : null;
-    } else if (tx.type === 'Drop') {
-      ownerTeam = tx.from !== 'Dropped' && tx.from !== 'FA/Waiver' ? tx.from : null;
-    } else if (tx.type === 'Trade') {
-      ownerTeam = tx.to !== 'Dropped' && tx.to !== 'FA/Waiver' ? tx.to : null;
+  // Normalize transactions for every season
+  for (const year of SEASONS) {
+    const txns    = txnsAll[year] || [];
+    const teamOwner = buildTeamOwnerMap(allStandings[year] || []);
+    allTxns[year] = txns.map(tx => {
+      let ownerTeam = null;
+      if (tx.type === 'Add') {
+        ownerTeam = tx.to !== 'Dropped' && tx.to !== 'FA/Waiver' ? tx.to : null;
+      } else if (tx.type === 'Drop') {
+        ownerTeam = tx.from !== 'Dropped' && tx.from !== 'FA/Waiver' ? tx.from : null;
+      } else if (tx.type === 'Trade') {
+        ownerTeam = tx.to !== 'Dropped' && tx.to !== 'FA/Waiver' ? tx.to : null;
+      }
+      return {
+        ...tx, year, ownerTeam,
+        owner:       ownerTeam ? (teamOwner[ownerTeam] || ownerTeam) : null,
+        fromDisplay: tx.from === 'FA/Waiver' ? 'Waiver/FA' : (teamOwner[tx.from] || tx.from || '—'),
+        toDisplay:   tx.to   === 'Dropped'   ? 'Released'  : (teamOwner[tx.to]   || tx.to   || '—'),
+      };
+    });
+  }
+
+  // Build player-points lookups from weekly lineups
+  const BN_SLOTS = new Set(['BN', 'IR', 'IL']);
+  playerPts  = {};
+  startedPts = {};
+  for (const year of SEASONS) {
+    playerPts[year]  = {};
+    startedPts[year] = {};
+    for (const e of (lineupsAll[year] || [])) {
+      const pts = parseFloat(e.fantasy_pts) || 0;
+      // All slots (used by main transaction table)
+      if (!playerPts[year][e.team]) playerPts[year][e.team] = {};
+      if (!playerPts[year][e.team][e.player])
+        playerPts[year][e.team][e.player] = { pts: 0, weeks: new Set() };
+      playerPts[year][e.team][e.player].pts += pts;
+      playerPts[year][e.team][e.player].weeks.add(e.week);
+      // Started slots only (used by waiver section)
+      if (BN_SLOTS.has(e.slot)) continue;
+      if (!startedPts[year][e.team]) startedPts[year][e.team] = {};
+      if (!startedPts[year][e.team][e.player])
+        startedPts[year][e.team][e.player] = { pts: 0, weeks: new Set(), pos: e.pos };
+      startedPts[year][e.team][e.player].pts += pts;
+      startedPts[year][e.team][e.player].weeks.add(e.week);
     }
-    return {
-      ...tx,
-      ownerTeam,
-      owner: ownerTeam ? (teamOwner[ownerTeam] || ownerTeam) : null,
-      fromDisplay: tx.from === 'FA/Waiver' ? 'Waiver/FA' : (teamOwner[tx.from] || tx.from || '—'),
-      toDisplay:   tx.to   === 'Dropped'  ? 'Released'  : (teamOwner[tx.to]   || tx.to   || '—'),
-    };
-  });
+  }
 
-  // Populate owner filter
-  const ownersInSeason = [...new Set(
-    standings.map(t => normOwner(t.owner))
-  )].sort();
+  // Default: most recent season
+  const params = new URLSearchParams(location.search);
+  const urlYear = parseInt(params.get('year'));
+  const defaultYear = SEASONS.includes(urlYear) ? urlYear : SEASONS[SEASONS.length - 1];
+  selectedSeasons = new Set([defaultYear]);
 
-  const savedOwner = ownerSelect.value;
-  ownerSelect.innerHTML = '<option value="">All owners</option>';
-  ownersInSeason.forEach(o => ownerSelect.appendChild(new Option(o, o)));
-  if (ownersInSeason.includes(savedOwner)) ownerSelect.value = savedOwner;
-
+  renderSeasonPills();
+  repopulateOwners();
+  renderWaiverSection();
   render();
 }
 
+// ── Season pills ──────────────────────────────────────────────────────────────
+function renderSeasonPills() {
+  const container = document.getElementById('season-pills');
+  container.innerHTML = '';
+  const allSelected = selectedSeasons.size === SEASONS.length;
+
+  const allBtn = document.createElement('button');
+  allBtn.className = 'season-pill' + (allSelected ? ' active' : '');
+  allBtn.textContent = 'All';
+  allBtn.onclick = () => {
+    selectedSeasons = allSelected
+      ? new Set([SEASONS[SEASONS.length - 1]])
+      : new Set(SEASONS);
+    renderSeasonPills(); repopulateOwners(); render();
+  };
+  container.appendChild(allBtn);
+
+  for (const y of [...SEASONS].reverse()) {
+    const btn = document.createElement('button');
+    btn.className = 'season-pill' + (selectedSeasons.has(y) ? ' active' : '');
+    btn.textContent = y;
+    btn.onclick = () => {
+      if (selectedSeasons.has(y)) {
+        if (selectedSeasons.size > 1) selectedSeasons.delete(y);
+      } else {
+        selectedSeasons.add(y);
+      }
+      renderSeasonPills(); repopulateOwners(); render();
+    };
+    container.appendChild(btn);
+  }
+}
+
+// ── Owner dropdown (respects selected seasons) ────────────────────────────────
+function repopulateOwners() {
+  const saved = ownerSelect.value;
+  const set = new Set();
+  for (const year of selectedSeasons) {
+    for (const t of (allStandings[year] || [])) set.add(normOwner(t.owner));
+  }
+  const owners = [...set].sort();
+  ownerSelect.innerHTML = '<option value="">All owners</option>';
+  owners.forEach(o => ownerSelect.appendChild(new Option(o, o)));
+  if (owners.includes(saved)) ownerSelect.value = saved;
+}
+
+// ── Render ────────────────────────────────────────────────────────────────────
 function render() {
+  // Collect from selected seasons and sort by date descending (default)
+  let filtered = [];
+  for (const year of selectedSeasons) filtered.push(...(allTxns[year] || []));
+  filtered.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+
   const ownerFilter  = ownerSelect.value;
   const typeFilter   = typeSelect.value;
   const playerFilter = playerSearch.value.trim().toLowerCase();
 
-  let filtered = currentTxns;
-  if (ownerFilter) filtered = filtered.filter(t =>
+  if (ownerFilter)  filtered = filtered.filter(t =>
     t.owner === ownerFilter ||
-    // For trades, also include the other side
     (t.type === 'Trade' && normOwner(t.fromDisplay) === ownerFilter)
   );
   if (typeFilter)   filtered = filtered.filter(t => t.type === typeFilter);
@@ -166,6 +256,7 @@ function render() {
 
   const content = document.getElementById('content');
   const summary = document.getElementById('summary');
+  const multiSeason = selectedSeasons.size > 1;
 
   const counts = { Add: 0, Drop: 0, Trade: 0 };
   filtered.forEach(t => { if (counts[t.type] !== undefined) counts[t.type]++; });
@@ -191,22 +282,42 @@ function render() {
       badge  = '<span class="badge badge-blue">Trade</span>';
       detail = `<span style="color:var(--muted)">${tx.fromDisplay} → </span><strong>${tx.toDisplay}</strong>`;
     }
+
+    // Points while on this team's roster this season
+    const lkp = tx.ownerTeam && tx.player
+      ? playerPts[tx.year]?.[tx.ownerTeam]?.[tx.player]
+      : null;
+    const ptsVal  = lkp ? lkp.pts : null;
+    const wkCount = lkp ? lkp.weeks.size : 0;
+    const ptsDisp   = ptsVal != null ? ptsVal.toFixed(2) : '—';
+    const ppwDisp   = ptsVal != null && wkCount > 0 ? (ptsVal / wkCount).toFixed(2) : '—';
+    const ptsSortVal = ptsVal != null ? ptsVal : -1;
+    const ppwSortVal = ptsVal != null && wkCount > 0 ? ptsVal / wkCount : -1;
+
+    const seasonCell = multiSeason ? `<td style="color:var(--muted)">${tx.year}</td>` : '';
     return `<tr>
       <td>${tx.date || '—'}</td>
+      ${seasonCell}
       <td>${badge}</td>
       <td>${tx.player || '—'}</td>
       <td>${detail}</td>
+      <td class="num" data-val="${ptsSortVal}">${ptsDisp}</td>
+      <td class="num" data-val="${ppwSortVal}">${ppwDisp}</td>
     </tr>`;
   }).join('');
 
+  const seasonHeader = multiSeason ? '<th>Season</th>' : '';
   content.innerHTML = `
     <div class="table-wrap">
       <table>
         <thead><tr>
           <th>Date</th>
+          ${seasonHeader}
           <th>Type</th>
           <th>Player</th>
           <th>Details</th>
+          <th class="num" title="Fantasy points scored while on this team's roster this season">Season Pts</th>
+          <th class="num" title="Points per roster week">Pts/Wk</th>
         </tr></thead>
         <tbody>${rows}</tbody>
       </table>
@@ -214,7 +325,158 @@ function render() {
   `;
 }
 
-loadYear();
+// ── Waiver value stats (all seasons, Adds only, started pts only) ─────────────
+function buildWaiverStats(posFilter) {
+  const ownerMap = {}; // owner → { adds, totalPts, bestPts, bestPlayer, bestYear }
+  const topAdds  = [];
+  const seen     = new Set(); // dedupe re-adds: `year|team|player`
+
+  for (const year of SEASONS) {
+    for (const tx of (allTxns[year] || [])) {
+      if (tx.type !== 'Add') continue;
+      if (!tx.owner || !tx.player || !tx.ownerTeam) continue;
+
+      const dedupeKey = `${year}|${tx.ownerTeam}|${tx.player}`;
+      if (seen.has(dedupeKey)) continue;
+      seen.add(dedupeKey);
+
+      const lkp = startedPts[year]?.[tx.ownerTeam]?.[tx.player];
+      if (!lkp) continue;  // player never started — skip
+
+      // Apply position filter
+      if (posFilter && lkp.pos !== posFilter) continue;
+
+      const pts = lkp.pts;
+
+      const starts = lkp.weeks.size;
+
+      if (!ownerMap[tx.owner]) {
+        ownerMap[tx.owner] = { owner: tx.owner, adds: 0, totalPts: 0, totalStarts: 0, bestPts: 0, bestPlayer: null, bestYear: null };
+      }
+      ownerMap[tx.owner].adds++;
+      ownerMap[tx.owner].totalPts    += pts;
+      ownerMap[tx.owner].totalStarts += starts;
+      if (pts > ownerMap[tx.owner].bestPts) {
+        ownerMap[tx.owner].bestPts    = pts;
+        ownerMap[tx.owner].bestPlayer = tx.player;
+        ownerMap[tx.owner].bestYear   = year;
+      }
+
+      topAdds.push({ player: tx.player, owner: tx.owner, year, pts, starts, pos: lkp.pos });
+    }
+  }
+
+  const ownerRows = Object.values(ownerMap)
+    .map(o => ({ ...o, avgPts: o.adds > 0 ? o.totalPts / o.adds : 0 }))
+    .sort((a, b) => b.avgPts - a.avgPts);
+
+  topAdds.sort((a, b) => b.pts - a.pts);
+
+  return { ownerRows, top25: topAdds.slice(0, 25) };
+}
+
+function renderWaiverSection() {
+  const { ownerRows, top25 } = buildWaiverStats(waiverPosFilter);
+  const section = document.getElementById('waiver-section');
+
+  const POSITIONS = ['QB', 'RB', 'WR', 'TE', 'K', 'DEF'];
+  const posPills = ['All', ...POSITIONS].map(p => {
+    const active = (p === 'All' ? !waiverPosFilter : waiverPosFilter === p) ? ' active' : '';
+    return `<button class="season-pill${active}" onclick="waiverPosFilter='${p === 'All' ? '' : p}';renderWaiverSection()">${p}</button>`;
+  }).join('');
+
+  if (!ownerRows.length) {
+    section.innerHTML = `
+      <h2 style="margin-bottom:4px">Are the Adds Paying Off?</h2>
+      <p style="color:var(--muted);font-size:13px;margin-bottom:12px">
+        Counts only points scored in the starting lineup after being added — revealing who manages best in-season vs. just drafting well.
+      </p>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px">${posPills}</div>
+      <p style="color:var(--muted)">No data for selected position.</p>`;
+    return;
+  }
+
+  const ownerTableRows = ownerRows.map((o, i) => `
+    <tr>
+      <td>${i + 1}</td>
+      <td><a href="owner.html?owner=${encodeURIComponent(o.owner)}">${o.owner}</a></td>
+      <td class="num" data-val="${o.adds}">${o.adds}</td>
+      <td class="num" data-val="${o.totalStarts}">${o.totalStarts}</td>
+      <td class="num" data-val="${o.totalPts.toFixed(2)}">${o.totalPts.toFixed(0)}</td>
+      <td class="num" data-val="${o.avgPts.toFixed(2)}">${o.avgPts.toFixed(1)}</td>
+      <td style="font-size:12px">${o.bestPlayer || '—'}<span style="color:var(--muted);margin-left:5px">${o.bestYear || ''}</span></td>
+    </tr>`).join('');
+
+  const top25Rows = top25.map((a, i) => `
+    <tr>
+      <td class="num" style="color:var(--muted)">${i + 1}</td>
+      <td>${a.player}</td>
+      <td><span class="pos-${a.pos}" style="font-size:10px;font-weight:700">${a.pos}</span></td>
+      <td>${a.owner}</td>
+      <td style="color:var(--muted)">${a.year}</td>
+      <td class="num">${a.starts}</td>
+      <td class="num">${a.pts.toFixed(0)}</td>
+    </tr>`).join('');
+
+  section.innerHTML = `
+    <h2 style="margin-bottom:4px">Are the Adds Paying Off?</h2>
+    <p style="color:var(--muted);font-size:13px;margin-bottom:12px">
+      Counts only points scored in the starting lineup after being added — revealing who manages best in-season vs. just drafting well.
+    </p>
+    <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:20px">${posPills}</div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px" class="waiver-grid">
+
+      <div>
+        <h3 style="font-size:13px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:10px">
+          In-Season Manager Leaderboard
+        </h3>
+        <div class="table-wrap">
+          <table id="waiver-owner-table">
+            <thead><tr>
+              <th class="num">#</th>
+              <th>Owner</th>
+              <th class="num sortable" title="Adds where player scored at least one started pt">Adds</th>
+              <th class="num sortable" title="Total starts across all added players">Starts</th>
+              <th class="num sortable" title="Total started pts scored by added players">Total Pts</th>
+              <th class="num sortable" title="Average started pts per qualifying add">Avg Pts/Add</th>
+              <th>Best Add</th>
+            </tr></thead>
+            <tbody>${ownerTableRows}</tbody>
+          </table>
+        </div>
+      </div>
+
+      <div>
+        <h3 style="font-size:13px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:10px">
+          Best All-Time Waiver Pickups
+        </h3>
+        <div class="table-wrap">
+          <table>
+            <thead><tr>
+              <th class="num">#</th>
+              <th>Player</th>
+              <th>Pos</th>
+              <th>Owner</th>
+              <th>Season</th>
+              <th class="num">Starts</th>
+              <th class="num">Started Pts</th>
+            </tr></thead>
+            <tbody>${top25Rows}</tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+    <style>
+      @media (max-width: 700px) { .waiver-grid { grid-template-columns: 1fr !important; } }
+    </style>
+  `;
+
+  makeSortableTable(document.getElementById('waiver-owner-table'));
+}
+
+init();
 </script>
 </body>
 </html>

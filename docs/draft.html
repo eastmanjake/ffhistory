@@ -6,6 +6,21 @@
   <title>Draft History — The League</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>🏈</text></svg>">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    .keeper-badge {
+      display: inline-block;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: .04em;
+      padding: 1px 4px;
+      border-radius: 3px;
+      vertical-align: middle;
+      margin-left: 4px;
+      line-height: 14px;
+    }
+    .keeper-single { background: rgba(212,160,23,.2); color: var(--gold); border: 1px solid rgba(212,160,23,.4); }
+    .keeper-multi  { background: rgba(212,160,23,.35); color: var(--gold); border: 1px solid var(--gold); }
+  </style>
 </head>
 <body>
 
@@ -22,6 +37,7 @@
         <a href="extrapoints.html">Extra Points</a>
         <a href="timeline.html">Season Timeline</a>
         <a href="owner.html">Owner Profiles</a>
+        <a href="finalrosters.html">Final Rosters</a>
       </div>
     </div>
     <div class="nav-group">
@@ -34,7 +50,6 @@
     <div class="nav-group">
       <button class="nav-group-btn">Stats ▾</button>
       <div class="nav-dropdown">
-        <a href="weekly.html">Weekly</a>
         <a href="players.html">Player History</a>
         <a href="rules.html">Rules</a>
       </div>
@@ -47,7 +62,10 @@
     <h1>Draft History</h1>
   </div>
 
-  <div class="controls">
+  <!-- Draft Grades section (loads independently of year selector) -->
+  <div id="draft-grades"><p class="loading">Computing draft grades…</p></div>
+
+  <div class="controls" style="margin-top:32px">
     <label for="year-select">Season</label>
     <select id="year-select"></select>
   </div>
@@ -57,15 +75,15 @@
 
 <script src="js/utils.js"></script>
 <script>
+// ── Year selector ──────────────────────────────────────────────────────────
 const yearSelect = document.getElementById('year-select');
-for (const y of [...SEASONS].reverse()) {
+for (const y of [...ALL_SEASONS].reverse()) {
   yearSelect.appendChild(new Option(y, y));
 }
 const params = new URLSearchParams(location.search);
-if (params.has('year') && SEASONS.includes(parseInt(params.get('year')))) {
+if (params.has('year') && ALL_SEASONS.includes(parseInt(params.get('year')))) {
   yearSelect.value = params.get('year');
 }
-
 yearSelect.addEventListener('change', () => {
   const url = new URL(location.href);
   url.searchParams.set('year', yearSelect.value);
@@ -73,6 +91,449 @@ yearSelect.addEventListener('change', () => {
   loadYear(parseInt(yearSelect.value));
 });
 
+// ── Constants ──────────────────────────────────────────────────────────────
+const GRADE_SEASONS      = [2016,2017,2018,2019,2020,2021,2022,2023,2024,2025];
+const MANUAL_KEEPER_YEAR = 2025; // first year using keepers_manual.json
+let gradeCache = null;
+
+// ── Grade helpers ──────────────────────────────────────────────────────────
+function tierOf(ep) {
+  if (ep <=   5) return 0;
+  if (ep <=  15) return 1;
+  if (ep <=  30) return 2;
+  if (ep <=  50) return 3;
+  if (ep <=  75) return 4;
+  if (ep <= 100) return 5;
+  return 6;
+}
+function letterGrade(score) {
+  if (score >= 90) return 'A+';
+  if (score >= 80) return 'A';
+  if (score >= 70) return 'B+';
+  if (score >= 60) return 'B';
+  if (score >= 50) return 'C+';
+  if (score >= 40) return 'C';
+  if (score >= 25) return 'D';
+  return 'F';
+}
+function gradeColor(score) {
+  return `hsl(${Math.round(score * 1.2)}, 65%, 52%)`;
+}
+
+// ── Keeper identification ──────────────────────────────────────────────────
+// Returns Map<pickNum, 'single'|'multi'> for a given year.
+// Pass D (pre-loaded data) for grade computation, or null to fetch on demand (loadYear).
+async function buildKeeperMap(year, picks, teamOwner, D) {
+  if (year < 2016) return new Map();
+
+  // Which players were keepers in prevYear? (for multi-year detection)
+  // In 2016-2024 these were round-1 picks that also appeared on y-2 rosters.
+  function prevKeptSet(prevY, prevDraft, prevPrevRosterByTeam) {
+    const s = new Set();
+    if (prevY < 2016) return s;
+    for (const p of prevDraft) {
+      if (prevY <= 2024) {
+        // All round 1 picks are keepers — no roster check needed
+        if (p.round === 1) s.add(p.player);
+      } else {
+        // 2025+: any round can be a keeper; use roster cross-check
+        if ((prevPrevRosterByTeam[p.team] || new Set()).has(p.player)) s.add(p.player);
+      }
+    }
+    return s;
+  }
+
+  const km = new Map();
+
+  if (year <= 2024) {
+    // ── Roster-based detection ─────────────────────────────────────────────
+    let prevRosterByTeam, prevKept;
+
+    if (D) {
+      prevRosterByTeam = D[year - 1]?.rosterSet || {};
+      prevKept = prevKeptSet(year - 1, D[year - 1]?.draft || [], D[year - 2]?.rosterSet || {});
+    } else {
+      const [prevRosters, prevPrevRosters, prevDraft] = await Promise.all([
+        loadFile(year - 1, 'rosters.json').catch(() => []),
+        year >= 2018 ? loadFile(year - 2, 'rosters.json').catch(() => []) : Promise.resolve([]),
+        year >= 2018 ? loadFile(year - 1, 'draft.json').catch(() => [])   : Promise.resolve([]),
+      ]);
+      prevRosterByTeam = {};
+      for (const r of prevRosters) {
+        (prevRosterByTeam[r.team] = prevRosterByTeam[r.team] || new Set()).add(r.player);
+      }
+      const pp = {};
+      for (const r of prevPrevRosters) {
+        (pp[r.team] = pp[r.team] || new Set()).add(r.player);
+      }
+      prevKept = prevKeptSet(year - 1, prevDraft, pp);
+    }
+
+    for (const p of picks) {
+      if (p.round !== 1) continue;
+      // All round 1 picks are keepers for 2016–2024
+      km.set(p.pick, prevKept.has(p.player) ? 'multi' : 'single');
+    }
+
+  } else {
+    // ── Manual keeper list for 2025+ ──────────────────────────────────────
+    const manualList = D
+      ? (D[year]?.keepersManual || [])
+      : await loadFile(year, 'keepers_manual.json').catch(() => []);
+
+    // Multi-year: was this player a keeper in year-1?
+    // In 2024, keepers = round-1 picks on 2023 rosters.
+    let prevKept;
+    if (D) {
+      prevKept = prevKeptSet(year - 1, D[year - 1]?.draft || [], D[year - 2]?.rosterSet || {});
+    } else {
+      const [prevPrevRosters, prevDraft] = await Promise.all([
+        loadFile(year - 2, 'rosters.json').catch(() => []),
+        loadFile(year - 1, 'draft.json').catch(() => []),
+      ]);
+      const ppSet = {};
+      for (const r of prevPrevRosters) {
+        (ppSet[r.team] = ppSet[r.team] || new Set()).add(r.player);
+      }
+      prevKept = prevKeptSet(year - 1, prevDraft, ppSet);
+    }
+
+    // Match manual entries to actual picks by (normOwner, round)
+    for (const entry of manualList) {
+      const entryOwner = normOwner(entry.owner);
+      const match = picks.find(p =>
+        normOwner(teamOwner[p.team] || '') === entryOwner && p.round === entry.round
+      );
+      if (!match) continue;
+      km.set(match.pick, prevKept.has(match.player) ? 'multi' : 'single');
+    }
+  }
+
+  return km;
+}
+
+// ── Grade computation ──────────────────────────────────────────────────────
+async function computeDraftGrades() {
+  if (gradeCache) return gradeCache;
+
+  const allData = await Promise.all(GRADE_SEASONS.map(y =>
+    Promise.all([
+      loadFile(y, 'draft.json').catch(() => []),
+      loadFile(y, 'rosters.json').catch(() => []),
+      loadFile(y, 'weekly_lineups.json').catch(() => []),
+      loadFile(y, 'standings.json').catch(() => []),
+      y >= MANUAL_KEEPER_YEAR
+        ? loadFile(y, 'keepers_manual.json').catch(() => [])
+        : Promise.resolve(null),
+    ]).then(([draft, rosters, lineups, standings, keepersManual]) =>
+      ({ y, draft, rosters, lineups, standings, keepersManual })
+    )
+  ));
+
+  const D = {};
+  for (const d of allData) {
+    D[d.y] = {
+      draft:         d.draft,
+      lineups:       d.lineups,
+      standings:     d.standings,
+      keepersManual: d.keepersManual,
+      teamOwner:     buildTeamOwnerMap(d.standings),
+      rosterSet:     {},
+    };
+    for (const r of d.rosters) {
+      (D[d.y].rosterSet[r.team] = D[d.y].rosterSet[r.team] || new Set()).add(r.player);
+    }
+  }
+
+  // Player season started points (not BN/IR)
+  const pPts = {};
+  for (const y of GRADE_SEASONS) {
+    pPts[y] = {};
+    for (const row of D[y].lineups) {
+      if (row.slot === 'BN' || row.slot === 'IR') continue;
+      pPts[y][row.player] = (pPts[y][row.player] || 0) + (parseFloat(row.fantasy_pts) || 0);
+    }
+  }
+
+  // Keeper maps for all grade seasons
+  const keeperMaps = {};
+  for (const y of GRADE_SEASONS) {
+    keeperMaps[y] = await buildKeeperMap(y, D[y].draft, D[y].teamOwner, D);
+  }
+
+  // ── Tier baselines ─────────────────────────────────────────────────────
+  const pool = Array.from({ length: 7 }, () => []);
+  for (const y of GRADE_SEASONS) {
+    const km   = keeperMaps[y];
+    const nonK = D[y].draft.filter(p => !km.has(p.pick)).sort((a, b) => a.pick - b.pick);
+    nonK.forEach((p, i) => pool[tierOf(i + 1)].push(pPts[y][p.player] || 0));
+  }
+  const baseline = pool.map(arr =>
+    arr.length ? arr.reduce((s, v) => s + v, 0) / arr.length : 0
+  );
+
+  // ── Grade each season ──────────────────────────────────────────────────
+  const seasonGrades = {};
+
+  for (const y of GRADE_SEASONS) {
+    const km    = keeperMaps[y];
+    const picks = D[y].draft;
+    const to    = D[y].teamOwner;
+
+    const nonK  = picks.filter(p => !km.has(p.pick)).sort((a, b) => a.pick - b.pick);
+    const epMap = new Map(nonK.map((p, i) => [p.pick, i + 1]));
+
+    const pvsMap = new Map(nonK.map(p => {
+      const pts = pPts[y][p.player] || 0;
+      return [p.pick, pts - baseline[tierOf(epMap.get(p.pick))]];
+    }));
+
+    const allPVS  = [...pvsMap.values()];
+    const meanPVS = allPVS.reduce((s, v) => s + v, 0) / (allPVS.length || 1);
+    const varPVS  = allPVS.reduce((s, v) => s + (v - meanPVS) ** 2, 0) / (allPVS.length || 1);
+    const stdPVS  = Math.sqrt(varPVS) || 1;
+
+    const keeperPtsArr = picks.filter(p => km.has(p.pick)).map(p => pPts[y][p.player] || 0);
+    const avgKPts = keeperPtsArr.length
+      ? keeperPtsArr.reduce((s, v) => s + v, 0) / keeperPtsArr.length : 0;
+
+    const ownerRaw = {};
+    const ownerKD  = {};
+
+    for (const p of picks) {
+      const owner = normOwner(to[p.team] || p.team);
+      ownerRaw[owner] = ownerRaw[owner] || 0;
+      ownerKD[owner]  = ownerKD[owner]  || [];
+
+      if (km.has(p.pick)) {
+        const pts  = pPts[y][p.player] || 0;
+        let kpaa   = pts - avgKPts;
+        // No multi-year penalty — all keepers graded equally on KPAA
+        ownerRaw[owner] += kpaa / stdPVS;
+        ownerKD[owner].push({
+          player: p.player,
+          kpaa:   Math.round(kpaa * 10) / 10,
+          type:   km.get(p.pick),
+          pts:    Math.round(pts * 10) / 10,
+        });
+      } else {
+        const pvs = pvsMap.get(p.pick) || 0;
+        ownerRaw[owner] += (pvs - meanPVS) / stdPVS;
+      }
+    }
+
+    const entries = Object.entries(ownerRaw).sort((a, b) => b[1] - a[1]);
+    const raws    = entries.map(([, r]) => r);
+    const minR    = Math.min(...raws);
+    const maxR    = Math.max(...raws);
+    const rng     = maxR - minR || 1;
+
+    seasonGrades[y] = {};
+    entries.forEach(([owner, raw], i) => {
+      seasonGrades[y][owner] = {
+        score:         Math.round(((raw - minR) / rng) * 100),
+        rank:          i + 1,
+        keeperDetails: ownerKD[owner] || [],
+      };
+    });
+  }
+
+  // ── All-time grades ────────────────────────────────────────────────────
+  const allOwners = new Set(GRADE_SEASONS.flatMap(y => Object.keys(seasonGrades[y])));
+  const allTimeGrades = {};
+
+  for (const owner of allOwners) {
+    const sList  = GRADE_SEASONS.filter(y => seasonGrades[y][owner]);
+    if (!sList.length) continue;
+    const scores = sList.map(y => seasonGrades[y][owner].score);
+    const ranks  = sList.map(y => seasonGrades[y][owner].rank);
+    allTimeGrades[owner] = {
+      score:       Math.round(scores.reduce((s, v) => s + v, 0) / scores.length),
+      consistency: ranks.filter(r => r <= 5).length / sList.length,
+      seasons:     sList.length,
+    };
+  }
+
+  // ── Top / bottom keepers by KPAA ──────────────────────────────────────
+  const allKeepers = [];
+  for (const y of GRADE_SEASONS) {
+    for (const [owner, data] of Object.entries(seasonGrades[y])) {
+      for (const kd of data.keeperDetails) {
+        allKeepers.push({ ...kd, year: y, owner });
+      }
+    }
+  }
+  allKeepers.sort((a, b) => b.kpaa - a.kpaa);
+  const topKeepers    = allKeepers.slice(0, 10);
+  const bottomKeepers = allKeepers.slice(-10).reverse();
+
+  gradeCache = { seasonGrades, allTimeGrades, baseline, topKeepers, bottomKeepers };
+  return gradeCache;
+}
+
+// ── Grade section rendering ────────────────────────────────────────────────
+function renderGrades(grades) {
+  const { seasonGrades, allTimeGrades, baseline, topKeepers, bottomKeepers } = grades;
+
+  const leaderboard = Object.entries(allTimeGrades).sort((a, b) => b[1].score - a[1].score);
+  const owners      = leaderboard.map(([o]) => o);
+
+  const lbRows = leaderboard.map(([owner, d], i) => `
+    <tr>
+      <td class="num">${i + 1}</td>
+      <td>${owner}</td>
+      <td class="num" style="font-weight:700;color:${gradeColor(d.score)}">${d.score}</td>
+      <td class="num" style="font-weight:700;color:${gradeColor(d.score)}">${letterGrade(d.score)}</td>
+      <td class="num">${(d.consistency * 100).toFixed(0)}%</td>
+      <td class="num">${d.seasons}</td>
+    </tr>
+  `).join('');
+
+  const s2sCols = GRADE_SEASONS.map(y => `<th class="num" style="font-size:11px">${y}</th>`).join('');
+  const s2sRows = owners.map(owner => {
+    const cells = GRADE_SEASONS.map(y => {
+      const g = seasonGrades[y]?.[owner];
+      if (!g) return '<td class="num" style="color:var(--muted)">—</td>';
+      const col = gradeColor(g.score);
+      return `<td class="num" data-val="${g.score}" style="color:${col};font-weight:600">${g.score}<span style="font-size:10px;font-weight:400;color:var(--muted)"> #${g.rank}</span></td>`;
+    }).join('');
+    return `<tr><td>${owner}</td>${cells}</tr>`;
+  }).join('');
+
+  const keeperTable = (keepers, label, accent) => {
+    if (!keepers.length) return '';
+    const rows = keepers.map((kd, i) => {
+      const badge = kd.type === 'multi'
+        ? '<span class="keeper-badge keeper-multi">KK</span>'
+        : '<span class="keeper-badge keeper-single">K</span>';
+      const kpaaStr = (kd.kpaa > 0 ? '+' : '') + kd.kpaa;
+      return `<tr>
+        <td class="num" style="color:var(--muted)">${i + 1}</td>
+        <td>${kd.player}</td>
+        <td style="color:var(--muted)">${kd.owner}</td>
+        <td class="num">${kd.year}</td>
+        <td>${badge}</td>
+        <td class="num">${kd.pts}</td>
+        <td class="num" style="color:${accent};font-weight:700">${kpaaStr}</td>
+      </tr>`;
+    }).join('');
+    return `
+      <div style="flex:1;min-width:300px">
+        <h4 style="margin:0 0 10px;font-size:12px;font-weight:700;color:${accent};text-transform:uppercase;letter-spacing:.06em">${label}</h4>
+        <div class="table-wrap">
+          <table>
+            <thead><tr>
+              <th class="num" style="width:28px">#</th>
+              <th>Player</th>
+              <th>Owner</th>
+              <th class="num">Year</th>
+              <th></th>
+              <th class="num" title="Fantasy points started">Pts</th>
+              <th class="num" title="Keeper Points Above Average">KPAA</th>
+            </tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+      </div>
+    `;
+  };
+
+  const tierLabels = ['1–5','6–15','16–30','31–50','51–75','76–100','101+'];
+  const tierRows   = tierLabels.map((lbl, i) =>
+    `<tr><td style="padding:2px 8px 2px 0;color:var(--muted)">${lbl}</td><td style="padding:2px 0">${Math.round(baseline[i])} pts avg</td></tr>`
+  ).join('');
+
+  return `
+    <section>
+      <h2 style="display:flex;align-items:center;gap:10px">
+        Draft Grades
+        <button id="grade-formula-btn" title="How draft grades are calculated"
+          style="background:none;border:1px solid var(--border);border-radius:50%;width:22px;height:22px;
+                 font-size:12px;cursor:pointer;color:var(--muted);padding:0;line-height:1;flex-shrink:0">ⓘ</button>
+      </h2>
+
+      <div id="grade-formula-panel" style="display:none;background:var(--surface);border:1px solid var(--border);
+           border-radius:8px;padding:18px;margin-bottom:20px;font-size:13px;max-width:640px;line-height:1.7">
+        <strong style="font-size:14px">How Draft Grades Are Calculated</strong>
+        <p style="margin:10px 0 6px;color:var(--muted)">Seasons graded: 2016–2025.</p>
+        <p style="margin:6px 0 4px"><strong>Keepers</strong> — KPAA (Keeper Points Above Average)</p>
+        <ul style="margin:0 0 8px;padding-left:18px;color:var(--muted)">
+          <li>2016–2024: Round 1 picks where the player was on the same owner's prior-year end-of-season roster.</li>
+          <li>2025+: Identified from a manually maintained keeper list (owner + round).</li>
+          <li>KPAA = keeper's started pts − league-wide avg keeper pts that season. All keepers (single or multi-year) are graded equally.</li>
+        </ul>
+        <p style="margin:6px 0 4px"><strong>Non-keepers</strong> — PVS (Pick Value Score)</p>
+        <ul style="margin:0 0 8px;padding-left:18px;color:var(--muted)">
+          <li>Picks are re-indexed excluding keepers, then assigned to a tier by effective pick number.</li>
+          <li>PVS = started pts − tier baseline (pooled avg across all graded seasons).</li>
+          <li>KPAA and PVS both normalized by that season's PVS std dev, then summed per owner.</li>
+        </ul>
+        <p style="margin:6px 0 4px"><strong>Scoring</strong></p>
+        <ul style="margin:0 0 10px;padding-left:18px;color:var(--muted)">
+          <li>Season score: raw sum scaled 0–100 relative to other owners that season.</li>
+          <li>All-time score: simple average of season scores.</li>
+          <li>Consistency: % of seasons finishing in the top half (top 5 of ~10 owners).</li>
+        </ul>
+        <p style="margin:4px 0 6px"><strong>Tier baselines</strong></p>
+        <table style="border-collapse:collapse;font-size:12px"><tbody>${tierRows}</tbody></table>
+        <p style="margin:10px 0 0;color:var(--muted);font-size:12px">
+          Draft board badges: &nbsp;<span class="keeper-badge keeper-single">K</span> single-year keeper &nbsp;
+          <span class="keeper-badge keeper-multi">KK</span> multi-year keeper
+        </p>
+      </div>
+
+      <h3 style="margin:0 0 12px;font-size:13px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em">All-Time Leaderboard</h3>
+      <div class="table-wrap" style="max-width:480px;margin-bottom:32px">
+        <table>
+          <thead><tr>
+            <th class="num" style="width:36px">#</th>
+            <th>Owner</th>
+            <th class="num" title="Average season score (0–100)">Score</th>
+            <th class="num">Grade</th>
+            <th class="num" title="% of seasons finishing in top 5">Consistency</th>
+            <th class="num">Seasons</th>
+          </tr></thead>
+          <tbody>${lbRows}</tbody>
+        </table>
+      </div>
+
+      <h3 style="margin:0 0 12px;font-size:13px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em">Season-by-Season</h3>
+      <div class="table-wrap" style="margin-bottom:32px">
+        <table>
+          <thead><tr>
+            <th>Owner</th>
+            ${s2sCols}
+          </tr></thead>
+          <tbody>${s2sRows}</tbody>
+        </table>
+      </div>
+
+      <h3 style="margin:0 0 12px;font-size:13px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em">Keeper Highlights</h3>
+      <div style="display:flex;gap:24px;flex-wrap:wrap;align-items:flex-start">
+        ${keeperTable(topKeepers,    '🏆 Top 10 Keepers',    'var(--green)')}
+        ${keeperTable(bottomKeepers, '💸 Bottom 10 Keepers', '#e05252')}
+      </div>
+    </section>
+  `;
+}
+
+// ── Init grades ────────────────────────────────────────────────────────────
+async function initGrades() {
+  const section = document.getElementById('draft-grades');
+  try {
+    const grades = await computeDraftGrades();
+    section.innerHTML = renderGrades(grades);
+    document.getElementById('grade-formula-btn').addEventListener('click', () => {
+      const panel = document.getElementById('grade-formula-panel');
+      panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+    });
+  } catch (e) {
+    section.innerHTML = `<section><p style="color:var(--red)">Error computing draft grades: ${e.message}</p></section>`;
+    console.error(e);
+  }
+}
+
+// ── Per-year draft board ───────────────────────────────────────────────────
 async function loadYear(year) {
   const content = document.getElementById('content');
   content.innerHTML = '<p class="loading">Loading…</p>';
@@ -82,46 +543,60 @@ async function loadYear(year) {
     loadFile(year, 'standings.json'),
   ]);
 
-  // Determine draft slots from round 1 (pick order = draft position)
-  const round1 = picks.filter(p => p.round === 1).sort((a, b) => a.pick - b.pick);
-  const draftOrder = round1.map(p => p.team); // index 0 = pick #1 overall
+  const teamOwner = buildTeamOwnerMap(standings);
 
-  const numRounds = Math.max(...picks.map(p => p.round));
-  const numTeams  = draftOrder.length;
+  // Build keeper map for board indicators
+  const keeperMap = year >= 2016
+    ? await buildKeeperMap(year, picks, teamOwner, null)
+    : new Map();
 
-  // Build grid: grid[round][slot] = pick
+  const round1     = picks.filter(p => p.round === 1).sort((a, b) => a.pick - b.pick);
+  const draftOrder = round1.map(p => p.team);
+  const numTeams   = draftOrder.length;
+  const numRounds  = Math.max(...picks.map(p => p.round));
+
+  // Snake-draft grid
   const grid = {};
   for (const p of picks) {
-    const pickInRound = ((p.pick - 1) % numTeams); // 0-indexed
-    // Snake: even rounds (0-indexed) go right→left
-    const roundIdx = p.round - 1;
-    const slot = (roundIdx % 2 === 0) ? pickInRound : (numTeams - 1 - pickInRound);
+    const roundIdx  = p.round - 1;
+    const pickInRnd = (p.pick - 1) % numTeams;
+    const slot      = (roundIdx % 2 === 0) ? pickInRnd : (numTeams - 1 - pickInRnd);
     if (!grid[p.round]) grid[p.round] = {};
     grid[p.round][slot] = p;
   }
 
-  // Team owner map
-  const teamOwner = buildTeamOwnerMap(standings);
+  const posClass = pos => `pos pos-${(pos || '').split('/')[0].toUpperCase()}`;
 
-  // Build table HTML
-  const teamHeaders = draftOrder.map(t =>
-    `<th style="min-width:100px;max-width:130px">${t}<br><span style="font-weight:400;text-transform:none;font-size:10px;color:var(--muted)">${teamOwner[t] || ''}</span></th>`
-  ).join('');
+  // Grade badges in team headers (use cache if already computed)
+  const grades = gradeCache;
+  const teamHeaders = draftOrder.map(t => {
+    const owner = normOwner(teamOwner[t] || '');
+    let badge = '';
+    if (grades && year >= 2016 && grades.seasonGrades[year]?.[owner]) {
+      const g = grades.seasonGrades[year][owner];
+      badge = `<span style="display:block;margin-top:3px;font-size:11px;font-weight:700;color:${gradeColor(g.score)}">${letterGrade(g.score)} (${g.score})</span>`;
+    }
+    return `<th style="min-width:100px;max-width:130px">
+      ${t}<br>
+      <span style="font-weight:400;text-transform:none;font-size:10px;color:var(--muted)">${owner}</span>
+      ${badge}
+    </th>`;
+  }).join('');
 
-  const posClass = pos => {
-    const base = (pos || '').split('/')[0].toUpperCase();
-    return `pos-${base}`;
-  };
-
+  // Draft board rows
   let rowsHtml = '';
   for (let r = 1; r <= numRounds; r++) {
     let cells = `<td class="round-cell">Rd ${r}</td>`;
     for (let slot = 0; slot < numTeams; slot++) {
       const pick = grid[r]?.[slot];
       if (pick) {
+        const kType  = keeperMap.get(pick.pick);
+        const kBadge = kType === 'multi'  ? '<span class="keeper-badge keeper-multi"  title="Multi-year keeper">KK</span>'
+                     : kType === 'single' ? '<span class="keeper-badge keeper-single" title="Keeper">K</span>'
+                     : '';
         cells += `<td><div class="draft-pick">
-          <div class="player">${pick.player}</div>
-          <div class="pos ${posClass(pick.position)}">${pick.position}</div>
+          <div class="player">${pick.player}${kBadge}</div>
+          <div class="${posClass(pick.position)}">${pick.position}</div>
         </div></td>`;
       } else {
         cells += `<td style="color:var(--border)">—</td>`;
@@ -130,9 +605,39 @@ async function loadYear(year) {
     rowsHtml += `<tr>${cells}</tr>`;
   }
 
+  // Pick-by-pick list with optional Keeper column
+  const hasKeepers = keeperMap.size > 0;
+  const kHeader = hasKeepers ? '<th>Keeper</th>' : '';
+  const listRows = picks.sort((a, b) => a.pick - b.pick).map(p => {
+    const kType = keeperMap.get(p.pick);
+    const kCell = hasKeepers
+      ? `<td>${kType === 'multi'  ? '<span class="keeper-badge keeper-multi">KK</span>'
+               : kType === 'single' ? '<span class="keeper-badge keeper-single">K</span>'
+               : ''}</td>`
+      : '';
+    return `<tr>
+      <td class="num">${p.round}</td>
+      <td class="num">${p.pick}</td>
+      <td>${p.team}</td>
+      <td>${normOwner(teamOwner[p.team] || '')}</td>
+      <td>${p.player}</td>
+      <td><span class="${posClass(p.position)}">${p.position}</span></td>
+      ${kCell}
+    </tr>`;
+  }).join('');
+
+  const hint = year >= 2016
+    ? `<p style="font-size:12px;color:var(--muted);margin-bottom:12px">
+         <span class="keeper-badge keeper-single">K</span> = keeper &nbsp;
+         <span class="keeper-badge keeper-multi">KK</span> = multi-year keeper &nbsp;&nbsp;
+         Grade badges per team — see <strong>Draft Grades</strong> above for formula.
+       </p>`
+    : '';
+
   content.innerHTML = `
     <section>
       <h2>${year} Draft Board &mdash; ${picks.length} picks, ${numRounds} rounds</h2>
+      ${hint}
     </section>
     <div class="draft-wrap">
       <table class="draft-table">
@@ -157,25 +662,17 @@ async function loadYear(year) {
             <th>Owner</th>
             <th>Player</th>
             <th>Position</th>
+            ${kHeader}
           </tr></thead>
-          <tbody>
-            ${picks.sort((a,b) => a.pick - b.pick).map(p => `
-              <tr>
-                <td class="num">${p.round}</td>
-                <td class="num">${p.pick}</td>
-                <td>${p.team}</td>
-                <td>${teamOwner[p.team] || ''}</td>
-                <td>${p.player}</td>
-                <td><span class="pos ${posClass(p.position)}">${p.position}</span></td>
-              </tr>
-            `).join('')}
-          </tbody>
+          <tbody>${listRows}</tbody>
         </table>
       </div>
     </section>
   `;
 }
 
+// ── Boot ───────────────────────────────────────────────────────────────────
+initGrades();
 loadYear(parseInt(yearSelect.value));
 </script>
 </body>

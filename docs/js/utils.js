@@ -97,6 +97,87 @@ async function getOwnerStats() {
   );
 }
 
+// ── Standings computation ─────────────────────────────────────────────────
+// Derives correct final standings ranks from matchup results.
+// - Ranks 1–4: Championship and 3rd Place game results.
+// - Ranks 5–6: QF losers — winner of their consolation matchup = 5th, loser = 6th.
+//   If no consolation game between them exists, fall back to regular-season W-L then PF.
+// - Ranks 7–10: Non-playoff teams (never in QF+), sorted by regular-season W-L then PF.
+//   Consolation games do NOT affect their ranking.
+function computeFinalStandings(matchups, standings) {
+  const result   = standings.map(s => ({ ...s, rank: parseInt(s.rank) }));
+  const computed = new Map(result.map(s => [s.team, s.rank]));
+
+  const getWinner = m => parseFloat(m.score1) > parseFloat(m.score2) ? m.team1 : m.team2;
+  const getLoser  = m => parseFloat(m.score1) > parseFloat(m.score2) ? m.team2 : m.team1;
+
+  // Regular-season W-L and PF per team (used for non-playoff tiebreaking)
+  const regRec = {};
+  for (const m of matchups) {
+    if (m.playoff) continue;
+    const s1 = parseFloat(m.score1), s2 = parseFloat(m.score2);
+    for (const [team, pts, opp] of [[m.team1, s1, s2], [m.team2, s2, s1]]) {
+      if (!regRec[team]) regRec[team] = { w: 0, l: 0, pf: 0 };
+      regRec[team].pf += pts;
+      if (pts > opp) regRec[team].w++; else regRec[team].l++;
+    }
+  }
+
+  // Ranks 1–4: Championship and 3rd Place
+  const champGame = matchups.find(m => m.round === 'Championship');
+  const thirdGame = matchups.find(m => m.round === '3rd Place');
+  if (champGame) { computed.set(getWinner(champGame), 1); computed.set(getLoser(champGame), 2); }
+  if (thirdGame)  { computed.set(getWinner(thirdGame),  3); computed.set(getLoser(thirdGame),  4); }
+
+  // Teams that appeared in QF or higher (playoff bracket participants)
+  const mainRounds  = new Set(['Quarterfinal', 'Semifinal', 'Championship', '3rd Place']);
+  const playoffTeams = new Set(
+    matchups.filter(m => mainRounds.has(m.round)).flatMap(m => [m.team1, m.team2])
+  );
+
+  // Ranks 5–6: QF losers
+  const qfLosers = matchups
+    .filter(m => m.round === 'Quarterfinal')
+    .map(m => getLoser(m));
+
+  if (qfLosers.length === 2) {
+    const [a, b] = qfLosers;
+    // Look for a consolation game between the two QF losers
+    const game56 = matchups.find(m =>
+      m.round === 'Consolation' &&
+      ((m.team1 === a && m.team2 === b) || (m.team1 === b && m.team2 === a))
+    );
+    if (game56) {
+      computed.set(getWinner(game56), 5);
+      computed.set(getLoser(game56),  6);
+    } else {
+      // Fallback: sort by regular-season W-L then PF
+      const sorted = [a, b].sort((x, y) => {
+        const rx = regRec[x] || { w: 0, pf: 0 };
+        const ry = regRec[y] || { w: 0, pf: 0 };
+        return ry.w !== rx.w ? ry.w - rx.w : ry.pf - rx.pf;
+      });
+      computed.set(sorted[0], 5);
+      computed.set(sorted[1], 6);
+    }
+  }
+
+  // Ranks 7–10: Non-playoff teams sorted by regular-season W-L then PF
+  const nonPlayoff = result
+    .map(s => s.team)
+    .filter(t => !playoffTeams.has(t))
+    .sort((a, b) => {
+      const ra = regRec[a] || { w: 0, pf: 0 };
+      const rb = regRec[b] || { w: 0, pf: 0 };
+      return rb.w !== ra.w ? rb.w - ra.w : rb.pf - ra.pf;
+    });
+  nonPlayoff.forEach((team, i) => computed.set(team, 7 + i));
+
+  result.forEach(s => { s.rank = computed.get(s.team) ?? s.rank; });
+  result.sort((a, b) => a.rank - b.rank);
+  return result;
+}
+
 // Returns all matchups enriched with owner names across every season
 async function getAllMatchupsWithOwners() {
   const [allMatchups, allStandings] = await Promise.all([

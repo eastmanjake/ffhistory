@@ -106,6 +106,23 @@
     .change-flat { color: var(--muted); }
     .playoff-cutoff td { border-top: 2px dashed var(--border); }
 
+    /* ── Chart tooltip ──────────────────────────────────────────── */
+    #chart-tooltip {
+      position: fixed;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 8px 12px;
+      font-size: 12px;
+      line-height: 1.6;
+      pointer-events: none;
+      display: none;
+      z-index: 200;
+      min-width: 150px;
+    }
+    #chart-tooltip .tip-owner { font-weight: 600; color: var(--text); }
+    #chart-tooltip .tip-detail { color: var(--muted); }
+
     /* color swatch in table */
     .team-swatch {
       display: inline-block;
@@ -133,6 +150,7 @@
         <a href="extrapoints.html">Extra Points</a>
         <a href="timeline.html" class="active">Season Timeline</a>
         <a href="owner.html">Owner Profiles</a>
+        <a href="finalrosters.html">Final Rosters</a>
       </div>
     </div>
     <div class="nav-group">
@@ -145,7 +163,6 @@
     <div class="nav-group">
       <button class="nav-group-btn">Stats ▾</button>
       <div class="nav-dropdown">
-        <a href="weekly.html">Weekly</a>
         <a href="players.html">Player History</a>
         <a href="rules.html">Rules</a>
       </div>
@@ -193,6 +210,7 @@
             <th class="num">L</th>
             <th class="num">PF</th>
             <th class="num" title="Rank change vs previous week">±</th>
+            <th class="num">Streak</th>
           </tr>
         </thead>
         <tbody id="snapshot-tbody"></tbody>
@@ -201,6 +219,7 @@
   </section>
 </main>
 
+<div id="chart-tooltip"><div class="tip-owner"></div><div class="tip-detail"></div></div>
 <script src="js/utils.js"></script>
 <script>
 // ── Color palette (up to 12 teams) ────────────────────────────────────────────
@@ -222,10 +241,11 @@ const PALETTE = [
 // ── State ──────────────────────────────────────────────────────────────────────
 let weeklyStandings = []; // array of arrays: weeklyStandings[weekIndex] = [{team,owner,wins,losses,pf,rank}, ...]
 let teams = [];           // [{team, owner, color}, ...]
+let gameResults = {};     // team → [{week, won}] sorted by week
 let numRegularWeeks = 0;
 let numPlayoffTeams = 4;  // default, detected from data
 let selectedWeek = 1;     // 1-based
-let hiddenTeams = new Set();
+let highlightedTeam = null; // null = all normal; teamName = that team highlighted, others dimmed
 
 // ── Season selector ────────────────────────────────────────────────────────────
 async function init() {
@@ -244,7 +264,8 @@ async function init() {
 async function loadSeason(year) {
   weeklyStandings = [];
   teams = [];
-  hiddenTeams = new Set();
+  gameResults = {};
+  highlightedTeam = null;
 
   const [matchups, standings] = await Promise.all([
     loadFile(year, 'matchups.json'),
@@ -313,6 +334,16 @@ async function loadSeason(year) {
       rank:   i + 1,
     }));
   });
+
+  // Build per-team game results for streak computation
+  teamNames.forEach(t => { gameResults[t] = []; });
+  regularGames.forEach(m => {
+    const s1 = parseFloat(m.score1), s2 = parseFloat(m.score2);
+    const t1won = s1 > s2;
+    gameResults[m.team1].push({ week: m.week, won: t1won });
+    gameResults[m.team2].push({ week: m.week, won: !t1won });
+  });
+  teamNames.forEach(t => gameResults[t].sort((a, b) => a.week - b.week));
 
   selectedWeek = numRegularWeeks;
   renderAll();
@@ -432,18 +463,18 @@ function renderChart() {
     ctx.fillText('W' + (wi + 1), xOf(wi), H - PAD_B + 14);
   }
 
-  // Draw team lines + dots
+  // Draw team lines + dots (dimmed if another team is highlighted)
   teams.forEach(team => {
-    if (hiddenTeams.has(team.team)) return;
+    const isHighlighted = highlightedTeam === null || highlightedTeam === team.team;
+    ctx.globalAlpha = isHighlighted ? 1.0 : 0.12;
 
-    // Get this team's rank at each week
     const ranks = weeklyStandings.map(wk => {
       const entry = wk.find(e => e.team === team.team);
       return entry ? entry.rank : null;
     });
 
     ctx.strokeStyle = team.color;
-    ctx.lineWidth = 2.5;
+    ctx.lineWidth = (highlightedTeam === team.team) ? 3.5 : 2.5;
     ctx.lineJoin = 'round';
     ctx.beginPath();
     let started = false;
@@ -479,12 +510,11 @@ function renderChart() {
       ctx.fillStyle = team.color;
       ctx.font = '11px system-ui,sans-serif';
       ctx.textAlign = 'left';
-      // Only label at far right if there's room
       const x = xOf(numRegularWeeks - 1) + 8;
-      if (x + 60 < W) {
-        ctx.fillText(team.owner, x, yOf(lastRank) + 4);
-      }
+      if (x + 60 < W) ctx.fillText(team.owner, x, yOf(lastRank) + 4);
     }
+
+    ctx.globalAlpha = 1.0;
   });
 
   // Y-axis rank labels (1, 2, ..., N)
@@ -495,21 +525,21 @@ function renderChart() {
     ctx.fillText(r, PAD_L - 2, yOf(r) + 4);
   }
 
-  // Build legend
+  // Build legend — click to highlight/unhighlight
   legend.innerHTML = teams.map(t => `
-    <div class="chart-legend-item${hiddenTeams.has(t.team) ? ' hidden' : ''}"
-         onclick="toggleTeam(${JSON.stringify(t.team)})">
+    <div class="chart-legend-item${highlightedTeam !== null && highlightedTeam !== t.team ? ' hidden' : ''}"
+         onclick="toggleHighlight(${JSON.stringify(t.team)})">
       <div class="chart-legend-dot" style="background:${t.color}"></div>
       <span>${t.owner}</span>
     </div>
   `).join('');
 
-  // Click handler on canvas to select week
+  // ── Canvas event handlers ────────────────────────────────────────
+  // Click: select week
   canvas._clickHandler && canvas.removeEventListener('click', canvas._clickHandler);
   canvas._clickHandler = function(e) {
     const rect = canvas.getBoundingClientRect();
     const mx = (e.clientX - rect.left) * (W / rect.width);
-    // Find nearest week
     let best = 0, bestDist = Infinity;
     for (let wi = 0; wi < numRegularWeeks; wi++) {
       const d = Math.abs(xOf(wi) - mx);
@@ -518,13 +548,71 @@ function renderChart() {
     selectWeek(best + 1);
   };
   canvas.addEventListener('click', canvas._clickHandler);
+
+  // Mousemove: tooltip showing hovered team's record at nearest week
+  const tooltip = document.getElementById('chart-tooltip');
+  canvas._moveHandler && canvas.removeEventListener('mousemove', canvas._moveHandler);
+  canvas._moveHandler = function(e) {
+    const rect = canvas.getBoundingClientRect();
+    const mx = (e.clientX - rect.left) * (W / rect.width);
+    const my = (e.clientY - rect.top)  * (H / rect.height);
+
+    // Find nearest week index
+    let nearWi = 0, nearDist = Infinity;
+    for (let wi = 0; wi < numRegularWeeks; wi++) {
+      const d = Math.abs(xOf(wi) - mx);
+      if (d < nearDist) { nearDist = d; nearWi = wi; }
+    }
+
+    // Find team whose dot at that week is nearest to mouse y
+    const wkData = weeklyStandings[nearWi];
+    if (!wkData) { tooltip.style.display = 'none'; return; }
+
+    let nearEntry = null, nearYDist = Infinity;
+    for (const entry of wkData) {
+      const dy = Math.abs(yOf(entry.rank) - my);
+      if (dy < nearYDist) { nearYDist = dy; nearEntry = entry; }
+    }
+    if (!nearEntry || nearYDist > 30) { tooltip.style.display = 'none'; return; }
+
+    const teamInfo = teams.find(t => t.team === nearEntry.team);
+    const color = teamInfo ? teamInfo.color : '#7d8590';
+    tooltip.querySelector('.tip-owner').innerHTML =
+      `<span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${color};margin-right:6px;vertical-align:middle"></span>${nearEntry.owner}`;
+    tooltip.querySelector('.tip-detail').innerHTML =
+      `Rank #${nearEntry.rank} after Wk ${nearWi + 1}<br>${nearEntry.wins}–${nearEntry.losses} &nbsp;·&nbsp; ${nearEntry.pf.toFixed(2)} pts`;
+
+    // Position tooltip near cursor, avoid overflow
+    const tx = Math.min(e.clientX + 14, window.innerWidth  - 170);
+    const ty = Math.min(e.clientY + 14, window.innerHeight - 80);
+    tooltip.style.left    = tx + 'px';
+    tooltip.style.top     = ty + 'px';
+    tooltip.style.display = 'block';
+  };
+  canvas.addEventListener('mousemove', canvas._moveHandler);
+
+  canvas._leaveHandler && canvas.removeEventListener('mouseleave', canvas._leaveHandler);
+  canvas._leaveHandler = function() { tooltip.style.display = 'none'; };
+  canvas.addEventListener('mouseleave', canvas._leaveHandler);
 }
 
-// ── Toggle team visibility ─────────────────────────────────────────────────────
-function toggleTeam(teamName) {
-  if (hiddenTeams.has(teamName)) hiddenTeams.delete(teamName);
-  else hiddenTeams.add(teamName);
+// ── Toggle team highlight (click legend item) ─────────────────────────────────
+function toggleHighlight(teamName) {
+  highlightedTeam = (highlightedTeam === teamName) ? null : teamName;
   renderChart();
+}
+
+// ── Current streak for a team through a given week ────────────────────────────
+function getStreak(team, upToWeek) {
+  const results = (gameResults[team] || []).filter(g => g.week <= upToWeek);
+  if (!results.length) return '—';
+  const last = results[results.length - 1].won;
+  let count = 1;
+  for (let i = results.length - 2; i >= 0; i--) {
+    if (results[i].won === last) count++;
+    else break;
+  }
+  return (last ? 'W' : 'L') + count;
 }
 
 // ── Standings snapshot table ───────────────────────────────────────────────────
@@ -562,6 +650,9 @@ function renderSnapshot() {
     const teamInfo = teams.find(t => t.team === entry.team);
     const color = teamInfo ? teamInfo.color : '#7d8590';
 
+    const streak = getStreak(entry.team, selectedWeek);
+    const streakColor = streak.startsWith('W') ? 'var(--green)' : streak === '—' ? 'var(--muted)' : '#e05252';
+
     tr.innerHTML = `
       <td class="rank-cell">${entry.rank}</td>
       <td style="width:12px;padding:0"><span class="team-swatch" style="background:${color}"></span></td>
@@ -571,6 +662,7 @@ function renderSnapshot() {
       <td class="num loss">${entry.losses}</td>
       <td class="num">${entry.pf.toFixed(2)}</td>
       <td class="change-cell">${changeHtml}</td>
+      <td class="num" style="color:${streakColor};font-weight:600">${streak}</td>
     `;
 
     if (isPlayoffLine) tr.classList.add('playoff-cutoff');
