@@ -170,6 +170,18 @@
       padding: 40px 0;
       text-align: center;
     }
+
+    /* ── Mobile ─────────────────────────────────────────────────── */
+    @media (max-width: 600px) {
+      /* Tabs: smaller padding so all 4 fit on narrow screens */
+      .tab-btn { padding: 8px 12px; font-size: 12px; }
+      /* Tab bar scrolls if still too wide */
+      .tab-bar { overflow-x: auto; }
+      /* Search takes full width */
+      .search-wrap { max-width: 100%; }
+      /* Starts filter wraps instead of overflowing */
+      .starts-filter { flex-wrap: wrap; }
+    }
   </style>
 </head>
 <body>

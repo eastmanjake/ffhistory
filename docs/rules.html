@@ -346,7 +346,7 @@ function renderChart(statMatrix) {
   const legend  = document.getElementById('chart-legend');
   const dpr     = window.devicePixelRatio || 1;
   const W       = canvas.parentElement.clientWidth - 32;
-  const H       = 300;
+  const H       = window.innerWidth <= 480 ? 180 : 300;
   canvas.width  = W * dpr;
   canvas.height = H * dpr;
   canvas.style.width  = W + 'px';

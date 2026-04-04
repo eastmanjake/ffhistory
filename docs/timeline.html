@@ -385,7 +385,7 @@ function renderChart() {
   const legend = document.getElementById('chart-legend');
   const dpr    = window.devicePixelRatio || 1;
   const W      = canvas.parentElement.clientWidth - 32;
-  const H      = 320;
+  const H      = window.innerWidth <= 480 ? 200 : 320;
 
   canvas.width  = W * dpr;
   canvas.height = H * dpr;
@@ -594,6 +594,49 @@ function renderChart() {
   canvas._leaveHandler && canvas.removeEventListener('mouseleave', canvas._leaveHandler);
   canvas._leaveHandler = function() { tooltip.style.display = 'none'; };
   canvas.addEventListener('mouseleave', canvas._leaveHandler);
+
+  // Touchmove: show tooltip on mobile (mirrors mousemove logic)
+  canvas._touchMoveHandler && canvas.removeEventListener('touchmove', canvas._touchMoveHandler);
+  canvas._touchMoveHandler = function(e) {
+    if (!e.touches.length) return;
+    const touch = e.touches[0];
+    const rect  = canvas.getBoundingClientRect();
+    const mx = (touch.clientX - rect.left) * (W / rect.width);
+    const my = (touch.clientY - rect.top)  * (H / rect.height);
+
+    let nearWi = 0, nearDist = Infinity;
+    for (let wi = 0; wi < numRegularWeeks; wi++) {
+      const d = Math.abs(xOf(wi) - mx);
+      if (d < nearDist) { nearDist = d; nearWi = wi; }
+    }
+    const wkData = weeklyStandings[nearWi];
+    if (!wkData) { tooltip.style.display = 'none'; return; }
+
+    let nearEntry = null, nearYDist = Infinity;
+    for (const entry of wkData) {
+      const dy = Math.abs(yOf(entry.rank) - my);
+      if (dy < nearYDist) { nearYDist = dy; nearEntry = entry; }
+    }
+    if (!nearEntry || nearYDist > 40) { tooltip.style.display = 'none'; return; }
+
+    const teamInfo = teams.find(t => t.team === nearEntry.team);
+    const color = teamInfo ? teamInfo.color : '#7d8590';
+    tooltip.querySelector('.tip-owner').innerHTML =
+      `<span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${color};margin-right:6px;vertical-align:middle"></span>${nearEntry.owner}`;
+    tooltip.querySelector('.tip-detail').innerHTML =
+      `Rank #${nearEntry.rank} after Wk ${nearWi + 1}<br>${nearEntry.wins}–${nearEntry.losses} &nbsp;·&nbsp; ${nearEntry.pf.toFixed(2)} pts`;
+
+    const tx = Math.min(touch.clientX + 14, window.innerWidth  - 170);
+    const ty = Math.max(touch.clientY - 80, 10);
+    tooltip.style.left    = tx + 'px';
+    tooltip.style.top     = ty + 'px';
+    tooltip.style.display = 'block';
+  };
+  canvas.addEventListener('touchmove', canvas._touchMoveHandler, { passive: true });
+
+  canvas._touchEndHandler && canvas.removeEventListener('touchend', canvas._touchEndHandler);
+  canvas._touchEndHandler = function() { tooltip.style.display = 'none'; };
+  canvas.addEventListener('touchend', canvas._touchEndHandler);
 }
 
 // ── Toggle team highlight (click legend item) ─────────────────────────────────

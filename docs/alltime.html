@@ -6,6 +6,22 @@
   <title>All-Time Records — The League</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>🏈</text></svg>">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Hide lower-priority columns on mobile to keep the stats table readable */
+    @media (max-width: 600px) {
+      /* Keep: Owner, Seasons, W, L, Win%, PF/Ssn, Championships */
+      /* Hide: Total PF, PA/Ssn, Total PA, PD, PD/Ssn, Moves, Moves/Ssn */
+      #stats-table th:nth-child(7),  #stats-table td:nth-child(7),
+      #stats-table th:nth-child(8),  #stats-table td:nth-child(8),
+      #stats-table th:nth-child(9),  #stats-table td:nth-child(9),
+      #stats-table th:nth-child(10), #stats-table td:nth-child(10),
+      #stats-table th:nth-child(11), #stats-table td:nth-child(11),
+      #stats-table th:nth-child(12), #stats-table td:nth-child(12),
+      #stats-table th:nth-child(13), #stats-table td:nth-child(13) {
+        display: none;
+      }
+    }
+  </style>
 </head>
 <body>
 

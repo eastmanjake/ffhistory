@@ -285,4 +285,45 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   nav.appendChild(btn);
+
+  // ── Hamburger button (mobile) ────────────────────────────────
+  const hamburger = document.createElement('button');
+  hamburger.id = 'nav-hamburger';
+  hamburger.setAttribute('aria-label', 'Open navigation');
+  hamburger.textContent = '☰';
+  nav.appendChild(hamburger);
+
+  hamburger.addEventListener('click', e => {
+    e.stopPropagation();
+    const open = nav.classList.toggle('nav-open');
+    hamburger.textContent = open ? '✕' : '☰';
+  });
+
+  // Close nav when any link is tapped
+  nav.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      nav.classList.remove('nav-open');
+      hamburger.textContent = '☰';
+    });
+  });
+
+  // Close nav when tapping/clicking outside
+  document.addEventListener('click', e => {
+    if (!nav.contains(e.target)) {
+      nav.classList.remove('nav-open');
+      hamburger.textContent = '☰';
+      nav.querySelectorAll('.nav-group').forEach(g => g.classList.remove('open'));
+    }
+  });
+
+  // Click-toggle dropdowns (tablets / desktop touch, alongside existing hover)
+  nav.querySelectorAll('.nav-group-btn').forEach(navBtn => {
+    navBtn.addEventListener('click', e => {
+      e.stopPropagation();
+      const group = navBtn.closest('.nav-group');
+      const wasOpen = group.classList.contains('open');
+      nav.querySelectorAll('.nav-group').forEach(g => g.classList.remove('open'));
+      if (!wasOpen) group.classList.add('open');
+    });
+  });
 });

@@ -306,10 +306,74 @@ select:focus { outline: none; border-color: var(--gold); }
 .page-header h1 { font-size: 26px; font-weight: 700; }
 .page-header p  { color: var(--muted); margin-top: 4px; }
 
+/* ── Nav dropdown click-toggle (desktop touch / tablets) ─────── */
+.nav-group.open .nav-dropdown { display: block; }
+
+/* ── Mobile navigation hamburger ─────────────────────────────── */
+#nav-hamburger {
+  display: none;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--muted);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1;
+  margin-left: auto;
+  padding: 5px 10px;
+}
+
 /* ── Responsive ──────────────────────────────────────────────── */
 @media (max-width: 700px) {
   .two-col { grid-template-columns: 1fr; }
   .hero h1 { font-size: 38px; }
   .hero .stats-row { gap: 28px; }
   .h2h-record { flex-direction: column; gap: 16px; }
+
+  /* Hide pre-modern toggle on mobile; show hamburger instead */
+  #pre-modern-toggle { display: none !important; }
+  #nav-hamburger     { display: block; }
+
+  .nav-inner { flex-wrap: wrap; }
+
+  /* Hide all nav items except brand by default */
+  .nav-inner > a:not(.nav-brand),
+  .nav-inner > .nav-group { display: none; }
+
+  /* Reveal stacked items when nav is open */
+  .nav-inner.nav-open > a:not(.nav-brand) {
+    display: block;
+    width: 100%;
+    padding: 10px 16px;
+    border-top: 1px solid var(--border);
+    border-bottom: none;
+    color: var(--muted);
+  }
+  .nav-inner.nav-open > .nav-group {
+    display: block;
+    width: 100%;
+  }
+  .nav-inner.nav-open .nav-group-btn {
+    width: 100%;
+    text-align: left;
+    padding: 10px 16px;
+    border-top: 1px solid var(--border);
+    border-bottom: none;
+  }
+
+  /* Dropdowns expand inline (no hover needed) */
+  .nav-inner.nav-open .nav-dropdown {
+    display: block;
+    position: static;
+    background: var(--surface2);
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    min-width: auto;
+    padding: 0;
+  }
+  .nav-inner.nav-open .nav-dropdown a {
+    padding: 9px 16px 9px 28px;
+  }
 }

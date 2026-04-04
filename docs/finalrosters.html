@@ -13,6 +13,10 @@
       gap: 16px;
       margin-top: 20px;
     }
+    @media (max-width: 600px) {
+      .roster-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+      .roster-card-body { padding: 8px 12px 10px; }
+    }
     .roster-card {
       background: var(--surface);
       border: 1px solid var(--border);
