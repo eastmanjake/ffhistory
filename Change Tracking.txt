@@ -1,0 +1,434 @@
+Change Tracking — ffhistory
+===========================
+This file is updated whenever a change is implemented.
+
+---
+
+2026-04-04 — v3.0 Batch 32
+  Files changed: docs/h2h.html, docs/rules.html, docs/finalrosters.html, docs/owner.html
+  Changes:
+    - Mobile: h2h.html — Tab bar gets overflow-x:auto so tabs scroll horizontally
+        if they don't fit; tab padding/font reduced at ≤600px; tabs set to no-wrap
+    - Mobile: rules.html — Scoring trend chart height reduced to 180px on screens
+        ≤480px (was 300px — too tall on small phones)
+    - Mobile: finalrosters.html — Roster cards grid uses minmax(200px) at ≤600px
+        (was 260px) so two cards fit side-by-side on wider phones; card body padding
+        tightened slightly
+    - Mobile: owner.html — Profile hero gap reduced from 32px to 16px at ≤600px;
+        owner name font-size reduced from 36px to 28px; stat values reduced from
+        26px to 20px; stats row gap tightened
+    - Mobile: extrapoints.html — verified fine; two-col sections already collapse
+        to single column at ≤700px via global .two-col rule in style.css
+  Pushed live: 2026-04-04
+
+2026-04-03 — v3.0 Batch 31
+  Files changed: docs/season.html, docs/alltime.html, docs/players.html
+  Changes:
+    - Mobile: season.html — Player Highlights grid drops from 3 columns to 2 at
+        ≤600px, and to 1 column at ≤400px so boxes stack instead of squishing
+    - Mobile: season.html — All Matchups table: team name cells get
+        max-width + text-overflow:ellipsis at ≤600px so the table fits the screen
+        without horizontal scroll; tighter score column padding
+    - Mobile: alltime.html — Owner Stats table hides 7 lower-priority columns
+        at ≤600px (Total PF, PA/Ssn, Total PA, PD, PD/Ssn, Moves, Moves/Ssn)
+        keeping the 7 most useful: Owner, Seasons, W, L, Win%, PF/Ssn, Championships
+        Season-by-Season grid already scrolls horizontally via existing wrapper
+    - Mobile: players.html — Tab bar gets overflow-x:auto so tabs scroll if they
+        don't fit; tab padding reduced at ≤600px; search bar expands to full width;
+        starts range filter wraps instead of overflowing
+  Pushed live: 2026-04-04
+
+2026-04-03 — v3.0 Batch 30
+  Files changed: docs/css/style.css, docs/js/utils.js, docs/timeline.html
+  Changes:
+    - Mobile: Navigation — hamburger menu added to all pages (via utils.js injection)
+        On ≤700px, all nav items collapse behind a ☰ button (becomes ✕ when open)
+        Tapping ☰ expands a full-width stacked menu with all links and dropdowns inline
+        Tapping a link or tapping outside closes the menu
+        Pre 2016 toggle hidden on mobile (not needed in main flow)
+        Pre-modern toggle and dropdown hover still work on desktop unchanged
+    - Mobile: Nav dropdowns now also support click/tap toggle on desktop/tablet
+        Clicking a nav group button opens its dropdown; clicking again or clicking
+        elsewhere closes it — works alongside existing hover behavior
+    - Mobile: Season Timeline — chart height reduced to 200px on screens ≤480px
+        (was 320px — too tall on a phone, leaves no room for standings table)
+    - Mobile: Season Timeline — touch support added to rank race chart
+        Sliding finger on canvas shows the tooltip (mirrors mousemove behavior)
+        Tooltip positioned above finger to avoid being obscured by hand
+        Lifting finger hides tooltip; click-to-select-week still works via touch
+  Pushed live: 2026-04-04
+
+2026-04-03 — v3.0 Batch 29
+  Files changed: docs/transactions.html
+  Changes:
+    - Transactions: "Are the Adds Paying Off?" — added Starts column to both tables
+        Owner leaderboard: Total Starts = sum of all starting appearances across
+        qualifying adds (sortable)
+        Top 25 pickups: Starts = number of times that player started for the team
+        after being added
+  Pushed live: 2026-04-04
+
+2026-04-03 — v3.0 Batch 28
+  Files changed: docs/transactions.html
+  Changes:
+    - Transactions: "Are the Adds Paying Off?" section — points now counted from
+        starting lineup only (BN/IR slots excluded); built from separate startedPts
+        lookup alongside the existing playerPts used by the main table
+        Adds where the player never started are excluded entirely
+        Column header and description updated to reflect "started pts"
+    - Transactions: "Are the Adds Paying Off?" section — position filter added
+        Pill buttons: All, QB, RB, WR, TE, K, DEF
+        Filters both the owner leaderboard and the top 25 pickups table
+        Pos column added to top 25 table
+  Pushed live: 2026-04-04
+
+2026-04-03 — v3.0 Batch 27
+  Files changed: docs/transactions.html
+  Changes:
+    - Transactions: New "Are the Adds Paying Off?" section above the main table
+        Computes across ALL seasons regardless of the season filter
+        Deduplicates re-adds (same player/team/season counted once)
+        In-Season Manager Leaderboard: one row per owner, showing Adds, Total Pts,
+          Avg Pts/Add (default sort), and Best Single Add; columns are sortable
+        Best All-Time Waiver Pickups: top 25 individual add transactions ranked by
+          season points scored after being added — player, owner, season, pts
+        Two-column layout, collapses to single column on mobile
+  Pushed live: 2026-04-04
+
+2026-04-03 — v3.0 Batch 26
+  Files changed: docs/owner.html
+  Changes:
+    - Owner Profiles: Pre-2016 toggle now respected on profile pages
+        When "Pre 2016" is enabled, career stats, season table, H2H, and HoF
+        include pre-2016 seasons for owners who played in those years
+        Directory still always shows 2016+ members only
+        Season range in profile header (e.g. "2011–2024") updates accordingly
+    - Owner Profiles: Draft History section redesigned
+        Now shows both the keeper pick AND the true first pick per season
+        2016–2024: Rd 1 = Keeper (gold K badge), Rd 2 = 1st Pick
+        2025+: keeper detected from keepers_manual.json (any round) with K badge;
+               1st Pick = Rd 1 (or Rd 2 if keeper was at Rd 1)
+        Pre-2016: shows Rd 1 pick only (no keeper system)
+        Section note explains the keeper/first-pick distinction
+        "Favorite position" stat updated to use keeper picks (modern) / Rd 1 (pre-2016)
+    - Owner Profiles: Added Player Hall of Fame section
+        All-Time Position Leaders: best player at each position (QB/RB/WR/TE/K/DEF)
+        by total points started for this owner across all seasons; shows year range
+        Championship Season Impact: for each championship season, top 7 starters
+        by points that season — shown only when owner has won a championship
+  Pushed live: 2026-04-04
+
+2026-04-03 — v3.0 Batch 25
+  Files changed: docs/draft.html
+  Changes:
+    - Draft: Fixed keeper identification for 2016–2024 seasons
+        Previous logic required round 1 pick to also appear on prior year's end-of-season roster
+        Fix: all round 1 picks in 2016–2024 are keepers — no roster cross-check
+        Also fixed prevKeptSet() which used the same flawed check for multi-year detection
+        2025+ behavior unchanged (manual keeper list, any round)
+  Pushed live: 2026-04-04
+
+2026-04-03 — v3.0 Batch 24
+  Files changed: docs/draft.html
+  Changes:
+    - Draft Grades: Keeper Highlights expanded from single best/worst card to Top 10 and Bottom 10 tables
+        Collects all keeper entries across all graded seasons, sorts by KPAA descending
+        Top 10 table: rank, player, owner, year, K/KK badge, pts started, KPAA (green)
+        Bottom 10 table: same columns, KPAA shown in red, sorted worst-first
+  Pushed live: 2026-04-04
+
+2026-04-03 — v3.0 Batch 23
+  Files changed: docs/transactions.html
+  Changes:
+    - Transactions: Season filter replaced with multi-select pill buttons
+        "All" pill selects every season; individual pills toggle on/off (at least one always selected)
+        Owner dropdown repopulates based on which seasons are selected
+        When multiple seasons are selected, a Season column appears in the table
+        URL ?year= param still works to pre-select a season on load
+    - Transactions: Added Season Pts and Pts/Wk columns
+        Sourced from weekly_lineups.json — sums all fantasy_pts for that player on that team in that season
+        Counts distinct weeks on roster for Pts/Wk average
+        Shows — when player not found in lineup data (e.g., never started or benched all season)
+        Applies to the relevant team: acquiring team for Adds/Trades, releasing team for Drops
+    - Transactions: Default sort changed to date descending (most recent first)
+        All seasons' data loaded upfront at init; render() sorts before filtering
+  Pushed live: 2026-04-04
+
+2026-04-03 — v3.0 Batch 22
+  Files changed: docs/timeline.html
+  Changes:
+    - Season Timeline: Hover tooltip on chart — shows hovered team's owner, rank, W-L, and PF at the nearest week
+        Tooltip follows mouse, snaps to nearest week column, finds nearest team by y-distance
+        Disappears on mouseleave
+    - Season Timeline: Legend click now highlights a team's line (others dimmed to 12% opacity, highlighted line thickened to 3.5px)
+        Click same team again or click a different team to change highlight; replaces old hide/show behavior
+    - Season Timeline: Standings table — added Streak column showing current win/loss streak as of selected week
+        e.g. W3 (green) or L2 (red); computed from weekly game results per team
+  Pushed live: 2026-04-04
+
+2026-04-03 — v3.0 Batch 21
+  Files changed: docs/alltime.html
+  Changes:
+    - All-Time: Owner Stats table — added PD and PD/Ssn columns (point differential)
+        PD = total PF minus total PA, colored green/red
+        PD/Ssn = PD averaged per season, colored green/red
+        Both columns are sortable
+    - All-Time: Season-by-Season grid converted to heat chart
+        Each cell background colored by win% rank within that season (green = best, red = worst)
+        Champion cells use gold background + ★ indicator
+        Removed separate playoff highlight (heat coloring makes good records visually apparent)
+        Updated legend to explain the new heat scale
+  Pushed live: 2026-04-04
+
+2026-04-03 — v3.0 Batch 20
+  Files changed: docs/extrapoints.html
+  Changes:
+    - Extra Points: Individual Season Feats section now shows all tied instances
+        All 8 feats (high/low week score, high/low season PF, most lopsided, most points in a loss,
+        best record missed playoffs, worst record made playoffs) collect every tied entry
+        Each tied entry stacks in the owner column with its own team/year/week sub-text
+  Pushed live: 2026-04-04
+
+2026-04-03 — v3.0 Batch 19
+  Files changed: docs/extrapoints.html
+  Changes:
+    - Extra Points: All stats now show all tied instances
+        Added allMax/allMin helpers; updated renderStatTable to support owners[] array
+        Fun Stats: Best win%, most close losses, most PA/season, luckiest owner all show every tied owner stacked in one cell
+        Drama table: Most finals appearances, most playoff seasons, most runner-up finishes, always-in-never-wins all show ties
+        Rivalry table: All three rivalry categories (most-played, most-dominant, closest) show all tied pairs, stacked as separate rows
+    - Extra Points: Most Dominant Rivalry — sort now uses W-L differential (|aWins − bWins|) instead of raw win count
+    - Extra Points: Removed "Most dominant rivalry" from Fun Stats (covered by Rivalry Records section)
+    - Extra Points: Longest streaks now show the season(s) the streak occurred (e.g. "2019" or "2018–2019")
+        Streak ties also show all tied owners with their respective season range
+    - Extra Points: Removed Repeat Draft Picks section (keeper mechanic caused all players to appear as repeat picks, making it misleading)
+  Pushed live: 2026-04-04
+
+2026-04-03 — v3.0 Batch 18
+  Files changed: docs/js/utils.js
+  Changes:
+    - utils.js: Rewrote computeFinalStandings() with correct logic
+        Ranks 1–4: Championship winner/loser, 3rd Place winner/loser (unchanged)
+        Ranks 5–6: QF losers — winner of their consolation matchup = 5th, loser = 6th
+                   Falls back to regular-season W-L then PF if no consolation game found
+        Ranks 7–10: Non-playoff teams sorted by regular-season W-L then total PF tiebreaker
+                    Consolation results ignored for non-playoff teams
+        Verified correct 2024 output: Goatse XVI, Raaaaaaaandy, SHARKEISHA NO, Piggy,
+          Flint City Tropics, Bad Rivers Tribe, Go Birds, The Commish, The Brown Bears, GodDamJets
+  Pushed live: 2026-04-04
+
+2026-04-03 — v3.0 Batch 17
+  Files changed: docs/js/utils.js, docs/season.html, docs/finalrosters.html, docs/draft.html
+  Changes:
+    - utils.js: Added computeFinalStandings(matchups, standings) utility
+        Derives ranks 1–4 from Championship and 3rd Place game results
+        Derives ranks 7–10 from consolation bracket final week (winners vs winners = 7/8 game; losers vs losers = 9/10 game)
+        Ranks 5–6 (QF losers) preserved from standings.json (Yahoo seeding tiebreaker)
+        Falls back to standings.json rank for any unmapped teams
+    - season.html: Final Standings now uses computeFinalStandings() instead of raw rank sort
+    - finalrosters.html: Loads matchups and uses computeFinalStandings() for card sort order and rank display
+    - draft.html: Removed multi-year keeper cost penalty from grade computation
+        Multi-year keepers (KK badge) still visually indicated but graded same as single-year keepers on KPAA
+        Removed avgT1 / t1Pts calculation (no longer needed)
+        Updated formula panel text accordingly
+  Pushed live: 2026-04-04
+
+2026-04-03 — v3.0 Batch 16
+  Files changed: docs/draft.html, docs/data/2025/keepers_manual.json (new)
+  Changes:
+    - Draft Grades: 2025 keeper detection switched to manual list (keepers_manual.json)
+        Created docs/data/2025/keepers_manual.json with all 10 owners, rounds, and players
+        buildKeeperMap() now uses manual list for years >= 2025 instead of roster-based detection
+        Multi-year detection for 2025 still uses y-2 roster logic (4 multi-year keepers identified)
+    - Draft Board: Keeper indicators added to every pick in the board grid and pick-by-pick list
+        K badge (faint gold) = single-year keeper
+        KK badge (solid gold border) = multi-year keeper (cost penalty applied to grade)
+        Badges appear for all years 2016+ using the appropriate detection method
+    - Formula panel: updated keeper description to mention manual list for 2025+; badge legend added
+  Pushed live: 2026-04-04
+
+2026-04-03 — v3.0 Batch 15
+  Files changed: docs/finalrosters.html (new), all existing .html nav files
+  Changes:
+    - New page: Final Rosters (finalrosters.html)
+        Season selector (all seasons)
+        Responsive card grid — one card per team, sorted by final standing
+        Card header: rank badge (#1 gold, #2 silver, #3 bronze), team name, owner, W-L record, PF, finish label (Champion / Runner-Up / Playoff / Nth place)
+        Card body: all roster players sorted by position (QB, RB, WR, TE, K, DEF), with position badge, NFL team, and injury status dot (Q = gold, inactive/IR = muted)
+        Champion card highlighted with gold border
+    - Navigation: Added "Final Rosters" link to History dropdown on all 12 existing pages
+  Pushed live: 2026-04-04
+
+2026-04-03 — v3.0 Batch 14
+  Files changed: docs/draft.html
+  Changes:
+    - Draft page: Added Draft Grades section (above year selector, loads all 2016–2025 seasons)
+        All-Time Leaderboard: owner, avg score (0–100), letter grade, consistency %, seasons graded
+        Season-by-Season table: one row per owner, one column per season, showing score + rank
+        Keeper Highlights: best and worst single-season KPAA callout cards
+    - Draft page: Grade badge (letter + numeric score) shown next to each team name in the draft board header (2016+ seasons only)
+    - Draft page: Formula info button (ⓘ) next to "Draft Grades" heading — toggles a panel explaining KPAA, PVS, tier baselines, and normalization
+    - Algorithm: Step 1 identifies keepers (round 1 for 2016–2024; any round for 2025+ based on prior-year roster membership; multi-year keepers detected via y-2 roster)
+    - Algorithm: Tier baselines pooled across all 10 graded seasons; 7 tiers (1–5, 6–15, 16–30, 31–50, 51–75, 76–100, 101+)
+    - Algorithm: Season scores normalized by PVS std dev, scaled 0–100; all-time score = simple average
+  Pushed live: 2026-04-04
+
+2026-04-02 — v3.0 Batch 1
+  Files changed: docs/css/style.css, docs/js/utils.js, docs/index.html,
+                 docs/season.html, docs/alltime.html, docs/h2h.html,
+                 docs/draft.html, docs/weekly.html, docs/transactions.html,
+                 docs/extrapoints.html, docs/players.html, docs/rules.html
+  New files: docs/timeline.html
+  Changes:
+    - Navigation: Collapsed 9 flat nav links into 3 hover dropdowns
+        History (Seasons, All-Time, Head-to-Head, Extra Points, Season Timeline)
+        Draft & Transactions (Draft, Transactions)
+        Stats (Weekly, Player History, Rules)
+    - Navigation: Added dropdown CSS to style.css
+    - Home page: Removed "Most Championships" stat from hero stats row
+    - All pages: Renamed "Pre-Modern" toggle button to "Pre 2016"
+    - New page: Season Timeline (timeline.html)
+        Season selector, rank-race canvas chart, week-by-week standings table
+        Playoff cutoff line detection based on bracket rounds
+  Pushed live: 2026-04-02
+
+2026-04-02 — v3.0 Batch 13
+  Files changed: docs/players.html
+  Changes:
+    - Player History By Owner tab: added "All Owners" pill — shows every player-owner combo in one sortable table
+    - Player History By Owner tab: added Owner column to table
+    - Player History By Owner tab: all columns now sortable (click headers)
+    - Player History By Owner tab: added Min/Max starts filter
+  Pushed live: 2026-04-04
+
+2026-04-02 — v3.0 Batch 12
+  Files changed: docs/players.html
+  Changes:
+    - Player History: Position filter changed to multi-select (click multiple positions; All clears)
+    - Player History: Best Weeks tab — added Opponent column (fantasy team they faced that week)
+    - Player History: Added By Owner tab — select an owner to see all players they started, sorted by total pts
+        Owner pills, respects season/pos/search filters
+  Pushed live: 2026-04-04
+
+2026-04-02 — v3.0 Batch 11
+  Files changed: docs/players.html
+  Changes:
+    - Player History: Fixed sort direction bug (total pts now defaults to highest first)
+    - Player History: Added 3-tab layout — Career Totals, By Season, Best Weeks
+    - Player History: Season multi-select filter pills (Career + By Season tabs)
+    - Player History: Added Pts/Season column to Career tab
+    - Player History: Added starts range filter (min/max) to Career tab
+    - Player History: NFL Team column now shows all teams a player appeared with (not just most recent)
+    - Player History: By Season tab — one row per player per season with fantasy team(s)
+    - Player History: Best Weeks tab — top 100 single-week scores across all seasons
+  Pushed live: 2026-04-04
+
+2026-04-02 — v3.0 Batch 10
+  Files changed: docs/season.html
+  Changes:
+    - Season page: Player Highlights — strict column alignment within each position block
+        Each row uses a 3-column CSS grid: rank (20px) | name (1fr) | points (60px)
+        Team name placed on second line spanning name+points columns (grid-column 2/4)
+        Prevents any overlap; long player names word-break within their column
+  Pushed live: 2026-04-04
+
+2026-04-02 — v3.0 Batch 9
+  Files changed: docs/season.html
+  Changes:
+    - Season page: Player Highlights grid fixed to 3 columns × 2 rows
+        Changed grid-template-columns from auto-fill/minmax to repeat(3, 1fr)
+        Removed name truncation (white-space/overflow/ellipsis) so full names display
+        Removed team name max-width cap; slightly increased padding and header font size
+  Pushed live: 2026-04-04
+
+2026-04-02 — v3.0 Batch 8
+  Files changed: docs/season.html
+  Changes:
+    - Season page: Player Highlights redesigned from card grid to position lists
+        One block per position (QB/RB/WR/TE/K/DEF), each showing top 10 starters
+        Each row: rank, player name, total season pts, fantasy team(s)
+  Pushed live: 2026-04-04
+
+2026-04-02 — v3.0 Batch 7
+  Files changed: docs/index.html, docs/season.html
+  Changes:
+    - Home page: Added "Top 10 Scoring Seasons" section
+        Ranks all individual team seasons by PF across all seasons
+        Columns: rank, year (linked), team, owner, PF, vs season avg
+    - Season page: Player Highlights changed from best-per-position to top 10 overall
+        Now ranks the 10 highest-scoring starters by total season points (any position)
+        Shows rank, position badge, player name, total pts, and fantasy team(s)
+  Pushed live: 2026-04-04
+
+2026-04-02 — v3.0 Batch 6
+  Files changed: docs/index.html, docs/season.html
+  Changes:
+    - Home page: Most Points asterisk (*) now shows tooltip with specific rule changes on hover
+        e.g. "Receptions: 0 → 0.5" — sourced from settings.json diff year-over-year
+    - Home page: Most Points table now has an averages footer row
+        Shows avg PF, avg vs season avg, avg vs all-time avg across all shown seasons
+    - Season page: Final Standings columns are now sortable (click any header)
+        Sorts standing-row + detail-row pairs together; sort direction indicated by ▲▼
+    - Season page: Added Player Highlights section (between Playoff Results and All Matchups)
+        Top-scoring starter at each position (QB/RB/WR/TE/K/DEF) by total season points
+        Shows player name, total pts, and which fantasy team(s) they were rostered on
+  Pushed live: 2026-04-04
+
+2026-04-02 — v3.0 Batch 5
+  Files changed: docs/index.html, docs/season.html
+  Changes:
+    - Home page: Most Points by Season — added two new columns
+        "vs Season Avg": top scorer's PF minus league average PF for that season
+        "vs All-Time Avg": top scorer's PF minus average top score across all seasons
+        Asterisk (*) on year if any scoring rule changed vs prior season (detected from settings.json)
+    - Season page: Final Standings — added four new columns
+        PD: point differential (PF − PA), colored green/red
+        vs Avg: team PF minus league average PF for that season, colored green/red
+        Luck: W-L record if team played every other team each regular-season week
+        Moves: total players added (transactions where team is recipient)
+  Pushed live: 2026-04-04
+
+2026-04-02 — v3.0 Batch 4
+  Files changed: docs/index.html, docs/season.html
+  Changes:
+    - Home page: Added Reigning Champion banner to hero section
+        Shows team name, owner, and year; hidden until data loads
+    - Home page: Hall of Champions moved to full-width standalone section
+    - Home page: Championship Count + Runner-Up Finishes combined in two-col section
+        Moved below Power Rankings; Most Points by Season moved to full-width below
+    - Season page: Final Standings rows now clickable — expands inline schedule
+        Shows week-by-week: opponent, points for/against, W/L, round badge
+  Pushed live: 2026-04-04
+
+2026-04-02 — v3.0 Batch 3
+  Files changed: docs/season.html, docs/index.html, docs/alltime.html,
+                 docs/h2h.html, docs/extrapoints.html, docs/draft.html,
+                 docs/transactions.html, docs/players.html, docs/rules.html,
+                 docs/timeline.html, docs/owner.html, docs/weekly.html
+  Changes:
+    - Season page: Playoff Results — replaced table with visual bracket
+        Quarterfinals → Semifinals → Finals columns with CSS connector lines
+        Click any matchup card to reveal lineup panel below bracket
+        Consolation games shown in compact table below bracket
+    - Season page: All Matchups — rows now clickable to expand inline lineups
+        Lineup hint (▶) shown when data is available; expands inline below row
+        Round badge still shown for playoff games
+    - Navigation: Removed "Weekly" link from Stats dropdown on all pages
+        weekly.html file retained but not linked from nav
+  Pushed live: 2026-04-04
+
+2026-04-02 — v3.0 Batch 2
+  Files changed: docs/timeline.html, docs/index.html, docs/season.html,
+                 docs/alltime.html, docs/h2h.html, docs/extrapoints.html,
+                 docs/draft.html, docs/transactions.html, docs/weekly.html,
+                 docs/players.html, docs/rules.html
+  New files: docs/owner.html
+  Changes:
+    - Season Timeline: Fixed playoff cutoff line from 4th to 6th place
+        (now detects all teams in non-consolation bracket rounds)
+    - New page: Owner Profiles (owner.html)
+        Directory view: card grid of all current owners (2016+)
+        Profile view (?owner=Name): career stats hero, highlight cards,
+        season-by-season table, H2H vs all owners, draft history (round 1 picks)
+    - Navigation: Added "Owner Profiles" to History dropdown on all pages
+  Pushed live: 2026-04-02
