@@ -388,7 +388,7 @@ function buildLineupHTML(entries) {
       <span class="lineup-slot">${e.slot}</span>
       <span class="lineup-player" title="${e.player}" style="color:${posColor(e.pos)}">${e.player}</span>
       <span class="lineup-nfl">${e.nfl_team || ''}</span>
-      <span class="lineup-pts${isTop ? ' top-score' : ''}">${pts > 0 ? pts.toFixed(2) : '—'}</span>
+      <span class="lineup-pts${isTop ? ' top-score' : ''}">${pts !== 0 ? pts.toFixed(2) : '—'}</span>
     </div>`;
   };
 
